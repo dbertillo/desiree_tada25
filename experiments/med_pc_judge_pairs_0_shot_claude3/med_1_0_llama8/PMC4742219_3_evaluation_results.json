@@ -1,0 +1,301 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Variable": "Age",
+                    "HR": "1.00 (0.98, 1.02)",
+                    "P value": "0.874"
+                },
+                "measures": "[Variable, Hazard Ratio, P value]",
+                "outcomes": "[1.00 (0.98, 1.02), 0.874]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Variable": "Age",
+                    "Analysis": "Multivariable",
+                    "Time to event": "Time from recurrence to death"
+                },
+                "measures": "[HR, 95% CI, P value]",
+                "outcomes": "[1.00, 0.98-1.02, 0.874]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Variable": "Gender (female vs. male)",
+                    "HR": "0.89 (0.60, 1.31)",
+                    "P value": "0.544"
+                },
+                "measures": "[Variable, Hazard Ratio, P value]",
+                "outcomes": "[0.89 (0.60, 1.31), 0.544]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Variable": "Gender (female vs. male)",
+                    "Analysis": "Multivariable",
+                    "Time to event": "Time from recurrence to death"
+                },
+                "measures": "[HR, 95% CI, P value]",
+                "outcomes": "[0.89, 0.60-1.31, 0.544]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Variable": "Tumor size",
+                    "HR": "1.13 (0.97, 1.33)",
+                    "P value": "0.127"
+                },
+                "measures": "[Variable, Hazard Ratio, P value]",
+                "outcomes": "[1.13 (0.97, 1.33), 0.127]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Variable": "Tumor size",
+                    "Analysis": "Multivariable",
+                    "Time to event": "Time from recurrence to death"
+                },
+                "measures": "[HR, 95% CI, P value]",
+                "outcomes": "[1.13, 0.97-1.33, 0.127]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Variable": "Tumor grade",
+                    "Grade II vs. I": "1.00 (0.69, 1.45)",
+                    "P value": "0.991"
+                },
+                "measures": "[Variable, Grade II vs. I, P value]",
+                "outcomes": "[1.00 (0.69, 1.45), 0.991]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Variable": "Tumor grade (Grade II vs. I)",
+                    "Analysis": "Multivariable",
+                    "Time to event": "Time from recurrence to death"
+                },
+                "measures": "[HR, 95% CI, P value]",
+                "outcomes": "[1.00, 0.69-1.45, 0.991]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Variable": "Tumor grade",
+                    "Grade III vs. I": "0.93 (0.27, 3.17)",
+                    "P value": "0.906"
+                },
+                "measures": "[Variable, Grade III vs. I, P value]",
+                "outcomes": "[0.93 (0.27, 3.17), 0.906]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Variable": "Tumor grade (Grade III vs. I)",
+                    "Analysis": "Multivariable",
+                    "Time to event": "Time from recurrence to death"
+                },
+                "measures": "[HR, 95% CI, P value]",
+                "outcomes": "[0.93, 0.27-3.17, 0.906]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Variable": "Lymph Nodes (yes vs. no)",
+                    "HR": "1.39 (0.81, 2.38)",
+                    "P value": "0.229"
+                },
+                "measures": "[Variable, Hazard Ratio, P value]",
+                "outcomes": "[1.39 (0.81, 2.38), 0.229]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Variable": "Lymph Nodes (yes vs. no)",
+                    "Analysis": "Multivariable",
+                    "Time to event": "Time from recurrence to death"
+                },
+                "measures": "[HR, 95% CI, P value]",
+                "outcomes": "[1.39, 0.81-2.38, 0.229]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Variable": "Margin (positive vs. negative)",
+                    "HR": "1.54 (1.06, 2.25)",
+                    "P value": "0.025"
+                },
+                "measures": "[Variable, Hazard Ratio, P value]",
+                "outcomes": "[1.54 (1.06, 2.25), 0.025]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Variable": "Margin (positive vs. negative)",
+                    "Analysis": "Multivariable",
+                    "Time to event": "Time from recurrence to death"
+                },
+                "measures": "[HR, 95% CI, P value]",
+                "outcomes": "[1.54, 1.06-2.25, 0.025]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Variable": "Vascular invasion (yes vs. no)",
+                    "HR": "0.99 (0.69, 1.42)",
+                    "P value": "0.967"
+                },
+                "measures": "[Variable, Hazard Ratio, P value]",
+                "outcomes": "[0.99 (0.69, 1.42), 0.967]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Variable": "Vascular invasion (yes vs. no)",
+                    "Analysis": "Multivariable",
+                    "Time to event": "Time from recurrence to death"
+                },
+                "measures": "[HR, 95% CI, P value]",
+                "outcomes": "[0.99, 0.69-.42, 0.967]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Variable": "Perineural invasion (yes vs. no)",
+                    "HR": "2.19 (0.87, 5.49)",
+                    "P value": "0.097"
+                },
+                "measures": "[Variable, Hazard Ratio, P value]",
+                "outcomes": "[2.19 (0.87, 5.49), 0.097]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Variable": "Perineural invasion (yes vs. no)",
+                    "Analysis": "Multivariable",
+                    "Time to event": "Time from recurrence to death"
+                },
+                "measures": "[HR, 95% CI, P value]",
+                "outcomes": "[2.19, 0.87-5.49, 0.097]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Variable": "Time from surgery to first recurrence",
+                    "HR": "1.00 (0.98, 1.02)",
+                    "P value": "0.883"
+                },
+                "measures": "[Variable, Hazard Ratio, P value]",
+                "outcomes": "[1.00 (0.98, 1.02), 0.883]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Variable": "Time from surgery to first recurrence",
+                    "Analysis": "Multivariable",
+                    "Time to event": "Time from recurrence to death"
+                },
+                "measures": "[HR, 95% CI, P value]",
+                "outcomes": "[1.00, 0.98-1.02, 0.883]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Variable": "Recurrence pattern",
+                    "Lung + Other vs. Lung": "1.25 (0.63, 2.48)",
+                    "P value": "0.516"
+                },
+                "measures": "[Variable, Lung + Other vs. Lung, P value]",
+                "outcomes": "[1.25 (0.63, 2.48), 0.516]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Variable": "Recurrence pattern (Lung + Other vs. Lung)",
+                    "Analysis": "Multivariable",
+                    "Time to event": "Time from recurrence to death"
+                },
+                "measures": "[HR, 95% CI, P value]",
+                "outcomes": "[1.25, 0.63-2.48, 0.516]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Variable": "Recurrence pattern",
+                    "Liver + Other vs. Lung": "1.91 (1.10, 3.31)",
+                    "P value": "0.022"
+                },
+                "measures": "[Variable, Liver + Other vs. Lung, P value]",
+                "outcomes": "[1.91 (1.10, 3.31), 0.022]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Variable": "Recurrence pattern (Liver + Other vs. Lung)",
+                    "Analysis": "Multivariable",
+                    "Time to event": "Time from recurrence to death"
+                },
+                "measures": "[HR, 95% CI, P value]",
+                "outcomes": "[1.91, 1.10-3.31, 0.022]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Variable": "Recurrence pattern",
+                    "Peritoneal vs. Lung": "6.32 (3.12, 12.79)",
+                    "P value": "< 0.001"
+                },
+                "measures": "[Variable, Peritoneal vs. Lung, P value]",
+                "outcomes": "[6.32 (3.12, 12.79), < 0.001]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Variable": "Recurrence pattern (Peritoneal vs. Lung)",
+                    "Analysis": "Multivariable",
+                    "Time to event": "Time from recurrence to death"
+                },
+                "measures": "[HR, 95% CI, P value]",
+                "outcomes": "[6.32, 3.12-12.79, <0.001]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Variable": "Recurrence pattern",
+                    "Local vs. Lung": "2.09 (1.10, 4.00)",
+                    "P value": "0.025"
+                },
+                "measures": "[Variable, Local vs. Lung, P value]",
+                "outcomes": "[2.09 (1.10, 4.00), 0.025]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Variable": "Recurrence pattern (Local vs. Lung)",
+                    "Analysis": "Multivariable",
+                    "Time to event": "Time from recurrence to death"
+                },
+                "measures": "[HR, 95% CI, P value]",
+                "outcomes": "[2.09, 1.10-4.00, 0.025]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 14,
+    "total_ground_truth_claims": 14,
+    "number_of_matches": 14
+}

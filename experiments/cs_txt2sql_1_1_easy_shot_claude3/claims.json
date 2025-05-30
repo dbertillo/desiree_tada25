@@ -1,0 +1,4668 @@
+{
+    "2306.00739_4": [
+        {
+            "subject": {
+                "Prompt design": "Concise",
+                "Adaptation setting": "0-shot",
+                "Dataset": "Spider Dev",
+                "Model": "SQL-PaLM"
+            },
+            "measures": "[EX, TS]",
+            "outcomes": "[81.2, 76.0]"
+        },
+        {
+            "subject": {
+                "Prompt design": "Verbose",
+                "Adaptation setting": "0-shot",
+                "Dataset": "Spider Dev",
+                "Model": "SQL-PaLM"
+            },
+            "measures": "[EX, TS]",
+            "outcomes": "[78.5, 70.9]"
+        },
+        {
+            "subject": {
+                "Prompt design": "Concise",
+                "Adaptation setting": "4-shot",
+                "Dataset": "Spider Dev",
+                "Model": "SQL-PaLM"
+            },
+            "measures": "[EX, TS]",
+            "outcomes": "[82.7, 77.3]"
+        },
+        {
+            "subject": {
+                "Prompt design": "Verbose",
+                "Adaptation setting": "4-shot",
+                "Dataset": "Spider Dev",
+                "Model": "SQL-PaLM"
+            },
+            "measures": "[EX, TS]",
+            "outcomes": "[81.3, 73.7]"
+        }
+    ],
+    "1909.00786_4": [
+        {
+            "subject": {
+                "Dataset": "Spider",
+                "Set": "Dev Set",
+                "Model": "SQLNet",
+                "Citation": "Xu etal. (2017)"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[10.9]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider",
+                "Set": "Test Set",
+                "Model": "SQLNet",
+                "Citation": "Xu etal. (2017)"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[12.4]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider",
+                "Set": "Dev Set",
+                "Model": "SyntaxSQLNet",
+                "Citation": "Yu etal. (2018b)"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[18.9]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider",
+                "Set": "Test Set",
+                "Model": "SyntaxSQLNet",
+                "Citation": "Yu etal. (2018b)"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[19.7]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider",
+                "Set": "Dev Set",
+                "Model": "SyntaxSQLNet",
+                "Citation": "Yu etal. (2018b)",
+                "Technique": "data augmentation"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[24.8]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider",
+                "Set": "Test Set",
+                "Model": "SyntaxSQLNet",
+                "Citation": "Yu etal. (2018b)",
+                "Technique": "data augmentation"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[27.2]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider",
+                "Set": "Dev Set",
+                "Model": "Lee (2019)",
+                "Citation": "Lee (2019)"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[28.5]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider",
+                "Set": "Test Set",
+                "Model": "Lee (2019)",
+                "Citation": "Lee (2019)"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[24.3]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider",
+                "Set": "Dev Set",
+                "Model": "GNN",
+                "Citation": "Bogin etal. (2019)"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[40.7]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider",
+                "Set": "Test Set",
+                "Model": "GNN",
+                "Citation": "Bogin etal. (2019)"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[39.4]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider",
+                "Set": "Dev Set",
+                "Model": "IRNet",
+                "Citation": "Guo etal. (2019)"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[53.2]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider",
+                "Set": "Test Set",
+                "Model": "IRNet",
+                "Citation": "Guo etal. (2019)"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[46.7]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider",
+                "Set": "Dev Set",
+                "Model": "IRNet (BERT)",
+                "Citation": "Guo etal. (2019)"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[61.9]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider",
+                "Set": "Test Set",
+                "Model": "IRNet (BERT)",
+                "Citation": "Guo etal. (2019)"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[54.7]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider",
+                "Set": "Dev Set",
+                "Model": "Ours"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[36.4]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider",
+                "Set": "Test Set",
+                "Model": "Ours"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[32.9]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider",
+                "Set": "Dev Set",
+                "Model": "Ours",
+                "Technique": "utterance-table BERT Embedding"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[57.6]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider",
+                "Set": "Test Set",
+                "Model": "Ours",
+                "Technique": "utterance-table BERT Embedding"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[53.4]"
+        }
+    ],
+    "2104.04689_2": [
+        {
+            "subject": {
+                "Approaches": "R-GCN",
+                "Citation": "Kelkar etal. (2020)",
+                "Dataset": "development set",
+                "Metric": "match accuracy",
+                "Hardness Level": "Easy"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[70.4%]"
+        },
+        {
+            "subject": {
+                "Approaches": "R-GCN",
+                "Citation": "Kelkar etal. (2020)",
+                "Dataset": "development set",
+                "Metric": "match accuracy",
+                "Hardness Level": "Medium"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[54.1%]"
+        },
+        {
+            "subject": {
+                "Approaches": "R-GCN",
+                "Citation": "Kelkar etal. (2020)",
+                "Dataset": "development set",
+                "Metric": "match accuracy",
+                "Hardness Level": "Hard"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[35.6%]"
+        },
+        {
+            "subject": {
+                "Approaches": "R-GCN",
+                "Citation": "Kelkar etal. (2020)",
+                "Dataset": "development set",
+                "Metric": "match accuracy",
+                "Hardness Level": "Extra Hard"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[28.2%]"
+        },
+        {
+            "subject": {
+                "Approaches": "R-GCN",
+                "Citation": "Kelkar etal. (2020)",
+                "Dataset": "development set",
+                "Metric": "match accuracy",
+                "Hardness Level": "All"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[50.7%]"
+        },
+        {
+            "subject": {
+                "Approaches": "R-GCN",
+                "Implementation": "by us",
+                "Dataset": "development set",
+                "Metric": "match accuracy",
+                "Hardness Level": "Easy"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[78.9%]"
+        },
+        {
+            "subject": {
+                "Approaches": "R-GCN",
+                "Implementation": "by us",
+                "Dataset": "development set",
+                "Metric": "match accuracy",
+                "Hardness Level": "Medium"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[63.2%]"
+        },
+        {
+            "subject": {
+                "Approaches": "R-GCN",
+                "Implementation": "by us",
+                "Dataset": "development set",
+                "Metric": "match accuracy",
+                "Hardness Level": "Hard"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[46.6%]"
+        },
+        {
+            "subject": {
+                "Approaches": "R-GCN",
+                "Implementation": "by us",
+                "Dataset": "development set",
+                "Metric": "match accuracy",
+                "Hardness Level": "Extra Hard"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[29.8%]"
+        },
+        {
+            "subject": {
+                "Approaches": "R-GCN",
+                "Implementation": "by us",
+                "Dataset": "development set",
+                "Metric": "match accuracy",
+                "Hardness Level": "All"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[58.7%]"
+        },
+        {
+            "subject": {
+                "Approaches": "R-GCN+RAT",
+                "Dataset": "development set",
+                "Metric": "match accuracy",
+                "Hardness Level": "Easy"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[85.0%]"
+        },
+        {
+            "subject": {
+                "Approaches": "R-GCN+RAT",
+                "Dataset": "development set",
+                "Metric": "match accuracy",
+                "Hardness Level": "Medium"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[70.9%]"
+        },
+        {
+            "subject": {
+                "Approaches": "R-GCN+RAT",
+                "Dataset": "development set",
+                "Metric": "match accuracy",
+                "Hardness Level": "Hard"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[56.3%]"
+        },
+        {
+            "subject": {
+                "Approaches": "R-GCN+RAT",
+                "Dataset": "development set",
+                "Metric": "match accuracy",
+                "Hardness Level": "Extra Hard"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[32.7%]"
+        },
+        {
+            "subject": {
+                "Approaches": "R-GCN+RAT",
+                "Dataset": "development set",
+                "Metric": "match accuracy",
+                "Hardness Level": "All"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[65.6%]"
+        },
+        {
+            "subject": {
+                "Approaches": "GPNN",
+                "Dataset": "development set",
+                "Metric": "match accuracy",
+                "Hardness Level": "Easy"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[87.5%]"
+        },
+        {
+            "subject": {
+                "Approaches": "GPNN",
+                "Dataset": "development set",
+                "Metric": "match accuracy",
+                "Hardness Level": "Medium"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[74.9%]"
+        },
+        {
+            "subject": {
+                "Approaches": "GPNN",
+                "Dataset": "development set",
+                "Metric": "match accuracy",
+                "Hardness Level": "Hard"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[59.2%]"
+        },
+        {
+            "subject": {
+                "Approaches": "GPNN",
+                "Dataset": "development set",
+                "Metric": "match accuracy",
+                "Hardness Level": "Extra Hard"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[41.6%]"
+        },
+        {
+            "subject": {
+                "Approaches": "GPNN",
+                "Dataset": "development set",
+                "Metric": "match accuracy",
+                "Hardness Level": "All"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[69.9%]"
+        },
+        {
+            "subject": {
+                "Approaches": "RATSQL",
+                "Implementation": "by us",
+                "Dataset": "development set",
+                "Metric": "match accuracy",
+                "Hardness Level": "Easy"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[87.1%]"
+        },
+        {
+            "subject": {
+                "Approaches": "RATSQL",
+                "Implementation": "by us",
+                "Dataset": "development set",
+                "Metric": "match accuracy",
+                "Hardness Level": "Medium"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[74.9%]"
+        },
+        {
+            "subject": {
+                "Approaches": "RATSQL",
+                "Implementation": "by us",
+                "Dataset": "development set",
+                "Metric": "match accuracy",
+                "Hardness Level": "Hard"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[57.5%]"
+        },
+        {
+            "subject": {
+                "Approaches": "RATSQL",
+                "Implementation": "by us",
+                "Dataset": "development set",
+                "Metric": "match accuracy",
+                "Hardness Level": "Extra Hard"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[46.4%]"
+        },
+        {
+            "subject": {
+                "Approaches": "RATSQL",
+                "Implementation": "by us",
+                "Dataset": "development set",
+                "Metric": "match accuracy",
+                "Hardness Level": "All"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[70.2%]"
+        },
+        {
+            "subject": {
+                "Approaches": "ShadowGNN",
+                "Dataset": "development set",
+                "Metric": "match accuracy",
+                "Hardness Level": "Easy"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[87.5%]"
+        },
+        {
+            "subject": {
+                "Approaches": "ShadowGNN",
+                "Dataset": "development set",
+                "Metric": "match accuracy",
+                "Hardness Level": "Medium"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[78.0%]"
+        },
+        {
+            "subject": {
+                "Approaches": "ShadowGNN",
+                "Dataset": "development set",
+                "Metric": "match accuracy",
+                "Hardness Level": "Hard"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[61.5%]"
+        },
+        {
+            "subject": {
+                "Approaches": "ShadowGNN",
+                "Dataset": "development set",
+                "Metric": "match accuracy",
+                "Hardness Level": "Extra Hard"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[45.8%]"
+        },
+        {
+            "subject": {
+                "Approaches": "ShadowGNN",
+                "Dataset": "development set",
+                "Metric": "match accuracy",
+                "Hardness Level": "All"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[72.3%]"
+        }
+    ],
+    "2212.09278_5": [
+        {
+            "subject": {
+                "Method": "EditSQL",
+                "Dataset": "SparC dev set",
+                "Metric": "QM accuracy",
+                "SQL Difficulty": "Easy"
+            },
+            "measures": "[QM accuracy]",
+            "outcomes": "[68.8]"
+        },
+        {
+            "subject": {
+                "Method": "EditSQL",
+                "Dataset": "SparC dev set",
+                "Metric": "QM accuracy",
+                "SQL Difficulty": "Medium"
+            },
+            "measures": "[QM accuracy]",
+            "outcomes": "[40.6]"
+        },
+        {
+            "subject": {
+                "Method": "EditSQL",
+                "Dataset": "SparC dev set",
+                "Metric": "QM accuracy",
+                "SQL Difficulty": "Hard"
+            },
+            "measures": "[QM accuracy]",
+            "outcomes": "[26.9]"
+        },
+        {
+            "subject": {
+                "Method": "EditSQL",
+                "Dataset": "SparC dev set",
+                "Metric": "QM accuracy",
+                "SQL Difficulty": "Extra"
+            },
+            "measures": "[QM accuracy]",
+            "outcomes": "[12.8]"
+        },
+        {
+            "subject": {
+                "Method": "IG-SQL",
+                "Dataset": "SparC dev set",
+                "Metric": "QM accuracy",
+                "SQL Difficulty": "Easy"
+            },
+            "measures": "[QM accuracy]",
+            "outcomes": "[70.9]"
+        },
+        {
+            "subject": {
+                "Method": "IG-SQL",
+                "Dataset": "SparC dev set",
+                "Metric": "QM accuracy",
+                "SQL Difficulty": "Medium"
+            },
+            "measures": "[QM accuracy]",
+            "outcomes": "[45.4]"
+        },
+        {
+            "subject": {
+                "Method": "IG-SQL",
+                "Dataset": "SparC dev set",
+                "Metric": "QM accuracy",
+                "SQL Difficulty": "Hard"
+            },
+            "measures": "[QM accuracy]",
+            "outcomes": "[29.0]"
+        },
+        {
+            "subject": {
+                "Method": "IG-SQL",
+                "Dataset": "SparC dev set",
+                "Metric": "QM accuracy",
+                "SQL Difficulty": "Extra"
+            },
+            "measures": "[QM accuracy]",
+            "outcomes": "[18.8]"
+        },
+        {
+            "subject": {
+                "Method": "R2SQL",
+                "Dataset": "SparC dev set",
+                "Metric": "QM accuracy",
+                "SQL Difficulty": "Easy"
+            },
+            "measures": "[QM accuracy]",
+            "outcomes": "[75.5]"
+        },
+        {
+            "subject": {
+                "Method": "R2SQL",
+                "Dataset": "SparC dev set",
+                "Metric": "QM accuracy",
+                "SQL Difficulty": "Medium"
+            },
+            "measures": "[QM accuracy]",
+            "outcomes": "[51.5]"
+        },
+        {
+            "subject": {
+                "Method": "R2SQL",
+                "Dataset": "SparC dev set",
+                "Metric": "QM accuracy",
+                "SQL Difficulty": "Hard"
+            },
+            "measures": "[QM accuracy]",
+            "outcomes": "[35.2]"
+        },
+        {
+            "subject": {
+                "Method": "R2SQL",
+                "Dataset": "SparC dev set",
+                "Metric": "QM accuracy",
+                "SQL Difficulty": "Extra"
+            },
+            "measures": "[QM accuracy]",
+            "outcomes": "[21.8]"
+        },
+        {
+            "subject": {
+                "Method": "CQR-SQL",
+                "Dataset": "SparC dev set",
+                "Metric": "QM accuracy",
+                "SQL Difficulty": "Easy"
+            },
+            "measures": "[QM accuracy]",
+            "outcomes": "[80.7]"
+        },
+        {
+            "subject": {
+                "Method": "CQR-SQL",
+                "Dataset": "SparC dev set",
+                "Metric": "QM accuracy",
+                "SQL Difficulty": "Medium"
+            },
+            "measures": "[QM accuracy]",
+            "outcomes": "[68.3]"
+        },
+        {
+            "subject": {
+                "Method": "CQR-SQL",
+                "Dataset": "SparC dev set",
+                "Metric": "QM accuracy",
+                "SQL Difficulty": "Hard"
+            },
+            "measures": "[QM accuracy]",
+            "outcomes": "[46.2]"
+        },
+        {
+            "subject": {
+                "Method": "CQR-SQL",
+                "Dataset": "SparC dev set",
+                "Metric": "QM accuracy",
+                "SQL Difficulty": "Extra"
+            },
+            "measures": "[QM accuracy]",
+            "outcomes": "[43.3]"
+        },
+        {
+            "subject": {
+                "Method": "MIGA+PICARD",
+                "Dataset": "SparC dev set",
+                "Metric": "QM accuracy",
+                "SQL Difficulty": "Easy"
+            },
+            "measures": "[QM accuracy]",
+            "outcomes": "[81.8]"
+        },
+        {
+            "subject": {
+                "Method": "MIGA+PICARD",
+                "Dataset": "SparC dev set",
+                "Metric": "QM accuracy",
+                "SQL Difficulty": "Medium"
+            },
+            "measures": "[QM accuracy]",
+            "outcomes": "[66.7]"
+        },
+        {
+            "subject": {
+                "Method": "MIGA+PICARD",
+                "Dataset": "SparC dev set",
+                "Metric": "QM accuracy",
+                "SQL Difficulty": "Hard"
+            },
+            "measures": "[QM accuracy]",
+            "outcomes": "[44.8]"
+        },
+        {
+            "subject": {
+                "Method": "MIGA+PICARD",
+                "Dataset": "SparC dev set",
+                "Metric": "QM accuracy",
+                "SQL Difficulty": "Extra"
+            },
+            "measures": "[QM accuracy]",
+            "outcomes": "[41.8]"
+        }
+    ],
+    "2305.16253_7": [
+        {
+            "subject": {
+                "Model": "RATSQL",
+                "Pre-trained Language Model": "BERT",
+                "Dataset Version": "BiaSpider v1",
+                "Bias Type": "RoBERTa-Neg",
+                "Ori-ACC": "65.60"
+            },
+            "measures": "[ACC, Bias Score]",
+            "outcomes": "[43.72, 42.21]"
+        },
+        {
+            "subject": {
+                "Model": "RATSQL",
+                "Pre-trained Language Model": "BERT",
+                "Dataset Version": "BiaSpider v1",
+                "Bias Type": "Random-Neg",
+                "Ori-ACC": "65.60"
+            },
+            "measures": "[ACC, Bias Score]",
+            "outcomes": "[44.07, 39.96]"
+        },
+        {
+            "subject": {
+                "Model": "RATSQL",
+                "Pre-trained Language Model": "BERT",
+                "Dataset Version": "BiaSpider v1",
+                "Bias Type": "Random-Pos",
+                "Ori-ACC": "65.60"
+            },
+            "measures": "[ACC, Bias Score]",
+            "outcomes": "[43.88, 40.29]"
+        },
+        {
+            "subject": {
+                "Model": "RATSQL",
+                "Pre-trained Language Model": "BERT",
+                "Dataset Version": "BiaSpider v1",
+                "Bias Type": "Comparative",
+                "Ori-ACC": "65.60"
+            },
+            "measures": "[ACC, Bias Score]",
+            "outcomes": "[40.99, 44.82]"
+        },
+        {
+            "subject": {
+                "Model": "RATSQL",
+                "Pre-trained Language Model": "BERT",
+                "Dataset Version": "BiaSpider v2",
+                "Bias Type": "RoBERTa-Neg",
+                "Ori-ACC": "65.60"
+            },
+            "measures": "[ACC, Bias Score]",
+            "outcomes": "[43.29, 54.40]"
+        },
+        {
+            "subject": {
+                "Model": "RATSQL",
+                "Pre-trained Language Model": "BERT",
+                "Dataset Version": "BiaSpider v2",
+                "Bias Type": "Random-Neg",
+                "Ori-ACC": "65.60"
+            },
+            "measures": "[ACC, Bias Score]",
+            "outcomes": "[43.62, 52.96]"
+        },
+        {
+            "subject": {
+                "Model": "RATSQL",
+                "Pre-trained Language Model": "BERT",
+                "Dataset Version": "BiaSpider v2",
+                "Bias Type": "Random-Pos",
+                "Ori-ACC": "65.60"
+            },
+            "measures": "[ACC, Bias Score]",
+            "outcomes": "[43.48, 55.79]"
+        },
+        {
+            "subject": {
+                "Model": "RATSQL",
+                "Pre-trained Language Model": "BERT",
+                "Dataset Version": "BiaSpider v2",
+                "Bias Type": "Comparative",
+                "Ori-ACC": "65.60"
+            },
+            "measures": "[ACC, Bias Score]",
+            "outcomes": "[40.69, 52.03]"
+        },
+        {
+            "subject": {
+                "Model": "RATSQL",
+                "Pre-trained Language Model": "BERT",
+                "Dataset Version": "BiaSpider v3",
+                "Bias Type": "RoBERTa-Neg",
+                "Ori-ACC": "65.60"
+            },
+            "measures": "[ACC, Bias Score]",
+            "outcomes": "[44.25, 53.56]"
+        },
+        {
+            "subject": {
+                "Model": "RATSQL",
+                "Pre-trained Language Model": "BERT",
+                "Dataset Version": "BiaSpider v3",
+                "Bias Type": "Random-Neg",
+                "Ori-ACC": "65.60"
+            },
+            "measures": "[ACC, Bias Score]",
+            "outcomes": "[43.69, 51.25]"
+        },
+        {
+            "subject": {
+                "Model": "RATSQL",
+                "Pre-trained Language Model": "BERT",
+                "Dataset Version": "BiaSpider v3",
+                "Bias Type": "Random-Pos",
+                "Ori-ACC": "65.60"
+            },
+            "measures": "[ACC, Bias Score]",
+            "outcomes": "[44.51, 50.29]"
+        },
+        {
+            "subject": {
+                "Model": "RATSQL",
+                "Pre-trained Language Model": "BERT",
+                "Dataset Version": "BiaSpider v3",
+                "Bias Type": "Comparative",
+                "Ori-ACC": "65.60"
+            },
+            "measures": "[ACC, Bias Score]",
+            "outcomes": "[41.56, 49.71]"
+        },
+        {
+            "subject": {
+                "Model": "UNISAR",
+                "Pre-trained Language Model": "BART",
+                "Dataset Version": "BiaSpider v1",
+                "Bias Type": "RoBERTa-Neg",
+                "Ori-ACC": "70.00"
+            },
+            "measures": "[ACC, Bias Score]",
+            "outcomes": "[39.73, 11.55]"
+        },
+        {
+            "subject": {
+                "Model": "UNISAR",
+                "Pre-trained Language Model": "BART",
+                "Dataset Version": "BiaSpider v1",
+                "Bias Type": "Random-Neg",
+                "Ori-ACC": "70.00"
+            },
+            "measures": "[ACC, Bias Score]",
+            "outcomes": "[38.93, 12.01]"
+        },
+        {
+            "subject": {
+                "Model": "UNISAR",
+                "Pre-trained Language Model": "BART",
+                "Dataset Version": "BiaSpider v1",
+                "Bias Type": "Random-Pos",
+                "Ori-ACC": "70.00"
+            },
+            "measures": "[ACC, Bias Score]",
+            "outcomes": "[40.96, 11.85]"
+        },
+        {
+            "subject": {
+                "Model": "UNISAR",
+                "Pre-trained Language Model": "BART",
+                "Dataset Version": "BiaSpider v1",
+                "Bias Type": "Comparative",
+                "Ori-ACC": "70.00"
+            },
+            "measures": "[ACC, Bias Score]",
+            "outcomes": "[39.06, 12.93]"
+        },
+        {
+            "subject": {
+                "Model": "UNISAR",
+                "Pre-trained Language Model": "BART",
+                "Dataset Version": "BiaSpider v2",
+                "Bias Type": "RoBERTa-Neg",
+                "Ori-ACC": "70.00"
+            },
+            "measures": "[ACC, Bias Score]",
+            "outcomes": "[39.73, 11.83]"
+        },
+        {
+            "subject": {
+                "Model": "UNISAR",
+                "Pre-trained Language Model": "BART",
+                "Dataset Version": "BiaSpider v2",
+                "Bias Type": "Random-Neg",
+                "Ori-ACC": "70.00"
+            },
+            "measures": "[ACC, Bias Score]",
+            "outcomes": "[37.67, 12.13]"
+        },
+        {
+            "subject": {
+                "Model": "UNISAR",
+                "Pre-trained Language Model": "BART",
+                "Dataset Version": "BiaSpider v2",
+                "Bias Type": "Random-Pos",
+                "Ori-ACC": "70.00"
+            },
+            "measures": "[ACC, Bias Score]",
+            "outcomes": "[40.43, 12.43]"
+        },
+        {
+            "subject": {
+                "Model": "UNISAR",
+                "Pre-trained Language Model": "BART",
+                "Dataset Version": "BiaSpider v2",
+                "Bias Type": "Comparative",
+                "Ori-ACC": "70.00"
+            },
+            "measures": "[ACC, Bias Score]",
+            "outcomes": "[39.80, 12.65]"
+        },
+        {
+            "subject": {
+                "Model": "UNISAR",
+                "Pre-trained Language Model": "BART",
+                "Dataset Version": "BiaSpider v3",
+                "Bias Type": "RoBERTa-Neg",
+                "Ori-ACC": "70.0"
+            },
+            "measures": "[ACC, Bias Score]",
+            "outcomes": "[6.33, 12.31]"
+        },
+        {
+            "subject": {
+                "Model": "UNISAR",
+                "Pre-trained Language Model": "BART",
+                "Dataset Version": "BiaSpider v3",
+                "Bias Type": "Random-Neg",
+                "Ori-ACC": "70.0"
+            },
+            "measures": "[ACC, Bias Score]",
+            "outcomes": "[5.76, 11.84]"
+        },
+        {
+            "subject": {
+                "Model": "UNISAR",
+                "Pre-trained Language Model": "BART",
+                "Dataset Version": "BiaSpider v3",
+                "Bias Type": "Random-Pos",
+                "Ori-ACC": "70.0"
+            },
+            "measures": "[ACC, Bias Score]",
+            "outcomes": "[6.40, 12.08]"
+        },
+        {
+            "subject": {
+                "Model": "UNISAR",
+                "Pre-trained Language Model": "BART",
+                "Dataset Version": "BiaSpider v3",
+                "Bias Type": "Comparative",
+                "Ori-ACC": "70.0"
+            },
+            "measures": "[ACC, Bias Score]",
+            "outcomes": "[5.24, 11.97]"
+        },
+        {
+            "subject": {
+                "Model": "PICARD",
+                "Pre-trained Language Model": "T5",
+                "Dataset Version": "BiaSpider v1",
+                "Bias Type": "RoBERTa-Neg",
+                "Ori-ACC": "71.90"
+            },
+            "measures": "[ACC, Bias Score]",
+            "outcomes": "[39.49, 9.52]"
+        },
+        {
+            "subject": {
+                "Model": "PICARD",
+                "Pre-trained Language Model": "T5",
+                "Dataset Version": "BiaSpider v1",
+                "Bias Type": "Random-Neg",
+                "Ori-ACC": "71.90"
+            },
+            "measures": "[ACC, Bias Score]",
+            "outcomes": "[38.24, 9.37]"
+        },
+        {
+            "subject": {
+                "Model": "PICARD",
+                "Pre-trained Language Model": "T5",
+                "Dataset Version": "BiaSpider v1",
+                "Bias Type": "Random-Pos",
+                "Ori-ACC": "71.90"
+            },
+            "measures": "[ACC, Bias Score]",
+            "outcomes": "[38.67, 10.02]"
+        },
+        {
+            "subject": {
+                "Model": "PICARD",
+                "Pre-trained Language Model": "T5",
+                "Dataset Version": "BiaSpider v1",
+                "Bias Type": "Comparative",
+                "Ori-ACC": "71.90"
+            },
+            "measures": "[ACC, Bias Score]",
+            "outcomes": "[39.31, 9.79]"
+        },
+        {
+            "subject": {
+                "Model": "PICARD",
+                "Pre-trained Language Model": "T5",
+                "Dataset Version": "BiaSpider v2",
+                "Bias Type": "RoBERTa-Neg",
+                "Ori-ACC": "71.90"
+            },
+            "measures": "[ACC, Bias Score]",
+            "outcomes": "[39.52, 9.74]"
+        },
+        {
+            "subject": {
+                "Model": "PICARD",
+                "Pre-trained Language Model": "T5",
+                "Dataset Version": "BiaSpider v2",
+                "Bias Type": "Random-Neg",
+                "Ori-ACC": "71.90"
+            },
+            "measures": "[ACC, Bias Score]",
+            "outcomes": "[39.15, 9.68]"
+        },
+        {
+            "subject": {
+                "Model": "PICARD",
+                "Pre-trained Language Model": "T5",
+                "Dataset Version": "BiaSpider v2",
+                "Bias Type": "Random-Pos",
+                "Ori-ACC": "71.90"
+            },
+            "measures": "[ACC, Bias Score]",
+            "outcomes": "[38.99, 9.97]"
+        },
+        {
+            "subject": {
+                "Model": "PICARD",
+                "Pre-trained Language Model": "T5",
+                "Dataset Version": "BiaSpider v2",
+                "Bias Type": "Comparative",
+                "Ori-ACC": "71.90"
+            },
+            "measures": "[ACC, Bias Score]",
+            "outcomes": "[38.72, 9.58]"
+        },
+        {
+            "subject": {
+                "Model": "PICARD",
+                "Pre-trained Language Model": "T5",
+                "Dataset Version": "BiaSpider v3",
+                "Bias Type": "RoBERTa-Neg",
+                "Ori-ACC": "71.90"
+            },
+            "measures": "[ACC, Bias Score]",
+            "outcomes": "[39.06, 9.22]"
+        },
+        {
+            "subject": {
+                "Model": "PICARD",
+                "Pre-trained Language Model": "T5",
+                "Dataset Version": "BiaSpider v3",
+                "Bias Type": "Random-Neg",
+                "Ori-ACC": "71.90"
+            },
+            "measures": "[ACC, Bias Score]",
+            "outcomes": "[39.41, 9.55]"
+        },
+        {
+            "subject": {
+                "Model": "PICARD",
+                "Pre-trained Language Model": "T5",
+                "Dataset Version": "BiaSpider v3",
+                "Bias Type": "Random-Pos",
+                "Ori-ACC": "71.90"
+            },
+            "measures": "[ACC, Bias Score]",
+            "outcomes": "[39.45, 9.81]"
+        },
+        {
+            "subject": {
+                "Model": "PICARD",
+                "Pre-trained Language Model": "T5",
+                "Dataset Version": "BiaSpider v3",
+                "Bias Type": "Comparative",
+                "Ori-ACC": "71.90"
+            },
+            "measures": "[ACC, Bias Score]",
+            "outcomes": "[38.89, 9.74]"
+        }
+    ],
+    "2211.06193_1": [
+        {
+            "subject": {
+                "Model": "T5+3B",
+                "Decoding": "constrained decoding",
+                "Dataset": "Spider dev",
+                "Failure Category": "Incomplete SQL"
+            },
+            "measures": "[Percentage]",
+            "outcomes": "[6.2]"
+        },
+        {
+            "subject": {
+                "Model": "T5+3B",
+                "Decoding": "constrained decoding",
+                "Dataset": "Spider dev",
+                "Failure Category": "False Negatives"
+            },
+            "measures": "[Percentage]",
+            "outcomes": "[22.4]"
+        },
+        {
+            "subject": {
+                "Model": "T5+3B",
+                "Decoding": "constrained decoding",
+                "Dataset": "Spider dev",
+                "Failure Category": "Foreign Keys"
+            },
+            "measures": "[Percentage]",
+            "outcomes": "[19.6]"
+        },
+        {
+            "subject": {
+                "Model": "T5+3B",
+                "Decoding": "constrained decoding",
+                "Dataset": "Spider dev",
+                "Failure Category": "Logical Errors"
+            },
+            "measures": "[Percentage]",
+            "outcomes": "[2.8]"
+        },
+        {
+            "subject": {
+                "Model": "T5+3B",
+                "Decoding": "constrained decoding",
+                "Dataset": "Spider dev",
+                "Failure Category": "DK - Incorrect AGG"
+            },
+            "measures": "[Percentage]",
+            "outcomes": "[17.2]"
+        },
+        {
+            "subject": {
+                "Model": "T5+3B",
+                "Decoding": "constrained decoding",
+                "Dataset": "Spider dev",
+                "Failure Category": "DK - Incorrect Table"
+            },
+            "measures": "[Percentage]",
+            "outcomes": "[3.8]"
+        },
+        {
+            "subject": {
+                "Model": "T5+3B",
+                "Decoding": "constrained decoding",
+                "Dataset": "Spider dev",
+                "Failure Category": "DK - Incorrect Column"
+            },
+            "measures": "[Percentage]",
+            "outcomes": "[13.4]"
+        },
+        {
+            "subject": {
+                "Model": "T5+3B",
+                "Decoding": "constrained decoding",
+                "Dataset": "Spider dev",
+                "Failure Category": "DK - Incorrect Value"
+            },
+            "measures": "[Percentage]",
+            "outcomes": "[3.8]"
+        },
+        {
+            "subject": {
+                "Model": "T5+3B",
+                "Decoding": "constrained decoding",
+                "Dataset": "Spider dev",
+                "Failure Category": "DK - Complex"
+            },
+            "measures": "[Percentage]",
+            "outcomes": "[11.0]"
+        }
+    ],
+    "2205.02054_4": [
+        {
+            "subject": {
+                "Dataset": "CG-SUB_T",
+                "Comparison": "Spider-SS and Spider-CG",
+                "Algorithm": "same split algorithm",
+                "Metric": "Similarity",
+                "Deviation": "<= 1"
+            },
+            "measures": "[Similarity Percentage]",
+            "outcomes": "[93.2%]"
+        },
+        {
+            "subject": {
+                "Dataset": "CG-SUB_T",
+                "Comparison": "Spider-SS and Spider-CG",
+                "Algorithm": "same split algorithm",
+                "Metric": "Similarity",
+                "Deviation": "<= 2"
+            },
+            "measures": "[Similarity Percentage]",
+            "outcomes": "[94.4%]"
+        },
+        {
+            "subject": {
+                "Dataset": "CG-SUB_D",
+                "Comparison": "Spider-SS and Spider-CG",
+                "Algorithm": "same split algorithm",
+                "Metric": "Similarity",
+                "Deviation": "<= 1"
+            },
+            "measures": "[Similarity Percentage]",
+            "outcomes": "[92.9%]"
+        },
+        {
+            "subject": {
+                "Dataset": "CG-SUB_D",
+                "Comparison": "Spider-SS and Spider-CG",
+                "Algorithm": "same split algorithm",
+                "Metric": "Similarity",
+                "Deviation": "<= 2"
+            },
+            "measures": "[Similarity Percentage]",
+            "outcomes": "[94.1%]"
+        },
+        {
+            "subject": {
+                "Dataset": "CG-APP_T",
+                "Comparison": "Spider-SS and Spider-CG",
+                "Algorithm": "same split algorithm",
+                "Metric": "Similarity",
+                "Deviation": "<= 1"
+            },
+            "measures": "[Similarity Percentage]",
+            "outcomes": "[86.0%]"
+        },
+        {
+            "subject": {
+                "Dataset": "CG-APP_T",
+                "Comparison": "Spider-SS and Spider-CG",
+                "Algorithm": "same split algorithm",
+                "Metric": "Similarity",
+                "Deviation": "<= 2"
+            },
+            "measures": "[Similarity Percentage]",
+            "outcomes": "[90.4%]"
+        },
+        {
+            "subject": {
+                "Dataset": "CG-APP_D",
+                "Comparison": "Spider-SS and Spider-CG",
+                "Algorithm": "same split algorithm",
+                "Metric": "Similarity",
+                "Deviation": "<= 1"
+            },
+            "measures": "[Similarity Percentage]",
+            "outcomes": "[88.9%]"
+        },
+        {
+            "subject": {
+                "Dataset": "CG-APP_D",
+                "Comparison": "Spider-SS and Spider-CG",
+                "Algorithm": "same split algorithm",
+                "Metric": "Similarity",
+                "Deviation": "<= 2"
+            },
+            "measures": "[Similarity Percentage]",
+            "outcomes": "[92.6%]"
+        }
+    ],
+    "1909.05378_6": [
+        {
+            "subject": {
+                "Model": "Template",
+                "Dataset": "Dev"
+            },
+            "measures": "[BLEU]",
+            "outcomes": "[9.5]"
+        },
+        {
+            "subject": {
+                "Model": "Template",
+                "Dataset": "Test"
+            },
+            "measures": "[BLEU]",
+            "outcomes": "[9.3]"
+        },
+        {
+            "subject": {
+                "Model": "Template",
+                "Dataset": "Test",
+                "Sample Size": "100",
+                "Evaluation Method": "Human"
+            },
+            "measures": "[LCR]",
+            "outcomes": "[41.0]"
+        },
+        {
+            "subject": {
+                "Model": "Template",
+                "Dataset": "Test",
+                "Sample Size": "100",
+                "Evaluation Method": "Human",
+                "Scale": "1-5"
+            },
+            "measures": "[Grammar]",
+            "outcomes": "[4.0]"
+        },
+        {
+            "subject": {
+                "Model": "Seq2Seq",
+                "Dataset": "Dev"
+            },
+            "measures": "[BLEU]",
+            "outcomes": "[15.3]"
+        },
+        {
+            "subject": {
+                "Model": "Seq2Seq",
+                "Dataset": "Test"
+            },
+            "measures": "[BLEU]",
+            "outcomes": "[14.1]"
+        },
+        {
+            "subject": {
+                "Model": "Seq2Seq",
+                "Dataset": "Test",
+                "Sample Size": "100",
+                "Evaluation Method": "Human"
+            },
+            "measures": "[LCR]",
+            "outcomes": "[27.0]"
+        },
+        {
+            "subject": {
+                "Model": "Seq2Seq",
+                "Dataset": "Test",
+                "Sample Size": "100",
+                "Evaluation Method": "Human",
+                "Scale": "1-5"
+            },
+            "measures": "[Grammar]",
+            "outcomes": "[3.5]"
+        },
+        {
+            "subject": {
+                "Model": "Pointer-generator",
+                "Dataset": "Dev"
+            },
+            "measures": "[BLEU]",
+            "outcomes": "[16.4]"
+        },
+        {
+            "subject": {
+                "Model": "Pointer-generator",
+                "Dataset": "Test"
+            },
+            "measures": "[BLEU]",
+            "outcomes": "[15.1]"
+        },
+        {
+            "subject": {
+                "Model": "Pointer-generator",
+                "Dataset": "Test",
+                "Sample Size": "100",
+                "Evaluation Method": "Human"
+            },
+            "measures": "[LCR]",
+            "outcomes": "[35.0]"
+        },
+        {
+            "subject": {
+                "Model": "Pointer-generator",
+                "Dataset": "Test",
+                "Sample Size": "100",
+                "Evaluation Method": "Human",
+                "Scale": "1-5"
+            },
+            "measures": "[Grammar]",
+            "outcomes": "[3.6]"
+        }
+    ],
+    "2008.04759_1": [
+        {
+            "subject": {
+                "Model": "SQLova",
+                "Base Model": "BERT-Large-Uncased",
+                "Dataset": "WikiSQL",
+                "Split": "Dev"
+            },
+            "measures": "[Logical Form Accuracy, Execution Accuracy]",
+            "outcomes": "[81.6, 87.2]"
+        },
+        {
+            "subject": {
+                "Model": "SQLova",
+                "Base Model": "BERT-Large-Uncased",
+                "Dataset": "WikiSQL",
+                "Split": "Test"
+            },
+            "measures": "[Logical Form Accuracy, Execution Accuracy]",
+            "outcomes": "[80.7, 86.2]"
+        },
+        {
+            "subject": {
+                "Model": "X-SQL",
+                "Base Model": "MT-DNN",
+                "Dataset": "WikiSQL",
+                "Split": "Dev"
+            },
+            "measures": "[Logical Form Accuracy, Execution Accuracy]",
+            "outcomes": "[83.8, 89.5]"
+        },
+        {
+            "subject": {
+                "Model": "X-SQL",
+                "Base Model": "MT-DNN",
+                "Dataset": "WikiSQL",
+                "Split": "Test"
+            },
+            "measures": "[Logical Form Accuracy, Execution Accuracy]",
+            "outcomes": "[83.3, 88.7]"
+        },
+        {
+            "subject": {
+                "Model": "HydraNet",
+                "Base Model": "BERT-Large-Uncased",
+                "Dataset": "WikiSQL",
+                "Split": "Dev"
+            },
+            "measures": "[Logical Form Accuracy, Execution Accuracy]",
+            "outcomes": "[83.5, 88.9]"
+        },
+        {
+            "subject": {
+                "Model": "HydraNet",
+                "Base Model": "BERT-Large-Uncased",
+                "Dataset": "WikiSQL",
+                "Split": "Test"
+            },
+            "measures": "[Logical Form Accuracy, Execution Accuracy]",
+            "outcomes": "[83.4, 88.6]"
+        },
+        {
+            "subject": {
+                "Model": "HydraNet",
+                "Base Model": "RoBERTa-Large",
+                "Dataset": "WikiSQL",
+                "Split": "Dev"
+            },
+            "measures": "[Logical Form Accuracy, Execution Accuracy]",
+            "outcomes": "[83.6, 89.1]"
+        },
+        {
+            "subject": {
+                "Model": "HydraNet",
+                "Base Model": "RoBERTa-Large",
+                "Dataset": "WikiSQL",
+                "Split": "Test"
+            },
+            "measures": "[Logical Form Accuracy, Execution Accuracy]",
+            "outcomes": "[83.8, 89.2]"
+        },
+        {
+            "subject": {
+                "Model": "SQLova + EG",
+                "Base Model": "BERT-Large-Uncased",
+                "Dataset": "WikiSQL",
+                "Split": "Dev",
+                "Technique": "Execution-Guided Decoding"
+            },
+            "measures": "[Logical Form Accuracy, Execution Accuracy]",
+            "outcomes": "[84.2, 90.2]"
+        },
+        {
+            "subject": {
+                "Model": "SQLova + EG",
+                "Base Model": "BERT-Large-Uncased",
+                "Dataset": "WikiSQL",
+                "Split": "Test",
+                "Technique": "Execution-Guided Decoding"
+            },
+            "measures": "[Logical Form Accuracy, Execution Accuracy]",
+            "outcomes": "[83.6, 89.6]"
+        },
+        {
+            "subject": {
+                "Model": "X-SQL + EG",
+                "Base Model": "MT-DNN",
+                "Dataset": "WikiSQL",
+                "Split": "Dev",
+                "Technique": "Execution-Guided Decoding"
+            },
+            "measures": "[Logical Form Accuracy, Execution Accuracy]",
+            "outcomes": "[86.2, 92.3]"
+        },
+        {
+            "subject": {
+                "Model": "X-SQL + EG",
+                "Base Model": "MT-DNN",
+                "Dataset": "WikiSQL",
+                "Split": "Test",
+                "Technique": "Execution-Guided Decoding"
+            },
+            "measures": "[Logical Form Accuracy, Execution Accuracy]",
+            "outcomes": "[86.0, 91.8]"
+        },
+        {
+            "subject": {
+                "Model": "HydraNet + EG",
+                "Base Model": "BERT-Large-Uncased",
+                "Dataset": "WikiSQL",
+                "Split": "Dev",
+                "Technique": "Execution-Guided Decoding"
+            },
+            "measures": "[Logical Form Accuracy, Execution Accuracy]",
+            "outcomes": "[86.6, 92.2]"
+        },
+        {
+            "subject": {
+                "Model": "HydraNet + EG",
+                "Base Model": "BERT-Large-Uncased",
+                "Dataset": "WikiSQL",
+                "Split": "Test",
+                "Technique": "Execution-Guided Decoding"
+            },
+            "measures": "[Logical Form Accuracy, Execution Accuracy]",
+            "outcomes": "[86.2, 91.8]"
+        },
+        {
+            "subject": {
+                "Model": "HydraNet + EG",
+                "Base Model": "RoBERTa-Large",
+                "Dataset": "WikiSQL",
+                "Split": "Dev",
+                "Technique": "Execution-Guided Decoding"
+            },
+            "measures": "[Logical Form Accuracy, Execution Accuracy]",
+            "outcomes": "[86.6, 92.4]"
+        },
+        {
+            "subject": {
+                "Model": "HydraNet + EG",
+                "Base Model": "RoBERTa-Large",
+                "Dataset": "WikiSQL",
+                "Split": "Test",
+                "Technique": "Execution-Guided Decoding"
+            },
+            "measures": "[Logical Form Accuracy, Execution Accuracy]",
+            "outcomes": "[86.5, 92.2]"
+        }
+    ],
+    "2208.04415_3": [
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "ENG",
+                "Difficulty": "Easy"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[31.8%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "ENG",
+                "Difficulty": "Medium"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[11.3%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "ENG",
+                "Difficulty": "Hard"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[9.5%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "ENG",
+                "Difficulty": "Extra Hard"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[2.7%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "ENG",
+                "Difficulty": "All"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[14.1%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "HT",
+                "Subset": "C-ML",
+                "Difficulty": "Easy"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[27.3%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "HT",
+                "Subset": "C-ML",
+                "Difficulty": "Medium"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[9.9%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "HT",
+                "Subset": "C-ML",
+                "Difficulty": "Hard"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[7.5%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "HT",
+                "Subset": "C-ML",
+                "Difficulty": "Extra Hard"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[2.3%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "HT",
+                "Subset": "C-ML",
+                "Difficulty": "All"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[12.1%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "HT",
+                "Subset": "C-S",
+                "Difficulty": "Easy"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[23.1%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "HT",
+                "Subset": "C-S",
+                "Difficulty": "Medium"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[7.7%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "HT",
+                "Subset": "C-S",
+                "Difficulty": "Hard"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[6.2%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "HT",
+                "Subset": "C-S",
+                "Difficulty": "Extra Hard"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[1.7%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "HT",
+                "Subset": "C-S",
+                "Difficulty": "All"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[9.9%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "HT",
+                "Subset": "WY-ML",
+                "Difficulty": "Easy"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[21.4%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "HT",
+                "Subset": "WY-ML",
+                "Difficulty": "Medium"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[8.1%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "HT",
+                "Subset": "WY-ML",
+                "Difficulty": "Hard"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[8.0%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "HT",
+                "Subset": "WY-ML",
+                "Difficulty": "Extra Hard"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[1.7%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "HT",
+                "Subset": "WY-ML",
+                "Difficulty": "All"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[10.0%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "HT",
+                "Subset": "WY-S",
+                "Difficulty": "Easy"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[20.2%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "HT",
+                "Subset": "WY-S",
+                "Difficulty": "Medium"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[6.4%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "HT",
+                "Subset": "WY-S",
+                "Difficulty": "Hard"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[6.7%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "HT",
+                "Subset": "WY-S",
+                "Difficulty": "Extra Hard"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[2.0%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "HT",
+                "Subset": "WY-S",
+                "Difficulty": "All"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[8.9%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "HT",
+                "Subset": "WJ-ML",
+                "Difficulty": "Easy"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[19.8%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "HT",
+                "Subset": "WJ-ML",
+                "Difficulty": "Medium"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[8.6%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "HT",
+                "Subset": "WJ-ML",
+                "Difficulty": "Hard"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[5.0%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "HT",
+                "Subset": "WJ-ML",
+                "Difficulty": "Extra Hard"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[1.3%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "HT",
+                "Subset": "WJ-ML",
+                "Difficulty": "All"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[9.2%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "HT",
+                "Subset": "WJ-S",
+                "Difficulty": "Easy"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[20.1%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "HT",
+                "Subset": "WJ-S",
+                "Difficulty": "Medium"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[5.0%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "HT",
+                "Subset": "WJ-S",
+                "Difficulty": "Hard"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[5.7%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "HT",
+                "Subset": "WJ-S",
+                "Difficulty": "Extra Hard"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[1.7%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "HT",
+                "Subset": "WJ-S",
+                "Difficulty": "All"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[8.2%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "MT",
+                "Subset": "C-ML",
+                "Difficulty": "Easy"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[18.1%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "MT",
+                "Subset": "C-ML",
+                "Difficulty": "Medium"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[4.6%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "MT",
+                "Subset": "C-ML",
+                "Difficulty": "Hard"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[5.2%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "MT",
+                "Subset": "C-ML",
+                "Difficulty": "Extra Hard"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[0.3%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "MT",
+                "Subset": "C-ML",
+                "Difficulty": "All"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[7.9%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "MT",
+                "Subset": "WY-ML",
+                "Difficulty": "Easy"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[17.9%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "MT",
+                "Subset": "WY-ML",
+                "Difficulty": "Medium"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[4.7%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "MT",
+                "Subset": "WY-ML",
+                "Difficulty": "Hard"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[4.5%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "MT",
+                "Subset": "WY-ML",
+                "Difficulty": "Extra Hard"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[0.3%]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "Sequence to Tree Model",
+                "Citation": "[41]",
+                "Dataset": "MT",
+                "Subset": "WY-ML",
+                "Difficulty": "All"
+            },
+            "measures": "[41]",
+            "outcomes": [
+                "[Accuracy]",
+                "[7.6%]"
+            ]
+        }
+    ],
+    "2310.13575_6": [
+        {
+            "subject": {
+                "Dataset": "Spider Development Set",
+                "Metric": "Execution Accuracy",
+                "Model": "Q \u2192 QPL",
+                "QPL Length": "1"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[87.3%]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider Development Set",
+                "Metric": "Execution Accuracy",
+                "Model": "Q+QD \u2192 QPL",
+                "QPL Length": "1"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[78.3%]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider Development Set",
+                "Metric": "Support",
+                "QPL Length": "1"
+            },
+            "measures": "[Support]",
+            "outcomes": "[189]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider Development Set",
+                "Metric": "Execution Accuracy",
+                "Model": "Q \u2192 QPL",
+                "QPL Length": "2"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[86.6%]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider Development Set",
+                "Metric": "Execution Accuracy",
+                "Model": "Q+QD \u2192 QPL",
+                "QPL Length": "2"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[83.4%]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider Development Set",
+                "Metric": "Support",
+                "QPL Length": "2"
+            },
+            "measures": "[Support]",
+            "outcomes": "[277]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider Development Set",
+                "Metric": "Execution Accuracy",
+                "Model": "Q \u2192 QPL",
+                "QPL Length": "3"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[85.3%]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider Development Set",
+                "Metric": "Execution Accuracy",
+                "Model": "Q+QD \u2192 QPL",
+                "QPL Length": "3"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[78.0%]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider Development Set",
+                "Metric": "Support",
+                "QPL Length": "3"
+            },
+            "measures": "[Support]",
+            "outcomes": "[191]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider Development Set",
+                "Metric": "Execution Accuracy",
+                "Model": "Q \u2192 QPL",
+                "QPL Length": "4"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[75.0%]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider Development Set",
+                "Metric": "Execution Accuracy",
+                "Model": "Q+QD \u2192 QPL",
+                "QPL Length": "4"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[62.9%]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider Development Set",
+                "Metric": "Support",
+                "QPL Length": "4"
+            },
+            "measures": "[Support]",
+            "outcomes": "[124]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider Development Set",
+                "Metric": "Execution Accuracy",
+                "Model": "Q \u2192 QPL",
+                "QPL Length": "5"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[67.1%]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider Development Set",
+                "Metric": "Execution Accuracy",
+                "Model": "Q+QD \u2192 QPL",
+                "QPL Length": "5"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[54.4%]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider Development Set",
+                "Metric": "Support",
+                "QPL Length": "5"
+            },
+            "measures": "[Support]",
+            "outcomes": "[164]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider Development Set",
+                "Metric": "Execution Accuracy",
+                "Model": "Q \u2192 QPL",
+                "QPL Length": "6"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[48.2%]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider Development Set",
+                "Metric": "Execution Accuracy",
+                "Model": "Q+QD \u2192 QPL",
+                "QPL Length": "6"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[25.9%]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider Development Set",
+                "Metric": "Support",
+                "QPL Length": "6"
+            },
+            "measures": "[Support]",
+            "outcomes": "[27]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider Development Set",
+                "Metric": "Execution Accuracy",
+                "Model": "Q \u2192 QPL",
+                "QPL Length": "7"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[31.8%]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider Development Set",
+                "Metric": "Execution Accuracy",
+                "Model": "Q+QD \u2192 QPL",
+                "QPL Length": "7"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[22.7%]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider Development Set",
+                "Metric": "Support",
+                "QPL Length": "7"
+            },
+            "measures": "[Support]",
+            "outcomes": "[44]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider Development Set",
+                "Metric": "Execution Accuracy",
+                "Model": "Q \u2192 QPL",
+                "QPL Length": "\u22658"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[11.9%]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider Development Set",
+                "Metric": "Execution Accuracy",
+                "Model": "Q+QD \u2192 QPL",
+                "QPL Length": "\u22658"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[24.4%]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider Development Set",
+                "Metric": "Support",
+                "QPL Length": "\u22658"
+            },
+            "measures": "[Support]",
+            "outcomes": "[18]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider Development Set",
+                "Metric": "Execution Accuracy",
+                "Model": "Q \u2192 QPL",
+                "QPL Length": "Overall"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[77.4%]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider Development Set",
+                "Metric": "Execution Accuracy",
+                "Model": "Q+QD \u2192 QPL",
+                "QPL Length": "Overall"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[69.1%]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider Development Set",
+                "Metric": "Support",
+                "QPL Length": "Overall"
+            },
+            "measures": "[Support]",
+            "outcomes": "[1034]"
+        }
+    ],
+    "1807.03100_1": [
+        {
+            "subject": {
+                "Model": "Pointer-SQL",
+                "Dataset": "WikiSQL",
+                "Split": "Dev"
+            },
+            "measures": "[Acc_syn]",
+            "outcomes": "[61.8]"
+        },
+        {
+            "subject": {
+                "Model": "Pointer-SQL",
+                "Dataset": "WikiSQL",
+                "Split": "Dev"
+            },
+            "measures": "[Acc_ex]",
+            "outcomes": "[72.5]"
+        },
+        {
+            "subject": {
+                "Model": "Pointer-SQL",
+                "Dataset": "WikiSQL",
+                "Split": "Test"
+            },
+            "measures": "[Acc_syn]",
+            "outcomes": "[62.3]"
+        },
+        {
+            "subject": {
+                "Model": "Pointer-SQL",
+                "Dataset": "WikiSQL",
+                "Split": "Test"
+            },
+            "measures": "[Acc_ex]",
+            "outcomes": "[71.9]"
+        },
+        {
+            "subject": {
+                "Model": "Pointer-SQL + EG",
+                "Dataset": "WikiSQL",
+                "Split": "Dev",
+                "Beam size": "3"
+            },
+            "measures": "[Acc_syn]",
+            "outcomes": "[66.6]"
+        },
+        {
+            "subject": {
+                "Model": "Pointer-SQL + EG",
+                "Dataset": "WikiSQL",
+                "Split": "Dev",
+                "Beam size": "3"
+            },
+            "measures": "[Acc_ex]",
+            "outcomes": "[77.3]"
+        },
+        {
+            "subject": {
+                "Model": "Pointer-SQL + EG",
+                "Dataset": "WikiSQL",
+                "Split": "Test",
+                "Beam size": "3"
+            },
+            "measures": "[Acc_syn]",
+            "outcomes": "[66.7]"
+        },
+        {
+            "subject": {
+                "Model": "Pointer-SQL + EG",
+                "Dataset": "WikiSQL",
+                "Split": "Test",
+                "Beam size": "3"
+            },
+            "measures": "[Acc_ex]",
+            "outcomes": "[76.9]"
+        },
+        {
+            "subject": {
+                "Model": "Pointer-SQL + EG",
+                "Dataset": "WikiSQL",
+                "Split": "Dev",
+                "Beam size": "5"
+            },
+            "measures": "[Acc_syn]",
+            "outcomes": "[67.5]"
+        },
+        {
+            "subject": {
+                "Model": "Pointer-SQL + EG",
+                "Dataset": "WikiSQL",
+                "Split": "Dev",
+                "Beam size": "5"
+            },
+            "measures": "[Acc_ex]",
+            "outcomes": "[78.4]"
+        },
+        {
+            "subject": {
+                "Model": "Pointer-SQL + EG",
+                "Dataset": "WikiSQL",
+                "Split": "Test",
+                "Beam size": "5"
+            },
+            "measures": "[Acc_syn]",
+            "outcomes": "[67.9]"
+        },
+        {
+            "subject": {
+                "Model": "Pointer-SQL + EG",
+                "Dataset": "WikiSQL",
+                "Split": "Test",
+                "Beam size": "5"
+            },
+            "measures": "[Acc_ex]",
+            "outcomes": "[78.3]"
+        },
+        {
+            "subject": {
+                "Model": "Coarse2Fine",
+                "Dataset": "WikiSQL",
+                "Split": "Dev"
+            },
+            "measures": "[Acc_syn]",
+            "outcomes": "[72.9]"
+        },
+        {
+            "subject": {
+                "Model": "Coarse2Fine",
+                "Dataset": "WikiSQL",
+                "Split": "Dev"
+            },
+            "measures": "[Acc_ex]",
+            "outcomes": "[79.2]"
+        },
+        {
+            "subject": {
+                "Model": "Coarse2Fine",
+                "Dataset": "WikiSQL",
+                "Split": "Test"
+            },
+            "measures": "[Acc_syn]",
+            "outcomes": "[71.7]"
+        },
+        {
+            "subject": {
+                "Model": "Coarse2Fine",
+                "Dataset": "WikiSQL",
+                "Split": "Test"
+            },
+            "measures": "[Acc_ex]",
+            "outcomes": "[78.4]"
+        },
+        {
+            "subject": {
+                "Model": "Coarse2Fine + EG",
+                "Dataset": "WikiSQL",
+                "Split": "Dev",
+                "Beam size": "3"
+            },
+            "measures": "[Acc_syn]",
+            "outcomes": "[75.6]"
+        },
+        {
+            "subject": {
+                "Model": "Coarse2Fine + EG",
+                "Dataset": "WikiSQL",
+                "Split": "Dev",
+                "Beam size": "3"
+            },
+            "measures": "[Acc_ex]",
+            "outcomes": "[83.4]"
+        },
+        {
+            "subject": {
+                "Model": "Coarse2Fine + EG",
+                "Dataset": "WikiSQL",
+                "Split": "Test",
+                "Beam size": "3"
+            },
+            "measures": "[Acc_syn]",
+            "outcomes": "[74.8]"
+        },
+        {
+            "subject": {
+                "Model": "Coarse2Fine + EG",
+                "Dataset": "WikiSQL",
+                "Split": "Test",
+                "Beam size": "3"
+            },
+            "measures": "[Acc_ex]",
+            "outcomes": "[83.0]"
+        },
+        {
+            "subject": {
+                "Model": "Coarse2Fine + EG",
+                "Dataset": "WikiSQL",
+                "Split": "Dev",
+                "Beam size": "5"
+            },
+            "measures": "[Acc_syn]",
+            "outcomes": "[76.0]"
+        },
+        {
+            "subject": {
+                "Model": "Coarse2Fine + EG",
+                "Dataset": "WikiSQL",
+                "Split": "Dev",
+                "Beam size": "5"
+            },
+            "measures": "[Acc_ex]",
+            "outcomes": "[84.0]"
+        },
+        {
+            "subject": {
+                "Model": "Coarse2Fine + EG",
+                "Dataset": "WikiSQL",
+                "Split": "Test",
+                "Beam size": "5"
+            },
+            "measures": "[Acc_syn]",
+            "outcomes": "[75.4]"
+        },
+        {
+            "subject": {
+                "Model": "Coarse2Fine + EG",
+                "Dataset": "WikiSQL",
+                "Split": "Test",
+                "Beam size": "5"
+            },
+            "measures": "[Acc_ex]",
+            "outcomes": "[83.8]"
+        }
+    ],
+    "2108.02866_9": [
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Index": "Top-1",
+                "Evidence Type": "AES textual"
+            },
+            "measures": "[Recall]",
+            "outcomes": "[13.10]"
+        },
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Index": "Top-1",
+                "Evidence Type": "Reranked textual"
+            },
+            "measures": "[Recall]",
+            "outcomes": "[18.69]"
+        },
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Index": "Top-1",
+                "Evidence Type": "AES tabular"
+            },
+            "measures": "[Recall]",
+            "outcomes": "[51.70]"
+        },
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Index": "Top-1",
+                "Evidence Type": "Reranked tabular"
+            },
+            "measures": "[Recall]",
+            "outcomes": "[50.24]"
+        },
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Index": "Top-1",
+                "Evidence Type": "Reranked hybrid"
+            },
+            "measures": "[Recall]",
+            "outcomes": "[50.28]"
+        },
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Index": "Top-5",
+                "Evidence Type": "AES textual"
+            },
+            "measures": "[Recall]",
+            "outcomes": "[20.08]"
+        },
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Index": "Top-5",
+                "Evidence Type": "Reranked textual"
+            },
+            "measures": "[Recall]",
+            "outcomes": "[25.61]"
+        },
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Index": "Top-5",
+                "Evidence Type": "AES tabular"
+            },
+            "measures": "[Recall]",
+            "outcomes": "[66.27]"
+        },
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Index": "Top-5",
+                "Evidence Type": "Reranked tabular"
+            },
+            "measures": "[Recall]",
+            "outcomes": "[68.15]"
+        },
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Index": "Top-5",
+                "Evidence Type": "Reranked hybrid"
+            },
+            "measures": "[Recall]",
+            "outcomes": "[68.15]"
+        },
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Index": "Top-10",
+                "Evidence Type": "AES textual"
+            },
+            "measures": "[Recall]",
+            "outcomes": "[22.54]"
+        },
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Index": "Top-10",
+                "Evidence Type": "Reranked textual"
+            },
+            "measures": "[Recall]",
+            "outcomes": "[28.84]"
+        },
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Index": "Top-10",
+                "Evidence Type": "AES tabular"
+            },
+            "measures": "[Recall]",
+            "outcomes": "[70.93]"
+        },
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Index": "Top-10",
+                "Evidence Type": "Reranked tabular"
+            },
+            "measures": "[Recall]",
+            "outcomes": "[74.09]"
+        },
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Index": "Top-10",
+                "Evidence Type": "Reranked hybrid"
+            },
+            "measures": "[Recall]",
+            "outcomes": "[74.10]"
+        },
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Index": "Top-25",
+                "Evidence Type": "AES textual"
+            },
+            "measures": "[Recall]",
+            "outcomes": "[25.24]"
+        },
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Index": "Top-25",
+                "Evidence Type": "Reranked textual"
+            },
+            "measures": "[Recall]",
+            "outcomes": "[32.34]"
+        },
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Index": "Top-25",
+                "Evidence Type": "AES tabular"
+            },
+            "measures": "[Recall]",
+            "outcomes": "[75.53]"
+        },
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Index": "Top-25",
+                "Evidence Type": "Reranked tabular"
+            },
+            "measures": "[Recall]",
+            "outcomes": "[80.91]"
+        },
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Index": "Top-25",
+                "Evidence Type": "Reranked hybrid"
+            },
+            "measures": "[Recall]",
+            "outcomes": "[80.89]"
+        },
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Index": "Top-50",
+                "Evidence Type": "AES textual"
+            },
+            "measures": "[Recall]",
+            "outcomes": "[29.66]"
+        },
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Index": "Top-50",
+                "Evidence Type": "Reranked textual"
+            },
+            "measures": "[Recall]",
+            "outcomes": "[35.39]"
+        },
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Index": "Top-50",
+                "Evidence Type": "AES tabular"
+            },
+            "measures": "[Recall]",
+            "outcomes": "[80.54]"
+        },
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Index": "Top-50",
+                "Evidence Type": "Reranked tabular"
+            },
+            "measures": "[Recall]",
+            "outcomes": "[84.78]"
+        },
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Index": "Top-50",
+                "Evidence Type": "Reranked hybrid"
+            },
+            "measures": "[Recall]",
+            "outcomes": "[84.63]"
+        },
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Index": "Top-100",
+                "Evidence Type": "AES textual"
+            },
+            "measures": "[Recall]",
+            "outcomes": "[33.20]"
+        },
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Index": "Top-100",
+                "Evidence Type": "Reranked textual"
+            },
+            "measures": "[Recall]",
+            "outcomes": "[38.14]"
+        },
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Index": "Top-100",
+                "Evidence Type": "AES tabular"
+            },
+            "measures": "[Recall]",
+            "outcomes": "[84.14]"
+        },
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Index": "Top-100",
+                "Evidence Type": "Reranked tabular"
+            },
+            "measures": "[Recall]",
+            "outcomes": "[87.18]"
+        },
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Index": "Top-100",
+                "Evidence Type": "Reranked hybrid"
+            },
+            "measures": "[Recall]",
+            "outcomes": "[87.13]"
+        },
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Evidence Type": "AES textual"
+            },
+            "measures": "[MAP]",
+            "outcomes": "[13.15]"
+        },
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Evidence Type": "Reranked textual"
+            },
+            "measures": "[MAP]",
+            "outcomes": "[18.48]"
+        },
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Evidence Type": "AES tabular"
+            },
+            "measures": "[MAP]",
+            "outcomes": "[47.63]"
+        },
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Evidence Type": "Reranked tabular"
+            },
+            "measures": "[MAP]",
+            "outcomes": "[47.92]"
+        },
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Evidence Type": "Reranked hybrid"
+            },
+            "measures": "[MAP]",
+            "outcomes": "[44.93]"
+        },
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Evidence Type": "AES textual"
+            },
+            "measures": "[MRR]",
+            "outcomes": "[16.56]"
+        },
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Evidence Type": "Reranked textual"
+            },
+            "measures": "[MRR]",
+            "outcomes": "[22.03]"
+        },
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Evidence Type": "AES tabular"
+            },
+            "measures": "[MRR]",
+            "outcomes": "[58.49]"
+        },
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Evidence Type": "Reranked tabular"
+            },
+            "measures": "[MRR]",
+            "outcomes": "[58.34]"
+        },
+        {
+            "subject": {
+                "Dataset": "OpenWikiSQL",
+                "Evidence Type": "Reranked hybrid"
+            },
+            "measures": "[MRR]",
+            "outcomes": "[58.38]"
+        }
+    ],
+    "2112.02212_3": [
+        {
+            "subject": {
+                "Dataset": "Spider",
+                "Metric": "Accuracy",
+                "Difficulty Level": "Easy",
+                "# Train": "1694",
+                "# Test": "248",
+                "Model": "DT-Fixup"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[91.9]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider",
+                "Metric": "Accuracy",
+                "Difficulty Level": "Easy",
+                "# Train": "1694",
+                "# Test": "248",
+                "Model": "+Ours"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[92.7]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider",
+                "Metric": "Accuracy",
+                "Difficulty Level": "Medium",
+                "# Train": "2777",
+                "# Test": "446",
+                "Model": "DT-Fixup"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[80.9]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider",
+                "Metric": "Accuracy",
+                "Difficulty Level": "Medium",
+                "# Train": "2777",
+                "# Test": "446",
+                "Model": "+Ours"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[82.3]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider",
+                "Metric": "Accuracy",
+                "Difficulty Level": "Hard",
+                "# Train": "1461",
+                "# Test": "174",
+                "Model": "DT-Fixup"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[60.3]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider",
+                "Metric": "Accuracy",
+                "Difficulty Level": "Hard",
+                "# Train": "1461",
+                "# Test": "174",
+                "Model": "+Ours"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[65.5]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider",
+                "Metric": "Accuracy",
+                "Difficulty Level": "Extra",
+                "# Train": "1068",
+                "# Test": "166",
+                "Model": "DT-Fixup"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[48.8]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider",
+                "Metric": "Accuracy",
+                "Difficulty Level": "Extra",
+                "# Train": "1068",
+                "# Test": "166",
+                "Model": "+Ours"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[52.4]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider",
+                "Metric": "Accuracy",
+                "Difficulty Level": "All",
+                "# Train": "7000",
+                "# Test": "1034",
+                "Model": "DT-Fixup"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[75.0]"
+        },
+        {
+            "subject": {
+                "Dataset": "Spider",
+                "Metric": "Accuracy",
+                "Difficulty Level": "All",
+                "# Train": "7000",
+                "# Test": "1034",
+                "Model": "+Ours"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[77.2]"
+        }
+    ],
+    "2310.18662_7": [
+        {
+            "subject": {
+                "Model": "LSTM",
+                "Dataset": "Spider",
+                "Metric": "Inference time",
+                "Unit": "seconds per 1000 samples"
+            },
+            "measures": "[Inference time]",
+            "outcomes": "[206.6]"
+        },
+        {
+            "subject": {
+                "Model": "LSTM",
+                "Dataset": "SParC",
+                "Metric": "Inference time",
+                "Unit": "seconds per 1000 samples"
+            },
+            "measures": "[Inference time]",
+            "outcomes": "[191.5]"
+        },
+        {
+            "subject": {
+                "Model": "LSTM",
+                "Dataset": "CoSQL",
+                "Metric": "Inference time",
+                "Unit": "seconds per 1000 samples"
+            },
+            "measures": "[Inference time]",
+            "outcomes": "[201.0]"
+        },
+        {
+            "subject": {
+                "Model": "ASTormer",
+                "Dataset": "Spider",
+                "Metric": "Inference time",
+                "Unit": "seconds per 1000 samples"
+            },
+            "measures": "[Inference time]",
+            "outcomes": "[237.0]"
+        },
+        {
+            "subject": {
+                "Model": "ASTormer",
+                "Dataset": "SParC",
+                "Metric": "Inference time",
+                "Unit": "seconds per 1000 samples"
+            },
+            "measures": "[Inference time]",
+            "outcomes": "[200.7]"
+        },
+        {
+            "subject": {
+                "Model": "ASTormer",
+                "Dataset": "CoSQL",
+                "Metric": "Inference time",
+                "Unit": "seconds per 1000 samples"
+            },
+            "measures": "[Inference time]",
+            "outcomes": "[199.1]"
+        }
+    ],
+    "2103.02227_5": [
+        {
+            "subject": {
+                "Model": "IRNet",
+                "Dataset": "Spider",
+                "Pattern Type": "Seen patterns"
+            },
+            "measures": "[EM accuracy]",
+            "outcomes": "[63.5]"
+        },
+        {
+            "subject": {
+                "Model": "IRNet",
+                "Dataset": "Spider",
+                "Pattern Type": "Unseen patterns"
+            },
+            "measures": "[EM accuracy]",
+            "outcomes": "[48.8]"
+        },
+        {
+            "subject": {
+                "Model": "IRNet + Aug",
+                "Dataset": "Spider",
+                "Pattern Type": "Seen patterns"
+            },
+            "measures": "[EM accuracy]",
+            "outcomes": "[64.7]"
+        },
+        {
+            "subject": {
+                "Model": "IRNet + Aug",
+                "Dataset": "Spider",
+                "Pattern Type": "Seen patterns",
+                "Improvement": "+1.2"
+            },
+            "measures": "[EM accuracy]",
+            "outcomes": "[64.7]"
+        },
+        {
+            "subject": {
+                "Model": "IRNet + Aug",
+                "Dataset": "Spider",
+                "Pattern Type": "Unseen patterns"
+            },
+            "measures": "[EM accuracy]",
+            "outcomes": "[53.7]"
+        },
+        {
+            "subject": {
+                "Model": "IRNet + Aug",
+                "Dataset": "Spider",
+                "Pattern Type": "Unseen patterns",
+                "Improvement": "+4.9"
+            },
+            "measures": "[EM accuracy]",
+            "outcomes": "[53.7]"
+        },
+        {
+            "subject": {
+                "Model": "RATSQL",
+                "Dataset": "Spider",
+                "Pattern Type": "Seen patterns"
+            },
+            "measures": "[EM accuracy]",
+            "outcomes": "[66.6]"
+        },
+        {
+            "subject": {
+                "Model": "RATSQL",
+                "Dataset": "Spider",
+                "Pattern Type": "Unseen patterns"
+            },
+            "measures": "[EM accuracy]",
+            "outcomes": "[52.3]"
+        },
+        {
+            "subject": {
+                "Model": "RATSQL + Aug",
+                "Dataset": "Spider",
+                "Pattern Type": "Seen patterns"
+            },
+            "measures": "[EM accuracy]",
+            "outcomes": "[73.0]"
+        },
+        {
+            "subject": {
+                "Model": "RATSQL + Aug",
+                "Dataset": "Spider",
+                "Pattern Type": "Seen patterns",
+                "Improvement": "+6.4"
+            },
+            "measures": "[EM accuracy]",
+            "outcomes": "[73.0]"
+        },
+        {
+            "subject": {
+                "Model": "RATSQL + Aug",
+                "Dataset": "Spider",
+                "Pattern Type": "Unseen patterns"
+            },
+            "measures": "[EM accuracy]",
+            "outcomes": "[55.4]"
+        },
+        {
+            "subject": {
+                "Model": "RATSQL + Aug",
+                "Dataset": "Spider",
+                "Pattern Type": "Unseen patterns",
+                "Improvement": "+3.1"
+            },
+            "measures": "[EM accuracy]",
+            "outcomes": "[55.4]"
+        }
+    ],
+    "2305.14215_1": [
+        {
+            "subject": {
+                "Method": "Standard",
+                "Dataset": "Spider Dev",
+                "Difficulty": "Easy",
+                "Shots": "8",
+                "Model": "Codex",
+                "Metric": "Test-suite accuracy"
+            },
+            "measures": "[Test-suite accuracy]",
+            "outcomes": "[86.8]"
+        },
+        {
+            "subject": {
+                "Method": "Standard",
+                "Dataset": "Spider Dev",
+                "Difficulty": "Medium",
+                "Shots": "8",
+                "Model": "Codex",
+                "Metric": "Test-suite accuracy"
+            },
+            "measures": "[Test-suite accuracy]",
+            "outcomes": "[65.3]"
+        },
+        {
+            "subject": {
+                "Method": "Standard",
+                "Dataset": "Spider Dev",
+                "Difficulty": "Hard",
+                "Shots": "8",
+                "Model": "Codex",
+                "Metric": "Test-suite accuracy"
+            },
+            "measures": "[Test-suite accuracy]",
+            "outcomes": "[50.3]"
+        },
+        {
+            "subject": {
+                "Method": "Standard",
+                "Dataset": "Spider Dev",
+                "Difficulty": "Extra Hard",
+                "Shots": "8",
+                "Model": "Codex",
+                "Metric": "Test-suite accuracy"
+            },
+            "measures": "[Test-suite accuracy]",
+            "outcomes": "[36.0]"
+        },
+        {
+            "subject": {
+                "Method": "Standard",
+                "Dataset": "Spider Dev",
+                "Difficulty": "Overall",
+                "Shots": "8",
+                "Model": "Codex",
+                "Metric": "Test-suite accuracy",
+                "Standard deviation": "2.51"
+            },
+            "measures": "[Test-suite accuracy]",
+            "outcomes": "[63.2]"
+        },
+        {
+            "subject": {
+                "Method": "Standard",
+                "Dataset": "Spider Dev",
+                "Difficulty": "Overall",
+                "Shots": "8",
+                "Model": "Codex",
+                "Metric": "Execution accuracy",
+                "Standard deviation": "4.08"
+            },
+            "measures": "[Execution accuracy]",
+            "outcomes": "[68.7]"
+        },
+        {
+            "subject": {
+                "Method": "Standard",
+                "Dataset": "Spider Realistic",
+                "Difficulty": "Overall",
+                "Shots": "8",
+                "Model": "Codex",
+                "Metric": "Test-suite accuracy",
+                "Standard deviation": "4.29"
+            },
+            "measures": "[Test-suite accuracy]",
+            "outcomes": "[51.0]"
+        },
+        {
+            "subject": {
+                "Method": "Standard",
+                "Dataset": "Spider Realistic",
+                "Difficulty": "Overall",
+                "Shots": "8",
+                "Model": "Codex",
+                "Metric": "Execution accuracy",
+                "Standard deviation": "4.01"
+            },
+            "measures": "[Execution accuracy]",
+            "outcomes": "[62.5]"
+        },
+        {
+            "subject": {
+                "Method": "Chain-of-Thought",
+                "Dataset": "Spider Dev",
+                "Difficulty": "Easy",
+                "Shots": "8",
+                "Model": "Codex",
+                "Metric": "Test-suite accuracy"
+            },
+            "measures": "[Test-suite accuracy]",
+            "outcomes": "[73.9]"
+        },
+        {
+            "subject": {
+                "Method": "Chain-of-Thought",
+                "Dataset": "Spider Dev",
+                "Difficulty": "Medium",
+                "Shots": "8",
+                "Model": "Codex",
+                "Metric": "Test-suite accuracy"
+            },
+            "measures": "[Test-suite accuracy]",
+            "outcomes": "[64.5]"
+        },
+        {
+            "subject": {
+                "Method": "Chain-of-Thought",
+                "Dataset": "Spider Dev",
+                "Difficulty": "Hard",
+                "Shots": "8",
+                "Model": "Codex",
+                "Metric": "Test-suite accuracy"
+            },
+            "measures": "[Test-suite accuracy]",
+            "outcomes": "[44.6]"
+        },
+        {
+            "subject": {
+                "Method": "Chain-of-Thought",
+                "Dataset": "Spider Dev",
+                "Difficulty": "Extra Hard",
+                "Shots": "8",
+                "Model": "Codex",
+                "Metric": "Test-suite accuracy"
+            },
+            "measures": "[Test-suite accuracy]",
+            "outcomes": "[23.4]"
+        },
+        {
+            "subject": {
+                "Method": "Chain-of-Thought",
+                "Dataset": "Spider Dev",
+                "Difficulty": "Overall",
+                "Shots": "8",
+                "Model": "Codex",
+                "Metric": "Test-suite accuracy",
+                "Standard deviation": "5.83"
+            },
+            "measures": "[Test-suite accuracy]",
+            "outcomes": "[56.8]"
+        },
+        {
+            "subject": {
+                "Method": "Chain-of-Thought",
+                "Dataset": "Spider Dev",
+                "Difficulty": "Overall",
+                "Shots": "8",
+                "Model": "Codex",
+                "Metric": "Execution accuracy",
+                "Standard deviation": "7.21"
+            },
+            "measures": "[Execution accuracy]",
+            "outcomes": "[53.9]"
+        },
+        {
+            "subject": {
+                "Method": "Chain-of-Thought",
+                "Dataset": "Spider Realistic",
+                "Difficulty": "Overall",
+                "Shots": "8",
+                "Model": "Codex",
+                "Metric": "Test-suite accuracy",
+                "Standard deviation": "4.94"
+            },
+            "measures": "[Test-suite accuracy]",
+            "outcomes": "[50.3]"
+        },
+        {
+            "subject": {
+                "Method": "Chain-of-Thought",
+                "Dataset": "Spider Realistic",
+                "Difficulty": "Overall",
+                "Shots": "8",
+                "Model": "Codex",
+                "Metric": "Execution accuracy",
+                "Standard deviation": "9.19"
+            },
+            "measures": "[Execution accuracy]",
+            "outcomes": "[53.4]"
+        },
+        {
+            "subject": {
+                "Method": "Least-to-Most",
+                "Dataset": "Spider Dev",
+                "Difficulty": "Easy",
+                "Shots": "8",
+                "Model": "Codex",
+                "Metric": "Test-suite accuracy"
+            },
+            "measures": "[Test-suite accuracy]",
+            "outcomes": "[88.1]"
+        },
+        {
+            "subject": {
+                "Method": "Least-to-Most",
+                "Dataset": "Spider Dev",
+                "Difficulty": "Medium",
+                "Shots": "8",
+                "Model": "Codex",
+                "Metric": "Test-suite accuracy"
+            },
+            "measures": "[Test-suite accuracy]",
+            "outcomes": "[68.7]"
+        },
+        {
+            "subject": {
+                "Method": "Least-to-Most",
+                "Dataset": "Spider Dev",
+                "Difficulty": "Hard",
+                "Shots": "8",
+                "Model": "Codex",
+                "Metric": "Test-suite accuracy"
+            },
+            "measures": "[Test-suite accuracy]",
+            "outcomes": "[52.9]"
+        },
+        {
+            "subject": {
+                "Method": "Least-to-Most",
+                "Dataset": "Spider Dev",
+                "Difficulty": "Extra Hard",
+                "Shots": "8",
+                "Model": "Codex",
+                "Metric": "Test-suite accuracy"
+            },
+            "measures": "[Test-suite accuracy]",
+            "outcomes": "[39.5]"
+        },
+        {
+            "subject": {
+                "Method": "Least-to-Most",
+                "Dataset": "Spider Dev",
+                "Difficulty": "Overall",
+                "Shots": "8",
+                "Model": "Codex",
+                "Metric": "Test-suite accuracy",
+                "Standard deviation": "2.48"
+            },
+            "measures": "[Test-suite accuracy]",
+            "outcomes": "[66.0]"
+        },
+        {
+            "subject": {
+                "Method": "Least-to-Most",
+                "Dataset": "Spider Dev",
+                "Difficulty": "Overall",
+                "Shots": "8",
+                "Model": "Codex",
+                "Metric": "Execution accuracy",
+                "Standard deviation": "3.44"
+            },
+            "measures": "[Execution accuracy]",
+            "outcomes": "[68.9]"
+        },
+        {
+            "subject": {
+                "Method": "Least-to-Most",
+                "Dataset": "Spider Realistic",
+                "Difficulty": "Overall",
+                "Shots": "8",
+                "Model": "Codex",
+                "Metric": "Test-suite accuracy",
+                "Standard deviation": "2.51"
+            },
+            "measures": "[Test-suite accuracy]",
+            "outcomes": "[55.0]"
+        },
+        {
+            "subject": {
+                "Method": "Least-to-Most",
+                "Dataset": "Spider Realistic",
+                "Difficulty": "Overall",
+                "Shots": "8",
+                "Model": "Codex",
+                "Metric": "Execution accuracy",
+                "Standard deviation": "2.73"
+            },
+            "measures": "[Execution accuracy]",
+            "outcomes": "[63.3]"
+        },
+        {
+            "subject": {
+                "Method": "Least-to-Most (G3)",
+                "Dataset": "Spider Dev",
+                "Difficulty": "Easy",
+                "Shots": "8",
+                "Model": "Codex",
+                "In-context examples": "Extra-hard SQL queries",
+                "Metric": "Test-suite accuracy"
+            },
+            "measures": "[Test-suite accuracy]",
+            "outcomes": "[80.3]"
+        },
+        {
+            "subject": {
+                "Method": "Least-to-Most (G3)",
+                "Dataset": "Spider Dev",
+                "Difficulty": "Medium",
+                "Shots": "8",
+                "Model": "Codex",
+                "In-context examples": "Extra-hard SQL queries",
+                "Metric": "Test-suite accuracy"
+            },
+            "measures": "[Test-suite accuracy]",
+            "outcomes": "[64.6]"
+        },
+        {
+            "subject": {
+                "Method": "Least-to-Most (G3)",
+                "Dataset": "Spider Dev",
+                "Difficulty": "Hard",
+                "Shots": "8",
+                "Model": "Codex",
+                "In-context examples": "Extra-hard SQL queries",
+                "Metric": "Test-suite accuracy"
+            },
+            "measures": "[Test-suite accuracy]",
+            "outcomes": "[52.8]"
+        },
+        {
+            "subject": {
+                "Method": "Least-to-Most (G3)",
+                "Dataset": "Spider Dev",
+                "Difficulty": "Extra Hard",
+                "Shots": "8",
+                "Model": "Codex",
+                "In-context examples": "Extra-hard SQL queries",
+                "Metric": "Test-suite accuracy"
+            },
+            "measures": "[Test-suite accuracy]",
+            "outcomes": "[45.3]"
+        },
+        {
+            "subject": {
+                "Method": "Least-to-Most (G3)",
+                "Dataset": "Spider Dev",
+                "Difficulty": "Overall",
+                "Shots": "8",
+                "Model": "Codex",
+                "In-context examples": "Extra-hard SQL queries",
+                "Metric": "Test-suite accuracy",
+                "Standard deviation": "1.95"
+            },
+            "measures": "[Test-suite accuracy]",
+            "outcomes": "[63.3]"
+        },
+        {
+            "subject": {
+                "Method": "Least-to-Most (G3)",
+                "Dataset": "Spider Dev",
+                "Difficulty": "Overall",
+                "Shots": "8",
+                "Model": "Codex",
+                "In-context examples": "Extra-hard SQL queries",
+                "Metric": "Execution accuracy",
+                "Standard deviation": "1.72"
+            },
+            "measures": "[Execution accuracy]",
+            "outcomes": "[73.8]"
+        },
+        {
+            "subject": {
+                "Method": "QDecomp",
+                "Dataset": "Spider Dev",
+                "Difficulty": "Easy",
+                "Shots": "8",
+                "Model": "Codex",
+                "Metric": "Test-suite accuracy"
+            },
+            "measures": "[Test-suite accuracy]",
+            "outcomes": "[89.8]"
+        },
+        {
+            "subject": {
+                "Method": "QDecomp",
+                "Dataset": "Spider Dev",
+                "Difficulty": "Medium",
+                "Shots": "8",
+                "Model": "Codex",
+                "Metric": "Test-suite accuracy"
+            },
+            "measures": "[Test-suite accuracy]",
+            "outcomes": "[71.3]"
+        },
+        {
+            "subject": {
+                "Method": "QDecomp",
+                "Dataset": "Spider Dev",
+                "Difficulty": "Hard",
+                "Shots": "8",
+                "Model": "Codex",
+                "Metric": "Test-suite accuracy"
+            },
+            "measures": "[Test-suite accuracy]",
+            "outcomes": "[53.1]"
+        },
+        {
+            "subject": {
+                "Method": "QDecomp",
+                "Dataset": "Spider Dev",
+                "Difficulty": "Extra Hard",
+                "Shots": "8",
+                "Model": "Codex",
+                "Metric": "Test-suite accuracy"
+            },
+            "measures": "[Test-suite accuracy]",
+            "outcomes": "[38.6]"
+        },
+        {
+            "subject": {
+                "Method": "QDecomp",
+                "Dataset": "Spider Dev",
+                "Difficulty": "Overall",
+                "Shots": "8",
+                "Model": "Codex",
+                "Metric": "Test-suite accuracy",
+                "Standard deviation": "1.89"
+            },
+            "measures": "[Test-suite accuracy]",
+            "outcomes": "[67.4]"
+        },
+        {
+            "subject": {
+                "Method": "QDecomp",
+                "Dataset": "Spider Dev",
+                "Difficulty": "Overall",
+                "Shots": "8",
+                "Model": "Codex",
+                "Metric": "Execution accuracy",
+                "Standard deviation": "2.80"
+            },
+            "measures": "[Execution accuracy]",
+            "outcomes": "[70.7]"
+        },
+        {
+            "subject": {
+                "Method": "QDecomp",
+                "Dataset": "Spider Realistic",
+                "Difficulty": "Overall",
+                "Shots": "8",
+                "Model": "Codex",
+                "Metric": "Test-suite accuracy",
+                "Standard deviation": "2.01"
+            },
+            "measures": "[Test-suite accuracy]",
+            "outcomes": "[55.8]"
+        },
+        {
+            "subject": {
+                "Method": "QDecomp",
+                "Dataset": "Spider Realistic",
+                "Difficulty": "Overall",
+                "Shots": "8",
+                "Model": "Codex",
+                "Metric": "Execution accuracy",
+                "Standard deviation": "2.29"
+            },
+            "measures": "[Execution accuracy]",
+            "outcomes": "[65.8]"
+        },
+        {
+            "subject": {
+                "Method": "QDecomp + InterCOL",
+                "Dataset": "Spider Dev",
+                "Difficulty": "Easy",
+                "Shots": "8",
+                "Model": "Codex",
+                "Metric": "Test-suite accuracy"
+            },
+            "measures": "[Test-suite accuracy]",
+            "outcomes": "[89.6]"
+        },
+        {
+            "subject": {
+                "Method": "QDecomp + InterCOL",
+                "Dataset": "Spider Dev",
+                "Difficulty": "Medium",
+                "Shots": "8",
+                "Model": "Codex",
+                "Metric": "Test-suite accuracy"
+            },
+            "measures": "[Test-suite accuracy]",
+            "outcomes": "[74.1]"
+        },
+        {
+            "subject": {
+                "Method": "QDecomp + InterCOL",
+                "Dataset": "Spider Dev",
+                "Difficulty": "Hard",
+                "Shots": "8",
+                "Model": "Codex",
+                "Metric": "Test-suite accuracy"
+            },
+            "measures": "[Test-suite accuracy]",
+            "outcomes": "[52.4]"
+        },
+        {
+            "subject": {
+                "Method": "QDecomp + InterCOL",
+                "Dataset": "Spider Dev",
+                "Difficulty": "Extra Hard",
+                "Shots": "8",
+                "Model": "Codex",
+                "Metric": "Test-suite accuracy"
+            },
+            "measures": "[Test-suite accuracy]",
+            "outcomes": "[38.1]"
+        },
+        {
+            "subject": {
+                "Method": "QDecomp + InterCOL",
+                "Dataset": "Spider Dev",
+                "Difficulty": "Overall",
+                "Shots": "8",
+                "Model": "Codex",
+                "Metric": "Test-suite accuracy",
+                "Standard deviation": "2.05"
+            },
+            "measures": "[Test-suite accuracy]",
+            "outcomes": "[68.4]"
+        },
+        {
+            "subject": {
+                "Method": "QDecomp + InterCOL",
+                "Dataset": "Spider Dev",
+                "Difficulty": "Overall",
+                "Shots": "8",
+                "Model": "Codex"
+            }
+        }
+    ],
+    "2311.01173_3": [
+        {
+            "subject": {
+                "Dataset": "SpiderUnion",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "3"
+            },
+            "measures": "[Exact Match, Execution Match]",
+            "outcomes": "[0.29, 0.33]"
+        },
+        {
+            "subject": {
+                "Dataset": "SpiderUnion",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "5"
+            },
+            "measures": "[Exact Match, Execution Match]",
+            "outcomes": "[0.35, 0.41]"
+        },
+        {
+            "subject": {
+                "Dataset": "SpiderUnion",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "10"
+            },
+            "measures": "[Exact Match, Execution Match]",
+            "outcomes": "[0.45, 0.53]"
+        },
+        {
+            "subject": {
+                "Dataset": "SpiderUnion",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "20"
+            },
+            "measures": "[Exact Match, Execution Match]",
+            "outcomes": "[0.48, 0.57]"
+        },
+        {
+            "subject": {
+                "Dataset": "SpiderUnion",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "30"
+            },
+            "measures": "[Exact Match, Execution Match]",
+            "outcomes": "[0.48, 0.59]"
+        },
+        {
+            "subject": {
+                "Dataset": "SpiderUnion",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "50"
+            },
+            "measures": "[Exact Match, Execution Match]",
+            "outcomes": "[0.48, 0.59]"
+        },
+        {
+            "subject": {
+                "Dataset": "SpiderUnion",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "100"
+            },
+            "measures": "[Exact Match, Execution Match]",
+            "outcomes": "[0.51, 0.62]"
+        },
+        {
+            "subject": {
+                "Dataset": "SpiderUnion",
+                "Method": "CRUSH (ours)",
+                "Budget": "3"
+            },
+            "measures": "[Exact Match, Execution Match]",
+            "outcomes": "[0.35, 0.39]"
+        },
+        {
+            "subject": {
+                "Dataset": "SpiderUnion",
+                "Method": "CRUSH (ours)",
+                "Budget": "5"
+            },
+            "measures": "[Exact Match, Execution Match]",
+            "outcomes": "[0.46, 0.53]"
+        },
+        {
+            "subject": {
+                "Dataset": "SpiderUnion",
+                "Method": "CRUSH (ours)",
+                "Budget": "10"
+            },
+            "measures": "[Exact Match, Execution Match]",
+            "outcomes": "[0.52, 0.60]"
+        },
+        {
+            "subject": {
+                "Dataset": "SpiderUnion",
+                "Method": "CRUSH (ours)",
+                "Budget": "20"
+            },
+            "measures": "[Exact Match, Execution Match]",
+            "outcomes": "[0.53, 0.64]"
+        },
+        {
+            "subject": {
+                "Dataset": "SpiderUnion",
+                "Method": "CRUSH (ours)",
+                "Budget": "30"
+            },
+            "measures": "[Exact Match, Execution Match]",
+            "outcomes": "[0.54, 0.64]"
+        },
+        {
+            "subject": {
+                "Dataset": "SpiderUnion",
+                "Method": "CRUSH (ours)",
+                "Budget": "50"
+            },
+            "measures": "[Exact Match, Execution Match]",
+            "outcomes": "[0.52, 0.63]"
+        },
+        {
+            "subject": {
+                "Dataset": "SpiderUnion",
+                "Method": "CRUSH (ours)",
+                "Budget": "100"
+            },
+            "measures": "[Exact Match, Execution Match]",
+            "outcomes": "[0.52, 0.62]"
+        },
+        {
+            "subject": {
+                "Dataset": "BirdUnion",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "3"
+            },
+            "measures": "[Exact Match, Execution Match]",
+            "outcomes": "[0.03, 0.07]"
+        },
+        {
+            "subject": {
+                "Dataset": "BirdUnion",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "5"
+            },
+            "measures": "[Exact Match, Execution Match]",
+            "outcomes": "[0.05, 0.10]"
+        },
+        {
+            "subject": {
+                "Dataset": "BirdUnion",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "10"
+            },
+            "measures": "[Exact Match, Execution Match]",
+            "outcomes": "[0.07, 0.13]"
+        },
+        {
+            "subject": {
+                "Dataset": "BirdUnion",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "20"
+            },
+            "measures": "[Exact Match, Execution Match]",
+            "outcomes": "[0.09, 0.15]"
+        },
+        {
+            "subject": {
+                "Dataset": "BirdUnion",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "30"
+            },
+            "measures": "[Exact Match, Execution Match]",
+            "outcomes": "[0.09, 0.16]"
+        },
+        {
+            "subject": {
+                "Dataset": "BirdUnion",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "50"
+            },
+            "measures": "[Exact Match, Execution Match]",
+            "outcomes": "[0.10, 0.18]"
+        },
+        {
+            "subject": {
+                "Dataset": "BirdUnion",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "100"
+            },
+            "measures": "[Exact Match, Execution Match]",
+            "outcomes": "[-,-]"
+        },
+        {
+            "subject": {
+                "Dataset": "BirdUnion",
+                "Method": "CRUSH (ours)",
+                "Budget": "3"
+            },
+            "measures": "[Exact Match, Execution Match]",
+            "outcomes": "[0.04, 0.07]"
+        },
+        {
+            "subject": {
+                "Dataset": "BirdUnion",
+                "Method": "CRUSH (ours)",
+                "Budget": "5"
+            },
+            "measures": "[Exact Match, Execution Match]",
+            "outcomes": "[0.07, 0.11]"
+        },
+        {
+            "subject": {
+                "Dataset": "BirdUnion",
+                "Method": "CRUSH (ours)",
+                "Budget": "10"
+            },
+            "measures": "[Exact Match, Execution Match]",
+            "outcomes": "[0.09, 0.15]"
+        },
+        {
+            "subject": {
+                "Dataset": "BirdUnion",
+                "Method": "CRUSH (ours)",
+                "Budget": "20"
+            },
+            "measures": "[Exact Match, Execution Match]",
+            "outcomes": "[0.11, 0.19]"
+        },
+        {
+            "subject": {
+                "Dataset": "BirdUnion",
+                "Method": "CRUSH (ours)",
+                "Budget": "30"
+            },
+            "measures": "[Exact Match, Execution Match]",
+            "outcomes": "[0.11, 0.19]"
+        },
+        {
+            "subject": {
+                "Dataset": "BirdUnion",
+                "Method": "CRUSH (ours)",
+                "Budget": "50"
+            },
+            "measures": "[Exact Match, Execution Match]",
+            "outcomes": "[0.12, 0.21]"
+        },
+        {
+            "subject": {
+                "Dataset": "BirdUnion",
+                "Method": "CRUSH (ours)",
+                "Budget": "100"
+            },
+            "measures": "[Exact Match, Execution Match]",
+            "outcomes": "[-,-]"
+        },
+        {
+            "subject": {
+                "Text-to-SQL Model": "RESDSQL",
+                "Citation": "Li et al. (2023a)"
+            }
+        }
+    ],
+    "2310.13659_4": [
+        {
+            "subject": {
+                "Model": "Single stage",
+                "Dataset": "AmbiQT",
+                "Metric": "Either In Top K",
+                "Ambiguity Type": "C"
+            },
+            "measures": "[EXM Accuracy]",
+            "outcomes": "[64.0]"
+        },
+        {
+            "subject": {
+                "Model": "Single stage",
+                "Dataset": "AmbiQT",
+                "Metric": "Either In Top K",
+                "Ambiguity Type": "T"
+            },
+            "measures": "[EXM Accuracy]",
+            "outcomes": "[60.7]"
+        },
+        {
+            "subject": {
+                "Model": "Single stage",
+                "Dataset": "AmbiQT",
+                "Metric": "Either In Top K",
+                "Ambiguity Type": "J"
+            },
+            "measures": "[EXM Accuracy]",
+            "outcomes": "[86.8]"
+        },
+        {
+            "subject": {
+                "Model": "Single stage",
+                "Dataset": "AmbiQT",
+                "Metric": "Either In Top K",
+                "Ambiguity Type": "P"
+            },
+            "measures": "[EXM Accuracy]",
+            "outcomes": "[58.4]"
+        },
+        {
+            "subject": {
+                "Model": "Single stage",
+                "Dataset": "AmbiQT",
+                "Metric": "Both In Top K",
+                "Ambiguity Type": "C"
+            },
+            "measures": "[Coverage]",
+            "outcomes": "[23.2]"
+        },
+        {
+            "subject": {
+                "Model": "Single stage",
+                "Dataset": "AmbiQT",
+                "Metric": "Both In Top K",
+                "Ambiguity Type": "T"
+            },
+            "measures": "[Coverage]",
+            "outcomes": "[25.3]"
+        },
+        {
+            "subject": {
+                "Model": "Single stage",
+                "Dataset": "AmbiQT",
+                "Metric": "Both In Top K",
+                "Ambiguity Type": "J"
+            },
+            "measures": "[Coverage]",
+            "outcomes": "[54.5]"
+        },
+        {
+            "subject": {
+                "Model": "Single stage",
+                "Dataset": "AmbiQT",
+                "Metric": "Both In Top K",
+                "Ambiguity Type": "P"
+            },
+            "measures": "[Coverage]",
+            "outcomes": "[9.9]"
+        },
+        {
+            "subject": {
+                "Model": "Two stages",
+                "Dataset": "AmbiQT",
+                "Metric": "Either In Top K",
+                "Ambiguity Type": "C"
+            },
+            "measures": "[EXM Accuracy]",
+            "outcomes": "[65.9]"
+        },
+        {
+            "subject": {
+                "Model": "Two stages",
+                "Dataset": "AmbiQT",
+                "Metric": "Either In Top K",
+                "Ambiguity Type": "T"
+            },
+            "measures": "[EXM Accuracy]",
+            "outcomes": "[66.2]"
+        },
+        {
+            "subject": {
+                "Model": "Two stages",
+                "Dataset": "AmbiQT",
+                "Metric": "Either In Top K",
+                "Ambiguity Type": "J"
+            },
+            "measures": "[EXM Accuracy]",
+            "outcomes": "[88.5]"
+        },
+        {
+            "subject": {
+                "Model": "Two stages",
+                "Dataset": "AmbiQT",
+                "Metric": "Either In Top K",
+                "Ambiguity Type": "P"
+            },
+            "measures": "[EXM Accuracy]",
+            "outcomes": "[62.4]"
+        },
+        {
+            "subject": {
+                "Model": "Two stages",
+                "Dataset": "AmbiQT",
+                "Metric": "Both In Top K",
+                "Ambiguity Type": "C"
+            },
+            "measures": "[Coverage]",
+            "outcomes": "[16.0]"
+        },
+        {
+            "subject": {
+                "Model": "Two stages",
+                "Dataset": "AmbiQT",
+                "Metric": "Both In Top K",
+                "Ambiguity Type": "T"
+            },
+            "measures": "[Coverage]",
+            "outcomes": "[28.4]"
+        },
+        {
+            "subject": {
+                "Model": "Two stages",
+                "Dataset": "AmbiQT",
+                "Metric": "Both In Top K",
+                "Ambiguity Type": "J"
+            },
+            "measures": "[Coverage]",
+            "outcomes": "[54.5]"
+        },
+        {
+            "subject": {
+                "Model": "Two stages",
+                "Dataset": "AmbiQT",
+                "Metric": "Both In Top K",
+                "Ambiguity Type": "P"
+            },
+            "measures": "[Coverage]",
+            "outcomes": "[27.7]"
+        },
+        {
+            "subject": {
+                "Model": "+Template Diversity",
+                "Dataset": "AmbiQT",
+                "Metric": "Either In Top K",
+                "Ambiguity Type": "C"
+            },
+            "measures": "[EXM Accuracy]",
+            "outcomes": "[65.9]"
+        },
+        {
+            "subject": {
+                "Model": "+Template Diversity",
+                "Dataset": "AmbiQT",
+                "Metric": "Either In Top K",
+                "Ambiguity Type": "T"
+            },
+            "measures": "[EXM Accuracy]",
+            "outcomes": "[65.0]"
+        },
+        {
+            "subject": {
+                "Model": "+Template Diversity",
+                "Dataset": "AmbiQT",
+                "Metric": "Either In Top K",
+                "Ambiguity Type": "J"
+            },
+            "measures": "[EXM Accuracy]",
+            "outcomes": "[87.1]"
+        },
+        {
+            "subject": {
+                "Model": "+Template Diversity",
+                "Dataset": "AmbiQT",
+                "Metric": "Either In Top K",
+                "Ambiguity Type": "P"
+            },
+            "measures": "[EXM Accuracy]",
+            "outcomes": "[63.4]"
+        },
+        {
+            "subject": {
+                "Model": "+Template Diversity",
+                "Dataset": "AmbiQT",
+                "Metric": "Both In Top K",
+                "Ambiguity Type": "C"
+            },
+            "measures": "[Coverage]",
+            "outcomes": "[16.1]"
+        },
+        {
+            "subject": {
+                "Model": "+Template Diversity",
+                "Dataset": "AmbiQT",
+                "Metric": "Both In Top K",
+                "Ambiguity Type": "T"
+            },
+            "measures": "[Coverage]",
+            "outcomes": "[28.2]"
+        },
+        {
+            "subject": {
+                "Model": "+Template Diversity",
+                "Dataset": "AmbiQT",
+                "Metric": "Both In Top K",
+                "Ambiguity Type": "J"
+            },
+            "measures": "[Coverage]",
+            "outcomes": "[62.2]"
+        },
+        {
+            "subject": {
+                "Model": "+Template Diversity",
+                "Dataset": "AmbiQT",
+                "Metric": "Both In Top K",
+                "Ambiguity Type": "P"
+            },
+            "measures": "[Coverage]",
+            "outcomes": "[30.7]"
+        },
+        {
+            "subject": {
+                "Model": "+Schema Diversity (LogicalBeam)",
+                "Dataset": "AmbiQT",
+                "Metric": "Either In Top K",
+                "Ambiguity Type": "C"
+            },
+            "measures": "[EXM Accuracy]",
+            "outcomes": "[66.6]"
+        },
+        {
+            "subject": {
+                "Model": "+Schema Diversity (LogicalBeam)",
+                "Dataset": "AmbiQT",
+                "Metric": "Either In Top K",
+                "Ambiguity Type": "T"
+            },
+            "measures": "[EXM Accuracy]",
+            "outcomes": "[67.3]"
+        },
+        {
+            "subject": {
+                "Model": "+Schema Diversity (LogicalBeam)",
+                "Dataset": "AmbiQT",
+                "Metric": "Either In Top K",
+                "Ambiguity Type": "J"
+            },
+            "measures": "[EXM Accuracy]",
+            "outcomes": "[87.2]"
+        },
+        {
+            "subject": {
+                "Model": "+Schema Diversity (LogicalBeam)",
+                "Dataset": "AmbiQT",
+                "Metric": "Either In Top K",
+                "Ambiguity Type": "P"
+            },
+            "measures": "[EXM Accuracy]",
+            "outcomes": "[64.4]"
+        },
+        {
+            "subject": {
+                "Model": "+Schema Diversity (LogicalBeam)",
+                "Dataset": "AmbiQT",
+                "Metric": "Both In Top K",
+                "Ambiguity Type": "C"
+            },
+            "measures": "[Coverage]",
+            "outcomes": "[28.0]"
+        },
+        {
+            "subject": {
+                "Model": "+Schema Diversity (LogicalBeam)",
+                "Dataset": "AmbiQT",
+                "Metric": "Both In Top K",
+                "Ambiguity Type": "T"
+            },
+            "measures": "[Coverage]",
+            "outcomes": "[42.6]"
+        },
+        {
+            "subject": {
+                "Model": "+Schema Diversity (LogicalBeam)",
+                "Dataset": "AmbiQT",
+                "Metric": "Both In Top K",
+                "Ambiguity Type": "J"
+            },
+            "measures": "[Coverage]",
+            "outcomes": "[59.4]"
+        },
+        {
+            "subject": {
+                "Model": "+Schema Diversity (LogicalBeam)",
+                "Dataset": "AmbiQT",
+                "Metric": "Both In Top K",
+                "Ambiguity Type": "P"
+            },
+            "measures": "[Coverage]",
+            "outcomes": "[24.8]"
+        }
+    ],
+    "2109.10540_4": [
+        {
+            "subject": {
+                "Model": "ALIGN_P",
+                "Dataset": "WTQ",
+                "Split": "Dev"
+            },
+            "measures": "[Ex.Match]",
+            "outcomes": "[37.8\u00b10.6]"
+        },
+        {
+            "subject": {
+                "Model": "ALIGN_P",
+                "Dataset": "WTQ",
+                "Split": "Dev"
+            },
+            "measures": "[Ex.Acc]",
+            "outcomes": "[56.9\u00b10.7]"
+        },
+        {
+            "subject": {
+                "Model": "ALIGN_P",
+                "Dataset": "WTQ",
+                "Split": "Test"
+            },
+            "measures": "[Ex.Acc]",
+            "outcomes": "[46.6\u00b10.5]"
+        },
+        {
+            "subject": {
+                "Model": "ALIGN_P+BERT",
+                "Dataset": "WTQ",
+                "Split": "Dev",
+                "Encoder Enhancement": "BERT"
+            },
+            "measures": "[Ex.Match]",
+            "outcomes": "[44.7\u00b12.1]"
+        },
+        {
+            "subject": {
+                "Model": "ALIGN_P+BERT",
+                "Dataset": "WTQ",
+                "Split": "Dev",
+                "Encoder Enhancement": "BERT"
+            },
+            "measures": "[Ex.Acc]",
+            "outcomes": "[63.8\u00b11.1]"
+        },
+        {
+            "subject": {
+                "Model": "ALIGN_P+BERT",
+                "Dataset": "WTQ",
+                "Split": "Test",
+                "Encoder Enhancement": "BERT"
+            },
+            "measures": "[Ex.Acc]",
+            "outcomes": "[51.8\u00b10.4]"
+        },
+        {
+            "subject": {
+                "Model": "EtA+BERT",
+                "Dataset": "WTQ",
+                "Split": "Dev",
+                "Encoder Enhancement": "BERT"
+            },
+            "measures": "[Ex.Match]",
+            "outcomes": "[47.6\u00b12.5]"
+        },
+        {
+            "subject": {
+                "Model": "EtA+BERT",
+                "Dataset": "WTQ",
+                "Split": "Dev",
+                "Encoder Enhancement": "BERT"
+            },
+            "measures": "[Ex.Acc]",
+            "outcomes": "[66.6\u00b11.7]"
+        },
+        {
+            "subject": {
+                "Model": "EtA+BERT",
+                "Dataset": "WTQ",
+                "Split": "Test",
+                "Encoder Enhancement": "BERT"
+            },
+            "measures": "[Ex.Acc]",
+            "outcomes": "[53.8\u00b10.3]"
+        },
+        {
+            "subject": {
+                "Model": "ALIGN",
+                "Dataset": "WTQ",
+                "Split": "Dev",
+                "Extra Schema Linking Supervision": "Yes"
+            },
+            "measures": "[Ex.Match]",
+            "outcomes": "[42.2\u00b11.5]"
+        },
+        {
+            "subject": {
+                "Model": "ALIGN",
+                "Dataset": "WTQ",
+                "Split": "Dev",
+                "Extra Schema Linking Supervision": "Yes"
+            },
+            "measures": "[Ex.Acc]",
+            "outcomes": "[61.3\u00b10.8]"
+        },
+        {
+            "subject": {
+                "Model": "ALIGN",
+                "Dataset": "WTQ",
+                "Split": "Test",
+                "Extra Schema Linking Supervision": "Yes"
+            },
+            "measures": "[Ex.Acc]",
+            "outcomes": "[49.7\u00b10.4]"
+        },
+        {
+            "subject": {
+                "Model": "ALIGN+BERT",
+                "Dataset": "WTQ",
+                "Split": "Dev",
+                "Encoder Enhancement": "BERT",
+                "Extra Schema Linking Supervision": "Yes"
+            },
+            "measures": "[Ex.Match]",
+            "outcomes": "[47.2\u00b11.2]"
+        },
+        {
+            "subject": {
+                "Model": "ALIGN+BERT",
+                "Dataset": "WTQ",
+                "Split": "Dev",
+                "Encoder Enhancement": "BERT",
+                "Extra Schema Linking Supervision": "Yes"
+            },
+            "measures": "[Ex.Acc]",
+            "outcomes": "[66.5\u00b11.2]"
+        },
+        {
+            "subject": {
+                "Model": "ALIGN+BERT",
+                "Dataset": "WTQ",
+                "Split": "Test",
+                "Encoder Enhancement": "BERT",
+                "Extra Schema Linking Supervision": "Yes"
+            },
+            "measures": "[Ex.Acc]",
+            "outcomes": "[54.1\u00b10.2]"
+        }
+    ]
+}

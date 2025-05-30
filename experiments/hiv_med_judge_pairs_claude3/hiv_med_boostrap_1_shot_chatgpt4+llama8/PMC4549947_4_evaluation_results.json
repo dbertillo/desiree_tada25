@@ -1,0 +1,1548 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "executive function",
+                    "Gender": "Females",
+                    "Race/Ethnicity": "Not specified",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[Odds Ratio]",
+                "outcomes": "[1.3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "executive function",
+                    "gender": "females",
+                    "p-interaction": "0.35"
+                },
+                "measures": "[OR]",
+                "outcomes": "[1.3]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "executive function",
+                    "Gender": "Males",
+                    "Race/Ethnicity": "Not specified",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[Odds Ratio]",
+                "outcomes": [
+                    "[3.5]",
+                    "[Confidence Interval]",
+                    "[1.5\u20135.5]",
+                    "[p-value]",
+                    "[0.008]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "executive function",
+                    "gender": "males",
+                    "p-interaction": "0.35"
+                },
+                "measures": "[OR, 95% CI, p-value]",
+                "outcomes": "[3.5, 1.5\u20135.5, 0.008]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "Females",
+                    "Race/Ethnicity": "Not specified",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[Odds Ratio]",
+                "outcomes": "[0.9]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "executive function",
+                    "race/ethnicity": "Hispanics",
+                    "p-interaction": "0.05"
+                },
+                "measures": "[OR]",
+                "outcomes": "[2.6]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "Females",
+                    "Race/Ethnicity": "Not specified",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[Odds Ratio]",
+                "outcomes": "[0.9]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "executive function",
+                    "race/ethnicity": "African American",
+                    "p-interaction": "0.05"
+                },
+                "measures": "[OR, 95% CI, p-value]",
+                "outcomes": "[3.1, 2.3\u20133.5, 0.01]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "Females",
+                    "Race/Ethnicity": "Not specified",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[Odds Ratio]",
+                "outcomes": "[0.9]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "executive function",
+                    "context": "alcohol use"
+                },
+                "measures": "[OR]",
+                "outcomes": "[2.6]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "Females",
+                    "Race/Ethnicity": "Not specified",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[Odds Ratio]",
+                "outcomes": "[0.9]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "cognitive flexibility",
+                    "gender": "females",
+                    "p-intraction": "0.013"
+                },
+                "measures": "[OR]",
+                "outcomes": "[0.9]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "Males",
+                    "Race/Ethnicity": "Not specified",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[Odds Ratio]",
+                "outcomes": [
+                    "[1.8]",
+                    "[Confidence Interval]",
+                    "[1.2\u20132.9]",
+                    "[p-value]",
+                    "[0.01]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "executive function",
+                    "race/ethnicity": "Hispanics",
+                    "p-interaction": "0.05"
+                },
+                "measures": "[OR]",
+                "outcomes": "[2.6]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "Males",
+                    "Race/Ethnicity": "Not specified",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[Odds Ratio]",
+                "outcomes": [
+                    "[1.8]",
+                    "[Confidence Interval]",
+                    "[1.2\u20132.9]",
+                    "[p-value]",
+                    "[0.01]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "executive function",
+                    "race/ethnicity": "African American",
+                    "p-interaction": "0.05"
+                },
+                "measures": "[OR, 95% CI, p-value]",
+                "outcomes": "[3.1, 2.3\u20133.5, 0.01]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "Males",
+                    "Race/Ethnicity": "Not specified",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[Odds Ratio]",
+                "outcomes": [
+                    "[1.8]",
+                    "[Confidence Interval]",
+                    "[1.2\u20132.9]",
+                    "[p-value]",
+                    "[0.01]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "executive function",
+                    "context": "alcohol use"
+                },
+                "measures": "[OR]",
+                "outcomes": "[2.6]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "Males",
+                    "Race/Ethnicity": "Not specified",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[Odds Ratio]",
+                "outcomes": [
+                    "[1.8]",
+                    "[Confidence Interval]",
+                    "[1.2\u20132.9]",
+                    "[p-value]",
+                    "[0.01]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "cognitive flexibility",
+                    "gender": "males",
+                    "p-interaction": "0.013"
+                },
+                "measures": "[OR, 95% CI, p-value]",
+                "outcomes": "[1.8, 1.2\u20132.9, 0.01]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "Hispanics",
+                    "Race/Ethnicity": "Hispanics",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[Odds Ratio]",
+                "outcomes": "[2.6]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "executive function",
+                    "race/ethnicity": "Hispanics",
+                    "p-interaction": "0.05"
+                },
+                "measures": "[OR]",
+                "outcomes": "[2.6]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "Hispanics",
+                    "Race/Ethnicity": "Hispanics",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[Odds Ratio]",
+                "outcomes": "[2.6]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "executive function",
+                    "race/ethnicity": "African American",
+                    "p-interaction": "0.05"
+                },
+                "measures": "[OR, 95% CI, p-value]",
+                "outcomes": "[3.1, 2.3\u20133.5, 0.01]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "Hispanics",
+                    "Race/Ethnicity": "Hispanics",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[Odds Ratio]",
+                "outcomes": "[2.6]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "executive function",
+                    "context": "alcohol use"
+                },
+                "measures": "[OR]",
+                "outcomes": "[2.6]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "Hispanics",
+                    "Race/Ethnicity": "Hispanics",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[Odds Ratio]",
+                "outcomes": "[2.6]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "cognitive flexibility",
+                    "race/ethnicity": "Hispanics",
+                    "p-interaction": "0.72"
+                },
+                "measures": "[OR]",
+                "outcomes": "[1.9]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "Hispanics",
+                    "Race/Ethnicity": "Hispanics",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[Odds Ratio]",
+                "outcomes": "[2.6]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "cognitive flexibility",
+                    "race/ethnicity": "African American",
+                    "p-interaction": "0.72"
+                },
+                "measures": "[OR]",
+                "outcomes": "[1.5]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "Hispanics",
+                    "Race/Ethnicity": "Hispanics",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[Odds Ratio]",
+                "outcomes": "[2.6]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "cognitive flexibility",
+                    "context": "alcohol use",
+                    "p-interaction": "0.32"
+                },
+                "measures": "[OR, 95% CI, p-value]",
+                "outcomes": "[1.6, 1.4\u20132.4, 0.03]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "African American",
+                    "Race/Ethnicity": "African American",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[Odds Ratio]",
+                "outcomes": [
+                    "[3.1]",
+                    "[Confidence Interval]",
+                    "[2.3\u20133.5]",
+                    "[p-value]",
+                    "[0.01]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "executive function",
+                    "race/ethnicity": "Hispanics",
+                    "p-interaction": "0.05"
+                },
+                "measures": "[OR]",
+                "outcomes": "[2.6]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "African American",
+                    "Race/Ethnicity": "African American",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[Odds Ratio]",
+                "outcomes": [
+                    "[3.1]",
+                    "[Confidence Interval]",
+                    "[2.3\u20133.5]",
+                    "[p-value]",
+                    "[0.01]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "executive function",
+                    "race/ethnicity": "African American",
+                    "p-interaction": "0.05"
+                },
+                "measures": "[OR, 95% CI, p-value]",
+                "outcomes": "[3.1, 2.3\u20133.5, 0.01]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "African American",
+                    "Race/Ethnicity": "African American",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[Odds Ratio]",
+                "outcomes": [
+                    "[3.1]",
+                    "[Confidence Interval]",
+                    "[2.3\u20133.5]",
+                    "[p-value]",
+                    "[0.01]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "executive function",
+                    "context": "alcohol use"
+                },
+                "measures": "[OR]",
+                "outcomes": "[2.6]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "African American",
+                    "Race/Ethnicity": "African American",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[Odds Ratio]",
+                "outcomes": [
+                    "[3.1]",
+                    "[Confidence Interval]",
+                    "[2.3\u20133.5]",
+                    "[p-value]",
+                    "[0.01]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "cognitive flexibility",
+                    "race/ethnicity": "Hispanics",
+                    "p-interaction": "0.72"
+                },
+                "measures": "[OR]",
+                "outcomes": "[1.9]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "African American",
+                    "Race/Ethnicity": "African American",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[Odds Ratio]",
+                "outcomes": [
+                    "[3.1]",
+                    "[Confidence Interval]",
+                    "[2.3\u20133.5]",
+                    "[p-value]",
+                    "[0.01]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "cognitive flexibility",
+                    "race/ethnicity": "African American",
+                    "p-interaction": "0.72"
+                },
+                "measures": "[OR]",
+                "outcomes": "[1.5]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "African American",
+                    "Race/Ethnicity": "African American",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[Odds Ratio]",
+                "outcomes": [
+                    "[3.1]",
+                    "[Confidence Interval]",
+                    "[2.3\u20133.5]",
+                    "[p-value]",
+                    "[0.01]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "cognitive flexibility",
+                    "context": "alcohol use",
+                    "p-interaction": "0.32"
+                },
+                "measures": "[OR, 95% CI, p-value]",
+                "outcomes": "[1.6, 1.4\u20132.4, 0.03]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "Hispanics",
+                    "Race/Ethnicity": "Hispanics",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[p-value interaction]",
+                "outcomes": "[0.05]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "executive function",
+                    "race/ethnicity": "Hispanics",
+                    "p-interaction": "0.05"
+                },
+                "measures": "[OR]",
+                "outcomes": "[2.6]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "Hispanics",
+                    "Race/Ethnicity": "Hispanics",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[p-value interaction]",
+                "outcomes": "[0.05]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "executive function",
+                    "race/ethnicity": "African American",
+                    "p-interaction": "0.05"
+                },
+                "measures": "[OR, 95% CI, p-value]",
+                "outcomes": "[3.1, 2.3\u20133.5, 0.01]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "Hispanics",
+                    "Race/Ethnicity": "Hispanics",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[p-value interaction]",
+                "outcomes": "[0.05]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "executive function",
+                    "context": "alcohol use"
+                },
+                "measures": "[OR]",
+                "outcomes": "[2.6]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "Hispanics",
+                    "Race/Ethnicity": "Hispanics",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[p-value interaction]",
+                "outcomes": "[0.05]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "cognitive flexibility",
+                    "race/ethnicity": "Hispanics",
+                    "p-interaction": "0.72"
+                },
+                "measures": "[OR]",
+                "outcomes": "[1.9]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "Hispanics",
+                    "Race/Ethnicity": "Hispanics",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[p-value interaction]",
+                "outcomes": "[0.05]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "cognitive flexibility",
+                    "race/ethnicity": "African American",
+                    "p-interaction": "0.72"
+                },
+                "measures": "[OR]",
+                "outcomes": "[1.5]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "Hispanics",
+                    "Race/Ethnicity": "Hispanics",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[p-value interaction]",
+                "outcomes": "[0.05]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "cognitive flexibility",
+                    "context": "alcohol use",
+                    "p-interaction": "0.32"
+                },
+                "measures": "[OR, 95% CI, p-value]",
+                "outcomes": "[1.6, 1.4\u20132.4, 0.03]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "African American",
+                    "Race/Ethnicity": "African American",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[p-value interaction]",
+                "outcomes": "[0.05]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "executive function",
+                    "race/ethnicity": "Hispanics",
+                    "p-interaction": "0.05"
+                },
+                "measures": "[OR]",
+                "outcomes": "[2.6]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "African American",
+                    "Race/Ethnicity": "African American",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[p-value interaction]",
+                "outcomes": "[0.05]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "executive function",
+                    "race/ethnicity": "African American",
+                    "p-interaction": "0.05"
+                },
+                "measures": "[OR, 95% CI, p-value]",
+                "outcomes": "[3.1, 2.3\u20133.5, 0.01]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "African American",
+                    "Race/Ethnicity": "African American",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[p-value interaction]",
+                "outcomes": "[0.05]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "executive function",
+                    "context": "alcohol use"
+                },
+                "measures": "[OR]",
+                "outcomes": "[2.6]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "African American",
+                    "Race/Ethnicity": "African American",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[p-value interaction]",
+                "outcomes": "[0.05]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "cognitive flexibility",
+                    "race/ethnicity": "Hispanics",
+                    "p-interaction": "0.72"
+                },
+                "measures": "[OR]",
+                "outcomes": "[1.9]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "African American",
+                    "Race/Ethnicity": "African American",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[p-value interaction]",
+                "outcomes": "[0.05]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "cognitive flexibility",
+                    "race/ethnicity": "African American",
+                    "p-interaction": "0.72"
+                },
+                "measures": "[OR]",
+                "outcomes": "[1.5]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "African American",
+                    "Race/Ethnicity": "African American",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[p-value interaction]",
+                "outcomes": "[0.05]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "cognitive flexibility",
+                    "context": "alcohol use",
+                    "p-interaction": "0.32"
+                },
+                "measures": "[OR, 95% CI, p-value]",
+                "outcomes": "[1.6, 1.4\u20132.4, 0.03]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "Hispanics",
+                    "Race/Ethnicity": "Hispanics",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[p-value interaction]",
+                "outcomes": "[0.32]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "executive function",
+                    "race/ethnicity": "Hispanics",
+                    "p-interaction": "0.05"
+                },
+                "measures": "[OR]",
+                "outcomes": "[2.6]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "Hispanics",
+                    "Race/Ethnicity": "Hispanics",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[p-value interaction]",
+                "outcomes": "[0.32]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "executive function",
+                    "race/ethnicity": "African American",
+                    "p-interaction": "0.05"
+                },
+                "measures": "[OR, 95% CI, p-value]",
+                "outcomes": "[3.1, 2.3\u20133.5, 0.01]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "Hispanics",
+                    "Race/Ethnicity": "Hispanics",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[p-value interaction]",
+                "outcomes": "[0.32]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "executive function",
+                    "context": "alcohol use"
+                },
+                "measures": "[OR]",
+                "outcomes": "[2.6]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "Hispanics",
+                    "Race/Ethnicity": "Hispanics",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[p-value interaction]",
+                "outcomes": "[0.32]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "cognitive flexibility",
+                    "race/ethnicity": "Hispanics",
+                    "p-interaction": "0.72"
+                },
+                "measures": "[OR]",
+                "outcomes": "[1.9]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "Hispanics",
+                    "Race/Ethnicity": "Hispanics",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[p-value interaction]",
+                "outcomes": "[0.32]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "cognitive flexibility",
+                    "race/ethnicity": "African American",
+                    "p-interaction": "0.72"
+                },
+                "measures": "[OR]",
+                "outcomes": "[1.5]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "Hispanics",
+                    "Race/Ethnicity": "Hispanics",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[p-value interaction]",
+                "outcomes": "[0.32]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "cognitive flexibility",
+                    "context": "alcohol use",
+                    "p-interaction": "0.32"
+                },
+                "measures": "[OR, 95% CI, p-value]",
+                "outcomes": "[1.6, 1.4\u20132.4, 0.03]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "African American",
+                    "Race/Ethnicity": "African American",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[p-value interaction]",
+                "outcomes": "[0.72]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "executive function",
+                    "race/ethnicity": "Hispanics",
+                    "p-interaction": "0.05"
+                },
+                "measures": "[OR]",
+                "outcomes": "[2.6]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "African American",
+                    "Race/Ethnicity": "African American",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[p-value interaction]",
+                "outcomes": "[0.72]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "executive function",
+                    "race/ethnicity": "African American",
+                    "p-interaction": "0.05"
+                },
+                "measures": "[OR, 95% CI, p-value]",
+                "outcomes": "[3.1, 2.3\u20133.5, 0.01]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "African American",
+                    "Race/Ethnicity": "African American",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[p-value interaction]",
+                "outcomes": "[0.72]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "executive function",
+                    "context": "alcohol use"
+                },
+                "measures": "[OR]",
+                "outcomes": "[2.6]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "African American",
+                    "Race/Ethnicity": "African American",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[p-value interaction]",
+                "outcomes": "[0.72]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "cognitive flexibility",
+                    "race/ethnicity": "Hispanics",
+                    "p-interaction": "0.72"
+                },
+                "measures": "[OR]",
+                "outcomes": "[1.9]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "African American",
+                    "Race/Ethnicity": "African American",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[p-value interaction]",
+                "outcomes": "[0.72]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "cognitive flexibility",
+                    "race/ethnicity": "African American",
+                    "p-interaction": "0.72"
+                },
+                "measures": "[OR]",
+                "outcomes": "[1.5]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "Females",
+                    "Race/Ethnicity": "Not specified",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[p-value interaction]",
+                "outcomes": "[0.013]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "executive function",
+                    "race/ethnicity": "Hispanics",
+                    "p-interaction": "0.05"
+                },
+                "measures": "[OR]",
+                "outcomes": "[2.6]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "Females",
+                    "Race/Ethnicity": "Not specified",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[p-value interaction]",
+                "outcomes": "[0.013]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "executive function",
+                    "race/ethnicity": "African American",
+                    "p-interaction": "0.05"
+                },
+                "measures": "[OR, 95% CI, p-value]",
+                "outcomes": "[3.1, 2.3\u20133.5, 0.01]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "Females",
+                    "Race/Ethnicity": "Not specified",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[p-value interaction]",
+                "outcomes": "[0.013]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "executive function",
+                    "context": "alcohol use"
+                },
+                "measures": "[OR]",
+                "outcomes": "[2.6]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "Females",
+                    "Race/Ethnicity": "Not specified",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[p-value interaction]",
+                "outcomes": "[0.013]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "cognitive flexibility",
+                    "race/ethnicity": "Hispanics",
+                    "p-interaction": "0.72"
+                },
+                "measures": "[OR]",
+                "outcomes": "[1.9]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "Females",
+                    "Race/Ethnicity": "Not specified",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[p-value interaction]",
+                "outcomes": "[0.013]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "cognitive flexibility",
+                    "context": "alcohol use",
+                    "p-interaction": "0.32"
+                },
+                "measures": "[OR, 95% CI, p-value]",
+                "outcomes": "[1.6, 1.4\u20132.4, 0.03]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "Males",
+                    "Race/Ethnicity": "Not specified",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[p-value interaction]",
+                "outcomes": "[0.35]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "executive function",
+                    "race/ethnicity": "Hispanics",
+                    "p-interaction": "0.05"
+                },
+                "measures": "[OR]",
+                "outcomes": "[2.6]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "Males",
+                    "Race/Ethnicity": "Not specified",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[p-value interaction]",
+                "outcomes": "[0.35]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "executive function",
+                    "race/ethnicity": "African American",
+                    "p-interaction": "0.05"
+                },
+                "measures": "[OR, 95% CI, p-value]",
+                "outcomes": "[3.1, 2.3\u20133.5, 0.01]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "Males",
+                    "Race/Ethnicity": "Not specified",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[p-value interaction]",
+                "outcomes": "[0.35]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "executive function",
+                    "context": "alcohol use"
+                },
+                "measures": "[OR]",
+                "outcomes": "[2.6]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "Males",
+                    "Race/Ethnicity": "Not specified",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[p-value interaction]",
+                "outcomes": "[0.35]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "cognitive flexibility",
+                    "race/ethnicity": "Hispanics",
+                    "p-interaction": "0.72"
+                },
+                "measures": "[OR]",
+                "outcomes": "[1.9]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gene": "DRD2",
+                    "SNP": "rs6277",
+                    "Phenotype": "cognitive flexibility",
+                    "Gender": "Males",
+                    "Race/Ethnicity": "Not specified",
+                    "Alcohol use": "Not specified",
+                    "Hardy\u2013Weinberg equilibrium": "Yes"
+                },
+                "measures": "[p-value interaction]",
+                "outcomes": "[0.35]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "DRD2 associations with cognitive flexibility and executive function",
+                    "variant": "DRD2 rs6277",
+                    "trait": "cognitive flexibility",
+                    "context": "alcohol use",
+                    "p-interaction": "0.32"
+                },
+                "measures": "[OR, 95% CI, p-value]",
+                "outcomes": "[1.6, 1.4\u20132.4, 0.03]"
+            },
+            "match": "no"
+        }
+    ],
+    "total_extracted_claims": 12,
+    "total_ground_truth_claims": 10,
+    "number_of_matches": 5
+}

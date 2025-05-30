@@ -1,0 +1,260 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study type": "meta regression",
+                    "dependent variable": "not specified",
+                    "independent variable": "length of follow-up",
+                    "estimate": "-0.0138",
+                    "standard error": "0.0666",
+                    "confidence interval": "(-0.1322, 0.1046)"
+                },
+                "measures": "[estimate]",
+                "outcomes": "[-0.0138]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Covariate": "Length of follow-up",
+                    "Method": "Meta-regression"
+                },
+                "measures": "[Estimate, S.E, 95% CI]",
+                "outcomes": "[-0.0138, 0.0666, (-0.1322\u20130.1046)]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study type": "meta regression",
+                    "dependent variable": "not specified",
+                    "independent variable": "median CD4 count",
+                    "estimate": "0.0034",
+                    "standard error": "0.0066",
+                    "confidence interval": "(-0.0150, 0.0079)"
+                },
+                "measures": "[estimate]",
+                "outcomes": "[0.0034]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Covariate": "Median CD4 count",
+                    "Method": "Meta-regression"
+                },
+                "measures": "[Estimate, S.E, 95% CI]",
+                "outcomes": "[-0.0034, 0.0066, (-0.0150\u20130.0079)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study type": "meta regression",
+                    "dependent variable": "not specified",
+                    "independent variable": "median CD4 count",
+                    "estimate": "0.0034",
+                    "standard error": "0.0066",
+                    "confidence interval": "(-0.0150, 0.0079)"
+                },
+                "measures": "[estimate]",
+                "outcomes": "[0.0034]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Covariate": "Median age",
+                    "Method": "Meta-regression"
+                },
+                "measures": "[Estimate, S.E, 95% CI]",
+                "outcomes": "[0.0415, 0.0503, (-0.1013\u20130.0755)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study type": "meta regression",
+                    "dependent variable": "not specified",
+                    "independent variable": "median CD4 count",
+                    "estimate": "0.0034",
+                    "standard error": "0.0066",
+                    "confidence interval": "(-0.0150, 0.0079)"
+                },
+                "measures": "[estimate]",
+                "outcomes": "[0.0034]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Covariate": "Year of publication",
+                    "Method": "Meta-regression"
+                },
+                "measures": "[Estimate, S.E, 95% CI]",
+                "outcomes": "[0.0637, 0.0815, (-0.1736\u20130.0980)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study type": "meta regression",
+                    "dependent variable": "not specified",
+                    "independent variable": "median CD4 count",
+                    "estimate": "0.0034",
+                    "standard error": "0.0066",
+                    "confidence interval": "(-0.0150, 0.0079)"
+                },
+                "measures": "[estimate]",
+                "outcomes": "[0.0034]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Covariate": "Female proportion",
+                    "Method": "Meta-regression"
+                },
+                "measures": "[Estimate, S.E, 95% CI]",
+                "outcomes": "[-0.5305, 1.4575, (-3.6792\u20132.6183)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study type": "meta regression",
+                    "dependent variable": "not specified",
+                    "independent variable": "median age",
+                    "estimate": "0.0415",
+                    "standard error": "0.0503",
+                    "confidence interval": "(-0.1013, 0.0755)"
+                },
+                "measures": "[estimate]",
+                "outcomes": "[0.0415]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Covariate": "Median CD4 count",
+                    "Method": "Meta-regression"
+                },
+                "measures": "[Estimate, S.E, 95% CI]",
+                "outcomes": "[-0.0034, 0.0066, (-0.0150\u20130.0079)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study type": "meta regression",
+                    "dependent variable": "not specified",
+                    "independent variable": "median age",
+                    "estimate": "0.0415",
+                    "standard error": "0.0503",
+                    "confidence interval": "(-0.1013, 0.0755)"
+                },
+                "measures": "[estimate]",
+                "outcomes": "[0.0415]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Covariate": "Median age",
+                    "Method": "Meta-regression"
+                },
+                "measures": "[Estimate, S.E, 95% CI]",
+                "outcomes": "[0.0415, 0.0503, (-0.1013\u20130.0755)]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study type": "meta regression",
+                    "dependent variable": "not specified",
+                    "independent variable": "year of publication",
+                    "estimate": "0.0637",
+                    "standard error": "0.0815",
+                    "confidence interval": "(-0.1736, 0.0980)"
+                },
+                "measures": "[estimate]",
+                "outcomes": "[0.0637]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Covariate": "Median CD4 count",
+                    "Method": "Meta-regression"
+                },
+                "measures": "[Estimate, S.E, 95% CI]",
+                "outcomes": "[-0.0034, 0.0066, (-0.0150\u20130.0079)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study type": "meta regression",
+                    "dependent variable": "not specified",
+                    "independent variable": "year of publication",
+                    "estimate": "0.0637",
+                    "standard error": "0.0815",
+                    "confidence interval": "(-0.1736, 0.0980)"
+                },
+                "measures": "[estimate]",
+                "outcomes": "[0.0637]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Covariate": "Year of publication",
+                    "Method": "Meta-regression"
+                },
+                "measures": "[Estimate, S.E, 95% CI]",
+                "outcomes": "[0.0637, 0.0815, (-0.1736\u20130.0980)]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study type": "meta regression",
+                    "dependent variable": "not specified",
+                    "independent variable": "female proportion",
+                    "estimate": "-0.5305",
+                    "standard error": "1.4575",
+                    "confidence interval": "(-3.6792, 2.6183)"
+                },
+                "measures": "[estimate]",
+                "outcomes": "[-0.5305]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Covariate": "Median CD4 count",
+                    "Method": "Meta-regression"
+                },
+                "measures": "[Estimate, S.E, 95% CI]",
+                "outcomes": "[-0.0034, 0.0066, (-0.0150\u20130.0079)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study type": "meta regression",
+                    "dependent variable": "not specified",
+                    "independent variable": "female proportion",
+                    "estimate": "-0.5305",
+                    "standard error": "1.4575",
+                    "confidence interval": "(-3.6792, 2.6183)"
+                },
+                "measures": "[estimate]",
+                "outcomes": "[-0.5305]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Covariate": "Female proportion",
+                    "Method": "Meta-regression"
+                },
+                "measures": "[Estimate, S.E, 95% CI]",
+                "outcomes": "[-0.5305, 1.4575, (-3.6792\u20132.6183)]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 5,
+    "total_ground_truth_claims": 5,
+    "number_of_matches": 4
+}

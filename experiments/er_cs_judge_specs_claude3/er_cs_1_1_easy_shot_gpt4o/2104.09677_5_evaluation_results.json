@@ -1,0 +1,99 @@
+{
+    "matched_specifications": [
+        [
+            "Dataset",
+            "German census data sets"
+        ],
+        [
+            "Runtime Step",
+            "Attribute selection step (Algorithm1)"
+        ],
+        [
+            "Threshold st",
+            "0.8"
+        ],
+        [
+            "Dataset",
+            "German census data sets"
+        ],
+        [
+            "Runtime Step",
+            "Signature generation step (Algorithm2)"
+        ],
+        [
+            "Threshold st",
+            "0.8"
+        ],
+        [
+            "Dataset",
+            "German census data sets"
+        ],
+        [
+            "Runtime Step",
+            "Record matching step (Algorithm3)"
+        ],
+        [
+            "Threshold st",
+            "0.8"
+        ],
+        [
+            "Dataset",
+            "German census data sets"
+        ],
+        [
+            "Threshold st",
+            "0.8"
+        ],
+        [
+            "Dataset",
+            "German census data sets"
+        ],
+        [
+            "Threshold st",
+            "0.8"
+        ]
+    ],
+    "unmatched_specifications": [
+        [
+            "Linkage Quality Metric",
+            "Precision"
+        ],
+        [
+            "Linkage Quality Metric",
+            "Recall"
+        ]
+    ],
+    "unmatched_extracted_keys": [
+        "Linkage Quality Metric"
+    ],
+    "unmatched_extracted_values": [
+        "Precision",
+        "Recall"
+    ],
+    "unmatched_ground_truth_keys": [
+        "Score weight",
+        "Attribute selection threshold",
+        "Algorithm"
+    ],
+    "unmatched_ground_truth_values": [
+        "0.6",
+        "Record matching",
+        "Signature generation",
+        "Attribute selection",
+        "0.5"
+    ],
+    "mapped_keys": {
+        "Dataset": "Dataset",
+        "Runtime Step": "Step",
+        "Threshold st": "Similarity threshold"
+    },
+    "mapped_values": {
+        "0.8": "0.8",
+        "German census data sets": "German census data sets",
+        "Attribute selection step (Algorithm1)": "Algorithm1",
+        "Signature generation step (Algorithm2)": "Algorithm2",
+        "Record matching step (Algorithm3)": "Algorithm3"
+    },
+    "precision": 0.8666666666666667,
+    "recall": 0.5
+}

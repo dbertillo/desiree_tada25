@@ -1,0 +1,591 @@
+{
+    "matched_specifications": [
+        [
+            "model",
+            "pointer-sql"
+        ],
+        [
+            "data_split",
+            "dev"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ],
+        [
+            "model",
+            "pointer-sql"
+        ],
+        [
+            "data_split",
+            "dev"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ],
+        [
+            "model",
+            "pointer-sql"
+        ],
+        [
+            "data_split",
+            "test"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ],
+        [
+            "model",
+            "pointer-sql"
+        ],
+        [
+            "data_split",
+            "test"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ],
+        [
+            "model",
+            "pointer-sql + eg"
+        ],
+        [
+            "beam_size",
+            "3"
+        ],
+        [
+            "data_split",
+            "dev"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ],
+        [
+            "model",
+            "pointer-sql + eg"
+        ],
+        [
+            "beam_size",
+            "3"
+        ],
+        [
+            "data_split",
+            "dev"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ],
+        [
+            "model",
+            "pointer-sql + eg"
+        ],
+        [
+            "beam_size",
+            "3"
+        ],
+        [
+            "data_split",
+            "test"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ],
+        [
+            "model",
+            "pointer-sql + eg"
+        ],
+        [
+            "beam_size",
+            "3"
+        ],
+        [
+            "data_split",
+            "test"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ],
+        [
+            "model",
+            "pointer-sql + eg"
+        ],
+        [
+            "beam_size",
+            "5"
+        ],
+        [
+            "data_split",
+            "dev"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ],
+        [
+            "model",
+            "pointer-sql + eg"
+        ],
+        [
+            "beam_size",
+            "5"
+        ],
+        [
+            "data_split",
+            "dev"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ],
+        [
+            "model",
+            "pointer-sql + eg"
+        ],
+        [
+            "beam_size",
+            "5"
+        ],
+        [
+            "data_split",
+            "test"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ],
+        [
+            "model",
+            "pointer-sql + eg"
+        ],
+        [
+            "beam_size",
+            "5"
+        ],
+        [
+            "data_split",
+            "test"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ],
+        [
+            "model",
+            "coarse2fine"
+        ],
+        [
+            "data_split",
+            "dev"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ],
+        [
+            "model",
+            "coarse2fine"
+        ],
+        [
+            "data_split",
+            "dev"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ],
+        [
+            "model",
+            "coarse2fine"
+        ],
+        [
+            "data_split",
+            "test"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ],
+        [
+            "model",
+            "coarse2fine"
+        ],
+        [
+            "data_split",
+            "test"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ],
+        [
+            "beam_size",
+            "3"
+        ],
+        [
+            "data_split",
+            "dev"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ],
+        [
+            "beam_size",
+            "3"
+        ],
+        [
+            "data_split",
+            "dev"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ],
+        [
+            "beam_size",
+            "3"
+        ],
+        [
+            "data_split",
+            "test"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ],
+        [
+            "beam_size",
+            "3"
+        ],
+        [
+            "data_split",
+            "test"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ],
+        [
+            "beam_size",
+            "5"
+        ],
+        [
+            "data_split",
+            "dev"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ],
+        [
+            "beam_size",
+            "5"
+        ],
+        [
+            "data_split",
+            "dev"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ],
+        [
+            "beam_size",
+            "5"
+        ],
+        [
+            "data_split",
+            "test"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ],
+        [
+            "beam_size",
+            "5"
+        ],
+        [
+            "data_split",
+            "test"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ]
+    ],
+    "unmatched_specifications": [
+        [
+            "accuracy_type",
+            "syntactical accuracy"
+        ],
+        [
+            "description",
+            "syntactical accuracy corresponds to the ratio of predictions that are exactly the ground truth sql query"
+        ],
+        [
+            "accuracy_type",
+            "execution accuracy"
+        ],
+        [
+            "description",
+            "execution accuracy corresponds to the ratio of predictions that return the same result as the ground truth when executed"
+        ],
+        [
+            "accuracy_type",
+            "syntactical accuracy"
+        ],
+        [
+            "description",
+            "syntactical accuracy corresponds to the ratio of predictions that are exactly the ground truth sql query"
+        ],
+        [
+            "accuracy_type",
+            "execution accuracy"
+        ],
+        [
+            "description",
+            "execution accuracy corresponds to the ratio of predictions that return the same result as the ground truth when executed"
+        ],
+        [
+            "accuracy_type",
+            "syntactical accuracy"
+        ],
+        [
+            "description",
+            "model outputs are generated using the execution-guided strategy"
+        ],
+        [
+            "accuracy_type",
+            "execution accuracy"
+        ],
+        [
+            "description",
+            "model outputs are generated using the execution-guided strategy"
+        ],
+        [
+            "accuracy_type",
+            "syntactical accuracy"
+        ],
+        [
+            "description",
+            "model outputs are generated using the execution-guided strategy"
+        ],
+        [
+            "accuracy_type",
+            "execution accuracy"
+        ],
+        [
+            "description",
+            "model outputs are generated using the execution-guided strategy"
+        ],
+        [
+            "accuracy_type",
+            "syntactical accuracy"
+        ],
+        [
+            "description",
+            "model outputs are generated using the execution-guided strategy"
+        ],
+        [
+            "accuracy_type",
+            "execution accuracy"
+        ],
+        [
+            "description",
+            "model outputs are generated using the execution-guided strategy"
+        ],
+        [
+            "accuracy_type",
+            "syntactical accuracy"
+        ],
+        [
+            "description",
+            "model outputs are generated using the execution-guided strategy"
+        ],
+        [
+            "accuracy_type",
+            "execution accuracy"
+        ],
+        [
+            "description",
+            "model outputs are generated using the execution-guided strategy"
+        ],
+        [
+            "accuracy_type",
+            "syntactical accuracy"
+        ],
+        [
+            "description",
+            "syntactical accuracy corresponds to the ratio of predictions that are exactly the ground truth sql query"
+        ],
+        [
+            "accuracy_type",
+            "execution accuracy"
+        ],
+        [
+            "description",
+            "execution accuracy corresponds to the ratio of predictions that return the same result as the ground truth when executed"
+        ],
+        [
+            "accuracy_type",
+            "syntactical accuracy"
+        ],
+        [
+            "description",
+            "syntactical accuracy corresponds to the ratio of predictions that are exactly the ground truth sql query"
+        ],
+        [
+            "accuracy_type",
+            "execution accuracy"
+        ],
+        [
+            "description",
+            "execution accuracy corresponds to the ratio of predictions that return the same result as the ground truth when executed"
+        ],
+        [
+            "model",
+            "coarse2fine + eg"
+        ],
+        [
+            "accuracy_type",
+            "syntactical accuracy"
+        ],
+        [
+            "description",
+            "model outputs are generated using the execution-guided strategy"
+        ],
+        [
+            "model",
+            "coarse2fine + eg"
+        ],
+        [
+            "accuracy_type",
+            "execution accuracy"
+        ],
+        [
+            "description",
+            "model outputs are generated using the execution-guided strategy"
+        ],
+        [
+            "model",
+            "coarse2fine + eg"
+        ],
+        [
+            "accuracy_type",
+            "syntactical accuracy"
+        ],
+        [
+            "description",
+            "model outputs are generated using the execution-guided strategy"
+        ],
+        [
+            "model",
+            "coarse2fine + eg"
+        ],
+        [
+            "accuracy_type",
+            "execution accuracy"
+        ],
+        [
+            "description",
+            "model outputs are generated using the execution-guided strategy"
+        ],
+        [
+            "model",
+            "coarse2fine + eg"
+        ],
+        [
+            "accuracy_type",
+            "syntactical accuracy"
+        ],
+        [
+            "description",
+            "model outputs are generated using the execution-guided strategy"
+        ],
+        [
+            "model",
+            "coarse2fine + eg"
+        ],
+        [
+            "accuracy_type",
+            "execution accuracy"
+        ],
+        [
+            "description",
+            "model outputs are generated using the execution-guided strategy"
+        ],
+        [
+            "model",
+            "coarse2fine + eg"
+        ],
+        [
+            "accuracy_type",
+            "syntactical accuracy"
+        ],
+        [
+            "description",
+            "model outputs are generated using the execution-guided strategy"
+        ],
+        [
+            "model",
+            "coarse2fine + eg"
+        ],
+        [
+            "accuracy_type",
+            "execution accuracy"
+        ],
+        [
+            "description",
+            "model outputs are generated using the execution-guided strategy"
+        ]
+    ],
+    "unmatched_extracted_keys": [
+        "accuracy_type",
+        "description"
+    ],
+    "unmatched_extracted_values": [
+        "coarse2fine + eg",
+        "syntactical accuracy",
+        "execution accuracy",
+        "syntactical accuracy corresponds to the ratio of predictions that are exactly the ground truth sql query",
+        "execution accuracy corresponds to the ratio of predictions that return the same result as the ground truth when executed",
+        "model outputs are generated using the execution-guided strategy"
+    ],
+    "unmatched_ground_truth_keys": [
+        "strategy",
+        "unit"
+    ],
+    "unmatched_ground_truth_values": [
+        "coarse2fine + eg (3)",
+        "pointer-sql + eg (5)",
+        "coarse2fine + eg (5)",
+        "%",
+        "pointer-sql + eg (3)"
+    ],
+    "mapped_keys": {
+        "model": "model",
+        "dataset": "dataset",
+        "data_split": "split",
+        "beam_size": "beam size"
+    },
+    "mapped_values": {
+        "wikisql": "wikisql",
+        "coarse2fine": "coarse2fine",
+        "pointer-sql": "pointer-sql",
+        "test": "test",
+        "dev": "dev",
+        "3": "3",
+        "5": "5",
+        "pointer-sql + eg": "execution-guided"
+    },
+    "precision": 0.5882352941176471,
+    "recall": 0.625
+}

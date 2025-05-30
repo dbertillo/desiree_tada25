@@ -1,0 +1,437 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Top 15 significant upstream transcription regulators",
+                    "regulation": "Inhibition",
+                    "upstream regulator": "TP53",
+                    "activation z-score definition": "statistical parameter that determines whether an upstream transcription regulator has significantly more \"activated\" predictions than \"inhibited\" predictions (z>0) or vice versa (z<0)",
+                    "p-value of overlap definition": "measures whether there is a statistically significant overlap between the dataset genes and the genes that are regulated by a transcriptional regulator",
+                    "p-value calculation method": "Fisher's Exact Test",
+                    "p-value significance threshold": "< 0.01"
+                },
+                "measures": "[activation z-score, p-value of overlap]",
+                "outcomes": "[-2.353, 3.34\u00d710^-32]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "TP53",
+                    "Regulation Type": "Inhibition",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[-2.353, 3.34E-32]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Top 15 significant upstream transcription regulators",
+                    "regulation": "Inhibition",
+                    "upstream regulator": "NUPR1",
+                    "activation z-score definition": "statistical parameter that determines whether an upstream transcription regulator has significantly more \"activated\" predictions than \"inhibited\" predictions (z>0) or vice versa (z<0)",
+                    "p-value of overlap definition": "measures whether there is a statistically significant overlap between the dataset genes and the genes that are regulated by a transcriptional regulator",
+                    "p-value calculation method": "Fisher's Exact Test",
+                    "p-value significance threshold": "< 0.01"
+                },
+                "measures": "[log ratio, activation z-score, p-value of overlap]",
+                "outcomes": "[-2.52, -3.977, 4.62\u00d710^-13]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "NUPR1",
+                    "Regulation Type": "Inhibition",
+                    "Log Ratio": "-2.52",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[-3.977, 4.62E-13]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Top 15 significant upstream transcription regulators",
+                    "regulation": "Inhibition",
+                    "upstream regulator": "NKX2-3",
+                    "activation z-score definition": "statistical parameter that determines whether an upstream transcription regulator has significantly more \"activated\" predictions than \"inhibited\" predictions (z>0) or vice versa (z<0)",
+                    "p-value of overlap definition": "measures whether there is a statistically significant overlap between the dataset genes and the genes that are regulated by a transcriptional regulator",
+                    "p-value calculation method": "Fisher's Exact Test",
+                    "p-value significance threshold": "< 0.01"
+                },
+                "measures": "[activation z-score, p-value of overlap]",
+                "outcomes": "[-3.455, 5.88\u00d710^-12]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "NKX2-3",
+                    "Regulation Type": "Inhibition",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[-3.455, 5.88E-12]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Top 15 significant upstream transcription regulators",
+                    "regulation": "Inhibition",
+                    "upstream regulator": "HNF1A",
+                    "activation z-score definition": "statistical parameter that determines whether an upstream transcription regulator has significantly more \"activated\" predictions than \"inhibited\" predictions (z>0) or vice versa (z<0)",
+                    "p-value of overlap definition": "measures whether there is a statistically significant overlap between the dataset genes and the genes that are regulated by a transcriptional regulator",
+                    "p-value calculation method": "Fisher's Exact Test",
+                    "p-value significance threshold": "< 0.01"
+                },
+                "measures": "[activation z-score, p-value of overlap]",
+                "outcomes": "[-2.359, 8.82\u00d710^-12]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "HNF1A",
+                    "Regulation Type": "Inhibition",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[-2.359, 8.82E-12]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Top 15 significant upstream transcription regulators",
+                    "regulation": "Inhibition",
+                    "upstream regulator": "CDKN2A",
+                    "activation z-score definition": "statistical parameter that determines whether an upstream transcription regulator has significantly more \"activated\" predictions than \"inhibited\" predictions (z>0) or vice versa (z<0)",
+                    "p-value of overlap definition": "measures whether there is a statistically significant overlap between the dataset genes and the genes that are regulated by a transcriptional regulator",
+                    "p-value calculation method": "Fisher's Exact Test",
+                    "p-value significance threshold": "< 0.01"
+                },
+                "measures": "[log ratio, activation z-score, p-value of overlap]",
+                "outcomes": "[1.737, -3.219, 1.34\u00d710^-11]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "CDKN2A",
+                    "Regulation Type": "Inhibition",
+                    "Log Ratio": "1.737",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[-3.219, 1.34E-11]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Top 15 significant upstream transcription regulators",
+                    "regulation": "Inhibition",
+                    "upstream regulator": "estrogen receptor",
+                    "activation z-score definition": "statistical parameter that determines whether an upstream transcription regulator has significantly more \"activated\" predictions than \"inhibited\" predictions (z>0) or vice versa (z<0)",
+                    "p-value of overlap definition": "measures whether there is a statistically significant overlap between the dataset genes and the genes that are regulated by a transcriptional regulator",
+                    "p-value calculation method": "Fisher's Exact Test",
+                    "p-value significance threshold": "< 0.01"
+                },
+                "measures": "[activation z-score, p-value of overlap]",
+                "outcomes": "[-2.299, 9.57\u00d710^-10]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "estrogen receptor",
+                    "Regulation Type": "Inhibition",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[-2.299, 9.57E-10]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Top 15 significant upstream transcription regulators",
+                    "regulation": "Inhibition",
+                    "upstream regulator": "RB1",
+                    "activation z-score definition": "statistical parameter that determines whether an upstream transcription regulator has significantly more \"activated\" predictions than \"inhibited\" predictions (z>0) or vice versa (z<0)",
+                    "p-value of overlap definition": "measures whether there is a statistically significant overlap between the dataset genes and the genes that are regulated by a transcriptional regulator",
+                    "p-value calculation method": "Fisher's Exact Test",
+                    "p-value significance threshold": "< 0.01"
+                },
+                "measures": "[activation z-score, p-value of overlap]",
+                "outcomes": "[-4.286, 3.74\u00d710^-08]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "RB1",
+                    "Regulation Type": "Inhibition",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[-4.286, 3.74E-08]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Top 15 significant upstream transcription regulators",
+                    "regulation": "Inhibition",
+                    "upstream regulator": "TCF3",
+                    "activation z-score definition": "statistical parameter that determines whether an upstream transcription regulator has significantly more \"activated\" predictions than \"inhibited\" predictions (z>0) or vice versa (z<0)",
+                    "p-value of overlap definition": "measures whether there is a statistically significant overlap between the dataset genes and the genes that are regulated by a transcriptional regulator",
+                    "p-value calculation method": "Fisher's Exact Test",
+                    "p-value significance threshold": "< 0.01"
+                },
+                "measures": "[activation z-score, p-value of overlap]",
+                "outcomes": "[-3.116, 4.32\u00d710^-08]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "TCF3",
+                    "Regulation Type": "Inhibition",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[-3.116, 4.32E-08]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Top 15 significant upstream transcription regulators",
+                    "regulation": "Inhibition",
+                    "upstream regulator": "TRIM24",
+                    "activation z-score definition": "statistical parameter that determines whether an upstream transcription regulator has significantly more \"activated\" predictions than \"inhibited\" predictions (z>0) or vice versa (z<0)",
+                    "p-value of overlap definition": "measures whether there is a statistically significant overlap between the dataset genes and the genes that are regulated by a transcriptional regulator",
+                    "p-value calculation method": "Fisher's Exact Test",
+                    "p-value significance threshold": "< 0.01"
+                },
+                "measures": "[activation z-score, p-value of overlap]",
+                "outcomes": "[-3.714, 6.26\u00d710^-07]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "TRIM24",
+                    "Regulation Type": "Inhibition",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[-3.714, 6.26E-07]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Top 15 significant upstream transcription regulators",
+                    "regulation": "Inhibition",
+                    "upstream regulator": "BCL6",
+                    "activation z-score definition": "statistical parameter that determines whether an upstream transcription regulator has significantly more \"activated\" predictions than \"inhibited\" predictions (z>0) or vice versa (z<0)",
+                    "p-value of overlap definition": "measures whether there is a statistically significant overlap between the dataset genes and the genes that are regulated by a transcriptional regulator",
+                    "p-value calculation method": "Fisher's Exact Test",
+                    "p-value significance threshold": "< 0.01"
+                },
+                "measures": "[activation z-score, p-value of overlap]",
+                "outcomes": "[-2.313, 1.60\u00d710^-06]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "BCL6",
+                    "Regulation Type": "Inhibition",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[-2.313, 1.60E-06]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Top 15 significant upstream transcription regulators",
+                    "regulation": "Inhibition",
+                    "upstream regulator": "NR5A2",
+                    "activation z-score definition": "statistical parameter that determines whether an upstream transcription regulator has significantly more \"activated\" predictions than \"inhibited\" predictions (z>0) or vice versa (z<0)",
+                    "p-value of overlap definition": "measures whether there is a statistically significant overlap between the dataset genes and the genes that are regulated by a transcriptional regulator",
+                    "p-value calculation method": "Fisher's Exact Test",
+                    "p-value significance threshold": "< 0.01"
+                },
+                "measures": "[log ratio, activation z-score, p-value of overlap]",
+                "outcomes": "[-2.876, -2.7, 7.26\u00d710^-06]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "NR5A2",
+                    "Regulation Type": "Inhibition",
+                    "Log Ratio": "-2.876",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[-2.7, 7.26E-06]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Top 15 significant upstream transcription regulators",
+                    "regulation": "Inhibition",
+                    "upstream regulator": "SATB1",
+                    "activation z-score definition": "statistical parameter that determines whether an upstream transcription regulator has significantly more \"activated\" predictions than \"inhibited\" predictions (z>0) or vice versa (z<0)",
+                    "p-value of overlap definition": "measures whether there is a statistically significant overlap between the dataset genes and the genes that are regulated by a transcriptional regulator",
+                    "p-value calculation method": "Fisher's Exact Test",
+                    "p-value significance threshold": "< 0.01"
+                },
+                "measures": "[log ratio, activation z-score, p-value of overlap]",
+                "outcomes": "[-0.814, -2.003, 1.09\u00d710^-05]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "SATB1",
+                    "Regulation Type": "Inhibition",
+                    "Log Ratio": "-0814",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[-2.003, 1.09E-05]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Top 15 significant upstream transcription regulators",
+                    "regulation": "Inhibition",
+                    "upstream regulator": "IRF4",
+                    "activation z-score definition": "statistical parameter that determines whether an upstream transcription regulator has significantly more \"activated\" predictions than \"inhibited\" predictions (z>0) or vice versa (z<0)",
+                    "p-value of overlap definition": "measures whether there is a statistically significant overlap between the dataset genes and the genes that are regulated by a transcriptional regulator",
+                    "p-value calculation method": "Fisher's Exact Test",
+                    "p-value significance threshold": "< 0.01"
+                },
+                "measures": "[log ratio, activation z-score, p-value of overlap]",
+                "outcomes": "[2.115, -2.41, 4.24\u00d710^-05]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "IRF4",
+                    "Regulation Type": "Inhibition",
+                    "Log Ratio": "2.115",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[-2.41, 4.24E-05]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Top 15 significant upstream transcription regulators",
+                    "regulation": "Inhibition",
+                    "upstream regulator": "RBL1",
+                    "activation z-score definition": "statistical parameter that determines whether an upstream transcription regulator has significantly more \"activated\" predictions than \"inhibited\" predictions (z>0) or vice versa (z<0)",
+                    "p-value of overlap definition": "measures whether there is a statistically significant overlap between the dataset genes and the genes that are regulated by a transcriptional regulator",
+                    "p-value calculation method": "Fisher's Exact Test",
+                    "p-value significance threshold": "< 0.01"
+                },
+                "measures": "[activation z-score, p-value of overlap]",
+                "outcomes": "[-3.124, 1.72\u00d710^-04]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "RBL1",
+                    "Regulation Type": "Inhibition",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[-3.124, 1.72E-04]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Top 15 significant upstream transcription regulators",
+                    "regulation": "Inhibition",
+                    "upstream regulator": "SPDEF",
+                    "activation z-score definition": "statistical parameter that determines whether an upstream transcription regulator has significantly more \"activated\" predictions than \"inhibited\" predictions (z>0) or vice versa (z<0)",
+                    "p-value of overlap definition": "measures whether there is a statistically significant overlap between the dataset genes and the genes that are regulated by a transcriptional regulator",
+                    "p-value calculation method": "Fisher's Exact Test",
+                    "p-value significance threshold": "< 0.01"
+                },
+                "measures": "[activation z-score, p-value of overlap]",
+                "outcomes": "[-2.887, 2.39\u00d710^-04]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "SPDEF",
+                    "Regulation Type": "Inhibition",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[-2.887, 2.39E-04]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Top 15 significant upstream transcription regulators",
+                    "regulation": "Activation",
+                    "upstream regulator": "STAT3",
+                    "activation z-score definition": "statistical parameter that determines whether an upstream transcription regulator has significantly more \"activated\" predictions than \"inhibited\" predictions (z>0) or vice versa (z<0)",
+                    "p-value of overlap definition": "measures whether there is a statistically significant overlap between the dataset genes and the genes that are regulated by a transcriptional regulator",
+                    "p-value calculation method": "Fisher's Exact Test",
+                    "p-value significance threshold": "< 0.01"
+                },
+                "measures": "[activation z-score, p-value of overlap]",
+                "outcomes": "[2.924, 5.78\u00d710^-19]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "STAT3",
+                    "Regulation Type": "Activation",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[2.924, 5.78E-19]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Top 15 significant upstream transcription regulators",
+                    "regulation": "Activation",
+                    "upstream regulator": "CTNNB1",
+                    "activation z-score definition": "statistical parameter that determines whether an upstream transcription regulator has significantly more \"activated\" predictions than \"inhibited\" predictions (z>0) or vice versa (z<0)",
+                    "p-value of overlap definition": "measures whether there is a statistically significant overlap between the dataset genes and the genes that are regulated by a transcriptional regulator",
+                    "p-value calculation method": "Fisher's Exact Test",
+                    "p-value significance threshold": "< 0.01"
+                },
+                "measures": "[activation z-score, p-value of overlap]",
+                "outcomes": "[3.359, 1.99\u00d710^-15]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "CTNNB1",
+                    "Regulation Type": "Activation",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[3.359, 1.99E-15]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 17,
+    "total_ground_truth_claims": 30,
+    "number_of_matches": 17
+}

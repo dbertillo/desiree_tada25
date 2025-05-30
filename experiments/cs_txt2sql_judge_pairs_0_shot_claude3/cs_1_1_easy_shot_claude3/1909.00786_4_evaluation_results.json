@@ -1,0 +1,489 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "Spider",
+                    "Set": "Dev Set",
+                    "Model": "SQLNet",
+                    "Citation": "Xu etal. (2017)"
+                },
+                "measures": "[Accuracy]",
+                "outcomes": "[10.9]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "SQLNet",
+                    "Dataset": "Spider",
+                    "Citation": "Xu etal. (2017)",
+                    "Evaluation": "Dev Set"
+                },
+                "measures": [
+                    "Exact Set Match Accuracy"
+                ],
+                "outcomes": [
+                    "10.9"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "Spider",
+                    "Set": "Test Set",
+                    "Model": "SQLNet",
+                    "Citation": "Xu etal. (2017)"
+                },
+                "measures": "[Accuracy]",
+                "outcomes": "[12.4]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "SQLNet",
+                    "Dataset": "Spider",
+                    "Citation": "Xu etal. (2017)",
+                    "Evaluation": "Test Set"
+                },
+                "measures": [
+                    "Exact Set Match Accuracy"
+                ],
+                "outcomes": [
+                    "12.4"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "Spider",
+                    "Set": "Dev Set",
+                    "Model": "SyntaxSQLNet",
+                    "Citation": "Yu etal. (2018b)"
+                },
+                "measures": "[Accuracy]",
+                "outcomes": "[18.9]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "SyntaxSQLNet",
+                    "Dataset": "Spider",
+                    "Citation": "Yu etal. (2018b)",
+                    "Evaluation": "Dev Set"
+                },
+                "measures": [
+                    "Exact Set Match Accuracy"
+                ],
+                "outcomes": [
+                    "18.9"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "Spider",
+                    "Set": "Test Set",
+                    "Model": "SyntaxSQLNet",
+                    "Citation": "Yu etal. (2018b)"
+                },
+                "measures": "[Accuracy]",
+                "outcomes": "[19.7]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "SyntaxSQLNet",
+                    "Dataset": "Spider",
+                    "Citation": "Yu etal. (2018b)",
+                    "Evaluation": "Test Set"
+                },
+                "measures": [
+                    "Exact Set Match Accuracy"
+                ],
+                "outcomes": [
+                    "19.7"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "Spider",
+                    "Set": "Dev Set",
+                    "Model": "SyntaxSQLNet",
+                    "Citation": "Yu etal. (2018b)",
+                    "Technique": "data augmentation"
+                },
+                "measures": "[Accuracy]",
+                "outcomes": "[24.8]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "SyntaxSQLNet + data augmentation",
+                    "Dataset": "Spider",
+                    "Citation": "Yu etal. (2018b)",
+                    "Evaluation": "Dev Set"
+                },
+                "measures": [
+                    "Exact Set Match Accuracy"
+                ],
+                "outcomes": [
+                    "24.8"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "Spider",
+                    "Set": "Test Set",
+                    "Model": "SyntaxSQLNet",
+                    "Citation": "Yu etal. (2018b)",
+                    "Technique": "data augmentation"
+                },
+                "measures": "[Accuracy]",
+                "outcomes": "[27.2]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "SyntaxSQLNet + data augmentation",
+                    "Dataset": "Spider",
+                    "Citation": "Yu etal. (2018b)",
+                    "Evaluation": "Test Set"
+                },
+                "measures": [
+                    "Exact Set Match Accuracy"
+                ],
+                "outcomes": [
+                    "27.2"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "Spider",
+                    "Set": "Dev Set",
+                    "Model": "Lee (2019)",
+                    "Citation": "Lee (2019)"
+                },
+                "measures": "[Accuracy]",
+                "outcomes": "[28.5]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Lee (2019)",
+                    "Dataset": "Spider",
+                    "Citation": "Lee (2019)",
+                    "Evaluation": "Dev Set"
+                },
+                "measures": [
+                    "Accuracy"
+                ],
+                "outcomes": [
+                    "28.5"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "Spider",
+                    "Set": "Test Set",
+                    "Model": "Lee (2019)",
+                    "Citation": "Lee (2019)"
+                },
+                "measures": "[Accuracy]",
+                "outcomes": "[24.3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Lee (2019)",
+                    "Dataset": "Spider",
+                    "Citation": "Lee (2019)",
+                    "Evaluation": "Test Set"
+                },
+                "measures": [
+                    "Exact Set Match Accuracy"
+                ],
+                "outcomes": [
+                    "24.3"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "Spider",
+                    "Set": "Dev Set",
+                    "Model": "GNN",
+                    "Citation": "Bogin etal. (2019)"
+                },
+                "measures": "[Accuracy]",
+                "outcomes": "[40.7]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "GNN",
+                    "Dataset": "Spider",
+                    "Citation": "Bogin etal. (2019)",
+                    "Evaluation": "Dev Set"
+                },
+                "measures": [
+                    "Exact Set Match Accuracy"
+                ],
+                "outcomes": [
+                    "40.7"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "Spider",
+                    "Set": "Test Set",
+                    "Model": "GNN",
+                    "Citation": "Bogin etal. (2019)"
+                },
+                "measures": "[Accuracy]",
+                "outcomes": "[39.4]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "GNN",
+                    "Dataset": "Spider",
+                    "Citation": "Bogin etal. (2019)",
+                    "Evaluation": "Test Set"
+                },
+                "measures": [
+                    "Exact Set Match Accuracy"
+                ],
+                "outcomes": [
+                    "39.4"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "Spider",
+                    "Set": "Dev Set",
+                    "Model": "IRNet",
+                    "Citation": "Guo etal. (2019)"
+                },
+                "measures": "[Accuracy]",
+                "outcomes": "[53.2]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "IRNet",
+                    "Dataset": "Spider",
+                    "Citation": "Guo etal. (2019)",
+                    "Evaluation": "Dev Set"
+                },
+                "measures": [
+                    "Exact Set Match Accuracy"
+                ],
+                "outcomes": [
+                    "53.2"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "Spider",
+                    "Set": "Test Set",
+                    "Model": "IRNet",
+                    "Citation": "Guo etal. (2019)"
+                },
+                "measures": "[Accuracy]",
+                "outcomes": "[46.7]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "IRNet",
+                    "Dataset": "Spider",
+                    "Citation": "Guo etal. (2019)",
+                    "Evaluation": "Test Set"
+                },
+                "measures": [
+                    "Exact Set Match Accuracy"
+                ],
+                "outcomes": [
+                    "46.7"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "Spider",
+                    "Set": "Dev Set",
+                    "Model": "IRNet (BERT)",
+                    "Citation": "Guo etal. (2019)"
+                },
+                "measures": "[Accuracy]",
+                "outcomes": "[61.9]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "IRNet (BERT)",
+                    "Dataset": "Spider",
+                    "Citation": "Guo etal. (2019)",
+                    "Evaluation": "Dev Set"
+                },
+                "measures": [
+                    "Exact Set Match Accuracy"
+                ],
+                "outcomes": [
+                    "61.9"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "Spider",
+                    "Set": "Test Set",
+                    "Model": "IRNet (BERT)",
+                    "Citation": "Guo etal. (2019)"
+                },
+                "measures": "[Accuracy]",
+                "outcomes": "[54.7]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "IRNet (BERT)",
+                    "Dataset": "Spider",
+                    "Citation": "Guo etal. (2019)",
+                    "Evaluation": "Test Set"
+                },
+                "measures": [
+                    "Exact Set Match Accuracy"
+                ],
+                "outcomes": [
+                    "54.7"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "Spider",
+                    "Set": "Dev Set",
+                    "Model": "Ours"
+                },
+                "measures": "[Accuracy]",
+                "outcomes": "[36.4]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Ours",
+                    "Dataset": "Spider",
+                    "Evaluation": "Dev Set"
+                },
+                "measures": [
+                    "Exact Set Match Accuracy"
+                ],
+                "outcomes": [
+                    "36.4"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "Spider",
+                    "Set": "Test Set",
+                    "Model": "Ours"
+                },
+                "measures": "[Accuracy]",
+                "outcomes": "[32.9]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Ours",
+                    "Dataset": "Spider",
+                    "Evaluation": "Test Set"
+                },
+                "measures": [
+                    "Exact Set Match Accuracy"
+                ],
+                "outcomes": [
+                    "32.9"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "Spider",
+                    "Set": "Dev Set",
+                    "Model": "Ours",
+                    "Technique": "utterance-table BERT Embedding"
+                },
+                "measures": "[Accuracy]",
+                "outcomes": "[57.6]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Ours + utterance-table BERT Embedding",
+                    "Dataset": "Spider",
+                    "Evaluation": "Dev Set"
+                },
+                "measures": [
+                    "Exact Set Match Accuracy"
+                ],
+                "outcomes": [
+                    "57.6"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "Spider",
+                    "Set": "Test Set",
+                    "Model": "Ours",
+                    "Technique": "utterance-table BERT Embedding"
+                },
+                "measures": "[Accuracy]",
+                "outcomes": "[53.4]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Ours + utterance-table BERT Embedding",
+                    "Dataset": "Spider",
+                    "Evaluation": "Test Set"
+                },
+                "measures": [
+                    "Exact Set Match Accuracy"
+                ],
+                "outcomes": [
+                    "53.4"
+                ]
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 18,
+    "total_ground_truth_claims": 18,
+    "number_of_matches": 18
+}

@@ -1,0 +1,129 @@
+{
+    "matched_specifications": [
+        [
+            "number of deaths",
+            "126/257"
+        ],
+        [
+            "test for proportional hazards",
+            "0.36"
+        ],
+        [
+            "number of deaths",
+            "28/97"
+        ]
+    ],
+    "unmatched_specifications": [
+        [
+            "analysis",
+            "analysis of primary outcome and pre-specified sub-groups in the intention-to-treat population"
+        ],
+        [
+            "population",
+            "intention-to-treat population"
+        ],
+        [
+            "treatment",
+            "dexamethasone"
+        ],
+        [
+            "control",
+            "placebo"
+        ],
+        [
+            "hazard ratio",
+            "0.85"
+        ],
+        [
+            "confidence interval",
+            "0.66-1.10"
+        ],
+        [
+            "p value",
+            "0.22"
+        ],
+        [
+            "p-value for heterogeneity",
+            ""
+        ],
+        [
+            "analysis",
+            "analysis of primary outcome and pre-specified sub-groups in the intention-to-treat population"
+        ],
+        [
+            "population",
+            "modified mrc grade: grade i"
+        ],
+        [
+            "treatment",
+            "dexamethasone"
+        ],
+        [
+            "control",
+            "placebo"
+        ],
+        [
+            "hazard ratio",
+            "0.72"
+        ],
+        [
+            "confidence interval",
+            "0.41-1.25"
+        ],
+        [
+            "p value",
+            "0.24"
+        ],
+        [
+            "test for proportional hazards",
+            "0.15"
+        ]
+    ],
+    "unmatched_extracted_keys": [
+        "hazard ratio",
+        "confidence interval",
+        "p-value for heterogeneity",
+        "population",
+        "control",
+        "analysis",
+        "p value"
+    ],
+    "unmatched_extracted_values": [
+        "0.22",
+        "dexamethasone",
+        "analysis of primary outcome and pre-specified sub-groups in the intention-to-treat population",
+        "0.41-1.25",
+        "0.15",
+        "0.72",
+        "placebo",
+        "0.85",
+        "0.24",
+        "0.66-1.10"
+    ],
+    "unmatched_ground_truth_keys": [
+        "subgroup",
+        "grade",
+        "deaths (placebo)"
+    ],
+    "unmatched_ground_truth_values": [
+        "cox proportional hazards model",
+        "22/99",
+        "subgroup cox model",
+        "i"
+    ],
+    "mapped_keys": {
+        "test for proportional hazards": "test for proportional hazards",
+        "treatment": "method",
+        "number of deaths": "deaths (dexamethasone)"
+    },
+    "mapped_values": {
+        "28/97": "28/97",
+        "126/257": "126/257",
+        "0.36": "0.36",
+        "intention-to-treat population": "intention-to-treat population",
+        "": "116/263",
+        "modified mrc grade: grade i": "modified mrc grade"
+    },
+    "precision": 0.15789473684210525,
+    "recall": 0.3
+}

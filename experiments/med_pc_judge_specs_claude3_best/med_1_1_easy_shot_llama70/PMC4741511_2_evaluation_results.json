@@ -1,0 +1,75 @@
+{
+    "matched_specifications": [
+        [
+            "study",
+            "maps phase ii"
+        ],
+        [
+            "treatment",
+            "chemotherapy plus sorafenib"
+        ],
+        [
+            "ldh serum levels",
+            "> unr"
+        ],
+        [
+            "patients number",
+            "6"
+        ],
+        [
+            "patients percentage",
+            "8%"
+        ]
+    ],
+    "unmatched_specifications": [
+        [
+            "population",
+            "study population"
+        ],
+        [
+            "stratification",
+            "ldh serum levels and treatment"
+        ]
+    ],
+    "unmatched_extracted_keys": [
+        "stratification"
+    ],
+    "unmatched_extracted_values": [
+        "ldh serum levels and treatment",
+        "study population"
+    ],
+    "unmatched_ground_truth_keys": [
+        "os p-value",
+        "unit",
+        "os (months)",
+        "analysis",
+        "pfs (months)",
+        "pfs p-value"
+    ],
+    "unmatched_ground_truth_values": [
+        "0.0012",
+        "2.8",
+        "pfs and os",
+        "5.9",
+        "0.05",
+        "sorafenib group",
+        "months"
+    ],
+    "mapped_keys": {
+        "treatment": "treatment",
+        "patients percentage": "patients percentage",
+        "patients number": "patients number",
+        "study": "study",
+        "population": "population subgroup",
+        "ldh serum levels": "ldh level"
+    },
+    "mapped_values": {
+        "maps phase ii": "maps phase ii",
+        "chemotherapy plus sorafenib": "chemotherapy plus sorafenib",
+        "8%": "8%",
+        "6": "6",
+        "> unr": "ldh > unr"
+    },
+    "precision": 0.7142857142857143,
+    "recall": 0.4166666666666667
+}

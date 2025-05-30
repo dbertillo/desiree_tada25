@@ -1,0 +1,188 @@
+{
+    "matched_specifications": [
+        [
+            "analysis",
+            "multivariate cox proportional hazards regression analysis"
+        ],
+        [
+            "dependent variable",
+            "overall survival (os)"
+        ],
+        [
+            "contrast",
+            "> 0 vs. 0"
+        ],
+        [
+            "treatment",
+            "first phase i treatment"
+        ],
+        [
+            "analysis",
+            "multivariate cox proportional hazards regression analysis"
+        ],
+        [
+            "dependent variable",
+            "overall survival (os)"
+        ],
+        [
+            "contrast",
+            "yes vs. no"
+        ],
+        [
+            "treatment",
+            "first phase i treatment"
+        ],
+        [
+            "analysis",
+            "multivariate cox proportional hazards regression analysis"
+        ],
+        [
+            "dependent variable",
+            "overall survival (os)"
+        ],
+        [
+            "contrast",
+            ">2 vs. <= 2"
+        ],
+        [
+            "treatment",
+            "first phase i treatment"
+        ],
+        [
+            "analysis",
+            "multivariate cox proportional hazards regression analysis"
+        ],
+        [
+            "dependent variable",
+            "overall survival (os)"
+        ],
+        [
+            "contrast",
+            "yes vs. no"
+        ],
+        [
+            "treatment",
+            "first phase i treatment"
+        ],
+        [
+            "analysis",
+            "multivariate cox proportional hazards regression analysis"
+        ],
+        [
+            "dependent variable",
+            "overall survival (os)"
+        ],
+        [
+            "contrast",
+            "yes vs. no"
+        ],
+        [
+            "treatment",
+            "first phase i treatment"
+        ],
+        [
+            "analysis",
+            "multivariate cox proportional hazards regression analysis"
+        ],
+        [
+            "dependent variable",
+            "overall survival (os)"
+        ],
+        [
+            "contrast",
+            "yes vs. no"
+        ],
+        [
+            "treatment",
+            "first phase i treatment"
+        ]
+    ],
+    "unmatched_specifications": [
+        [
+            "independent variable",
+            "ecog performance status"
+        ],
+        [
+            "statistical model",
+            "cox proportional hazards regression"
+        ],
+        [
+            "independent variable",
+            "liver metastases"
+        ],
+        [
+            "statistical model",
+            "cox proportional hazards regression"
+        ],
+        [
+            "independent variable",
+            "no. of metastatic sites"
+        ],
+        [
+            "statistical model",
+            "cox proportional hazards regression"
+        ],
+        [
+            "independent variable",
+            "prior radiation therapy"
+        ],
+        [
+            "statistical model",
+            "cox proportional hazards regression"
+        ],
+        [
+            "independent variable",
+            "prior folfirinox"
+        ],
+        [
+            "statistical model",
+            "cox proportional hazards regression"
+        ],
+        [
+            "independent variable",
+            "prior gemcitabine plus nab-paclitaxel treatment"
+        ],
+        [
+            "statistical model",
+            "cox proportional hazards regression"
+        ]
+    ],
+    "unmatched_extracted_keys": [
+        "statistical model",
+        "independent variable"
+    ],
+    "unmatched_extracted_values": [
+        "cox proportional hazards regression"
+    ],
+    "unmatched_ground_truth_keys": [
+        "outcome measure",
+        "confidence interval upper",
+        "confidence interval lower"
+    ],
+    "unmatched_ground_truth_values": [
+        "2.01",
+        "0.58"
+    ],
+    "mapped_keys": {
+        "contrast": "contrast",
+        "analysis": "analysis type",
+        "dependent variable": "variable",
+        "treatment": "treatment phase"
+    },
+    "mapped_values": {
+        "prior radiation therapy": "prior radiation therapy",
+        "prior folfirinox": "prior folfirinox",
+        "yes vs. no": "yes vs. no",
+        ">2 vs. <= 2": ">2 vs. <= 2",
+        "ecog performance status": "ecog performance status",
+        "> 0 vs. 0": "> 0 vs. 0",
+        "no. of metastatic sites": "no. of metastatic sites",
+        "liver metastases": "liver metastases",
+        "prior gemcitabine plus nab-paclitaxel treatment": "prior gemcitabine plus nab-paclitaxel treatment",
+        "multivariate cox proportional hazards regression analysis": "multivariate cox proportional hazards regression",
+        "overall survival (os)": "overall survival",
+        "first phase i treatment": "first phase i"
+    },
+    "precision": 0.6666666666666666,
+    "recall": 0.75
+}

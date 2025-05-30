@@ -1,0 +1,1099 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "XGBoost",
+                    "precision threshold": "95%",
+                    "category": "all"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[0.934]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "XGBoost",
+                    "Category": "all",
+                    "Precision Threshold": "95%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.934]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "XGBoost",
+                    "precision threshold": "99%",
+                    "category": "all"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[0.779]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "XGBoost",
+                    "Category": "all",
+                    "Precision Threshold": "99%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.779]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "XGBoost",
+                    "precision threshold": "95%",
+                    "category": "with ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[NA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "XGBoost",
+                    "Category": "with ID",
+                    "Precision Threshold": "99%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.997]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "XGBoost",
+                    "precision threshold": "95%",
+                    "category": "with ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[NA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "XGBoost",
+                    "Category": "without ID",
+                    "Precision Threshold": "95%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.71]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "XGBoost",
+                    "precision threshold": "95%",
+                    "category": "with ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[NA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "XGBoost",
+                    "Category": "without ID",
+                    "Precision Threshold": "99%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.49]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "XGBoost",
+                    "precision threshold": "95%",
+                    "category": "with ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[NA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "XGBoost + top all",
+                    "Category": "all",
+                    "Precision Threshold": "95%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.949]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "XGBoost",
+                    "precision threshold": "95%",
+                    "category": "with ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[NA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "XGBoost + top all",
+                    "Category": "all",
+                    "Precision Threshold": "99%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.9]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "XGBoost",
+                    "precision threshold": "95%",
+                    "category": "with ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[NA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "XGBoost + top all",
+                    "Category": "with ID",
+                    "Precision Threshold": "99%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.989]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "XGBoost",
+                    "precision threshold": "95%",
+                    "category": "with ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[NA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "XGBoost + top all",
+                    "Category": "without ID",
+                    "Precision Threshold": "95%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.896]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "XGBoost",
+                    "precision threshold": "95%",
+                    "category": "with ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[NA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "XGBoost + top all",
+                    "Category": "without ID",
+                    "Precision Threshold": "99%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.695]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "XGBoost",
+                    "precision threshold": "95%",
+                    "category": "with ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[NA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Cascade 4 + top all",
+                    "Category": "all",
+                    "Precision Threshold": "95%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.945]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "XGBoost",
+                    "precision threshold": "95%",
+                    "category": "with ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[NA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Cascade 4 + top all",
+                    "Category": "all",
+                    "Precision Threshold": "99%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.918]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "XGBoost",
+                    "precision threshold": "95%",
+                    "category": "with ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[NA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Cascade 4 + top all",
+                    "Category": "with ID",
+                    "Precision Threshold": "99%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[1.0]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "XGBoost",
+                    "precision threshold": "95%",
+                    "category": "with ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[NA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Cascade 4 + top all",
+                    "Category": "without ID",
+                    "Precision Threshold": "95%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.906]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "XGBoost",
+                    "precision threshold": "95%",
+                    "category": "with ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[NA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Cascade 4 + top all",
+                    "Category": "without ID",
+                    "Precision Threshold": "99%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.834]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "XGBoost",
+                    "precision threshold": "95%",
+                    "category": "with ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[NA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Chain + top all",
+                    "Category": "all",
+                    "Precision Threshold": "99%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.905]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "XGBoost",
+                    "precision threshold": "95%",
+                    "category": "with ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[NA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Chain + top all",
+                    "Category": "without ID",
+                    "Precision Threshold": "99%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.816]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "XGBoost",
+                    "precision threshold": "99%",
+                    "category": "with ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[0.997]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "XGBoost",
+                    "Category": "with ID",
+                    "Precision Threshold": "99%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.997]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "XGBoost",
+                    "precision threshold": "95%",
+                    "category": "without ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[0.71]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "XGBoost",
+                    "Category": "without ID",
+                    "Precision Threshold": "95%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.71]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "XGBoost",
+                    "precision threshold": "99%",
+                    "category": "without ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[0.49]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "XGBoost",
+                    "Category": "without ID",
+                    "Precision Threshold": "99%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.49]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "XGBoost + top all",
+                    "precision threshold": "95%",
+                    "category": "all"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[0.949]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "XGBoost + top all",
+                    "Category": "all",
+                    "Precision Threshold": "95%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.949]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "XGBoost + top all",
+                    "precision threshold": "99%",
+                    "category": "all"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[0.9]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "XGBoost + top all",
+                    "Category": "all",
+                    "Precision Threshold": "99%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.9]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "XGBoost + top all",
+                    "precision threshold": "95%",
+                    "category": "with ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[NA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "XGBoost + top all",
+                    "Category": "with ID",
+                    "Precision Threshold": "99%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.989]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "XGBoost + top all",
+                    "precision threshold": "95%",
+                    "category": "with ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[NA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "XGBoost + top all",
+                    "Category": "without ID",
+                    "Precision Threshold": "95%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.896]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "XGBoost + top all",
+                    "precision threshold": "95%",
+                    "category": "with ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[NA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "XGBoost + top all",
+                    "Category": "without ID",
+                    "Precision Threshold": "99%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.695]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "XGBoost + top all",
+                    "precision threshold": "95%",
+                    "category": "with ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[NA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Cascade 4 + top all",
+                    "Category": "all",
+                    "Precision Threshold": "95%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.945]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "XGBoost + top all",
+                    "precision threshold": "95%",
+                    "category": "with ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[NA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Cascade 4 + top all",
+                    "Category": "all",
+                    "Precision Threshold": "99%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.918]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "XGBoost + top all",
+                    "precision threshold": "95%",
+                    "category": "with ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[NA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Cascade 4 + top all",
+                    "Category": "with ID",
+                    "Precision Threshold": "99%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[1.0]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "XGBoost + top all",
+                    "precision threshold": "95%",
+                    "category": "with ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[NA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Cascade 4 + top all",
+                    "Category": "without ID",
+                    "Precision Threshold": "95%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.906]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "XGBoost + top all",
+                    "precision threshold": "95%",
+                    "category": "with ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[NA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Cascade 4 + top all",
+                    "Category": "without ID",
+                    "Precision Threshold": "99%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.834]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "XGBoost + top all",
+                    "precision threshold": "95%",
+                    "category": "with ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[NA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Chain + top all",
+                    "Category": "all",
+                    "Precision Threshold": "99%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.905]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "XGBoost + top all",
+                    "precision threshold": "95%",
+                    "category": "with ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[NA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Chain + top all",
+                    "Category": "without ID",
+                    "Precision Threshold": "99%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.816]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "XGBoost + top all",
+                    "precision threshold": "99%",
+                    "category": "with ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[0.989]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "XGBoost + top all",
+                    "Category": "with ID",
+                    "Precision Threshold": "99%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.989]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "XGBoost + top all",
+                    "precision threshold": "95%",
+                    "category": "without ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[0.896]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "XGBoost + top all",
+                    "Category": "without ID",
+                    "Precision Threshold": "95%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.896]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "XGBoost + top all",
+                    "precision threshold": "99%",
+                    "category": "without ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[0.695]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "XGBoost + top all",
+                    "Category": "without ID",
+                    "Precision Threshold": "99%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.695]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "Cascade 4 + top all",
+                    "precision threshold": "95%",
+                    "category": "all"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[0.945]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Cascade 4 + top all",
+                    "Category": "all",
+                    "Precision Threshold": "95%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.945]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "Cascade 4 + top all",
+                    "precision threshold": "99%",
+                    "category": "all"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[0.918]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Cascade 4 + top all",
+                    "Category": "all",
+                    "Precision Threshold": "99%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.918]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "Cascade 4 + top all",
+                    "precision threshold": "95%",
+                    "category": "with ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[NA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Cascade 4 + top all",
+                    "Category": "with ID",
+                    "Precision Threshold": "99%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[1.0]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "Cascade 4 + top all",
+                    "precision threshold": "95%",
+                    "category": "with ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[NA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Cascade 4 + top all",
+                    "Category": "without ID",
+                    "Precision Threshold": "95%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.906]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "Cascade 4 + top all",
+                    "precision threshold": "95%",
+                    "category": "with ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[NA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Cascade 4 + top all",
+                    "Category": "without ID",
+                    "Precision Threshold": "99%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.834]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "Cascade 4 + top all",
+                    "precision threshold": "95%",
+                    "category": "with ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[NA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Chain + top all",
+                    "Category": "all",
+                    "Precision Threshold": "99%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.905]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "Cascade 4 + top all",
+                    "precision threshold": "95%",
+                    "category": "with ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[NA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Chain + top all",
+                    "Category": "without ID",
+                    "Precision Threshold": "99%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.816]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "Cascade 4 + top all",
+                    "precision threshold": "99%",
+                    "category": "with ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[1.0]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Cascade 4 + top all",
+                    "Category": "with ID",
+                    "Precision Threshold": "99%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[1.0]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "Cascade 4 + top all",
+                    "precision threshold": "95%",
+                    "category": "without ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[0.906]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Cascade 4 + top all",
+                    "Category": "without ID",
+                    "Precision Threshold": "95%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.906]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "Cascade 4 + top all",
+                    "precision threshold": "99%",
+                    "category": "without ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[0.834]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Cascade 4 + top all",
+                    "Category": "without ID",
+                    "Precision Threshold": "99%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.834]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "Chain + top all",
+                    "precision threshold": "95%",
+                    "category": "all"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[NA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Chain + top all",
+                    "Category": "all",
+                    "Precision Threshold": "99%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.905]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "Chain + top all",
+                    "precision threshold": "95%",
+                    "category": "all"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[NA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Chain + top all",
+                    "Category": "without ID",
+                    "Precision Threshold": "99%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.816]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "Chain + top all",
+                    "precision threshold": "99%",
+                    "category": "all"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[0.905]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Chain + top all",
+                    "Category": "all",
+                    "Precision Threshold": "99%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.905]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "Chain + top all",
+                    "precision threshold": "95%",
+                    "category": "with ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[NA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Chain + top all",
+                    "Category": "without ID",
+                    "Precision Threshold": "99%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.816]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "Chain + top all",
+                    "precision threshold": "99%",
+                    "category": "with ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[NA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Chain + top all",
+                    "Category": "without ID",
+                    "Precision Threshold": "99%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.816]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "Chain + top all",
+                    "precision threshold": "95%",
+                    "category": "without ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[NA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Chain + top all",
+                    "Category": "without ID",
+                    "Precision Threshold": "99%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.816]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "method": "Chain + top all",
+                    "precision threshold": "99%",
+                    "category": "without ID"
+                },
+                "measures": "[mean recall]",
+                "outcomes": "[0.816]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Chain + top all",
+                    "Category": "without ID",
+                    "Precision Threshold": "99%"
+                },
+                "measures": "[Mean Recall]",
+                "outcomes": "[0.816]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 24,
+    "total_ground_truth_claims": 17,
+    "number_of_matches": 17
+}

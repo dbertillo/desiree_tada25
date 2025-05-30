@@ -1,0 +1,147 @@
+{
+    "matched_specifications": [
+        [
+            "risk factor",
+            "gender"
+        ],
+        [
+            "category",
+            "women or men"
+        ],
+        [
+            "risk factor",
+            "age"
+        ],
+        [
+            "category",
+            ">65 years or \u226465years"
+        ],
+        [
+            "risk factor",
+            "plr"
+        ],
+        [
+            "category",
+            "high or low"
+        ],
+        [
+            "risk factor",
+            "nlr"
+        ],
+        [
+            "category",
+            "high or low"
+        ],
+        [
+            "risk factor",
+            "post/pre-chemotherapy plr ratio"
+        ],
+        [
+            "category",
+            ">1 or \u22641"
+        ],
+        [
+            "risk factor",
+            "post/pre-chemotherapy nlr ratio"
+        ],
+        [
+            "category",
+            ">1 or \u22641"
+        ],
+        [
+            "risk factor",
+            "post/pre-chemotherapy nlr ratio"
+        ],
+        [
+            "category",
+            ">1 or \u22641"
+        ]
+    ],
+    "unmatched_specifications": [
+        [
+            "analysis",
+            "univariate and multivariate analysis of risk factors for the overall survival"
+        ],
+        [
+            "type",
+            "univariate analysis"
+        ],
+        [
+            "analysis",
+            "univariate and multivariate analysis of risk factors for the overall survival"
+        ],
+        [
+            "type",
+            "univariate analysis"
+        ],
+        [
+            "analysis",
+            "univariate and multivariate analysis of risk factors for the overall survival"
+        ],
+        [
+            "type",
+            "univariate analysis"
+        ],
+        [
+            "analysis",
+            "univariate and multivariate analysis of risk factors for the overall survival"
+        ],
+        [
+            "type",
+            "univariate analysis"
+        ],
+        [
+            "analysis",
+            "univariate and multivariate analysis of risk factors for the overall survival"
+        ],
+        [
+            "type",
+            "univariate analysis"
+        ],
+        [
+            "analysis",
+            "univariate and multivariate analysis of risk factors for the overall survival"
+        ],
+        [
+            "type",
+            "univariate analysis"
+        ],
+        [
+            "analysis",
+            "univariate and multivariate analysis of risk factors for the overall survival"
+        ],
+        [
+            "type",
+            "multivariate analysis"
+        ]
+    ],
+    "unmatched_extracted_keys": [
+        "type"
+    ],
+    "unmatched_extracted_values": [
+        "univariate and multivariate analysis of risk factors for the overall survival"
+    ],
+    "unmatched_ground_truth_keys": [],
+    "unmatched_ground_truth_values": [],
+    "mapped_keys": {
+        "analysis": "analysis_type",
+        "risk factor": "risk_factor",
+        "category": "risk_factor_categories"
+    },
+    "mapped_values": {
+        "high or low": "high or low",
+        ">65 years or \u226465years": ">65 years or \u226465years",
+        "post/pre-chemotherapy plr ratio": "post/pre-chemotherapy plr ratio",
+        "gender": "gender",
+        "plr": "plr",
+        "nlr": "nlr",
+        ">1 or \u22641": ">1 or \u22641",
+        "women or men": "women or men",
+        "age": "age",
+        "post/pre-chemotherapy nlr ratio": "post/pre-chemotherapy nlr ratio",
+        "univariate analysis": "univariate",
+        "multivariate analysis": "multivariate"
+    },
+    "precision": 0.5,
+    "recall": 0.6666666666666666
+}

@@ -1,0 +1,219 @@
+{
+    "matched_specifications": [
+        [
+            "category",
+            "death category of individuals living with hiv"
+        ],
+        [
+            "death type",
+            "non-aids-related death (nard)"
+        ],
+        [
+            "cause",
+            "cancer"
+        ],
+        [
+            "category",
+            "death category of individuals living with hiv"
+        ],
+        [
+            "death type",
+            "non-aids-related death (nard)"
+        ],
+        [
+            "cause",
+            "other diseases"
+        ],
+        [
+            "category",
+            "death category of individuals living with hiv"
+        ],
+        [
+            "death type",
+            "non-aids-related death (nard)"
+        ],
+        [
+            "cause",
+            "cvd"
+        ],
+        [
+            "category",
+            "death category of individuals living with hiv"
+        ],
+        [
+            "death type",
+            "non-aids-related death (nard)"
+        ],
+        [
+            "cause",
+            "hepatic/liver-related"
+        ],
+        [
+            "category",
+            "death category of individuals living with hiv"
+        ],
+        [
+            "death type",
+            "non-aids-related death (nard)"
+        ],
+        [
+            "cause",
+            "external death"
+        ],
+        [
+            "category",
+            "death category of individuals living with hiv"
+        ],
+        [
+            "death type",
+            "aids-related death (ard)"
+        ],
+        [
+            "cause",
+            "other diseases"
+        ],
+        [
+            "category",
+            "death category of individuals living with hiv"
+        ],
+        [
+            "death type",
+            "aids-related death (ard)"
+        ],
+        [
+            "cause",
+            "cancer"
+        ],
+        [
+            "category",
+            "death category of individuals living with hiv"
+        ],
+        [
+            "death type",
+            "aids-related death (ard)"
+        ],
+        [
+            "cause",
+            "opportunistic"
+        ]
+    ],
+    "unmatched_specifications": [
+        [
+            "number of deaths",
+            "6"
+        ],
+        [
+            "percentage",
+            "4%"
+        ],
+        [
+            "number of deaths",
+            "10"
+        ],
+        [
+            "percentage",
+            "8%"
+        ],
+        [
+            "number of deaths",
+            "12"
+        ],
+        [
+            "percentage",
+            "9%"
+        ],
+        [
+            "number of deaths",
+            "34"
+        ],
+        [
+            "percentage",
+            "24%"
+        ],
+        [
+            "number of deaths",
+            "78"
+        ],
+        [
+            "percentage",
+            "55%"
+        ],
+        [
+            "number of deaths",
+            "2"
+        ],
+        [
+            "percentage",
+            "1%"
+        ],
+        [
+            "number of deaths",
+            "8"
+        ],
+        [
+            "percentage",
+            "3%"
+        ],
+        [
+            "number of deaths",
+            "241"
+        ],
+        [
+            "percentage",
+            "96%"
+        ]
+    ],
+    "unmatched_extracted_keys": [
+        "percentage"
+    ],
+    "unmatched_extracted_values": [
+        "6",
+        "2",
+        "9%",
+        "96%",
+        "12",
+        "24%",
+        "10",
+        "34",
+        "8%",
+        "8",
+        "3%",
+        "4%",
+        "1%",
+        "241",
+        "78",
+        "55%"
+    ],
+    "unmatched_ground_truth_keys": [
+        "arm classification",
+        "protocol",
+        "cause of death"
+    ],
+    "unmatched_ground_truth_values": [
+        "aids-related cancers",
+        "cd4 ceel count lowen than 200 cells/mm2",
+        "cd4 ceel count higher than 200 cells/mm2",
+        "non-aids-related cancers",
+        "sudden death, including accident, overdose and suicide",
+        "code"
+    ],
+    "mapped_keys": {
+        "cause": "cause",
+        "category": "category",
+        "death type": "nard classification",
+        "number of deaths": "population"
+    },
+    "mapped_values": {
+        "aids-related death (ard)": "aids-related death (ard)",
+        "cancer": "cancer",
+        "non-aids-related death (nard)": "non-aids-related death (nard)",
+        "cvd": "cvd",
+        "other diseases": "other diseases",
+        "opportunistic": "opportunistic",
+        "external death": "external death",
+        "hepatic/liver-related": "hepatic/liver-related",
+        "death category of individuals living with hiv": "individuals living with hiv"
+    },
+    "precision": 0.6,
+    "recall": 0.6857142857142857
+}

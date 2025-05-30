@@ -1,0 +1,103 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "serialization": "N-Triples",
+                    "dataset": "SP2bench",
+                    "database": "CouchDB",
+                    "compression": "off"
+                },
+                "measures": "[Size (kB/1K triples)]",
+                "outcomes": "[157]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Serialization": "N-Triples",
+                    "Dataset": "SP2bench",
+                    "Experiment": "Disk space estimation",
+                    "Database": "CouchDB",
+                    "Database file compression": "Off"
+                },
+                "measures": "[Size (kB/1K triples)]",
+                "outcomes": "[157]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "serialization": "Model 1",
+                    "dataset": "SP2bench",
+                    "database": "CouchDB",
+                    "compression": "off"
+                },
+                "measures": "[Size (kB/1K triples)]",
+                "outcomes": "[143]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Serialization": "Model 1",
+                    "Dataset": "SP2bench",
+                    "Experiment": "Disk space estimation",
+                    "Database": "CouchDB",
+                    "Database file compression": "Off"
+                },
+                "measures": "[Size (kB/1K triples)]",
+                "outcomes": "[143]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "serialization": "Model 2",
+                    "dataset": "SP2bench",
+                    "database": "CouchDB",
+                    "compression": "off"
+                },
+                "measures": "[Size (kB/1K triples)]",
+                "outcomes": "[157]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Serialization": "Model 2",
+                    "Dataset": "SP2bench",
+                    "Experiment": "Disk space estimation",
+                    "Database": "CouchDB",
+                    "Database file compression": "Off"
+                },
+                "measures": "[Size (kB/1K triples)]",
+                "outcomes": "[157]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "serialization": "Document per quad",
+                    "dataset": "SP2bench",
+                    "database": "CouchDB",
+                    "compression": "off"
+                },
+                "measures": "[Size (kB/1K triples)]",
+                "outcomes": "[418]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Serialization": "Document per quad",
+                    "Dataset": "SP2bench",
+                    "Experiment": "Disk space estimation",
+                    "Database": "CouchDB",
+                    "Database file compression": "Off"
+                },
+                "measures": "[Size (kB/1K triples)]",
+                "outcomes": "[418]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 4,
+    "total_ground_truth_claims": 4,
+    "number_of_matches": 4
+}

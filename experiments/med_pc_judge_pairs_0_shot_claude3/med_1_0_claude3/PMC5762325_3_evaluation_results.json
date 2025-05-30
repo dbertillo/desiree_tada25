@@ -1,0 +1,77 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "tissue_type": "tumor tissue sample",
+                    "e-cadherin_expression": "low",
+                    "styk1_expression": "low",
+                    "sample_count": "9",
+                    "correlation_coefficient": "-0.420",
+                    "p_value": "<0.001"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Tumor tissue sample": "E-cadherin Low",
+                    "STYK1 Low": "9",
+                    "STYK1 High": "23",
+                    "Cancer type": "pancreatic cancer",
+                    "Analysis type": "Correlation analysis"
+                },
+                "measures": "[Correlation coefficient, p-value]",
+                "outcomes": "[-0.420, <0.001]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "tissue_type": "tumor tissue sample",
+                    "e-cadherin_expression": "low",
+                    "styk1_expression": "high",
+                    "sample_count": "23",
+                    "correlation_coefficient": "-0.420",
+                    "p_value": "<0.001"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Tumor tissue sample": "E-cadherin High",
+                    "STYK1 Low": "34",
+                    "STYK1 High": "14",
+                    "Cancer type": "pancreatic cancer",
+                    "Analysis type": "Correlation analysis"
+                },
+                "measures": "[]",
+                "outcomes": "[]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "tissue_type": "tumor tissue sample",
+                    "e-cadherin_expression": "high",
+                    "styk1_expression": "low",
+                    "sample_count": "34"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Tumor tissue sample": "E-cadherin High",
+                    "STYK1 Low": "34",
+                    "STYK1 High": "14",
+                    "Cancer type": "pancreatic cancer",
+                    "Analysis type": "Correlation analysis"
+                },
+                "measures": "[]",
+                "outcomes": "[]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 4,
+    "total_ground_truth_claims": 2,
+    "number_of_matches": 2
+}

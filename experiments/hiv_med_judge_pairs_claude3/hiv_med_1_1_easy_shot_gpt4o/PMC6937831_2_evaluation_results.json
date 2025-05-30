@@ -1,0 +1,249 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "death category": "Non-AIDS-Related Death (NARD)",
+                    "cause": "Cancer",
+                    "number of deaths": "6",
+                    "percentage of deaths": "4%",
+                    "classification protocol": "CoDe protocol",
+                    "cancer type": "unrelated to HIV (e.g., lung cancer)"
+                },
+                "measures": "[metric, outcome]",
+                "outcomes": "[]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "population": "Individuals living with HIV",
+                    "category": "Non-AIDS-Related Death (NARD)",
+                    "cause": "Cancer",
+                    "Protocol": "CoDe",
+                    "ARM classification": "AIDS-related cancers",
+                    "NARD classification": "Non-AIDS-related cancers"
+                },
+                "measures": [
+                    "Number of deaths",
+                    "Percentage"
+                ],
+                "outcomes": [
+                    "6",
+                    "4%"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "death category": "Non-AIDS-Related Death (NARD)",
+                    "cause": "Other diseases",
+                    "number of deaths": "10",
+                    "percentage of deaths": "8%",
+                    "classification criteria": "CD4 count > 200 cells/mm\u00b2 within 6 months prior to death"
+                },
+                "measures": "[metric, outcome]",
+                "outcomes": "[]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "population": "Individuals living with HIV",
+                    "category": "Non-AIDS-Related Death (NARD)",
+                    "cause": "Other diseases",
+                    "ARM classification": "CD4 ceel count lowen than 200 cells/mm2",
+                    "NARD classification": "CD4 ceel count higher than 200 cells/mm2"
+                },
+                "measures": [
+                    "Number of deaths",
+                    "Percentage"
+                ],
+                "outcomes": [
+                    "10",
+                    "8%"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "death category": "Non-AIDS-Related Death (NARD)",
+                    "cause": "CVD",
+                    "number of deaths": "12",
+                    "percentage of deaths": "9%"
+                },
+                "measures": "[metric, outcome]",
+                "outcomes": "[]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "population": "Individuals living with HIV",
+                    "category": "Non-AIDS-Related Death (NARD)",
+                    "cause": "CVD"
+                },
+                "measures": [
+                    "Number of deaths",
+                    "Percentage"
+                ],
+                "outcomes": [
+                    "12",
+                    "9%"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "death category": "Non-AIDS-Related Death (NARD)",
+                    "cause": "Hepatic/liver-related",
+                    "number of deaths": "34",
+                    "percentage of deaths": "24%"
+                },
+                "measures": "[metric, outcome]",
+                "outcomes": "[]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "population": "Individuals living with HIV",
+                    "category": "Non-AIDS-Related Death (NARD)",
+                    "cause": "Hepatic/liver-related"
+                },
+                "measures": [
+                    "Number of deaths",
+                    "Percentage"
+                ],
+                "outcomes": [
+                    "34",
+                    "24%"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "death category": "Non-AIDS-Related Death (NARD)",
+                    "cause": "External death",
+                    "number of deaths": "78",
+                    "percentage of deaths": "55%",
+                    "definition": "Sudden death including accident, overdose, and suicide"
+                },
+                "measures": "[metric, outcome]",
+                "outcomes": "[]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "population": "Individuals living with HIV",
+                    "category": "Non-AIDS-Related Death (NARD)",
+                    "cause": "External death",
+                    "Cause of death": "sudden death, including accident, overdose and suicide"
+                },
+                "measures": [
+                    "Number of deaths",
+                    "Percentage"
+                ],
+                "outcomes": [
+                    "78",
+                    "55%"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "death category": "AIDS-Related Death (ARD)",
+                    "cause": "Other diseases",
+                    "number of deaths": "2",
+                    "percentage of deaths": "1%",
+                    "classification criteria": "CD4 count \u2264 200 cells/mm\u00b2 within 6 months prior to death"
+                },
+                "measures": "[metric, outcome]",
+                "outcomes": "[]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "population": "Individuals living with HIV",
+                    "category": "AIDS-Related Death (ARD)",
+                    "cause": "Other diseases",
+                    "ARM classification": "CD4 ceel count lowen than 200 cells/mm2",
+                    "NARD classification": "CD4 ceel count higher than 200 cells/mm2"
+                },
+                "measures": [
+                    "Number of deaths",
+                    "Percentage"
+                ],
+                "outcomes": [
+                    "2",
+                    "1%"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "death category": "AIDS-Related Death (ARD)",
+                    "cause": "Cancer",
+                    "number of deaths": "8",
+                    "percentage of deaths": "3%",
+                    "classification protocol": "CoDe protocol",
+                    "cancer type": "AIDS-related cancers (e.g., cervical cancer)"
+                },
+                "measures": "[metric, outcome]",
+                "outcomes": "[]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "population": "Individuals living with HIV",
+                    "category": "AIDS-Related Death (ARD)",
+                    "cause": "Cancer",
+                    "Protocol": "CoDe",
+                    "ARM classification": "AIDS-related cancers",
+                    "NARD classification": "Non-AIDS-related cancers"
+                },
+                "measures": [
+                    "Number of deaths",
+                    "Percentage"
+                ],
+                "outcomes": [
+                    "8",
+                    "3%"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "death category": "AIDS-Related Death (ARD)",
+                    "cause": "Opportunistic",
+                    "number of deaths": "241",
+                    "percentage of deaths": "96%"
+                },
+                "measures": "[metric, outcome]",
+                "outcomes": "[]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "population": "Individuals living with HIV",
+                    "category": "AIDS-Related Death (ARD)",
+                    "cause": "Opportunistic"
+                },
+                "measures": [
+                    "Number of deaths",
+                    "Percentage"
+                ],
+                "outcomes": [
+                    "241",
+                    "96%"
+                ]
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 8,
+    "total_ground_truth_claims": 8,
+    "number_of_matches": 8
+}

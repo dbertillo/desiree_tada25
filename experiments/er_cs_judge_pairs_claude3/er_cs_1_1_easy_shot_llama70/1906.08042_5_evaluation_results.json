@@ -1,0 +1,306 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "Train on Src",
+                    "Genre": "restaurant",
+                    "Source Dataset": "Zomato-Yelp",
+                    "Target Dataset": "Fodors-Zagats"
+                },
+                "measures": "[Precision]",
+                "outcomes": "[100.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Train on Src",
+                    "Genre": "restaurant",
+                    "Target Dataset": "Fodors-Zagats",
+                    "Source Dataset": "Zomato-Yelp"
+                },
+                "measures": "[Precision]",
+                "outcomes": "[100.00]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "Train on Src",
+                    "Genre": "restaurant",
+                    "Source Dataset": "Zomato-Yelp",
+                    "Target Dataset": "Fodors-Zagats"
+                },
+                "measures": "[Recall]",
+                "outcomes": "[6.37]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Train on Src",
+                    "Genre": "restaurant",
+                    "Target Dataset": "Fodors-Zagats",
+                    "Source Dataset": "Zomato-Yelp"
+                },
+                "measures": "[Recall]",
+                "outcomes": "[6.37]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "Train on Src",
+                    "Genre": "restaurant",
+                    "Source Dataset": "Zomato-Yelp",
+                    "Target Dataset": "Fodors-Zagats"
+                },
+                "measures": "[F1]",
+                "outcomes": "[11.76]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Train on Src",
+                    "Genre": "restaurant",
+                    "Target Dataset": "Fodors-Zagats",
+                    "Source Dataset": "Zomato-Yelp"
+                },
+                "measures": "[F1, F1 Standard Deviation]",
+                "outcomes": "[11.76, 6.84]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "+Adaptation",
+                    "Genre": "restaurant",
+                    "Source Dataset": "Zomato-Yelp",
+                    "Target Dataset": "Fodors-Zagats"
+                },
+                "measures": "[Precision]",
+                "outcomes": "[95.33]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "+Adaptation",
+                    "Genre": "restaurant",
+                    "Target Dataset": "Fodors-Zagats",
+                    "Source Dataset": "Zomato-Yelp"
+                },
+                "measures": "[Precision]",
+                "outcomes": "[95.33]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "+Adaptation",
+                    "Genre": "restaurant",
+                    "Source Dataset": "Zomato-Yelp",
+                    "Target Dataset": "Fodors-Zagats"
+                },
+                "measures": "[Recall]",
+                "outcomes": "[57.27]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "+Adaptation",
+                    "Genre": "restaurant",
+                    "Target Dataset": "Fodors-Zagats",
+                    "Source Dataset": "Zomato-Yelp"
+                },
+                "measures": "[Recall]",
+                "outcomes": "[57.27]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "+Adaptation",
+                    "Genre": "restaurant",
+                    "Source Dataset": "Zomato-Yelp",
+                    "Target Dataset": "Fodors-Zagats"
+                },
+                "measures": "[F1]",
+                "outcomes": "[70.13]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "+Adaptation",
+                    "Genre": "restaurant",
+                    "Target Dataset": "Fodors-Zagats",
+                    "Source Dataset": "Zomato-Yelp"
+                },
+                "measures": "[F1, F1 Standard Deviation]",
+                "outcomes": "[70.13, 19.89]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "+100 active labels",
+                    "Genre": "restaurant",
+                    "Source Dataset": "Zomato-Yelp",
+                    "Target Dataset": "Fodors-Zagats"
+                },
+                "measures": "[Precision]",
+                "outcomes": "[100.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "+100 active labels",
+                    "Genre": "restaurant",
+                    "Target Dataset": "Fodors-Zagats",
+                    "Source Dataset": "Zomato-Yelp"
+                },
+                "measures": "[Precision]",
+                "outcomes": "[100.00]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "+100 active labels",
+                    "Genre": "restaurant",
+                    "Source Dataset": "Zomato-Yelp",
+                    "Target Dataset": "Fodors-Zagats"
+                },
+                "measures": "[Recall]",
+                "outcomes": "[100.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "+100 active labels",
+                    "Genre": "restaurant",
+                    "Target Dataset": "Fodors-Zagats",
+                    "Source Dataset": "Zomato-Yelp"
+                },
+                "measures": "[Recall]",
+                "outcomes": "[100.00]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "+100 active labels",
+                    "Genre": "restaurant",
+                    "Source Dataset": "Zomato-Yelp",
+                    "Target Dataset": "Fodors-Zagats"
+                },
+                "measures": "[F1]",
+                "outcomes": "[100.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "+100 active labels",
+                    "Genre": "restaurant",
+                    "Target Dataset": "Fodors-Zagats",
+                    "Source Dataset": "Zomato-Yelp"
+                },
+                "measures": "[F1, F1 Standard Deviation]",
+                "outcomes": "[100.00, 0.00]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "Train on Tgt",
+                    "Genre": "restaurant",
+                    "Source Dataset": "Zomato-Yelp",
+                    "Target Dataset": "Fodors-Zagats"
+                },
+                "measures": "[Precision]",
+                "outcomes": "[100.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Train on Tgt",
+                    "Genre": "restaurant",
+                    "Target Dataset": "Fodors-Zagats",
+                    "Source Dataset": "Zomato-Yelp"
+                },
+                "measures": "[Precision]",
+                "outcomes": "[100.00]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "Train on Tgt",
+                    "Genre": "restaurant",
+                    "Source Dataset": "Zomato-Yelp",
+                    "Target Dataset": "Fodors-Zagats"
+                },
+                "measures": "[Recall]",
+                "outcomes": "[100.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Train on Tgt",
+                    "Genre": "restaurant",
+                    "Target Dataset": "Fodors-Zagats",
+                    "Source Dataset": "Zomato-Yelp"
+                },
+                "measures": "[Recall]",
+                "outcomes": "[100.00]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "Train on Tgt",
+                    "Genre": "restaurant",
+                    "Source Dataset": "Zomato-Yelp",
+                    "Target Dataset": "Fodors-Zagats"
+                },
+                "measures": "[F1]",
+                "outcomes": "[100.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Train on Tgt",
+                    "Genre": "restaurant",
+                    "Target Dataset": "Fodors-Zagats",
+                    "Source Dataset": "Zomato-Yelp"
+                },
+                "measures": "[F1, F1 Standard Deviation]",
+                "outcomes": "[100.00, 0.00]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "Mudgal etal. (2018)",
+                    "Genre": "restaurant",
+                    "Source Dataset": "Zomato-Yelp",
+                    "Target Dataset": "Fodors-Zagats"
+                },
+                "measures": "[F1]",
+                "outcomes": "[100]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Mudgal etal. (2018)",
+                    "Genre": "restaurant",
+                    "Target Dataset": "Fodors-Zagats",
+                    "Source Dataset": "Zomato-Yelp"
+                },
+                "measures": "[F1]",
+                "outcomes": "[100]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 13,
+    "total_ground_truth_claims": 13,
+    "number_of_matches": 13
+}

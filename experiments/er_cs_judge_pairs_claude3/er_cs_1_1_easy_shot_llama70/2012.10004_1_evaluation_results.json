@@ -1,0 +1,101 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "Cora",
+                    "#Attributes": "4",
+                    "#Instances": "837865",
+                    "Imbalance": "1:49",
+                    "#Subspaces": "16",
+                    "Source": "http://secondstring.sourceforge.net"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "Cora",
+                    "Attributes": "4",
+                    "Instances": "837,865",
+                    "Imbalance Rate": "1:49",
+                    "Subspaces": "16",
+                    "Description": "Bibliographic records of machine learning publications",
+                    "Source": "http://secondstring.sourceforge.net"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "DBLP-ACM",
+                    "#Attributes": "4",
+                    "#Instances": "6001104",
+                    "Imbalance": "1:2698",
+                    "#Subspaces": "16",
+                    "Source": "DBLP and ACM websites"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "DBLP-ACM",
+                    "Attributes": "4/4",
+                    "Instances": "6,001,104",
+                    "Imbalance Rate": "1:2,698",
+                    "Subspaces": "16",
+                    "Description": "Bibliographic records from DBLP and ACM websites"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "DBLP-Scholar",
+                    "#Attributes": "4",
+                    "#Instances": "168112008",
+                    "Imbalance": "1:71233",
+                    "#Subspaces": "16",
+                    "Source": "DBLP and Google Scholar websites"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "DBLP-Scholar",
+                    "Attributes": "4/4",
+                    "Instances": "168,112,008",
+                    "Imbalance Rate": "1:71,233",
+                    "Subspaces": "16",
+                    "Description": "Bibliographic records from DBLP and Google Scholar websites"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "NCVoter",
+                    "#Attributes": "18",
+                    "#Instances": "1000000",
+                    "Imbalance": "1:4202",
+                    "#Subspaces": "64",
+                    "Source": "http://alt.ncsbe.gov/data/"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "NCVoter",
+                    "Attributes": "18/18",
+                    "Instances": "1,000,000",
+                    "Imbalance Rate": "1:4,202",
+                    "Subspaces": "64",
+                    "Description": "Real-world voter registration information of people from North Carolina in the USA",
+                    "Source": "http://alt.ncsbe.gov/data/"
+                }
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 4,
+    "total_ground_truth_claims": 4,
+    "number_of_matches": 4
+}

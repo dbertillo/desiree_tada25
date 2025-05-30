@@ -1,0 +1,13 @@
+The extracted claim and the ground truth claims are not the same. Here's why:
+
+1. The extracted claim is for the QDecomp method on Spider Realistic dataset, with a Test-Suite Accuracy of 55.8 and Standard Execution Accuracy of 65.8.
+
+2. In the ground truth claims, the closest matching entry for QDecomp on Spider Realistic has different values:
+   - Test-suite accuracy: 57.1 (not 55.8)
+   - Execution accuracy: 69.2 (not 65.8)
+
+3. The standard deviations in the extracted claim (2.29 for Test-Suite Accuracy) don't match the ground truth (2.12 for Test-suite accuracy and 3.61 for Execution accuracy).
+
+Given these differences, the extracted claim is not present in the ground truth claims list.
+
+<classification>no</classification>

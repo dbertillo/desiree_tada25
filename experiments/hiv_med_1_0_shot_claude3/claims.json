@@ -1,0 +1,2537 @@
+{
+    "PMC8668943_3": [
+        {
+            "subject": {
+                "gene": "FCGR2C",
+                "copy_number": "1",
+                "reference": "2 copies",
+                "model": "univariate"
+            },
+            "measures": "[odds_ratio, confidence_interval_lower, confidence_interval_upper, p_value, p_bonf]",
+            "outcomes": "[0.29, 0.12, 0.71, 0.007, 0.112]"
+        },
+        {
+            "subject": {
+                "gene": "FCGR2C",
+                "copy_number": "1",
+                "reference": "2 copies",
+                "model": "adjusted",
+                "adjusted_for": "birthweight and FCGR2C genotypes"
+            },
+            "measures": "[odds_ratio, confidence_interval_lower, confidence_interval_upper, p_value, p_bonf]",
+            "outcomes": "[0.37, 0.15, 0.90, 0.029, 0.464]"
+        },
+        {
+            "subject": {
+                "gene": "FCGR2C",
+                "copy_number": "2",
+                "reference": "true"
+            }
+        },
+        {
+            "subject": {
+                "gene": "FCGR2C",
+                "copy_number": "\u22653",
+                "reference": "2 copies",
+                "model": "univariate"
+            },
+            "measures": "[odds_ratio, confidence_interval_lower, confidence_interval_upper, p_value]",
+            "outcomes": "[0.99, 0.63, 1.57, 0.978]"
+        },
+        {
+            "subject": {
+                "gene": "FCGR2C",
+                "copy_number": "\u22653",
+                "reference": "2 copies",
+                "model": "adjusted",
+                "adjusted_for": "birthweight and FCGR2C genotypes"
+            },
+            "measures": "[odds_ratio, confidence_interval_lower, confidence_interval_upper, p_value]",
+            "outcomes": "[0.74, 0.43, 1.27, 0.275]"
+        }
+    ],
+    "PMC5817808_2": [
+        {
+            "subject": {
+                "study_population": "HIV exposed infants",
+                "study_location": "Essos hospital center PMTCT program",
+                "outcome_measure": "survival at 24 months",
+                "analysis_type": "unadjusted",
+                "feeding_mode": "exclusive replacement feeding",
+                "reference_group": "yes"
+            }
+        },
+        {
+            "subject": {
+                "study_population": "HIV exposed infants",
+                "study_location": "Essos hospital center PMTCT program",
+                "outcome_measure": "survival at 24 months",
+                "analysis_type": "adjusted",
+                "feeding_mode": "exclusive replacement feeding",
+                "reference_group": "yes"
+            }
+        },
+        {
+            "subject": {
+                "study_population": "HIV exposed infants",
+                "study_location": "Essos hospital center PMTCT program",
+                "outcome_measure": "survival at 24 months",
+                "analysis_type": "unadjusted",
+                "hiv_status": "negative",
+                "reference_group": "yes"
+            }
+        },
+        {
+            "subject": {
+                "study_population": "HIV exposed infants",
+                "study_location": "Essos hospital center PMTCT program",
+                "outcome_measure": "survival at 24 months",
+                "analysis_type": "adjusted",
+                "hiv_status": "negative",
+                "reference_group": "yes"
+            }
+        },
+        {
+            "subject": {
+                "study_population": "HIV exposed infants",
+                "study_location": "Essos hospital center PMTCT program",
+                "outcome_measure": "survival at 24 months",
+                "analysis_type": "unadjusted",
+                "birth_weight": "<2500 g",
+                "reference_group": "yes"
+            }
+        },
+        {
+            "subject": {
+                "study_population": "HIV exposed infants",
+                "study_location": "Essos hospital center PMTCT program",
+                "outcome_measure": "survival at 24 months",
+                "analysis_type": "adjusted",
+                "birth_weight": "<2500 g",
+                "reference_group": "yes"
+            }
+        },
+        {
+            "subject": {
+                "study_population": "HIV exposed infants",
+                "study_location": "Essos hospital center PMTCT program",
+                "outcome_measure": "survival at 24 months",
+                "analysis_type": "adjusted",
+                "test_type": "Global Schoenfeld residuals test"
+            },
+            "measures": "[p-value]",
+            "outcomes": "[0.23]"
+        },
+        {
+            "subject": {
+                "study_population": "HIV exposed infants",
+                "study_location": "Essos hospital center PMTCT program",
+                "overall_infant_mortality": "2.58%",
+                "overall_infant_mortality_count": "28"
+            }
+        },
+        {
+            "subject": {
+                "study_population": "HIV exposed infants",
+                "study_location": "Essos hospital center PMTCT program",
+                "feeding_mode": "exclusive replacement feeding",
+                "infant_mortality": "2.41%"
+            }
+        },
+        {
+            "subject": {
+                "study_population": "HIV exposed infants",
+                "study_location": "Essos hospital center PMTCT program",
+                "feeding_mode": "exclusive breast feeding",
+                "infant_mortality": "2.45%"
+            }
+        },
+        {
+            "subject": {
+                "study_population": "HIV exposed infants",
+                "study_location": "Essos hospital center PMTCT program",
+                "feeding_mode": "mixed feeding",
+                "infant_mortality": "13.33%"
+            }
+        },
+        {
+            "subject": {
+                "study_population": "HIV exposed infants",
+                "study_location": "Essos hospital center PMTCT program",
+                "mortality_comparison_p_value": "0.032"
+            }
+        }
+    ],
+    "PMC5574138_3": [
+        {
+            "subject": {
+                "covariate": "length of follow-up",
+                "estimate": "-0.0138",
+                "s.e": "0.0666",
+                "95%ci": "(-0.1322-0.1046)"
+            },
+            "measures": "[estimate, s.e, 95%ci]",
+            "outcomes": "[-0.0138, 0.0666, (-0.1322-0.1046)]"
+        },
+        {
+            "subject": {
+                "covariate": "median cd4 count",
+                "estimate": "-0.0034",
+                "s.e": "0.0066",
+                "95%ci": "(-0.0150-0.0079)"
+            },
+            "measures": "[estimate, s.e, 95%ci]",
+            "outcomes": "[-0.0034, 0.0066, (-0.0150-0.0079)]"
+        },
+        {
+            "subject": {
+                "covariate": "median age",
+                "estimate": "0.0415",
+                "s.e": "0.0503",
+                "95%ci": "(-0.1013-0.0755)"
+            },
+            "measures": "[estimate, s.e, 95%ci]",
+            "outcomes": "[0.0415, 0.0503, (-0.1013-0.0755)]"
+        },
+        {
+            "subject": {
+                "covariate": "year of publication",
+                "estimate": "0.0637",
+                "s.e": "0.0815",
+                "95%ci": "(-0.1736-0.0980)"
+            },
+            "measures": "[estimate, s.e, 95%ci]",
+            "outcomes": "[0.0637, 0.0815, (-0.1736-0.0980)]"
+        },
+        {
+            "subject": {
+                "covariate": "female proportion",
+                "estimate": "-0.5305",
+                "s.e": "1.4575",
+                "95%ci": "(-3.6792-2.6183)"
+            },
+            "measures": "[estimate, s.e, 95%ci]",
+            "outcomes": "[-0.5305, 1.4575, (-3.6792-2.6183)]"
+        },
+        {
+            "subject": {
+                "analysis": "meta regression",
+                "dependent variable": "not specified",
+                "independent variables": "study",
+                "regression model": "constructed",
+                "covariates": "length of follow-up, median cd4 cell counts, median age, year of publication, proportion of female"
+            }
+        }
+    ],
+    "PMC4794224_2": [
+        {
+            "subject": {
+                "KIR Genotype": "KIR2DL1",
+                "N": "966",
+                "Positive Percentage": "97%"
+            },
+            "measures": "[N, Positive Percentage]",
+            "outcomes": "[966, 97%]"
+        },
+        {
+            "subject": {
+                "KIR Genotype": "KIR2DL3",
+                "N": "719",
+                "Positive Percentage": "72%"
+            },
+            "measures": "[N, Positive Percentage]",
+            "outcomes": "[719, 72%]"
+        },
+        {
+            "subject": {
+                "KIR Genotype": "KIR2DL4",
+                "N": "993",
+                "Positive Percentage": "100%"
+            },
+            "measures": "[N, Positive Percentage]",
+            "outcomes": "[993, 100%]"
+        },
+        {
+            "subject": {
+                "KIR Genotype": "KIR2DL5",
+                "N": "547",
+                "Positive Percentage": "55%"
+            },
+            "measures": "[N, Positive Percentage]",
+            "outcomes": "[547, 55%]"
+        },
+        {
+            "subject": {
+                "KIR Genotype": "KIR2DL2*004",
+                "N": "31",
+                "Positive Percentage": "3%"
+            },
+            "measures": "[N, Positive Percentage]",
+            "outcomes": "[31, 3%]"
+        },
+        {
+            "subject": {
+                "KIR Genotype": "KIR2DL2*001/2/3/5",
+                "N": "544",
+                "Positive Percentage": "55%"
+            },
+            "measures": "[N, Positive Percentage]",
+            "outcomes": "[544, 55%]"
+        },
+        {
+            "subject": {
+                "KIR Genotype": "KIR2DP1",
+                "N": "964",
+                "Positive Percentage": "97%"
+            },
+            "measures": "[N, Positive Percentage]",
+            "outcomes": "[964, 97%]"
+        },
+        {
+            "subject": {
+                "KIR Genotype": "KIR2DS1",
+                "N": "548",
+                "Positive Percentage": "55%"
+            },
+            "measures": "[N, Positive Percentage]",
+            "outcomes": "[548, 55%]"
+        },
+        {
+            "subject": {
+                "KIR Genotype": "KIR2DS2",
+                "N": "581",
+                "Positive Percentage": "59%"
+            },
+            "measures": "[N, Positive Percentage]",
+            "outcomes": "[581, 59%]"
+        },
+        {
+            "subject": {
+                "KIR Genotype": "KIR2DS3",
+                "N": "401",
+                "Positive Percentage": "40%"
+            },
+            "measures": "[N, Positive Percentage]",
+            "outcomes": "[401, 40%]"
+        },
+        {
+            "subject": {
+                "KIR Genotype": "KIR2DS4",
+                "N": "993",
+                "Positive Percentage": "100%"
+            },
+            "measures": "[N, Positive Percentage]",
+            "outcomes": "[993, 100%]"
+        },
+        {
+            "subject": {
+                "KIR Genotype": "KIR2DS5",
+                "N": "281",
+                "Positive Percentage": "28%"
+            },
+            "measures": "[N, Positive Percentage]",
+            "outcomes": "[281, 28%]"
+        },
+        {
+            "subject": {
+                "KIR Genotype": "KIR3DL1",
+                "N": "929",
+                "Positive Percentage": "94%"
+            },
+            "measures": "[N, Positive Percentage]",
+            "outcomes": "[929, 94%]"
+        },
+        {
+            "subject": {
+                "KIR Genotype": "KIR3DL2",
+                "N": "993",
+                "Positive Percentage": "100%"
+            },
+            "measures": "[N, Positive Percentage]",
+            "outcomes": "[993, 100%]"
+        },
+        {
+            "subject": {
+                "KIR Genotype": "KIR3DL3",
+                "N": "993",
+                "Positive Percentage": "100%"
+            },
+            "measures": "[N, Positive Percentage]",
+            "outcomes": "[993, 100%]"
+        },
+        {
+            "subject": {
+                "KIR Genotype": "KIR3DS1",
+                "N": "354",
+                "Positive Percentage": "36%"
+            },
+            "measures": "[N, Positive Percentage]",
+            "outcomes": "[354, 36%]"
+        }
+    ],
+    "PMC9077443_2": [
+        {
+            "subject": {
+                "study_group": "overall",
+                "cabotegravir_events": "4",
+                "cabotegravir_person_years": "1956",
+                "cabotegravir_incidence_percentage": "0.20%",
+                "tdf_ftc_events": "36",
+                "tdf_ftc_person_years": "1942",
+                "tdf_ftc_incidence_percentage": "1.85%"
+            },
+            "measures": "[hazard_ratio, p_value]",
+            "outcomes": "[0.12 (0.05\u20130.31), <0.0001]"
+        },
+        {
+            "subject": {
+                "study_group": "age",
+                "age_group": "<25 years",
+                "cabotegravir_events": "3",
+                "cabotegravir_person_years": "866",
+                "cabotegravir_incidence_percentage": "0.35%",
+                "tdf_ftc_events": "20",
+                "tdf_ftc_person_years": "851",
+                "tdf_ftc_incidence_percentage": "2.34%"
+            },
+            "measures": "[hazard_ratio, p_value]",
+            "outcomes": "[0.17 (0.05\u20130.54), 0.53]"
+        },
+        {
+            "subject": {
+                "study_group": "age",
+                "age_group": "\u226525 years",
+                "cabotegravir_events": "1",
+                "cabotegravir_person_years": "1090",
+                "cabotegravir_incidence_percentage": "0.09%",
+                "tdf_ftc_events": "16",
+                "tdf_ftc_person_years": "1091",
+                "tdf_ftc_incidence_percentage": "1.47%"
+            },
+            "measures": "[hazard_ratio]",
+            "outcomes": "[0.09 (0.02\u20130.49)]"
+        },
+        {
+            "subject": {
+                "study_group": "contraceptive_method",
+                "contraceptive_method": "DMPA",
+                "cabotegravir_events": "3",
+                "cabotegravir_person_years": "1009",
+                "cabotegravir_incidence_percentage": "0.30%",
+                "tdf_ftc_events": "21",
+                "tdf_ftc_person_years": "1000",
+                "tdf_ftc_incidence_percentage": "2.10%"
+            },
+            "measures": "[hazard_ratio, p_value]",
+            "outcomes": "[0.16 (0.05\u20130.53), 0.87]"
+        },
+        {
+            "subject": {
+                "study_group": "contraceptive_method",
+                "contraceptive_method": "NET-EN",
+                "cabotegravir_events": "1",
+                "cabotegravir_person_years": "175",
+                "cabotegravir_incidence_percentage": "0.57%",
+                "tdf_ftc_events": "6",
+                "tdf_ftc_person_years": "182",
+                "tdf_ftc_incidence_percentage": "3.30%"
+            },
+            "measures": "[hazard_ratio]",
+            "outcomes": "[0.22 (0.03\u20131.48)]"
+        },
+        {
+            "subject": {
+                "study_group": "contraceptive_method",
+                "contraceptive_method": "implant",
+                "cabotegravir_events": "0",
+                "tdf_ftc_events": "8",
+                "tdf_ftc_person_years": "607",
+                "tdf_ftc_incidence_percentage": "1.32%"
+            },
+            "measures": "[hazard_ratio]",
+            "outcomes": "[0.06 (0.00\u20131.16)]"
+        },
+        {
+            "subject": {
+                "study_group": "contraceptive_method",
+                "contraceptive_method": "other",
+                "cabotegravir_events": "0",
+                "tdf_ftc_events": "1",
+                "tdf_ftc_person_years": "152",
+                "tdf_ftc_incidence_percentage": "0.66%"
+            },
+            "measures": "[hazard_ratio]",
+            "outcomes": "[0.32 (0.01\u20139.89)]"
+        },
+        {
+            "subject": {
+                "study_group": "body_mass_index",
+                "bmi_group": "\u226430 kg/m2",
+                "cabotegravir_events": "4",
+                "cabotegravir_person_years": "1389",
+                "cabotegravir_incidence_percentage": "0.29%",
+                "tdf_ftc_events": "27",
+                "tdf_ftc_person_years": "1447",
+                "tdf_ftc_incidence_percentage": "1.87%"
+            },
+            "measures": "[hazard_ratio, p_value]",
+            "outcomes": "[0.16 (0.06\u20130.45), 0.47]"
+        },
+        {
+            "subject": {
+                "study_group": "body_mass_index",
+                "bmi_group": ">30 kg/m2",
+                "cabotegravir_events": "0",
+                "tdf_ftc_events": "9",
+                "tdf_ftc_person_years": "495",
+                "tdf_ftc_incidence_percentage": "1.82%"
+            },
+            "measures": "[hazard_ratio]",
+            "outcomes": "[0.05 (0.00\u20130.96)]"
+        },
+        {
+            "subject": {
+                "study_type": "ITT analysis",
+                "total_hiv_infections": "40",
+                "cabotegravir_infections": "4",
+                "cabotegravir_incidence": "0.20 per 100 person-years",
+                "cabotegravir_incidence_ci": "0.06\u20130.52",
+                "tdf_ftc_infections": "36",
+                "tdf_ftc_incidence": "1.85 per 100 person-years",
+                "tdf_ftc_incidence_ci": "1.3\u20132.57"
+            }
+        }
+    ],
+    "PMC10294491_2": [
+        {
+            "subject": {
+                "group": "TDF/FTC",
+                "subjects": "2693",
+                "PYFU": "4386",
+                "analysis": "Original analysis on rate ratio scale"
+            },
+            "measures": "[incident HIV infections, incidence rate (per 100 PYFU), rate ratio (95% CI)]",
+            "outcomes": "[11, 0.251, REF]"
+        },
+        {
+            "subject": {
+                "group": "TAF/FTC",
+                "subjects": "2694",
+                "PYFU": "4370",
+                "analysis": "Original analysis on rate ratio scale"
+            },
+            "measures": "[incident HIV infections, incidence rate (per 100 PYFU), rate ratio (95% CI)]",
+            "outcomes": "[6, 0.137, 0.55 (0.20, 1.48)]"
+        },
+        {
+            "subject": {
+                "group": "TDF/FTC",
+                "PYFU": "4386",
+                "analysis": "Re-analysis using an averted infections framework",
+                "counterfactual placebo incidence rate": "2.06 per 100 PYFU",
+                "counterfactual placebo incidence rate note": "lower 2.5% credibility limit"
+            },
+            "measures": "[observed infections, predicted infections, averted infections, averted infections ratio (95% CI)]",
+            "outcomes": "[11, 90.4, 79.4, REF]"
+        },
+        {
+            "subject": {
+                "group": "TAF/FTC",
+                "PYFU": "4370",
+                "analysis": "Re-analysis using an averted infections framework",
+                "counterfactual placebo incidence rate": "2.06 per 100 PYFU",
+                "counterfactual placebo incidence rate note": "lower 2.5% credibility limit"
+            },
+            "measures": "[observed infections, predicted infections, averted infections, averted infections ratio (95% CI)]",
+            "outcomes": "[6, 90.0, 84.0, 1.06 (0.96\u20131.17)]"
+        },
+        {
+            "subject": {
+                "trial": "DISCOVER",
+                "outcome": "primary outcome analysis"
+            }
+        }
+    ],
+    "PMC6158807_3": [
+        {
+            "subject": {
+                "endpoint": "composite endpoint",
+                "total events": "692",
+                "events": "123",
+                "person-years of follow-up": "4071"
+            },
+            "measures": "[rate per 100 person-years]",
+            "outcomes": "[3.02 (2.53\u20133.61)]"
+        },
+        {
+            "subject": {
+                "endpoint": "composite endpoint",
+                "current CD4/CD8 ratio": "< 0.3",
+                "events": "21",
+                "person-years of follow-up": "184"
+            },
+            "measures": "[rate per 100 person-years]",
+            "outcomes": "[11.42 (7.45\u201317.52)]"
+        },
+        {
+            "subject": {
+                "endpoint": "composite endpoint",
+                "current CD4/CD8 ratio": "0.30\u20130.45",
+                "events": "28",
+                "person-years of follow-up": "496"
+            },
+            "measures": "[rate per 100 person-years]",
+            "outcomes": "[5.64 (3.90\u20138.17)]"
+        },
+        {
+            "subject": {
+                "endpoint": "composite endpoint",
+                "current CD4/CD8 ratio": "> 0.45",
+                "events": "72",
+                "person-years of follow-up": "3227"
+            },
+            "measures": "[rate per 100 person-years]",
+            "outcomes": "[2.23 (1.77\u20132.81)]"
+        },
+        {
+            "subject": {
+                "endpoint": "non-AIDS composite events",
+                "current CD4/CD8 ratio": "< 0.3"
+            },
+            "measures": "[incidence rate per 100 PYS]",
+            "outcomes": "[11.42 (7.45\u201317.52)]"
+        },
+        {
+            "subject": {
+                "endpoint": "non-AIDS composite events",
+                "current CD4/CD8 ratio": "> 0.45"
+            },
+            "measures": "[incidence rate per 100 PYS]",
+            "outcomes": "[2.23 (1.77\u20132.81)]"
+        },
+        {
+            "subject": {
+                "statistical test": "long rank test",
+                "p-value": "< 0.001"
+            }
+        }
+    ],
+    "PMC7522205_2": [
+        {
+            "subject": {
+                "HIV-1 Genotype": "Total",
+                "Patients": "%, 100.0",
+                "CD4+ median": "160",
+                "CD4+ IQR lower": "49",
+                "CD4+ IQR upper": "310"
+            }
+        },
+        {
+            "subject": {
+                "HIV-1 Genotype": "CRF01_AE",
+                "Patients": "%, 59.3",
+                "CD4+ median": "111",
+                "CD4+ IQR lower": "31",
+                "CD4+ IQR upper": "279",
+                "Unadjusted Coefficient": "0",
+                "Adjusted Coefficient": "0"
+            }
+        },
+        {
+            "subject": {
+                "HIV-1 Genotype": "CRF07_BC",
+                "Patients": "%, 8.9",
+                "CD4+ median": "250",
+                "CD4+ IQR lower": "156",
+                "CD4+ IQR upper": "377"
+            },
+            "measures": "[Unadjusted Coefficient, Unadjusted 95% CI lower, Unadjusted 95% CI upper, Unadjusted P]",
+            "outcomes": "[139, 117, 161, <0.001]"
+        },
+        {
+            "subject": {
+                "HIV-1 Genotype": "CRF07_BC",
+                "Patients": "%, 8.9",
+                "CD4+ median": "250",
+                "CD4+ IQR lower": "156",
+                "CD4+ IQR upper": "377"
+            },
+            "measures": "[Adjusted Coefficient, Adjusted 95% CI lower, Adjusted 95% CI upper, Adjusted P]",
+            "outcomes": "[113, 86, 140, <0.001]"
+        },
+        {
+            "subject": {
+                "HIV-1 Genotype": "CRF08_BC",
+                "Patients": "%, 25.6",
+                "CD4+ median": "205",
+                "CD4+ IQR lower": "108",
+                "CD4+ IQR upper": "327"
+            },
+            "measures": "[Unadjusted Coefficient, Unadjusted 95% CI lower, Unadjusted 95% CI upper, Unadjusted P]",
+            "outcomes": "[94, 73, 115, <0.001]"
+        },
+        {
+            "subject": {
+                "HIV-1 Genotype": "CRF08_BC",
+                "Patients": "%, 25.6",
+                "CD4+ median": "205",
+                "CD4+ IQR lower": "108",
+                "CD4+ IQR upper": "327"
+            },
+            "measures": "[Adjusted Coefficient, Adjusted 95% CI lower, Adjusted 95% CI upper, Adjusted P]",
+            "outcomes": "[80, 65, 95, <0.001]"
+        },
+        {
+            "subject": {
+                "HIV-1 Genotype": "Others",
+                "Patients": "%, 6.2",
+                "CD4+ median": "198",
+                "CD4+ IQR lower": "89",
+                "CD4+ IQR upper": "355"
+            },
+            "measures": "[Unadjusted Coefficient, Unadjusted 95% CI lower, Unadjusted 95% CI upper, Unadjusted P]",
+            "outcomes": "[87, 46, 128, <0.001]"
+        },
+        {
+            "subject": {
+                "HIV-1 Genotype": "Others",
+                "Patients": "%, 6.2",
+                "CD4+ median": "198",
+                "CD4+ IQR lower": "89",
+                "CD4+ IQR upper": "355"
+            },
+            "measures": "[Adjusted Coefficient, Adjusted 95% CI lower, Adjusted 95% CI upper, Adjusted P]",
+            "outcomes": "[72, 37, 107, <0.001]"
+        },
+        {
+            "subject": {
+                "Study population": "newly diagnosed HIV patients",
+                "Outcome measure": "baseline CD4+ cell counts",
+                "Unit of measurement": "cells/\u03bcl",
+                "Adjustment factors": "age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, year of HIV infection diagnosis"
+            }
+        }
+    ],
+    "PMC7414801_2": [
+        {
+            "subject": {
+                "analysis_type": "as-randomized",
+                "total_participants": "382",
+                "measurement": "HIV VL",
+                "visit_type": "HIV detection visit"
+            },
+            "measures": "[participants]",
+            "outcomes": "[381]"
+        },
+        {
+            "subject": {
+                "analysis_type": "as-randomized",
+                "total_participants": "382",
+                "measurement": "HIV VL",
+                "visit_type": "M3"
+            },
+            "measures": "[participants, percentage]",
+            "outcomes": "[114, 30]"
+        },
+        {
+            "subject": {
+                "analysis_type": "as-randomized",
+                "total_participants": "382",
+                "measurement": "HIV VL",
+                "visit_type": "M6"
+            },
+            "measures": "[participants, percentage]",
+            "outcomes": "[73, 19]"
+        },
+        {
+            "subject": {
+                "analysis_type": "as-randomized",
+                "total_participants": "382",
+                "measurement": "HIV VL",
+                "visit_type": "M9"
+            },
+            "measures": "[participants, percentage]",
+            "outcomes": "[43, 11]"
+        },
+        {
+            "subject": {
+                "analysis_type": "as-randomized",
+                "total_participants": "382",
+                "measurement": "HIV VL",
+                "visit_type": "M12"
+            },
+            "measures": "[participants, percentage]",
+            "outcomes": "[26, 7]"
+        },
+        {
+            "subject": {
+                "analysis_type": "as-randomized",
+                "total_participants": "382",
+                "measurement": "HIV VL",
+                "visit_type": "M15"
+            },
+            "measures": "[participants, percentage]",
+            "outcomes": "[17, 4]"
+        },
+        {
+            "subject": {
+                "analysis_type": "as-randomized",
+                "total_participants": "382",
+                "measurement": "CD4",
+                "visit_type": "HIV detection visit"
+            },
+            "measures": "[participants]",
+            "outcomes": "[382]"
+        },
+        {
+            "subject": {
+                "analysis_type": "as-randomized",
+                "total_participants": "382",
+                "measurement": "CD4",
+                "visit_type": "M3"
+            },
+            "measures": "[participants, percentage]",
+            "outcomes": "[115, 30]"
+        },
+        {
+            "subject": {
+                "analysis_type": "as-randomized",
+                "total_participants": "382",
+                "measurement": "CD4",
+                "visit_type": "M6"
+            },
+            "measures": "[participants, percentage]",
+            "outcomes": "[73, 19]"
+        },
+        {
+            "subject": {
+                "analysis_type": "as-randomized",
+                "total_participants": "382",
+                "measurement": "CD4",
+                "visit_type": "M9"
+            },
+            "measures": "[participants, percentage]",
+            "outcomes": "[44, 12]"
+        },
+        {
+            "subject": {
+                "analysis_type": "as-randomized",
+                "total_participants": "382",
+                "measurement": "CD4",
+                "visit_type": "M12"
+            },
+            "measures": "[participants, percentage]",
+            "outcomes": "[26, 7]"
+        },
+        {
+            "subject": {
+                "analysis_type": "as-randomized",
+                "total_participants": "382",
+                "measurement": "CD4",
+                "visit_type": "M15"
+            },
+            "measures": "[participants, percentage]",
+            "outcomes": "[17, 4]"
+        },
+        {
+            "subject": {
+                "analysis_type": "continuous use",
+                "total_participants": "331",
+                "measurement": "HIV VL",
+                "visit_type": "HIV detection visit"
+            },
+            "measures": "[participants]",
+            "outcomes": "[330]"
+        },
+        {
+            "subject": {
+                "analysis_type": "continuous use",
+                "total_participants": "331",
+                "measurement": "HIV VL",
+                "visit_type": "M3"
+            },
+            "measures": "[participants, percentage]",
+            "outcomes": "[99, 30]"
+        },
+        {
+            "subject": {
+                "analysis_type": "continuous use",
+                "total_participants": "331",
+                "measurement": "HIV VL",
+                "visit_type": "M6"
+            },
+            "measures": "[participants, percentage]",
+            "outcomes": "[65, 20]"
+        },
+        {
+            "subject": {
+                "analysis_type": "continuous use",
+                "total_participants": "331",
+                "measurement": "HIV VL",
+                "visit_type": "M9"
+            },
+            "measures": "[participants, percentage]",
+            "outcomes": "[40, 12]"
+        },
+        {
+            "subject": {
+                "analysis_type": "continuous use",
+                "total_participants": "331",
+                "measurement": "HIV VL",
+                "visit_type": "M12"
+            },
+            "measures": "[participants, percentage]",
+            "outcomes": "[25, 8]"
+        },
+        {
+            "subject": {
+                "analysis_type": "continuous use",
+                "total_participants": "331",
+                "measurement": "HIV VL",
+                "visit_type": "M15"
+            },
+            "measures": "[participants, percentage]",
+            "outcomes": "[14, 4]"
+        },
+        {
+            "subject": {
+                "analysis_type": "continuous use",
+                "total_participants": "331",
+                "measurement": "CD4",
+                "visit_type": "HIV detection visit"
+            },
+            "measures": "[participants]",
+            "outcomes": "[331]"
+        },
+        {
+            "subject": {
+                "analysis_type": "continuous use",
+                "total_participants": "331",
+                "measurement": "CD4",
+                "visit_type": "M3"
+            },
+            "measures": "[participants, percentage]",
+            "outcomes": "[99, 30]"
+        },
+        {
+            "subject": {
+                "analysis_type": "continuous use",
+                "total_participants": "331",
+                "measurement": "CD4",
+                "visit_type": "M6"
+            },
+            "measures": "[participants, percentage]",
+            "outcomes": "[64, 19]"
+        },
+        {
+            "subject": {
+                "analysis_type": "continuous use",
+                "total_participants": "331",
+                "measurement": "CD4",
+                "visit_type": "M9"
+            },
+            "measures": "[participants, percentage]",
+            "outcomes": "[40, 12]"
+        },
+        {
+            "subject": {
+                "analysis_type": "continuous use",
+                "total_participants": "331",
+                "measurement": "CD4",
+                "visit_type": "M12"
+            },
+            "measures": "[participants, percentage]",
+            "outcomes": "[25, 8]"
+        },
+        {
+            "subject": {
+                "analysis_type": "continuous use",
+                "total_participants": "331",
+                "measurement": "CD4",
+                "visit_type": "M15"
+            },
+            "measures": "[participants, percentage]",
+            "outcomes": "[14, 4]"
+        },
+        {
+            "subject": {
+                "contraceptive_method": "DMPA-IM",
+                "continuous_use_percentage": "80"
+            }
+        },
+        {
+            "subject": {
+                "contraceptive_method": "copper IUD",
+                "continuous_use_percentage": "87"
+            }
+        },
+        {
+            "subject": {
+                "contraceptive_method": "LNG implant",
+                "continuous_use_percentage": "94"
+            }
+        }
+    ],
+    "PMC9624454_2": [
+        {
+            "subject": {
+                "population": "All children",
+                "sample_size": "1024",
+                "hiv_exposure": "All"
+            },
+            "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+            "outcomes": "[314 (30.7), 59 (5.8), 2.3 (1.9\u20132.7)]"
+        },
+        {
+            "subject": {
+                "population": "HIV unexposed",
+                "sample_size": "872",
+                "hiv_exposure": "Unexposed"
+            },
+            "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+            "outcomes": "[253 (29.0), 45 (5.2), 2.3 (1.9\u20132.7)]"
+        },
+        {
+            "subject": {
+                "population": "HIV exposed",
+                "sample_size": "118",
+                "hiv_exposure": "Exposed",
+                "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown"
+            },
+            "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+            "outcomes": "[45 (38.1), 10 (8.5), 2.4 (2.0\u20132.9)]"
+        },
+        {
+            "subject": {
+                "population": "HIV exposed",
+                "sample_size": "118",
+                "hiv_exposure": "Exposed",
+                "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown",
+                "comparison": "CMV detection in HIV-unexposed children",
+                "statistical_test": "\u03c7\u00b2 test"
+            },
+            "measures": "[P Value]",
+            "outcomes": "[0.061]"
+        },
+        {
+            "subject": {
+                "population": "HIV exposed",
+                "sample_size": "118",
+                "hiv_exposure": "Exposed",
+                "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown",
+                "comparison": "CMV detection \u2264 1000 IU/mL in HIV-unexposed children",
+                "statistical_test": "\u03c7\u00b2 test"
+            },
+            "measures": "[P Value]",
+            "outcomes": "[0.18]"
+        },
+        {
+            "subject": {
+                "population": "HIV exposed",
+                "sample_size": "118",
+                "hiv_exposure": "Exposed",
+                "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown",
+                "comparison": "CMV viral load distribution to HIV-unexposed children",
+                "statistical_test": "Wilcoxon rank-sum test"
+            },
+            "measures": "[P Value]",
+            "outcomes": "[0.24]"
+        },
+        {
+            "subject": {
+                "population": "HIV exposed uninfected",
+                "sample_size": "97",
+                "hiv_exposure": "Exposed",
+                "hiv_status": "Uninfected"
+            },
+            "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+            "outcomes": "[36 (37.1), 6 (6.2), 2.4 (1.9\u20132.7)]"
+        },
+        {
+            "subject": {
+                "population": "HIV exposed uninfected",
+                "sample_size": "97",
+                "hiv_exposure": "Exposed",
+                "hiv_status": "Uninfected",
+                "comparison": "CMV detection in HIV-unexposed children",
+                "statistical_test": "\u03c7\u00b2 test"
+            },
+            "measures": "[P Value]",
+            "outcomes": "[0.088]"
+        },
+        {
+            "subject": {
+                "population": "HIV exposed uninfected",
+                "sample_size": "97",
+                "hiv_exposure": "Exposed",
+                "hiv_status": "Uninfected",
+                "comparison": "CMV detection \u2264 1000 IU/mL in HIV-unexposed children",
+                "statistical_test": "\u03c7\u00b2 test"
+            },
+            "measures": "[P Value]",
+            "outcomes": "[0.56]"
+        },
+        {
+            "subject": {
+                "population": "HIV exposed uninfected",
+                "sample_size": "97",
+                "hiv_exposure": "Exposed",
+                "hiv_status": "Uninfected",
+                "comparison": "CMV viral load distribution to HIV-unexposed children",
+                "statistical_test": "Wilcoxon rank-sum test"
+            },
+            "measures": "[P Value]",
+            "outcomes": "[0.74]"
+        },
+        {
+            "subject": {
+                "population": "HIV infected",
+                "sample_size": "15",
+                "hiv_exposure": "Exposed",
+                "hiv_status": "Infected"
+            },
+            "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+            "outcomes": "[6 (40.0), 3 (20.0), 3.2 (2.6\u20135.3)]"
+        },
+        {
+            "subject": {
+                "population": "HIV infected",
+                "sample_size": "15",
+                "hiv_exposure": "Exposed",
+                "hiv_status": "Infected",
+                "comparison": "CMV detection in HIV-unexposed children",
+                "statistical_test": "\u03c7\u00b2 test"
+            },
+            "measures": "[P Value]",
+            "outcomes": "[0.39]"
+        },
+        {
+            "subject": {
+                "population": "HIV infected",
+                "sample_size": "15",
+                "hiv_exposure": "Exposed",
+                "hiv_status": "Infected",
+                "comparison": "CMV detection \u2264 1000 IU/mL in HIV-unexposed children",
+                "statistical_test": "\u03c7\u00b2 test"
+            },
+            "measures": "[P Value]",
+            "outcomes": "[0.015]"
+        },
+        {
+            "subject": {
+                "population": "HIV infected",
+                "sample_size": "15",
+                "hiv_exposure": "Exposed",
+                "hiv_status": "Infected",
+                "comparison": "CMV viral load distribution to HIV-unexposed children",
+                "statistical_test": "Wilcoxon rank-sum test"
+            },
+            "measures": "[P Value]",
+            "outcomes": "[0.012]"
+        },
+        {
+            "subject": {
+                "population": "All children",
+                "sample_size": "1024",
+                "measurement_time": "At hospital discharge"
+            },
+            "measures": "[CMV viremia detection, CMV levels \u2264 1000 IU/mL]",
+            "outcomes": "[314 (31%), 5.8%]"
+        }
+    ],
+    "PMC4549947_4": [
+        {
+            "subject": {
+                "gene": "DRD2",
+                "snp": "rs6277",
+                "trait": "executive function",
+                "group": "females"
+            },
+            "measures": "[odds ratio]",
+            "outcomes": "[1.3]"
+        },
+        {
+            "subject": {
+                "gene": "DRD2",
+                "snp": "rs6277",
+                "trait": "executive function",
+                "group": "males"
+            },
+            "measures": "[odds ratio, p-value]",
+            "outcomes": "[3.5, 0.008]"
+        },
+        {
+            "subject": {
+                "gene": "DRD2",
+                "snp": "rs6277",
+                "trait": "executive function",
+                "group": "males",
+                "confidence interval": "1.5\u20135.5"
+            }
+        },
+        {
+            "subject": {
+                "gene": "DRD2",
+                "snp": "rs6277",
+                "trait": "executive function",
+                "group": "hispanics"
+            },
+            "measures": "[odds ratio]",
+            "outcomes": "[2.6]"
+        },
+        {
+            "subject": {
+                "gene": "DRD2",
+                "snp": "rs6277",
+                "trait": "executive function",
+                "group": "african american"
+            },
+            "measures": "[odds ratio, p-value]",
+            "outcomes": "[3.1, 0.01]"
+        },
+        {
+            "subject": {
+                "gene": "DRD2",
+                "snp": "rs6277",
+                "trait": "executive function",
+                "group": "african american",
+                "confidence interval": "2.3\u20133.5"
+            }
+        },
+        {
+            "subject": {
+                "gene": "DRD2",
+                "snp": "rs6277",
+                "trait": "executive function",
+                "group": "alcohol use"
+            },
+            "measures": "[odds ratio]",
+            "outcomes": "[2.6]"
+        },
+        {
+            "subject": {
+                "gene": "DRD2",
+                "snp": "rs6277",
+                "trait": "executive function",
+                "group": "gender",
+                "p-interaction": "0.35"
+            }
+        },
+        {
+            "subject": {
+                "gene": "DRD2",
+                "snp": "rs6277",
+                "trait": "executive function",
+                "group": "race/ethnicity",
+                "p-interaction": "0.05"
+            }
+        },
+        {
+            "subject": {
+                "gene": "DRD2",
+                "snp": "rs6277",
+                "trait": "cognitive flexibility",
+                "group": "females"
+            },
+            "measures": "[odds ratio]",
+            "outcomes": "[0.9]"
+        },
+        {
+            "subject": {
+                "gene": "DRD2",
+                "snp": "rs6277",
+                "trait": "cognitive flexibility",
+                "group": "males"
+            },
+            "measures": "[odds ratio, p-value]",
+            "outcomes": "[1.8, 0.01]"
+        },
+        {
+            "subject": {
+                "gene": "DRD2",
+                "snp": "rs6277",
+                "trait": "cognitive flexibility",
+                "group": "males",
+                "confidence interval": "1.2\u20132.9"
+            }
+        },
+        {
+            "subject": {
+                "gene": "DRD2",
+                "snp": "rs6277",
+                "trait": "cognitive flexibility",
+                "group": "hispanics"
+            },
+            "measures": "[odds ratio]",
+            "outcomes": "[1.9]"
+        },
+        {
+            "subject": {
+                "gene": "DRD2",
+                "snp": "rs6277",
+                "trait": "cognitive flexibility",
+                "group": "african american"
+            },
+            "measures": "[odds ratio]",
+            "outcomes": "[1.5]"
+        },
+        {
+            "subject": {
+                "gene": "DRD2",
+                "snp": "rs6277",
+                "trait": "cognitive flexibility",
+                "group": "alcohol use"
+            },
+            "measures": "[odds ratio, p-value]",
+            "outcomes": "[1.6, 0.03]"
+        },
+        {
+            "subject": {
+                "gene": "DRD2",
+                "snp": "rs6277",
+                "trait": "cognitive flexibility",
+                "group": "alcohol use",
+                "confidence interval": "1.4\u20132.4"
+            }
+        },
+        {
+            "subject": {
+                "gene": "DRD2",
+                "snp": "rs6277",
+                "trait": "cognitive flexibility",
+                "group": "gender",
+                "p-interaction": "0.013"
+            }
+        },
+        {
+            "subject": {
+                "gene": "DRD2",
+                "snp": "rs6277",
+                "trait": "cognitive flexibility",
+                "group": "race/ethnicity",
+                "p-interaction": "0.72"
+            }
+        },
+        {
+            "subject": {
+                "gene": "DRD2",
+                "snp": "rs6277",
+                "trait": "cognitive flexibility",
+                "group": "alcohol use",
+                "p-interaction": "0.32"
+            }
+        }
+    ],
+    "PMC6694514_3": [
+        {
+            "subject": {
+                "study": "REMoxTB trial",
+                "population": "matched population",
+                "adverse_event_grade": "grade 3 or 4",
+                "hiv_status": "positive",
+                "adverse_event_soc": "Hepatobiliary disorders",
+                "total_events": "40"
+            },
+            "measures": "[number_of_events, percentage_of_events]",
+            "outcomes": "[12, 30.0%]"
+        },
+        {
+            "subject": {
+                "study": "REMoxTB trial",
+                "population": "matched population",
+                "adverse_event_grade": "grade 3 or 4",
+                "hiv_status": "negative",
+                "adverse_event_soc": "Hepatobiliary disorders",
+                "total_events": "60"
+            },
+            "measures": "[number_of_events, percentage_of_events]",
+            "outcomes": "[15, 25.0%]"
+        },
+        {
+            "subject": {
+                "study": "REMoxTB trial",
+                "population": "matched population",
+                "adverse_event_grade": "grade 3 or 4",
+                "hiv_status": "positive",
+                "adverse_event_soc": "Respiratory and thoracic disorders",
+                "total_events": "40"
+            },
+            "measures": "[number_of_events, percentage_of_events]",
+            "outcomes": "[7, 17.5%]"
+        },
+        {
+            "subject": {
+                "study": "REMoxTB trial",
+                "population": "matched population",
+                "adverse_event_grade": "grade 3 or 4",
+                "hiv_status": "negative",
+                "adverse_event_soc": "Respiratory and thoracic disorders",
+                "total_events": "60"
+            },
+            "measures": "[number_of_events, percentage_of_events]",
+            "outcomes": "[13, 21.7%]"
+        },
+        {
+            "subject": {
+                "study": "REMoxTB trial",
+                "population": "matched population",
+                "adverse_event_grade": "grade 3 or 4",
+                "hiv_status": "positive",
+                "adverse_event_soc": "Blood and lymphatic disorders",
+                "total_events": "40"
+            },
+            "measures": "[number_of_events, percentage_of_events]",
+            "outcomes": "[6, 15.0%]"
+        },
+        {
+            "subject": {
+                "study": "REMoxTB trial",
+                "population": "matched population",
+                "adverse_event_grade": "grade 3 or 4",
+                "hiv_status": "negative",
+                "adverse_event_soc": "Blood and lymphatic disorders",
+                "total_events": "60"
+            },
+            "measures": "[number_of_events, percentage_of_events]",
+            "outcomes": "[10, 16.7%]"
+        },
+        {
+            "subject": {
+                "study": "REMoxTB trial",
+                "population": "matched population",
+                "adverse_event_grade": "grade 3 or 4",
+                "hiv_status": "positive",
+                "adverse_event_soc": "Infections and infestations",
+                "total_events": "40"
+            },
+            "measures": "[number_of_events, percentage_of_events]",
+            "outcomes": "[3, 7.5%]"
+        },
+        {
+            "subject": {
+                "study": "REMoxTB trial",
+                "population": "matched population",
+                "adverse_event_grade": "grade 3 or 4",
+                "hiv_status": "negative",
+                "adverse_event_soc": "Infections and infestations",
+                "total_events": "60"
+            },
+            "measures": "[number_of_events, percentage_of_events]",
+            "outcomes": "[5, 8.3%]"
+        },
+        {
+            "subject": {
+                "study": "REMoxTB trial",
+                "population": "matched population",
+                "adverse_event_grade": "grade 3 or 4",
+                "hiv_status": "positive",
+                "adverse_event_soc": "Metabolism and nutrition disorders",
+                "total_events": "40"
+            },
+            "measures": "[number_of_events, percentage_of_events]",
+            "outcomes": "[3, 7.5%]"
+        },
+        {
+            "subject": {
+                "study": "REMoxTB trial",
+                "population": "matched population",
+                "adverse_event_grade": "grade 3 or 4",
+                "hiv_status": "negative",
+                "adverse_event_soc": "Metabolism and nutrition disorders",
+                "total_events": "60"
+            },
+            "measures": "[number_of_events, percentage_of_events]",
+            "outcomes": "[4, 6.7%]"
+        },
+        {
+            "subject": {
+                "study": "REMoxTB trial",
+                "population": "matched population",
+                "adverse_event_grade": "grade 3 or 4",
+                "hiv_status": "positive",
+                "adverse_event_soc": "Other",
+                "total_events": "40"
+            },
+            "measures": "[number_of_events, percentage_of_events]",
+            "outcomes": "[9, 17.5%]"
+        },
+        {
+            "subject": {
+                "study": "REMoxTB trial",
+                "population": "matched population",
+                "adverse_event_grade": "grade 3 or 4",
+                "hiv_status": "negative",
+                "adverse_event_soc": "Other",
+                "total_events": "60"
+            },
+            "measures": "[number_of_events, percentage_of_events]",
+            "outcomes": "[13, 16.7%]"
+        },
+        {
+            "subject": {
+                "study": "REMoxTB trial",
+                "population": "matched population",
+                "adverse_event_grade": "grade 3 or 4",
+                "hiv_status": "positive",
+                "total_patients": "42"
+            },
+            "measures": "[patients_with_ae, percentage_of_patients]",
+            "outcomes": "[20, 47.6%]"
+        },
+        {
+            "subject": {
+                "study": "REMoxTB trial",
+                "population": "matched population",
+                "adverse_event_grade": "grade 3 or 4",
+                "hiv_status": "negative",
+                "total_patients": "220"
+            },
+            "measures": "[patients_with_ae, percentage_of_patients]",
+            "outcomes": "[34, 15.5%]"
+        },
+        {
+            "subject": {
+                "study": "REMoxTB trial",
+                "population": "matched population",
+                "adverse_event_grade": "grade 3 or 4",
+                "hiv_status": "positive",
+                "ae_relation": "at least possibly related to treatment",
+                "total_patients": "42"
+            },
+            "measures": "[patients_with_ae, percentage_of_patients]",
+            "outcomes": "[11, 26.2%]"
+        },
+        {
+            "subject": {
+                "study": "REMoxTB trial",
+                "population": "matched population",
+                "adverse_event_grade": "grade 3 or 4",
+                "hiv_status": "negative",
+                "ae_relation": "at least possibly related to treatment",
+                "total_patients": "220"
+            },
+            "measures": "[patients_with_ae, percentage_of_patients]",
+            "outcomes": "[14, 6.4%]"
+        },
+        {
+            "subject": {
+                "study": "REMoxTB trial",
+                "population": "matched population",
+                "adverse_event_grade": "grade 3 or 4",
+                "hiv_status": "positive",
+                "adverse_event_soc": "Hepatobiliary disorders",
+                "total_patients": "42"
+            },
+            "measures": "[patients_with_ae, percentage_of_patients]",
+            "outcomes": "[6, 14.3%]"
+        },
+        {
+            "subject": {
+                "study": "REMoxTB trial",
+                "population": "matched population",
+                "adverse_event_grade": "grade 3 or 4",
+                "hiv_status": "negative",
+                "adverse_event_soc": "Hepatobiliary disorders",
+                "total_patients": "220"
+            },
+            "measures": "[patients_with_ae, percentage_of_patients]",
+            "outcomes": "[9, 4.1%]"
+        }
+    ],
+    "PMC6937831_2": [
+        {
+            "subject": {
+                "death_category": "Non-AIDS-Related Death (NARD)",
+                "cause_of_death": "Cancer",
+                "number_of_deaths": "6",
+                "percentage_of_deaths": "4%"
+            },
+            "measures": "[number_of_deaths, percentage_of_deaths]",
+            "outcomes": "[6, 4%]"
+        },
+        {
+            "subject": {
+                "death_category": "Non-AIDS-Related Death (NARD)",
+                "cause_of_death": "Other diseases",
+                "number_of_deaths": "10",
+                "percentage_of_deaths": "8%"
+            },
+            "measures": "[number_of_deaths, percentage_of_deaths]",
+            "outcomes": "[10, 8%]"
+        },
+        {
+            "subject": {
+                "death_category": "Non-AIDS-Related Death (NARD)",
+                "cause_of_death": "CVD",
+                "number_of_deaths": "12",
+                "percentage_of_deaths": "9%"
+            },
+            "measures": "[number_of_deaths, percentage_of_deaths]",
+            "outcomes": "[12, 9%]"
+        },
+        {
+            "subject": {
+                "death_category": "Non-AIDS-Related Death (NARD)",
+                "cause_of_death": "Hepatic/liver-related",
+                "number_of_deaths": "34",
+                "percentage_of_deaths": "24%"
+            },
+            "measures": "[number_of_deaths, percentage_of_deaths]",
+            "outcomes": "[34, 24%]"
+        },
+        {
+            "subject": {
+                "death_category": "Non-AIDS-Related Death (NARD)",
+                "cause_of_death": "External death",
+                "number_of_deaths": "78",
+                "percentage_of_deaths": "55%",
+                "external_death_definition": "Sudden death, including accident, overdose, and suicide"
+            },
+            "measures": "[number_of_deaths, percentage_of_deaths]",
+            "outcomes": "[78, 55%]"
+        },
+        {
+            "subject": {
+                "death_category": "AIDS-Related Death (ARD)",
+                "cause_of_death": "Other diseases",
+                "number_of_deaths": "2",
+                "percentage_of_deaths": "1%",
+                "other_diseases_definition": "Unknown death categorized based on CD4 count within 6-months prior to the date of death",
+                "cd4_count_threshold": "lower than 200 cells/mm\u00b2"
+            },
+            "measures": "[number_of_deaths, percentage_of_deaths]",
+            "outcomes": "[2, 1%]"
+        },
+        {
+            "subject": {
+                "death_category": "AIDS-Related Death (ARD)",
+                "cause_of_death": "Cancer",
+                "number_of_deaths": "8",
+                "percentage_of_deaths": "3%",
+                "cancer_definition": "AIDS-related cancers like cervical cancer"
+            },
+            "measures": "[number_of_deaths, percentage_of_deaths]",
+            "outcomes": "[8, 3%]"
+        },
+        {
+            "subject": {
+                "death_category": "AIDS-Related Death (ARD)",
+                "cause_of_death": "Opportunistic",
+                "number_of_deaths": "241",
+                "percentage_of_deaths": "96%"
+            },
+            "measures": "[number_of_deaths, percentage_of_deaths]",
+            "outcomes": "[241, 96%]"
+        },
+        {
+            "subject": {
+                "total_deaths": "391",
+                "cancer_related_deaths": "14",
+                "cancer_related_deaths_percentage": "7%"
+            }
+        }
+    ],
+    "PMC8340029_2": [
+        {
+            "subject": {
+                "study_period": "before PrEP access",
+                "number_of_infections": "133",
+                "person_years": "2860",
+                "incidence_type": "HIV"
+            },
+            "measures": "[incidence]",
+            "outcomes": "[4.65%]"
+        },
+        {
+            "subject": {
+                "study_period": "after PrEP access",
+                "number_of_infections": "12",
+                "person_years": "556",
+                "incidence_type": "HIV",
+                "adjusted_irr": "0.45",
+                "adjusted_irr_ci_lower": "0.25",
+                "adjusted_irr_ci_upper": "0.82",
+                "p_value": "0.0085"
+            },
+            "measures": "[incidence]",
+            "outcomes": "[2.16%]"
+        },
+        {
+            "subject": {
+                "study_period": "180 days before on-site PrEP access",
+                "number_of_infections": "46",
+                "person_years": "919",
+                "incidence_type": "HIV"
+            },
+            "measures": "[incidence]",
+            "outcomes": "[5.00%]"
+        },
+        {
+            "subject": {
+                "study_period": "180 days after on-site PrEP access",
+                "number_of_infections": "11",
+                "person_years": "481",
+                "incidence_type": "HIV",
+                "adjusted_irr": "0.43",
+                "adjusted_irr_ci_lower": "0.22",
+                "adjusted_irr_ci_upper": "0.83",
+                "p_value": "0.012"
+            },
+            "measures": "[incidence]",
+            "outcomes": "[2.29%]"
+        }
+    ],
+    "PMC8391097_3": [
+        {
+            "subject": {
+                "PrEP status": "Overall",
+                "HIV infections": "91",
+                "total No. of individuals": "13861",
+                "Total follow-up": "26210 person-years",
+                "Excludes individuals diagnosed with HIV during eligibility assessment at PrEP linkage": "true"
+            },
+            "measures": "[Incidence per 100 person-years]",
+            "outcomes": "[0.35]"
+        },
+        {
+            "subject": {
+                "PrEP status": "Overall",
+                "HIV infections": "91",
+                "total No. of individuals": "13861",
+                "Total follow-up": "26210 person-years",
+                "Excludes individuals diagnosed with HIV during eligibility assessment at PrEP linkage": "true"
+            },
+            "measures": "[Incidence 95% CI lower bound per 100 person-years, Incidence 95% CI upper bound per 100 person-years]",
+            "outcomes": "[0.28, 0.43]"
+        },
+        {
+            "subject": {
+                "PrEP status": "Linked but not prescribed PrEP",
+                "HIV infections": "36",
+                "total No. of individuals": "3013",
+                "Total follow-up": "4119 person-years"
+            },
+            "measures": "[Incidence per 100 person-years]",
+            "outcomes": "[0.87]"
+        },
+        {
+            "subject": {
+                "PrEP status": "Linked but not prescribed PrEP",
+                "HIV infections": "36",
+                "total No. of individuals": "3013",
+                "Total follow-up": "4119 person-years"
+            },
+            "measures": "[Incidence 95% CI lower bound per 100 person-years, Incidence 95% CI upper bound per 100 person-years]",
+            "outcomes": "[0.63, 1.21]"
+        },
+        {
+            "subject": {
+                "PrEP status": "Prescribed PrEP but did not initiate",
+                "HIV infections": "13",
+                "total No. of individuals": "811",
+                "Total follow-up": "1226 person-years"
+            },
+            "measures": "[Incidence per 100 person-years]",
+            "outcomes": "[1.06]"
+        },
+        {
+            "subject": {
+                "PrEP status": "Prescribed PrEP but did not initiate",
+                "HIV infections": "13",
+                "total No. of individuals": "811",
+                "Total follow-up": "1226 person-years"
+            },
+            "measures": "[Incidence 95% CI lower bound per 100 person-years, Incidence 95% CI upper bound per 100 person-years]",
+            "outcomes": "[0.62, 1.83]"
+        },
+        {
+            "subject": {
+                "PrEP status": "Discontinued but reinitiated PrEP",
+                "HIV infections": "4",
+                "total No. of individuals": "1082",
+                "Total follow-up": "1420 person-years"
+            },
+            "measures": "[Incidence per 100 person-years]",
+            "outcomes": "[0.28]"
+        },
+        {
+            "subject": {
+                "PrEP status": "Discontinued but reinitiated PrEP",
+                "HIV infections": "4",
+                "total No. of individuals": "1082",
+                "Total follow-up": "1420 person-years"
+            },
+            "measures": "[Incidence 95% CI lower bound per 100 person-years, Incidence 95% CI upper bound per 100 person-years]",
+            "outcomes": "[0.11, 0.75]"
+        },
+        {
+            "subject": {
+                "PrEP status": "Discontinued and did not reinitiate PrEP",
+                "HIV infections": "38",
+                "total No. of individuals": "2108",
+                "Total follow-up": "2973 person-years"
+            },
+            "measures": "[Incidence per 100 person-years]",
+            "outcomes": "[1.28]"
+        },
+        {
+            "subject": {
+                "PrEP status": "Discontinued and did not reinitiate PrEP",
+                "HIV infections": "38",
+                "total No. of individuals": "2108",
+                "Total follow-up": "2973 person-years"
+            },
+            "measures": "[Incidence 95% CI lower bound per 100 person-years, Incidence 95% CI upper bound per 100 person-years]",
+            "outcomes": "[0.93, 1.76]"
+        },
+        {
+            "subject": {
+                "PrEP status": "Persistent on PrEP",
+                "HIV infections": "0",
+                "total No. of individuals": "5367",
+                "Total follow-up": "9139 person-years",
+                "Persistent on PrEP refers to individuals who initiated and remained on PrEP throughout follow-up": "true"
+            },
+            "measures": "[Incidence per 100 person-years]",
+            "outcomes": "[0.00]"
+        },
+        {
+            "subject": {
+                "PrEP status": "Persistent on PrEP",
+                "HIV infections": "0",
+                "total No. of individuals": "5367",
+                "Total follow-up": "9139 person-years",
+                "Persistent on PrEP refers to individuals who initiated and remained on PrEP throughout follow-up": "true",
+                "One-sided 97.5% upper CI": "true"
+            },
+            "measures": "[Incidence 97.5% CI upper bound per 100 person-years]",
+            "outcomes": "[0.04]"
+        }
+    ],
+    "PMC8748440_2": [
+        {
+            "subject": {
+                "gene": "ISG15",
+                "analysis_type": "Univariable Cox regression",
+                "module": "Module 1",
+                "WGCNA_analysis": "hub gene"
+            },
+            "measures": "[HR, p value]",
+            "outcomes": "[0.29 (0.11\u20130.81), 0.0091]"
+        },
+        {
+            "subject": {
+                "gene": "IFI6",
+                "analysis_type": "Univariable Cox regression",
+                "module": "Module 1",
+                "WGCNA_analysis": "hub gene"
+            },
+            "measures": "[HR, p value]",
+            "outcomes": "[0.18 (0.037\u20130.86), 0.014]"
+        },
+        {
+            "subject": {
+                "gene": "IFI44L",
+                "analysis_type": "Univariable Cox regression",
+                "module": "Module 1",
+                "WGCNA_analysis": "hub gene"
+            },
+            "measures": "[HR, p value]",
+            "outcomes": "[0.55 (0.27\u20131.1), 0.083]"
+        },
+        {
+            "subject": {
+                "gene": "IFI44",
+                "analysis_type": "Univariable Cox regression",
+                "module": "Module 1",
+                "WGCNA_analysis": "hub gene"
+            },
+            "measures": "[HR, p value]",
+            "outcomes": "[0.23 (0.047\u20131.2), 0.045]"
+        },
+        {
+            "subject": {
+                "gene": "IFIT1",
+                "analysis_type": "Univariable Cox regression",
+                "module": "Module 1",
+                "WGCNA_analysis": "hub gene"
+            },
+            "measures": "[HR, p value]",
+            "outcomes": "[0.37 (0.12\u20131.1), 0.054]"
+        },
+        {
+            "subject": {
+                "gene": "OAS3",
+                "analysis_type": "Univariable Cox regression",
+                "module": "Module 1",
+                "WGCNA_analysis": "hub gene"
+            },
+            "measures": "[HR, p value]",
+            "outcomes": "[0.52 (0.22\u20131.3), 0.15]"
+        },
+        {
+            "subject": {
+                "gene": "XAF1",
+                "analysis_type": "Univariable Cox regression",
+                "module": "Module 1",
+                "WGCNA_analysis": "hub gene"
+            },
+            "measures": "[HR, p value]",
+            "outcomes": "[0.3 (0.1\u20130.92), 0.027]"
+        },
+        {
+            "subject": {
+                "gene": "TRIM25",
+                "analysis_type": "Univariable Cox regression",
+                "module": "Module 1",
+                "WGCNA_analysis": "hub gene"
+            },
+            "measures": "[HR, p value]",
+            "outcomes": "[0.074 (0.0068\u20130.8), 0.023]"
+        },
+        {
+            "subject": {
+                "gene": "CMPK2",
+                "analysis_type": "Univariable Cox regression",
+                "module": "Module 1",
+                "WGCNA_analysis": "hub gene"
+            },
+            "measures": "[HR, p value]",
+            "outcomes": "[0.23 (0.037\u20131.5), 0.074]"
+        },
+        {
+            "subject": {
+                "gene": "RSAD2",
+                "analysis_type": "Univariable Cox regression",
+                "module": "Module 1",
+                "WGCNA_analysis": "hub gene"
+            },
+            "measures": "[HR, p value]",
+            "outcomes": "[0.2 (0.041\u20130.99), 0.032]"
+        },
+        {
+            "subject": {
+                "gene": "EIF2AK2",
+                "analysis_type": "Univariable Cox regression",
+                "module": "Module 1",
+                "WGCNA_analysis": "hub gene"
+            },
+            "measures": "[HR, p value]",
+            "outcomes": "[0.54 (0.12\u20132.4), 0.42]"
+        },
+        {
+            "subject": {
+                "gene": "USP18",
+                "analysis_type": "Univariable Cox regression",
+                "module": "Module 1",
+                "WGCNA_analysis": "hub gene"
+            },
+            "measures": "[HR, p value]",
+            "outcomes": "[0.23 (0.062\u20130.84), 0.022]"
+        },
+        {
+            "subject": {
+                "gene": "HERC6",
+                "analysis_type": "Univariable Cox regression",
+                "module": "Module 1",
+                "WGCNA_analysis": "hub gene"
+            },
+            "measures": "[HR, p value]",
+            "outcomes": "[0.16 (0.019\u20131.3), 0.057]"
+        },
+        {
+            "subject": {
+                "gene": "ISG15",
+                "analysis_type": "multivariable Cox/LASSO regression",
+                "module": "Module 1",
+                "WGCNA_analysis": "hub gene",
+                "correlation": "-0.41"
+            }
+        },
+        {
+            "subject": {
+                "gene": "TRIM25",
+                "analysis_type": "multivariable Cox/LASSO regression",
+                "module": "Module 1",
+                "WGCNA_analysis": "hub gene",
+                "correlation": "-0.32"
+            }
+        },
+        {
+            "subject": {
+                "gene": "XAF1",
+                "analysis_type": "multivariable Cox/LASSO regression",
+                "module": "Module 1",
+                "WGCNA_analysis": "hub gene",
+                "correlation": "-0.06"
+            }
+        },
+        {
+            "subject": {
+                "gene": "USP18",
+                "analysis_type": "multivariable Cox/LASSO regression",
+                "module": "Module 1",
+                "WGCNA_analysis": "hub gene",
+                "correlation": "-0.14"
+            }
+        }
+    ],
+    "PMC7615197_2": [
+        {
+            "subject": {
+                "population": "intention-to-treat",
+                "treatment": "dexamethasone",
+                "control": "placebo",
+                "treatment_group_size": "263",
+                "control_group_size": "257"
+            },
+            "measures": "[number_of_deaths_treatment, number_of_deaths_control]",
+            "outcomes": "[116, 126]"
+        },
+        {
+            "subject": {
+                "population": "intention-to-treat",
+                "treatment": "dexamethasone",
+                "control": "placebo",
+                "treatment_group_size": "263",
+                "control_group_size": "257"
+            },
+            "measures": "[hazard_ratio, confidence_interval_lower, confidence_interval_upper, p_value]",
+            "outcomes": "[0.85, 0.66, 1.10, 0.22]"
+        },
+        {
+            "subject": {
+                "population": "intention-to-treat",
+                "treatment": "dexamethasone",
+                "control": "placebo",
+                "treatment_group_size": "263",
+                "control_group_size": "257"
+            },
+            "measures": "[test_for_proportional_hazards]",
+            "outcomes": "[0.36]"
+        },
+        {
+            "subject": {
+                "population": "intention-to-treat",
+                "subgroup": "modified_mrc_grade_i",
+                "treatment": "dexamethasone",
+                "control": "placebo",
+                "treatment_group_size": "99",
+                "control_group_size": "97"
+            },
+            "measures": "[number_of_deaths_treatment, number_of_deaths_control]",
+            "outcomes": "[22, 28]"
+        },
+        {
+            "subject": {
+                "population": "intention-to-treat",
+                "subgroup": "modified_mrc_grade_i",
+                "treatment": "dexamethasone",
+                "control": "placebo",
+                "treatment_group_size": "99",
+                "control_group_size": "97"
+            },
+            "measures": "[hazard_ratio, confidence_interval_lower, confidence_interval_upper, p_value]",
+            "outcomes": "[0.72, 0.41, 1.25, 0.24]"
+        },
+        {
+            "subject": {
+                "population": "intention-to-treat",
+                "subgroup": "modified_mrc_grade_i",
+                "treatment": "dexamethasone",
+                "control": "placebo",
+                "treatment_group_size": "99",
+                "control_group_size": "97"
+            },
+            "measures": "[test_for_proportional_hazards]",
+            "outcomes": "[0.15]"
+        },
+        {
+            "subject": {
+                "population": "intention-to-treat",
+                "subgroup": "modified_mrc_grade_ii",
+                "treatment": "dexamethasone",
+                "control": "placebo",
+                "treatment_group_size": "125",
+                "control_group_size": "126"
+            },
+            "measures": "[number_of_deaths_treatment, number_of_deaths_control]",
+            "outcomes": "[60, 68]"
+        },
+        {
+            "subject": {
+                "population": "intention-to-treat",
+                "subgroup": "modified_mrc_grade_ii",
+                "treatment": "dexamethasone",
+                "control": "placebo",
+                "treatment_group_size": "125",
+                "control_group_size": "126"
+            },
+            "measures": "[hazard_ratio, confidence_interval_lower, confidence_interval_upper, p_value]",
+            "outcomes": "[0.82, 0.58, 1.16, 0.27]"
+        },
+        {
+            "subject": {
+                "population": "intention-to-treat",
+                "subgroup": "modified_mrc_grade_ii",
+                "treatment": "dexamethasone",
+                "control": "placebo",
+                "treatment_group_size": "125",
+                "control_group_size": "126"
+            },
+            "measures": "[test_for_proportional_hazards]",
+            "outcomes": "[0.57]"
+        },
+        {
+            "subject": {
+                "population": "intention-to-treat",
+                "subgroup": "modified_mrc_grade_iii",
+                "treatment": "dexamethasone",
+                "control": "placebo",
+                "treatment_group_size": "39",
+                "control_group_size": "34"
+            },
+            "measures": "[number_of_deaths_treatment, number_of_deaths_control]",
+            "outcomes": "[34, 30]"
+        },
+        {
+            "subject": {
+                "population": "intention-to-treat",
+                "subgroup": "modified_mrc_grade_iii",
+                "treatment": "dexamethasone",
+                "control": "placebo",
+                "treatment_group_size": "39",
+                "control_group_size": "34"
+            },
+            "measures": "[hazard_ratio, confidence_interval_lower, confidence_interval_upper, p_value]",
+            "outcomes": "[1.11, 0.70, 1.77, 0.65]"
+        },
+        {
+            "subject": {
+                "population": "intention-to-treat",
+                "subgroup": "modified_mrc_grade_iii",
+                "treatment": "dexamethasone",
+                "control": "placebo",
+                "treatment_group_size": "39",
+                "control_group_size": "34"
+            },
+            "measures": "[test_for_proportional_hazards]",
+            "outcomes": "[0.89]"
+        },
+        {
+            "subject": {
+                "population": "intention-to-treat",
+                "subgroup": "modified_mrc_grade"
+            },
+            "measures": "[p_value_for_heterogeneity]",
+            "outcomes": "[0.63]"
+        },
+        {
+            "subject": {
+                "primary_endpoint": "death_from_any_cause",
+                "follow_up_period": "12_months",
+                "statistical_model": "cox_proportional_hazards_regression",
+                "effect_measure": "hazard_ratio",
+                "confidence_interval": "95%",
+                "confidence_interval_type": "two-sided"
+            }
+        }
+    ],
+    "PMC9008168_2": [
+        {
+            "subject": {
+                "group": "Participants without HIV",
+                "outcome_measure": "BMI \u226525 kg/m\u00b2",
+                "unadjusted_incidence_rate": "69.8",
+                "incidence_rate_unit": "cases/1000 PY",
+                "incidence_rate_ci_lower": "54.7",
+                "incidence_rate_ci_upper": "89.0",
+                "hazard_ratio": "1.00",
+                "hazard_ratio_ci_lower": "Reference",
+                "hazard_ratio_ci_upper": "Reference"
+            },
+            "measures": "[unadjusted_incidence_rate, hazard_ratio]",
+            "outcomes": "[69.8, 1.00]"
+        },
+        {
+            "subject": {
+                "group": "PLWH on non-TLD ART",
+                "outcome_measure": "BMI \u226525 kg/m\u00b2",
+                "unadjusted_incidence_rate": "77.1",
+                "incidence_rate_unit": "cases/1000 PY",
+                "incidence_rate_ci_lower": "69.8",
+                "incidence_rate_ci_upper": "85.2",
+                "hazard_ratio": "1.13",
+                "hazard_ratio_ci_lower": "0.79",
+                "hazard_ratio_ci_upper": "1.63"
+            },
+            "measures": "[unadjusted_incidence_rate, hazard_ratio]",
+            "outcomes": "[77.1, 1.13]"
+        },
+        {
+            "subject": {
+                "group": "PLWH on TLD",
+                "outcome_measure": "BMI \u226525 kg/m\u00b2",
+                "unadjusted_incidence_rate": "73.3",
+                "incidence_rate_unit": "cases/1000 PY",
+                "incidence_rate_ci_lower": "54.0",
+                "incidence_rate_ci_upper": "99.6",
+                "hazard_ratio": "1.77",
+                "hazard_ratio_ci_lower": "1.22",
+                "hazard_ratio_ci_upper": "2.55"
+            },
+            "measures": "[unadjusted_incidence_rate, hazard_ratio]",
+            "outcomes": "[73.3, 1.77]"
+        },
+        {
+            "subject": {
+                "group": "PLWH, ART na\u00efve",
+                "outcome_measure": "BMI \u226525 kg/m\u00b2",
+                "unadjusted_incidence_rate": "37.7",
+                "incidence_rate_unit": "cases/1000 PY",
+                "incidence_rate_ci_lower": "24.1",
+                "incidence_rate_ci_upper": "59.1",
+                "hazard_ratio": "0.43",
+                "hazard_ratio_ci_lower": "0.27",
+                "hazard_ratio_ci_upper": "0.70"
+            },
+            "measures": "[unadjusted_incidence_rate, hazard_ratio]",
+            "outcomes": "[37.7, 0.43]"
+        },
+        {
+            "subject": {
+                "total_participants": "2144",
+                "participants_developed_high_bmi": "516",
+                "high_bmi_threshold": "\u226525 kg/m\u00b2"
+            }
+        },
+        {
+            "subject": {
+                "abbreviation": "PLWH",
+                "full_form": "people living with HIV"
+            }
+        },
+        {
+            "subject": {
+                "abbreviation": "TLD",
+                "full_form": "tenofovir/lamivudine/dolutegravir"
+            }
+        },
+        {
+            "subject": {
+                "abbreviation": "PY",
+                "full_form": "person-years"
+            }
+        }
+    ],
+    "PMC7644038_3": [
+        {
+            "subject": {
+                "population": "Medicare beneficiaries at age 65",
+                "time period": "between 2011\u20132016",
+                "condition": "Depression",
+                "hiv status": "HIV"
+            },
+            "measures": "[prevalence]",
+            "outcomes": "[24.3%]"
+        },
+        {
+            "subject": {
+                "population": "Medicare beneficiaries at age 65",
+                "time period": "between 2011\u20132016",
+                "condition": "Depression",
+                "hiv status": "No HIV"
+            },
+            "measures": "[prevalence]",
+            "outcomes": "[6.2%]"
+        },
+        {
+            "subject": {
+                "population": "Medicare beneficiaries at age 65",
+                "time period": "between 2011\u20132016",
+                "condition": "Depression",
+                "comparison": "Percent difference"
+            },
+            "measures": "[percent difference]",
+            "outcomes": "[291.9%]"
+        },
+        {
+            "subject": {
+                "population": "Medicare beneficiaries at age 65",
+                "time period": "between 2011\u20132016",
+                "condition": "Chronic kidney disease",
+                "hiv status": "HIV"
+            },
+            "measures": "[prevalence]",
+            "outcomes": "[46.2%]"
+        },
+        {
+            "subject": {
+                "population": "Medicare beneficiaries at age 65",
+                "time period": "between 2011\u20132016",
+                "condition": "Chronic kidney disease",
+                "hiv status": "No HIV"
+            },
+            "measures": "[prevalence]",
+            "outcomes": "[18.9%]"
+        },
+        {
+            "subject": {
+                "population": "Medicare beneficiaries at age 65",
+                "time period": "between 2011\u20132016",
+                "condition": "Chronic kidney disease",
+                "comparison": "Percent difference"
+            },
+            "measures": "[percent difference]",
+            "outcomes": "[144.4%]"
+        }
+    ],
+    "PMC6033411_2": [
+        {
+            "subject": {
+                "characteristic": "age (years)",
+                "age_group": "15 and younger",
+                "total_number": "69",
+                "total_percentage": "34.5%",
+                "clustered_number": "22",
+                "clustered_percentage": "37.3%",
+                "genetic_distance_threshold": "4.5%"
+            },
+            "measures": "[odds_ratio]",
+            "outcomes": "[1.0]"
+        },
+        {
+            "subject": {
+                "characteristic": "age (years)",
+                "age_group": "16",
+                "total_number": "46",
+                "total_percentage": "23%",
+                "clustered_number": "13",
+                "clustered_percentage": "22%",
+                "genetic_distance_threshold": "4.5%"
+            },
+            "measures": "[odds_ratio, p_value]",
+            "outcomes": "[0.84, 0.67]"
+        },
+        {
+            "subject": {
+                "characteristic": "age (years)",
+                "age_group": "17+",
+                "total_number": "85",
+                "total_percentage": "42.5%",
+                "clustered_number": "24",
+                "clustered_percentage": "40.7%",
+                "genetic_distance_threshold": "4.5%"
+            },
+            "measures": "[odds_ratio, p_value]",
+            "outcomes": "[0.87, 0.69]"
+        },
+        {
+            "subject": {
+                "characteristic": "school grade",
+                "grade_group": "8\u20139",
+                "total_number": "90",
+                "total_percentage": "45%",
+                "clustered_number": "30",
+                "clustered_percentage": "50.8%",
+                "genetic_distance_threshold": "4.5%"
+            },
+            "measures": "[odds_ratio]",
+            "outcomes": "[1.0]"
+        },
+        {
+            "subject": {
+                "characteristic": "school grade",
+                "grade_group": "10\u201312",
+                "total_number": "110",
+                "total_percentage": "55%",
+                "clustered_number": "29",
+                "clustered_percentage": "49.2%",
+                "genetic_distance_threshold": "4.5%"
+            },
+            "measures": "[odds_ratio, p_value]",
+            "outcomes": "[0.8, 0.5]"
+        },
+        {
+            "subject": {
+                "characteristic": "household income (R)",
+                "income_group": "<999",
+                "total_number": "61",
+                "total_percentage": "30.5%",
+                "clustered_number": "22",
+                "clustered_percentage": "37.3%",
+                "genetic_distance_threshold": "4.5%"
+            },
+            "measures": "[odds_ratio]",
+            "outcomes": "[1.0]"
+        },
+        {
+            "subject": {
+                "characteristic": "household income (R)",
+                "income_group": "10,000\u201399,000",
+                "total_number": "112",
+                "total_percentage": "56%",
+                "clustered_number": "27",
+                "clustered_percentage": "45.8%",
+                "genetic_distance_threshold": "4.5%"
+            },
+            "measures": "[odds_ratio, p_value]",
+            "outcomes": "[0.56, 0.1]"
+        },
+        {
+            "subject": {
+                "characteristic": "household income (R)",
+                "income_group": ">100,000",
+                "total_number": "27",
+                "total_percentage": "12.5%",
+                "clustered_number": "10",
+                "clustered_percentage": "16.9%",
+                "genetic_distance_threshold": "4.5%"
+            },
+            "measures": "[odds_ratio, p_value]",
+            "outcomes": "[1.04, 0.93]"
+        },
+        {
+            "subject": {
+                "characteristic": "CD4 cell count, cells/mm3",
+                "cd4_count_group": ">500",
+                "total_number": "92",
+                "total_percentage": "46%",
+                "clustered_number": "30",
+                "clustered_percentage": "50.9%",
+                "genetic_distance_threshold": "4.5%"
+            },
+            "measures": "[odds_ratio]",
+            "outcomes": "[1.0]"
+        },
+        {
+            "subject": {
+                "characteristic": "CD4 cell count, cells/mm3",
+                "cd4_count_group": "\u2264500",
+                "total_number": "75",
+                "total_percentage": "37.5%",
+                "clustered_number": "19",
+                "clustered_percentage": "32.2%",
+                "genetic_distance_threshold": "4.5%"
+            },
+            "measures": "[odds_ratio, p_value]",
+            "outcomes": "[0.70, 0.31]"
+        },
+        {
+            "subject": {
+                "characteristic": "CD4 cell count, cells/mm3",
+                "cd4_count_group": "\u2264250",
+                "total_number": "15",
+                "total_percentage": "7.5%",
+                "clustered_number": "4",
+                "clustered_percentage": "6.8%",
+                "genetic_distance_threshold": "4.5%"
+            },
+            "measures": "[odds_ratio, p_value]",
+            "outcomes": "[0.75, 0.65]"
+        },
+        {
+            "subject": {
+                "characteristic": "major drug resistance mutation",
+                "mutation_status": "no",
+                "total_number": "180",
+                "total_percentage": "90%",
+                "clustered_number": "55",
+                "clustered_percentage": "93.2",
+                "genetic_distance_threshold": "4.5%"
+            },
+            "measures": "[odds_ratio]",
+            "outcomes": "[1.0]"
+        },
+        {
+            "subject": {
+                "characteristic": "major drug resistance mutation",
+                "mutation_status": "yes",
+                "total_number": "20",
+                "total_percentage": "10%",
+                "clustered_number": "4",
+                "clustered_percentage": "6.8%",
+                "genetic_distance_threshold": "4.5%"
+            },
+            "measures": "[odds_ratio, p_value]",
+            "outcomes": "[0.57, 0.33]"
+        },
+        {
+            "subject": {
+                "characteristic": "HSV-2 infection",
+                "hsv2_status": "no",
+                "total_number": "90",
+                "total_percentage": "45%",
+                "clustered_number": "25",
+                "clustered_percentage": "42.4%",
+                "genetic_distance_threshold": "4.5%"
+            },
+            "measures": "[odds_ratio]",
+            "outcomes": "[1.0]"
+        },
+        {
+            "subject": {
+                "characteristic": "HSV-2 infection",
+                "hsv2_status": "yes",
+                "total_number": "69",
+                "total_percentage": "34.5%",
+                "clustered_number": "23",
+                "clustered_percentage": "39%",
+                "genetic_distance_threshold": "4.5%"
+            },
+            "measures": "[odds_ratio, p_value]",
+            "outcomes": "[1.3, 0.45]"
+        },
+        {
+            "subject": {
+                "characteristic": "ever pregnant",
+                "pregnancy_status": "no",
+                "total_number": "122",
+                "total_percentage": "61%",
+                "clustered_number": "37",
+                "clustered_percentage": "62.7%",
+                "genetic_distance_threshold": "4.5%"
+            },
+            "measures": "[odds_ratio]",
+            "outcomes": "[1.0]"
+        },
+        {
+            "subject": {
+                "characteristic": "ever pregnant",
+                "pregnancy_status": "yes",
+                "total_number": "49",
+                "total_percentage": "24.5%",
+                "clustered_number": "15",
+                "clustered_percentage": "25.4%",
+                "genetic_distance_threshold": "4.5%"
+            },
+            "measures": "[odds_ratio, p_value]",
+            "outcomes": "[1.01, 0.971]"
+        },
+        {
+            "subject": {
+                "total_participants": "200",
+                "clustered_participants": "59",
+                "genetic_distance_threshold": "4.5%"
+            }
+        },
+        {
+            "subject": {
+                "cd4_data_unavailable": "18",
+                "characteristic": "CD4 cell count, cells/mm3"
+            }
+        },
+        {
+            "subject": {
+                "hsv2_data_unavailable": "41",
+                "characteristic": "HSV-2 infection"
+            }
+        },
+        {
+            "subject": {
+                "pregnancy_data_unavailable": "29",
+                "characteristic": "ever pregnant"
+            }
+        }
+    ]
+}

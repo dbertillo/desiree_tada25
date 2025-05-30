@@ -1,0 +1,435 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Methods": "EML",
+                    "Corr est F": "0.34",
+                    "standard error": "0.0010"
+                },
+                "measures": "[Table, 2]",
+                "outcomes": [
+                    "[Experiment, Beijing Air Quality Data]",
+                    "[Permutation, local shuffling]",
+                    "[Replications, 100]",
+                    "[Error Reduction, significant]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "naive",
+                    "Experiment": "real data experiment",
+                    "Dataset": "Beijing Air Quality Data",
+                    "Replication count": "100",
+                    "Prior": "local shuffling permutation"
+                },
+                "measures": "[REE, Standard Error]",
+                "outcomes": "[0.76, 0.0012]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Methods": "EML",
+                    "Corr est F": "0.34",
+                    "standard error": "0.0010"
+                },
+                "measures": "[Table, 2]",
+                "outcomes": [
+                    "[Experiment, Beijing Air Quality Data]",
+                    "[Permutation, local shuffling]",
+                    "[Replications, 100]",
+                    "[Error Reduction, significant]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "EM",
+                    "Experiment": "real data experiment",
+                    "Dataset": "Beijing Air Quality Data",
+                    "Replication count": "100",
+                    "Prior": "local shuffling permutation"
+                },
+                "measures": "[REE, Standard Error]",
+                "outcomes": "[1.97, 0.0111]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Methods": "EML",
+                    "Corr est F": "0.34",
+                    "standard error": "0.0010"
+                },
+                "measures": "[Table, 2]",
+                "outcomes": [
+                    "[Experiment, Beijing Air Quality Data]",
+                    "[Permutation, local shuffling]",
+                    "[Replications, 100]",
+                    "[Error Reduction, significant]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "EML",
+                    "Experiment": "real data experiment",
+                    "Dataset": "Beijing Air Quality Data",
+                    "Replication count": "100",
+                    "Prior": "local shuffling permutation"
+                },
+                "measures": "[REE, Standard Error]",
+                "outcomes": "[0.34, 0.0010]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Methods": "EML"
+                },
+                "measures": "[Table, 2]",
+                "outcomes": [
+                    "[Experiment, Beijing Air Quality Data]",
+                    "[Permutation, local shuffling]",
+                    "[Replications, 100]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "naive",
+                    "Experiment": "real data experiment",
+                    "Dataset": "Beijing Air Quality Data",
+                    "Replication count": "100",
+                    "Prior": "local shuffling permutation"
+                },
+                "measures": "[REE, Standard Error]",
+                "outcomes": "[0.76, 0.0012]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Methods": "EML"
+                },
+                "measures": "[Table, 2]",
+                "outcomes": [
+                    "[Experiment, Beijing Air Quality Data]",
+                    "[Permutation, local shuffling]",
+                    "[Replications, 100]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "EM",
+                    "Experiment": "real data experiment",
+                    "Dataset": "Beijing Air Quality Data",
+                    "Replication count": "100",
+                    "Prior": "local shuffling permutation"
+                },
+                "measures": "[REE, Standard Error]",
+                "outcomes": "[1.97, 0.0111]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Corr est F": "0.34"
+                },
+                "measures": "[Metric, Correlation Estimation]",
+                "outcomes": "[Outcome, Error Reduction]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "naive",
+                    "Experiment": "real data experiment",
+                    "Dataset": "Beijing Air Quality Data",
+                    "Replication count": "100",
+                    "Prior": "local shuffling permutation"
+                },
+                "measures": "[REE, Standard Error]",
+                "outcomes": "[0.76, 0.0012]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Corr est F": "0.34"
+                },
+                "measures": "[Metric, Correlation Estimation]",
+                "outcomes": "[Outcome, Error Reduction]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "EM",
+                    "Experiment": "real data experiment",
+                    "Dataset": "Beijing Air Quality Data",
+                    "Replication count": "100",
+                    "Prior": "local shuffling permutation"
+                },
+                "measures": "[REE, Standard Error]",
+                "outcomes": "[1.97, 0.0111]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "standard error": "0.0010"
+                },
+                "measures": "[Metric, Standard Error]",
+                "outcomes": "[Outcome, Error Reduction]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "naive",
+                    "Experiment": "real data experiment",
+                    "Dataset": "Beijing Air Quality Data",
+                    "Replication count": "100",
+                    "Prior": "local shuffling permutation"
+                },
+                "measures": "[REE, Standard Error]",
+                "outcomes": "[0.76, 0.0012]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "standard error": "0.0010"
+                },
+                "measures": "[Metric, Standard Error]",
+                "outcomes": "[Outcome, Error Reduction]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "EM",
+                    "Experiment": "real data experiment",
+                    "Dataset": "Beijing Air Quality Data",
+                    "Replication count": "100",
+                    "Prior": "local shuffling permutation"
+                },
+                "measures": "[REE, Standard Error]",
+                "outcomes": "[1.97, 0.0111]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Table": "2"
+                },
+                "measures": "[Caption, Results of the real data experiment (Beijing Air Quality Data) with local shuffling permutation. Each number in the table is the average REE over 100 replications.]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "naive",
+                    "Experiment": "real data experiment",
+                    "Dataset": "Beijing Air Quality Data",
+                    "Replication count": "100",
+                    "Prior": "local shuffling permutation"
+                },
+                "measures": "[REE, Standard Error]",
+                "outcomes": "[0.76, 0.0012]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Table": "2"
+                },
+                "measures": "[Caption, Results of the real data experiment (Beijing Air Quality Data) with local shuffling permutation. Each number in the table is the average REE over 100 replications.]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "EM",
+                    "Experiment": "real data experiment",
+                    "Dataset": "Beijing Air Quality Data",
+                    "Replication count": "100",
+                    "Prior": "local shuffling permutation"
+                },
+                "measures": "[REE, Standard Error]",
+                "outcomes": "[1.97, 0.0111]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Experiment": "Beijing Air Quality Data"
+                },
+                "measures": "[Description, Real data experiment]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "naive",
+                    "Experiment": "real data experiment",
+                    "Dataset": "Beijing Air Quality Data",
+                    "Replication count": "100",
+                    "Prior": "local shuffling permutation"
+                },
+                "measures": "[REE, Standard Error]",
+                "outcomes": "[0.76, 0.0012]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Experiment": "Beijing Air Quality Data"
+                },
+                "measures": "[Description, Real data experiment]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "EM",
+                    "Experiment": "real data experiment",
+                    "Dataset": "Beijing Air Quality Data",
+                    "Replication count": "100",
+                    "Prior": "local shuffling permutation"
+                },
+                "measures": "[REE, Standard Error]",
+                "outcomes": "[1.97, 0.0111]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Permutation": "local shuffling"
+                },
+                "measures": "[Description, Local shuffling permutation]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "naive",
+                    "Experiment": "real data experiment",
+                    "Dataset": "Beijing Air Quality Data",
+                    "Replication count": "100",
+                    "Prior": "local shuffling permutation"
+                },
+                "measures": "[REE, Standard Error]",
+                "outcomes": "[0.76, 0.0012]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Permutation": "local shuffling"
+                },
+                "measures": "[Description, Local shuffling permutation]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "EM",
+                    "Experiment": "real data experiment",
+                    "Dataset": "Beijing Air Quality Data",
+                    "Replication count": "100",
+                    "Prior": "local shuffling permutation"
+                },
+                "measures": "[REE, Standard Error]",
+                "outcomes": "[1.97, 0.0111]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Replications": "100"
+                },
+                "measures": "[Description, 100 replications]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "naive",
+                    "Experiment": "real data experiment",
+                    "Dataset": "Beijing Air Quality Data",
+                    "Replication count": "100",
+                    "Prior": "local shuffling permutation"
+                },
+                "measures": "[REE, Standard Error]",
+                "outcomes": "[0.76, 0.0012]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Replications": "100"
+                },
+                "measures": "[Description, 100 replications]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "EM",
+                    "Experiment": "real data experiment",
+                    "Dataset": "Beijing Air Quality Data",
+                    "Replication count": "100",
+                    "Prior": "local shuffling permutation"
+                },
+                "measures": "[REE, Standard Error]",
+                "outcomes": "[1.97, 0.0111]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Error Reduction": "significant"
+                },
+                "measures": "[Description, Significant error reduction]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "naive",
+                    "Experiment": "real data experiment",
+                    "Dataset": "Beijing Air Quality Data",
+                    "Replication count": "100",
+                    "Prior": "local shuffling permutation"
+                },
+                "measures": "[REE, Standard Error]",
+                "outcomes": "[0.76, 0.0012]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Error Reduction": "significant"
+                },
+                "measures": "[Description, Significant error reduction]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "EM",
+                    "Experiment": "real data experiment",
+                    "Dataset": "Beijing Air Quality Data",
+                    "Replication count": "100",
+                    "Prior": "local shuffling permutation"
+                },
+                "measures": "[REE, Standard Error]",
+                "outcomes": "[1.97, 0.0111]"
+            },
+            "match": "no"
+        }
+    ],
+    "total_extracted_claims": 9,
+    "total_ground_truth_claims": 3,
+    "number_of_matches": 1
+}

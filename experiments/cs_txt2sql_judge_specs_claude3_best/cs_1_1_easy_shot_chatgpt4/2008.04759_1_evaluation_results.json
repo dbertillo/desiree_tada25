@@ -1,0 +1,358 @@
+{
+    "matched_specifications": [
+        [
+            "model",
+            "sqlova"
+        ],
+        [
+            "base model",
+            "bert-large-uncased"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ],
+        [
+            "model",
+            "sqlova"
+        ],
+        [
+            "base model",
+            "bert-large-uncased"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ],
+        [
+            "model",
+            "x-sql"
+        ],
+        [
+            "base model",
+            "mt-dnn"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ],
+        [
+            "model",
+            "x-sql"
+        ],
+        [
+            "base model",
+            "mt-dnn"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ],
+        [
+            "model",
+            "hydranet"
+        ],
+        [
+            "base model",
+            "bert-large-uncased"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ],
+        [
+            "model",
+            "hydranet"
+        ],
+        [
+            "base model",
+            "bert-large-uncased"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ],
+        [
+            "model",
+            "hydranet"
+        ],
+        [
+            "base model",
+            "roberta-large"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ],
+        [
+            "model",
+            "hydranet"
+        ],
+        [
+            "base model",
+            "roberta-large"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ],
+        [
+            "model",
+            "sqlova + eg"
+        ],
+        [
+            "base model",
+            "bert-large-uncased"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ],
+        [
+            "model",
+            "sqlova + eg"
+        ],
+        [
+            "base model",
+            "bert-large-uncased"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ],
+        [
+            "model",
+            "x-sql + eg"
+        ],
+        [
+            "base model",
+            "mt-dnn"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ],
+        [
+            "model",
+            "x-sql + eg"
+        ],
+        [
+            "base model",
+            "mt-dnn"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ],
+        [
+            "model",
+            "hydranet + eg"
+        ],
+        [
+            "base model",
+            "bert-large-uncased"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ],
+        [
+            "model",
+            "hydranet + eg"
+        ],
+        [
+            "base model",
+            "bert-large-uncased"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ],
+        [
+            "model",
+            "hydranet + eg"
+        ],
+        [
+            "base model",
+            "roberta-large"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ],
+        [
+            "model",
+            "hydranet + eg"
+        ],
+        [
+            "base model",
+            "roberta-large"
+        ],
+        [
+            "dataset",
+            "wikisql"
+        ]
+    ],
+    "unmatched_specifications": [
+        [
+            "metric type",
+            "execution accuracy"
+        ],
+        [
+            "set",
+            "development"
+        ],
+        [
+            "metric type",
+            "execution accuracy"
+        ],
+        [
+            "set",
+            "test"
+        ],
+        [
+            "metric type",
+            "execution accuracy"
+        ],
+        [
+            "set",
+            "development"
+        ],
+        [
+            "metric type",
+            "execution accuracy"
+        ],
+        [
+            "set",
+            "test"
+        ],
+        [
+            "metric type",
+            "execution accuracy"
+        ],
+        [
+            "set",
+            "development"
+        ],
+        [
+            "metric type",
+            "execution accuracy"
+        ],
+        [
+            "set",
+            "test"
+        ],
+        [
+            "metric type",
+            "execution accuracy"
+        ],
+        [
+            "set",
+            "development"
+        ],
+        [
+            "metric type",
+            "execution accuracy"
+        ],
+        [
+            "set",
+            "test"
+        ],
+        [
+            "metric type",
+            "execution accuracy"
+        ],
+        [
+            "set",
+            "development"
+        ],
+        [
+            "metric type",
+            "execution accuracy"
+        ],
+        [
+            "set",
+            "test"
+        ],
+        [
+            "metric type",
+            "execution accuracy"
+        ],
+        [
+            "set",
+            "development"
+        ],
+        [
+            "metric type",
+            "execution accuracy"
+        ],
+        [
+            "set",
+            "test"
+        ],
+        [
+            "metric type",
+            "execution accuracy"
+        ],
+        [
+            "set",
+            "development"
+        ],
+        [
+            "metric type",
+            "execution accuracy"
+        ],
+        [
+            "set",
+            "test"
+        ],
+        [
+            "metric type",
+            "execution accuracy"
+        ],
+        [
+            "set",
+            "development"
+        ],
+        [
+            "metric type",
+            "execution accuracy"
+        ],
+        [
+            "set",
+            "test"
+        ]
+    ],
+    "unmatched_extracted_keys": [
+        "set",
+        "metric type"
+    ],
+    "unmatched_extracted_values": [
+        "execution accuracy"
+    ],
+    "unmatched_ground_truth_keys": [
+        "split"
+    ],
+    "unmatched_ground_truth_values": [],
+    "mapped_keys": {
+        "model": "model",
+        "dataset": "dataset",
+        "base model": "base model"
+    },
+    "mapped_values": {
+        "bert-large-uncased": "bert-large-uncased",
+        "wikisql": "wikisql",
+        "hydranet": "hydranet",
+        "hydranet + eg": "hydranet + eg",
+        "x-sql": "x-sql",
+        "test": "test",
+        "roberta-large": "roberta-large",
+        "sqlova": "sqlova",
+        "mt-dnn": "mt-dnn",
+        "sqlova + eg": "sqlova + eg",
+        "x-sql + eg": "x-sql + eg",
+        "development": "dev"
+    },
+    "precision": 0.6,
+    "recall": 0.75
+}

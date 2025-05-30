@@ -1,0 +1,927 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "C",
+                    "Method": "Single Stage",
+                    "Design Decision": "Single-stage SQL generation with prefix for structural diversity",
+                    "Plan Enforcement": "Yes",
+                    "Branching Control": "Yes",
+                    "Template Diversity": "No",
+                    "Schema Diversity": "No"
+                },
+                "measures": "[Either In Top K (%)]",
+                "outcomes": "[64.0]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "C",
+                    "Model": "Single stage",
+                    "Evaluation Type": "Either In Top K"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "64.0"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "C",
+                    "Method": "Two Stages",
+                    "Design Decision": "Two-stage method with template generation without counterfactual control",
+                    "Beam Search": "Yes",
+                    "Template Diversity": "No",
+                    "Schema Diversity": "No"
+                },
+                "measures": "[Either In Top K (%)]",
+                "outcomes": "[65.9]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "C",
+                    "Model": "Two stages",
+                    "Evaluation Type": "Either In Top K"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "65.9"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "C",
+                    "Method": "+Template Diversity",
+                    "Design Decision": "Forcing counterfactual diversity",
+                    "Template Diversity": "Yes",
+                    "Schema Diversity": "No"
+                },
+                "measures": "[Either In Top K (%)]",
+                "outcomes": "[65.9]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "C",
+                    "Model": "+Template Diversity",
+                    "Evaluation Type": "Either In Top K"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "65.9"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "C",
+                    "Method": "+Schema Diversity (LogicalBeam)",
+                    "Design Decision": "Restricted Fill-In Algorithm",
+                    "Template Diversity": "Yes",
+                    "Schema Diversity": "Yes"
+                },
+                "measures": "[Either In Top K (%)]",
+                "outcomes": "[66.6]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "C",
+                    "Model": "+Schema Diversity (Logical Beam)",
+                    "Evaluation Type": "Either In Top K"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "66.6"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "T",
+                    "Method": "Single Stage",
+                    "Design Decision": "Single-stage SQL generation with prefix for structural diversity",
+                    "Plan Enforcement": "Yes",
+                    "Branching Control": "Yes",
+                    "Template Diversity": "No",
+                    "Schema Diversity": "No"
+                },
+                "measures": "[Either In Top K (%)]",
+                "outcomes": "[60.7]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "T",
+                    "Model": "Single stage",
+                    "Evaluation Type": "Either In Top K"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "60.7"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "T",
+                    "Method": "Two Stages",
+                    "Design Decision": "Two-stage method with template generation without counterfactual control",
+                    "Beam Search": "Yes",
+                    "Template Diversity": "No",
+                    "Schema Diversity": "No"
+                },
+                "measures": "[Either In Top K (%)]",
+                "outcomes": "[66.2]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "T",
+                    "Model": "Two stages",
+                    "Evaluation Type": "Either In Top K"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "66.2"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "T",
+                    "Method": "+Template Diversity",
+                    "Design Decision": "Forcing counterfactual diversity",
+                    "Template Diversity": "Yes",
+                    "Schema Diversity": "No"
+                },
+                "measures": "[Either In Top K (%)]",
+                "outcomes": "[65.0]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "T",
+                    "Model": "+Template Diversity",
+                    "Evaluation Type": "Either In Top K"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "65.0"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "T",
+                    "Method": "+Schema Diversity (LogicalBeam)",
+                    "Design Decision": "Restricted Fill-In Algorithm",
+                    "Template Diversity": "Yes",
+                    "Schema Diversity": "Yes"
+                },
+                "measures": "[Either In Top K (%)]",
+                "outcomes": "[67.3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "T",
+                    "Model": "+Schema Diversity (Logical Beam)",
+                    "Evaluation Type": "Either In Top K"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "67.3"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "J",
+                    "Method": "Single Stage",
+                    "Design Decision": "Single-stage SQL generation with prefix for structural diversity",
+                    "Plan Enforcement": "Yes",
+                    "Branching Control": "Yes",
+                    "Template Diversity": "No",
+                    "Schema Diversity": "No"
+                },
+                "measures": "[Either In Top K (%)]",
+                "outcomes": "[86.8]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "J",
+                    "Model": "Single stage",
+                    "Evaluation Type": "Either In Top K"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "86.8"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "J",
+                    "Method": "Two Stages",
+                    "Design Decision": "Two-stage method with template generation without counterfactual control",
+                    "Beam Search": "Yes",
+                    "Template Diversity": "No",
+                    "Schema Diversity": "No"
+                },
+                "measures": "[Either In Top K (%)]",
+                "outcomes": "[88.5]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "J",
+                    "Model": "Two stages",
+                    "Evaluation Type": "Either In Top K"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "88.5"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "J",
+                    "Method": "+Template Diversity",
+                    "Design Decision": "Forcing counterfactual diversity",
+                    "Template Diversity": "Yes",
+                    "Schema Diversity": "No"
+                },
+                "measures": "[Either In Top K (%)]",
+                "outcomes": "[87.1]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "J",
+                    "Model": "+Template Diversity",
+                    "Evaluation Type": "Either In Top K"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "87.1"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "J",
+                    "Method": "+Schema Diversity (LogicalBeam)",
+                    "Design Decision": "Restricted Fill-In Algorithm",
+                    "Template Diversity": "Yes",
+                    "Schema Diversity": "Yes"
+                },
+                "measures": "[Either In Top K (%)]",
+                "outcomes": "[87.2]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "J",
+                    "Model": "+Schema Diversity (Logical Beam)",
+                    "Evaluation Type": "Either In Top K"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "87.2"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "P",
+                    "Method": "Single Stage",
+                    "Design Decision": "Single-stage SQL generation with prefix for structural diversity",
+                    "Plan Enforcement": "Yes",
+                    "Branching Control": "Yes",
+                    "Template Diversity": "No",
+                    "Schema Diversity": "No"
+                },
+                "measures": "[Either In Top K (%)]",
+                "outcomes": "[58.4]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "P",
+                    "Model": "Single stage",
+                    "Evaluation Type": "Either In Top K"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "58.4"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "P",
+                    "Method": "Two Stages",
+                    "Design Decision": "Two-stage method with template generation without counterfactual control",
+                    "Beam Search": "Yes",
+                    "Template Diversity": "No",
+                    "Schema Diversity": "No"
+                },
+                "measures": "[Either In Top K (%)]",
+                "outcomes": "[62.4]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "P",
+                    "Model": "Two stages",
+                    "Evaluation Type": "Either In Top K"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "62.4"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "P",
+                    "Method": "+Template Diversity",
+                    "Design Decision": "Forcing counterfactual diversity",
+                    "Template Diversity": "Yes",
+                    "Schema Diversity": "No"
+                },
+                "measures": "[Either In Top K (%)]",
+                "outcomes": "[63.4]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "P",
+                    "Model": "+Template Diversity",
+                    "Evaluation Type": "Either In Top K"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "63.4"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "P",
+                    "Method": "+Schema Diversity (LogicalBeam)",
+                    "Design Decision": "Restricted Fill-In Algorithm",
+                    "Template Diversity": "Yes",
+                    "Schema Diversity": "Yes"
+                },
+                "measures": "[Either In Top K (%)]",
+                "outcomes": "[64.4]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "P",
+                    "Model": "+Schema Diversity (Logical Beam)",
+                    "Evaluation Type": "Either In Top K"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "64.4"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "C",
+                    "Method": "Single Stage",
+                    "Design Decision": "Single-stage SQL generation with prefix for structural diversity",
+                    "Plan Enforcement": "Yes",
+                    "Branching Control": "Yes",
+                    "Template Diversity": "No",
+                    "Schema Diversity": "No"
+                },
+                "measures": "[Both In Top K (Coverage) (%)]",
+                "outcomes": "[23.2]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "C",
+                    "Model": "Single stage",
+                    "Evaluation Type": "Both In Top K (Coverage)"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "23.2"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "C",
+                    "Method": "Two Stages",
+                    "Design Decision": "Two-stage method with template generation without counterfactual control",
+                    "Beam Search": "Yes",
+                    "Template Diversity": "No",
+                    "Schema Diversity": "No"
+                },
+                "measures": "[Both In Top K (Coverage) (%)]",
+                "outcomes": "[16.0]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "C",
+                    "Model": "Two stages",
+                    "Evaluation Type": "Both In Top K (Coverage)"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "16.0"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "C",
+                    "Method": "+Template Diversity",
+                    "Design Decision": "Forcing counterfactual diversity",
+                    "Template Diversity": "Yes",
+                    "Schema Diversity": "No"
+                },
+                "measures": "[Both In Top K (Coverage) (%)]",
+                "outcomes": "[16.1]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "C",
+                    "Model": "+Template Diversity",
+                    "Evaluation Type": "Both In Top K (Coverage)"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "16.1"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "C",
+                    "Method": "+Schema Diversity (LogicalBeam)",
+                    "Design Decision": "Restricted Fill-In Algorithm",
+                    "Template Diversity": "Yes",
+                    "Schema Diversity": "Yes"
+                },
+                "measures": "[Both In Top K (Coverage) (%)]",
+                "outcomes": "[28.0]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "C",
+                    "Model": "+Schema Diversity (Logical Beam)",
+                    "Evaluation Type": "Both In Top K (Coverage)"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "28.0"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "T",
+                    "Method": "Single Stage",
+                    "Design Decision": "Single-stage SQL generation with prefix for structural diversity",
+                    "Plan Enforcement": "Yes",
+                    "Branching Control": "Yes",
+                    "Template Diversity": "No",
+                    "Schema Diversity": "No"
+                },
+                "measures": "[Both In Top K (Coverage) (%)]",
+                "outcomes": "[25.3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "T",
+                    "Model": "Single stage",
+                    "Evaluation Type": "Both In Top K (Coverage)"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "25.3"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "T",
+                    "Method": "Two Stages",
+                    "Design Decision": "Two-stage method with template generation without counterfactual control",
+                    "Beam Search": "Yes",
+                    "Template Diversity": "No",
+                    "Schema Diversity": "No"
+                },
+                "measures": "[Both In Top K (Coverage) (%)]",
+                "outcomes": "[28.4]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "T",
+                    "Model": "Two stages",
+                    "Evaluation Type": "Both In Top K (Coverage)"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "28.4"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "T",
+                    "Method": "+Template Diversity",
+                    "Design Decision": "Forcing counterfactual diversity",
+                    "Template Diversity": "Yes",
+                    "Schema Diversity": "No"
+                },
+                "measures": "[Both In Top K (Coverage) (%)]",
+                "outcomes": "[28.2]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "T",
+                    "Model": "+Template Diversity",
+                    "Evaluation Type": "Both In Top K (Coverage)"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "28.2"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "T",
+                    "Method": "+Schema Diversity (LogicalBeam)",
+                    "Design Decision": "Restricted Fill-In Algorithm",
+                    "Template Diversity": "Yes",
+                    "Schema Diversity": "Yes"
+                },
+                "measures": "[Both In Top K (Coverage) (%)]",
+                "outcomes": "[42.6]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "T",
+                    "Model": "+Schema Diversity (Logical Beam)",
+                    "Evaluation Type": "Both In Top K (Coverage)"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "42.6"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "J",
+                    "Method": "Single Stage",
+                    "Design Decision": "Single-stage SQL generation with prefix for structural diversity",
+                    "Plan Enforcement": "Yes",
+                    "Branching Control": "Yes",
+                    "Template Diversity": "No",
+                    "Schema Diversity": "No"
+                },
+                "measures": "[Both In Top K (Coverage) (%)]",
+                "outcomes": "[54.5]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "J",
+                    "Model": "Single stage",
+                    "Evaluation Type": "Both In Top K (Coverage)"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "54.5"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "J",
+                    "Method": "Two Stages",
+                    "Design Decision": "Two-stage method with template generation without counterfactual control",
+                    "Beam Search": "Yes",
+                    "Template Diversity": "No",
+                    "Schema Diversity": "No"
+                },
+                "measures": "[Both In Top K (Coverage) (%)]",
+                "outcomes": "[54.5]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "J",
+                    "Model": "Two stages",
+                    "Evaluation Type": "Both In Top K (Coverage)"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "54.5"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "J",
+                    "Method": "+Template Diversity",
+                    "Design Decision": "Forcing counterfactual diversity",
+                    "Template Diversity": "Yes",
+                    "Schema Diversity": "No"
+                },
+                "measures": "[Both In Top K (Coverage) (%)]",
+                "outcomes": "[62.2]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "J",
+                    "Model": "+Template Diversity",
+                    "Evaluation Type": "Both In Top K (Coverage)"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "62.2"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "J",
+                    "Method": "+Schema Diversity (LogicalBeam)",
+                    "Design Decision": "Restricted Fill-In Algorithm",
+                    "Template Diversity": "Yes",
+                    "Schema Diversity": "Yes"
+                },
+                "measures": "[Both In Top K (Coverage) (%)]",
+                "outcomes": "[59.4]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "J",
+                    "Model": "+Schema Diversity (Logical Beam)",
+                    "Evaluation Type": "Both In Top K (Coverage)"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "59.4"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "P",
+                    "Method": "Single Stage",
+                    "Design Decision": "Single-stage SQL generation with prefix for structural diversity",
+                    "Plan Enforcement": "Yes",
+                    "Branching Control": "Yes",
+                    "Template Diversity": "No",
+                    "Schema Diversity": "No"
+                },
+                "measures": "[Both In Top K (Coverage) (%)]",
+                "outcomes": "[9.9]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "P",
+                    "Model": "Single stage",
+                    "Evaluation Type": "Both In Top K (Coverage)"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "9.9"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "P",
+                    "Method": "Two Stages",
+                    "Design Decision": "Two-stage method with template generation without counterfactual control",
+                    "Beam Search": "Yes",
+                    "Template Diversity": "No",
+                    "Schema Diversity": "No"
+                },
+                "measures": "[Both In Top K (Coverage) (%)]",
+                "outcomes": "[27.7]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "P",
+                    "Model": "Two stages",
+                    "Evaluation Type": "Both In Top K (Coverage)"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "27.7"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "P",
+                    "Method": "+Template Diversity",
+                    "Design Decision": "Forcing counterfactual diversity",
+                    "Template Diversity": "Yes",
+                    "Schema Diversity": "No"
+                },
+                "measures": "[Both In Top K (Coverage) (%)]",
+                "outcomes": "[30.7]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "P",
+                    "Model": "+Template Diversity",
+                    "Evaluation Type": "Both In Top K (Coverage)"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "30.7"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "P",
+                    "Method": "+Schema Diversity (LogicalBeam)",
+                    "Design Decision": "Restricted Fill-In Algorithm",
+                    "Template Diversity": "Yes",
+                    "Schema Diversity": "Yes"
+                },
+                "measures": "[Both In Top K (Coverage) (%)]",
+                "outcomes": "[24.8]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "P",
+                    "Model": "+Schema Diversity (Logical Beam)",
+                    "Evaluation Type": "Both In Top K (Coverage)"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "24.8"
+                ]
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 32,
+    "total_ground_truth_claims": 32,
+    "number_of_matches": 32
+}

@@ -1,0 +1,1927 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "baseline",
+                    "Parameters": "(1,1,2)",
+                    "TPR": "0.204",
+                    "PPV": "0.768"
+                },
+                "measures": "[Method, Specification, Parameters, TPR, PPV]",
+                "outcomes": "[Bayesian, baseline, (1,1,2), 0.204, 0.768]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "baseline",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[TPR]",
+                "outcomes": "[0.204]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "-",
+                    "Specification": "common names",
+                    "Parameters": "(1,1,2)",
+                    "TPR": "0.223",
+                    "PPV": "0.763"
+                },
+                "measures": "[Method, Specification, Parameters, TPR, PPV]",
+                "outcomes": "[-, common names, (1,1,2), 0.223, 0.763]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "baseline",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated TPR]",
+                "outcomes": "[0.326]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "-",
+                    "Specification": "common names",
+                    "Parameters": "(1,1,2)",
+                    "TPR": "0.223",
+                    "PPV": "0.763"
+                },
+                "measures": "[Method, Specification, Parameters, TPR, PPV]",
+                "outcomes": "[-, common names, (1,1,2), 0.223, 0.763]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "baseline",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[PPV]",
+                "outcomes": "[0.768]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "-",
+                    "Specification": "common names",
+                    "Parameters": "(1,1,2)",
+                    "TPR": "0.223",
+                    "PPV": "0.763"
+                },
+                "measures": "[Method, Specification, Parameters, TPR, PPV]",
+                "outcomes": "[-, common names, (1,1,2), 0.223, 0.763]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "baseline",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated PPV]",
+                "outcomes": "[0.756]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "-",
+                    "Specification": "common names",
+                    "Parameters": "(1,1,2)",
+                    "TPR": "0.223",
+                    "PPV": "0.763"
+                },
+                "measures": "[Method, Specification, Parameters, TPR, PPV]",
+                "outcomes": "[-, common names, (1,1,2), 0.223, 0.763]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "common names",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[TPR]",
+                "outcomes": "[0.223]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "-",
+                    "Specification": "record-specific",
+                    "Parameters": "(1,1,2)",
+                    "TPR": "0.455",
+                    "PPV": "0.657"
+                },
+                "measures": "[Method, Specification, Parameters, TPR, PPV]",
+                "outcomes": "[-, record-specific, (1,1,2), 0.455, 0.657]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "baseline",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated TPR]",
+                "outcomes": "[0.326]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "-",
+                    "Specification": "record-specific",
+                    "Parameters": "(1,1,2)",
+                    "TPR": "0.455",
+                    "PPV": "0.657"
+                },
+                "measures": "[Method, Specification, Parameters, TPR, PPV]",
+                "outcomes": "[-, record-specific, (1,1,2), 0.455, 0.657]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "baseline",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[PPV]",
+                "outcomes": "[0.768]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "-",
+                    "Specification": "record-specific",
+                    "Parameters": "(1,1,2)",
+                    "TPR": "0.455",
+                    "PPV": "0.657"
+                },
+                "measures": "[Method, Specification, Parameters, TPR, PPV]",
+                "outcomes": "[-, record-specific, (1,1,2), 0.455, 0.657]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "baseline",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated PPV]",
+                "outcomes": "[0.756]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "-",
+                    "Specification": "record-specific",
+                    "Parameters": "(1,1,2)",
+                    "TPR": "0.455",
+                    "PPV": "0.657"
+                },
+                "measures": "[Method, Specification, Parameters, TPR, PPV]",
+                "outcomes": "[-, record-specific, (1,1,2), 0.455, 0.657]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "common names",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated TPR]",
+                "outcomes": "[0.361]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "-",
+                    "Specification": "record-specific",
+                    "Parameters": "(1,1,2)",
+                    "TPR": "0.455",
+                    "PPV": "0.657"
+                },
+                "measures": "[Method, Specification, Parameters, TPR, PPV]",
+                "outcomes": "[-, record-specific, (1,1,2), 0.455, 0.657]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "common names",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[PPV]",
+                "outcomes": "[0.763]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "-",
+                    "Specification": "record-specific",
+                    "Parameters": "(1,1,2)",
+                    "TPR": "0.455",
+                    "PPV": "0.657"
+                },
+                "measures": "[Method, Specification, Parameters, TPR, PPV]",
+                "outcomes": "[-, record-specific, (1,1,2), 0.455, 0.657]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "common names",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated PPV]",
+                "outcomes": "[0.773]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "-",
+                    "Specification": "record-specific",
+                    "Parameters": "(1,1,2)",
+                    "TPR": "0.455",
+                    "PPV": "0.657"
+                },
+                "measures": "[Method, Specification, Parameters, TPR, PPV]",
+                "outcomes": "[-, record-specific, (1,1,2), 0.455, 0.657]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[TPR]",
+                "outcomes": "[0.455]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "-",
+                    "Specification": "record-specific",
+                    "Parameters": "(1,2,4)",
+                    "TPR": "0.359",
+                    "PPV": "0.746"
+                },
+                "measures": "[Method, Specification, Parameters, TPR, PPV]",
+                "outcomes": "[-, record-specific, (1,2,4), 0.359, 0.746]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "baseline",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated TPR]",
+                "outcomes": "[0.326]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "-",
+                    "Specification": "record-specific",
+                    "Parameters": "(1,2,4)",
+                    "TPR": "0.359",
+                    "PPV": "0.746"
+                },
+                "measures": "[Method, Specification, Parameters, TPR, PPV]",
+                "outcomes": "[-, record-specific, (1,2,4), 0.359, 0.746]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "baseline",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[PPV]",
+                "outcomes": "[0.768]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "-",
+                    "Specification": "record-specific",
+                    "Parameters": "(1,2,4)",
+                    "TPR": "0.359",
+                    "PPV": "0.746"
+                },
+                "measures": "[Method, Specification, Parameters, TPR, PPV]",
+                "outcomes": "[-, record-specific, (1,2,4), 0.359, 0.746]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "baseline",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated PPV]",
+                "outcomes": "[0.756]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "-",
+                    "Specification": "record-specific",
+                    "Parameters": "(1,2,4)",
+                    "TPR": "0.359",
+                    "PPV": "0.746"
+                },
+                "measures": "[Method, Specification, Parameters, TPR, PPV]",
+                "outcomes": "[-, record-specific, (1,2,4), 0.359, 0.746]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "common names",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated TPR]",
+                "outcomes": "[0.361]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "-",
+                    "Specification": "record-specific",
+                    "Parameters": "(1,2,4)",
+                    "TPR": "0.359",
+                    "PPV": "0.746"
+                },
+                "measures": "[Method, Specification, Parameters, TPR, PPV]",
+                "outcomes": "[-, record-specific, (1,2,4), 0.359, 0.746]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "common names",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[PPV]",
+                "outcomes": "[0.763]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "-",
+                    "Specification": "record-specific",
+                    "Parameters": "(1,2,4)",
+                    "TPR": "0.359",
+                    "PPV": "0.746"
+                },
+                "measures": "[Method, Specification, Parameters, TPR, PPV]",
+                "outcomes": "[-, record-specific, (1,2,4), 0.359, 0.746]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "common names",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated PPV]",
+                "outcomes": "[0.773]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "-",
+                    "Specification": "record-specific",
+                    "Parameters": "(1,2,4)",
+                    "TPR": "0.359",
+                    "PPV": "0.746"
+                },
+                "measures": "[Method, Specification, Parameters, TPR, PPV]",
+                "outcomes": "[-, record-specific, (1,2,4), 0.359, 0.746]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated TPR]",
+                "outcomes": "[0.389]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "-",
+                    "Specification": "record-specific",
+                    "Parameters": "(1,2,4)",
+                    "TPR": "0.359",
+                    "PPV": "0.746"
+                },
+                "measures": "[Method, Specification, Parameters, TPR, PPV]",
+                "outcomes": "[-, record-specific, (1,2,4), 0.359, 0.746]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[PPV]",
+                "outcomes": "[0.657]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "-",
+                    "Specification": "record-specific",
+                    "Parameters": "(1,2,4)",
+                    "TPR": "0.359",
+                    "PPV": "0.746"
+                },
+                "measures": "[Method, Specification, Parameters, TPR, PPV]",
+                "outcomes": "[-, record-specific, (1,2,4), 0.359, 0.746]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated PPV]",
+                "outcomes": "[0.824]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "-",
+                    "Specification": "record-specific",
+                    "Parameters": "(1,2,4)",
+                    "TPR": "0.359",
+                    "PPV": "0.746"
+                },
+                "measures": "[Method, Specification, Parameters, TPR, PPV]",
+                "outcomes": "[-, record-specific, (1,2,4), 0.359, 0.746]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,2,4)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[TPR]",
+                "outcomes": "[0.359]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "-",
+                    "Specification": "record-specific",
+                    "Parameters": "(1,3,6)",
+                    "TPR": "0.315",
+                    "PPV": "0.770"
+                },
+                "measures": "[Method, Specification, Parameters, TPR, PPV]",
+                "outcomes": "[-, record-specific, (1,3,6), 0.315, 0.770]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "baseline",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated TPR]",
+                "outcomes": "[0.326]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "-",
+                    "Specification": "record-specific",
+                    "Parameters": "(1,3,6)",
+                    "TPR": "0.315",
+                    "PPV": "0.770"
+                },
+                "measures": "[Method, Specification, Parameters, TPR, PPV]",
+                "outcomes": "[-, record-specific, (1,3,6), 0.315, 0.770]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "baseline",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[PPV]",
+                "outcomes": "[0.768]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "-",
+                    "Specification": "record-specific",
+                    "Parameters": "(1,3,6)",
+                    "TPR": "0.315",
+                    "PPV": "0.770"
+                },
+                "measures": "[Method, Specification, Parameters, TPR, PPV]",
+                "outcomes": "[-, record-specific, (1,3,6), 0.315, 0.770]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "baseline",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated PPV]",
+                "outcomes": "[0.756]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "-",
+                    "Specification": "record-specific",
+                    "Parameters": "(1,3,6)",
+                    "TPR": "0.315",
+                    "PPV": "0.770"
+                },
+                "measures": "[Method, Specification, Parameters, TPR, PPV]",
+                "outcomes": "[-, record-specific, (1,3,6), 0.315, 0.770]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "common names",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated TPR]",
+                "outcomes": "[0.361]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "-",
+                    "Specification": "record-specific",
+                    "Parameters": "(1,3,6)",
+                    "TPR": "0.315",
+                    "PPV": "0.770"
+                },
+                "measures": "[Method, Specification, Parameters, TPR, PPV]",
+                "outcomes": "[-, record-specific, (1,3,6), 0.315, 0.770]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "common names",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[PPV]",
+                "outcomes": "[0.763]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "-",
+                    "Specification": "record-specific",
+                    "Parameters": "(1,3,6)",
+                    "TPR": "0.315",
+                    "PPV": "0.770"
+                },
+                "measures": "[Method, Specification, Parameters, TPR, PPV]",
+                "outcomes": "[-, record-specific, (1,3,6), 0.315, 0.770]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "common names",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated PPV]",
+                "outcomes": "[0.773]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "-",
+                    "Specification": "record-specific",
+                    "Parameters": "(1,3,6)",
+                    "TPR": "0.315",
+                    "PPV": "0.770"
+                },
+                "measures": "[Method, Specification, Parameters, TPR, PPV]",
+                "outcomes": "[-, record-specific, (1,3,6), 0.315, 0.770]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated TPR]",
+                "outcomes": "[0.389]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "-",
+                    "Specification": "record-specific",
+                    "Parameters": "(1,3,6)",
+                    "TPR": "0.315",
+                    "PPV": "0.770"
+                },
+                "measures": "[Method, Specification, Parameters, TPR, PPV]",
+                "outcomes": "[-, record-specific, (1,3,6), 0.315, 0.770]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[PPV]",
+                "outcomes": "[0.657]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "-",
+                    "Specification": "record-specific",
+                    "Parameters": "(1,3,6)",
+                    "TPR": "0.315",
+                    "PPV": "0.770"
+                },
+                "measures": "[Method, Specification, Parameters, TPR, PPV]",
+                "outcomes": "[-, record-specific, (1,3,6), 0.315, 0.770]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated PPV]",
+                "outcomes": "[0.824]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "-",
+                    "Specification": "record-specific",
+                    "Parameters": "(1,3,6)",
+                    "TPR": "0.315",
+                    "PPV": "0.770"
+                },
+                "measures": "[Method, Specification, Parameters, TPR, PPV]",
+                "outcomes": "[-, record-specific, (1,3,6), 0.315, 0.770]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,2,4)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated TPR]",
+                "outcomes": "[0.301]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "-",
+                    "Specification": "record-specific",
+                    "Parameters": "(1,3,6)",
+                    "TPR": "0.315",
+                    "PPV": "0.770"
+                },
+                "measures": "[Method, Specification, Parameters, TPR, PPV]",
+                "outcomes": "[-, record-specific, (1,3,6), 0.315, 0.770]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,2,4)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[PPV]",
+                "outcomes": "[0.746]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "-",
+                    "Specification": "record-specific",
+                    "Parameters": "(1,3,6)",
+                    "TPR": "0.315",
+                    "PPV": "0.770"
+                },
+                "measures": "[Method, Specification, Parameters, TPR, PPV]",
+                "outcomes": "[-, record-specific, (1,3,6), 0.315, 0.770]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,2,4)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated PPV]",
+                "outcomes": "[0.922]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "-",
+                    "Specification": "record-specific",
+                    "Parameters": "(1,3,6)",
+                    "TPR": "0.315",
+                    "PPV": "0.770"
+                },
+                "measures": "[Method, Specification, Parameters, TPR, PPV]",
+                "outcomes": "[-, record-specific, (1,3,6), 0.315, 0.770]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,3,6)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[TPR]",
+                "outcomes": "[0.315]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "-",
+                    "Specification": "record-specific",
+                    "Parameters": "(1,3,6)",
+                    "TPR": "0.315",
+                    "PPV": "0.770"
+                },
+                "measures": "[Method, Specification, Parameters, TPR, PPV]",
+                "outcomes": "[-, record-specific, (1,3,6), 0.315, 0.770]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,3,6)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated TPR]",
+                "outcomes": "[0.263]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "-",
+                    "Specification": "record-specific",
+                    "Parameters": "(1,3,6)",
+                    "TPR": "0.315",
+                    "PPV": "0.770"
+                },
+                "measures": "[Method, Specification, Parameters, TPR, PPV]",
+                "outcomes": "[-, record-specific, (1,3,6), 0.315, 0.770]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,3,6)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[PPV]",
+                "outcomes": "[0.770]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "-",
+                    "Specification": "record-specific",
+                    "Parameters": "(1,3,6)",
+                    "TPR": "0.315",
+                    "PPV": "0.770"
+                },
+                "measures": "[Method, Specification, Parameters, TPR, PPV]",
+                "outcomes": "[-, record-specific, (1,3,6), 0.315, 0.770]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,3,6)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated PPV]",
+                "outcomes": "[0.949]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "Union Army",
+                    "Citation": "expert-linked matches"
+                },
+                "measures": "[Dataset, Citation]",
+                "outcomes": "[Union Army, expert-linked matches]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "baseline",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated TPR]",
+                "outcomes": "[0.326]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "Union Army",
+                    "Citation": "expert-linked matches"
+                },
+                "measures": "[Dataset, Citation]",
+                "outcomes": "[Union Army, expert-linked matches]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "baseline",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[PPV]",
+                "outcomes": "[0.768]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "Union Army",
+                    "Citation": "expert-linked matches"
+                },
+                "measures": "[Dataset, Citation]",
+                "outcomes": "[Union Army, expert-linked matches]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "baseline",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated PPV]",
+                "outcomes": "[0.756]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "Union Army",
+                    "Citation": "expert-linked matches"
+                },
+                "measures": "[Dataset, Citation]",
+                "outcomes": "[Union Army, expert-linked matches]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "common names",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated TPR]",
+                "outcomes": "[0.361]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "Union Army",
+                    "Citation": "expert-linked matches"
+                },
+                "measures": "[Dataset, Citation]",
+                "outcomes": "[Union Army, expert-linked matches]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "common names",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[PPV]",
+                "outcomes": "[0.763]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "Union Army",
+                    "Citation": "expert-linked matches"
+                },
+                "measures": "[Dataset, Citation]",
+                "outcomes": "[Union Army, expert-linked matches]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "common names",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated PPV]",
+                "outcomes": "[0.773]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "Union Army",
+                    "Citation": "expert-linked matches"
+                },
+                "measures": "[Dataset, Citation]",
+                "outcomes": "[Union Army, expert-linked matches]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated TPR]",
+                "outcomes": "[0.389]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "Union Army",
+                    "Citation": "expert-linked matches"
+                },
+                "measures": "[Dataset, Citation]",
+                "outcomes": "[Union Army, expert-linked matches]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[PPV]",
+                "outcomes": "[0.657]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "Union Army",
+                    "Citation": "expert-linked matches"
+                },
+                "measures": "[Dataset, Citation]",
+                "outcomes": "[Union Army, expert-linked matches]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated PPV]",
+                "outcomes": "[0.824]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "Union Army",
+                    "Citation": "expert-linked matches"
+                },
+                "measures": "[Dataset, Citation]",
+                "outcomes": "[Union Army, expert-linked matches]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,2,4)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated TPR]",
+                "outcomes": "[0.301]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "Union Army",
+                    "Citation": "expert-linked matches"
+                },
+                "measures": "[Dataset, Citation]",
+                "outcomes": "[Union Army, expert-linked matches]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,2,4)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[PPV]",
+                "outcomes": "[0.746]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "Union Army",
+                    "Citation": "expert-linked matches"
+                },
+                "measures": "[Dataset, Citation]",
+                "outcomes": "[Union Army, expert-linked matches]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,2,4)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated PPV]",
+                "outcomes": "[0.922]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "Union Army",
+                    "Citation": "expert-linked matches"
+                },
+                "measures": "[Dataset, Citation]",
+                "outcomes": "[Union Army, expert-linked matches]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,3,6)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[TPR]",
+                "outcomes": "[0.315]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "Union Army",
+                    "Citation": "expert-linked matches"
+                },
+                "measures": "[Dataset, Citation]",
+                "outcomes": "[Union Army, expert-linked matches]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,3,6)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated TPR]",
+                "outcomes": "[0.263]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "Union Army",
+                    "Citation": "expert-linked matches"
+                },
+                "measures": "[Dataset, Citation]",
+                "outcomes": "[Union Army, expert-linked matches]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,3,6)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[PPV]",
+                "outcomes": "[0.770]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "Union Army",
+                    "Citation": "expert-linked matches"
+                },
+                "measures": "[Dataset, Citation]",
+                "outcomes": "[Union Army, expert-linked matches]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,3,6)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated PPV]",
+                "outcomes": "[0.949]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "-",
+                    "Context": "unavailable true matches"
+                },
+                "measures": "[Model, Context]",
+                "outcomes": "[-, unavailable true matches]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "baseline",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated TPR]",
+                "outcomes": "[0.326]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "-",
+                    "Context": "unavailable true matches"
+                },
+                "measures": "[Model, Context]",
+                "outcomes": "[-, unavailable true matches]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "baseline",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[PPV]",
+                "outcomes": "[0.768]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "-",
+                    "Context": "unavailable true matches"
+                },
+                "measures": "[Model, Context]",
+                "outcomes": "[-, unavailable true matches]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "baseline",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated PPV]",
+                "outcomes": "[0.756]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "-",
+                    "Context": "unavailable true matches"
+                },
+                "measures": "[Model, Context]",
+                "outcomes": "[-, unavailable true matches]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "common names",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated TPR]",
+                "outcomes": "[0.361]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "-",
+                    "Context": "unavailable true matches"
+                },
+                "measures": "[Model, Context]",
+                "outcomes": "[-, unavailable true matches]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "common names",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[PPV]",
+                "outcomes": "[0.763]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "-",
+                    "Context": "unavailable true matches"
+                },
+                "measures": "[Model, Context]",
+                "outcomes": "[-, unavailable true matches]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "common names",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated PPV]",
+                "outcomes": "[0.773]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "-",
+                    "Context": "unavailable true matches"
+                },
+                "measures": "[Model, Context]",
+                "outcomes": "[-, unavailable true matches]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated TPR]",
+                "outcomes": "[0.389]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "-",
+                    "Context": "unavailable true matches"
+                },
+                "measures": "[Model, Context]",
+                "outcomes": "[-, unavailable true matches]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[PPV]",
+                "outcomes": "[0.657]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "-",
+                    "Context": "unavailable true matches"
+                },
+                "measures": "[Model, Context]",
+                "outcomes": "[-, unavailable true matches]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated PPV]",
+                "outcomes": "[0.824]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "-",
+                    "Context": "unavailable true matches"
+                },
+                "measures": "[Model, Context]",
+                "outcomes": "[-, unavailable true matches]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,2,4)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated TPR]",
+                "outcomes": "[0.301]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "-",
+                    "Context": "unavailable true matches"
+                },
+                "measures": "[Model, Context]",
+                "outcomes": "[-, unavailable true matches]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,2,4)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[PPV]",
+                "outcomes": "[0.746]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "-",
+                    "Context": "unavailable true matches"
+                },
+                "measures": "[Model, Context]",
+                "outcomes": "[-, unavailable true matches]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,2,4)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated PPV]",
+                "outcomes": "[0.922]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "-",
+                    "Context": "unavailable true matches"
+                },
+                "measures": "[Model, Context]",
+                "outcomes": "[-, unavailable true matches]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,3,6)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[TPR]",
+                "outcomes": "[0.315]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "-",
+                    "Context": "unavailable true matches"
+                },
+                "measures": "[Model, Context]",
+                "outcomes": "[-, unavailable true matches]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,3,6)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated TPR]",
+                "outcomes": "[0.263]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "-",
+                    "Context": "unavailable true matches"
+                },
+                "measures": "[Model, Context]",
+                "outcomes": "[-, unavailable true matches]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,3,6)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[PPV]",
+                "outcomes": "[0.770]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "-",
+                    "Context": "unavailable true matches"
+                },
+                "measures": "[Model, Context]",
+                "outcomes": "[-, unavailable true matches]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,3,6)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated PPV]",
+                "outcomes": "[0.949]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Setting": "nA<<nB",
+                    "Context": "unreliable fastLink matchings"
+                },
+                "measures": "[Setting, Context]",
+                "outcomes": "[nA<<nB, unreliable fastLink matchings]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "baseline",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated TPR]",
+                "outcomes": "[0.326]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Setting": "nA<<nB",
+                    "Context": "unreliable fastLink matchings"
+                },
+                "measures": "[Setting, Context]",
+                "outcomes": "[nA<<nB, unreliable fastLink matchings]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "baseline",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[PPV]",
+                "outcomes": "[0.768]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Setting": "nA<<nB",
+                    "Context": "unreliable fastLink matchings"
+                },
+                "measures": "[Setting, Context]",
+                "outcomes": "[nA<<nB, unreliable fastLink matchings]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "baseline",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated PPV]",
+                "outcomes": "[0.756]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Setting": "nA<<nB",
+                    "Context": "unreliable fastLink matchings"
+                },
+                "measures": "[Setting, Context]",
+                "outcomes": "[nA<<nB, unreliable fastLink matchings]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "common names",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated TPR]",
+                "outcomes": "[0.361]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Setting": "nA<<nB",
+                    "Context": "unreliable fastLink matchings"
+                },
+                "measures": "[Setting, Context]",
+                "outcomes": "[nA<<nB, unreliable fastLink matchings]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "common names",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[PPV]",
+                "outcomes": "[0.763]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Setting": "nA<<nB",
+                    "Context": "unreliable fastLink matchings"
+                },
+                "measures": "[Setting, Context]",
+                "outcomes": "[nA<<nB, unreliable fastLink matchings]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "common names",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated PPV]",
+                "outcomes": "[0.773]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Setting": "nA<<nB",
+                    "Context": "unreliable fastLink matchings"
+                },
+                "measures": "[Setting, Context]",
+                "outcomes": "[nA<<nB, unreliable fastLink matchings]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated TPR]",
+                "outcomes": "[0.389]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Setting": "nA<<nB",
+                    "Context": "unreliable fastLink matchings"
+                },
+                "measures": "[Setting, Context]",
+                "outcomes": "[nA<<nB, unreliable fastLink matchings]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[PPV]",
+                "outcomes": "[0.657]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Setting": "nA<<nB",
+                    "Context": "unreliable fastLink matchings"
+                },
+                "measures": "[Setting, Context]",
+                "outcomes": "[nA<<nB, unreliable fastLink matchings]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,1,2)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated PPV]",
+                "outcomes": "[0.824]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Setting": "nA<<nB",
+                    "Context": "unreliable fastLink matchings"
+                },
+                "measures": "[Setting, Context]",
+                "outcomes": "[nA<<nB, unreliable fastLink matchings]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,2,4)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated TPR]",
+                "outcomes": "[0.301]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Setting": "nA<<nB",
+                    "Context": "unreliable fastLink matchings"
+                },
+                "measures": "[Setting, Context]",
+                "outcomes": "[nA<<nB, unreliable fastLink matchings]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,2,4)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[PPV]",
+                "outcomes": "[0.746]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Setting": "nA<<nB",
+                    "Context": "unreliable fastLink matchings"
+                },
+                "measures": "[Setting, Context]",
+                "outcomes": "[nA<<nB, unreliable fastLink matchings]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,2,4)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated PPV]",
+                "outcomes": "[0.922]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Setting": "nA<<nB",
+                    "Context": "unreliable fastLink matchings"
+                },
+                "measures": "[Setting, Context]",
+                "outcomes": "[nA<<nB, unreliable fastLink matchings]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,3,6)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[TPR]",
+                "outcomes": "[0.315]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Setting": "nA<<nB",
+                    "Context": "unreliable fastLink matchings"
+                },
+                "measures": "[Setting, Context]",
+                "outcomes": "[nA<<nB, unreliable fastLink matchings]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,3,6)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated TPR]",
+                "outcomes": "[0.263]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Setting": "nA<<nB",
+                    "Context": "unreliable fastLink matchings"
+                },
+                "measures": "[Setting, Context]",
+                "outcomes": "[nA<<nB, unreliable fastLink matchings]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,3,6)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[PPV]",
+                "outcomes": "[0.770]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Setting": "nA<<nB",
+                    "Context": "unreliable fastLink matchings"
+                },
+                "measures": "[Setting, Context]",
+                "outcomes": "[nA<<nB, unreliable fastLink matchings]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Bayesian",
+                    "Specification": "record-specific",
+                    "Parameters": "\u03bb=(1,3,6)",
+                    "Dataset": "Union Army"
+                },
+                "measures": "[Estimated PPV]",
+                "outcomes": "[0.949]"
+            },
+            "match": "no"
+        }
+    ],
+    "total_extracted_claims": 8,
+    "total_ground_truth_claims": 20,
+    "number_of_matches": 4
+}

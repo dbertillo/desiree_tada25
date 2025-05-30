@@ -1,0 +1,108 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "BM25",
+                    "How it works": "Keyword indexing"
+                },
+                "measures": "[hits@10]",
+                "outcomes": "[0.101]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "BM25",
+                    "How it works": "Keyword indexing",
+                    "Task": "Generative track retrieval"
+                },
+                "measures": "[hits@10]",
+                "outcomes": "[0.101]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "Bi-encoder zero-shot",
+                    "How it works": "Semantic match between playlist titles"
+                },
+                "measures": "[hits@10]",
+                "outcomes": "[0.065]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Bi-encoder zero-shot",
+                    "How it works": "Semantic match between playlist titles",
+                    "Task": "Generative track retrieval"
+                },
+                "measures": "[hits@10]",
+                "outcomes": "[0.065]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "Bi-encoder fine-tuned",
+                    "How it works": "Fine-tuned semantic match between playlist titles"
+                },
+                "measures": "[hits@10]",
+                "outcomes": "[0.119]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Bi-encoder fine-tuned",
+                    "How it works": "Fine-tuned semantic match between playlist titles",
+                    "Task": "Generative track retrieval"
+                },
+                "measures": "[hits@10]",
+                "outcomes": "[0.119]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "Text2Tracks",
+                    "How it works": "GR using cf-based semantic-ids"
+                },
+                "measures": "[hits@10]",
+                "outcomes": "[0.270]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Text2Tracks",
+                    "How it works": "GR using cf-based semantic-ids",
+                    "Task": "Generative track retrieval"
+                },
+                "measures": "[hits@10]",
+                "outcomes": "[0.270]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Task": "generative track retrieval",
+                    "Best performing model": "Text2Tracks",
+                    "Performance improvement": "127% increase in hits@10",
+                    "Comparison": "with respect to the closest competitor"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Text2Tracks",
+                    "How it works": "GR using cf-based semantic-ids",
+                    "Task": "Generative track retrieval",
+                    "Effectiveness": "127% increase in hits@10 compared to closest competitor"
+                },
+                "measures": "[hits@10]",
+                "outcomes": "[0.270]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 10,
+    "total_ground_truth_claims": 5,
+    "number_of_matches": 5
+}

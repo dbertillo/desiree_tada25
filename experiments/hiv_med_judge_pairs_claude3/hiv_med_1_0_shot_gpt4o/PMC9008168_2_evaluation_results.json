@@ -1,0 +1,485 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study_population": "participants at risk",
+                    "total_population": "2144",
+                    "developed_BMI_\u226525_kg/m\u00b2": "516",
+                    "table_reference": "Table 2",
+                    "incidence_rate_comparison": "similar among participants without HIV and those on ART",
+                    "highest_incidence_group": "participants on non-TLD ART"
+                },
+                "measures": "[]",
+                "outcomes": "[]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "PLWH on non-TLD ART",
+                    "Person-time": "5069.11",
+                    "Failures": "391",
+                    "Unadjusted incidence rate": "BMI \u226525 kg/m2"
+                },
+                "measures": "[Incidence rate per 100 person-years, (95% CI)]",
+                "outcomes": "[77.13, (69.85\u201385.17)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study_population": "participants at risk",
+                    "total_population": "2144",
+                    "developed_BMI_\u226525_kg/m\u00b2": "516",
+                    "table_reference": "Table 2",
+                    "incidence_rate_comparison": "similar among participants without HIV and those on ART",
+                    "highest_incidence_group": "participants on non-TLD ART"
+                },
+                "measures": "[]",
+                "outcomes": "[]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "PLWH, ART na\u00efve",
+                    "Person-time": "503.77",
+                    "Failures": "19",
+                    "Unadjusted incidence rate": "BMI \u226525 kg/m2"
+                },
+                "measures": "[Incidence rate per 100 person-years, (95% CI)]",
+                "outcomes": "[37.71, (24.06\u201359.13)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study_population": "participants at risk",
+                    "total_population": "2144",
+                    "developed_BMI_\u226525_kg/m\u00b2": "516",
+                    "table_reference": "Table 2",
+                    "incidence_rate_comparison": "similar among participants without HIV and those on ART",
+                    "highest_incidence_group": "participants on non-TLD ART"
+                },
+                "measures": "[]",
+                "outcomes": "[]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "PLWH on TLD",
+                    "Person-time": "559.35",
+                    "Failures": "41",
+                    "Unadjusted incidence rate": "BMI \u226525 kg/m2"
+                },
+                "measures": "[Incidence rate per 100 person-years, (95% CI)]",
+                "outcomes": "[73.30, (53.97\u201399.55)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study_population": "participants at risk",
+                    "total_population": "2144",
+                    "developed_BMI_\u226525_kg/m\u00b2": "516",
+                    "table_reference": "Table 2",
+                    "incidence_rate_comparison": "similar among participants without HIV and those on ART",
+                    "highest_incidence_group": "participants on non-TLD ART"
+                },
+                "measures": "[]",
+                "outcomes": "[]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "People without HIV",
+                    "Person-time": "937.23",
+                    "Failures": "65",
+                    "Unadjusted incidence rate": "BMI \u226525 kg/m2"
+                },
+                "measures": "[Incidence rate per 100 person-years, (95% CI)]",
+                "outcomes": "[69.80, (54.74\u201389.01)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "group": "Participants without HIV",
+                    "incidence_rate_cases_per_1000_PY": "69.8",
+                    "incidence_rate_95%_CI": "54.7\u201389.0",
+                    "HR": "1.00",
+                    "HR_reference": "Reference"
+                },
+                "measures": "[incidence_rate_cases_per_1000_PY, HR]",
+                "outcomes": "[69.8, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "PLWH on non-TLD ART",
+                    "Person-time": "5069.11",
+                    "Failures": "391",
+                    "Unadjusted incidence rate": "BMI \u226525 kg/m2"
+                },
+                "measures": "[Incidence rate per 100 person-years, (95% CI)]",
+                "outcomes": "[77.13, (69.85\u201385.17)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "group": "Participants without HIV",
+                    "incidence_rate_cases_per_1000_PY": "69.8",
+                    "incidence_rate_95%_CI": "54.7\u201389.0",
+                    "HR": "1.00",
+                    "HR_reference": "Reference"
+                },
+                "measures": "[incidence_rate_cases_per_1000_PY, HR]",
+                "outcomes": "[69.8, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "PLWH, ART na\u00efve",
+                    "Person-time": "503.77",
+                    "Failures": "19",
+                    "Unadjusted incidence rate": "BMI \u226525 kg/m2"
+                },
+                "measures": "[Incidence rate per 100 person-years, (95% CI)]",
+                "outcomes": "[37.71, (24.06\u201359.13)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "group": "Participants without HIV",
+                    "incidence_rate_cases_per_1000_PY": "69.8",
+                    "incidence_rate_95%_CI": "54.7\u201389.0",
+                    "HR": "1.00",
+                    "HR_reference": "Reference"
+                },
+                "measures": "[incidence_rate_cases_per_1000_PY, HR]",
+                "outcomes": "[69.8, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "PLWH on TLD",
+                    "Person-time": "559.35",
+                    "Failures": "41",
+                    "Unadjusted incidence rate": "BMI \u226525 kg/m2"
+                },
+                "measures": "[Incidence rate per 100 person-years, (95% CI)]",
+                "outcomes": "[73.30, (53.97\u201399.55)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "group": "Participants without HIV",
+                    "incidence_rate_cases_per_1000_PY": "69.8",
+                    "incidence_rate_95%_CI": "54.7\u201389.0",
+                    "HR": "1.00",
+                    "HR_reference": "Reference"
+                },
+                "measures": "[incidence_rate_cases_per_1000_PY, HR]",
+                "outcomes": "[69.8, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "People without HIV",
+                    "Person-time": "937.23",
+                    "Failures": "65",
+                    "Unadjusted incidence rate": "BMI \u226525 kg/m2"
+                },
+                "measures": "[Incidence rate per 100 person-years, (95% CI)]",
+                "outcomes": "[69.80, (54.74\u201389.01)]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "group": "PLWH on non-TLD ART",
+                    "incidence_rate_cases_per_1000_PY": "77.1",
+                    "incidence_rate_95%_CI": "69.8\u201385.2",
+                    "HR": "1.13",
+                    "HR_95%_CI": "0.79\u20131.63"
+                },
+                "measures": "[incidence_rate_cases_per_1000_PY, HR]",
+                "outcomes": "[77.1, 1.13]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "PLWH on non-TLD ART",
+                    "Person-time": "5069.11",
+                    "Failures": "391",
+                    "Unadjusted incidence rate": "BMI \u226525 kg/m2"
+                },
+                "measures": "[Incidence rate per 100 person-years, (95% CI)]",
+                "outcomes": "[77.13, (69.85\u201385.17)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "group": "PLWH on non-TLD ART",
+                    "incidence_rate_cases_per_1000_PY": "77.1",
+                    "incidence_rate_95%_CI": "69.8\u201385.2",
+                    "HR": "1.13",
+                    "HR_95%_CI": "0.79\u20131.63"
+                },
+                "measures": "[incidence_rate_cases_per_1000_PY, HR]",
+                "outcomes": "[77.1, 1.13]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "PLWH, ART na\u00efve",
+                    "Person-time": "503.77",
+                    "Failures": "19",
+                    "Unadjusted incidence rate": "BMI \u226525 kg/m2"
+                },
+                "measures": "[Incidence rate per 100 person-years, (95% CI)]",
+                "outcomes": "[37.71, (24.06\u201359.13)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "group": "PLWH on non-TLD ART",
+                    "incidence_rate_cases_per_1000_PY": "77.1",
+                    "incidence_rate_95%_CI": "69.8\u201385.2",
+                    "HR": "1.13",
+                    "HR_95%_CI": "0.79\u20131.63"
+                },
+                "measures": "[incidence_rate_cases_per_1000_PY, HR]",
+                "outcomes": "[77.1, 1.13]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "PLWH on TLD",
+                    "Person-time": "559.35",
+                    "Failures": "41",
+                    "Unadjusted incidence rate": "BMI \u226525 kg/m2"
+                },
+                "measures": "[Incidence rate per 100 person-years, (95% CI)]",
+                "outcomes": "[73.30, (53.97\u201399.55)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "group": "PLWH on TLD",
+                    "incidence_rate_cases_per_1000_PY": "73.3",
+                    "incidence_rate_95%_CI": "54.0\u201399.6",
+                    "HR": "1.77",
+                    "HR_95%_CI": "1.22\u20132.55"
+                },
+                "measures": "[incidence_rate_cases_per_1000_PY, HR]",
+                "outcomes": "[73.3, 1.77]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "PLWH on non-TLD ART",
+                    "Person-time": "5069.11",
+                    "Failures": "391",
+                    "Unadjusted incidence rate": "BMI \u226525 kg/m2"
+                },
+                "measures": "[Incidence rate per 100 person-years, (95% CI)]",
+                "outcomes": "[77.13, (69.85\u201385.17)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "group": "PLWH on TLD",
+                    "incidence_rate_cases_per_1000_PY": "73.3",
+                    "incidence_rate_95%_CI": "54.0\u201399.6",
+                    "HR": "1.77",
+                    "HR_95%_CI": "1.22\u20132.55"
+                },
+                "measures": "[incidence_rate_cases_per_1000_PY, HR]",
+                "outcomes": "[73.3, 1.77]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "PLWH, ART na\u00efve",
+                    "Person-time": "503.77",
+                    "Failures": "19",
+                    "Unadjusted incidence rate": "BMI \u226525 kg/m2"
+                },
+                "measures": "[Incidence rate per 100 person-years, (95% CI)]",
+                "outcomes": "[37.71, (24.06\u201359.13)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "group": "PLWH on TLD",
+                    "incidence_rate_cases_per_1000_PY": "73.3",
+                    "incidence_rate_95%_CI": "54.0\u201399.6",
+                    "HR": "1.77",
+                    "HR_95%_CI": "1.22\u20132.55"
+                },
+                "measures": "[incidence_rate_cases_per_1000_PY, HR]",
+                "outcomes": "[73.3, 1.77]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "PLWH on TLD",
+                    "Person-time": "559.35",
+                    "Failures": "41",
+                    "Unadjusted incidence rate": "BMI \u226525 kg/m2"
+                },
+                "measures": "[Incidence rate per 100 person-years, (95% CI)]",
+                "outcomes": "[73.30, (53.97\u201399.55)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "group": "PLWH, ART na\u00efve",
+                    "incidence_rate_cases_per_1000_PY": "37.7",
+                    "incidence_rate_95%_CI": "24.1\u201359.1",
+                    "HR": "0.43",
+                    "HR_95%_CI": "0.27\u20130.70"
+                },
+                "measures": "[incidence_rate_cases_per_1000_PY, HR]",
+                "outcomes": "[37.7, 0.43]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "PLWH on non-TLD ART",
+                    "Person-time": "5069.11",
+                    "Failures": "391",
+                    "Unadjusted incidence rate": "BMI \u226525 kg/m2"
+                },
+                "measures": "[Incidence rate per 100 person-years, (95% CI)]",
+                "outcomes": "[77.13, (69.85\u201385.17)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "group": "PLWH, ART na\u00efve",
+                    "incidence_rate_cases_per_1000_PY": "37.7",
+                    "incidence_rate_95%_CI": "24.1\u201359.1",
+                    "HR": "0.43",
+                    "HR_95%_CI": "0.27\u20130.70"
+                },
+                "measures": "[incidence_rate_cases_per_1000_PY, HR]",
+                "outcomes": "[37.7, 0.43]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "PLWH, ART na\u00efve",
+                    "Person-time": "503.77",
+                    "Failures": "19",
+                    "Unadjusted incidence rate": "BMI \u226525 kg/m2"
+                },
+                "measures": "[Incidence rate per 100 person-years, (95% CI)]",
+                "outcomes": "[37.71, (24.06\u201359.13)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "group": "PLWH, ART na\u00efve",
+                    "incidence_rate_cases_per_1000_PY": "37.7",
+                    "incidence_rate_95%_CI": "24.1\u201359.1",
+                    "HR": "0.43",
+                    "HR_95%_CI": "0.27\u20130.70"
+                },
+                "measures": "[incidence_rate_cases_per_1000_PY, HR]",
+                "outcomes": "[37.7, 0.43]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "PLWH on TLD",
+                    "Person-time": "559.35",
+                    "Failures": "41",
+                    "Unadjusted incidence rate": "BMI \u226525 kg/m2"
+                },
+                "measures": "[Incidence rate per 100 person-years, (95% CI)]",
+                "outcomes": "[73.30, (53.97\u201399.55)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "abbreviation_PLWH": "people living with HIV",
+                    "abbreviation_TLD": "tenofovir/lamivudine/dolutegravir",
+                    "abbreviation_PY": "person-years"
+                },
+                "measures": "[]",
+                "outcomes": "[]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "PLWH on non-TLD ART",
+                    "Person-time": "5069.11",
+                    "Failures": "391",
+                    "Unadjusted incidence rate": "BMI \u226525 kg/m2"
+                },
+                "measures": "[Incidence rate per 100 person-years, (95% CI)]",
+                "outcomes": "[77.13, (69.85\u201385.17)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "abbreviation_PLWH": "people living with HIV",
+                    "abbreviation_TLD": "tenofovir/lamivudine/dolutegravir",
+                    "abbreviation_PY": "person-years"
+                },
+                "measures": "[]",
+                "outcomes": "[]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "PLWH, ART na\u00efve",
+                    "Person-time": "503.77",
+                    "Failures": "19",
+                    "Unadjusted incidence rate": "BMI \u226525 kg/m2"
+                },
+                "measures": "[Incidence rate per 100 person-years, (95% CI)]",
+                "outcomes": "[37.71, (24.06\u201359.13)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "abbreviation_PLWH": "people living with HIV",
+                    "abbreviation_TLD": "tenofovir/lamivudine/dolutegravir",
+                    "abbreviation_PY": "person-years"
+                },
+                "measures": "[]",
+                "outcomes": "[]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "PLWH on TLD",
+                    "Person-time": "559.35",
+                    "Failures": "41",
+                    "Unadjusted incidence rate": "BMI \u226525 kg/m2"
+                },
+                "measures": "[Incidence rate per 100 person-years, (95% CI)]",
+                "outcomes": "[73.30, (53.97\u201399.55)]"
+            },
+            "match": "no"
+        }
+    ],
+    "total_extracted_claims": 6,
+    "total_ground_truth_claims": 4,
+    "number_of_matches": 1
+}

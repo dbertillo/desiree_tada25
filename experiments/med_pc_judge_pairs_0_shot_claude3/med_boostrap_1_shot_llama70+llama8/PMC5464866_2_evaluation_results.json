@@ -1,0 +1,67 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study type": "immunohistochemistry",
+                    "tissue type": "cancerous tissues",
+                    "FXR expression": "strong positive",
+                    "study goal": "confirm the role of FXR in pancreatic cancer",
+                    "comparison to": "adjacent tissues",
+                    "statistical significance": "p < 0.05"
+                },
+                "measures": "[FXR expression, Number of positive cases, Number of negative cases]",
+                "outcomes": "[88, 54 (61.4%), 34 (38.6%)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "FXR expression in the cancerous tissues and the adjacent tissues",
+                    "group": "Cancerous tissues",
+                    "comparison to": "Adjacent tissues",
+                    "expression level": "protein level",
+                    "method": "immunohistochemistry",
+                    "patients": "88",
+                    "FXR positive": "54 (61.4%)",
+                    "FXR negative": "34 (38.6%)",
+                    "statistical significance": "P < 0.05"
+                },
+                "measures": "[FXR Positive, FXR Negative]",
+                "outcomes": "[54 (61.4%), 34 (38.6%)]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study type": "immunohistochemistry",
+                    "tissue type": "adjacent tissues",
+                    "FXR expression": "30.7% positive",
+                    "study goal": "confirm the role of FXR in pancreatic cancer",
+                    "comparison to": "cancerous tissues",
+                    "statistical significance": "p < 0.05"
+                },
+                "measures": "[FXR expression]",
+                "outcomes": "[]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "FXR expression in the cancerous tissues and the adjacent tissues",
+                    "group": "Adjacent tissues",
+                    "comparison to": "Cancerous tissues",
+                    "expression level": "protein level",
+                    "method": "immunohistochemistry",
+                    "patients": "88",
+                    "FXR positive": "27 (30.7%)",
+                    "FXR negative": "61 (69.3%)",
+                    "statistical significance": "P < 0.05"
+                },
+                "measures": "[FXR Positive, FXR Negative]",
+                "outcomes": "[27 (30.7%), 61 (69.3%)]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 6,
+    "total_ground_truth_claims": 2,
+    "number_of_matches": 2
+}

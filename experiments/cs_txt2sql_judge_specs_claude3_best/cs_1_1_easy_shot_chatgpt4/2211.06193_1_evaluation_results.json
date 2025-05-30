@@ -1,0 +1,223 @@
+{
+    "matched_specifications": [
+        [
+            "failure category",
+            "incomplete sql"
+        ],
+        [
+            "dataset",
+            "spider dev"
+        ],
+        [
+            "model",
+            "t5+3b"
+        ],
+        [
+            "decoding",
+            "constrained"
+        ],
+        [
+            "failure category",
+            "false negatives"
+        ],
+        [
+            "dataset",
+            "spider dev"
+        ],
+        [
+            "model",
+            "t5+3b"
+        ],
+        [
+            "decoding",
+            "constrained"
+        ],
+        [
+            "failure category",
+            "foreign keys"
+        ],
+        [
+            "dataset",
+            "spider dev"
+        ],
+        [
+            "model",
+            "t5+3b"
+        ],
+        [
+            "decoding",
+            "constrained"
+        ],
+        [
+            "failure category",
+            "logical errors"
+        ],
+        [
+            "dataset",
+            "spider dev"
+        ],
+        [
+            "model",
+            "t5+3b"
+        ],
+        [
+            "decoding",
+            "constrained"
+        ],
+        [
+            "failure category",
+            "dk - incorrect agg"
+        ],
+        [
+            "dataset",
+            "spider dev"
+        ],
+        [
+            "model",
+            "t5+3b"
+        ],
+        [
+            "decoding",
+            "constrained"
+        ],
+        [
+            "failure category",
+            "dk - incorrect table"
+        ],
+        [
+            "dataset",
+            "spider dev"
+        ],
+        [
+            "model",
+            "t5+3b"
+        ],
+        [
+            "decoding",
+            "constrained"
+        ],
+        [
+            "failure category",
+            "dk - incorrect column"
+        ],
+        [
+            "dataset",
+            "spider dev"
+        ],
+        [
+            "model",
+            "t5+3b"
+        ],
+        [
+            "decoding",
+            "constrained"
+        ],
+        [
+            "failure category",
+            "dk - incorrect value"
+        ],
+        [
+            "dataset",
+            "spider dev"
+        ],
+        [
+            "model",
+            "t5+3b"
+        ],
+        [
+            "decoding",
+            "constrained"
+        ],
+        [
+            "failure category",
+            "dk - complex"
+        ],
+        [
+            "dataset",
+            "spider dev"
+        ],
+        [
+            "model",
+            "t5+3b"
+        ],
+        [
+            "decoding",
+            "constrained"
+        ]
+    ],
+    "unmatched_specifications": [
+        [
+            "percentage",
+            "6.2%"
+        ],
+        [
+            "percentage",
+            "22.4%"
+        ],
+        [
+            "percentage",
+            "19.6%"
+        ],
+        [
+            "percentage",
+            "2.8%"
+        ],
+        [
+            "percentage",
+            "17.2%"
+        ],
+        [
+            "percentage",
+            "3.8%"
+        ],
+        [
+            "percentage",
+            "13.4%"
+        ],
+        [
+            "percentage",
+            "3.8%"
+        ],
+        [
+            "percentage",
+            "11.0%"
+        ]
+    ],
+    "unmatched_extracted_keys": [
+        "percentage"
+    ],
+    "unmatched_extracted_values": [
+        "2.8%",
+        "19.6%",
+        "22.4%",
+        "11.0%",
+        "13.4%",
+        "17.2%",
+        "6.2%",
+        "3.8%"
+    ],
+    "unmatched_ground_truth_keys": [],
+    "unmatched_ground_truth_values": [],
+    "mapped_keys": {
+        "model": "model",
+        "dataset": "dataset",
+        "failure category": "error analysis category",
+        "decoding": "decoding method"
+    },
+    "mapped_values": {
+        "spider dev": "spider dev",
+        "false negatives": "false negatives",
+        "logical errors": "logical errors",
+        "dk - incorrect table": "dk - incorrect table",
+        "dk - complex": "dk - complex",
+        "dk - incorrect value": "dk - incorrect value",
+        "dk - incorrect column": "dk - incorrect column",
+        "dk - incorrect agg": "dk - incorrect agg",
+        "foreign keys": "foreign keys",
+        "incomplete sql": "incomplete sql",
+        "t5+3b": "t5+3b",
+        "constrained": "constrained decoding"
+    },
+    "precision": 0.8,
+    "recall": 1.0
+}

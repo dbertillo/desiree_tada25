@@ -1,0 +1,250 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "T5+3B",
+                    "Decoding": "constrained decoding",
+                    "Dataset": "Spider dev",
+                    "Failure Category": "Incomplete SQL"
+                },
+                "measures": "[Error Percentage]",
+                "outcomes": "[6.2%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "T5+3B",
+                    "Decoding Method": "constrained decoding",
+                    "Dataset": "Spider dev",
+                    "Error Analysis Category": "Incomplete SQL"
+                },
+                "measures": [
+                    "Percentage"
+                ],
+                "outcomes": [
+                    "6.2"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "T5+3B",
+                    "Decoding": "constrained decoding",
+                    "Dataset": "Spider dev",
+                    "Failure Category": "False Negatives"
+                },
+                "measures": "[Error Percentage]",
+                "outcomes": "[22.4%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "T5+3B",
+                    "Decoding Method": "constrained decoding",
+                    "Dataset": "Spider dev",
+                    "Error Analysis Category": "False Negatives"
+                },
+                "measures": [
+                    "Percentage"
+                ],
+                "outcomes": [
+                    "22.4"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "T5+3B",
+                    "Decoding": "constrained decoding",
+                    "Dataset": "Spider dev",
+                    "Failure Category": "Foreign Keys"
+                },
+                "measures": "[Error Percentage]",
+                "outcomes": "[19.6%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "T5+3B",
+                    "Decoding Method": "constrained decoding",
+                    "Dataset": "Spider dev",
+                    "Error Analysis Category": "Foreign Keys"
+                },
+                "measures": [
+                    "Percentage"
+                ],
+                "outcomes": [
+                    "19.6"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "T5+3B",
+                    "Decoding": "constrained decoding",
+                    "Dataset": "Spider dev",
+                    "Failure Category": "Logical Errors"
+                },
+                "measures": "[Error Percentage]",
+                "outcomes": "[2.8%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "T5+3B",
+                    "Decoding Method": "constrained decoding",
+                    "Dataset": "Spider dev",
+                    "Error Analysis Category": "Logical Errors"
+                },
+                "measures": [
+                    "Percentage"
+                ],
+                "outcomes": [
+                    "2.8"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "T5+3B",
+                    "Decoding": "constrained decoding",
+                    "Dataset": "Spider dev",
+                    "Failure Category": "DK - Incorrect AGG"
+                },
+                "measures": "[Error Percentage]",
+                "outcomes": "[17.2%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "T5+3B",
+                    "Decoding Method": "constrained decoding",
+                    "Dataset": "Spider dev",
+                    "Error Analysis Category": "DK - Incorrect AGG"
+                },
+                "measures": [
+                    "Percentage"
+                ],
+                "outcomes": [
+                    "17.2"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "T5+3B",
+                    "Decoding": "constrained decoding",
+                    "Dataset": "Spider dev",
+                    "Failure Category": "DK - Incorrect Table"
+                },
+                "measures": "[Error Percentage]",
+                "outcomes": "[3.8%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "T5+3B",
+                    "Decoding Method": "constrained decoding",
+                    "Dataset": "Spider dev",
+                    "Error Analysis Category": "DK - Incorrect Table"
+                },
+                "measures": [
+                    "Percentage"
+                ],
+                "outcomes": [
+                    "3.8"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "T5+3B",
+                    "Decoding": "constrained decoding",
+                    "Dataset": "Spider dev",
+                    "Failure Category": "DK - Incorrect Column"
+                },
+                "measures": "[Error Percentage]",
+                "outcomes": "[13.4%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "T5+3B",
+                    "Decoding Method": "constrained decoding",
+                    "Dataset": "Spider dev",
+                    "Error Analysis Category": "DK - Incorrect Column"
+                },
+                "measures": [
+                    "Percentage"
+                ],
+                "outcomes": [
+                    "13.4"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "T5+3B",
+                    "Decoding": "constrained decoding",
+                    "Dataset": "Spider dev",
+                    "Failure Category": "DK - Incorrect Value"
+                },
+                "measures": "[Error Percentage]",
+                "outcomes": "[3.8%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "T5+3B",
+                    "Decoding Method": "constrained decoding",
+                    "Dataset": "Spider dev",
+                    "Error Analysis Category": "DK - Incorrect Value"
+                },
+                "measures": [
+                    "Percentage"
+                ],
+                "outcomes": [
+                    "3.8"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "T5+3B",
+                    "Decoding": "constrained decoding",
+                    "Dataset": "Spider dev",
+                    "Failure Category": "DK - Complex"
+                },
+                "measures": "[Error Percentage]",
+                "outcomes": "[11.0%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "T5+3B",
+                    "Decoding Method": "constrained decoding",
+                    "Dataset": "Spider dev",
+                    "Error Analysis Category": "DK - Complex"
+                },
+                "measures": [
+                    "Percentage"
+                ],
+                "outcomes": [
+                    "11.0"
+                ]
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 9,
+    "total_ground_truth_claims": 9,
+    "number_of_matches": 9
+}

@@ -1,0 +1,250 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Failure Categories": "Incomplete SQL",
+                    "Percentage": "6.2%",
+                    "Table": "Table 1",
+                    "Caption": "Error Analysis on Spider dev based on T5+3B with constrained decoding"
+                },
+                "measures": "[Failure Categories, Percentage]",
+                "outcomes": "[Incomplete SQL, 6.2%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "T5+3B",
+                    "Decoding Method": "constrained decoding",
+                    "Dataset": "Spider dev",
+                    "Error Analysis Category": "Incomplete SQL"
+                },
+                "measures": [
+                    "Percentage"
+                ],
+                "outcomes": [
+                    "6.2"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Failure Categories": "False Negatives",
+                    "Percentage": "22.4%",
+                    "Table": "Table 1",
+                    "Caption": "Error Analysis on Spider dev based on T5+3B with constrained decoding"
+                },
+                "measures": "[Failure Categories, Percentage]",
+                "outcomes": "[False Negatives, 22.4%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "T5+3B",
+                    "Decoding Method": "constrained decoding",
+                    "Dataset": "Spider dev",
+                    "Error Analysis Category": "False Negatives"
+                },
+                "measures": [
+                    "Percentage"
+                ],
+                "outcomes": [
+                    "22.4"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Failure Categories": "Foreign Keys",
+                    "Percentage": "19.6%",
+                    "Table": "Table 1",
+                    "Caption": "Error Analysis on Spider dev based on T5+3B with constrained decoding"
+                },
+                "measures": "[Failure Categories, Percentage]",
+                "outcomes": "[Foreign Keys, 19.6%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "T5+3B",
+                    "Decoding Method": "constrained decoding",
+                    "Dataset": "Spider dev",
+                    "Error Analysis Category": "Foreign Keys"
+                },
+                "measures": [
+                    "Percentage"
+                ],
+                "outcomes": [
+                    "19.6"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Failure Categories": "Logical Errors",
+                    "Percentage": "2.8%",
+                    "Table": "Table 1",
+                    "Caption": "Error Analysis on Spider dev based on T5+3B with constrained decoding"
+                },
+                "measures": "[Failure Categories, Percentage]",
+                "outcomes": "[Logical Errors, 2.8%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "T5+3B",
+                    "Decoding Method": "constrained decoding",
+                    "Dataset": "Spider dev",
+                    "Error Analysis Category": "Logical Errors"
+                },
+                "measures": [
+                    "Percentage"
+                ],
+                "outcomes": [
+                    "2.8"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Failure Categories": "DK - Incorrect AGG",
+                    "Percentage": "17.2%",
+                    "Table": "Table 1",
+                    "Caption": "Error Analysis on Spider dev based on T5+3B with constrained decoding"
+                },
+                "measures": "[Failure Categories, Percentage]",
+                "outcomes": "[DK - Incorrect AGG, 17.2%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "T5+3B",
+                    "Decoding Method": "constrained decoding",
+                    "Dataset": "Spider dev",
+                    "Error Analysis Category": "DK - Incorrect AGG"
+                },
+                "measures": [
+                    "Percentage"
+                ],
+                "outcomes": [
+                    "17.2"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Failure Categories": "DK - Incorrect Table",
+                    "Percentage": "3.8%",
+                    "Table": "Table 1",
+                    "Caption": "Error Analysis on Spider dev based on T5+3B with constrained decoding"
+                },
+                "measures": "[Failure Categories, Percentage]",
+                "outcomes": "[DK - Incorrect Table, 3.8%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "T5+3B",
+                    "Decoding Method": "constrained decoding",
+                    "Dataset": "Spider dev",
+                    "Error Analysis Category": "DK - Incorrect Table"
+                },
+                "measures": [
+                    "Percentage"
+                ],
+                "outcomes": [
+                    "3.8"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Failure Categories": "DK - Incorrect Column",
+                    "Percentage": "13.4%",
+                    "Table": "Table 1",
+                    "Caption": "Error Analysis on Spider dev based on T5+3B with constrained decoding"
+                },
+                "measures": "[Failure Categories, Percentage]",
+                "outcomes": "[DK - Incorrect Column, 13.4%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "T5+3B",
+                    "Decoding Method": "constrained decoding",
+                    "Dataset": "Spider dev",
+                    "Error Analysis Category": "DK - Incorrect Column"
+                },
+                "measures": [
+                    "Percentage"
+                ],
+                "outcomes": [
+                    "13.4"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Failure Categories": "DK - Incorrect Value",
+                    "Percentage": "3.8%",
+                    "Table": "Table 1",
+                    "Caption": "Error Analysis on Spider dev based on T5+3B with constrained decoding"
+                },
+                "measures": "[Failure Categories, Percentage]",
+                "outcomes": "[DK - Incorrect Value, 3.8%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "T5+3B",
+                    "Decoding Method": "constrained decoding",
+                    "Dataset": "Spider dev",
+                    "Error Analysis Category": "DK - Incorrect Value"
+                },
+                "measures": [
+                    "Percentage"
+                ],
+                "outcomes": [
+                    "3.8"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Failure Categories": "DK - Complex",
+                    "Percentage": "11.0%",
+                    "Table": "Table 1",
+                    "Caption": "Error Analysis on Spider dev based on T5+3B with constrained decoding"
+                },
+                "measures": "[Failure Categories, Percentage]",
+                "outcomes": "[DK - Complex, 11.0%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "T5+3B",
+                    "Decoding Method": "constrained decoding",
+                    "Dataset": "Spider dev",
+                    "Error Analysis Category": "DK - Complex"
+                },
+                "measures": [
+                    "Percentage"
+                ],
+                "outcomes": [
+                    "11.0"
+                ]
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 9,
+    "total_ground_truth_claims": 9,
+    "number_of_matches": 9
+}

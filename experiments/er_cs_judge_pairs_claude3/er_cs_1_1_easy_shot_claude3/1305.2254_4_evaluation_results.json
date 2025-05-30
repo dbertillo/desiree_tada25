@@ -1,0 +1,258 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Dataset Size": "1295 bibliography citations",
+                    "Distinct Papers": "132",
+                    "Regularization Coefficient": "0.001",
+                    "Total Epochs": "5",
+                    "Learning Rate": "1",
+                    "Loss Function": "Standard log loss"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "samebib(BC1,BC2) :- author(BC1,A1),sameauthor(A1,A2),authorinverse(A2,BC2)",
+                    "Description": "# author"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Rule Name": "samebib",
+                    "Rule Type": "Author",
+                    "Rule": "samebib(BC1,BC2) :- author(BC1,A1),sameauthor(A1,A2),authorinverse(A2,BC2)"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "samebib(BC1,BC2) :- title(BC1,A1),sametitle(A1,A2),titleinverse(A2,BC2)",
+                    "Description": "# title"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Rule Name": "samebib",
+                    "Rule Type": "Title",
+                    "Rule": "samebib(BC1,BC2) :- title(BC1,A1),sametitle(A1,A2),titleinverse(A2,BC2)"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "samebib(BC1,BC2) :- venue(BC1,A1),samevenue(A1,A2),venueinverse(A2,BC2)",
+                    "Description": "# venue"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Rule Name": "samebib",
+                    "Rule Type": "Venue",
+                    "Rule": "samebib(BC1,BC2) :- venue(BC1,A1),samevenue(A1,A2),venueinverse(A2,BC2)"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "samebib(BC1,BC2) :- samebib(BC1,BC3),samebib(BC3,BC2)",
+                    "Description": "# tcbib"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Rule Name": "samebib",
+                    "Rule Type": "Transitive Closure",
+                    "Rule": "samebib(BC1,BC2) :- samebib(BC1,BC3),samebib(BC3,BC2)"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "sameauthor(A1,A2) :- haswordauthor(A1,W),haswordauthorinverse(W,A2),keyauthorword(W)",
+                    "Description": "# authorword"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Rule Name": "sameauthor",
+                    "Rule Type": "Author Word",
+                    "Rule": "sameauthor(A1,A2) :- haswordauthor(A1,W),haswordauthorinverse(W,A2),keyauthorword(W)"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "sameauthor(A1,A2) :- sameauthor(A1,A3),sameauthor(A3,A2)",
+                    "Description": "# tcauthor"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Rule Name": "sameauthor",
+                    "Rule Type": "Transitive Closure",
+                    "Rule": "sameauthor(A1,A2) :- sameauthor(A1,A3),sameauthor(A3,A2)"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "sametitle(A1,A2) :- haswordtitle(A1,W),haswordtitleinverse(W,A2),keytitleword(W)",
+                    "Description": "# titleword"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Rule Name": "sametitle",
+                    "Rule Type": "Title Word",
+                    "Rule": "sametitle(A1,A2) :- haswordtitle(A1,W),haswordtitleinverse(W,A2),keytitleword(W)"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "sametitle(A1,A2) :- sametitle(A1,A3),sametitle(A3,A2)",
+                    "Description": "# tctitle"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Rule Name": "sametitle",
+                    "Rule Type": "Transitive Closure",
+                    "Rule": "sametitle(A1,A2) :- sametitle(A1,A3),sametitle(A3,A2)"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "samevenue(A1,A2) :- haswordvenue(A1,W),haswordvenueinverse(W,A2),keyvenueword(W)",
+                    "Description": "# venueword"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Rule Name": "samevenue",
+                    "Rule Type": "Venue Word",
+                    "Rule": "samevenue(A1,A2) :- haswordvenue(A1,W),haswordvenueinverse(W,A2),keyvenueword(W)"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "samevenue(A1,A2) :- samevenue(A1,A3),samevenue(A3,A2)",
+                    "Description": "# tcvenue"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Rule Name": "samevenue",
+                    "Rule Type": "Transitive Closure",
+                    "Rule": "samevenue(A1,A2) :- samevenue(A1,A3),samevenue(A3,A2)"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "keyauthorword(W) :- true",
+                    "Description": "# authorWord(W)"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Rule Name": "keyauthorword",
+                    "Rule": "keyauthorword(W) :- true"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "keytitleword(W) :- true",
+                    "Description": "# titleWord(W)"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Rule Name": "keytitleword",
+                    "Rule": "keytitleword(W) :- true"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "keyvenueword(W) :- true",
+                    "Description": "# venueWord(W)"
+                }
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 14,
+    "total_ground_truth_claims": 13,
+    "number_of_matches": 13
+}

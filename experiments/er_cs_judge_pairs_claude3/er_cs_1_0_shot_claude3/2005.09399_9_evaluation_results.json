@@ -1,0 +1,154 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "airports",
+                    "link_type": "umbel:isLike",
+                    "blocking_method": "token blocking"
+                },
+                "measures": "[Recall of token blocking]",
+                "outcomes": "[97.47]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "airports",
+                    "Link Type": "umbel:isLike",
+                    "Blocking Method": "token blocking"
+                },
+                "measures": "[Recall]",
+                "outcomes": "[97.47]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "airlines",
+                    "link_type": "umbel:isLike",
+                    "blocking_method": "token blocking"
+                },
+                "measures": "[Recall of token blocking]",
+                "outcomes": "[99.75]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "airlines",
+                    "Link Type": "umbel:isLike",
+                    "Blocking Method": "token blocking"
+                },
+                "measures": "[Recall]",
+                "outcomes": "[99.75]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "twitter",
+                    "link_type": "dct:subject",
+                    "blocking_method": "token blocking"
+                },
+                "measures": "[Recall of token blocking]",
+                "outcomes": "[9.52]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "twitter",
+                    "Link Type": "dct:subject",
+                    "Blocking Method": "token blocking"
+                },
+                "measures": "[Recall]",
+                "outcomes": "[9.52]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "books",
+                    "link_type": "dct:subject",
+                    "blocking_method": "token blocking"
+                },
+                "measures": "[Recall of token blocking]",
+                "outcomes": "[63.55]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "books",
+                    "Link Type": "dct:subject",
+                    "Blocking Method": "token blocking"
+                },
+                "measures": "[Recall]",
+                "outcomes": "[63.55]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "iati",
+                    "link_type": "dct:subject",
+                    "blocking_method": "token blocking"
+                },
+                "measures": "[Recall of token blocking]",
+                "outcomes": "[49.13]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "iati",
+                    "Link Type": "dct:subject",
+                    "Blocking Method": "token blocking"
+                },
+                "measures": "[Recall]",
+                "outcomes": "[49.13]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "iati",
+                    "link_type": "dct:coverage",
+                    "blocking_method": "token blocking"
+                },
+                "measures": "[Recall of token blocking]",
+                "outcomes": "[39.46]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "iati",
+                    "Link Type": "dct:coverage",
+                    "Blocking Method": "token blocking"
+                },
+                "measures": "[Recall]",
+                "outcomes": "[39.46]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "www2012",
+                    "link_type": "foaf:based_near",
+                    "blocking_method": "token blocking"
+                },
+                "measures": "[Recall of token blocking]",
+                "outcomes": "[62.61]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "www2012",
+                    "Link Type": "foaf:based_near",
+                    "Blocking Method": "token blocking"
+                },
+                "measures": "[Recall]",
+                "outcomes": "[62.61]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 7,
+    "total_ground_truth_claims": 7,
+    "number_of_matches": 7
+}

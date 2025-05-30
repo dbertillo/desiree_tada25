@@ -1,0 +1,199 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Year": "6",
+                    "FXR expression": "High",
+                    "Number at risk": "0.0%",
+                    "Median survival time": "1.78",
+                    "Survival rate": "0.5241"
+                },
+                "measures": "[Year, Year, FXR expression, Number at risk, Median survival time, Survival rate]",
+                "outcomes": "[0, 2, 4, 6, Low, High, 87, 49.7%, 16, 9.1%, 6, 3.4%, 1, 0.6%, 88, 50.3%, 9, 5.1%, 3, 1.7%, 0, 0.0%, 1.83, 1.78, 0.4288, 0.3020, 0.6089, 0.3127, 0.1776, 0.5503, 0.3036, 0.1646, 0.5600, 0.2277, 0.0989, 0.5241]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Cancer Type": "pancreatic cancer",
+                    "Factor": "FXR expression",
+                    "Expression Level": "Low",
+                    "Year": "0",
+                    "Number at risk": "87",
+                    "Percentage at risk": "49.7%"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Year": "6",
+                    "FXR expression": "High",
+                    "Number at risk": "0.0%",
+                    "Median survival time": "1.78",
+                    "Survival rate": "0.5241"
+                },
+                "measures": "[Year, Year, FXR expression, Number at risk, Median survival time, Survival rate]",
+                "outcomes": "[0, 2, 4, 6, Low, High, 87, 49.7%, 16, 9.1%, 6, 3.4%, 1, 0.6%, 88, 50.3%, 9, 5.1%, 3, 1.7%, 0, 0.0%, 1.83, 1.78, 0.4288, 0.3020, 0.6089, 0.3127, 0.1776, 0.5503, 0.3036, 0.1646, 0.5600, 0.2277, 0.0989, 0.5241]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Cancer Type": "pancreatic cancer",
+                    "Factor": "FXR expression",
+                    "Expression Level": "Low",
+                    "Year": "2",
+                    "Number at risk": "16",
+                    "Percentage at risk": "9.1%"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Year": "6",
+                    "FXR expression": "High",
+                    "Number at risk": "0.0%",
+                    "Median survival time": "1.78",
+                    "Survival rate": "0.5241"
+                },
+                "measures": "[Year, Year, FXR expression, Number at risk, Median survival time, Survival rate]",
+                "outcomes": "[0, 2, 4, 6, Low, High, 87, 49.7%, 16, 9.1%, 6, 3.4%, 1, 0.6%, 88, 50.3%, 9, 5.1%, 3, 1.7%, 0, 0.0%, 1.83, 1.78, 0.4288, 0.3020, 0.6089, 0.3127, 0.1776, 0.5503, 0.3036, 0.1646, 0.5600, 0.2277, 0.0989, 0.5241]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Cancer Type": "pancreatic cancer",
+                    "Factor": "FXR expression",
+                    "Expression Level": "Low",
+                    "Year": "4",
+                    "Number at risk": "6",
+                    "Percentage at risk": "3.4%"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Year": "6",
+                    "FXR expression": "High",
+                    "Number at risk": "0.0%",
+                    "Median survival time": "1.78",
+                    "Survival rate": "0.5241"
+                },
+                "measures": "[Year, Year, FXR expression, Number at risk, Median survival time, Survival rate]",
+                "outcomes": "[0, 2, 4, 6, Low, High, 87, 49.7%, 16, 9.1%, 6, 3.4%, 1, 0.6%, 88, 50.3%, 9, 5.1%, 3, 1.7%, 0, 0.0%, 1.83, 1.78, 0.4288, 0.3020, 0.6089, 0.3127, 0.1776, 0.5503, 0.3036, 0.1646, 0.5600, 0.2277, 0.0989, 0.5241]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Cancer Type": "pancreatic cancer",
+                    "Factor": "FXR expression",
+                    "Expression Level": "Low",
+                    "Year": "6",
+                    "Number at risk": "1",
+                    "Percentage at risk": "0.6%"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Year": "6",
+                    "FXR expression": "High",
+                    "Number at risk": "0.0%",
+                    "Median survival time": "1.78",
+                    "Survival rate": "0.5241"
+                },
+                "measures": "[Year, Year, FXR expression, Number at risk, Median survival time, Survival rate]",
+                "outcomes": "[0, 2, 4, 6, Low, High, 87, 49.7%, 16, 9.1%, 6, 3.4%, 1, 0.6%, 88, 50.3%, 9, 5.1%, 3, 1.7%, 0, 0.0%, 1.83, 1.78, 0.4288, 0.3020, 0.6089, 0.3127, 0.1776, 0.5503, 0.3036, 0.1646, 0.5600, 0.2277, 0.0989, 0.5241]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Cancer Type": "pancreatic cancer",
+                    "Factor": "FXR expression",
+                    "Expression Level": "High",
+                    "Year": "0",
+                    "Number at risk": "88",
+                    "Percentage at risk": "50.3%"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Year": "6",
+                    "FXR expression": "High",
+                    "Number at risk": "0.0%",
+                    "Median survival time": "1.78",
+                    "Survival rate": "0.5241"
+                },
+                "measures": "[Year, Year, FXR expression, Number at risk, Median survival time, Survival rate]",
+                "outcomes": "[0, 2, 4, 6, Low, High, 87, 49.7%, 16, 9.1%, 6, 3.4%, 1, 0.6%, 88, 50.3%, 9, 5.1%, 3, 1.7%, 0, 0.0%, 1.83, 1.78, 0.4288, 0.3020, 0.6089, 0.3127, 0.1776, 0.5503, 0.3036, 0.1646, 0.5600, 0.2277, 0.0989, 0.5241]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Cancer Type": "pancreatic cancer",
+                    "Factor": "FXR expression",
+                    "Expression Level": "High",
+                    "Year": "2",
+                    "Number at risk": "9",
+                    "Percentage at risk": "5.1%"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Year": "6",
+                    "FXR expression": "High",
+                    "Number at risk": "0.0%",
+                    "Median survival time": "1.78",
+                    "Survival rate": "0.5241"
+                },
+                "measures": "[Year, Year, FXR expression, Number at risk, Median survival time, Survival rate]",
+                "outcomes": "[0, 2, 4, 6, Low, High, 87, 49.7%, 16, 9.1%, 6, 3.4%, 1, 0.6%, 88, 50.3%, 9, 5.1%, 3, 1.7%, 0, 0.0%, 1.83, 1.78, 0.4288, 0.3020, 0.6089, 0.3127, 0.1776, 0.5503, 0.3036, 0.1646, 0.5600, 0.2277, 0.0989, 0.5241]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Cancer Type": "pancreatic cancer",
+                    "Factor": "FXR expression",
+                    "Expression Level": "High",
+                    "Year": "4",
+                    "Number at risk": "3",
+                    "Percentage at risk": "1.7%"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Year": "6",
+                    "FXR expression": "High",
+                    "Number at risk": "0.0%",
+                    "Median survival time": "1.78",
+                    "Survival rate": "0.5241"
+                },
+                "measures": "[Year, Year, FXR expression, Number at risk, Median survival time, Survival rate]",
+                "outcomes": "[0, 2, 4, 6, Low, High, 87, 49.7%, 16, 9.1%, 6, 3.4%, 1, 0.6%, 88, 50.3%, 9, 5.1%, 3, 1.7%, 0, 0.0%, 1.83, 1.78, 0.4288, 0.3020, 0.6089, 0.3127, 0.1776, 0.5503, 0.3036, 0.1646, 0.5600, 0.2277, 0.0989, 0.5241]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Cancer Type": "pancreatic cancer",
+                    "Factor": "FXR expression",
+                    "Expression Level": "High",
+                    "Year": "6",
+                    "Number at risk": "0",
+                    "Percentage at risk": "0.0%"
+                }
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 1,
+    "total_ground_truth_claims": 14,
+    "number_of_matches": 1
+}

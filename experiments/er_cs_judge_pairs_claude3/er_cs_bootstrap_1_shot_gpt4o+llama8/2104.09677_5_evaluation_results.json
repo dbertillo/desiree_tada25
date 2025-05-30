@@ -1,0 +1,149 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Runtime Step": "Attribute selection step (Algorithm1)",
+                    "Runtime Value": "7,903 seconds",
+                    "Dataset": "German census data sets",
+                    "Score weight": "0.5",
+                    "Attribute selection threshold": "0.6",
+                    "Candidate record pairs": "54 million",
+                    "Best attribute combinations": "5",
+                    "Overall Precision": "0.999",
+                    "Overall Recall": "0.962"
+                },
+                "measures": "[Runtime]",
+                "outcomes": "[7,903]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "German census data sets",
+                    "Similarity threshold": "0.8",
+                    "Score weight": "0.5",
+                    "Attribute selection threshold": "0.6",
+                    "Step": "Attribute selection",
+                    "Algorithm": "Algorithm1"
+                },
+                "measures": "[Runtime]",
+                "outcomes": "[7903]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Runtime Step": "Signature generation step (Algorithm2)",
+                    "Runtime Value": "4,573 seconds",
+                    "Dataset": "German census data sets",
+                    "Score weight": "0.5",
+                    "Attribute selection threshold": "0.6",
+                    "Candidate record pairs": "54 million",
+                    "Best attribute combinations": "5",
+                    "Overall Precision": "0.999",
+                    "Overall Recall": "0.962"
+                },
+                "measures": "[Runtime]",
+                "outcomes": "[4,573]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "German census data sets",
+                    "Similarity threshold": "0.8",
+                    "Score weight": "0.5",
+                    "Attribute selection threshold": "0.6",
+                    "Step": "Signature generation",
+                    "Algorithm": "Algorithm2"
+                },
+                "measures": "[Runtime]",
+                "outcomes": "[4573]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Runtime Step": "Record matching step (Algorithm3)",
+                    "Runtime Value": "3,438 seconds",
+                    "Dataset": "German census data sets",
+                    "Score weight": "0.5",
+                    "Attribute selection threshold": "0.6",
+                    "Candidate record pairs": "54 million",
+                    "Best attribute combinations": "5",
+                    "Overall Precision": "0.999",
+                    "Overall Recall": "0.962"
+                },
+                "measures": "[Runtime]",
+                "outcomes": "[3,438]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "German census data sets",
+                    "Similarity threshold": "0.8",
+                    "Score weight": "0.5",
+                    "Attribute selection threshold": "0.6",
+                    "Step": "Record matching",
+                    "Algorithm": "Algorithm3"
+                },
+                "measures": "[Runtime]",
+                "outcomes": "[3438]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Linkage Quality": "Precision",
+                    "Value": "0.999",
+                    "Dataset": "German census data sets",
+                    "Score weight": "0.5",
+                    "Attribute selection threshold": "0.6",
+                    "Candidate record pairs": "54 million",
+                    "Best attribute combinations": "5"
+                },
+                "measures": "[Linkage Quality]",
+                "outcomes": "[0.999]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "German census data sets",
+                    "Similarity threshold": "0.8",
+                    "Score weight": "0.5",
+                    "Attribute selection threshold": "0.6"
+                },
+                "measures": "[Precision]",
+                "outcomes": "[0.999]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Linkage Quality": "Recall",
+                    "Value": "0.962",
+                    "Dataset": "German census data sets",
+                    "Score weight": "0.5",
+                    "Attribute selection threshold": "0.6",
+                    "Candidate record pairs": "54 million",
+                    "Best attribute combinations": "5"
+                },
+                "measures": "[Linkage Quality]",
+                "outcomes": "[0.962]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "German census data sets",
+                    "Similarity threshold": "0.8",
+                    "Score weight": "0.5",
+                    "Attribute selection threshold": "0.6"
+                },
+                "measures": "[Recall]",
+                "outcomes": "[0.962]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 12,
+    "total_ground_truth_claims": 5,
+    "number_of_matches": 5
+}

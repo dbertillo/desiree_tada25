@@ -1,0 +1,75 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Table": "Adverse Event SOC",
+                    "HIV status": "HIV-positive",
+                    "Percentage of G3+ Events": "30.0%",
+                    "Total number of grade 3 or 4 adverse events": "12"
+                },
+                "measures": "[Percentage of G3+ Events]",
+                "outcomes": "[30.0%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Hepatobiliary disorders",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "12",
+                    "30.0%"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Table": "Adverse Event SOC",
+                    "HIV status": "HIV-negative",
+                    "Percentage of G3+ Events": "25.0%",
+                    "Total number of grade 3 or 4 adverse events": "15"
+                },
+                "measures": "[Percentage of G3+ Events]",
+                "outcomes": "[25.0%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Hepatobiliary disorders",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "15",
+                    "25.0%"
+                ]
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 2,
+    "total_ground_truth_claims": 10,
+    "number_of_matches": 2
+}

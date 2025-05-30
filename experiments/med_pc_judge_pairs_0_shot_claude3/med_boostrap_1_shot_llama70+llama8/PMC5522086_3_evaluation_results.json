@@ -1,0 +1,745 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 3",
+                    "analysis": "IPA",
+                    "category": "inhibited upstream transcriptors",
+                    "upstream regulator": "TP53",
+                    "activation z-score": "-2.353",
+                    "P-value of overlap": "3.34\u00d710\u221232"
+                },
+                "measures": "[activation z-score, P-value of overlap]",
+                "outcomes": "[-2.353, 3.34\u00d710\u221232]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "TP53",
+                    "Regulation Type": "Inhibition",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[-2.353, 3.34E-32]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 3",
+                    "analysis": "IPA",
+                    "category": "inhibited upstream transcriptors",
+                    "upstream regulator": "NUPR1",
+                    "log ratio": "-2.52",
+                    "activation z-score": "-3.977",
+                    "P-value of overlap": "4.62\u00d710\u221213"
+                },
+                "measures": "[log ratio, activation z-score, P-value of overlap]",
+                "outcomes": "[-2.52, -3.977, 4.62\u00d710\u221213]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "NUPR1",
+                    "Regulation Type": "Inhibition",
+                    "Log Ratio": "-2.52",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[-3.977, 4.62E-13]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 3",
+                    "analysis": "IPA",
+                    "category": "inhibited upstream transcriptors",
+                    "upstream regulator": "NKX2-3",
+                    "activation z-score": "-3.455",
+                    "P-value of overlap": "5.88\u00d710\u221212"
+                },
+                "measures": "[activation z-score, P-value of overlap]",
+                "outcomes": "[-3.455, 5.88\u00d710\u221212]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "NKX2-3",
+                    "Regulation Type": "Inhibition",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[-3.455, 5.88E-12]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 3",
+                    "analysis": "IPA",
+                    "category": "inhibited upstream transcriptors",
+                    "upstream regulator": "HNF1A",
+                    "activation z-score": "-2.359",
+                    "P-value of overlap": "8.82\u00d710\u221212"
+                },
+                "measures": "[activation z-score, P-value of overlap]",
+                "outcomes": "[-2.359, 8.82\u00d710\u221212]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "HNF1A",
+                    "Regulation Type": "Inhibition",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[-2.359, 8.82E-12]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 3",
+                    "analysis": "IPA",
+                    "category": "inhibited upstream transcriptors",
+                    "upstream regulator": "CDKN2A",
+                    "log ratio": "1.737",
+                    "activation z-score": "-3.219",
+                    "P-value of overlap": "1.34\u00d710\u221211"
+                },
+                "measures": "[log ratio, activation z-score, P-value of overlap]",
+                "outcomes": "[1.737, -3.219, 1.34\u00d710\u221211]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "CDKN2A",
+                    "Regulation Type": "Inhibition",
+                    "Log Ratio": "1.737",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[-3.219, 1.34E-11]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 3",
+                    "analysis": "IPA",
+                    "category": "inhibited upstream transcriptors",
+                    "upstream regulator": "estrogen receptor",
+                    "activation z-score": "-2.299",
+                    "P-value of overlap": "9.57\u00d710\u221210"
+                },
+                "measures": "[activation z-score, P-value of overlap]",
+                "outcomes": "[-2.299, 9.57\u00d710\u221210]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "estrogen receptor",
+                    "Regulation Type": "Inhibition",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[-2.299, 9.57E-10]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 3",
+                    "analysis": "IPA",
+                    "category": "inhibited upstream transcriptors",
+                    "upstream regulator": "RB1",
+                    "activation z-score": "-4.286",
+                    "P-value of overlap": "3.74\u00d710\u22128"
+                },
+                "measures": "[activation z-score, P-value of overlap]",
+                "outcomes": "[-4.286, 3.74\u00d710\u22128]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "RB1",
+                    "Regulation Type": "Inhibition",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[-4.286, 3.74E-08]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 3",
+                    "analysis": "IPA",
+                    "category": "inhibited upstream transcriptors",
+                    "upstream regulator": "TCF3",
+                    "activation z-score": "-3.116",
+                    "P-value of overlap": "4.32\u00d710\u22128"
+                },
+                "measures": "[activation z-score, P-value of overlap]",
+                "outcomes": "[-3.116, 4.32\u00d710\u22128]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "TCF3",
+                    "Regulation Type": "Inhibition",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[-3.116, 4.32E-08]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 3",
+                    "analysis": "IPA",
+                    "category": "inhibited upstream transcriptors",
+                    "upstream regulator": "TRIM24",
+                    "activation z-score": "-3.714",
+                    "P-value of overlap": "6.26\u00d710\u22127"
+                },
+                "measures": "[activation z-score, P-value of overlap]",
+                "outcomes": "[-3.714, 6.26\u00d710\u22127]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "TRIM24",
+                    "Regulation Type": "Inhibition",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[-3.714, 6.26E-07]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 3",
+                    "analysis": "IPA",
+                    "category": "inhibited upstream transcriptors",
+                    "upstream regulator": "BCL6",
+                    "activation z-score": "-2.313",
+                    "P-value of overlap": "1.60\u00d710\u22126"
+                },
+                "measures": "[activation z-score, P-value of overlap]",
+                "outcomes": "[-2.313, 1.60\u00d710\u22126]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "BCL6",
+                    "Regulation Type": "Inhibition",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[-2.313, 1.60E-06]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 3",
+                    "analysis": "IPA",
+                    "category": "inhibited upstream transcriptors",
+                    "upstream regulator": "NR5A2",
+                    "log ratio": "-2.876",
+                    "activation z-score": "-2.7",
+                    "P-value of overlap": "7.26\u00d710\u22126"
+                },
+                "measures": "[log ratio, activation z-score, P-value of overlap]",
+                "outcomes": "[-2.876, -2.7, 7.26\u00d710\u22126]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "NR5A2",
+                    "Regulation Type": "Inhibition",
+                    "Log Ratio": "-2.876",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[-2.7, 7.26E-06]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 3",
+                    "analysis": "IPA",
+                    "category": "inhibited upstream transcriptors",
+                    "upstream regulator": "SATB1",
+                    "log ratio": "-0.814",
+                    "activation z-score": "-2.003",
+                    "P-value of overlap": "1.09\u00d710\u22125"
+                },
+                "measures": "[log ratio, activation z-score, P-value of overlap]",
+                "outcomes": "[-0.814, -2.003, 1.09\u00d710\u22125]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "SATB1",
+                    "Regulation Type": "Inhibition",
+                    "Log Ratio": "-0814",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[-2.003, 1.09E-05]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 3",
+                    "analysis": "IPA",
+                    "category": "inhibited upstream transcriptors",
+                    "upstream regulator": "IRF4",
+                    "log ratio": "2.115",
+                    "activation z-score": "-2.41",
+                    "P-value of overlap": "4.24\u00d710\u22125"
+                },
+                "measures": "[log ratio, activation z-score, P-value of overlap]",
+                "outcomes": "[2.115, -2.41, 4.24\u00d710\u22125]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "IRF4",
+                    "Regulation Type": "Inhibition",
+                    "Log Ratio": "2.115",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[-2.41, 4.24E-05]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 3",
+                    "analysis": "IPA",
+                    "category": "inhibited upstream transcriptors",
+                    "upstream regulator": "RBL1",
+                    "activation z-score": "-3.124",
+                    "P-value of overlap": "1.72\u00d710\u22124"
+                },
+                "measures": "[activation z-score, P-value of overlap]",
+                "outcomes": "[-3.124, 1.72\u00d710\u22124]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "RBL1",
+                    "Regulation Type": "Inhibition",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[-3.124, 1.72E-04]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 3",
+                    "analysis": "IPA",
+                    "category": "inhibited upstream transcriptors",
+                    "upstream regulator": "SPDEF",
+                    "activation z-score": "-2.887",
+                    "P-value of overlap": "2.39\u00d710\u22124"
+                },
+                "measures": "[activation z-score, P-value of overlap]",
+                "outcomes": "[-2.887, 2.39\u00d710\u22124]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "SPDEF",
+                    "Regulation Type": "Inhibition",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[-2.887, 2.39E-04]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 3",
+                    "analysis": "IPA",
+                    "category": "activation upstream transcriptors",
+                    "upstream regulator": "STAT3",
+                    "activation z-score": "2.924",
+                    "P-value of overlap": "5.78\u00d710\u221219"
+                },
+                "measures": "[activation z-score, P-value of overlap]",
+                "outcomes": "[2.924, 5.78\u00d710\u221219]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "STAT3",
+                    "Regulation Type": "Activation",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[2.924, 5.78E-19]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 3",
+                    "analysis": "IPA",
+                    "category": "activation upstream transcriptors",
+                    "upstream regulator": "CTNNB1",
+                    "activation z-score": "3.359",
+                    "P-value of overlap": "1.99\u00d710\u221215"
+                },
+                "measures": "[activation z-score, P-value of overlap]",
+                "outcomes": "[3.359, 1.99\u00d710\u221215]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "CTNNB1",
+                    "Regulation Type": "Activation",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[3.359, 1.99E-15]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 3",
+                    "analysis": "IPA",
+                    "category": "activation upstream transcriptors",
+                    "upstream regulator": "SP1",
+                    "activation z-score": "2.06",
+                    "P-value of overlap": "4.79\u00d710\u221213"
+                },
+                "measures": "[activation z-score, P-value of overlap]",
+                "outcomes": "[2.06, 4.79\u00d710\u221213]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "SP1",
+                    "Regulation Type": "Activation",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[2.06, 4.79E-13]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 3",
+                    "analysis": "IPA",
+                    "category": "activation upstream transcriptors",
+                    "upstream regulator": "CEBPB",
+                    "activation z-score": "2.866",
+                    "P-value of overlap": "2.62\u00d710\u221212"
+                },
+                "measures": "[activation z-score, P-value of overlap]",
+                "outcomes": "[2.866, 2.62\u00d710\u221212]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "CEBPB",
+                    "Regulation Type": "Activation",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[2.866, 2.62E-12]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 3",
+                    "analysis": "IPA",
+                    "category": "activation upstream transcriptors",
+                    "upstream regulator": "NFkB (complex)",
+                    "activation z-score": "6.314",
+                    "P-value of overlap": "1.43\u00d710\u221211"
+                },
+                "measures": "[activation z-score, P-value of overlap]",
+                "outcomes": "[6.314, 1.43\u00d710\u221211]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "NFkB (complex)",
+                    "Regulation Type": "Activation",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[6.314, 1.43E-11]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 3",
+                    "analysis": "IPA",
+                    "category": "activation upstream transcriptors",
+                    "upstream regulator": "TBX2",
+                    "activation z-score": "4.99",
+                    "P-value of overlap": "1.62\u00d710\u221211"
+                },
+                "measures": "[activation z-score, P-value of overlap]",
+                "outcomes": "[4.99, 1.62\u00d710\u221211]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "TBX2",
+                    "Regulation Type": "Activation",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[4.99, 1.62E-11]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 3",
+                    "analysis": "IPA",
+                    "category": "activation upstream transcriptors",
+                    "upstream regulator": "IRF1",
+                    "activation z-score": "3.759",
+                    "P-value of overlap": "2.76\u00d710\u221211"
+                },
+                "measures": "[activation z-score, P-value of overlap]",
+                "outcomes": "[3.759, 2.76\u00d710\u221211]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "IRF1",
+                    "Regulation Type": "Activation",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[3.759, 2.76E-11]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 3",
+                    "analysis": "IPA",
+                    "category": "activation upstream transcriptors",
+                    "upstream regulator": "IRF7",
+                    "log ratio": "1.504",
+                    "activation z-score": "5.591",
+                    "P-value of overlap": "2.88\u00d710\u221210"
+                },
+                "measures": "[log ratio, activation z-score, P-value of overlap]",
+                "outcomes": "[1.504, 5.591, 2.88\u00d710\u221210]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "IRF7",
+                    "Regulation Type": "Activation",
+                    "Log Ratio": "1.504",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[5.591, 2.88E-10]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 3",
+                    "analysis": "IPA",
+                    "category": "activation upstream transcriptors",
+                    "upstream regulator": "FOXM1",
+                    "log ratio": "2.152",
+                    "activation z-score": "4.395",
+                    "P-value of overlap": "5.12\u00d710\u221210"
+                },
+                "measures": "[log ratio, activation z-score, P-value of overlap]",
+                "outcomes": "[2.152, 4.395, 5.12\u00d710\u221210]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "FOXM1",
+                    "Regulation Type": "Activation",
+                    "Log Ratio": "2.152",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[4.395, 5.12E-10]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 3",
+                    "analysis": "IPA",
+                    "category": "activation upstream transcriptors",
+                    "upstream regulator": "STAT1",
+                    "activation z-score": "4.576",
+                    "P-value of overlap": "2.05\u00d710\u22128"
+                },
+                "measures": "[activation z-score, P-value of overlap]",
+                "outcomes": "[4.576, 2.05\u00d710\u22128]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "STAT1",
+                    "Regulation Type": "Activation",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[4.576, 2.05E-08]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 3",
+                    "analysis": "IPA",
+                    "category": "activation upstream transcriptors",
+                    "upstream regulator": "ETS1",
+                    "log ratio": "0.863",
+                    "activation z-score": "2.575",
+                    "P-value of overlap": "5.06\u00d710\u22128"
+                },
+                "measures": "[log ratio, activation z-score, P-value of overlap]",
+                "outcomes": "[0.863, 2.575, 5.06\u00d710\u22128]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "ETS1",
+                    "Regulation Type": "Activation",
+                    "Log Ratio": "0.863",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[2.575, 5.06E-08]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 3",
+                    "analysis": "IPA",
+                    "category": "activation upstream transcriptors",
+                    "upstream regulator": "JUN",
+                    "activation z-score": "2.045",
+                    "P-value of overlap": "5.57\u00d710\u22128"
+                },
+                "measures": "[activation z-score, P-value of overlap]",
+                "outcomes": "[2.045, 5.57\u00d710\u22128]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "JUN",
+                    "Regulation Type": "Activation",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[2.045, 5.57E-08]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 3",
+                    "analysis": "IPA",
+                    "category": "activation upstream transcriptors",
+                    "upstream regulator": "FOXO1",
+                    "activation z-score": "3.242",
+                    "P-value of overlap": "9.35\u00d710\u22128"
+                },
+                "measures": "[activation z-score, P-value of overlap]",
+                "outcomes": "[3.242, 9.35\u00d710\u22128]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "FOXO1",
+                    "Regulation Type": "Activation",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[3.242, 9.35E-08]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 3",
+                    "analysis": "IPA",
+                    "category": "activation upstream transcriptors",
+                    "upstream regulator": "E2F3",
+                    "log ratio": "1.137",
+                    "activation z-score": "2.394",
+                    "P-value of overlap": "1.16\u00d710\u22126"
+                },
+                "measures": "[log ratio, activation z-score, P-value of overlap]",
+                "outcomes": "[1.137, 2.394, 1.16\u00d710\u22126]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "E2F3",
+                    "Regulation Type": "Activation",
+                    "Log Ratio": "1.137",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[2.394, 1.16E-06]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 3",
+                    "analysis": "IPA",
+                    "category": "activation upstream transcriptors",
+                    "upstream regulator": "MBD2",
+                    "activation z-score": "2.549",
+                    "P-value of overlap": "5.41\u00d710\u22126"
+                },
+                "measures": "[activation z-score, P-value of overlap]",
+                "outcomes": "[2.549, 5.41\u00d710\u22126]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Upstream Regulator": "MBD2",
+                    "Regulation Type": "Activation",
+                    "Statistical significant overlap": "Fisher's Exact Test"
+                },
+                "measures": "[Activation z-score, P-value of overlap]",
+                "outcomes": "[2.549, 5.41E-06]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 30,
+    "total_ground_truth_claims": 30,
+    "number_of_matches": 30
+}

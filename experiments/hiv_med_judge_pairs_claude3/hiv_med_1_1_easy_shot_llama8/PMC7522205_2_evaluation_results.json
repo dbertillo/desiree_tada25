@@ -1,0 +1,496 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "Total",
+                    "Patients": "%, 100.0",
+                    "CD4+ median": "160",
+                    "CD4+ IQR": "49-310"
+                },
+                "measures": "[]",
+                "outcomes": "[]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF01_AE",
+                    "Patients": "1687 (59.3%)",
+                    "CD4+ median (IQR)": "111 (31\u2013279)",
+                    "Reference group": "Yes"
+                },
+                "measures": "[Unadjusted Coefficient, 95% CI, P]",
+                "outcomes": "[0, \u2013, \u2013]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "Total",
+                    "Patients": "%, 100.0",
+                    "CD4+ median": "160",
+                    "CD4+ IQR": "49-310"
+                },
+                "measures": "[]",
+                "outcomes": "[]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF01_AE",
+                    "Patients": "1687 (59.3%)",
+                    "CD4+ median (IQR)": "111 (31\u2013279)",
+                    "Reference group": "Yes"
+                },
+                "measures": "[Adjusted Coefficient, 95% CI, P]",
+                "outcomes": "[0, \u2013, \u2013]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "Total",
+                    "Patients": "%, 100.0",
+                    "CD4+ median": "160",
+                    "CD4+ IQR": "49-310"
+                },
+                "measures": "[]",
+                "outcomes": "[]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF07_BC",
+                    "Patients": "254 (8.9%)",
+                    "CD4+ median (IQR)": "250 (156\u2013377)"
+                },
+                "measures": "[Unadjusted Coefficient, 95% CI, P]",
+                "outcomes": "[139, 117\u2013161, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "Total",
+                    "Patients": "%, 100.0",
+                    "CD4+ median": "160",
+                    "CD4+ IQR": "49-310"
+                },
+                "measures": "[]",
+                "outcomes": "[]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF07_BC",
+                    "Patients": "254 (8.9%)",
+                    "CD4+ median (IQR)": "250 (156\u2013377)",
+                    "Vairables adjusted for": "age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, and year of HIV infection diagnosis"
+                },
+                "measures": "[Adjusted Coefficient, 95% CI, P]",
+                "outcomes": "[113, 86\u2013140, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "Total",
+                    "Patients": "%, 100.0",
+                    "CD4+ median": "160",
+                    "CD4+ IQR": "49-310"
+                },
+                "measures": "[]",
+                "outcomes": "[]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF08_BC",
+                    "Patients": "728 (25.6%)",
+                    "CD4+ median (IQR)": "205 (108\u2013327)"
+                },
+                "measures": "[Unadjusted Coefficient, 95% CI, P]",
+                "outcomes": "[94, 73\u2013115, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "Total",
+                    "Patients": "%, 100.0",
+                    "CD4+ median": "160",
+                    "CD4+ IQR": "49-310"
+                },
+                "measures": "[]",
+                "outcomes": "[]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF08_BC",
+                    "Patients": "728 (25.6%)",
+                    "CD4+ median (IQR)": "205 (108\u2013327)",
+                    "Vairables adjusted for": "age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, and year of HIV infection diagnosis"
+                },
+                "measures": "[Adjusted Coefficient, 95% CI, P]",
+                "outcomes": "[80, 65\u201395, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "Total",
+                    "Patients": "%, 100.0",
+                    "CD4+ median": "160",
+                    "CD4+ IQR": "49-310"
+                },
+                "measures": "[]",
+                "outcomes": "[]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "Others",
+                    "Patients": "176 (6.2%)",
+                    "CD4+ median (IQR)": "198 (89\u2013355)"
+                },
+                "measures": "[Unadjusted Coefficient, 95% CI, P]",
+                "outcomes": "[87, 46\u2013128, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "Total",
+                    "Patients": "%, 100.0",
+                    "CD4+ median": "160",
+                    "CD4+ IQR": "49-310"
+                },
+                "measures": "[]",
+                "outcomes": "[]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "Others",
+                    "Patients": "176 (6.2%)",
+                    "CD4+ median (IQR)": "198 (89\u2013355)",
+                    "Vairables adjusted for": "age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, and year of HIV infection diagnosis"
+                },
+                "measures": "[Adjusted Coefficient, 95% CI, P]",
+                "outcomes": "[72, 37\u2013107, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF01_AE",
+                    "Patients": "%, 59.3",
+                    "CD4+ median": "111",
+                    "CD4+ IQR": "31-279"
+                },
+                "measures": "[Coefficient]",
+                "outcomes": "[0]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF01_AE",
+                    "Patients": "1687 (59.3%)",
+                    "CD4+ median (IQR)": "111 (31\u2013279)",
+                    "Reference group": "Yes"
+                },
+                "measures": "[Unadjusted Coefficient, 95% CI, P]",
+                "outcomes": "[0, \u2013, \u2013]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF07_BC",
+                    "Patients": "%, 8.9",
+                    "CD4+ median": "250",
+                    "CD4+ IQR": "156-377"
+                },
+                "measures": "[Coefficient, 139]",
+                "outcomes": [
+                    "[95% CI, (117-161)]",
+                    "[P, <0.001]",
+                    "[Adjusted Coefficient, 113]",
+                    "[95% CI, (86-140)]",
+                    "[P, <0.001]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF01_AE",
+                    "Patients": "1687 (59.3%)",
+                    "CD4+ median (IQR)": "111 (31\u2013279)",
+                    "Reference group": "Yes"
+                },
+                "measures": "[Adjusted Coefficient, 95% CI, P]",
+                "outcomes": "[0, \u2013, \u2013]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF07_BC",
+                    "Patients": "%, 8.9",
+                    "CD4+ median": "250",
+                    "CD4+ IQR": "156-377"
+                },
+                "measures": "[Coefficient, 139]",
+                "outcomes": [
+                    "[95% CI, (117-161)]",
+                    "[P, <0.001]",
+                    "[Adjusted Coefficient, 113]",
+                    "[95% CI, (86-140)]",
+                    "[P, <0.001]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF07_BC",
+                    "Patients": "254 (8.9%)",
+                    "CD4+ median (IQR)": "250 (156\u2013377)"
+                },
+                "measures": "[Unadjusted Coefficient, 95% CI, P]",
+                "outcomes": "[139, 117\u2013161, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF07_BC",
+                    "Patients": "%, 8.9",
+                    "CD4+ median": "250",
+                    "CD4+ IQR": "156-377"
+                },
+                "measures": "[Coefficient, 139]",
+                "outcomes": [
+                    "[95% CI, (117-161)]",
+                    "[P, <0.001]",
+                    "[Adjusted Coefficient, 113]",
+                    "[95% CI, (86-140)]",
+                    "[P, <0.001]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF07_BC",
+                    "Patients": "254 (8.9%)",
+                    "CD4+ median (IQR)": "250 (156\u2013377)",
+                    "Vairables adjusted for": "age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, and year of HIV infection diagnosis"
+                },
+                "measures": "[Adjusted Coefficient, 95% CI, P]",
+                "outcomes": "[113, 86\u2013140, <0.001]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF08_BC",
+                    "Patients": "%, 25.6",
+                    "CD4+ median": "205",
+                    "CD4+ IQR": "108-327"
+                },
+                "measures": "[Coefficient, 94]",
+                "outcomes": [
+                    "[95% CI, (73-115)]",
+                    "[P, <0.001]",
+                    "[Adjusted Coefficient, 80]",
+                    "[95% CI, (65-95)]",
+                    "[P, <0.001]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF01_AE",
+                    "Patients": "1687 (59.3%)",
+                    "CD4+ median (IQR)": "111 (31\u2013279)",
+                    "Reference group": "Yes"
+                },
+                "measures": "[Adjusted Coefficient, 95% CI, P]",
+                "outcomes": "[0, \u2013, \u2013]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF08_BC",
+                    "Patients": "%, 25.6",
+                    "CD4+ median": "205",
+                    "CD4+ IQR": "108-327"
+                },
+                "measures": "[Coefficient, 94]",
+                "outcomes": [
+                    "[95% CI, (73-115)]",
+                    "[P, <0.001]",
+                    "[Adjusted Coefficient, 80]",
+                    "[95% CI, (65-95)]",
+                    "[P, <0.001]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF07_BC",
+                    "Patients": "254 (8.9%)",
+                    "CD4+ median (IQR)": "250 (156\u2013377)"
+                },
+                "measures": "[Unadjusted Coefficient, 95% CI, P]",
+                "outcomes": "[139, 117\u2013161, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF08_BC",
+                    "Patients": "%, 25.6",
+                    "CD4+ median": "205",
+                    "CD4+ IQR": "108-327"
+                },
+                "measures": "[Coefficient, 94]",
+                "outcomes": [
+                    "[95% CI, (73-115)]",
+                    "[P, <0.001]",
+                    "[Adjusted Coefficient, 80]",
+                    "[95% CI, (65-95)]",
+                    "[P, <0.001]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF08_BC",
+                    "Patients": "728 (25.6%)",
+                    "CD4+ median (IQR)": "205 (108\u2013327)"
+                },
+                "measures": "[Unadjusted Coefficient, 95% CI, P]",
+                "outcomes": "[94, 73\u2013115, <0.001]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "Others",
+                    "Patients": "%, 6.2",
+                    "CD4+ median": "198",
+                    "CD4+ IQR": "89-355"
+                },
+                "measures": "[Coefficient, 87]",
+                "outcomes": [
+                    "[95% CI, (46-128)]",
+                    "[P, <0.001]",
+                    "[Adjusted Coefficient, 72]",
+                    "[95% CI, (37-107)]",
+                    "[P, <0.001]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF01_AE",
+                    "Patients": "1687 (59.3%)",
+                    "CD4+ median (IQR)": "111 (31\u2013279)",
+                    "Reference group": "Yes"
+                },
+                "measures": "[Adjusted Coefficient, 95% CI, P]",
+                "outcomes": "[0, \u2013, \u2013]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "Others",
+                    "Patients": "%, 6.2",
+                    "CD4+ median": "198",
+                    "CD4+ IQR": "89-355"
+                },
+                "measures": "[Coefficient, 87]",
+                "outcomes": [
+                    "[95% CI, (46-128)]",
+                    "[P, <0.001]",
+                    "[Adjusted Coefficient, 72]",
+                    "[95% CI, (37-107)]",
+                    "[P, <0.001]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF07_BC",
+                    "Patients": "254 (8.9%)",
+                    "CD4+ median (IQR)": "250 (156\u2013377)"
+                },
+                "measures": "[Unadjusted Coefficient, 95% CI, P]",
+                "outcomes": "[139, 117\u2013161, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "Others",
+                    "Patients": "%, 6.2",
+                    "CD4+ median": "198",
+                    "CD4+ IQR": "89-355"
+                },
+                "measures": "[Coefficient, 87]",
+                "outcomes": [
+                    "[95% CI, (46-128)]",
+                    "[P, <0.001]",
+                    "[Adjusted Coefficient, 72]",
+                    "[95% CI, (37-107)]",
+                    "[P, <0.001]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF08_BC",
+                    "Patients": "728 (25.6%)",
+                    "CD4+ median (IQR)": "205 (108\u2013327)",
+                    "Vairables adjusted for": "age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, and year of HIV infection diagnosis"
+                },
+                "measures": "[Adjusted Coefficient, 95% CI, P]",
+                "outcomes": "[80, 65\u201395, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "Others",
+                    "Patients": "%, 6.2",
+                    "CD4+ median": "198",
+                    "CD4+ IQR": "89-355"
+                },
+                "measures": "[Coefficient, 87]",
+                "outcomes": [
+                    "[95% CI, (46-128)]",
+                    "[P, <0.001]",
+                    "[Adjusted Coefficient, 72]",
+                    "[95% CI, (37-107)]",
+                    "[P, <0.001]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "Others",
+                    "Patients": "176 (6.2%)",
+                    "CD4+ median (IQR)": "198 (89\u2013355)"
+                },
+                "measures": "[Unadjusted Coefficient, 95% CI, P]",
+                "outcomes": "[87, 46\u2013128, <0.001]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 5,
+    "total_ground_truth_claims": 8,
+    "number_of_matches": 4
+}

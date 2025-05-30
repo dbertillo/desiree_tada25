@@ -1,0 +1,144 @@
+{
+    "matched_specifications": [
+        [
+            "hiv incidence",
+            "1.32%"
+        ],
+        [
+            "hiv incidence",
+            "0.66%"
+        ],
+        [
+            "hiv incidence",
+            "1.82%"
+        ]
+    ],
+    "unmatched_specifications": [
+        [
+            "study design",
+            "itt analysis"
+        ],
+        [
+            "analysis type",
+            "cabotegravir effectiveness"
+        ],
+        [
+            "subgroup",
+            "contraceptive method"
+        ],
+        [
+            "sub-subgroup",
+            "implant"
+        ],
+        [
+            "group",
+            "tdf-ftc"
+        ],
+        [
+            "events",
+            "8"
+        ],
+        [
+            "total person-years",
+            "607"
+        ],
+        [
+            "study design",
+            "itt analysis"
+        ],
+        [
+            "analysis type",
+            "cabotegravir effectiveness"
+        ],
+        [
+            "subgroup",
+            "contraceptive method"
+        ],
+        [
+            "sub-subgroup",
+            "other"
+        ],
+        [
+            "group",
+            "tdf-ftc"
+        ],
+        [
+            "events",
+            "1"
+        ],
+        [
+            "total person-years",
+            "152"
+        ],
+        [
+            "study design",
+            "itt analysis"
+        ],
+        [
+            "analysis type",
+            "cabotegravir effectiveness"
+        ],
+        [
+            "subgroup",
+            "body-mass index"
+        ],
+        [
+            "sub-subgroup",
+            ">30 kg/m\u00b2"
+        ],
+        [
+            "group",
+            "tdf-ftc"
+        ],
+        [
+            "events",
+            "9"
+        ],
+        [
+            "total person-years",
+            "495"
+        ]
+    ],
+    "unmatched_extracted_keys": [
+        "study design",
+        "sub-subgroup",
+        "group",
+        "total person-years",
+        "analysis type"
+    ],
+    "unmatched_extracted_values": [
+        "contraceptive method",
+        "152",
+        "body-mass index",
+        "495",
+        "9",
+        "8",
+        "cabotegravir effectiveness",
+        "itt analysis",
+        "tdf-ftc",
+        "607",
+        "1"
+    ],
+    "unmatched_ground_truth_keys": [
+        "method"
+    ],
+    "unmatched_ground_truth_values": [
+        "0",
+        "firth's method used due to zero infections in cabotegravir group"
+    ],
+    "mapped_keys": {
+        "subgroup": "subgroup",
+        "events": "events per total py in tdf-ftc group",
+        "hiv incidence": "events per total py in cabotegravir group"
+    },
+    "mapped_values": {
+        "implant": "implant contraceptive method",
+        "1.32%": "8/607 (1.32%)",
+        "other": "other contraceptive method",
+        "0.66%": "1/152 (0.66%)",
+        ">30 kg/m\u00b2": "bmi >30 kg/m\u00b2",
+        "1.82%": "9/495 (1.82%)"
+    },
+    "precision": 0.125,
+    "recall": 0.25
+}

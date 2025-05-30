@@ -1,0 +1,333 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "Template",
+                    "Evaluation Set": "Development",
+                    "Evaluation Metric": "BLEU",
+                    "BLEU Score": "9.5"
+                },
+                "measures": "[BLEU Score]",
+                "outcomes": "[9.5]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Template",
+                    "Dataset": "Dev",
+                    "Evaluation": "Automatic"
+                },
+                "measures": [
+                    "BLEU"
+                ],
+                "outcomes": [
+                    "9.5"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "Template",
+                    "Evaluation Set": "Test",
+                    "Evaluation Metric": "BLEU",
+                    "BLEU Score": "9.3"
+                },
+                "measures": "[BLEU Score]",
+                "outcomes": "[9.3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Template",
+                    "Dataset": "Test",
+                    "Evaluation": "Automatic",
+                    "Sample Size": "100",
+                    "Evaluators": "Three students proficient in English"
+                },
+                "measures": [
+                    "BLEU"
+                ],
+                "outcomes": [
+                    "9.3"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "Template",
+                    "Evaluation Set": "Test",
+                    "Evaluation Metric": "LCR",
+                    "LCR (%)": "41.0"
+                },
+                "measures": "[LCR (%)]",
+                "outcomes": "[41.0]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Template",
+                    "Dataset": "Test",
+                    "Evaluation": "Human",
+                    "Sample Size": "100",
+                    "Evaluators": "Three students proficient in English"
+                },
+                "measures": [
+                    "LCR"
+                ],
+                "outcomes": [
+                    "41.0"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "Template",
+                    "Evaluation Set": "Test",
+                    "Evaluation Metric": "Grammar",
+                    "Grammar Score": "4.0"
+                },
+                "measures": "[Grammar Score]",
+                "outcomes": "[4.0]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Template",
+                    "Dataset": "Test",
+                    "Evaluation": "Human",
+                    "Sample Size": "100",
+                    "Evaluators": "Three students proficient in English"
+                },
+                "measures": [
+                    "Grammar"
+                ],
+                "outcomes": [
+                    "4.0"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "Seq2Seq",
+                    "Evaluation Set": "Development",
+                    "Evaluation Metric": "BLEU",
+                    "BLEU Score": "15.3"
+                },
+                "measures": "[BLEU Score]",
+                "outcomes": "[15.3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Seq2Seq",
+                    "Dataset": "Dev",
+                    "Evaluation": "Automatic"
+                },
+                "measures": [
+                    "BLEU"
+                ],
+                "outcomes": [
+                    "15.3"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "Seq2Seq",
+                    "Evaluation Set": "Test",
+                    "Evaluation Metric": "BLEU",
+                    "BLEU Score": "14.1"
+                },
+                "measures": "[BLEU Score]",
+                "outcomes": "[14.1]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Seq2Seq",
+                    "Dataset": "Test",
+                    "Evaluation": "Automatic"
+                },
+                "measures": [
+                    "BLEU"
+                ],
+                "outcomes": [
+                    "14.1"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "Seq2Seq",
+                    "Evaluation Set": "Test",
+                    "Evaluation Metric": "LCR",
+                    "LCR (%)": "27.0"
+                },
+                "measures": "[LCR (%)]",
+                "outcomes": "[27.0]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Seq2Seq",
+                    "Dataset": "Test",
+                    "Evaluation": "Human",
+                    "Sample Size": "100",
+                    "Evaluators": "Three students proficient in English"
+                },
+                "measures": [
+                    "LCR"
+                ],
+                "outcomes": [
+                    "27.0"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "Seq2Seq",
+                    "Evaluation Set": "Test",
+                    "Evaluation Metric": "Grammar",
+                    "Grammar Score": "3.5"
+                },
+                "measures": "[Grammar Score]",
+                "outcomes": "[3.5]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Seq2Seq",
+                    "Dataset": "Test",
+                    "Evaluation": "Human",
+                    "Sample Size": "100",
+                    "Evaluators": "Three students proficient in English"
+                },
+                "measures": [
+                    "Grammar"
+                ],
+                "outcomes": [
+                    "3.5"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "Pointer-generator",
+                    "Evaluation Set": "Development",
+                    "Evaluation Metric": "BLEU",
+                    "BLEU Score": "16.4"
+                },
+                "measures": "[BLEU Score]",
+                "outcomes": "[16.4]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Pointer-generator",
+                    "Dataset": "Dev",
+                    "Evaluation": "Automatic"
+                },
+                "measures": [
+                    "BLEU"
+                ],
+                "outcomes": [
+                    "16.4"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "Pointer-generator",
+                    "Evaluation Set": "Test",
+                    "Evaluation Metric": "BLEU",
+                    "BLEU Score": "15.1"
+                },
+                "measures": "[BLEU Score]",
+                "outcomes": "[15.1]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Pointer-generator",
+                    "Dataset": "Test",
+                    "Evaluation": "Automatic"
+                },
+                "measures": [
+                    "BLEU"
+                ],
+                "outcomes": [
+                    "15.1"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "Pointer-generator",
+                    "Evaluation Set": "Test",
+                    "Evaluation Metric": "LCR",
+                    "LCR (%)": "35.0"
+                },
+                "measures": "[LCR (%)]",
+                "outcomes": "[35.0]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Pointer-generator",
+                    "Dataset": "Test",
+                    "Evaluation": "Human",
+                    "Sample Size": "100",
+                    "Evaluators": "Three students proficient in English"
+                },
+                "measures": [
+                    "LCR"
+                ],
+                "outcomes": [
+                    "35.0"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "Pointer-generator",
+                    "Evaluation Set": "Test",
+                    "Evaluation Metric": "Grammar",
+                    "Grammar Score": "3.6"
+                },
+                "measures": "[Grammar Score]",
+                "outcomes": "[3.6]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Pointer-generator",
+                    "Dataset": "Test",
+                    "Evaluation": "Human",
+                    "Sample Size": "100",
+                    "Evaluators": "Three students proficient in English"
+                },
+                "measures": [
+                    "Grammar"
+                ],
+                "outcomes": [
+                    "3.6"
+                ]
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 12,
+    "total_ground_truth_claims": 12,
+    "number_of_matches": 12
+}

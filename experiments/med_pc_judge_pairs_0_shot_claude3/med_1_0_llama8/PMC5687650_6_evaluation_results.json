@@ -1,0 +1,414 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Risk factors": "Overall survival (OS)",
+                    "Univariate analysis": "Multivariate analysis",
+                    "OR (95% CI)": "P value"
+                },
+                "measures": "[Risk factors, Overall survival (OS)]",
+                "outcomes": "[Univariate analysis, Multivariate analysis]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis_type": "univariate",
+                    "risk_factor": "gender",
+                    "risk_factor_categories": "women or men"
+                },
+                "measures": "[OR, 95% CI, P value]",
+                "outcomes": "[0.770, 0.528-1.124, 0.175]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Risk factors": "Overall survival (OS)",
+                    "Univariate analysis": "Multivariate analysis",
+                    "OR (95% CI)": "P value"
+                },
+                "measures": "[Risk factors, Overall survival (OS)]",
+                "outcomes": "[Univariate analysis, Multivariate analysis]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis_type": "univariate",
+                    "risk_factor": "age",
+                    "risk_factor_categories": ">65 years or \u226465years"
+                },
+                "measures": "[OR, 95% CI, P value]",
+                "outcomes": "[0.773, 0.537-1.110, 0.163]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Risk factors": "Overall survival (OS)",
+                    "Univariate analysis": "Multivariate analysis",
+                    "OR (95% CI)": "P value"
+                },
+                "measures": "[Risk factors, Overall survival (OS)]",
+                "outcomes": "[Univariate analysis, Multivariate analysis]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis_type": "univariate",
+                    "risk_factor": "PLR",
+                    "risk_factor_categories": "high or low"
+                },
+                "measures": "[OR, 95% CI, P value]",
+                "outcomes": "[0.922, 0.641-1.325, 0.660]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Risk factors": "Overall survival (OS)",
+                    "Univariate analysis": "Multivariate analysis",
+                    "OR (95% CI)": "P value"
+                },
+                "measures": "[Risk factors, Overall survival (OS)]",
+                "outcomes": "[Univariate analysis, Multivariate analysis]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis_type": "univariate",
+                    "risk_factor": "NLR",
+                    "risk_factor_categories": "high or low"
+                },
+                "measures": "[OR, 95% CI, P value]",
+                "outcomes": "[1.007, 0.701-1.448, 0.969]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Risk factors": "Overall survival (OS)",
+                    "Univariate analysis": "Multivariate analysis",
+                    "OR (95% CI)": "P value"
+                },
+                "measures": "[Risk factors, Overall survival (OS)]",
+                "outcomes": "[Univariate analysis, Multivariate analysis]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis_type": "univariate",
+                    "risk_factor": "post/pre-chemotherapy PLR ratio",
+                    "risk_factor_categories": ">1 or \u22641"
+                },
+                "measures": "[OR, 95% CI, P value]",
+                "outcomes": "[1.272, 0.881-1.837, 0.199]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Risk factors": "Overall survival (OS)",
+                    "Univariate analysis": "Multivariate analysis",
+                    "OR (95% CI)": "P value"
+                },
+                "measures": "[Risk factors, Overall survival (OS)]",
+                "outcomes": "[Univariate analysis, Multivariate analysis]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis_type": "univariate",
+                    "risk_factor": "post/pre-chemotherapy NLR ratio",
+                    "risk_factor_categories": ">1 or \u22641"
+                },
+                "measures": "[OR, 95% CI, P value]",
+                "outcomes": "[1.902, 1.290-2.803, 0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Risk factors": "Overall survival (OS)",
+                    "Univariate analysis": "Multivariate analysis",
+                    "OR (95% CI)": "P value"
+                },
+                "measures": "[Risk factors, Overall survival (OS)]",
+                "outcomes": "[Univariate analysis, Multivariate analysis]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis_type": "multivariate",
+                    "risk_factor": "post/pre-chemotherapy NLR ratio",
+                    "risk_factor_categories": ">1 or \u22641"
+                },
+                "measures": "[OR, 95% CI, P value]",
+                "outcomes": "[1.902, 1.290-2.803, 0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Gender": "Women or Men",
+                    "0.770 (0.528-1.124)": "0.175"
+                },
+                "measures": "[Gender, Women or Men]",
+                "outcomes": "[0.770 (0.528-1.124), 0.175]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis_type": "univariate",
+                    "risk_factor": "gender",
+                    "risk_factor_categories": "women or men"
+                },
+                "measures": "[OR, 95% CI, P value]",
+                "outcomes": "[0.770, 0.528-1.124, 0.175]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Age": ">65 years or \u226465 years",
+                    "0.773 (0.537-1.110)": "0.163"
+                },
+                "measures": "[Age, >65 years or \u226465 years]",
+                "outcomes": "[0.773 (0.537-1.110), 0.163]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis_type": "univariate",
+                    "risk_factor": "age",
+                    "risk_factor_categories": ">65 years or \u226465years"
+                },
+                "measures": "[OR, 95% CI, P value]",
+                "outcomes": "[0.773, 0.537-1.110, 0.163]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "PLR": "high or low",
+                    "-": "0.660"
+                },
+                "measures": "[PLR, high or low]",
+                "outcomes": "[]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis_type": "univariate",
+                    "risk_factor": "PLR",
+                    "risk_factor_categories": "high or low"
+                },
+                "measures": "[OR, 95% CI, P value]",
+                "outcomes": "[0.922, 0.641-1.325, 0.660]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "PLR": "high or low",
+                    "-": "0.660"
+                },
+                "measures": "[PLR, high or low]",
+                "outcomes": "[]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis_type": "univariate",
+                    "risk_factor": "NLR",
+                    "risk_factor_categories": "high or low"
+                },
+                "measures": "[OR, 95% CI, P value]",
+                "outcomes": "[1.007, 0.701-1.448, 0.969]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "PLR": "high or low",
+                    "-": "0.660"
+                },
+                "measures": "[PLR, high or low]",
+                "outcomes": "[]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis_type": "univariate",
+                    "risk_factor": "post/pre-chemotherapy PLR ratio",
+                    "risk_factor_categories": ">1 or \u22641"
+                },
+                "measures": "[OR, 95% CI, P value]",
+                "outcomes": "[1.272, 0.881-1.837, 0.199]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "PLR": "high or low",
+                    "-": "0.660"
+                },
+                "measures": "[PLR, high or low]",
+                "outcomes": "[]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis_type": "univariate",
+                    "risk_factor": "post/pre-chemotherapy NLR ratio",
+                    "risk_factor_categories": ">1 or \u22641"
+                },
+                "measures": "[OR, 95% CI, P value]",
+                "outcomes": "[1.902, 1.290-2.803, 0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "PLR": "high or low",
+                    "-": "0.660"
+                },
+                "measures": "[PLR, high or low]",
+                "outcomes": "[]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis_type": "multivariate",
+                    "risk_factor": "post/pre-chemotherapy NLR ratio",
+                    "risk_factor_categories": ">1 or \u22641"
+                },
+                "measures": "[OR, 95% CI, P value]",
+                "outcomes": "[1.902, 1.290-2.803, 0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "NLR": "high or low",
+                    "-": "0.969"
+                },
+                "measures": "[NLR, high or low]",
+                "outcomes": "[]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis_type": "univariate",
+                    "risk_factor": "PLR",
+                    "risk_factor_categories": "high or low"
+                },
+                "measures": "[OR, 95% CI, P value]",
+                "outcomes": "[0.922, 0.641-1.325, 0.660]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "NLR": "high or low",
+                    "-": "0.969"
+                },
+                "measures": "[NLR, high or low]",
+                "outcomes": "[]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis_type": "univariate",
+                    "risk_factor": "NLR",
+                    "risk_factor_categories": "high or low"
+                },
+                "measures": "[OR, 95% CI, P value]",
+                "outcomes": "[1.007, 0.701-1.448, 0.969]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Post/pre-chemotherapy PLR ratio": ">1 or \u22641",
+                    "1.272 (0.881-1.837)": "0.199"
+                },
+                "measures": "[Post/pre-chemotherapy PLR ratio, >1 or \u22641]",
+                "outcomes": "[1.272 (0.881-1.837), 0.199]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis_type": "univariate",
+                    "risk_factor": "PLR",
+                    "risk_factor_categories": "high or low"
+                },
+                "measures": "[OR, 95% CI, P value]",
+                "outcomes": "[0.922, 0.641-1.325, 0.660]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Post/pre-chemotherapy PLR ratio": ">1 or \u22641",
+                    "1.272 (0.881-1.837)": "0.199"
+                },
+                "measures": "[Post/pre-chemotherapy PLR ratio, >1 or \u22641]",
+                "outcomes": "[1.272 (0.881-1.837), 0.199]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis_type": "univariate",
+                    "risk_factor": "post/pre-chemotherapy PLR ratio",
+                    "risk_factor_categories": ">1 or \u22641"
+                },
+                "measures": "[OR, 95% CI, P value]",
+                "outcomes": "[1.272, 0.881-1.837, 0.199]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Post/pre-chemotherapy NLR ratio": ">1 or \u22641",
+                    "1.902 (1.290-2.803)": "0.001**"
+                },
+                "measures": "[Post/pre-chemotherapy NLR ratio, >1 or \u22641]",
+                "outcomes": "[1.902 (1.290-2.803), 0.001**]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis_type": "univariate",
+                    "risk_factor": "PLR",
+                    "risk_factor_categories": "high or low"
+                },
+                "measures": "[OR, 95% CI, P value]",
+                "outcomes": "[0.922, 0.641-1.325, 0.660]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Post/pre-chemotherapy NLR ratio": ">1 or \u22641",
+                    "1.902 (1.290-2.803)": "0.001**"
+                },
+                "measures": "[Post/pre-chemotherapy NLR ratio, >1 or \u22641]",
+                "outcomes": "[1.902 (1.290-2.803), 0.001**]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis_type": "univariate",
+                    "risk_factor": "post/pre-chemotherapy NLR ratio",
+                    "risk_factor_categories": ">1 or \u22641"
+                },
+                "measures": "[OR, 95% CI, P value]",
+                "outcomes": "[1.902, 1.290-2.803, 0.001]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 7,
+    "total_ground_truth_claims": 7,
+    "number_of_matches": 5
+}

@@ -1,0 +1,5218 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Accuracy": "0.29/0.33"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.29/0.33]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.29"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Accuracy": "0.35/0.41"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.35/0.41]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.33"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Accuracy": "0.35/0.41"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.35/0.41]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.35"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Accuracy": "0.45/0.53"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.45/0.53]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.33"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Accuracy": "0.45/0.53"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.45/0.53]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.41"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Accuracy": "0.45/0.53"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.45/0.53]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.45"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Accuracy": "0.45/0.53"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.45/0.53]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.53"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Accuracy": "0.48/0.57"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.48/0.57]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.33"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Accuracy": "0.48/0.57"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.48/0.57]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.41"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Accuracy": "0.48/0.57"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.48/0.57]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.45"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Accuracy": "0.48/0.57"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.48/0.57]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.48"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Accuracy": "0.48/0.59"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.48/0.59]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.33"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Accuracy": "0.48/0.59"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.48/0.59]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.41"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Accuracy": "0.48/0.59"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.48/0.59]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.45"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Accuracy": "0.48/0.59"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.48/0.59]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.57"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Accuracy": "0.48/0.59"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.48/0.59]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.48"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Accuracy": "0.48/0.59"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.48/0.59]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.59"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Accuracy": "0.48/0.59"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.48/0.59]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.33"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Accuracy": "0.48/0.59"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.48/0.59]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.41"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Accuracy": "0.48/0.59"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.48/0.59]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.45"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Accuracy": "0.48/0.59"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.48/0.59]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.57"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Accuracy": "0.48/0.59"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.48/0.59]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.48"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Accuracy": "0.48/0.59"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.48/0.59]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.48"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "100",
+                    "Accuracy": "0.51/0.62"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.51/0.62]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.33"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "100",
+                    "Accuracy": "0.51/0.62"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.51/0.62]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.41"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "100",
+                    "Accuracy": "0.51/0.62"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.51/0.62]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.45"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "100",
+                    "Accuracy": "0.51/0.62"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.51/0.62]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.57"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "100",
+                    "Accuracy": "0.51/0.62"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.51/0.62]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.48"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "100",
+                    "Accuracy": "0.51/0.62"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.51/0.62]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.59"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "100",
+                    "Accuracy": "0.51/0.62"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.51/0.62]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "100",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.62"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Accuracy": "0.35/0.39"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.35/0.39]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.33"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Accuracy": "0.35/0.39"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.35/0.39]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.41"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Accuracy": "0.35/0.39"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.35/0.39]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.45"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Accuracy": "0.35/0.39"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.35/0.39]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.57"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Accuracy": "0.35/0.39"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.35/0.39]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.48"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Accuracy": "0.35/0.39"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.35/0.39]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.59"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Accuracy": "0.35/0.39"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.35/0.39]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "CRUSH",
+                    "Budget": "3",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.39"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Accuracy": "0.46/0.53"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.46/0.53]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.33"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Accuracy": "0.46/0.53"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.46/0.53]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.41"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Accuracy": "0.46/0.53"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.46/0.53]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.45"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Accuracy": "0.46/0.53"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.46/0.53]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.57"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Accuracy": "0.46/0.53"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.46/0.53]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.48"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Accuracy": "0.46/0.53"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.46/0.53]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.59"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Accuracy": "0.46/0.53"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.46/0.53]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "CRUSH",
+                    "Budget": "5",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.53"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Accuracy": "0.52/0.60"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.52/0.60]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.33"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Accuracy": "0.52/0.60"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.52/0.60]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.41"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Accuracy": "0.52/0.60"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.52/0.60]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.45"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Accuracy": "0.52/0.60"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.52/0.60]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.57"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Accuracy": "0.52/0.60"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.52/0.60]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.48"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Accuracy": "0.52/0.60"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.52/0.60]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.59"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Accuracy": "0.52/0.60"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.52/0.60]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "CRUSH",
+                    "Budget": "10",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.60"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Accuracy": "0.53/0.64"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.53/0.64]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.33"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Accuracy": "0.53/0.64"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.53/0.64]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.41"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Accuracy": "0.53/0.64"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.53/0.64]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.45"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Accuracy": "0.53/0.64"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.53/0.64]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.57"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Accuracy": "0.53/0.64"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.53/0.64]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.48"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Accuracy": "0.53/0.64"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.53/0.64]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.59"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Accuracy": "0.53/0.64"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.53/0.64]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "CRUSH",
+                    "Budget": "20",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.64"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Accuracy": "0.54/0.64"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.54/0.64]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.33"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Accuracy": "0.54/0.64"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.54/0.64]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.41"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Accuracy": "0.54/0.64"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.54/0.64]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.45"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Accuracy": "0.54/0.64"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.54/0.64]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.57"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Accuracy": "0.54/0.64"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.54/0.64]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.48"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Accuracy": "0.54/0.64"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.54/0.64]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.59"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Accuracy": "0.54/0.64"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.54/0.64]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "CRUSH",
+                    "Budget": "30",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.64"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Accuracy": "0.52/0.63"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.52/0.63]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.33"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Accuracy": "0.52/0.63"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.52/0.63]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.41"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Accuracy": "0.52/0.63"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.52/0.63]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.45"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Accuracy": "0.52/0.63"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.52/0.63]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.57"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Accuracy": "0.52/0.63"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.52/0.63]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.48"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Accuracy": "0.52/0.63"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.52/0.63]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.59"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Accuracy": "0.52/0.63"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.52/0.63]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "CRUSH",
+                    "Budget": "50",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.63"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "100",
+                    "Accuracy": "0.52/0.62"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.52/0.62]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.33"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "100",
+                    "Accuracy": "0.52/0.62"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.52/0.62]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.41"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "100",
+                    "Accuracy": "0.52/0.62"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.52/0.62]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.45"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "100",
+                    "Accuracy": "0.52/0.62"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.52/0.62]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.57"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "100",
+                    "Accuracy": "0.52/0.62"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.52/0.62]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.48"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "100",
+                    "Accuracy": "0.52/0.62"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.52/0.62]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.59"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "100",
+                    "Accuracy": "0.52/0.62"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.52/0.62]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "CRUSH",
+                    "Budget": "100",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.62"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Accuracy": "0.03/0.07"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.03/0.07]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.33"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Accuracy": "0.03/0.07"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.03/0.07]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.41"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Accuracy": "0.03/0.07"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.03/0.07]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.45"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Accuracy": "0.03/0.07"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.03/0.07]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.57"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Accuracy": "0.03/0.07"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.03/0.07]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.48"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Accuracy": "0.03/0.07"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.03/0.07]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.59"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Accuracy": "0.03/0.07"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.03/0.07]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.07"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Accuracy": "0.05/0.10"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.05/0.10]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.33"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Accuracy": "0.05/0.10"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.05/0.10]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.41"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Accuracy": "0.05/0.10"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.05/0.10]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.45"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Accuracy": "0.05/0.10"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.05/0.10]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.57"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Accuracy": "0.05/0.10"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.05/0.10]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.48"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Accuracy": "0.05/0.10"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.05/0.10]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.59"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Accuracy": "0.05/0.10"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.05/0.10]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.10"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Accuracy": "0.07/0.13"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.07/0.13]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.33"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Accuracy": "0.07/0.13"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.07/0.13]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.41"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Accuracy": "0.07/0.13"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.07/0.13]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.45"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Accuracy": "0.07/0.13"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.07/0.13]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.57"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Accuracy": "0.07/0.13"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.07/0.13]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.48"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Accuracy": "0.07/0.13"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.07/0.13]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.59"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Accuracy": "0.07/0.13"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.07/0.13]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.13"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Accuracy": "0.09/0.15"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.09/0.15]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.33"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Accuracy": "0.09/0.15"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.09/0.15]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.41"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Accuracy": "0.09/0.15"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.09/0.15]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.45"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Accuracy": "0.09/0.15"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.09/0.15]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.57"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Accuracy": "0.09/0.15"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.09/0.15]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.48"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Accuracy": "0.09/0.15"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.09/0.15]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.59"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Accuracy": "0.09/0.15"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.09/0.15]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.15"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Accuracy": "0.09/0.16"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.09/0.16]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.33"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Accuracy": "0.09/0.16"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.09/0.16]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.41"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Accuracy": "0.09/0.16"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.09/0.16]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.45"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Accuracy": "0.09/0.16"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.09/0.16]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.57"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Accuracy": "0.09/0.16"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.09/0.16]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.48"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Accuracy": "0.09/0.16"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.09/0.16]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.59"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Accuracy": "0.09/0.16"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.09/0.16]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.16"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Accuracy": "0.10/0.18"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.10/0.18]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.33"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Accuracy": "0.10/0.18"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.10/0.18]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.41"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Accuracy": "0.10/0.18"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.10/0.18]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.45"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Accuracy": "0.10/0.18"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.10/0.18]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.57"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Accuracy": "0.10/0.18"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.10/0.18]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.48"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Accuracy": "0.10/0.18"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.10/0.18]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.59"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Accuracy": "0.10/0.18"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.10/0.18]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.18"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Accuracy": "0.04/0.07"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.04/0.07]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.33"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Accuracy": "0.04/0.07"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.04/0.07]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.41"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Accuracy": "0.04/0.07"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.04/0.07]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.45"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Accuracy": "0.04/0.07"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.04/0.07]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.57"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Accuracy": "0.04/0.07"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.04/0.07]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.48"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Accuracy": "0.04/0.07"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.04/0.07]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.59"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Accuracy": "0.04/0.07"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.04/0.07]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "CRUSH",
+                    "Budget": "3",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.07"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Accuracy": "0.04/0.07"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.04/0.07]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "CRUSH",
+                    "Budget": "5",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.11"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Accuracy": "0.04/0.07"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.04/0.07]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "CRUSH",
+                    "Budget": "10",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.15"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Accuracy": "0.04/0.07"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.04/0.07]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "CRUSH",
+                    "Budget": "20",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.19"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Accuracy": "0.04/0.07"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.04/0.07]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "CRUSH",
+                    "Budget": "30",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.19"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Accuracy": "0.04/0.07"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.04/0.07]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "CRUSH",
+                    "Budget": "50",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.21"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Accuracy": "0.07/0.11"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.07/0.11]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.33"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Accuracy": "0.07/0.11"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.07/0.11]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.41"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Accuracy": "0.07/0.11"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.07/0.11]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.45"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Accuracy": "0.07/0.11"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.07/0.11]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.57"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Accuracy": "0.07/0.11"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.07/0.11]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.48"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Accuracy": "0.07/0.11"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.07/0.11]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.59"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Accuracy": "0.07/0.11"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.07/0.11]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "CRUSH",
+                    "Budget": "3",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.07"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Accuracy": "0.07/0.11"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.07/0.11]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "CRUSH",
+                    "Budget": "5",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.11"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Accuracy": "0.07/0.11"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.07/0.11]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "CRUSH",
+                    "Budget": "10",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.15"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Accuracy": "0.07/0.11"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.07/0.11]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "CRUSH",
+                    "Budget": "20",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.19"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Accuracy": "0.07/0.11"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.07/0.11]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "CRUSH",
+                    "Budget": "30",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.19"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Accuracy": "0.07/0.11"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.07/0.11]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "CRUSH",
+                    "Budget": "50",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.21"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Accuracy": "0.09/0.15"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.09/0.15]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.33"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Accuracy": "0.09/0.15"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.09/0.15]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.41"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Accuracy": "0.09/0.15"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.09/0.15]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.45"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Accuracy": "0.09/0.15"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.09/0.15]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.57"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Accuracy": "0.09/0.15"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.09/0.15]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.48"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Accuracy": "0.09/0.15"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.09/0.15]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.59"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Accuracy": "0.09/0.15"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.09/0.15]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "CRUSH",
+                    "Budget": "3",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.07"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Accuracy": "0.09/0.15"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.09/0.15]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "CRUSH",
+                    "Budget": "5",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.11"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Accuracy": "0.09/0.15"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.09/0.15]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "CRUSH",
+                    "Budget": "10",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.15"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Accuracy": "0.09/0.15"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.09/0.15]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "CRUSH",
+                    "Budget": "20",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.19"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Accuracy": "0.09/0.15"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.09/0.15]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "CRUSH",
+                    "Budget": "30",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.19"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Accuracy": "0.09/0.15"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.09/0.15]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "CRUSH",
+                    "Budget": "50",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.21"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Accuracy": "0.11/0.19"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.11/0.19]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.33"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Accuracy": "0.11/0.19"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.11/0.19]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.41"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Accuracy": "0.11/0.19"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.11/0.19]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.45"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Accuracy": "0.11/0.19"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.11/0.19]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.57"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Accuracy": "0.11/0.19"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.11/0.19]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.48"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Accuracy": "0.11/0.19"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.11/0.19]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.59"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Accuracy": "0.11/0.19"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.11/0.19]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "CRUSH",
+                    "Budget": "3",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.07"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Accuracy": "0.11/0.19"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.11/0.19]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "CRUSH",
+                    "Budget": "5",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.11"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Accuracy": "0.11/0.19"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.11/0.19]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "CRUSH",
+                    "Budget": "10",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.15"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Accuracy": "0.11/0.19"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.11/0.19]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "CRUSH",
+                    "Budget": "20",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.19"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Accuracy": "0.11/0.19"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.11/0.19]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "CRUSH",
+                    "Budget": "30",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.19"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Accuracy": "0.11/0.19"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.11/0.19]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "CRUSH",
+                    "Budget": "50",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.21"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Accuracy": "0.11/0.19"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.11/0.19]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.33"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Accuracy": "0.11/0.19"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.11/0.19]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.41"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Accuracy": "0.11/0.19"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.11/0.19]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.45"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Accuracy": "0.11/0.19"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.11/0.19]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.57"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Accuracy": "0.11/0.19"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.11/0.19]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.48"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Accuracy": "0.11/0.19"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.11/0.19]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.59"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Accuracy": "0.11/0.19"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.11/0.19]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "CRUSH",
+                    "Budget": "3",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.07"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Accuracy": "0.11/0.19"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.11/0.19]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "CRUSH",
+                    "Budget": "5",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.11"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Accuracy": "0.11/0.19"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.11/0.19]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "CRUSH",
+                    "Budget": "10",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.15"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Accuracy": "0.11/0.19"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.11/0.19]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "CRUSH",
+                    "Budget": "20",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.19"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Accuracy": "0.11/0.19"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.11/0.19]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "CRUSH",
+                    "Budget": "30",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.19"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Accuracy": "0.11/0.19"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.11/0.19]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "CRUSH",
+                    "Budget": "50",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.21"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Accuracy": "0.12/0.21"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.12/0.21]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "3",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.33"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Accuracy": "0.12/0.21"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.12/0.21]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "5",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.41"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Accuracy": "0.12/0.21"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.12/0.21]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "10",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.45"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Accuracy": "0.12/0.21"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.12/0.21]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "20",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.57"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Accuracy": "0.12/0.21"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.12/0.21]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "30",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Exact Match (EM) accuracy"
+                ],
+                "outcomes": [
+                    "0.48"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Accuracy": "0.12/0.21"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.12/0.21]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "SpiderUnion",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.59"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Accuracy": "0.12/0.21"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.12/0.21]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "CRUSH",
+                    "Budget": "3",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.07"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Accuracy": "0.12/0.21"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.12/0.21]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "CRUSH",
+                    "Budget": "5",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.11"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Accuracy": "0.12/0.21"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.12/0.21]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "CRUSH",
+                    "Budget": "10",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.15"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Accuracy": "0.12/0.21"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.12/0.21]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "CRUSH",
+                    "Budget": "20",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.19"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Accuracy": "0.12/0.21"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.12/0.21]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "CRUSH",
+                    "Budget": "30",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.19"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CRUSH (ours)",
+                    "Method": "Single DPR(OpenAI)",
+                    "Budget": "50",
+                    "Accuracy": "0.12/0.21"
+                },
+                "measures": "[Data set, Method, Budget]",
+                "outcomes": "[0.12/0.21]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "BirdUnion",
+                    "Method": "CRUSH",
+                    "Budget": "50",
+                    "Model": "RESDSQL"
+                },
+                "measures": [
+                    "Execution Match (EX) accuracy"
+                ],
+                "outcomes": [
+                    "0.21"
+                ]
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 26,
+    "total_ground_truth_claims": 32,
+    "number_of_matches": 21
+}

@@ -1,0 +1,1339 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "Post-operative complications and mortalities",
+                    "groups": "ERAS and Conventional",
+                    "parameters": "various post-operative complications",
+                    "P-value": "P<sup>a</sup>"
+                },
+                "measures": "[Delayed gastric emptying, 15, 0.02]",
+                "outcomes": [
+                    "[Bleeding, 6, 0.5]",
+                    "[Pancreatic fistula, 39, 0.52]",
+                    "[Grade A, 8, ]",
+                    "[Grade B, 10, ]",
+                    "[Grade C, 21, ]",
+                    "[Biliary fistula, 2, 0.47]",
+                    "[Wound infection, 5, 0.66]",
+                    "[Pulmonary complication, 2, 0.1]",
+                    "[Skin orifice infection, 1, 0.012]",
+                    "[Abdominal abscess, 0, /]",
+                    "[Pancreatitis, 2, 1]",
+                    "[Sepsis, 1, 1]",
+                    "[Re-laparotomy, 3, 0.6]",
+                    "[Mortality, 0, /]",
+                    "[Readmission (in 30 days), 1, 1]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Post-operative complication": "Delayed gastric emptying",
+                    "Group": "ERAS",
+                    "Sample size": "76",
+                    "Statistical test": "Fisher exact test"
+                },
+                "measures": "[Incidence, p-value]",
+                "outcomes": "[15, 0.02]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "Post-operative complications and mortalities",
+                    "groups": "ERAS and Conventional",
+                    "parameters": "various post-operative complications",
+                    "P-value": "P<sup>a</sup>"
+                },
+                "measures": "[Delayed gastric emptying, 15, 0.02]",
+                "outcomes": [
+                    "[Bleeding, 6, 0.5]",
+                    "[Pancreatic fistula, 39, 0.52]",
+                    "[Grade A, 8, ]",
+                    "[Grade B, 10, ]",
+                    "[Grade C, 21, ]",
+                    "[Biliary fistula, 2, 0.47]",
+                    "[Wound infection, 5, 0.66]",
+                    "[Pulmonary complication, 2, 0.1]",
+                    "[Skin orifice infection, 1, 0.012]",
+                    "[Abdominal abscess, 0, /]",
+                    "[Pancreatitis, 2, 1]",
+                    "[Sepsis, 1, 1]",
+                    "[Re-laparotomy, 3, 0.6]",
+                    "[Mortality, 0, /]",
+                    "[Readmission (in 30 days), 1, 1]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Post-operative complication": "Delayed gastric emptying",
+                    "Group": "Conventional",
+                    "Sample size": "83",
+                    "Statistical test": "Fisher exact test"
+                },
+                "measures": "[Incidence, p-value]",
+                "outcomes": "[32, 0.02]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "Post-operative complications and mortalities",
+                    "groups": "ERAS and Conventional",
+                    "parameters": "various post-operative complications",
+                    "P-value": "P<sup>a</sup>"
+                },
+                "measures": "[Delayed gastric emptying, 15, 0.02]",
+                "outcomes": [
+                    "[Bleeding, 6, 0.5]",
+                    "[Pancreatic fistula, 39, 0.52]",
+                    "[Grade A, 8, ]",
+                    "[Grade B, 10, ]",
+                    "[Grade C, 21, ]",
+                    "[Biliary fistula, 2, 0.47]",
+                    "[Wound infection, 5, 0.66]",
+                    "[Pulmonary complication, 2, 0.1]",
+                    "[Skin orifice infection, 1, 0.012]",
+                    "[Abdominal abscess, 0, /]",
+                    "[Pancreatitis, 2, 1]",
+                    "[Sepsis, 1, 1]",
+                    "[Re-laparotomy, 3, 0.6]",
+                    "[Mortality, 0, /]",
+                    "[Readmission (in 30 days), 1, 1]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Post-operative complication": "Bleeding",
+                    "Group": "ERAS",
+                    "Sample size": "76",
+                    "Statistical test": "Fisher exact test"
+                },
+                "measures": "[Incidence, p-value]",
+                "outcomes": "[6, 0.5]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "Post-operative complications and mortalities",
+                    "groups": "ERAS and Conventional",
+                    "parameters": "various post-operative complications",
+                    "P-value": "P<sup>a</sup>"
+                },
+                "measures": "[Delayed gastric emptying, 15, 0.02]",
+                "outcomes": [
+                    "[Bleeding, 6, 0.5]",
+                    "[Pancreatic fistula, 39, 0.52]",
+                    "[Grade A, 8, ]",
+                    "[Grade B, 10, ]",
+                    "[Grade C, 21, ]",
+                    "[Biliary fistula, 2, 0.47]",
+                    "[Wound infection, 5, 0.66]",
+                    "[Pulmonary complication, 2, 0.1]",
+                    "[Skin orifice infection, 1, 0.012]",
+                    "[Abdominal abscess, 0, /]",
+                    "[Pancreatitis, 2, 1]",
+                    "[Sepsis, 1, 1]",
+                    "[Re-laparotomy, 3, 0.6]",
+                    "[Mortality, 0, /]",
+                    "[Readmission (in 30 days), 1, 1]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Post-operative complication": "Bleeding",
+                    "Group": "Conventional",
+                    "Sample size": "83",
+                    "Statistical test": "Fisher exact test"
+                },
+                "measures": "[Incidence, p-value]",
+                "outcomes": "[4, 0.5]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "Post-operative complications and mortalities",
+                    "groups": "ERAS and Conventional",
+                    "parameters": "various post-operative complications",
+                    "P-value": "P<sup>a</sup>"
+                },
+                "measures": "[Delayed gastric emptying, 15, 0.02]",
+                "outcomes": [
+                    "[Bleeding, 6, 0.5]",
+                    "[Pancreatic fistula, 39, 0.52]",
+                    "[Grade A, 8, ]",
+                    "[Grade B, 10, ]",
+                    "[Grade C, 21, ]",
+                    "[Biliary fistula, 2, 0.47]",
+                    "[Wound infection, 5, 0.66]",
+                    "[Pulmonary complication, 2, 0.1]",
+                    "[Skin orifice infection, 1, 0.012]",
+                    "[Abdominal abscess, 0, /]",
+                    "[Pancreatitis, 2, 1]",
+                    "[Sepsis, 1, 1]",
+                    "[Re-laparotomy, 3, 0.6]",
+                    "[Mortality, 0, /]",
+                    "[Readmission (in 30 days), 1, 1]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Post-operative complication": "Pancreatic fistula",
+                    "Group": "ERAS",
+                    "Sample size": "76",
+                    "Statistical test": "Fisher exact test"
+                },
+                "measures": "[Incidence, p-value]",
+                "outcomes": "[39, 0.52]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "Post-operative complications and mortalities",
+                    "groups": "ERAS and Conventional",
+                    "parameters": "various post-operative complications",
+                    "P-value": "P<sup>a</sup>"
+                },
+                "measures": "[Delayed gastric emptying, 15, 0.02]",
+                "outcomes": [
+                    "[Bleeding, 6, 0.5]",
+                    "[Pancreatic fistula, 39, 0.52]",
+                    "[Grade A, 8, ]",
+                    "[Grade B, 10, ]",
+                    "[Grade C, 21, ]",
+                    "[Biliary fistula, 2, 0.47]",
+                    "[Wound infection, 5, 0.66]",
+                    "[Pulmonary complication, 2, 0.1]",
+                    "[Skin orifice infection, 1, 0.012]",
+                    "[Abdominal abscess, 0, /]",
+                    "[Pancreatitis, 2, 1]",
+                    "[Sepsis, 1, 1]",
+                    "[Re-laparotomy, 3, 0.6]",
+                    "[Mortality, 0, /]",
+                    "[Readmission (in 30 days), 1, 1]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Post-operative complication": "Pancreatic fistula",
+                    "Group": "ERAS",
+                    "Sample size": "76",
+                    "Statistical test": "Fisher exact test",
+                    "Grade": "A"
+                },
+                "measures": "[Incidence, p-value]",
+                "outcomes": "[8, 0.52]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "Post-operative complications and mortalities",
+                    "groups": "ERAS and Conventional",
+                    "parameters": "various post-operative complications",
+                    "P-value": "P<sup>a</sup>"
+                },
+                "measures": "[Delayed gastric emptying, 15, 0.02]",
+                "outcomes": [
+                    "[Bleeding, 6, 0.5]",
+                    "[Pancreatic fistula, 39, 0.52]",
+                    "[Grade A, 8, ]",
+                    "[Grade B, 10, ]",
+                    "[Grade C, 21, ]",
+                    "[Biliary fistula, 2, 0.47]",
+                    "[Wound infection, 5, 0.66]",
+                    "[Pulmonary complication, 2, 0.1]",
+                    "[Skin orifice infection, 1, 0.012]",
+                    "[Abdominal abscess, 0, /]",
+                    "[Pancreatitis, 2, 1]",
+                    "[Sepsis, 1, 1]",
+                    "[Re-laparotomy, 3, 0.6]",
+                    "[Mortality, 0, /]",
+                    "[Readmission (in 30 days), 1, 1]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Post-operative complication": "Pancreatic fistula",
+                    "Group": "Conventional",
+                    "Sample size": "83",
+                    "Statistical test": "Fisher exact test",
+                    "Grade": "A"
+                },
+                "measures": "[Incidence, p-value]",
+                "outcomes": "[6, 0.52]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "Post-operative complications and mortalities",
+                    "groups": "ERAS and Conventional",
+                    "parameters": "various post-operative complications",
+                    "P-value": "P<sup>a</sup>"
+                },
+                "measures": "[Delayed gastric emptying, 15, 0.02]",
+                "outcomes": [
+                    "[Bleeding, 6, 0.5]",
+                    "[Pancreatic fistula, 39, 0.52]",
+                    "[Grade A, 8, ]",
+                    "[Grade B, 10, ]",
+                    "[Grade C, 21, ]",
+                    "[Biliary fistula, 2, 0.47]",
+                    "[Wound infection, 5, 0.66]",
+                    "[Pulmonary complication, 2, 0.1]",
+                    "[Skin orifice infection, 1, 0.012]",
+                    "[Abdominal abscess, 0, /]",
+                    "[Pancreatitis, 2, 1]",
+                    "[Sepsis, 1, 1]",
+                    "[Re-laparotomy, 3, 0.6]",
+                    "[Mortality, 0, /]",
+                    "[Readmission (in 30 days), 1, 1]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Post-operative complication": "Pancreatic fistula",
+                    "Group": "ERAS",
+                    "Sample size": "76",
+                    "Statistical test": "Fisher exact test",
+                    "Grade": "B"
+                },
+                "measures": "[Incidence, p-value]",
+                "outcomes": "[10, 0.52]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "Post-operative complications and mortalities",
+                    "groups": "ERAS and Conventional",
+                    "parameters": "various post-operative complications",
+                    "P-value": "P<sup>a</sup>"
+                },
+                "measures": "[Delayed gastric emptying, 15, 0.02]",
+                "outcomes": [
+                    "[Bleeding, 6, 0.5]",
+                    "[Pancreatic fistula, 39, 0.52]",
+                    "[Grade A, 8, ]",
+                    "[Grade B, 10, ]",
+                    "[Grade C, 21, ]",
+                    "[Biliary fistula, 2, 0.47]",
+                    "[Wound infection, 5, 0.66]",
+                    "[Pulmonary complication, 2, 0.1]",
+                    "[Skin orifice infection, 1, 0.012]",
+                    "[Abdominal abscess, 0, /]",
+                    "[Pancreatitis, 2, 1]",
+                    "[Sepsis, 1, 1]",
+                    "[Re-laparotomy, 3, 0.6]",
+                    "[Mortality, 0, /]",
+                    "[Readmission (in 30 days), 1, 1]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Post-operative complication": "Pancreatic fistula",
+                    "Group": "Conventional",
+                    "Sample size": "83",
+                    "Statistical test": "Fisher exact test",
+                    "Grade": "B"
+                },
+                "measures": "[Incidence, p-value]",
+                "outcomes": "[6, 0.52]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "Post-operative complications and mortalities",
+                    "groups": "ERAS and Conventional",
+                    "parameters": "various post-operative complications",
+                    "P-value": "P<sup>a</sup>"
+                },
+                "measures": "[Delayed gastric emptying, 15, 0.02]",
+                "outcomes": [
+                    "[Bleeding, 6, 0.5]",
+                    "[Pancreatic fistula, 39, 0.52]",
+                    "[Grade A, 8, ]",
+                    "[Grade B, 10, ]",
+                    "[Grade C, 21, ]",
+                    "[Biliary fistula, 2, 0.47]",
+                    "[Wound infection, 5, 0.66]",
+                    "[Pulmonary complication, 2, 0.1]",
+                    "[Skin orifice infection, 1, 0.012]",
+                    "[Abdominal abscess, 0, /]",
+                    "[Pancreatitis, 2, 1]",
+                    "[Sepsis, 1, 1]",
+                    "[Re-laparotomy, 3, 0.6]",
+                    "[Mortality, 0, /]",
+                    "[Readmission (in 30 days), 1, 1]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Post-operative complication": "Pancreatic fistula",
+                    "Group": "ERAS",
+                    "Sample size": "76",
+                    "Statistical test": "Fisher exact test",
+                    "Grade": "C"
+                },
+                "measures": "[Incidence, p-value]",
+                "outcomes": "[21, 0.52]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "Post-operative complications and mortalities",
+                    "groups": "ERAS and Conventional",
+                    "parameters": "various post-operative complications",
+                    "P-value": "P<sup>a</sup>"
+                },
+                "measures": "[Delayed gastric emptying, 15, 0.02]",
+                "outcomes": [
+                    "[Bleeding, 6, 0.5]",
+                    "[Pancreatic fistula, 39, 0.52]",
+                    "[Grade A, 8, ]",
+                    "[Grade B, 10, ]",
+                    "[Grade C, 21, ]",
+                    "[Biliary fistula, 2, 0.47]",
+                    "[Wound infection, 5, 0.66]",
+                    "[Pulmonary complication, 2, 0.1]",
+                    "[Skin orifice infection, 1, 0.012]",
+                    "[Abdominal abscess, 0, /]",
+                    "[Pancreatitis, 2, 1]",
+                    "[Sepsis, 1, 1]",
+                    "[Re-laparotomy, 3, 0.6]",
+                    "[Mortality, 0, /]",
+                    "[Readmission (in 30 days), 1, 1]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Post-operative complication": "Pancreatic fistula",
+                    "Group": "Conventional",
+                    "Sample size": "83",
+                    "Statistical test": "Fisher exact test",
+                    "Grade": "C"
+                },
+                "measures": "[Incidence, p-value]",
+                "outcomes": "[24, 0.52]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "Post-operative complications and mortalities",
+                    "groups": "ERAS and Conventional",
+                    "parameters": "various post-operative complications",
+                    "P-value": "P<sup>a</sup>"
+                },
+                "measures": "[Delayed gastric emptying, 15, 0.02]",
+                "outcomes": [
+                    "[Bleeding, 6, 0.5]",
+                    "[Pancreatic fistula, 39, 0.52]",
+                    "[Grade A, 8, ]",
+                    "[Grade B, 10, ]",
+                    "[Grade C, 21, ]",
+                    "[Biliary fistula, 2, 0.47]",
+                    "[Wound infection, 5, 0.66]",
+                    "[Pulmonary complication, 2, 0.1]",
+                    "[Skin orifice infection, 1, 0.012]",
+                    "[Abdominal abscess, 0, /]",
+                    "[Pancreatitis, 2, 1]",
+                    "[Sepsis, 1, 1]",
+                    "[Re-laparotomy, 3, 0.6]",
+                    "[Mortality, 0, /]",
+                    "[Readmission (in 30 days), 1, 1]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Post-operative complication": "Pancreatic fistula",
+                    "Group": "Conventional",
+                    "Sample size": "83",
+                    "Statistical test": "Fisher exact test"
+                },
+                "measures": "[Incidence, p-value]",
+                "outcomes": "[36, 0.52]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "Post-operative complications and mortalities",
+                    "groups": "ERAS and Conventional",
+                    "parameters": "various post-operative complications",
+                    "P-value": "P<sup>a</sup>"
+                },
+                "measures": "[Delayed gastric emptying, 15, 0.02]",
+                "outcomes": [
+                    "[Bleeding, 6, 0.5]",
+                    "[Pancreatic fistula, 39, 0.52]",
+                    "[Grade A, 8, ]",
+                    "[Grade B, 10, ]",
+                    "[Grade C, 21, ]",
+                    "[Biliary fistula, 2, 0.47]",
+                    "[Wound infection, 5, 0.66]",
+                    "[Pulmonary complication, 2, 0.1]",
+                    "[Skin orifice infection, 1, 0.012]",
+                    "[Abdominal abscess, 0, /]",
+                    "[Pancreatitis, 2, 1]",
+                    "[Sepsis, 1, 1]",
+                    "[Re-laparotomy, 3, 0.6]",
+                    "[Mortality, 0, /]",
+                    "[Readmission (in 30 days), 1, 1]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Post-operative complication": "Biliary fistula",
+                    "Group": "ERAS",
+                    "Sample size": "76",
+                    "Statistical test": "Fisher exact test"
+                },
+                "measures": "[Incidence, p-value]",
+                "outcomes": "[2, 0.47]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "Post-operative complications and mortalities",
+                    "groups": "ERAS and Conventional",
+                    "parameters": "various post-operative complications",
+                    "P-value": "P<sup>a</sup>"
+                },
+                "measures": "[Delayed gastric emptying, 15, 0.02]",
+                "outcomes": [
+                    "[Bleeding, 6, 0.5]",
+                    "[Pancreatic fistula, 39, 0.52]",
+                    "[Grade A, 8, ]",
+                    "[Grade B, 10, ]",
+                    "[Grade C, 21, ]",
+                    "[Biliary fistula, 2, 0.47]",
+                    "[Wound infection, 5, 0.66]",
+                    "[Pulmonary complication, 2, 0.1]",
+                    "[Skin orifice infection, 1, 0.012]",
+                    "[Abdominal abscess, 0, /]",
+                    "[Pancreatitis, 2, 1]",
+                    "[Sepsis, 1, 1]",
+                    "[Re-laparotomy, 3, 0.6]",
+                    "[Mortality, 0, /]",
+                    "[Readmission (in 30 days), 1, 1]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Post-operative complication": "Biliary fistula",
+                    "Group": "Conventional",
+                    "Sample size": "83",
+                    "Statistical test": "Fisher exact test"
+                },
+                "measures": "[Incidence, p-value]",
+                "outcomes": "[0, 0.47]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "Post-operative complications and mortalities",
+                    "groups": "ERAS and Conventional",
+                    "parameters": "various post-operative complications",
+                    "P-value": "P<sup>a</sup>"
+                },
+                "measures": "[Delayed gastric emptying, 15, 0.02]",
+                "outcomes": [
+                    "[Bleeding, 6, 0.5]",
+                    "[Pancreatic fistula, 39, 0.52]",
+                    "[Grade A, 8, ]",
+                    "[Grade B, 10, ]",
+                    "[Grade C, 21, ]",
+                    "[Biliary fistula, 2, 0.47]",
+                    "[Wound infection, 5, 0.66]",
+                    "[Pulmonary complication, 2, 0.1]",
+                    "[Skin orifice infection, 1, 0.012]",
+                    "[Abdominal abscess, 0, /]",
+                    "[Pancreatitis, 2, 1]",
+                    "[Sepsis, 1, 1]",
+                    "[Re-laparotomy, 3, 0.6]",
+                    "[Mortality, 0, /]",
+                    "[Readmission (in 30 days), 1, 1]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Post-operative complication": "Wound infection",
+                    "Group": "ERAS",
+                    "Sample size": "76",
+                    "Statistical test": "Fisher exact test"
+                },
+                "measures": "[Incidence, p-value]",
+                "outcomes": "[5, 0.66]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "Post-operative complications and mortalities",
+                    "groups": "ERAS and Conventional",
+                    "parameters": "various post-operative complications",
+                    "P-value": "P<sup>a</sup>"
+                },
+                "measures": "[Delayed gastric emptying, 15, 0.02]",
+                "outcomes": [
+                    "[Bleeding, 6, 0.5]",
+                    "[Pancreatic fistula, 39, 0.52]",
+                    "[Grade A, 8, ]",
+                    "[Grade B, 10, ]",
+                    "[Grade C, 21, ]",
+                    "[Biliary fistula, 2, 0.47]",
+                    "[Wound infection, 5, 0.66]",
+                    "[Pulmonary complication, 2, 0.1]",
+                    "[Skin orifice infection, 1, 0.012]",
+                    "[Abdominal abscess, 0, /]",
+                    "[Pancreatitis, 2, 1]",
+                    "[Sepsis, 1, 1]",
+                    "[Re-laparotomy, 3, 0.6]",
+                    "[Mortality, 0, /]",
+                    "[Readmission (in 30 days), 1, 1]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Post-operative complication": "Wound infection",
+                    "Group": "Conventional",
+                    "Sample size": "83",
+                    "Statistical test": "Fisher exact test"
+                },
+                "measures": "[Incidence, p-value]",
+                "outcomes": "[3, 0.66]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "Post-operative complications and mortalities",
+                    "groups": "ERAS and Conventional",
+                    "parameters": "various post-operative complications",
+                    "P-value": "P<sup>a</sup>"
+                },
+                "measures": "[Delayed gastric emptying, 15, 0.02]",
+                "outcomes": [
+                    "[Bleeding, 6, 0.5]",
+                    "[Pancreatic fistula, 39, 0.52]",
+                    "[Grade A, 8, ]",
+                    "[Grade B, 10, ]",
+                    "[Grade C, 21, ]",
+                    "[Biliary fistula, 2, 0.47]",
+                    "[Wound infection, 5, 0.66]",
+                    "[Pulmonary complication, 2, 0.1]",
+                    "[Skin orifice infection, 1, 0.012]",
+                    "[Abdominal abscess, 0, /]",
+                    "[Pancreatitis, 2, 1]",
+                    "[Sepsis, 1, 1]",
+                    "[Re-laparotomy, 3, 0.6]",
+                    "[Mortality, 0, /]",
+                    "[Readmission (in 30 days), 1, 1]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Post-operative complication": "Pulmonary complication",
+                    "Group": "ERAS",
+                    "Sample size": "76",
+                    "Statistical test": "Fisher exact test"
+                },
+                "measures": "[Incidence, p-value]",
+                "outcomes": "[2, 0.1]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "Post-operative complications and mortalities",
+                    "groups": "ERAS and Conventional",
+                    "parameters": "various post-operative complications",
+                    "P-value": "P<sup>a</sup>"
+                },
+                "measures": "[Delayed gastric emptying, 15, 0.02]",
+                "outcomes": [
+                    "[Bleeding, 6, 0.5]",
+                    "[Pancreatic fistula, 39, 0.52]",
+                    "[Grade A, 8, ]",
+                    "[Grade B, 10, ]",
+                    "[Grade C, 21, ]",
+                    "[Biliary fistula, 2, 0.47]",
+                    "[Wound infection, 5, 0.66]",
+                    "[Pulmonary complication, 2, 0.1]",
+                    "[Skin orifice infection, 1, 0.012]",
+                    "[Abdominal abscess, 0, /]",
+                    "[Pancreatitis, 2, 1]",
+                    "[Sepsis, 1, 1]",
+                    "[Re-laparotomy, 3, 0.6]",
+                    "[Mortality, 0, /]",
+                    "[Readmission (in 30 days), 1, 1]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Post-operative complication": "Pulmonary complication",
+                    "Group": "Conventional",
+                    "Sample size": "83",
+                    "Statistical test": "Fisher exact test"
+                },
+                "measures": "[Incidence, p-value]",
+                "outcomes": "[4, 0.1]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "Post-operative complications and mortalities",
+                    "groups": "ERAS and Conventional",
+                    "parameters": "various post-operative complications",
+                    "P-value": "P<sup>a</sup>"
+                },
+                "measures": "[Delayed gastric emptying, 15, 0.02]",
+                "outcomes": [
+                    "[Bleeding, 6, 0.5]",
+                    "[Pancreatic fistula, 39, 0.52]",
+                    "[Grade A, 8, ]",
+                    "[Grade B, 10, ]",
+                    "[Grade C, 21, ]",
+                    "[Biliary fistula, 2, 0.47]",
+                    "[Wound infection, 5, 0.66]",
+                    "[Pulmonary complication, 2, 0.1]",
+                    "[Skin orifice infection, 1, 0.012]",
+                    "[Abdominal abscess, 0, /]",
+                    "[Pancreatitis, 2, 1]",
+                    "[Sepsis, 1, 1]",
+                    "[Re-laparotomy, 3, 0.6]",
+                    "[Mortality, 0, /]",
+                    "[Readmission (in 30 days), 1, 1]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Post-operative complication": "Skin orifice infection",
+                    "Group": "ERAS",
+                    "Sample size": "76",
+                    "Statistical test": "Fisher exact test"
+                },
+                "measures": "[Incidence, p-value]",
+                "outcomes": "[1, 0.012]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "Post-operative complications and mortalities",
+                    "groups": "ERAS and Conventional",
+                    "parameters": "various post-operative complications",
+                    "P-value": "P<sup>a</sup>"
+                },
+                "measures": "[Delayed gastric emptying, 15, 0.02]",
+                "outcomes": [
+                    "[Bleeding, 6, 0.5]",
+                    "[Pancreatic fistula, 39, 0.52]",
+                    "[Grade A, 8, ]",
+                    "[Grade B, 10, ]",
+                    "[Grade C, 21, ]",
+                    "[Biliary fistula, 2, 0.47]",
+                    "[Wound infection, 5, 0.66]",
+                    "[Pulmonary complication, 2, 0.1]",
+                    "[Skin orifice infection, 1, 0.012]",
+                    "[Abdominal abscess, 0, /]",
+                    "[Pancreatitis, 2, 1]",
+                    "[Sepsis, 1, 1]",
+                    "[Re-laparotomy, 3, 0.6]",
+                    "[Mortality, 0, /]",
+                    "[Readmission (in 30 days), 1, 1]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Post-operative complication": "Skin orifice infection",
+                    "Group": "Conventional",
+                    "Sample size": "83",
+                    "Statistical test": "Fisher exact test"
+                },
+                "measures": "[Incidence, p-value]",
+                "outcomes": "[6, 0.012]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "Post-operative complications and mortalities",
+                    "groups": "ERAS and Conventional",
+                    "parameters": "various post-operative complications",
+                    "P-value": "P<sup>a</sup>"
+                },
+                "measures": "[Delayed gastric emptying, 15, 0.02]",
+                "outcomes": [
+                    "[Bleeding, 6, 0.5]",
+                    "[Pancreatic fistula, 39, 0.52]",
+                    "[Grade A, 8, ]",
+                    "[Grade B, 10, ]",
+                    "[Grade C, 21, ]",
+                    "[Biliary fistula, 2, 0.47]",
+                    "[Wound infection, 5, 0.66]",
+                    "[Pulmonary complication, 2, 0.1]",
+                    "[Skin orifice infection, 1, 0.012]",
+                    "[Abdominal abscess, 0, /]",
+                    "[Pancreatitis, 2, 1]",
+                    "[Sepsis, 1, 1]",
+                    "[Re-laparotomy, 3, 0.6]",
+                    "[Mortality, 0, /]",
+                    "[Readmission (in 30 days), 1, 1]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Post-operative complication": "Pancreatitis",
+                    "Group": "ERAS",
+                    "Sample size": "76",
+                    "Statistical test": "Fisher exact test"
+                },
+                "measures": "[Incidence, p-value]",
+                "outcomes": "[2, 1]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "Post-operative complications and mortalities",
+                    "groups": "ERAS and Conventional",
+                    "parameters": "various post-operative complications",
+                    "P-value": "P<sup>a</sup>"
+                },
+                "measures": "[Delayed gastric emptying, 15, 0.02]",
+                "outcomes": [
+                    "[Bleeding, 6, 0.5]",
+                    "[Pancreatic fistula, 39, 0.52]",
+                    "[Grade A, 8, ]",
+                    "[Grade B, 10, ]",
+                    "[Grade C, 21, ]",
+                    "[Biliary fistula, 2, 0.47]",
+                    "[Wound infection, 5, 0.66]",
+                    "[Pulmonary complication, 2, 0.1]",
+                    "[Skin orifice infection, 1, 0.012]",
+                    "[Abdominal abscess, 0, /]",
+                    "[Pancreatitis, 2, 1]",
+                    "[Sepsis, 1, 1]",
+                    "[Re-laparotomy, 3, 0.6]",
+                    "[Mortality, 0, /]",
+                    "[Readmission (in 30 days), 1, 1]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Post-operative complication": "Pancreatitis",
+                    "Group": "Conventional",
+                    "Sample size": "83",
+                    "Statistical test": "Fisher exact test"
+                },
+                "measures": "[Incidence, p-value]",
+                "outcomes": "[1, 1]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "Post-operative complications and mortalities",
+                    "groups": "ERAS and Conventional",
+                    "parameters": "various post-operative complications",
+                    "P-value": "P<sup>a</sup>"
+                },
+                "measures": "[Delayed gastric emptying, 15, 0.02]",
+                "outcomes": [
+                    "[Bleeding, 6, 0.5]",
+                    "[Pancreatic fistula, 39, 0.52]",
+                    "[Grade A, 8, ]",
+                    "[Grade B, 10, ]",
+                    "[Grade C, 21, ]",
+                    "[Biliary fistula, 2, 0.47]",
+                    "[Wound infection, 5, 0.66]",
+                    "[Pulmonary complication, 2, 0.1]",
+                    "[Skin orifice infection, 1, 0.012]",
+                    "[Abdominal abscess, 0, /]",
+                    "[Pancreatitis, 2, 1]",
+                    "[Sepsis, 1, 1]",
+                    "[Re-laparotomy, 3, 0.6]",
+                    "[Mortality, 0, /]",
+                    "[Readmission (in 30 days), 1, 1]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Post-operative complication": "Sepsis",
+                    "Group": "ERAS",
+                    "Sample size": "76",
+                    "Statistical test": "Fisher exact test"
+                },
+                "measures": "[Incidence, p-value]",
+                "outcomes": "[1, 1]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "Post-operative complications and mortalities",
+                    "groups": "ERAS and Conventional",
+                    "parameters": "various post-operative complications",
+                    "P-value": "P<sup>a</sup>"
+                },
+                "measures": "[Delayed gastric emptying, 15, 0.02]",
+                "outcomes": [
+                    "[Bleeding, 6, 0.5]",
+                    "[Pancreatic fistula, 39, 0.52]",
+                    "[Grade A, 8, ]",
+                    "[Grade B, 10, ]",
+                    "[Grade C, 21, ]",
+                    "[Biliary fistula, 2, 0.47]",
+                    "[Wound infection, 5, 0.66]",
+                    "[Pulmonary complication, 2, 0.1]",
+                    "[Skin orifice infection, 1, 0.012]",
+                    "[Abdominal abscess, 0, /]",
+                    "[Pancreatitis, 2, 1]",
+                    "[Sepsis, 1, 1]",
+                    "[Re-laparotomy, 3, 0.6]",
+                    "[Mortality, 0, /]",
+                    "[Readmission (in 30 days), 1, 1]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Post-operative complication": "Sepsis",
+                    "Group": "Conventional",
+                    "Sample size": "83",
+                    "Statistical test": "Fisher exact test"
+                },
+                "measures": "[Incidence, p-value]",
+                "outcomes": "[0, 1]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "Post-operative complications and mortalities",
+                    "groups": "ERAS and Conventional",
+                    "parameters": "various post-operative complications",
+                    "P-value": "P<sup>a</sup>"
+                },
+                "measures": "[Delayed gastric emptying, 15, 0.02]",
+                "outcomes": [
+                    "[Bleeding, 6, 0.5]",
+                    "[Pancreatic fistula, 39, 0.52]",
+                    "[Grade A, 8, ]",
+                    "[Grade B, 10, ]",
+                    "[Grade C, 21, ]",
+                    "[Biliary fistula, 2, 0.47]",
+                    "[Wound infection, 5, 0.66]",
+                    "[Pulmonary complication, 2, 0.1]",
+                    "[Skin orifice infection, 1, 0.012]",
+                    "[Abdominal abscess, 0, /]",
+                    "[Pancreatitis, 2, 1]",
+                    "[Sepsis, 1, 1]",
+                    "[Re-laparotomy, 3, 0.6]",
+                    "[Mortality, 0, /]",
+                    "[Readmission (in 30 days), 1, 1]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Post-operative complication": "Re-laparotomy",
+                    "Group": "ERAS",
+                    "Sample size": "76",
+                    "Statistical test": "Fisher exact test"
+                },
+                "measures": "[Incidence, p-value]",
+                "outcomes": "[3, 0.6]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "Post-operative complications and mortalities",
+                    "groups": "ERAS and Conventional",
+                    "parameters": "various post-operative complications",
+                    "P-value": "P<sup>a</sup>"
+                },
+                "measures": "[Delayed gastric emptying, 15, 0.02]",
+                "outcomes": [
+                    "[Bleeding, 6, 0.5]",
+                    "[Pancreatic fistula, 39, 0.52]",
+                    "[Grade A, 8, ]",
+                    "[Grade B, 10, ]",
+                    "[Grade C, 21, ]",
+                    "[Biliary fistula, 2, 0.47]",
+                    "[Wound infection, 5, 0.66]",
+                    "[Pulmonary complication, 2, 0.1]",
+                    "[Skin orifice infection, 1, 0.012]",
+                    "[Abdominal abscess, 0, /]",
+                    "[Pancreatitis, 2, 1]",
+                    "[Sepsis, 1, 1]",
+                    "[Re-laparotomy, 3, 0.6]",
+                    "[Mortality, 0, /]",
+                    "[Readmission (in 30 days), 1, 1]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Post-operative complication": "Re-laparotomy",
+                    "Group": "Conventional",
+                    "Sample size": "83",
+                    "Statistical test": "Fisher exact test"
+                },
+                "measures": "[Incidence, p-value]",
+                "outcomes": "[1, 0.6]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "Post-operative complications and mortalities",
+                    "groups": "ERAS and Conventional",
+                    "parameters": "various post-operative complications",
+                    "P-value": "P<sup>a</sup>"
+                },
+                "measures": "[Delayed gastric emptying, 15, 0.02]",
+                "outcomes": [
+                    "[Bleeding, 6, 0.5]",
+                    "[Pancreatic fistula, 39, 0.52]",
+                    "[Grade A, 8, ]",
+                    "[Grade B, 10, ]",
+                    "[Grade C, 21, ]",
+                    "[Biliary fistula, 2, 0.47]",
+                    "[Wound infection, 5, 0.66]",
+                    "[Pulmonary complication, 2, 0.1]",
+                    "[Skin orifice infection, 1, 0.012]",
+                    "[Abdominal abscess, 0, /]",
+                    "[Pancreatitis, 2, 1]",
+                    "[Sepsis, 1, 1]",
+                    "[Re-laparotomy, 3, 0.6]",
+                    "[Mortality, 0, /]",
+                    "[Readmission (in 30 days), 1, 1]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Post-operative complication": "Readmission (in 30 days)",
+                    "Group": "ERAS",
+                    "Sample size": "76",
+                    "Statistical test": "Fisher exact test"
+                },
+                "measures": "[Incidence, p-value]",
+                "outcomes": "[1, 1]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "Post-operative complications and mortalities",
+                    "groups": "ERAS and Conventional",
+                    "parameters": "various post-operative complications",
+                    "P-value": "P<sup>a</sup>"
+                },
+                "measures": "[Delayed gastric emptying, 15, 0.02]",
+                "outcomes": [
+                    "[Bleeding, 6, 0.5]",
+                    "[Pancreatic fistula, 39, 0.52]",
+                    "[Grade A, 8, ]",
+                    "[Grade B, 10, ]",
+                    "[Grade C, 21, ]",
+                    "[Biliary fistula, 2, 0.47]",
+                    "[Wound infection, 5, 0.66]",
+                    "[Pulmonary complication, 2, 0.1]",
+                    "[Skin orifice infection, 1, 0.012]",
+                    "[Abdominal abscess, 0, /]",
+                    "[Pancreatitis, 2, 1]",
+                    "[Sepsis, 1, 1]",
+                    "[Re-laparotomy, 3, 0.6]",
+                    "[Mortality, 0, /]",
+                    "[Readmission (in 30 days), 1, 1]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Post-operative complication": "Readmission (in 30 days)",
+                    "Group": "Conventional",
+                    "Sample size": "83",
+                    "Statistical test": "Fisher exact test"
+                },
+                "measures": "[Incidence, p-value]",
+                "outcomes": "[1, 1]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "Post-operative complications and mortalities",
+                    "groups": "ERAS and Conventional",
+                    "parameters": "various post-operative complications",
+                    "P-value": "P<sup>a</sup>"
+                },
+                "measures": "[Delayed gastric emptying, 15, 0.02]",
+                "outcomes": [
+                    "[Bleeding, 6, 0.5]",
+                    "[Pancreatic fistula, 39, 0.52]",
+                    "[Grade A, 8, ]",
+                    "[Grade B, 10, ]",
+                    "[Grade C, 21, ]",
+                    "[Biliary fistula, 2, 0.47]",
+                    "[Wound infection, 5, 0.66]",
+                    "[Pulmonary complication, 2, 0.1]",
+                    "[Skin orifice infection, 1, 0.012]",
+                    "[Abdominal abscess, 0, /]",
+                    "[Pancreatitis, 2, 1]",
+                    "[Sepsis, 1, 1]",
+                    "[Re-laparotomy, 3, 0.6]",
+                    "[Mortality, 0, /]",
+                    "[Readmission (in 30 days), 1, 1]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Post-operative complication": "Abdominal abscess",
+                    "Group": "ERAS",
+                    "Sample size": "76",
+                    "Statistical test": "Fisher exact test"
+                },
+                "measures": "[Incidence, p-value]",
+                "outcomes": "[0, /]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "Post-operative complications and mortalities",
+                    "groups": "ERAS and Conventional",
+                    "parameters": "various post-operative complications",
+                    "P-value": "P<sup>a</sup>"
+                },
+                "measures": "[Delayed gastric emptying, 15, 0.02]",
+                "outcomes": [
+                    "[Bleeding, 6, 0.5]",
+                    "[Pancreatic fistula, 39, 0.52]",
+                    "[Grade A, 8, ]",
+                    "[Grade B, 10, ]",
+                    "[Grade C, 21, ]",
+                    "[Biliary fistula, 2, 0.47]",
+                    "[Wound infection, 5, 0.66]",
+                    "[Pulmonary complication, 2, 0.1]",
+                    "[Skin orifice infection, 1, 0.012]",
+                    "[Abdominal abscess, 0, /]",
+                    "[Pancreatitis, 2, 1]",
+                    "[Sepsis, 1, 1]",
+                    "[Re-laparotomy, 3, 0.6]",
+                    "[Mortality, 0, /]",
+                    "[Readmission (in 30 days), 1, 1]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Post-operative complication": "Abdominal abscess",
+                    "Group": "Conventional",
+                    "Sample size": "83",
+                    "Statistical test": "Fisher exact test"
+                },
+                "measures": "[Incidence, p-value]",
+                "outcomes": "[0, /]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "Post-operative complications and mortalities",
+                    "groups": "ERAS and Conventional",
+                    "parameters": "various post-operative complications",
+                    "P-value": "P<sup>a</sup>"
+                },
+                "measures": "[Delayed gastric emptying, 15, 0.02]",
+                "outcomes": [
+                    "[Bleeding, 6, 0.5]",
+                    "[Pancreatic fistula, 39, 0.52]",
+                    "[Grade A, 8, ]",
+                    "[Grade B, 10, ]",
+                    "[Grade C, 21, ]",
+                    "[Biliary fistula, 2, 0.47]",
+                    "[Wound infection, 5, 0.66]",
+                    "[Pulmonary complication, 2, 0.1]",
+                    "[Skin orifice infection, 1, 0.012]",
+                    "[Abdominal abscess, 0, /]",
+                    "[Pancreatitis, 2, 1]",
+                    "[Sepsis, 1, 1]",
+                    "[Re-laparotomy, 3, 0.6]",
+                    "[Mortality, 0, /]",
+                    "[Readmission (in 30 days), 1, 1]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Post-operative complication": "Mortality",
+                    "Group": "ERAS",
+                    "Sample size": "76",
+                    "Statistical test": "Fisher exact test"
+                },
+                "measures": "[Incidence, p-value]",
+                "outcomes": "[0, /]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "Post-operative complications and mortalities",
+                    "groups": "ERAS and Conventional",
+                    "parameters": "various post-operative complications",
+                    "P-value": "P<sup>a</sup>"
+                },
+                "measures": "[Delayed gastric emptying, 15, 0.02]",
+                "outcomes": [
+                    "[Bleeding, 6, 0.5]",
+                    "[Pancreatic fistula, 39, 0.52]",
+                    "[Grade A, 8, ]",
+                    "[Grade B, 10, ]",
+                    "[Grade C, 21, ]",
+                    "[Biliary fistula, 2, 0.47]",
+                    "[Wound infection, 5, 0.66]",
+                    "[Pulmonary complication, 2, 0.1]",
+                    "[Skin orifice infection, 1, 0.012]",
+                    "[Abdominal abscess, 0, /]",
+                    "[Pancreatitis, 2, 1]",
+                    "[Sepsis, 1, 1]",
+                    "[Re-laparotomy, 3, 0.6]",
+                    "[Mortality, 0, /]",
+                    "[Readmission (in 30 days), 1, 1]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Post-operative complication": "Mortality",
+                    "Group": "Conventional",
+                    "Sample size": "83",
+                    "Statistical test": "Fisher exact test"
+                },
+                "measures": "[Incidence, p-value]",
+                "outcomes": "[0, /]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "Post-operative complications and mortalities",
+                    "groups": "ERAS and Conventional",
+                    "parameters": "various post-operative complications",
+                    "P-value": "P<sup>a</sup>"
+                },
+                "measures": "[Delayed gastric emptying, 32, 0.02]",
+                "outcomes": [
+                    "[Bleeding, 4, 0.5]",
+                    "[Pancreatic fistula, 36, 0.52]",
+                    "[Grade A, 6, ]",
+                    "[Grade B, 6, ]",
+                    "[Grade C, 24, ]",
+                    "[Biliary fistula, 0, 0.47]",
+                    "[Wound infection, 3, 0.66]",
+                    "[Pulmonary complication, 4, 0.1]",
+                    "[Skin orifice infection, 6, 0.012]",
+                    "[Abdominal abscess, 0, /]",
+                    "[Pancreatitis, 1, 1]",
+                    "[Sepsis, 0, 1]",
+                    "[Re-laparotomy, 1, 0.6]",
+                    "[Mortality, 0, /]",
+                    "[Readmission (in 30 days), 1, 1]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Post-operative complication": "Delayed gastric emptying",
+                    "Group": "ERAS",
+                    "Sample size": "76",
+                    "Statistical test": "Fisher exact test"
+                },
+                "measures": "[Incidence, p-value]",
+                "outcomes": "[15, 0.02]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "Post-operative complications and mortalities",
+                    "groups": "ERAS and Conventional",
+                    "parameters": "various post-operative complications",
+                    "P-value": "P<sup>a</sup>"
+                },
+                "measures": "[Delayed gastric emptying, 32, 0.02]",
+                "outcomes": [
+                    "[Bleeding, 4, 0.5]",
+                    "[Pancreatic fistula, 36, 0.52]",
+                    "[Grade A, 6, ]",
+                    "[Grade B, 6, ]",
+                    "[Grade C, 24, ]",
+                    "[Biliary fistula, 0, 0.47]",
+                    "[Wound infection, 3, 0.66]",
+                    "[Pulmonary complication, 4, 0.1]",
+                    "[Skin orifice infection, 6, 0.012]",
+                    "[Abdominal abscess, 0, /]",
+                    "[Pancreatitis, 1, 1]",
+                    "[Sepsis, 0, 1]",
+                    "[Re-laparotomy, 1, 0.6]",
+                    "[Mortality, 0, /]",
+                    "[Readmission (in 30 days), 1, 1]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Post-operative complication": "Delayed gastric emptying",
+                    "Group": "Conventional",
+                    "Sample size": "83",
+                    "Statistical test": "Fisher exact test"
+                },
+                "measures": "[Incidence, p-value]",
+                "outcomes": "[32, 0.02]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 2,
+    "total_ground_truth_claims": 32,
+    "number_of_matches": 1
+}

@@ -1,0 +1,244 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study type": "incidence rates of non-AIDS composite events",
+                    "cutoff": "CD4/CD8 ratio",
+                    "metric": "rate per 100 person-year",
+                    "outcome": "11.42"
+                },
+                "measures": "[rate per 100 person-year]",
+                "outcomes": "[11.42]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "Composite endpoint (all participants)",
+                    "Sample size": "692",
+                    "No. of events": "123",
+                    "Person-years of follow-up": "4071",
+                    "Method": "Event rate across total follow-up"
+                },
+                "measures": "[Rate per 100 person-years (95% CI)]",
+                "outcomes": "[3.02 (2.53\u20133.61)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study type": "incidence rates of non-AIDS composite events",
+                    "cutoff": "CD4/CD8 ratio",
+                    "metric": "rate per 100 person-year",
+                    "outcome": "11.42"
+                },
+                "measures": "[rate per 100 person-year]",
+                "outcomes": "[11.42]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "Current CD4/CD8 ratio < 0.3",
+                    "No. of events": "21",
+                    "Person-years of follow-up": "184",
+                    "Method": "Rate stratified by CD4/CD8 ratio group"
+                },
+                "measures": "[Rate per 100 person-years (95% CI)]",
+                "outcomes": "[11.42 (7.45\u201317.52)]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study type": "incidence rates of non-AIDS composite events",
+                    "cutoff": "current CD4/CD8 ratio < 0.3",
+                    "metric": "rate per 100 person-year",
+                    "outcome": "11.42"
+                },
+                "measures": "[rate per 100 person-year]",
+                "outcomes": "[11.42]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "Composite endpoint (all participants)",
+                    "Sample size": "692",
+                    "No. of events": "123",
+                    "Person-years of follow-up": "4071",
+                    "Method": "Event rate across total follow-up"
+                },
+                "measures": "[Rate per 100 person-years (95% CI)]",
+                "outcomes": "[3.02 (2.53\u20133.61)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study type": "incidence rates of non-AIDS composite events",
+                    "cutoff": "current CD4/CD8 ratio < 0.3",
+                    "metric": "rate per 100 person-year",
+                    "outcome": "11.42"
+                },
+                "measures": "[rate per 100 person-year]",
+                "outcomes": "[11.42]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "Current CD4/CD8 ratio 0.30\u20130.45",
+                    "No. of events": "28",
+                    "Person-years of follow-up": "496",
+                    "Method": "Rate stratified by CD4/CD8 ratio group"
+                },
+                "measures": "[Rate per 100 person-years (95% CI)]",
+                "outcomes": "[5.64 (3.90\u20138.17)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study type": "incidence rates of non-AIDS composite events",
+                    "cutoff": "current CD4/CD8 ratio < 0.3",
+                    "metric": "rate per 100 person-year",
+                    "outcome": "11.42"
+                },
+                "measures": "[rate per 100 person-year]",
+                "outcomes": "[11.42]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "Current CD4/CD8 ratio > 0.45",
+                    "No. of events": "72",
+                    "Person-years of follow-up": "3227",
+                    "Method": "Rate stratified by CD4/CD8 ratio group"
+                },
+                "measures": "[Rate per 100 person-years (95% CI)]",
+                "outcomes": "[2.23 (1.77\u20132.81)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study type": "incidence rates of non-AIDS composite events",
+                    "cutoff": "current CD4/CD8 ratio 0.30-0.45",
+                    "metric": "rate per 100 person-year",
+                    "outcome": "5.64"
+                },
+                "measures": "[rate per 100 person-year]",
+                "outcomes": "[5.64]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "Composite endpoint (all participants)",
+                    "Sample size": "692",
+                    "No. of events": "123",
+                    "Person-years of follow-up": "4071",
+                    "Method": "Event rate across total follow-up"
+                },
+                "measures": "[Rate per 100 person-years (95% CI)]",
+                "outcomes": "[3.02 (2.53\u20133.61)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study type": "incidence rates of non-AIDS composite events",
+                    "cutoff": "current CD4/CD8 ratio 0.30-0.45",
+                    "metric": "rate per 100 person-year",
+                    "outcome": "5.64"
+                },
+                "measures": "[rate per 100 person-year]",
+                "outcomes": "[5.64]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "Current CD4/CD8 ratio 0.30\u20130.45",
+                    "No. of events": "28",
+                    "Person-years of follow-up": "496",
+                    "Method": "Rate stratified by CD4/CD8 ratio group"
+                },
+                "measures": "[Rate per 100 person-years (95% CI)]",
+                "outcomes": "[5.64 (3.90\u20138.17)]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study type": "incidence rates of non-AIDS composite events",
+                    "cutoff": "current CD4/CD8 ratio > 0.45",
+                    "metric": "rate per 100 person-year",
+                    "outcome": "2.23"
+                },
+                "measures": "[rate per 100 person-year]",
+                "outcomes": "[2.23]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "Composite endpoint (all participants)",
+                    "Sample size": "692",
+                    "No. of events": "123",
+                    "Person-years of follow-up": "4071",
+                    "Method": "Event rate across total follow-up"
+                },
+                "measures": "[Rate per 100 person-years (95% CI)]",
+                "outcomes": "[3.02 (2.53\u20133.61)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study type": "incidence rates of non-AIDS composite events",
+                    "cutoff": "current CD4/CD8 ratio > 0.45",
+                    "metric": "rate per 100 person-year",
+                    "outcome": "2.23"
+                },
+                "measures": "[rate per 100 person-year]",
+                "outcomes": "[2.23]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "Current CD4/CD8 ratio > 0.45",
+                    "No. of events": "72",
+                    "Person-years of follow-up": "3227",
+                    "Method": "Rate stratified by CD4/CD8 ratio group"
+                },
+                "measures": "[Rate per 100 person-years (95% CI)]",
+                "outcomes": "[2.23 (1.77\u20132.81)]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study type": "incidence rates of non-AIDS composite events",
+                    "endpoint": "composite endpoint",
+                    "number of events": "123",
+                    "person-year of follow-up": "4071",
+                    "metric": "rate per 100 person-year",
+                    "outcome": "3.02"
+                },
+                "measures": "[rate per 100 person-year]",
+                "outcomes": "[3.02]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "Composite endpoint (all participants)",
+                    "Sample size": "692",
+                    "No. of events": "123",
+                    "Person-years of follow-up": "4071",
+                    "Method": "Event rate across total follow-up"
+                },
+                "measures": "[Rate per 100 person-years (95% CI)]",
+                "outcomes": "[3.02 (2.53\u20133.61)]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 13,
+    "total_ground_truth_claims": 4,
+    "number_of_matches": 4
+}

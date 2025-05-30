@@ -1,0 +1,16 @@
+To evaluate whether the extracted claim matches any of the ground truth claims, I'll compare the key information:
+
+1. The extracted claim is for SQLova with BERT-Large-Uncased on WikiSQL dataset.
+2. It includes both Logical form accuracy (81.6) and Execution accuracy (87.2).
+3. It doesn't specify whether this is for Dev or Test split.
+
+Looking at the ground truth claims, there are two relevant entries for SQLova with BERT-Large-Uncased:
+
+1. Dev split: Execution accuracy 87.2
+2. Test split: Execution accuracy 86.2
+
+The extracted claim matches the Dev split execution accuracy. However, it also includes the logical form accuracy, which is not present in the ground truth claims. Additionally, it doesn't specify the split.
+
+Given these differences, I would conclude that the extracted claim is not an exact match to any of the ground truth claims.
+
+<classification>no</classification>

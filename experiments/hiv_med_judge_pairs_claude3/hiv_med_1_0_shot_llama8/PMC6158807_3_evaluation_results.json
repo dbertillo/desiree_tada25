@@ -1,0 +1,148 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "CD4/CD8 ratio": "< 0.3",
+                    "No. of event": "21",
+                    "Person-year of follow-up": "184",
+                    "Rate per 100 person-year": "95% CI, 11.42 (7.45\u201317.52)"
+                },
+                "measures": "[Citation, The incidence rates of non-AIDS composite events were significantly different between the cutoffs for CD4/CD8 ratio, with 11.42 per 100 PYS (95% CI 7.45\u201317.52) for current CD4/CD8 ratio < 0.3 and 2.23 per 100 PYS (1.77\u20132.81) for ratio > 0.45]",
+                "outcomes": "[p-value, < 0.001]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "Composite endpoint (all participants)",
+                    "Sample size": "692",
+                    "No. of events": "123",
+                    "Person-years of follow-up": "4071",
+                    "Method": "Event rate across total follow-up"
+                },
+                "measures": "[Rate per 100 person-years (95% CI)]",
+                "outcomes": "[3.02 (2.53\u20133.61)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "CD4/CD8 ratio": "< 0.3",
+                    "No. of event": "21",
+                    "Person-year of follow-up": "184",
+                    "Rate per 100 person-year": "95% CI, 11.42 (7.45\u201317.52)"
+                },
+                "measures": "[Citation, The incidence rates of non-AIDS composite events were significantly different between the cutoffs for CD4/CD8 ratio, with 11.42 per 100 PYS (95% CI 7.45\u201317.52) for current CD4/CD8 ratio < 0.3 and 2.23 per 100 PYS (1.77\u20132.81) for ratio > 0.45]",
+                "outcomes": "[p-value, < 0.001]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "Current CD4/CD8 ratio < 0.3",
+                    "No. of events": "21",
+                    "Person-years of follow-up": "184",
+                    "Method": "Rate stratified by CD4/CD8 ratio group"
+                },
+                "measures": "[Rate per 100 person-years (95% CI)]",
+                "outcomes": "[11.42 (7.45\u201317.52)]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "CD4/CD8 ratio": "0.30\u20130.45",
+                    "No. of event": "28",
+                    "Person-year of follow-up": "496",
+                    "Rate per 100 person-year": "95% CI, 5.64 (3.90\u20138.17)"
+                },
+                "measures": "[Citation, The incidence rates of non-AIDS composite events were significantly different between the cutoffs for CD4/CD8 ratio, with 11.42 per 100 PYS (95% CI 7.45\u201317.52) for current CD4/CD8 ratio < 0.3 and 2.23 per 100 PYS (1.77\u20132.81) for ratio > 0.45]",
+                "outcomes": "[]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "Composite endpoint (all participants)",
+                    "Sample size": "692",
+                    "No. of events": "123",
+                    "Person-years of follow-up": "4071",
+                    "Method": "Event rate across total follow-up"
+                },
+                "measures": "[Rate per 100 person-years (95% CI)]",
+                "outcomes": "[3.02 (2.53\u20133.61)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "CD4/CD8 ratio": "0.30\u20130.45",
+                    "No. of event": "28",
+                    "Person-year of follow-up": "496",
+                    "Rate per 100 person-year": "95% CI, 5.64 (3.90\u20138.17)"
+                },
+                "measures": "[Citation, The incidence rates of non-AIDS composite events were significantly different between the cutoffs for CD4/CD8 ratio, with 11.42 per 100 PYS (95% CI 7.45\u201317.52) for current CD4/CD8 ratio < 0.3 and 2.23 per 100 PYS (1.77\u20132.81) for ratio > 0.45]",
+                "outcomes": "[]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "Current CD4/CD8 ratio 0.30\u20130.45",
+                    "No. of events": "28",
+                    "Person-years of follow-up": "496",
+                    "Method": "Rate stratified by CD4/CD8 ratio group"
+                },
+                "measures": "[Rate per 100 person-years (95% CI)]",
+                "outcomes": "[5.64 (3.90\u20138.17)]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "CD4/CD8 ratio": "> 0.45",
+                    "No. of event": "72",
+                    "Person-year of follow-up": "3227",
+                    "Rate per 100 person-year": "95% CI, 2.23 (1.77\u20132.81)"
+                },
+                "measures": "[Citation, The incidence rates of non-AIDS composite events were significantly different between the cutoffs for CD4/CD8 ratio, with 11.42 per 100 PYS (95% CI 7.45\u201317.52) for current CD4/CD8 ratio < 0.3 and 2.23 per 100 PYS (1.77\u20132.81) for ratio > 0.45]",
+                "outcomes": "[p-value, < 0.001]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "Composite endpoint (all participants)",
+                    "Sample size": "692",
+                    "No. of events": "123",
+                    "Person-years of follow-up": "4071",
+                    "Method": "Event rate across total follow-up"
+                },
+                "measures": "[Rate per 100 person-years (95% CI)]",
+                "outcomes": "[3.02 (2.53\u20133.61)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "CD4/CD8 ratio": "> 0.45",
+                    "No. of event": "72",
+                    "Person-year of follow-up": "3227",
+                    "Rate per 100 person-year": "95% CI, 2.23 (1.77\u20132.81)"
+                },
+                "measures": "[Citation, The incidence rates of non-AIDS composite events were significantly different between the cutoffs for CD4/CD8 ratio, with 11.42 per 100 PYS (95% CI 7.45\u201317.52) for current CD4/CD8 ratio < 0.3 and 2.23 per 100 PYS (1.77\u20132.81) for ratio > 0.45]",
+                "outcomes": "[p-value, < 0.001]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "Current CD4/CD8 ratio > 0.45",
+                    "No. of events": "72",
+                    "Person-years of follow-up": "3227",
+                    "Method": "Rate stratified by CD4/CD8 ratio group"
+                },
+                "measures": "[Rate per 100 person-years (95% CI)]",
+                "outcomes": "[2.23 (1.77\u20132.81)]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 3,
+    "total_ground_truth_claims": 4,
+    "number_of_matches": 3
+}

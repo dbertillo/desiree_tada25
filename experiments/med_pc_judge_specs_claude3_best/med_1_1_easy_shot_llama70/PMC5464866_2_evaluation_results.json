@@ -1,0 +1,92 @@
+{
+    "matched_specifications": [
+        [
+            "tissue type",
+            "cancerous tissues"
+        ],
+        [
+            "technique",
+            "immunohistochemistry"
+        ],
+        [
+            "number of samples",
+            "88"
+        ],
+        [
+            "tissue type",
+            "adjacent tissues"
+        ],
+        [
+            "technique",
+            "immunohistochemistry"
+        ],
+        [
+            "number of samples",
+            "88"
+        ]
+    ],
+    "unmatched_specifications": [
+        [
+            "analysis",
+            "fxr expression analysis"
+        ],
+        [
+            "study goal",
+            "confirm the role of fxr in pancreatic cancer"
+        ],
+        [
+            "fxr expression",
+            "positive"
+        ],
+        [
+            "analysis",
+            "fxr expression analysis"
+        ],
+        [
+            "study goal",
+            "confirm the role of fxr in pancreatic cancer"
+        ],
+        [
+            "fxr expression",
+            "positive"
+        ]
+    ],
+    "unmatched_extracted_keys": [
+        "study goal"
+    ],
+    "unmatched_extracted_values": [
+        "fxr expression analysis",
+        "confirm the role of fxr in pancreatic cancer",
+        "positive"
+    ],
+    "unmatched_ground_truth_keys": [
+        "comparison to",
+        "statistical significance",
+        "fxr negative",
+        "fxr positive"
+    ],
+    "unmatched_ground_truth_values": [
+        "fxr expression in the cancerous tissues and the adjacent tissues",
+        "protein level",
+        "p < 0.05",
+        "27 (30.7%)",
+        "54 (61.4%)",
+        "61 (69.3%)",
+        "34 (38.6%)"
+    ],
+    "mapped_keys": {
+        "analysis": "analysis",
+        "tissue type": "group",
+        "technique": "method",
+        "number of samples": "patients",
+        "fxr expression": "expression level"
+    },
+    "mapped_values": {
+        "adjacent tissues": "adjacent tissues",
+        "cancerous tissues": "cancerous tissues",
+        "88": "88",
+        "immunohistochemistry": "immunohistochemistry"
+    },
+    "precision": 0.5,
+    "recall": 0.3333333333333333
+}

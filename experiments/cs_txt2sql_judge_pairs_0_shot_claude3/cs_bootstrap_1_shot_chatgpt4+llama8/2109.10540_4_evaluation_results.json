@@ -1,0 +1,1258 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "ALIGNPP{}_{\\text{P}}",
+                    "Dataset": "WTQ dev set",
+                    "Metric": "Ex.Match",
+                    "Enhancement": "None",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[Ex.Match]",
+                "outcomes": "[37.8\u00b10.6]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ALIGN_P",
+                    "Dataset": "WTQ",
+                    "Split": "Dev",
+                    "Standard Deviation": "0.6"
+                },
+                "measures": [
+                    "Ex.Match"
+                ],
+                "outcomes": [
+                    "37.8"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "ALIGNPP{}_{\\text{P}}",
+                    "Dataset": "WTQ dev set",
+                    "Metric": "Ex.Acc",
+                    "Enhancement": "None",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[Ex.Acc]",
+                "outcomes": "[56.9\u00b10.7]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ALIGN_P",
+                    "Dataset": "WTQ",
+                    "Split": "Dev",
+                    "Standard Deviation": "0.7"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "56.9"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "ALIGNPP{}_{\\text{P}}+BERT",
+                    "Dataset": "WTQ dev set",
+                    "Metric": "Ex.Match",
+                    "Enhancement": "BERT",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[Ex.Match]",
+                "outcomes": "[44.7\u00b12.1]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ALIGN_P",
+                    "Dataset": "WTQ",
+                    "Split": "Test",
+                    "Standard Deviation": "0.5"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "46.6"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "ALIGNPP{}_{\\text{P}}+BERT",
+                    "Dataset": "WTQ dev set",
+                    "Metric": "Ex.Match",
+                    "Enhancement": "BERT",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[Ex.Match]",
+                "outcomes": "[44.7\u00b12.1]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ALIGN_P+BERT",
+                    "Dataset": "WTQ",
+                    "Split": "Dev",
+                    "Standard Deviation": "2.1"
+                },
+                "measures": [
+                    "Ex.Match"
+                ],
+                "outcomes": [
+                    "44.7"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "ALIGNPP{}_{\\text{P}}+BERT",
+                    "Dataset": "WTQ dev set",
+                    "Metric": "Ex.Acc",
+                    "Enhancement": "BERT",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[Ex.Acc]",
+                "outcomes": "[63.8\u00b11.1]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ALIGN_P",
+                    "Dataset": "WTQ",
+                    "Split": "Test",
+                    "Standard Deviation": "0.5"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "46.6"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "ALIGNPP{}_{\\text{P}}+BERT",
+                    "Dataset": "WTQ dev set",
+                    "Metric": "Ex.Acc",
+                    "Enhancement": "BERT",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[Ex.Acc]",
+                "outcomes": "[63.8\u00b11.1]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ALIGN_P+BERT",
+                    "Dataset": "WTQ",
+                    "Split": "Dev",
+                    "Standard Deviation": "1.1"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "63.8"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "EtA+BERT",
+                    "Dataset": "WTQ dev set",
+                    "Metric": "Ex.Match",
+                    "Enhancement": "EtA",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[Ex.Match]",
+                "outcomes": "[47.6\u00b12.5]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ALIGN_P",
+                    "Dataset": "WTQ",
+                    "Split": "Test",
+                    "Standard Deviation": "0.5"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "46.6"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "EtA+BERT",
+                    "Dataset": "WTQ dev set",
+                    "Metric": "Ex.Match",
+                    "Enhancement": "EtA",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[Ex.Match]",
+                "outcomes": "[47.6\u00b12.5]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "WTQ",
+                    "Split": "Test",
+                    "Standard Deviation": "0.4"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "51.8"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "EtA+BERT",
+                    "Dataset": "WTQ dev set",
+                    "Metric": "Ex.Match",
+                    "Enhancement": "EtA",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[Ex.Match]",
+                "outcomes": "[47.6\u00b12.5]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "EtA+BERT",
+                    "Dataset": "WTQ",
+                    "Split": "Dev",
+                    "Standard Deviation": "2.5"
+                },
+                "measures": [
+                    "Ex.Match"
+                ],
+                "outcomes": [
+                    "47.6"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "EtA+BERT",
+                    "Dataset": "WTQ dev set",
+                    "Metric": "Ex.Acc",
+                    "Enhancement": "EtA",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[Ex.Acc]",
+                "outcomes": "[66.6\u00b11.7]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ALIGN_P",
+                    "Dataset": "WTQ",
+                    "Split": "Test",
+                    "Standard Deviation": "0.5"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "46.6"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "EtA+BERT",
+                    "Dataset": "WTQ dev set",
+                    "Metric": "Ex.Acc",
+                    "Enhancement": "EtA",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[Ex.Acc]",
+                "outcomes": "[66.6\u00b11.7]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "WTQ",
+                    "Split": "Test",
+                    "Standard Deviation": "0.4"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "51.8"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "EtA+BERT",
+                    "Dataset": "WTQ dev set",
+                    "Metric": "Ex.Acc",
+                    "Enhancement": "EtA",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[Ex.Acc]",
+                "outcomes": "[66.6\u00b11.7]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "EtA+BERT",
+                    "Dataset": "WTQ",
+                    "Split": "Dev",
+                    "Standard Deviation": "1.7"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "66.6"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "ALIGN <sup></sup>",
+                    "Dataset": "WTQ dev set",
+                    "Metric": "Ex.Match",
+                    "Enhancement": "None",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[Ex.Match]",
+                "outcomes": "[42.2\u00b11.5]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ALIGN_P",
+                    "Dataset": "WTQ",
+                    "Split": "Test",
+                    "Standard Deviation": "0.5"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "46.6"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "ALIGN <sup></sup>",
+                    "Dataset": "WTQ dev set",
+                    "Metric": "Ex.Match",
+                    "Enhancement": "None",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[Ex.Match]",
+                "outcomes": "[42.2\u00b11.5]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "WTQ",
+                    "Split": "Test",
+                    "Standard Deviation": "0.4"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "51.8"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "ALIGN <sup></sup>",
+                    "Dataset": "WTQ dev set",
+                    "Metric": "Ex.Match",
+                    "Enhancement": "None",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[Ex.Match]",
+                "outcomes": "[42.2\u00b11.5]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "EtA+BERT",
+                    "Dataset": "WTQ",
+                    "Split": "Test",
+                    "Standard Deviation": "0.3"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "53.8"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "ALIGN <sup></sup>",
+                    "Dataset": "WTQ dev set",
+                    "Metric": "Ex.Match",
+                    "Enhancement": "None",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[Ex.Match]",
+                "outcomes": "[42.2\u00b11.5]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ALIGN",
+                    "Dataset": "WTQ",
+                    "Split": "Dev",
+                    "Standard Deviation": "1.5"
+                },
+                "measures": [
+                    "Ex.Match"
+                ],
+                "outcomes": [
+                    "42.2"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "ALIGN <sup></sup>",
+                    "Dataset": "WTQ dev set",
+                    "Metric": "Ex.Acc",
+                    "Enhancement": "None",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[Ex.Acc]",
+                "outcomes": "[61.3\u00b10.8]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ALIGN_P",
+                    "Dataset": "WTQ",
+                    "Split": "Test",
+                    "Standard Deviation": "0.5"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "46.6"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "ALIGN <sup></sup>",
+                    "Dataset": "WTQ dev set",
+                    "Metric": "Ex.Acc",
+                    "Enhancement": "None",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[Ex.Acc]",
+                "outcomes": "[61.3\u00b10.8]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "WTQ",
+                    "Split": "Test",
+                    "Standard Deviation": "0.4"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "51.8"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "ALIGN <sup></sup>",
+                    "Dataset": "WTQ dev set",
+                    "Metric": "Ex.Acc",
+                    "Enhancement": "None",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[Ex.Acc]",
+                "outcomes": "[61.3\u00b10.8]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "EtA+BERT",
+                    "Dataset": "WTQ",
+                    "Split": "Test",
+                    "Standard Deviation": "0.3"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "53.8"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "ALIGN <sup></sup>",
+                    "Dataset": "WTQ dev set",
+                    "Metric": "Ex.Acc",
+                    "Enhancement": "None",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[Ex.Acc]",
+                "outcomes": "[61.3\u00b10.8]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ALIGN",
+                    "Dataset": "WTQ",
+                    "Split": "Dev",
+                    "Standard Deviation": "0.8"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "61.3"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "ALIGN+BERT <sup></sup>",
+                    "Dataset": "WTQ dev set",
+                    "Metric": "Ex.Match",
+                    "Enhancement": "BERT",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[Ex.Match]",
+                "outcomes": "[47.2\u00b11.2]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ALIGN_P",
+                    "Dataset": "WTQ",
+                    "Split": "Test",
+                    "Standard Deviation": "0.5"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "46.6"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "ALIGN+BERT <sup></sup>",
+                    "Dataset": "WTQ dev set",
+                    "Metric": "Ex.Match",
+                    "Enhancement": "BERT",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[Ex.Match]",
+                "outcomes": "[47.2\u00b11.2]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "WTQ",
+                    "Split": "Test",
+                    "Standard Deviation": "0.4"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "51.8"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "ALIGN+BERT <sup></sup>",
+                    "Dataset": "WTQ dev set",
+                    "Metric": "Ex.Match",
+                    "Enhancement": "BERT",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[Ex.Match]",
+                "outcomes": "[47.2\u00b11.2]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "EtA+BERT",
+                    "Dataset": "WTQ",
+                    "Split": "Test",
+                    "Standard Deviation": "0.3"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "53.8"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "ALIGN+BERT <sup></sup>",
+                    "Dataset": "WTQ dev set",
+                    "Metric": "Ex.Match",
+                    "Enhancement": "BERT",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[Ex.Match]",
+                "outcomes": "[47.2\u00b11.2]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ALIGN",
+                    "Dataset": "WTQ",
+                    "Split": "Test",
+                    "Standard Deviation": "0.4"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "49.7"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "ALIGN+BERT <sup></sup>",
+                    "Dataset": "WTQ dev set",
+                    "Metric": "Ex.Match",
+                    "Enhancement": "BERT",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[Ex.Match]",
+                "outcomes": "[47.2\u00b11.2]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ALIGN+BERT",
+                    "Dataset": "WTQ",
+                    "Split": "Dev",
+                    "Standard Deviation": "1.2"
+                },
+                "measures": [
+                    "Ex.Match"
+                ],
+                "outcomes": [
+                    "47.2"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "ALIGN+BERT <sup></sup>",
+                    "Dataset": "WTQ dev set",
+                    "Metric": "Ex.Acc",
+                    "Enhancement": "BERT",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[Ex.Acc]",
+                "outcomes": "[66.5\u00b11.2]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ALIGN_P",
+                    "Dataset": "WTQ",
+                    "Split": "Test",
+                    "Standard Deviation": "0.5"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "46.6"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "ALIGN+BERT <sup></sup>",
+                    "Dataset": "WTQ dev set",
+                    "Metric": "Ex.Acc",
+                    "Enhancement": "BERT",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[Ex.Acc]",
+                "outcomes": "[66.5\u00b11.2]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "WTQ",
+                    "Split": "Test",
+                    "Standard Deviation": "0.4"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "51.8"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "ALIGN+BERT <sup></sup>",
+                    "Dataset": "WTQ dev set",
+                    "Metric": "Ex.Acc",
+                    "Enhancement": "BERT",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[Ex.Acc]",
+                "outcomes": "[66.5\u00b11.2]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "EtA+BERT",
+                    "Dataset": "WTQ",
+                    "Split": "Test",
+                    "Standard Deviation": "0.3"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "53.8"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "ALIGN+BERT <sup></sup>",
+                    "Dataset": "WTQ dev set",
+                    "Metric": "Ex.Acc",
+                    "Enhancement": "BERT",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[Ex.Acc]",
+                "outcomes": "[66.5\u00b11.2]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ALIGN",
+                    "Dataset": "WTQ",
+                    "Split": "Test",
+                    "Standard Deviation": "0.4"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "49.7"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "ALIGN+BERT <sup></sup>",
+                    "Dataset": "WTQ dev set",
+                    "Metric": "Ex.Acc",
+                    "Enhancement": "BERT",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[Ex.Acc]",
+                "outcomes": "[66.5\u00b11.2]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ALIGN+BERT",
+                    "Dataset": "WTQ",
+                    "Split": "Dev",
+                    "Standard Deviation": "1.2"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "66.5"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "EtA+BERTLsubscriptBERTL\\text{BERT}_{\\text{L}}",
+                    "Dataset": "Spider",
+                    "Metric": "SLSQLPP{}_{\\text{P}}+BERT",
+                    "Enhancement": "EtA",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[SLSQLPP{}_{\\text{P}}+BERT]",
+                "outcomes": "[7.17.17.1%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ALIGN_P",
+                    "Dataset": "WTQ",
+                    "Split": "Test",
+                    "Standard Deviation": "0.5"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "46.6"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "EtA+BERTLsubscriptBERTL\\text{BERT}_{\\text{L}}",
+                    "Dataset": "Spider",
+                    "Metric": "SLSQLPP{}_{\\text{P}}+BERT",
+                    "Enhancement": "EtA",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[SLSQLPP{}_{\\text{P}}+BERT]",
+                "outcomes": "[7.17.17.1%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "WTQ",
+                    "Split": "Test",
+                    "Standard Deviation": "0.4"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "51.8"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "EtA+BERTLsubscriptBERTL\\text{BERT}_{\\text{L}}",
+                    "Dataset": "Spider",
+                    "Metric": "SLSQLPP{}_{\\text{P}}+BERT",
+                    "Enhancement": "EtA",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[SLSQLPP{}_{\\text{P}}+BERT]",
+                "outcomes": "[7.17.17.1%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "EtA+BERT",
+                    "Dataset": "WTQ",
+                    "Split": "Test",
+                    "Standard Deviation": "0.3"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "53.8"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "EtA+BERTLsubscriptBERTL\\text{BERT}_{\\text{L}}",
+                    "Dataset": "Spider",
+                    "Metric": "SLSQLPP{}_{\\text{P}}+BERT",
+                    "Enhancement": "EtA",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[SLSQLPP{}_{\\text{P}}+BERT]",
+                "outcomes": "[7.17.17.1%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ALIGN",
+                    "Dataset": "WTQ",
+                    "Split": "Test",
+                    "Standard Deviation": "0.4"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "49.7"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "EtA+BERTLsubscriptBERTL\\text{BERT}_{\\text{L}}",
+                    "Dataset": "Spider",
+                    "Metric": "SLSQLPP{}_{\\text{P}}+BERT",
+                    "Enhancement": "EtA",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[SLSQLPP{}_{\\text{P}}+BERT]",
+                "outcomes": "[7.17.17.1%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ALIGN+BERT",
+                    "Dataset": "WTQ",
+                    "Split": "Test",
+                    "Standard Deviation": "0.2"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "54.1"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "EtA+BERTLsubscriptBERTL\\text{BERT}_{\\text{L}}",
+                    "Dataset": "Spider",
+                    "Metric": "SLSQLPP{}_{\\text{P}}+BERT",
+                    "Enhancement": "EtA",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[SLSQLPP{}_{\\text{P}}+BERT]",
+                "outcomes": "[9.89.89.8%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ALIGN_P",
+                    "Dataset": "WTQ",
+                    "Split": "Test",
+                    "Standard Deviation": "0.5"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "46.6"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "EtA+BERTLsubscriptBERTL\\text{BERT}_{\\text{L}}",
+                    "Dataset": "Spider",
+                    "Metric": "SLSQLPP{}_{\\text{P}}+BERT",
+                    "Enhancement": "EtA",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[SLSQLPP{}_{\\text{P}}+BERT]",
+                "outcomes": "[9.89.89.8%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "WTQ",
+                    "Split": "Test",
+                    "Standard Deviation": "0.4"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "51.8"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "EtA+BERTLsubscriptBERTL\\text{BERT}_{\\text{L}}",
+                    "Dataset": "Spider",
+                    "Metric": "SLSQLPP{}_{\\text{P}}+BERT",
+                    "Enhancement": "EtA",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[SLSQLPP{}_{\\text{P}}+BERT]",
+                "outcomes": "[9.89.89.8%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "EtA+BERT",
+                    "Dataset": "WTQ",
+                    "Split": "Test",
+                    "Standard Deviation": "0.3"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "53.8"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "EtA+BERTLsubscriptBERTL\\text{BERT}_{\\text{L}}",
+                    "Dataset": "Spider",
+                    "Metric": "SLSQLPP{}_{\\text{P}}+BERT",
+                    "Enhancement": "EtA",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[SLSQLPP{}_{\\text{P}}+BERT]",
+                "outcomes": "[9.89.89.8%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ALIGN",
+                    "Dataset": "WTQ",
+                    "Split": "Test",
+                    "Standard Deviation": "0.4"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "49.7"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "EtA+BERTLsubscriptBERTL\\text{BERT}_{\\text{L}}",
+                    "Dataset": "Spider",
+                    "Metric": "SLSQLPP{}_{\\text{P}}+BERT",
+                    "Enhancement": "EtA",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[SLSQLPP{}_{\\text{P}}+BERT]",
+                "outcomes": "[9.89.89.8%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ALIGN+BERT",
+                    "Dataset": "WTQ",
+                    "Split": "Test",
+                    "Standard Deviation": "0.2"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "54.1"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "EtA+BERTLsubscriptBERTL\\text{BERT}_{\\text{L}}",
+                    "Dataset": "Spider",
+                    "Metric": "SLSQLPP{}_{\\text{P}}+BERT",
+                    "Enhancement": "EtA",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[SLSQLPP{}_{\\text{P}}+BERT]",
+                "outcomes": "[competitive performance]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ALIGN_P",
+                    "Dataset": "WTQ",
+                    "Split": "Test",
+                    "Standard Deviation": "0.5"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "46.6"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "EtA+BERTLsubscriptBERTL\\text{BERT}_{\\text{L}}",
+                    "Dataset": "Spider",
+                    "Metric": "SLSQLPP{}_{\\text{P}}+BERT",
+                    "Enhancement": "EtA",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[SLSQLPP{}_{\\text{P}}+BERT]",
+                "outcomes": "[competitive performance]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "WTQ",
+                    "Split": "Test",
+                    "Standard Deviation": "0.4"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "51.8"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "EtA+BERTLsubscriptBERTL\\text{BERT}_{\\text{L}}",
+                    "Dataset": "Spider",
+                    "Metric": "SLSQLPP{}_{\\text{P}}+BERT",
+                    "Enhancement": "EtA",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[SLSQLPP{}_{\\text{P}}+BERT]",
+                "outcomes": "[competitive performance]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "EtA+BERT",
+                    "Dataset": "WTQ",
+                    "Split": "Test",
+                    "Standard Deviation": "0.3"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "53.8"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "EtA+BERTLsubscriptBERTL\\text{BERT}_{\\text{L}}",
+                    "Dataset": "Spider",
+                    "Metric": "SLSQLPP{}_{\\text{P}}+BERT",
+                    "Enhancement": "EtA",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[SLSQLPP{}_{\\text{P}}+BERT]",
+                "outcomes": "[competitive performance]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ALIGN",
+                    "Dataset": "WTQ",
+                    "Split": "Test",
+                    "Standard Deviation": "0.4"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "49.7"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "EtA+BERTLsubscriptBERTL\\text{BERT}_{\\text{L}}",
+                    "Dataset": "Spider",
+                    "Metric": "SLSQLPP{}_{\\text{P}}+BERT",
+                    "Enhancement": "EtA",
+                    "Schema Linking Supervision": "None"
+                },
+                "measures": "[SLSQLPP{}_{\\text{P}}+BERT]",
+                "outcomes": "[competitive performance]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ALIGN+BERT",
+                    "Dataset": "WTQ",
+                    "Split": "Test",
+                    "Standard Deviation": "0.2"
+                },
+                "measures": [
+                    "Ex.Acc"
+                ],
+                "outcomes": [
+                    "54.1"
+                ]
+            },
+            "match": "no"
+        }
+    ],
+    "total_extracted_claims": 13,
+    "total_ground_truth_claims": 15,
+    "number_of_matches": 10
+}

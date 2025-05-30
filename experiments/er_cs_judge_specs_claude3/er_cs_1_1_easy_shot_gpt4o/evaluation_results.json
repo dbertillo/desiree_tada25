@@ -1,0 +1,5858 @@
+{
+    "2104.09677_5": {
+        "matched_specifications": [
+            [
+                "Dataset",
+                "German census data sets"
+            ],
+            [
+                "Runtime Step",
+                "Attribute selection step (Algorithm1)"
+            ],
+            [
+                "Threshold st",
+                "0.8"
+            ],
+            [
+                "Dataset",
+                "German census data sets"
+            ],
+            [
+                "Runtime Step",
+                "Signature generation step (Algorithm2)"
+            ],
+            [
+                "Threshold st",
+                "0.8"
+            ],
+            [
+                "Dataset",
+                "German census data sets"
+            ],
+            [
+                "Runtime Step",
+                "Record matching step (Algorithm3)"
+            ],
+            [
+                "Threshold st",
+                "0.8"
+            ],
+            [
+                "Dataset",
+                "German census data sets"
+            ],
+            [
+                "Threshold st",
+                "0.8"
+            ],
+            [
+                "Dataset",
+                "German census data sets"
+            ],
+            [
+                "Threshold st",
+                "0.8"
+            ]
+        ],
+        "unmatched_specifications": [
+            [
+                "Linkage Quality Metric",
+                "Precision"
+            ],
+            [
+                "Linkage Quality Metric",
+                "Recall"
+            ]
+        ],
+        "unmatched_extracted_keys": [
+            "Linkage Quality Metric"
+        ],
+        "unmatched_extracted_values": [
+            "Precision",
+            "Recall"
+        ],
+        "unmatched_ground_truth_keys": [
+            "Score weight",
+            "Attribute selection threshold",
+            "Algorithm"
+        ],
+        "unmatched_ground_truth_values": [
+            "0.6",
+            "Record matching",
+            "Signature generation",
+            "Attribute selection",
+            "0.5"
+        ],
+        "mapped_keys": {
+            "Dataset": "Dataset",
+            "Runtime Step": "Step",
+            "Threshold st": "Similarity threshold"
+        },
+        "mapped_values": {
+            "0.8": "0.8",
+            "German census data sets": "German census data sets",
+            "Attribute selection step (Algorithm1)": "Algorithm1",
+            "Signature generation step (Algorithm2)": "Algorithm2",
+            "Record matching step (Algorithm3)": "Algorithm3"
+        },
+        "precision": 0.8666666666666667,
+        "recall": 0.5
+    },
+    "2211.02161_4": {
+        "matched_specifications": [
+            [
+                "Method",
+                "BF"
+            ],
+            [
+                "Dataset",
+                "DBLP-ACM-C"
+            ],
+            [
+                "Runtime Unit",
+                "seconds"
+            ],
+            [
+                "Method",
+                "BF"
+            ],
+            [
+                "Dataset",
+                "DBLP-ACM-D"
+            ],
+            [
+                "Runtime Unit",
+                "seconds"
+            ],
+            [
+                "Method",
+                "BF"
+            ],
+            [
+                "Dataset",
+                "DBLP-Scholar-C"
+            ],
+            [
+                "Runtime Unit",
+                "seconds"
+            ],
+            [
+                "Method",
+                "BF"
+            ],
+            [
+                "Dataset",
+                "DBLP-Scholar-D"
+            ],
+            [
+                "Runtime Unit",
+                "seconds"
+            ],
+            [
+                "Method",
+                "BF"
+            ],
+            [
+                "Dataset",
+                "iTune-Amazon"
+            ],
+            [
+                "Runtime Unit",
+                "seconds"
+            ],
+            [
+                "Method",
+                "BF"
+            ],
+            [
+                "Dataset",
+                "Music-Brainz"
+            ],
+            [
+                "Runtime Unit",
+                "seconds"
+            ],
+            [
+                "Method",
+                "BF"
+            ],
+            [
+                "Dataset",
+                "Amazon-Google"
+            ],
+            [
+                "Runtime Unit",
+                "seconds"
+            ],
+            [
+                "Method",
+                "BF"
+            ],
+            [
+                "Dataset",
+                "NCVR"
+            ],
+            [
+                "Runtime Unit",
+                "seconds"
+            ],
+            [
+                "Method",
+                "BF"
+            ],
+            [
+                "Dataset",
+                "European Census"
+            ],
+            [
+                "Runtime Unit",
+                "seconds"
+            ],
+            [
+                "Method",
+                "DP-BF"
+            ],
+            [
+                "Dataset",
+                "DBLP-ACM-C"
+            ],
+            [
+                "Runtime Unit",
+                "seconds"
+            ],
+            [
+                "Method",
+                "DP-BF"
+            ],
+            [
+                "Dataset",
+                "DBLP-ACM-D"
+            ],
+            [
+                "Runtime Unit",
+                "seconds"
+            ],
+            [
+                "Method",
+                "DP-BF"
+            ],
+            [
+                "Dataset",
+                "DBLP-Scholar-C"
+            ],
+            [
+                "Runtime Unit",
+                "seconds"
+            ],
+            [
+                "Method",
+                "DP-BF"
+            ],
+            [
+                "Dataset",
+                "DBLP-Scholar-D"
+            ],
+            [
+                "Runtime Unit",
+                "seconds"
+            ],
+            [
+                "Method",
+                "DP-BF"
+            ],
+            [
+                "Dataset",
+                "iTune-Amazon"
+            ],
+            [
+                "Runtime Unit",
+                "seconds"
+            ],
+            [
+                "Method",
+                "DP-BF"
+            ],
+            [
+                "Dataset",
+                "Music-Brainz"
+            ],
+            [
+                "Runtime Unit",
+                "seconds"
+            ],
+            [
+                "Method",
+                "DP-BF"
+            ],
+            [
+                "Dataset",
+                "Amazon-Google"
+            ],
+            [
+                "Runtime Unit",
+                "seconds"
+            ],
+            [
+                "Method",
+                "DP-BF"
+            ],
+            [
+                "Dataset",
+                "NCVR"
+            ],
+            [
+                "Runtime Unit",
+                "seconds"
+            ],
+            [
+                "Method",
+                "DP-BF"
+            ],
+            [
+                "Dataset",
+                "European Census"
+            ],
+            [
+                "Runtime Unit",
+                "seconds"
+            ],
+            [
+                "Method",
+                "DL-BF"
+            ],
+            [
+                "Dataset",
+                "DBLP-ACM-C"
+            ],
+            [
+                "Runtime Unit",
+                "seconds"
+            ],
+            [
+                "Method",
+                "DL-BF"
+            ],
+            [
+                "Dataset",
+                "DBLP-ACM-D"
+            ],
+            [
+                "Runtime Unit",
+                "seconds"
+            ],
+            [
+                "Method",
+                "DL-BF"
+            ],
+            [
+                "Dataset",
+                "DBLP-Scholar-C"
+            ],
+            [
+                "Runtime Unit",
+                "seconds"
+            ],
+            [
+                "Method",
+                "DL-BF"
+            ],
+            [
+                "Dataset",
+                "DBLP-Scholar-D"
+            ],
+            [
+                "Runtime Unit",
+                "seconds"
+            ],
+            [
+                "Method",
+                "DL-BF"
+            ],
+            [
+                "Dataset",
+                "iTune-Amazon"
+            ],
+            [
+                "Runtime Unit",
+                "seconds"
+            ],
+            [
+                "Method",
+                "DL-BF"
+            ],
+            [
+                "Dataset",
+                "Music-Brainz"
+            ],
+            [
+                "Runtime Unit",
+                "seconds"
+            ],
+            [
+                "Method",
+                "DL-BF"
+            ],
+            [
+                "Dataset",
+                "Amazon-Google"
+            ],
+            [
+                "Runtime Unit",
+                "seconds"
+            ],
+            [
+                "Method",
+                "DL-BF"
+            ],
+            [
+                "Dataset",
+                "NCVR"
+            ],
+            [
+                "Runtime Unit",
+                "seconds"
+            ],
+            [
+                "Method",
+                "DL-BF"
+            ],
+            [
+                "Dataset",
+                "European Census"
+            ],
+            [
+                "Runtime Unit",
+                "seconds"
+            ],
+            [
+                "Method",
+                "DP-DL-BF"
+            ],
+            [
+                "Dataset",
+                "DBLP-ACM-C"
+            ],
+            [
+                "Runtime Unit",
+                "seconds"
+            ],
+            [
+                "Method",
+                "DP-DL-BF"
+            ],
+            [
+                "Dataset",
+                "DBLP-ACM-D"
+            ],
+            [
+                "Runtime Unit",
+                "seconds"
+            ],
+            [
+                "Method",
+                "DP-DL-BF"
+            ],
+            [
+                "Dataset",
+                "DBLP-Scholar-C"
+            ],
+            [
+                "Runtime Unit",
+                "seconds"
+            ],
+            [
+                "Method",
+                "DP-DL-BF"
+            ],
+            [
+                "Dataset",
+                "DBLP-Scholar-D"
+            ],
+            [
+                "Runtime Unit",
+                "seconds"
+            ],
+            [
+                "Method",
+                "DP-DL-BF"
+            ],
+            [
+                "Dataset",
+                "iTune-Amazon"
+            ],
+            [
+                "Runtime Unit",
+                "seconds"
+            ],
+            [
+                "Method",
+                "DP-DL-BF"
+            ],
+            [
+                "Dataset",
+                "Music-Brainz"
+            ],
+            [
+                "Runtime Unit",
+                "seconds"
+            ],
+            [
+                "Method",
+                "DP-DL-BF"
+            ],
+            [
+                "Dataset",
+                "Amazon-Google"
+            ],
+            [
+                "Runtime Unit",
+                "seconds"
+            ],
+            [
+                "Method",
+                "DP-DL-BF"
+            ],
+            [
+                "Dataset",
+                "NCVR"
+            ],
+            [
+                "Runtime Unit",
+                "seconds"
+            ],
+            [
+                "Method",
+                "DP-DL-BF"
+            ],
+            [
+                "Dataset",
+                "European Census"
+            ],
+            [
+                "Runtime Unit",
+                "seconds"
+            ]
+        ],
+        "unmatched_specifications": [],
+        "unmatched_extracted_keys": [],
+        "unmatched_extracted_values": [],
+        "unmatched_ground_truth_keys": [],
+        "unmatched_ground_truth_values": [],
+        "mapped_keys": {
+            "Method": "Method",
+            "Dataset": "Dataset",
+            "Runtime Unit": "Unit"
+        },
+        "mapped_values": {
+            "DBLP-Scholar-C": "DBLP-Scholar-C",
+            "iTune-Amazon": "iTune-Amazon",
+            "DP-DL-BF": "DP-DL-BF",
+            "DBLP-ACM-D": "DBLP-ACM-D",
+            "DL-BF": "DL-BF",
+            "DBLP-ACM-C": "DBLP-ACM-C",
+            "seconds": "seconds",
+            "DP-BF": "DP-BF",
+            "Amazon-Google": "Amazon-Google",
+            "European Census": "European Census",
+            "DBLP-Scholar-D": "DBLP-Scholar-D",
+            "Music-Brainz": "Music-Brainz",
+            "BF": "BF",
+            "NCVR": "NCVR"
+        },
+        "precision": 1.0,
+        "recall": 1.0
+    },
+    "2004.02008_4": {
+        "matched_specifications": [
+            [
+                "Model",
+                "DP"
+            ],
+            [
+                "Dataset",
+                "SDS"
+            ],
+            [
+                "Metric Type",
+                "Time-series MCMC error"
+            ],
+            [
+                "Reported Precision",
+                "One decimal place"
+            ],
+            [
+                "Computation Method",
+                "summary.mcmc from R package CODA"
+            ],
+            [
+                "Model",
+                "DP"
+            ],
+            [
+                "Dataset",
+                "SDS"
+            ],
+            [
+                "Metric Type",
+                "Time-series MCMC error"
+            ],
+            [
+                "Reported Precision",
+                "One decimal place"
+            ],
+            [
+                "Computation Method",
+                "summary.mcmc from R package CODA"
+            ],
+            [
+                "Model",
+                "DP"
+            ],
+            [
+                "Dataset",
+                "SIPP"
+            ],
+            [
+                "Metric Type",
+                "Time-series MCMC error"
+            ],
+            [
+                "Reported Precision",
+                "One decimal place"
+            ],
+            [
+                "Computation Method",
+                "summary.mcmc from R package CODA"
+            ],
+            [
+                "Model",
+                "DP"
+            ],
+            [
+                "Dataset",
+                "SIPP"
+            ],
+            [
+                "Metric Type",
+                "Time-series MCMC error"
+            ],
+            [
+                "Reported Precision",
+                "One decimal place"
+            ],
+            [
+                "Computation Method",
+                "summary.mcmc from R package CODA"
+            ],
+            [
+                "Model",
+                "PY"
+            ],
+            [
+                "Dataset",
+                "SDS"
+            ],
+            [
+                "Metric Type",
+                "Time-series MCMC error"
+            ],
+            [
+                "Reported Precision",
+                "One decimal place"
+            ],
+            [
+                "Computation Method",
+                "summary.mcmc from R package CODA"
+            ],
+            [
+                "Model",
+                "PY"
+            ],
+            [
+                "Dataset",
+                "SDS"
+            ],
+            [
+                "Metric Type",
+                "Time-series MCMC error"
+            ],
+            [
+                "Reported Precision",
+                "One decimal place"
+            ],
+            [
+                "Computation Method",
+                "summary.mcmc from R package CODA"
+            ],
+            [
+                "Model",
+                "PY"
+            ],
+            [
+                "Dataset",
+                "SIPP"
+            ],
+            [
+                "Metric Type",
+                "Time-series MCMC error"
+            ],
+            [
+                "Reported Precision",
+                "One decimal place"
+            ],
+            [
+                "Computation Method",
+                "summary.mcmc from R package CODA"
+            ],
+            [
+                "Model",
+                "PY"
+            ],
+            [
+                "Dataset",
+                "SIPP"
+            ],
+            [
+                "Metric Type",
+                "Time-series MCMC error"
+            ],
+            [
+                "Reported Precision",
+                "One decimal place"
+            ],
+            [
+                "Computation Method",
+                "summary.mcmc from R package CODA"
+            ],
+            [
+                "Model",
+                "ESCNB"
+            ],
+            [
+                "Dataset",
+                "SDS"
+            ],
+            [
+                "Metric Type",
+                "Time-series MCMC error"
+            ],
+            [
+                "Reported Precision",
+                "One decimal place"
+            ],
+            [
+                "Computation Method",
+                "summary.mcmc from R package CODA"
+            ],
+            [
+                "Model",
+                "ESCNB"
+            ],
+            [
+                "Dataset",
+                "SDS"
+            ],
+            [
+                "Metric Type",
+                "Time-series MCMC error"
+            ],
+            [
+                "Reported Precision",
+                "One decimal place"
+            ],
+            [
+                "Computation Method",
+                "summary.mcmc from R package CODA"
+            ],
+            [
+                "Model",
+                "ESCNB"
+            ],
+            [
+                "Dataset",
+                "SIPP"
+            ],
+            [
+                "Metric Type",
+                "Time-series MCMC error"
+            ],
+            [
+                "Reported Precision",
+                "One decimal place"
+            ],
+            [
+                "Computation Method",
+                "summary.mcmc from R package CODA"
+            ],
+            [
+                "Model",
+                "ESCNB"
+            ],
+            [
+                "Dataset",
+                "SIPP"
+            ],
+            [
+                "Metric Type",
+                "Time-series MCMC error"
+            ],
+            [
+                "Reported Precision",
+                "One decimal place"
+            ],
+            [
+                "Computation Method",
+                "summary.mcmc from R package CODA"
+            ],
+            [
+                "Model",
+                "ESCD"
+            ],
+            [
+                "Dataset",
+                "SDS"
+            ],
+            [
+                "Metric Type",
+                "Time-series MCMC error"
+            ],
+            [
+                "Reported Precision",
+                "One decimal place"
+            ],
+            [
+                "Computation Method",
+                "summary.mcmc from R package CODA"
+            ],
+            [
+                "Model",
+                "ESCD"
+            ],
+            [
+                "Dataset",
+                "SDS"
+            ],
+            [
+                "Metric Type",
+                "Time-series MCMC error"
+            ],
+            [
+                "Reported Precision",
+                "One decimal place"
+            ],
+            [
+                "Computation Method",
+                "summary.mcmc from R package CODA"
+            ],
+            [
+                "Model",
+                "ESCD"
+            ],
+            [
+                "Dataset",
+                "SIPP"
+            ],
+            [
+                "Metric Type",
+                "Time-series MCMC error"
+            ],
+            [
+                "Reported Precision",
+                "One decimal place"
+            ],
+            [
+                "Computation Method",
+                "summary.mcmc from R package CODA"
+            ],
+            [
+                "Model",
+                "ESCD"
+            ],
+            [
+                "Dataset",
+                "SIPP"
+            ],
+            [
+                "Metric Type",
+                "Time-series MCMC error"
+            ],
+            [
+                "Reported Precision",
+                "One decimal place"
+            ],
+            [
+                "Computation Method",
+                "summary.mcmc from R package CODA"
+            ]
+        ],
+        "unmatched_specifications": [],
+        "unmatched_extracted_keys": [],
+        "unmatched_extracted_values": [],
+        "unmatched_ground_truth_keys": [],
+        "unmatched_ground_truth_values": [],
+        "mapped_keys": {
+            "Dataset": "Dataset",
+            "Model": "Model",
+            "Computation Method": "Computation Method",
+            "Metric Type": "Metric Type",
+            "Reported Precision": "Reported Precision"
+        },
+        "mapped_values": {
+            "SDS": "SDS",
+            "ESCD": "ESCD",
+            "SIPP": "SIPP",
+            "DP": "DP",
+            "One decimal place": "One decimal place",
+            "Time-series MCMC error": "Time-series MCMC error",
+            "ESCNB": "ESCNB",
+            "PY": "PY",
+            "summary.mcmc from R package CODA": "summary.mcmc from R package CODA"
+        },
+        "precision": 1.0,
+        "recall": 1.0
+    },
+    "2310.12450_3": {
+        "matched_specifications": [
+            [
+                "Method",
+                "Baseline"
+            ],
+            [
+                "Subset",
+                "High Overlap (HO)"
+            ],
+            [
+                "Method",
+                "Baseline"
+            ],
+            [
+                "Subset",
+                "Multiple Categories (MC)"
+            ],
+            [
+                "Method",
+                "Baseline"
+            ],
+            [
+                "Subset",
+                "Ambiguous Substring (AS)"
+            ],
+            [
+                "Method",
+                "Baseline"
+            ],
+            [
+                "Subset",
+                "Low Overlap (LO)"
+            ],
+            [
+                "Method",
+                "BLINK*"
+            ],
+            [
+                "Subset",
+                "High Overlap (HO)"
+            ],
+            [
+                "Method",
+                "BLINK*"
+            ],
+            [
+                "Subset",
+                "Multiple Categories (MC)"
+            ],
+            [
+                "Method",
+                "BLINK*"
+            ],
+            [
+                "Subset",
+                "Ambiguous Substring (AS)"
+            ],
+            [
+                "Method",
+                "BLINK*"
+            ],
+            [
+                "Subset",
+                "Low Overlap (LO)"
+            ],
+            [
+                "Method",
+                "Uni-MPR"
+            ],
+            [
+                "Subset",
+                "High Overlap (HO)"
+            ],
+            [
+                "Method",
+                "Uni-MPR"
+            ],
+            [
+                "Subset",
+                "Multiple Categories (MC)"
+            ],
+            [
+                "Method",
+                "Uni-MPR"
+            ],
+            [
+                "Subset",
+                "Ambiguous Substring (AS)"
+            ],
+            [
+                "Method",
+                "Uni-MPR"
+            ],
+            [
+                "Subset",
+                "Low Overlap (LO)"
+            ],
+            [
+                "Method",
+                "Bi-MPR"
+            ],
+            [
+                "Subset",
+                "High Overlap (HO)"
+            ],
+            [
+                "Method",
+                "Bi-MPR"
+            ],
+            [
+                "Subset",
+                "Multiple Categories (MC)"
+            ],
+            [
+                "Method",
+                "Bi-MPR"
+            ],
+            [
+                "Subset",
+                "Ambiguous Substring (AS)"
+            ],
+            [
+                "Method",
+                "Bi-MPR"
+            ],
+            [
+                "Subset",
+                "Low Overlap (LO)"
+            ],
+            [
+                "Method",
+                "ReS"
+            ],
+            [
+                "Subset",
+                "High Overlap (HO)"
+            ],
+            [
+                "Method",
+                "ReS"
+            ],
+            [
+                "Subset",
+                "Multiple Categories (MC)"
+            ],
+            [
+                "Method",
+                "ReS"
+            ],
+            [
+                "Subset",
+                "Ambiguous Substring (AS)"
+            ],
+            [
+                "Method",
+                "ReS"
+            ],
+            [
+                "Subset",
+                "Low Overlap (LO)"
+            ],
+            [
+                "Method",
+                "ReS (w/o selecting)"
+            ],
+            [
+                "Subset",
+                "High Overlap (HO)"
+            ],
+            [
+                "Method",
+                "ReS (w/o selecting)"
+            ],
+            [
+                "Subset",
+                "Multiple Categories (MC)"
+            ],
+            [
+                "Method",
+                "ReS (w/o selecting)"
+            ],
+            [
+                "Subset",
+                "Ambiguous Substring (AS)"
+            ],
+            [
+                "Method",
+                "ReS (w/o selecting)"
+            ],
+            [
+                "Subset",
+                "Low Overlap (LO)"
+            ]
+        ],
+        "unmatched_specifications": [
+            [
+                "Category-Specific Subsets",
+                "Table 3"
+            ],
+            [
+                "Category-Specific Subsets",
+                "Table 3"
+            ],
+            [
+                "Category-Specific Subsets",
+                "Table 3"
+            ],
+            [
+                "Category-Specific Subsets",
+                "Table 3"
+            ],
+            [
+                "Category-Specific Subsets",
+                "Table 3"
+            ],
+            [
+                "Category-Specific Subsets",
+                "Table 3"
+            ],
+            [
+                "Category-Specific Subsets",
+                "Table 3"
+            ],
+            [
+                "Category-Specific Subsets",
+                "Table 3"
+            ],
+            [
+                "Category-Specific Subsets",
+                "Table 3"
+            ],
+            [
+                "Category-Specific Subsets",
+                "Table 3"
+            ],
+            [
+                "Category-Specific Subsets",
+                "Table 3"
+            ],
+            [
+                "Category-Specific Subsets",
+                "Table 3"
+            ],
+            [
+                "Category-Specific Subsets",
+                "Table 3"
+            ],
+            [
+                "Category-Specific Subsets",
+                "Table 3"
+            ],
+            [
+                "Category-Specific Subsets",
+                "Table 3"
+            ],
+            [
+                "Category-Specific Subsets",
+                "Table 3"
+            ],
+            [
+                "Category-Specific Subsets",
+                "Table 3"
+            ],
+            [
+                "Category-Specific Subsets",
+                "Table 3"
+            ],
+            [
+                "Category-Specific Subsets",
+                "Table 3"
+            ],
+            [
+                "Category-Specific Subsets",
+                "Table 3"
+            ],
+            [
+                "Category-Specific Subsets",
+                "Table 3"
+            ],
+            [
+                "Category-Specific Subsets",
+                "Table 3"
+            ],
+            [
+                "Category-Specific Subsets",
+                "Table 3"
+            ],
+            [
+                "Category-Specific Subsets",
+                "Table 3"
+            ]
+        ],
+        "unmatched_extracted_keys": [
+            "Category-Specific Subsets"
+        ],
+        "unmatched_extracted_values": [
+            "Table 3"
+        ],
+        "unmatched_ground_truth_keys": [
+            "Implementation"
+        ],
+        "unmatched_ground_truth_values": [
+            "Custom"
+        ],
+        "mapped_keys": {
+            "Subset": "Subset",
+            "Method": "Method"
+        },
+        "mapped_values": {
+            "ReS (w/o selecting)": "ReS (w/o selecting)",
+            "Low Overlap (LO)": "Low Overlap (LO)",
+            "High Overlap (HO)": "High Overlap (HO)",
+            "Ambiguous Substring (AS)": "Ambiguous Substring (AS)",
+            "BLINK*": "BLINK*",
+            "Baseline": "Baseline",
+            "Uni-MPR": "Uni-MPR",
+            "Multiple Categories (MC)": "Multiple Categories (MC)",
+            "ReS": "ReS",
+            "Bi-MPR": "Bi-MPR"
+        },
+        "precision": 0.6666666666666666,
+        "recall": 0.9230769230769231
+    },
+    "2404.05566_3": {
+        "matched_specifications": [
+            [
+                "Rank",
+                "1"
+            ],
+            [
+                "Dataset",
+                "Training"
+            ],
+            [
+                "Rank",
+                "1"
+            ],
+            [
+                "Dataset",
+                "Test"
+            ],
+            [
+                "Rank",
+                "2"
+            ],
+            [
+                "Dataset",
+                "Training"
+            ],
+            [
+                "Rank",
+                "2"
+            ],
+            [
+                "Dataset",
+                "Test"
+            ],
+            [
+                "Rank",
+                "3"
+            ],
+            [
+                "Dataset",
+                "Training"
+            ],
+            [
+                "Rank",
+                "3"
+            ],
+            [
+                "Dataset",
+                "Test"
+            ],
+            [
+                "Rank",
+                "4"
+            ],
+            [
+                "Dataset",
+                "Training"
+            ],
+            [
+                "Rank",
+                "4"
+            ],
+            [
+                "Dataset",
+                "Test"
+            ],
+            [
+                "Dataset",
+                "Training"
+            ],
+            [
+                "Dataset",
+                "Test"
+            ]
+        ],
+        "unmatched_specifications": [
+            [
+                "Description",
+                "Rank 1 indicates that the highest probability is associated with the 2016 household which is the correct match"
+            ],
+            [
+                "Description",
+                "Rank 1 indicates that the highest probability is associated with the 2016 household which is the correct match"
+            ],
+            [
+                "Description",
+                "Rank 2 implies that the match had the second-highest probability"
+            ],
+            [
+                "Description",
+                "Rank 2 implies that the match had the second-highest probability"
+            ],
+            [
+                "Description",
+                "Rank 3 implies that the match had the third-highest probability"
+            ],
+            [
+                "Description",
+                "Rank 3 implies that the match had the third-highest probability"
+            ],
+            [
+                "Description",
+                "Rank 4 implies that the match had the fourth-highest probability"
+            ],
+            [
+                "Description",
+                "Rank 4 implies that the match had the fourth-highest probability"
+            ],
+            [
+                "Rank",
+                "\u2265 5"
+            ],
+            [
+                "Description",
+                "Rank \u2265 5 implies that the match had the fifth-highest probability or lower"
+            ],
+            [
+                "Rank",
+                "\u2265 5"
+            ],
+            [
+                "Description",
+                "Rank \u2265 5 implies that the match had the fifth-highest probability or lower"
+            ]
+        ],
+        "unmatched_extracted_keys": [
+            "Description"
+        ],
+        "unmatched_extracted_values": [
+            "Rank 3 implies that the match had the third-highest probability",
+            "\u2265 5",
+            "Rank 1 indicates that the highest probability is associated with the 2016 household which is the correct match",
+            "Rank \u2265 5 implies that the match had the fifth-highest probability or lower",
+            "Rank 2 implies that the match had the second-highest probability",
+            "Rank 4 implies that the match had the fourth-highest probability"
+        ],
+        "unmatched_ground_truth_keys": [],
+        "unmatched_ground_truth_values": [
+            ">= 5"
+        ],
+        "mapped_keys": {
+            "Rank": "Rank",
+            "Dataset": "Dataset"
+        },
+        "mapped_values": {
+            "1": "1",
+            "3": "3",
+            "Test": "Test",
+            "4": "4",
+            "2": "2",
+            "Training": "Training"
+        },
+        "precision": 0.6,
+        "recall": 0.9
+    },
+    "1308.3357_1": {
+        "matched_specifications": [
+            [
+                "Serialization",
+                "N-Triples"
+            ],
+            [
+                "Dataset",
+                "SP2bench"
+            ],
+            [
+                "Experiment",
+                "Disk space estimation"
+            ],
+            [
+                "Database",
+                "CouchDB"
+            ],
+            [
+                "Database file compression",
+                "Off"
+            ],
+            [
+                "Serialization",
+                "Model 1"
+            ],
+            [
+                "Dataset",
+                "SP2bench"
+            ],
+            [
+                "Experiment",
+                "Disk space estimation"
+            ],
+            [
+                "Database",
+                "CouchDB"
+            ],
+            [
+                "Database file compression",
+                "Off"
+            ],
+            [
+                "Serialization",
+                "Model 2"
+            ],
+            [
+                "Dataset",
+                "SP2bench"
+            ],
+            [
+                "Experiment",
+                "Disk space estimation"
+            ],
+            [
+                "Database",
+                "CouchDB"
+            ],
+            [
+                "Database file compression",
+                "Off"
+            ],
+            [
+                "Serialization",
+                "Document per quad"
+            ],
+            [
+                "Dataset",
+                "SP2bench"
+            ],
+            [
+                "Experiment",
+                "Disk space estimation"
+            ],
+            [
+                "Database",
+                "CouchDB"
+            ],
+            [
+                "Database file compression",
+                "Off"
+            ]
+        ],
+        "unmatched_specifications": [],
+        "unmatched_extracted_keys": [],
+        "unmatched_extracted_values": [],
+        "unmatched_ground_truth_keys": [],
+        "unmatched_ground_truth_values": [],
+        "mapped_keys": {
+            "Database": "Database",
+            "Dataset": "Dataset",
+            "Experiment": "Experiment",
+            "Database file compression": "Database file compression",
+            "Serialization": "Serialization"
+        },
+        "mapped_values": {
+            "Model 2": "Model 2",
+            "Document per quad": "Document per quad",
+            "Model 1": "Model 1",
+            "CouchDB": "CouchDB",
+            "Off": "Off",
+            "N-Triples": "N-Triples",
+            "SP2bench": "SP2bench",
+            "Disk space estimation": "Disk space estimation"
+        },
+        "precision": 1.0,
+        "recall": 1.0
+    },
+    "2111.01767_2": {
+        "matched_specifications": [],
+        "unmatched_specifications": [],
+        "unmatched_extracted_keys": [],
+        "unmatched_extracted_values": [],
+        "unmatched_ground_truth_keys": [],
+        "unmatched_ground_truth_values": [],
+        "mapped_keys": {},
+        "mapped_values": {},
+        "precision": 0,
+        "recall": 0
+    },
+    "1906.08042_5": {
+        "matched_specifications": [
+            [
+                "Method",
+                "Train on Src"
+            ],
+            [
+                "Source Dataset",
+                "Zomato-Yelp"
+            ],
+            [
+                "Target Dataset",
+                "Fodors-Zagats"
+            ],
+            [
+                "Method",
+                "Train on Src"
+            ],
+            [
+                "Source Dataset",
+                "Zomato-Yelp"
+            ],
+            [
+                "Target Dataset",
+                "Fodors-Zagats"
+            ],
+            [
+                "Method",
+                "Train on Src"
+            ],
+            [
+                "Source Dataset",
+                "Zomato-Yelp"
+            ],
+            [
+                "Target Dataset",
+                "Fodors-Zagats"
+            ],
+            [
+                "Method",
+                "+Adaptation"
+            ],
+            [
+                "Source Dataset",
+                "Zomato-Yelp"
+            ],
+            [
+                "Target Dataset",
+                "Fodors-Zagats"
+            ],
+            [
+                "Method",
+                "+Adaptation"
+            ],
+            [
+                "Source Dataset",
+                "Zomato-Yelp"
+            ],
+            [
+                "Target Dataset",
+                "Fodors-Zagats"
+            ],
+            [
+                "Method",
+                "+Adaptation"
+            ],
+            [
+                "Source Dataset",
+                "Zomato-Yelp"
+            ],
+            [
+                "Target Dataset",
+                "Fodors-Zagats"
+            ],
+            [
+                "Method",
+                "+100 active labels"
+            ],
+            [
+                "Source Dataset",
+                "Zomato-Yelp"
+            ],
+            [
+                "Target Dataset",
+                "Fodors-Zagats"
+            ],
+            [
+                "Method",
+                "+100 active labels"
+            ],
+            [
+                "Source Dataset",
+                "Zomato-Yelp"
+            ],
+            [
+                "Target Dataset",
+                "Fodors-Zagats"
+            ],
+            [
+                "Method",
+                "+100 active labels"
+            ],
+            [
+                "Source Dataset",
+                "Zomato-Yelp"
+            ],
+            [
+                "Target Dataset",
+                "Fodors-Zagats"
+            ],
+            [
+                "Method",
+                "Train on Tgt"
+            ],
+            [
+                "Source Dataset",
+                "Zomato-Yelp"
+            ],
+            [
+                "Target Dataset",
+                "Fodors-Zagats"
+            ],
+            [
+                "Method",
+                "Train on Tgt"
+            ],
+            [
+                "Source Dataset",
+                "Zomato-Yelp"
+            ],
+            [
+                "Target Dataset",
+                "Fodors-Zagats"
+            ],
+            [
+                "Method",
+                "Train on Tgt"
+            ],
+            [
+                "Source Dataset",
+                "Zomato-Yelp"
+            ],
+            [
+                "Target Dataset",
+                "Fodors-Zagats"
+            ],
+            [
+                "Source Dataset",
+                "Zomato-Yelp"
+            ],
+            [
+                "Target Dataset",
+                "Fodors-Zagats"
+            ]
+        ],
+        "unmatched_specifications": [
+            [
+                "Genre",
+                "Restaurant"
+            ],
+            [
+                "Genre",
+                "Restaurant"
+            ],
+            [
+                "Genre",
+                "Restaurant"
+            ],
+            [
+                "Genre",
+                "Restaurant"
+            ],
+            [
+                "Genre",
+                "Restaurant"
+            ],
+            [
+                "Genre",
+                "Restaurant"
+            ],
+            [
+                "Genre",
+                "Restaurant"
+            ],
+            [
+                "Genre",
+                "Restaurant"
+            ],
+            [
+                "Genre",
+                "Restaurant"
+            ],
+            [
+                "Genre",
+                "Restaurant"
+            ],
+            [
+                "Genre",
+                "Restaurant"
+            ],
+            [
+                "Genre",
+                "Restaurant"
+            ],
+            [
+                "Method",
+                "Mudgal et al. (2018)"
+            ],
+            [
+                "Genre",
+                "Restaurant"
+            ]
+        ],
+        "unmatched_extracted_keys": [],
+        "unmatched_extracted_values": [
+            "Restaurant",
+            "Mudgal et al. (2018)"
+        ],
+        "unmatched_ground_truth_keys": [],
+        "unmatched_ground_truth_values": [
+            "Mudgal etal. (2018)",
+            "restaurant"
+        ],
+        "mapped_keys": {
+            "Source Dataset": "Source Dataset",
+            "Genre": "Genre",
+            "Target Dataset": "Target Dataset",
+            "Method": "Method"
+        },
+        "mapped_values": {
+            "Fodors-Zagats": "Fodors-Zagats",
+            "Train on Src": "Train on Src",
+            "Zomato-Yelp": "Zomato-Yelp",
+            "+Adaptation": "+Adaptation",
+            "+100 active labels": "+100 active labels",
+            "Train on Tgt": "Train on Tgt"
+        },
+        "precision": 0.7307692307692307,
+        "recall": 0.7307692307692307
+    },
+    "2106.14444_1": {
+        "matched_specifications": [
+            [
+                "System",
+                "Baseline"
+            ],
+            [
+                "Sub-task",
+                "Sub-task 1"
+            ],
+            [
+                "Dataset",
+                "DSTC9"
+            ],
+            [
+                "Evaluation",
+                "Human evaluation on a scale of 1-5"
+            ],
+            [
+                "System",
+                "Baseline"
+            ],
+            [
+                "Sub-task",
+                "Sub-task 2"
+            ],
+            [
+                "Dataset",
+                "DSTC9"
+            ],
+            [
+                "Evaluation",
+                "Human evaluation on a scale of 1-5"
+            ],
+            [
+                "System",
+                "Baseline"
+            ],
+            [
+                "Sub-task",
+                "Sub-task 3"
+            ],
+            [
+                "Dataset",
+                "DSTC9"
+            ],
+            [
+                "Evaluation",
+                "Human evaluation on a scale of 1-5"
+            ],
+            [
+                "System",
+                "Baseline"
+            ],
+            [
+                "Sub-task",
+                "Sub-task 3"
+            ],
+            [
+                "Dataset",
+                "DSTC9"
+            ],
+            [
+                "Evaluation",
+                "Human evaluation on a scale of 1-5"
+            ],
+            [
+                "System",
+                "Baseline"
+            ],
+            [
+                "Sub-task",
+                "Sub-task 3"
+            ],
+            [
+                "Dataset",
+                "DSTC9"
+            ],
+            [
+                "Evaluation",
+                "Human evaluation on a scale of 1-5"
+            ],
+            [
+                "System",
+                "Baseline"
+            ],
+            [
+                "Dataset",
+                "DSTC9"
+            ],
+            [
+                "Evaluation",
+                "Human evaluation on a scale of 1-5"
+            ],
+            [
+                "System",
+                "Baseline"
+            ],
+            [
+                "Dataset",
+                "DSTC9"
+            ],
+            [
+                "Evaluation",
+                "Human evaluation on a scale of 1-5"
+            ],
+            [
+                "System",
+                "Our system"
+            ],
+            [
+                "Sub-task",
+                "Sub-task 1"
+            ],
+            [
+                "Dataset",
+                "DSTC9"
+            ],
+            [
+                "Evaluation",
+                "Human evaluation on a scale of 1-5"
+            ],
+            [
+                "System",
+                "Our system"
+            ],
+            [
+                "Sub-task",
+                "Sub-task 2"
+            ],
+            [
+                "Dataset",
+                "DSTC9"
+            ],
+            [
+                "Evaluation",
+                "Human evaluation on a scale of 1-5"
+            ],
+            [
+                "System",
+                "Our system"
+            ],
+            [
+                "Sub-task",
+                "Sub-task 3"
+            ],
+            [
+                "Dataset",
+                "DSTC9"
+            ],
+            [
+                "Evaluation",
+                "Human evaluation on a scale of 1-5"
+            ],
+            [
+                "System",
+                "Our system"
+            ],
+            [
+                "Sub-task",
+                "Sub-task 3"
+            ],
+            [
+                "Dataset",
+                "DSTC9"
+            ],
+            [
+                "Evaluation",
+                "Human evaluation on a scale of 1-5"
+            ],
+            [
+                "System",
+                "Our system"
+            ],
+            [
+                "Sub-task",
+                "Sub-task 3"
+            ],
+            [
+                "Dataset",
+                "DSTC9"
+            ],
+            [
+                "Evaluation",
+                "Human evaluation on a scale of 1-5"
+            ],
+            [
+                "System",
+                "Our system"
+            ],
+            [
+                "Dataset",
+                "DSTC9"
+            ],
+            [
+                "Evaluation",
+                "Human evaluation on a scale of 1-5"
+            ],
+            [
+                "System",
+                "Our system"
+            ],
+            [
+                "Dataset",
+                "DSTC9"
+            ],
+            [
+                "Evaluation",
+                "Human evaluation on a scale of 1-5"
+            ]
+        ],
+        "unmatched_specifications": [
+            [
+                "Metric",
+                "F1"
+            ],
+            [
+                "Metric",
+                "R@1"
+            ],
+            [
+                "Metric",
+                "BLEU-1"
+            ],
+            [
+                "Metric",
+                "METEOR"
+            ],
+            [
+                "Metric",
+                "Rouge-L"
+            ],
+            [
+                "Metric",
+                "Accuracy"
+            ],
+            [
+                "Metric",
+                "Appropriateness"
+            ],
+            [
+                "Metric",
+                "F1"
+            ],
+            [
+                "Metric",
+                "R@1"
+            ],
+            [
+                "Metric",
+                "BLEU-1"
+            ],
+            [
+                "Metric",
+                "METEOR"
+            ],
+            [
+                "Metric",
+                "Rouge-L"
+            ],
+            [
+                "Metric",
+                "Accuracy"
+            ],
+            [
+                "Metric",
+                "Appropriateness"
+            ]
+        ],
+        "unmatched_extracted_keys": [
+            "Metric"
+        ],
+        "unmatched_extracted_values": [
+            "Appropriateness",
+            "R@1",
+            "BLEU-1",
+            "Accuracy",
+            "F1",
+            "METEOR",
+            "Rouge-L"
+        ],
+        "unmatched_ground_truth_keys": [],
+        "unmatched_ground_truth_values": [],
+        "mapped_keys": {
+            "Dataset": "Dataset",
+            "Sub-task": "Sub-task",
+            "Evaluation": "Evaluation",
+            "System": "System"
+        },
+        "mapped_values": {
+            "DSTC9": "DSTC9",
+            "Baseline": "Baseline",
+            "Our system": "Our system",
+            "Human evaluation on a scale of 1-5": "Human evaluation on a scale of 1-5",
+            "Sub-task 2": "Sub-task 2",
+            "Sub-task 3": "Sub-task 3",
+            "Sub-task 1": "Sub-task 1"
+        },
+        "precision": 0.7878787878787878,
+        "recall": 1.2380952380952381
+    },
+    "2209.07569_6": {
+        "matched_specifications": [
+            [
+                "Dataset",
+                "AmazonMI"
+            ],
+            [
+                "Model",
+                "In-parallel"
+            ],
+            [
+                "Intent",
+                "Equivalence"
+            ],
+            [
+                "Dataset",
+                "AmazonMI"
+            ],
+            [
+                "Model",
+                "In-parallel"
+            ],
+            [
+                "Intent",
+                "Equivalence"
+            ],
+            [
+                "Dataset",
+                "AmazonMI"
+            ],
+            [
+                "Model",
+                "In-parallel"
+            ],
+            [
+                "Intent",
+                "Equivalence"
+            ],
+            [
+                "Dataset",
+                "AmazonMI"
+            ],
+            [
+                "Model",
+                "In-parallel"
+            ],
+            [
+                "Intent",
+                "Equivalence"
+            ],
+            [
+                "Dataset",
+                "AmazonMI"
+            ],
+            [
+                "Model",
+                "Multi-label"
+            ],
+            [
+                "Intent",
+                "Equivalence"
+            ],
+            [
+                "Dataset",
+                "AmazonMI"
+            ],
+            [
+                "Model",
+                "Multi-label"
+            ],
+            [
+                "Intent",
+                "Equivalence"
+            ],
+            [
+                "Dataset",
+                "AmazonMI"
+            ],
+            [
+                "Model",
+                "Multi-label"
+            ],
+            [
+                "Intent",
+                "Equivalence"
+            ],
+            [
+                "Dataset",
+                "AmazonMI"
+            ],
+            [
+                "Model",
+                "Multi-label"
+            ],
+            [
+                "Intent",
+                "Equivalence"
+            ],
+            [
+                "Dataset",
+                "AmazonMI"
+            ],
+            [
+                "Model",
+                "FlexER"
+            ],
+            [
+                "Intent",
+                "Equivalence"
+            ],
+            [
+                "Dataset",
+                "AmazonMI"
+            ],
+            [
+                "Model",
+                "FlexER"
+            ],
+            [
+                "Intent",
+                "Equivalence"
+            ],
+            [
+                "Dataset",
+                "AmazonMI"
+            ],
+            [
+                "Model",
+                "FlexER"
+            ],
+            [
+                "Intent",
+                "Equivalence"
+            ],
+            [
+                "Dataset",
+                "AmazonMI"
+            ],
+            [
+                "Model",
+                "FlexER"
+            ],
+            [
+                "Intent",
+                "Equivalence"
+            ],
+            [
+                "Dataset",
+                "AmazonMI"
+            ],
+            [
+                "Model",
+                "FlexER"
+            ],
+            [
+                "Intent",
+                "Equivalence"
+            ],
+            [
+                "Dataset",
+                "Walmart-Amazon"
+            ],
+            [
+                "Model",
+                "In-parallel"
+            ],
+            [
+                "Intent",
+                "Equivalence"
+            ],
+            [
+                "Dataset",
+                "Walmart-Amazon"
+            ],
+            [
+                "Model",
+                "In-parallel"
+            ],
+            [
+                "Intent",
+                "Equivalence"
+            ],
+            [
+                "Dataset",
+                "Walmart-Amazon"
+            ],
+            [
+                "Model",
+                "In-parallel"
+            ],
+            [
+                "Intent",
+                "Equivalence"
+            ],
+            [
+                "Dataset",
+                "Walmart-Amazon"
+            ],
+            [
+                "Model",
+                "In-parallel"
+            ],
+            [
+                "Intent",
+                "Equivalence"
+            ],
+            [
+                "Dataset",
+                "Walmart-Amazon"
+            ],
+            [
+                "Model",
+                "Multi-label"
+            ],
+            [
+                "Intent",
+                "Equivalence"
+            ],
+            [
+                "Dataset",
+                "Walmart-Amazon"
+            ],
+            [
+                "Model",
+                "Multi-label"
+            ],
+            [
+                "Intent",
+                "Equivalence"
+            ],
+            [
+                "Dataset",
+                "Walmart-Amazon"
+            ],
+            [
+                "Model",
+                "Multi-label"
+            ],
+            [
+                "Intent",
+                "Equivalence"
+            ],
+            [
+                "Dataset",
+                "Walmart-Amazon"
+            ],
+            [
+                "Model",
+                "Multi-label"
+            ],
+            [
+                "Intent",
+                "Equivalence"
+            ],
+            [
+                "Dataset",
+                "Walmart-Amazon"
+            ],
+            [
+                "Model",
+                "FlexER"
+            ],
+            [
+                "Intent",
+                "Equivalence"
+            ],
+            [
+                "Dataset",
+                "Walmart-Amazon"
+            ],
+            [
+                "Model",
+                "FlexER"
+            ],
+            [
+                "Intent",
+                "Equivalence"
+            ],
+            [
+                "Dataset",
+                "Walmart-Amazon"
+            ],
+            [
+                "Model",
+                "FlexER"
+            ],
+            [
+                "Intent",
+                "Equivalence"
+            ],
+            [
+                "Dataset",
+                "Walmart-Amazon"
+            ],
+            [
+                "Model",
+                "FlexER"
+            ],
+            [
+                "Intent",
+                "Equivalence"
+            ],
+            [
+                "Dataset",
+                "Walmart-Amazon"
+            ],
+            [
+                "Model",
+                "FlexER"
+            ],
+            [
+                "Intent",
+                "Equivalence"
+            ],
+            [
+                "Dataset",
+                "WDC"
+            ],
+            [
+                "Model",
+                "In-parallel"
+            ],
+            [
+                "Intent",
+                "Equivalence"
+            ],
+            [
+                "Dataset",
+                "WDC"
+            ],
+            [
+                "Model",
+                "In-parallel"
+            ],
+            [
+                "Intent",
+                "Equivalence"
+            ],
+            [
+                "Dataset",
+                "WDC"
+            ],
+            [
+                "Model",
+                "In-parallel"
+            ],
+            [
+                "Intent",
+                "Equivalence"
+            ],
+            [
+                "Dataset",
+                "WDC"
+            ],
+            [
+                "Model",
+                "In-parallel"
+            ],
+            [
+                "Intent",
+                "Equivalence"
+            ],
+            [
+                "Dataset",
+                "WDC"
+            ],
+            [
+                "Model",
+                "Multi-label"
+            ],
+            [
+                "Intent",
+                "Equivalence"
+            ],
+            [
+                "Dataset",
+                "WDC"
+            ],
+            [
+                "Model",
+                "Multi-label"
+            ],
+            [
+                "Intent",
+                "Equivalence"
+            ],
+            [
+                "Dataset",
+                "WDC"
+            ],
+            [
+                "Model",
+                "Multi-label"
+            ],
+            [
+                "Intent",
+                "Equivalence"
+            ],
+            [
+                "Dataset",
+                "WDC"
+            ],
+            [
+                "Model",
+                "Multi-label"
+            ],
+            [
+                "Intent",
+                "Equivalence"
+            ],
+            [
+                "Dataset",
+                "WDC"
+            ],
+            [
+                "Model",
+                "FlexER"
+            ],
+            [
+                "Intent",
+                "Equivalence"
+            ],
+            [
+                "Dataset",
+                "WDC"
+            ],
+            [
+                "Model",
+                "FlexER"
+            ],
+            [
+                "Intent",
+                "Equivalence"
+            ],
+            [
+                "Dataset",
+                "WDC"
+            ],
+            [
+                "Model",
+                "FlexER"
+            ],
+            [
+                "Intent",
+                "Equivalence"
+            ],
+            [
+                "Dataset",
+                "WDC"
+            ],
+            [
+                "Model",
+                "FlexER"
+            ],
+            [
+                "Intent",
+                "Equivalence"
+            ],
+            [
+                "Dataset",
+                "WDC"
+            ],
+            [
+                "Model",
+                "FlexER"
+            ],
+            [
+                "Intent",
+                "Equivalence"
+            ]
+        ],
+        "unmatched_specifications": [],
+        "unmatched_extracted_keys": [],
+        "unmatched_extracted_values": [],
+        "unmatched_ground_truth_keys": [],
+        "unmatched_ground_truth_values": [],
+        "mapped_keys": {
+            "Model": "Model",
+            "Intent": "Intent",
+            "Dataset": "Dataset"
+        },
+        "mapped_values": {
+            "In-parallel": "In-parallel",
+            "Multi-label": "Multi-label",
+            "WDC": "WDC",
+            "Equivalence": "Equivalence",
+            "FlexER": "FlexER",
+            "AmazonMI": "AmazonMI",
+            "Walmart-Amazon": "Walmart-Amazon"
+        },
+        "precision": 1.0,
+        "recall": 1.0
+    },
+    "2301.09521_5": {
+        "matched_specifications": [
+            [
+                "Experiment",
+                "Multi-class matching"
+            ],
+            [
+                "Development Set Size",
+                "Small"
+            ],
+            [
+                "Corner-Cases",
+                "80%"
+            ],
+            [
+                "Method",
+                "Word-Occ"
+            ],
+            [
+                "Experiment",
+                "Multi-class matching"
+            ],
+            [
+                "Development Set Size",
+                "Small"
+            ],
+            [
+                "Corner-Cases",
+                "80%"
+            ],
+            [
+                "Method",
+                "RoBERTa"
+            ],
+            [
+                "Experiment",
+                "Multi-class matching"
+            ],
+            [
+                "Development Set Size",
+                "Small"
+            ],
+            [
+                "Corner-Cases",
+                "80%"
+            ],
+            [
+                "Method",
+                "R-SupCon"
+            ],
+            [
+                "Experiment",
+                "Multi-class matching"
+            ],
+            [
+                "Development Set Size",
+                "Medium"
+            ],
+            [
+                "Corner-Cases",
+                "80%"
+            ],
+            [
+                "Method",
+                "Word-Occ"
+            ],
+            [
+                "Experiment",
+                "Multi-class matching"
+            ],
+            [
+                "Development Set Size",
+                "Medium"
+            ],
+            [
+                "Corner-Cases",
+                "80%"
+            ],
+            [
+                "Method",
+                "RoBERTa"
+            ],
+            [
+                "Experiment",
+                "Multi-class matching"
+            ],
+            [
+                "Development Set Size",
+                "Medium"
+            ],
+            [
+                "Corner-Cases",
+                "80%"
+            ],
+            [
+                "Method",
+                "R-SupCon"
+            ],
+            [
+                "Experiment",
+                "Multi-class matching"
+            ],
+            [
+                "Development Set Size",
+                "Large"
+            ],
+            [
+                "Corner-Cases",
+                "80%"
+            ],
+            [
+                "Method",
+                "Word-Occ"
+            ],
+            [
+                "Experiment",
+                "Multi-class matching"
+            ],
+            [
+                "Development Set Size",
+                "Large"
+            ],
+            [
+                "Corner-Cases",
+                "80%"
+            ],
+            [
+                "Method",
+                "RoBERTa"
+            ],
+            [
+                "Experiment",
+                "Multi-class matching"
+            ],
+            [
+                "Development Set Size",
+                "Large"
+            ],
+            [
+                "Corner-Cases",
+                "80%"
+            ],
+            [
+                "Method",
+                "R-SupCon"
+            ],
+            [
+                "Experiment",
+                "Multi-class matching"
+            ],
+            [
+                "Development Set Size",
+                "Small"
+            ],
+            [
+                "Corner-Cases",
+                "50%"
+            ],
+            [
+                "Method",
+                "Word-Occ"
+            ],
+            [
+                "Experiment",
+                "Multi-class matching"
+            ],
+            [
+                "Development Set Size",
+                "Small"
+            ],
+            [
+                "Corner-Cases",
+                "50%"
+            ],
+            [
+                "Method",
+                "RoBERTa"
+            ],
+            [
+                "Experiment",
+                "Multi-class matching"
+            ],
+            [
+                "Development Set Size",
+                "Small"
+            ],
+            [
+                "Corner-Cases",
+                "50%"
+            ],
+            [
+                "Method",
+                "R-SupCon"
+            ],
+            [
+                "Experiment",
+                "Multi-class matching"
+            ],
+            [
+                "Development Set Size",
+                "Medium"
+            ],
+            [
+                "Corner-Cases",
+                "50%"
+            ],
+            [
+                "Method",
+                "Word-Occ"
+            ],
+            [
+                "Experiment",
+                "Multi-class matching"
+            ],
+            [
+                "Development Set Size",
+                "Medium"
+            ],
+            [
+                "Corner-Cases",
+                "50%"
+            ],
+            [
+                "Method",
+                "RoBERTa"
+            ],
+            [
+                "Experiment",
+                "Multi-class matching"
+            ],
+            [
+                "Development Set Size",
+                "Medium"
+            ],
+            [
+                "Corner-Cases",
+                "50%"
+            ],
+            [
+                "Method",
+                "R-SupCon"
+            ],
+            [
+                "Experiment",
+                "Multi-class matching"
+            ],
+            [
+                "Development Set Size",
+                "Large"
+            ],
+            [
+                "Corner-Cases",
+                "50%"
+            ],
+            [
+                "Method",
+                "Word-Occ"
+            ],
+            [
+                "Experiment",
+                "Multi-class matching"
+            ],
+            [
+                "Development Set Size",
+                "Large"
+            ],
+            [
+                "Corner-Cases",
+                "50%"
+            ],
+            [
+                "Method",
+                "RoBERTa"
+            ],
+            [
+                "Experiment",
+                "Multi-class matching"
+            ],
+            [
+                "Development Set Size",
+                "Large"
+            ],
+            [
+                "Corner-Cases",
+                "50%"
+            ],
+            [
+                "Method",
+                "R-SupCon"
+            ],
+            [
+                "Experiment",
+                "Multi-class matching"
+            ],
+            [
+                "Development Set Size",
+                "Small"
+            ],
+            [
+                "Corner-Cases",
+                "20%"
+            ],
+            [
+                "Method",
+                "Word-Occ"
+            ],
+            [
+                "Experiment",
+                "Multi-class matching"
+            ],
+            [
+                "Development Set Size",
+                "Small"
+            ],
+            [
+                "Corner-Cases",
+                "20%"
+            ],
+            [
+                "Method",
+                "RoBERTa"
+            ],
+            [
+                "Experiment",
+                "Multi-class matching"
+            ],
+            [
+                "Development Set Size",
+                "Small"
+            ],
+            [
+                "Corner-Cases",
+                "20%"
+            ],
+            [
+                "Method",
+                "R-SupCon"
+            ],
+            [
+                "Experiment",
+                "Multi-class matching"
+            ],
+            [
+                "Development Set Size",
+                "Medium"
+            ],
+            [
+                "Corner-Cases",
+                "20%"
+            ],
+            [
+                "Method",
+                "Word-Occ"
+            ],
+            [
+                "Experiment",
+                "Multi-class matching"
+            ],
+            [
+                "Development Set Size",
+                "Medium"
+            ],
+            [
+                "Corner-Cases",
+                "20%"
+            ],
+            [
+                "Method",
+                "RoBERTa"
+            ],
+            [
+                "Experiment",
+                "Multi-class matching"
+            ],
+            [
+                "Development Set Size",
+                "Medium"
+            ],
+            [
+                "Corner-Cases",
+                "20%"
+            ],
+            [
+                "Method",
+                "R-SupCon"
+            ],
+            [
+                "Experiment",
+                "Multi-class matching"
+            ],
+            [
+                "Development Set Size",
+                "Large"
+            ],
+            [
+                "Corner-Cases",
+                "20%"
+            ],
+            [
+                "Method",
+                "Word-Occ"
+            ],
+            [
+                "Experiment",
+                "Multi-class matching"
+            ],
+            [
+                "Development Set Size",
+                "Large"
+            ],
+            [
+                "Corner-Cases",
+                "20%"
+            ],
+            [
+                "Method",
+                "RoBERTa"
+            ],
+            [
+                "Experiment",
+                "Multi-class matching"
+            ],
+            [
+                "Development Set Size",
+                "Large"
+            ],
+            [
+                "Corner-Cases",
+                "20%"
+            ],
+            [
+                "Method",
+                "R-SupCon"
+            ]
+        ],
+        "unmatched_specifications": [],
+        "unmatched_extracted_keys": [],
+        "unmatched_extracted_values": [],
+        "unmatched_ground_truth_keys": [],
+        "unmatched_ground_truth_values": [],
+        "mapped_keys": {
+            "Corner-Cases": "Corner-Cases",
+            "Experiment": "Experiment",
+            "Method": "Method",
+            "Development Set Size": "Development Set Size"
+        },
+        "mapped_values": {
+            "20%": "20%",
+            "RoBERTa": "RoBERTa",
+            "Word-Occ": "Word-Occ",
+            "Large": "Large",
+            "Medium": "Medium",
+            "Small": "Small",
+            "50%": "50%",
+            "80%": "80%",
+            "R-SupCon": "R-SupCon",
+            "Multi-class matching": "Multi-class matching"
+        },
+        "precision": 1.0,
+        "recall": 1.0
+    },
+    "1305.2254_6": {
+        "matched_specifications": [
+            [
+                "Model",
+                "MLN(Fig1)"
+            ],
+            [
+                "Dataset",
+                "CORA citation-matching"
+            ],
+            [
+                "Model",
+                "MLN(Fig1)"
+            ],
+            [
+                "Dataset",
+                "CORA citation-matching"
+            ],
+            [
+                "Model",
+                "MLN(Fig1)"
+            ],
+            [
+                "Dataset",
+                "CORA citation-matching"
+            ],
+            [
+                "Model",
+                "MLN(Fig1)"
+            ],
+            [
+                "Dataset",
+                "CORA citation-matching"
+            ],
+            [
+                "Model",
+                "MLN(S&D)"
+            ],
+            [
+                "Dataset",
+                "CORA citation-matching"
+            ],
+            [
+                "Model",
+                "MLN(S&D)"
+            ],
+            [
+                "Dataset",
+                "CORA citation-matching"
+            ],
+            [
+                "Model",
+                "MLN(S&D)"
+            ],
+            [
+                "Dataset",
+                "CORA citation-matching"
+            ],
+            [
+                "Model",
+                "MLN(S&D)"
+            ],
+            [
+                "Dataset",
+                "CORA citation-matching"
+            ],
+            [
+                "Dataset",
+                "CORA citation-matching"
+            ],
+            [
+                "Dataset",
+                "CORA citation-matching"
+            ],
+            [
+                "Dataset",
+                "CORA citation-matching"
+            ],
+            [
+                "Dataset",
+                "CORA citation-matching"
+            ],
+            [
+                "Model",
+                "ProPPR"
+            ],
+            [
+                "Dataset",
+                "CORA citation-matching"
+            ],
+            [
+                "Model",
+                "ProPPR"
+            ],
+            [
+                "Dataset",
+                "CORA citation-matching"
+            ],
+            [
+                "Model",
+                "ProPPR"
+            ],
+            [
+                "Dataset",
+                "CORA citation-matching"
+            ],
+            [
+                "Model",
+                "ProPPR"
+            ],
+            [
+                "Dataset",
+                "CORA citation-matching"
+            ]
+        ],
+        "unmatched_specifications": [
+            [
+                "Evaluation Procedure",
+                "AUC"
+            ],
+            [
+                "Training System",
+                "Alchemy"
+            ],
+            [
+                "Training Commands",
+                "Recommended commands for CORA citation-matching data"
+            ],
+            [
+                "Evaluation Procedure",
+                "AUC"
+            ],
+            [
+                "Training System",
+                "Alchemy"
+            ],
+            [
+                "Training Commands",
+                "Recommended commands for CORA citation-matching data"
+            ],
+            [
+                "Evaluation Procedure",
+                "AUC"
+            ],
+            [
+                "Training System",
+                "Alchemy"
+            ],
+            [
+                "Training Commands",
+                "Recommended commands for CORA citation-matching data"
+            ],
+            [
+                "Evaluation Procedure",
+                "AUC"
+            ],
+            [
+                "Training System",
+                "Alchemy"
+            ],
+            [
+                "Training Commands",
+                "Recommended commands for CORA citation-matching data"
+            ],
+            [
+                "Evaluation Procedure",
+                "AUC"
+            ],
+            [
+                "Training System",
+                "Alchemy"
+            ],
+            [
+                "Training Commands",
+                "Recommended commands for CORA citation-matching data"
+            ],
+            [
+                "Evaluation Procedure",
+                "AUC"
+            ],
+            [
+                "Training System",
+                "Alchemy"
+            ],
+            [
+                "Training Commands",
+                "Recommended commands for CORA citation-matching data"
+            ],
+            [
+                "Evaluation Procedure",
+                "AUC"
+            ],
+            [
+                "Training System",
+                "Alchemy"
+            ],
+            [
+                "Training Commands",
+                "Recommended commands for CORA citation-matching data"
+            ],
+            [
+                "Evaluation Procedure",
+                "AUC"
+            ],
+            [
+                "Training System",
+                "Alchemy"
+            ],
+            [
+                "Training Commands",
+                "Recommended commands for CORA citation-matching data"
+            ],
+            [
+                "Model",
+                "ProPPR(w=1)"
+            ],
+            [
+                "Evaluation Procedure",
+                "AUC"
+            ],
+            [
+                "Training System",
+                "Alchemy"
+            ],
+            [
+                "Training Commands",
+                "Recommended commands for CORA citation-matching data"
+            ],
+            [
+                "Model",
+                "ProPPR(w=1)"
+            ],
+            [
+                "Evaluation Procedure",
+                "AUC"
+            ],
+            [
+                "Training System",
+                "Alchemy"
+            ],
+            [
+                "Training Commands",
+                "Recommended commands for CORA citation-matching data"
+            ],
+            [
+                "Model",
+                "ProPPR(w=1)"
+            ],
+            [
+                "Evaluation Procedure",
+                "AUC"
+            ],
+            [
+                "Training System",
+                "Alchemy"
+            ],
+            [
+                "Training Commands",
+                "Recommended commands for CORA citation-matching data"
+            ],
+            [
+                "Model",
+                "ProPPR(w=1)"
+            ],
+            [
+                "Evaluation Procedure",
+                "AUC"
+            ],
+            [
+                "Training System",
+                "Alchemy"
+            ],
+            [
+                "Training Commands",
+                "Recommended commands for CORA citation-matching data"
+            ],
+            [
+                "Evaluation Procedure",
+                "AUC"
+            ],
+            [
+                "Training System",
+                "Alchemy"
+            ],
+            [
+                "Training Commands",
+                "Recommended commands for CORA citation-matching data"
+            ],
+            [
+                "Evaluation Procedure",
+                "AUC"
+            ],
+            [
+                "Training System",
+                "Alchemy"
+            ],
+            [
+                "Training Commands",
+                "Recommended commands for CORA citation-matching data"
+            ],
+            [
+                "Evaluation Procedure",
+                "AUC"
+            ],
+            [
+                "Training System",
+                "Alchemy"
+            ],
+            [
+                "Training Commands",
+                "Recommended commands for CORA citation-matching data"
+            ],
+            [
+                "Evaluation Procedure",
+                "AUC"
+            ],
+            [
+                "Training System",
+                "Alchemy"
+            ],
+            [
+                "Training Commands",
+                "Recommended commands for CORA citation-matching data"
+            ]
+        ],
+        "unmatched_extracted_keys": [
+            "Training System",
+            "Training Commands",
+            "Evaluation Procedure"
+        ],
+        "unmatched_extracted_values": [
+            "ProPPR(w=1)",
+            "Recommended commands for CORA citation-matching data",
+            "AUC"
+        ],
+        "unmatched_ground_truth_keys": [
+            "Task",
+            "w",
+            "Trained with"
+        ],
+        "unmatched_ground_truth_values": [
+            "Authors",
+            "Venues",
+            "1",
+            "Titles",
+            "Cites"
+        ],
+        "mapped_keys": {
+            "Dataset": "Dataset",
+            "Model": "Model"
+        },
+        "mapped_values": {
+            "MLN(S&D)": "MLN(S&D)",
+            "ProPPR": "ProPPR",
+            "MLN(Fig1)": "MLN(Fig1)",
+            "CORA citation-matching": "CORA citation-matching",
+            "Alchemy": "State-of-the-art Alchemy system"
+        },
+        "precision": 0.35,
+        "recall": 0.4666666666666667
+    },
+    "2003.04238_8": {
+        "matched_specifications": [
+            [
+                "Method",
+                "Bayesian"
+            ],
+            [
+                "Specification",
+                "baseline"
+            ],
+            [
+                "Parameters",
+                "\u03bb=(1,1,2)"
+            ],
+            [
+                "Dataset",
+                "Union Army"
+            ],
+            [
+                "Method",
+                "Bayesian"
+            ],
+            [
+                "Specification",
+                "baseline"
+            ],
+            [
+                "Parameters",
+                "\u03bb=(1,1,2)"
+            ],
+            [
+                "Dataset",
+                "Union Army"
+            ],
+            [
+                "Method",
+                "Bayesian"
+            ],
+            [
+                "Specification",
+                "baseline"
+            ],
+            [
+                "Parameters",
+                "\u03bb=(1,1,2)"
+            ],
+            [
+                "Dataset",
+                "Union Army"
+            ],
+            [
+                "Method",
+                "Bayesian"
+            ],
+            [
+                "Specification",
+                "baseline"
+            ],
+            [
+                "Parameters",
+                "\u03bb=(1,1,2)"
+            ],
+            [
+                "Dataset",
+                "Union Army"
+            ],
+            [
+                "Specification",
+                "common names"
+            ],
+            [
+                "Parameters",
+                "\u03bb=(1,1,2)"
+            ],
+            [
+                "Dataset",
+                "Union Army"
+            ],
+            [
+                "Specification",
+                "common names"
+            ],
+            [
+                "Parameters",
+                "\u03bb=(1,1,2)"
+            ],
+            [
+                "Dataset",
+                "Union Army"
+            ],
+            [
+                "Specification",
+                "common names"
+            ],
+            [
+                "Parameters",
+                "\u03bb=(1,1,2)"
+            ],
+            [
+                "Dataset",
+                "Union Army"
+            ],
+            [
+                "Specification",
+                "common names"
+            ],
+            [
+                "Parameters",
+                "\u03bb=(1,1,2)"
+            ],
+            [
+                "Dataset",
+                "Union Army"
+            ],
+            [
+                "Specification",
+                "record-specific"
+            ],
+            [
+                "Parameters",
+                "\u03bb=(1,1,2)"
+            ],
+            [
+                "Dataset",
+                "Union Army"
+            ],
+            [
+                "Specification",
+                "record-specific"
+            ],
+            [
+                "Parameters",
+                "\u03bb=(1,1,2)"
+            ],
+            [
+                "Dataset",
+                "Union Army"
+            ],
+            [
+                "Specification",
+                "record-specific"
+            ],
+            [
+                "Parameters",
+                "\u03bb=(1,1,2)"
+            ],
+            [
+                "Dataset",
+                "Union Army"
+            ],
+            [
+                "Specification",
+                "record-specific"
+            ],
+            [
+                "Parameters",
+                "\u03bb=(1,1,2)"
+            ],
+            [
+                "Dataset",
+                "Union Army"
+            ],
+            [
+                "Specification",
+                "record-specific"
+            ],
+            [
+                "Parameters",
+                "\u03bb=(1,2,4)"
+            ],
+            [
+                "Dataset",
+                "Union Army"
+            ],
+            [
+                "Specification",
+                "record-specific"
+            ],
+            [
+                "Parameters",
+                "\u03bb=(1,2,4)"
+            ],
+            [
+                "Dataset",
+                "Union Army"
+            ],
+            [
+                "Specification",
+                "record-specific"
+            ],
+            [
+                "Parameters",
+                "\u03bb=(1,2,4)"
+            ],
+            [
+                "Dataset",
+                "Union Army"
+            ],
+            [
+                "Specification",
+                "record-specific"
+            ],
+            [
+                "Parameters",
+                "\u03bb=(1,2,4)"
+            ],
+            [
+                "Dataset",
+                "Union Army"
+            ],
+            [
+                "Specification",
+                "record-specific"
+            ],
+            [
+                "Parameters",
+                "\u03bb=(1,3,6)"
+            ],
+            [
+                "Dataset",
+                "Union Army"
+            ],
+            [
+                "Specification",
+                "record-specific"
+            ],
+            [
+                "Parameters",
+                "\u03bb=(1,3,6)"
+            ],
+            [
+                "Dataset",
+                "Union Army"
+            ],
+            [
+                "Specification",
+                "record-specific"
+            ],
+            [
+                "Parameters",
+                "\u03bb=(1,3,6)"
+            ],
+            [
+                "Dataset",
+                "Union Army"
+            ],
+            [
+                "Specification",
+                "record-specific"
+            ],
+            [
+                "Parameters",
+                "\u03bb=(1,3,6)"
+            ],
+            [
+                "Dataset",
+                "Union Army"
+            ]
+        ],
+        "unmatched_specifications": [
+            [
+                "Method",
+                "-"
+            ],
+            [
+                "Method",
+                "-"
+            ],
+            [
+                "Method",
+                "-"
+            ],
+            [
+                "Method",
+                "-"
+            ],
+            [
+                "Method",
+                "-"
+            ],
+            [
+                "Method",
+                "-"
+            ],
+            [
+                "Method",
+                "-"
+            ],
+            [
+                "Method",
+                "-"
+            ],
+            [
+                "Method",
+                "-"
+            ],
+            [
+                "Method",
+                "-"
+            ],
+            [
+                "Method",
+                "-"
+            ],
+            [
+                "Method",
+                "-"
+            ],
+            [
+                "Method",
+                "-"
+            ],
+            [
+                "Method",
+                "-"
+            ],
+            [
+                "Method",
+                "-"
+            ],
+            [
+                "Method",
+                "-"
+            ]
+        ],
+        "unmatched_extracted_keys": [],
+        "unmatched_extracted_values": [
+            "-"
+        ],
+        "unmatched_ground_truth_keys": [],
+        "unmatched_ground_truth_values": [],
+        "mapped_keys": {
+            "Specification": "Specification",
+            "Dataset": "Dataset",
+            "Method": "Method",
+            "Parameters": "Parameters"
+        },
+        "mapped_values": {
+            "Union Army": "Union Army",
+            "record-specific": "record-specific",
+            "baseline": "baseline",
+            "common names": "common names",
+            "Bayesian": "Bayesian",
+            "\u03bb=(1,2,4)": "\u03bb=(1,2,4)",
+            "\u03bb=(1,1,2)": "\u03bb=(1,1,2)",
+            "\u03bb=(1,3,6)": "\u03bb=(1,3,6)"
+        },
+        "precision": 0.8,
+        "recall": 0.8
+    },
+    "1704.02450_3": {
+        "matched_specifications": [
+            [
+                "Method",
+                "Original WLD"
+            ],
+            [
+                "Dataset",
+                "IIIT-D Sketch Database"
+            ],
+            [
+                "Training Dataset",
+                "CUFSF"
+            ],
+            [
+                "Method",
+                "SIFT"
+            ],
+            [
+                "Dataset",
+                "IIIT-D Sketch Database"
+            ],
+            [
+                "Training Dataset",
+                "CUFSF"
+            ],
+            [
+                "Method",
+                "EUCLBP"
+            ],
+            [
+                "Dataset",
+                "IIIT-D Sketch Database"
+            ],
+            [
+                "Training Dataset",
+                "CUFSF"
+            ],
+            [
+                "Method",
+                "LFDA"
+            ],
+            [
+                "Dataset",
+                "IIIT-D Sketch Database"
+            ],
+            [
+                "Training Dataset",
+                "CUFSF"
+            ],
+            [
+                "Method",
+                "MCWLD"
+            ],
+            [
+                "Dataset",
+                "IIIT-D Sketch Database"
+            ],
+            [
+                "Training Dataset",
+                "CUFSF"
+            ],
+            [
+                "Method",
+                "CenterLoss"
+            ],
+            [
+                "Dataset",
+                "IIIT-D Sketch Database"
+            ],
+            [
+                "Training Dataset",
+                "CUFSF"
+            ]
+        ],
+        "unmatched_specifications": [],
+        "unmatched_extracted_keys": [],
+        "unmatched_extracted_values": [],
+        "unmatched_ground_truth_keys": [],
+        "unmatched_ground_truth_values": [],
+        "mapped_keys": {
+            "Training Dataset": "Training Dataset",
+            "Method": "Method",
+            "Dataset": "Dataset"
+        },
+        "mapped_values": {
+            "Original WLD": "Original WLD",
+            "MCWLD": "MCWLD",
+            "CUFSF": "CUFSF",
+            "IIIT-D Sketch Database": "IIIT-D Sketch Database",
+            "CenterLoss": "CenterLoss",
+            "SIFT": "SIFT",
+            "EUCLBP": "EUCLBP",
+            "LFDA": "LFDA"
+        },
+        "precision": 1.0,
+        "recall": 1.0
+    },
+    "2005.09399_9": {
+        "matched_specifications": [
+            [
+                "Dataset",
+                "airports"
+            ],
+            [
+                "Link Type",
+                "umbel:isLike"
+            ],
+            [
+                "Blocking Method",
+                "token blocking"
+            ],
+            [
+                "Dataset",
+                "airlines"
+            ],
+            [
+                "Link Type",
+                "umbel:isLike"
+            ],
+            [
+                "Blocking Method",
+                "token blocking"
+            ],
+            [
+                "Dataset",
+                "twitter"
+            ],
+            [
+                "Link Type",
+                "dct:subject"
+            ],
+            [
+                "Blocking Method",
+                "token blocking"
+            ],
+            [
+                "Dataset",
+                "books"
+            ],
+            [
+                "Link Type",
+                "dct:subject"
+            ],
+            [
+                "Blocking Method",
+                "token blocking"
+            ],
+            [
+                "Dataset",
+                "iati"
+            ],
+            [
+                "Link Type",
+                "dct:subject"
+            ],
+            [
+                "Blocking Method",
+                "token blocking"
+            ],
+            [
+                "Dataset",
+                "iati"
+            ],
+            [
+                "Link Type",
+                "dct:coverage"
+            ],
+            [
+                "Blocking Method",
+                "token blocking"
+            ],
+            [
+                "Dataset",
+                "www2012"
+            ],
+            [
+                "Link Type",
+                "foaf:based_near"
+            ],
+            [
+                "Blocking Method",
+                "token blocking"
+            ]
+        ],
+        "unmatched_specifications": [],
+        "unmatched_extracted_keys": [],
+        "unmatched_extracted_values": [],
+        "unmatched_ground_truth_keys": [],
+        "unmatched_ground_truth_values": [],
+        "mapped_keys": {
+            "Link Type": "Link Type",
+            "Blocking Method": "Blocking Method",
+            "Dataset": "Dataset"
+        },
+        "mapped_values": {
+            "dct:subject": "dct:subject",
+            "airports": "airports",
+            "dct:coverage": "dct:coverage",
+            "www2012": "www2012",
+            "airlines": "airlines",
+            "umbel:isLike": "umbel:isLike",
+            "token blocking": "token blocking",
+            "foaf:based_near": "foaf:based_near",
+            "iati": "iati",
+            "twitter": "twitter",
+            "books": "books"
+        },
+        "precision": 1.0,
+        "recall": 1.0
+    },
+    "1906.11180_2": {
+        "matched_specifications": [
+            [
+                "Framework",
+                "MLP"
+            ],
+            [
+                "Setting",
+                "Pre-training"
+            ],
+            [
+                "Dataset",
+                "S-Lite"
+            ],
+            [
+                "Typing Strategy",
+                "Independent"
+            ],
+            [
+                "Framework",
+                "MLP"
+            ],
+            [
+                "Setting",
+                "Pre-training"
+            ],
+            [
+                "Dataset",
+                "S-Lite"
+            ],
+            [
+                "Typing Strategy",
+                "Independent"
+            ],
+            [
+                "Framework",
+                "MLP"
+            ],
+            [
+                "Setting",
+                "Pre-training"
+            ],
+            [
+                "Dataset",
+                "S-Lite"
+            ],
+            [
+                "Typing Strategy",
+                "Hierarchical (kappa = -0.1)"
+            ],
+            [
+                "Framework",
+                "MLP"
+            ],
+            [
+                "Setting",
+                "Pre-training"
+            ],
+            [
+                "Dataset",
+                "S-Lite"
+            ],
+            [
+                "Typing Strategy",
+                "Hierarchical (kappa = -0.1)"
+            ],
+            [
+                "Framework",
+                "MLP"
+            ],
+            [
+                "Setting",
+                "Pre-training"
+            ],
+            [
+                "Dataset",
+                "S-Lite"
+            ],
+            [
+                "Typing Strategy",
+                "Hierarchical (kappa = 0)"
+            ],
+            [
+                "Framework",
+                "MLP"
+            ],
+            [
+                "Setting",
+                "Pre-training"
+            ],
+            [
+                "Dataset",
+                "S-Lite"
+            ],
+            [
+                "Typing Strategy",
+                "Hierarchical (kappa = 0)"
+            ],
+            [
+                "Framework",
+                "BiRNN"
+            ],
+            [
+                "Setting",
+                "Pre-training"
+            ],
+            [
+                "Dataset",
+                "S-Lite"
+            ],
+            [
+                "Typing Strategy",
+                "Independent"
+            ],
+            [
+                "Framework",
+                "BiRNN"
+            ],
+            [
+                "Setting",
+                "Pre-training"
+            ],
+            [
+                "Dataset",
+                "S-Lite"
+            ],
+            [
+                "Typing Strategy",
+                "Independent"
+            ],
+            [
+                "Framework",
+                "BiRNN"
+            ],
+            [
+                "Setting",
+                "Pre-training"
+            ],
+            [
+                "Dataset",
+                "S-Lite"
+            ],
+            [
+                "Typing Strategy",
+                "Hierarchical (kappa = -0.1)"
+            ],
+            [
+                "Framework",
+                "BiRNN"
+            ],
+            [
+                "Setting",
+                "Pre-training"
+            ],
+            [
+                "Dataset",
+                "S-Lite"
+            ],
+            [
+                "Typing Strategy",
+                "Hierarchical (kappa = -0.1)"
+            ],
+            [
+                "Framework",
+                "BiRNN"
+            ],
+            [
+                "Setting",
+                "Pre-training"
+            ],
+            [
+                "Dataset",
+                "S-Lite"
+            ],
+            [
+                "Typing Strategy",
+                "Hierarchical (kappa = 0)"
+            ],
+            [
+                "Framework",
+                "BiRNN"
+            ],
+            [
+                "Setting",
+                "Pre-training"
+            ],
+            [
+                "Dataset",
+                "S-Lite"
+            ],
+            [
+                "Typing Strategy",
+                "Hierarchical (kappa = 0)"
+            ],
+            [
+                "Framework",
+                "AttBiRNN"
+            ],
+            [
+                "Setting",
+                "Pre-training"
+            ],
+            [
+                "Dataset",
+                "S-Lite"
+            ],
+            [
+                "Typing Strategy",
+                "Independent"
+            ],
+            [
+                "Framework",
+                "AttBiRNN"
+            ],
+            [
+                "Setting",
+                "Pre-training"
+            ],
+            [
+                "Dataset",
+                "S-Lite"
+            ],
+            [
+                "Typing Strategy",
+                "Independent"
+            ],
+            [
+                "Framework",
+                "AttBiRNN"
+            ],
+            [
+                "Setting",
+                "Pre-training"
+            ],
+            [
+                "Dataset",
+                "S-Lite"
+            ],
+            [
+                "Typing Strategy",
+                "Hierarchical (kappa = -0.1)"
+            ],
+            [
+                "Framework",
+                "AttBiRNN"
+            ],
+            [
+                "Setting",
+                "Pre-training"
+            ],
+            [
+                "Dataset",
+                "S-Lite"
+            ],
+            [
+                "Typing Strategy",
+                "Hierarchical (kappa = -0.1)"
+            ],
+            [
+                "Framework",
+                "AttBiRNN"
+            ],
+            [
+                "Setting",
+                "Pre-training"
+            ],
+            [
+                "Dataset",
+                "S-Lite"
+            ],
+            [
+                "Typing Strategy",
+                "Hierarchical (kappa = 0)"
+            ],
+            [
+                "Framework",
+                "AttBiRNN"
+            ],
+            [
+                "Setting",
+                "Pre-training"
+            ],
+            [
+                "Dataset",
+                "S-Lite"
+            ],
+            [
+                "Typing Strategy",
+                "Hierarchical (kappa = 0)"
+            ],
+            [
+                "Framework",
+                "MLP"
+            ],
+            [
+                "Setting",
+                "Fine tuning"
+            ],
+            [
+                "Dataset",
+                "S-Lite"
+            ],
+            [
+                "Typing Strategy",
+                "Independent"
+            ],
+            [
+                "Framework",
+                "MLP"
+            ],
+            [
+                "Setting",
+                "Fine tuning"
+            ],
+            [
+                "Dataset",
+                "S-Lite"
+            ],
+            [
+                "Typing Strategy",
+                "Independent"
+            ],
+            [
+                "Framework",
+                "MLP"
+            ],
+            [
+                "Setting",
+                "Fine tuning"
+            ],
+            [
+                "Dataset",
+                "S-Lite"
+            ],
+            [
+                "Typing Strategy",
+                "Hierarchical (kappa = -0.1)"
+            ],
+            [
+                "Framework",
+                "MLP"
+            ],
+            [
+                "Setting",
+                "Fine tuning"
+            ],
+            [
+                "Dataset",
+                "S-Lite"
+            ],
+            [
+                "Typing Strategy",
+                "Hierarchical (kappa = -0.1)"
+            ],
+            [
+                "Framework",
+                "MLP"
+            ],
+            [
+                "Setting",
+                "Fine tuning"
+            ],
+            [
+                "Dataset",
+                "S-Lite"
+            ],
+            [
+                "Typing Strategy",
+                "Hierarchical (kappa = 0)"
+            ],
+            [
+                "Framework",
+                "MLP"
+            ],
+            [
+                "Setting",
+                "Fine tuning"
+            ],
+            [
+                "Dataset",
+                "S-Lite"
+            ],
+            [
+                "Typing Strategy",
+                "Hierarchical (kappa = 0)"
+            ],
+            [
+                "Framework",
+                "BiRNN"
+            ],
+            [
+                "Setting",
+                "Fine tuning"
+            ],
+            [
+                "Dataset",
+                "S-Lite"
+            ],
+            [
+                "Typing Strategy",
+                "Independent"
+            ],
+            [
+                "Framework",
+                "BiRNN"
+            ],
+            [
+                "Setting",
+                "Fine tuning"
+            ],
+            [
+                "Dataset",
+                "S-Lite"
+            ],
+            [
+                "Typing Strategy",
+                "Independent"
+            ],
+            [
+                "Framework",
+                "BiRNN"
+            ],
+            [
+                "Setting",
+                "Fine tuning"
+            ],
+            [
+                "Dataset",
+                "S-Lite"
+            ],
+            [
+                "Typing Strategy",
+                "Hierarchical (kappa = -0.1)"
+            ],
+            [
+                "Framework",
+                "BiRNN"
+            ],
+            [
+                "Setting",
+                "Fine tuning"
+            ],
+            [
+                "Dataset",
+                "S-Lite"
+            ],
+            [
+                "Typing Strategy",
+                "Hierarchical (kappa = -0.1)"
+            ],
+            [
+                "Framework",
+                "BiRNN"
+            ],
+            [
+                "Setting",
+                "Fine tuning"
+            ],
+            [
+                "Dataset",
+                "S-Lite"
+            ],
+            [
+                "Typing Strategy",
+                "Hierarchical (kappa = 0)"
+            ],
+            [
+                "Framework",
+                "BiRNN"
+            ],
+            [
+                "Setting",
+                "Fine tuning"
+            ],
+            [
+                "Dataset",
+                "S-Lite"
+            ],
+            [
+                "Typing Strategy",
+                "Hierarchical (kappa = 0)"
+            ],
+            [
+                "Framework",
+                "AttBiRNN"
+            ],
+            [
+                "Setting",
+                "Fine tuning"
+            ],
+            [
+                "Dataset",
+                "S-Lite"
+            ],
+            [
+                "Typing Strategy",
+                "Independent"
+            ],
+            [
+                "Framework",
+                "AttBiRNN"
+            ],
+            [
+                "Setting",
+                "Fine tuning"
+            ],
+            [
+                "Dataset",
+                "S-Lite"
+            ],
+            [
+                "Typing Strategy",
+                "Independent"
+            ],
+            [
+                "Framework",
+                "AttBiRNN"
+            ],
+            [
+                "Setting",
+                "Fine tuning"
+            ],
+            [
+                "Dataset",
+                "S-Lite"
+            ],
+            [
+                "Typing Strategy",
+                "Hierarchical (kappa = -0.1)"
+            ],
+            [
+                "Framework",
+                "AttBiRNN"
+            ],
+            [
+                "Setting",
+                "Fine tuning"
+            ],
+            [
+                "Dataset",
+                "S-Lite"
+            ],
+            [
+                "Typing Strategy",
+                "Hierarchical (kappa = -0.1)"
+            ],
+            [
+                "Framework",
+                "AttBiRNN"
+            ],
+            [
+                "Setting",
+                "Fine tuning"
+            ],
+            [
+                "Dataset",
+                "S-Lite"
+            ],
+            [
+                "Typing Strategy",
+                "Hierarchical (kappa = 0)"
+            ],
+            [
+                "Framework",
+                "AttBiRNN"
+            ],
+            [
+                "Setting",
+                "Fine tuning"
+            ],
+            [
+                "Dataset",
+                "S-Lite"
+            ],
+            [
+                "Typing Strategy",
+                "Hierarchical (kappa = 0)"
+            ]
+        ],
+        "unmatched_specifications": [],
+        "unmatched_extracted_keys": [],
+        "unmatched_extracted_values": [],
+        "unmatched_ground_truth_keys": [],
+        "unmatched_ground_truth_values": [],
+        "mapped_keys": {
+            "Framework": "Framework",
+            "Typing Strategy": "Typing Strategy",
+            "Setting": "Setting",
+            "Dataset": "Dataset"
+        },
+        "mapped_values": {
+            "Independent": "Independent",
+            "S-Lite": "S-Lite",
+            "Pre-training": "Pre-training",
+            "BiRNN": "BiRNN",
+            "MLP": "MLP",
+            "Hierarchical (kappa = -0.1)": "Hierarchical (kappa = -0.1)",
+            "AttBiRNN": "AttBiRNN",
+            "Fine tuning": "Fine tuning",
+            "Hierarchical (kappa = 0)": "Hierarchical (kappa = 0)"
+        },
+        "precision": 1.0,
+        "recall": 1.0
+    },
+    "2312.03987_7": {
+        "matched_specifications": [
+            [
+                "Dataset",
+                "WA"
+            ],
+            [
+                "Feature Extractor",
+                "BatchER-LR"
+            ],
+            [
+                "Dataset",
+                "WA"
+            ],
+            [
+                "Feature Extractor",
+                "BatchER-JAC"
+            ],
+            [
+                "Dataset",
+                "WA"
+            ],
+            [
+                "Feature Extractor",
+                "BatchER-SEM"
+            ],
+            [
+                "Dataset",
+                "AB"
+            ],
+            [
+                "Feature Extractor",
+                "BatchER-LR"
+            ],
+            [
+                "Dataset",
+                "AB"
+            ],
+            [
+                "Feature Extractor",
+                "BatchER-JAC"
+            ],
+            [
+                "Dataset",
+                "AB"
+            ],
+            [
+                "Feature Extractor",
+                "BatchER-SEM"
+            ],
+            [
+                "Dataset",
+                "AG"
+            ],
+            [
+                "Feature Extractor",
+                "BatchER-LR"
+            ],
+            [
+                "Dataset",
+                "AG"
+            ],
+            [
+                "Feature Extractor",
+                "BatchER-JAC"
+            ],
+            [
+                "Dataset",
+                "AG"
+            ],
+            [
+                "Feature Extractor",
+                "BatchER-SEM"
+            ],
+            [
+                "Dataset",
+                "DS"
+            ],
+            [
+                "Feature Extractor",
+                "BatchER-LR"
+            ],
+            [
+                "Dataset",
+                "DS"
+            ],
+            [
+                "Feature Extractor",
+                "BatchER-JAC"
+            ],
+            [
+                "Dataset",
+                "DS"
+            ],
+            [
+                "Feature Extractor",
+                "BatchER-SEM"
+            ],
+            [
+                "Dataset",
+                "DA"
+            ],
+            [
+                "Feature Extractor",
+                "BatchER-LR"
+            ],
+            [
+                "Dataset",
+                "DA"
+            ],
+            [
+                "Feature Extractor",
+                "BatchER-JAC"
+            ],
+            [
+                "Dataset",
+                "DA"
+            ],
+            [
+                "Feature Extractor",
+                "BatchER-SEM"
+            ],
+            [
+                "Dataset",
+                "FZ"
+            ],
+            [
+                "Feature Extractor",
+                "BatchER-LR"
+            ],
+            [
+                "Dataset",
+                "FZ"
+            ],
+            [
+                "Feature Extractor",
+                "BatchER-JAC"
+            ],
+            [
+                "Dataset",
+                "FZ"
+            ],
+            [
+                "Feature Extractor",
+                "BatchER-SEM"
+            ],
+            [
+                "Dataset",
+                "IA"
+            ],
+            [
+                "Feature Extractor",
+                "BatchER-LR"
+            ],
+            [
+                "Dataset",
+                "IA"
+            ],
+            [
+                "Feature Extractor",
+                "BatchER-JAC"
+            ],
+            [
+                "Dataset",
+                "IA"
+            ],
+            [
+                "Feature Extractor",
+                "BatchER-SEM"
+            ],
+            [
+                "Dataset",
+                "Beer"
+            ],
+            [
+                "Feature Extractor",
+                "BatchER-LR"
+            ],
+            [
+                "Dataset",
+                "Beer"
+            ],
+            [
+                "Feature Extractor",
+                "BatchER-JAC"
+            ],
+            [
+                "Dataset",
+                "Beer"
+            ],
+            [
+                "Feature Extractor",
+                "BatchER-SEM"
+            ]
+        ],
+        "unmatched_specifications": [
+            [
+                "Evaluation Metric",
+                "Matching Accuracy"
+            ],
+            [
+                "Structure-aware",
+                "True"
+            ],
+            [
+                "Evaluation Metric",
+                "Matching Accuracy"
+            ],
+            [
+                "Structure-aware",
+                "True"
+            ],
+            [
+                "Evaluation Metric",
+                "Matching Accuracy"
+            ],
+            [
+                "Semantics-based",
+                "True"
+            ],
+            [
+                "Evaluation Metric",
+                "Matching Accuracy"
+            ],
+            [
+                "Structure-aware",
+                "True"
+            ],
+            [
+                "Evaluation Metric",
+                "Matching Accuracy"
+            ],
+            [
+                "Structure-aware",
+                "True"
+            ],
+            [
+                "Evaluation Metric",
+                "Matching Accuracy"
+            ],
+            [
+                "Semantics-based",
+                "True"
+            ],
+            [
+                "Evaluation Metric",
+                "Matching Accuracy"
+            ],
+            [
+                "Structure-aware",
+                "True"
+            ],
+            [
+                "Evaluation Metric",
+                "Matching Accuracy"
+            ],
+            [
+                "Structure-aware",
+                "True"
+            ],
+            [
+                "Evaluation Metric",
+                "Matching Accuracy"
+            ],
+            [
+                "Semantics-based",
+                "True"
+            ],
+            [
+                "Evaluation Metric",
+                "Matching Accuracy"
+            ],
+            [
+                "Structure-aware",
+                "True"
+            ],
+            [
+                "Evaluation Metric",
+                "Matching Accuracy"
+            ],
+            [
+                "Structure-aware",
+                "True"
+            ],
+            [
+                "Evaluation Metric",
+                "Matching Accuracy"
+            ],
+            [
+                "Semantics-based",
+                "True"
+            ],
+            [
+                "Evaluation Metric",
+                "Matching Accuracy"
+            ],
+            [
+                "Structure-aware",
+                "True"
+            ],
+            [
+                "Evaluation Metric",
+                "Matching Accuracy"
+            ],
+            [
+                "Structure-aware",
+                "True"
+            ],
+            [
+                "Evaluation Metric",
+                "Matching Accuracy"
+            ],
+            [
+                "Semantics-based",
+                "True"
+            ],
+            [
+                "Evaluation Metric",
+                "Matching Accuracy"
+            ],
+            [
+                "Structure-aware",
+                "True"
+            ],
+            [
+                "Evaluation Metric",
+                "Matching Accuracy"
+            ],
+            [
+                "Structure-aware",
+                "True"
+            ],
+            [
+                "Evaluation Metric",
+                "Matching Accuracy"
+            ],
+            [
+                "Semantics-based",
+                "True"
+            ],
+            [
+                "Evaluation Metric",
+                "Matching Accuracy"
+            ],
+            [
+                "Structure-aware",
+                "True"
+            ],
+            [
+                "Evaluation Metric",
+                "Matching Accuracy"
+            ],
+            [
+                "Structure-aware",
+                "True"
+            ],
+            [
+                "Evaluation Metric",
+                "Matching Accuracy"
+            ],
+            [
+                "Semantics-based",
+                "True"
+            ],
+            [
+                "Evaluation Metric",
+                "Matching Accuracy"
+            ],
+            [
+                "Structure-aware",
+                "True"
+            ],
+            [
+                "Evaluation Metric",
+                "Matching Accuracy"
+            ],
+            [
+                "Structure-aware",
+                "True"
+            ],
+            [
+                "Evaluation Metric",
+                "Matching Accuracy"
+            ],
+            [
+                "Semantics-based",
+                "True"
+            ]
+        ],
+        "unmatched_extracted_keys": [
+            "Evaluation Metric",
+            "Structure-aware",
+            "Semantics-based"
+        ],
+        "unmatched_extracted_values": [
+            "Matching Accuracy",
+            "True"
+        ],
+        "unmatched_ground_truth_keys": [
+            "Model"
+        ],
+        "unmatched_ground_truth_values": [
+            "Structure-aware",
+            "Semantics-based"
+        ],
+        "mapped_keys": {
+            "Dataset": "Dataset",
+            "Feature Extractor": "Feature Extractor"
+        },
+        "mapped_values": {
+            "WA": "WA",
+            "AG": "AG",
+            "BatchER-JAC": "BatchER-JAC",
+            "DA": "DA",
+            "IA": "IA",
+            "BatchER-LR": "BatchER-LR",
+            "Beer": "Beer",
+            "BatchER-SEM": "BatchER-SEM",
+            "DS": "DS",
+            "AB": "AB",
+            "FZ": "FZ"
+        },
+        "precision": 0.5,
+        "recall": 0.6666666666666666
+    },
+    "1711.07424_2": {
+        "matched_specifications": [
+            [
+                "Comparison",
+                "GB vs RW"
+            ],
+            [
+                "Region",
+                "1"
+            ],
+            [
+                "Efficiency Measure",
+                "Effective Sample Sizes per Unit of Computation Time"
+            ],
+            [
+                "Computation Method",
+                "coda R package"
+            ],
+            [
+                "Summary Statistics",
+                "Hamming Distance from Posterior Matching"
+            ],
+            [
+                "Comparison",
+                "GB vs RW"
+            ],
+            [
+                "Region",
+                "2"
+            ],
+            [
+                "Efficiency Measure",
+                "Effective Sample Sizes per Unit of Computation Time"
+            ],
+            [
+                "Computation Method",
+                "coda R package"
+            ],
+            [
+                "Summary Statistics",
+                "Hamming Distance from Posterior Matching"
+            ],
+            [
+                "Comparison",
+                "GB vs RW"
+            ],
+            [
+                "Region",
+                "3"
+            ],
+            [
+                "Efficiency Measure",
+                "Effective Sample Sizes per Unit of Computation Time"
+            ],
+            [
+                "Computation Method",
+                "coda R package"
+            ],
+            [
+                "Summary Statistics",
+                "Hamming Distance from Posterior Matching"
+            ],
+            [
+                "Comparison",
+                "GB vs RW"
+            ],
+            [
+                "Region",
+                "4"
+            ],
+            [
+                "Efficiency Measure",
+                "Effective Sample Sizes per Unit of Computation Time"
+            ],
+            [
+                "Computation Method",
+                "coda R package"
+            ],
+            [
+                "Summary Statistics",
+                "Hamming Distance from Posterior Matching"
+            ],
+            [
+                "Comparison",
+                "GB vs RW"
+            ],
+            [
+                "Region",
+                "5"
+            ],
+            [
+                "Efficiency Measure",
+                "Effective Sample Sizes per Unit of Computation Time"
+            ],
+            [
+                "Computation Method",
+                "coda R package"
+            ],
+            [
+                "Summary Statistics",
+                "Hamming Distance from Posterior Matching"
+            ],
+            [
+                "Comparison",
+                "GB vs RW"
+            ],
+            [
+                "Region",
+                "6"
+            ],
+            [
+                "Efficiency Measure",
+                "Effective Sample Sizes per Unit of Computation Time"
+            ],
+            [
+                "Computation Method",
+                "coda R package"
+            ],
+            [
+                "Summary Statistics",
+                "Hamming Distance from Posterior Matching"
+            ],
+            [
+                "Comparison",
+                "GB vs RW"
+            ],
+            [
+                "Region",
+                "7"
+            ],
+            [
+                "Efficiency Measure",
+                "Effective Sample Sizes per Unit of Computation Time"
+            ],
+            [
+                "Computation Method",
+                "coda R package"
+            ],
+            [
+                "Summary Statistics",
+                "Hamming Distance from Posterior Matching"
+            ],
+            [
+                "Comparison",
+                "GB vs RW"
+            ],
+            [
+                "Region",
+                "8"
+            ],
+            [
+                "Efficiency Measure",
+                "Effective Sample Sizes per Unit of Computation Time"
+            ],
+            [
+                "Computation Method",
+                "coda R package"
+            ],
+            [
+                "Summary Statistics",
+                "Hamming Distance from Posterior Matching"
+            ],
+            [
+                "Comparison",
+                "GB vs RW"
+            ],
+            [
+                "Region",
+                "Average"
+            ],
+            [
+                "Efficiency Measure",
+                "Effective Sample Sizes per Unit of Computation Time"
+            ],
+            [
+                "Computation Method",
+                "coda R package"
+            ],
+            [
+                "Summary Statistics",
+                "Hamming Distance from Posterior Matching"
+            ],
+            [
+                "Comparison",
+                "LB vs RW"
+            ],
+            [
+                "Region",
+                "1"
+            ],
+            [
+                "Efficiency Measure",
+                "Effective Sample Sizes per Unit of Computation Time"
+            ],
+            [
+                "Computation Method",
+                "coda R package"
+            ],
+            [
+                "Summary Statistics",
+                "Hamming Distance from Posterior Matching"
+            ],
+            [
+                "Comparison",
+                "LB vs RW"
+            ],
+            [
+                "Region",
+                "2"
+            ],
+            [
+                "Efficiency Measure",
+                "Effective Sample Sizes per Unit of Computation Time"
+            ],
+            [
+                "Computation Method",
+                "coda R package"
+            ],
+            [
+                "Summary Statistics",
+                "Hamming Distance from Posterior Matching"
+            ],
+            [
+                "Comparison",
+                "LB vs RW"
+            ],
+            [
+                "Region",
+                "3"
+            ],
+            [
+                "Efficiency Measure",
+                "Effective Sample Sizes per Unit of Computation Time"
+            ],
+            [
+                "Computation Method",
+                "coda R package"
+            ],
+            [
+                "Summary Statistics",
+                "Hamming Distance from Posterior Matching"
+            ],
+            [
+                "Comparison",
+                "LB vs RW"
+            ],
+            [
+                "Region",
+                "4"
+            ],
+            [
+                "Efficiency Measure",
+                "Effective Sample Sizes per Unit of Computation Time"
+            ],
+            [
+                "Computation Method",
+                "coda R package"
+            ],
+            [
+                "Summary Statistics",
+                "Hamming Distance from Posterior Matching"
+            ],
+            [
+                "Comparison",
+                "LB vs RW"
+            ],
+            [
+                "Region",
+                "5"
+            ],
+            [
+                "Efficiency Measure",
+                "Effective Sample Sizes per Unit of Computation Time"
+            ],
+            [
+                "Computation Method",
+                "coda R package"
+            ],
+            [
+                "Summary Statistics",
+                "Hamming Distance from Posterior Matching"
+            ],
+            [
+                "Comparison",
+                "LB vs RW"
+            ],
+            [
+                "Region",
+                "6"
+            ],
+            [
+                "Efficiency Measure",
+                "Effective Sample Sizes per Unit of Computation Time"
+            ],
+            [
+                "Computation Method",
+                "coda R package"
+            ],
+            [
+                "Summary Statistics",
+                "Hamming Distance from Posterior Matching"
+            ],
+            [
+                "Comparison",
+                "LB vs RW"
+            ],
+            [
+                "Region",
+                "7"
+            ],
+            [
+                "Efficiency Measure",
+                "Effective Sample Sizes per Unit of Computation Time"
+            ],
+            [
+                "Computation Method",
+                "coda R package"
+            ],
+            [
+                "Summary Statistics",
+                "Hamming Distance from Posterior Matching"
+            ],
+            [
+                "Comparison",
+                "LB vs RW"
+            ],
+            [
+                "Region",
+                "8"
+            ],
+            [
+                "Efficiency Measure",
+                "Effective Sample Sizes per Unit of Computation Time"
+            ],
+            [
+                "Computation Method",
+                "coda R package"
+            ],
+            [
+                "Summary Statistics",
+                "Hamming Distance from Posterior Matching"
+            ],
+            [
+                "Comparison",
+                "LB vs RW"
+            ],
+            [
+                "Region",
+                "Average"
+            ],
+            [
+                "Efficiency Measure",
+                "Effective Sample Sizes per Unit of Computation Time"
+            ],
+            [
+                "Computation Method",
+                "coda R package"
+            ],
+            [
+                "Summary Statistics",
+                "Hamming Distance from Posterior Matching"
+            ],
+            [
+                "Comparison",
+                "HB vs RW"
+            ],
+            [
+                "Region",
+                "1"
+            ],
+            [
+                "Efficiency Measure",
+                "Effective Sample Sizes per Unit of Computation Time"
+            ],
+            [
+                "Computation Method",
+                "coda R package"
+            ],
+            [
+                "Summary Statistics",
+                "Hamming Distance from Posterior Matching"
+            ],
+            [
+                "Comparison",
+                "HB vs RW"
+            ],
+            [
+                "Region",
+                "2"
+            ],
+            [
+                "Efficiency Measure",
+                "Effective Sample Sizes per Unit of Computation Time"
+            ],
+            [
+                "Computation Method",
+                "coda R package"
+            ],
+            [
+                "Summary Statistics",
+                "Hamming Distance from Posterior Matching"
+            ],
+            [
+                "Comparison",
+                "HB vs RW"
+            ],
+            [
+                "Region",
+                "3"
+            ],
+            [
+                "Efficiency Measure",
+                "Effective Sample Sizes per Unit of Computation Time"
+            ],
+            [
+                "Computation Method",
+                "coda R package"
+            ],
+            [
+                "Summary Statistics",
+                "Hamming Distance from Posterior Matching"
+            ],
+            [
+                "Comparison",
+                "HB vs RW"
+            ],
+            [
+                "Region",
+                "4"
+            ],
+            [
+                "Efficiency Measure",
+                "Effective Sample Sizes per Unit of Computation Time"
+            ],
+            [
+                "Computation Method",
+                "coda R package"
+            ],
+            [
+                "Summary Statistics",
+                "Hamming Distance from Posterior Matching"
+            ],
+            [
+                "Comparison",
+                "HB vs RW"
+            ],
+            [
+                "Region",
+                "5"
+            ],
+            [
+                "Efficiency Measure",
+                "Effective Sample Sizes per Unit of Computation Time"
+            ],
+            [
+                "Computation Method",
+                "coda R package"
+            ],
+            [
+                "Summary Statistics",
+                "Hamming Distance from Posterior Matching"
+            ],
+            [
+                "Comparison",
+                "HB vs RW"
+            ],
+            [
+                "Region",
+                "6"
+            ],
+            [
+                "Efficiency Measure",
+                "Effective Sample Sizes per Unit of Computation Time"
+            ],
+            [
+                "Computation Method",
+                "coda R package"
+            ],
+            [
+                "Summary Statistics",
+                "Hamming Distance from Posterior Matching"
+            ],
+            [
+                "Comparison",
+                "HB vs RW"
+            ],
+            [
+                "Region",
+                "7"
+            ],
+            [
+                "Efficiency Measure",
+                "Effective Sample Sizes per Unit of Computation Time"
+            ],
+            [
+                "Computation Method",
+                "coda R package"
+            ],
+            [
+                "Summary Statistics",
+                "Hamming Distance from Posterior Matching"
+            ],
+            [
+                "Comparison",
+                "HB vs RW"
+            ],
+            [
+                "Region",
+                "8"
+            ],
+            [
+                "Efficiency Measure",
+                "Effective Sample Sizes per Unit of Computation Time"
+            ],
+            [
+                "Computation Method",
+                "coda R package"
+            ],
+            [
+                "Summary Statistics",
+                "Hamming Distance from Posterior Matching"
+            ],
+            [
+                "Comparison",
+                "HB vs RW"
+            ],
+            [
+                "Region",
+                "Average"
+            ],
+            [
+                "Efficiency Measure",
+                "Effective Sample Sizes per Unit of Computation Time"
+            ],
+            [
+                "Computation Method",
+                "coda R package"
+            ],
+            [
+                "Summary Statistics",
+                "Hamming Distance from Posterior Matching"
+            ]
+        ],
+        "unmatched_specifications": [],
+        "unmatched_extracted_keys": [],
+        "unmatched_extracted_values": [],
+        "unmatched_ground_truth_keys": [],
+        "unmatched_ground_truth_values": [],
+        "mapped_keys": {
+            "Summary Statistics": "Summary Statistics",
+            "Efficiency Measure": "Efficiency Measure",
+            "Comparison": "Comparison",
+            "Computation Method": "Computation Method",
+            "Region": "Region"
+        },
+        "mapped_values": {
+            "GB vs RW": "GB vs RW",
+            "5": "5",
+            "HB vs RW": "HB vs RW",
+            "1": "1",
+            "coda R package": "coda R package",
+            "3": "3",
+            "8": "8",
+            "Average": "Average",
+            "LB vs RW": "LB vs RW",
+            "7": "7",
+            "Hamming Distance from Posterior Matching": "Hamming Distance from Posterior Matching",
+            "Effective Sample Sizes per Unit of Computation Time": "Effective Sample Sizes per Unit of Computation Time",
+            "4": "4",
+            "6": "6",
+            "2": "2"
+        },
+        "precision": 1.0,
+        "recall": 1.0
+    },
+    "2503.24193_3": {
+        "matched_specifications": [
+            [
+                "Model",
+                "BM25"
+            ],
+            [
+                "How it works",
+                "Keyword indexing"
+            ],
+            [
+                "Task",
+                "Generative track retrieval"
+            ],
+            [
+                "Model",
+                "Bi-encoder zero-shot"
+            ],
+            [
+                "How it works",
+                "Semantic match between playlist titles"
+            ],
+            [
+                "Task",
+                "Generative track retrieval"
+            ],
+            [
+                "Model",
+                "Bi-encoder fine-tuned"
+            ],
+            [
+                "How it works",
+                "Fine-tuned semantic match between playlist titles"
+            ],
+            [
+                "Task",
+                "Generative track retrieval"
+            ],
+            [
+                "Model",
+                "Text2Tracks"
+            ],
+            [
+                "How it works",
+                "GR using cf-based semantic-ids"
+            ],
+            [
+                "Task",
+                "Generative track retrieval"
+            ],
+            [
+                "Model",
+                "Text2Tracks"
+            ],
+            [
+                "How it works",
+                "GR using cf-based semantic-ids"
+            ],
+            [
+                "Task",
+                "Generative track retrieval"
+            ],
+            [
+                "Effectiveness",
+                "127% increase in hits@10 compared to closest competitor"
+            ]
+        ],
+        "unmatched_specifications": [],
+        "unmatched_extracted_keys": [],
+        "unmatched_extracted_values": [],
+        "unmatched_ground_truth_keys": [],
+        "unmatched_ground_truth_values": [],
+        "mapped_keys": {
+            "How it works": "How it works",
+            "Effectiveness": "Effectiveness",
+            "Model": "Model",
+            "Task": "Task"
+        },
+        "mapped_values": {
+            "Keyword indexing": "Keyword indexing",
+            "GR using cf-based semantic-ids": "GR using cf-based semantic-ids",
+            "Text2Tracks": "Text2Tracks",
+            "Fine-tuned semantic match between playlist titles": "Fine-tuned semantic match between playlist titles",
+            "127% increase in hits@10 compared to closest competitor": "127% increase in hits@10 compared to closest competitor",
+            "Generative track retrieval": "Generative track retrieval",
+            "Bi-encoder fine-tuned": "Bi-encoder fine-tuned",
+            "BM25": "BM25",
+            "Bi-encoder zero-shot": "Bi-encoder zero-shot",
+            "Semantic match between playlist titles": "Semantic match between playlist titles"
+        },
+        "precision": 1.0,
+        "recall": 1.0
+    },
+    "2205.10678_1": {
+        "matched_specifications": [
+            [
+                "Method",
+                "XGBoost"
+            ],
+            [
+                "Category",
+                "all"
+            ],
+            [
+                "Precision Threshold",
+                "95%"
+            ],
+            [
+                "Method",
+                "XGBoost"
+            ],
+            [
+                "Category",
+                "all"
+            ],
+            [
+                "Precision Threshold",
+                "99%"
+            ],
+            [
+                "Method",
+                "XGBoost"
+            ],
+            [
+                "Category",
+                "with ID"
+            ],
+            [
+                "Precision Threshold",
+                "99%"
+            ],
+            [
+                "Method",
+                "XGBoost"
+            ],
+            [
+                "Category",
+                "without ID"
+            ],
+            [
+                "Precision Threshold",
+                "95%"
+            ],
+            [
+                "Method",
+                "XGBoost"
+            ],
+            [
+                "Category",
+                "without ID"
+            ],
+            [
+                "Precision Threshold",
+                "99%"
+            ],
+            [
+                "Method",
+                "XGBoost + top all"
+            ],
+            [
+                "Category",
+                "all"
+            ],
+            [
+                "Precision Threshold",
+                "95%"
+            ],
+            [
+                "Method",
+                "XGBoost + top all"
+            ],
+            [
+                "Category",
+                "all"
+            ],
+            [
+                "Precision Threshold",
+                "99%"
+            ],
+            [
+                "Method",
+                "XGBoost + top all"
+            ],
+            [
+                "Category",
+                "with ID"
+            ],
+            [
+                "Precision Threshold",
+                "99%"
+            ],
+            [
+                "Method",
+                "XGBoost + top all"
+            ],
+            [
+                "Category",
+                "without ID"
+            ],
+            [
+                "Precision Threshold",
+                "95%"
+            ],
+            [
+                "Method",
+                "XGBoost + top all"
+            ],
+            [
+                "Category",
+                "without ID"
+            ],
+            [
+                "Precision Threshold",
+                "99%"
+            ],
+            [
+                "Method",
+                "Cascade 4 + top all"
+            ],
+            [
+                "Category",
+                "all"
+            ],
+            [
+                "Precision Threshold",
+                "95%"
+            ],
+            [
+                "Method",
+                "Cascade 4 + top all"
+            ],
+            [
+                "Category",
+                "all"
+            ],
+            [
+                "Precision Threshold",
+                "99%"
+            ],
+            [
+                "Method",
+                "Cascade 4 + top all"
+            ],
+            [
+                "Category",
+                "with ID"
+            ],
+            [
+                "Precision Threshold",
+                "99%"
+            ],
+            [
+                "Method",
+                "Cascade 4 + top all"
+            ],
+            [
+                "Category",
+                "without ID"
+            ],
+            [
+                "Precision Threshold",
+                "95%"
+            ],
+            [
+                "Method",
+                "Cascade 4 + top all"
+            ],
+            [
+                "Category",
+                "without ID"
+            ],
+            [
+                "Precision Threshold",
+                "99%"
+            ],
+            [
+                "Method",
+                "Chain + top all"
+            ],
+            [
+                "Category",
+                "all"
+            ],
+            [
+                "Precision Threshold",
+                "99%"
+            ],
+            [
+                "Method",
+                "Chain + top all"
+            ],
+            [
+                "Category",
+                "without ID"
+            ],
+            [
+                "Precision Threshold",
+                "99%"
+            ]
+        ],
+        "unmatched_specifications": [],
+        "unmatched_extracted_keys": [],
+        "unmatched_extracted_values": [],
+        "unmatched_ground_truth_keys": [],
+        "unmatched_ground_truth_values": [],
+        "mapped_keys": {
+            "Category": "Category",
+            "Method": "Method",
+            "Precision Threshold": "Precision Threshold"
+        },
+        "mapped_values": {
+            "all": "all",
+            "95%": "95%",
+            "with ID": "with ID",
+            "Cascade 4 + top all": "Cascade 4 + top all",
+            "XGBoost": "XGBoost",
+            "XGBoost + top all": "XGBoost + top all",
+            "99%": "99%",
+            "Chain + top all": "Chain + top all",
+            "without ID": "without ID"
+        },
+        "precision": 1.0,
+        "recall": 1.0
+    }
+}

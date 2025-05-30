@@ -1,0 +1,155 @@
+{
+    "matched_specifications": [
+        [
+            "Rank",
+            "1"
+        ],
+        [
+            "Dataset",
+            "Training"
+        ],
+        [
+            "Rank",
+            "1"
+        ],
+        [
+            "Dataset",
+            "Test"
+        ],
+        [
+            "Rank",
+            "2"
+        ],
+        [
+            "Dataset",
+            "Training"
+        ],
+        [
+            "Rank",
+            "2"
+        ],
+        [
+            "Dataset",
+            "Test"
+        ],
+        [
+            "Rank",
+            "3"
+        ],
+        [
+            "Dataset",
+            "Training"
+        ],
+        [
+            "Rank",
+            "3"
+        ],
+        [
+            "Dataset",
+            "Test"
+        ],
+        [
+            "Rank",
+            "4"
+        ],
+        [
+            "Dataset",
+            "Training"
+        ],
+        [
+            "Rank",
+            "4"
+        ],
+        [
+            "Dataset",
+            "Test"
+        ],
+        [
+            "Dataset",
+            "Training"
+        ],
+        [
+            "Dataset",
+            "Test"
+        ]
+    ],
+    "unmatched_specifications": [
+        [
+            "Description",
+            "Rank 1 indicates that the highest probability is associated with the 2016 household which is the correct match"
+        ],
+        [
+            "Description",
+            "Rank 1 indicates that the highest probability is associated with the 2016 household which is the correct match"
+        ],
+        [
+            "Description",
+            "Rank 2 implies that the match had the second-highest probability"
+        ],
+        [
+            "Description",
+            "Rank 2 implies that the match had the second-highest probability"
+        ],
+        [
+            "Description",
+            "Rank 3 implies that the match had the third-highest probability"
+        ],
+        [
+            "Description",
+            "Rank 3 implies that the match had the third-highest probability"
+        ],
+        [
+            "Description",
+            "Rank 4 implies that the match had the fourth-highest probability"
+        ],
+        [
+            "Description",
+            "Rank 4 implies that the match had the fourth-highest probability"
+        ],
+        [
+            "Rank",
+            "\u2265 5"
+        ],
+        [
+            "Description",
+            "Rank \u2265 5 implies that the match had the fifth-highest probability or lower"
+        ],
+        [
+            "Rank",
+            "\u2265 5"
+        ],
+        [
+            "Description",
+            "Rank \u2265 5 implies that the match had the fifth-highest probability or lower"
+        ]
+    ],
+    "unmatched_extracted_keys": [
+        "Description"
+    ],
+    "unmatched_extracted_values": [
+        "Rank 3 implies that the match had the third-highest probability",
+        "\u2265 5",
+        "Rank 1 indicates that the highest probability is associated with the 2016 household which is the correct match",
+        "Rank \u2265 5 implies that the match had the fifth-highest probability or lower",
+        "Rank 2 implies that the match had the second-highest probability",
+        "Rank 4 implies that the match had the fourth-highest probability"
+    ],
+    "unmatched_ground_truth_keys": [],
+    "unmatched_ground_truth_values": [
+        ">= 5"
+    ],
+    "mapped_keys": {
+        "Rank": "Rank",
+        "Dataset": "Dataset"
+    },
+    "mapped_values": {
+        "1": "1",
+        "3": "3",
+        "Test": "Test",
+        "4": "4",
+        "2": "2",
+        "Training": "Training"
+    },
+    "precision": 0.6,
+    "recall": 0.9
+}

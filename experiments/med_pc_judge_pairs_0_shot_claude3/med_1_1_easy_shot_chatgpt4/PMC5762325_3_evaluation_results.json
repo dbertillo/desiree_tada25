@@ -1,0 +1,127 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Correlation analysis between E-cadherin and STYK1 expression in pancreatic cancer",
+                    "tumor tissue sample": "E-cadherin Low",
+                    "STYK1 expression": "Low",
+                    "count": "9"
+                },
+                "measures": "[]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Tumor tissue sample": "E-cadherin Low",
+                    "STYK1 Low": "9",
+                    "STYK1 High": "23",
+                    "Cancer type": "pancreatic cancer",
+                    "Analysis type": "Correlation analysis"
+                },
+                "measures": "[Correlation coefficient, p-value]",
+                "outcomes": "[-0.420, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Correlation analysis between E-cadherin and STYK1 expression in pancreatic cancer",
+                    "tumor tissue sample": "E-cadherin Low",
+                    "STYK1 expression": "Low",
+                    "count": "9"
+                },
+                "measures": "[]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Tumor tissue sample": "E-cadherin High",
+                    "STYK1 Low": "34",
+                    "STYK1 High": "14",
+                    "Cancer type": "pancreatic cancer",
+                    "Analysis type": "Correlation analysis"
+                },
+                "measures": "[]",
+                "outcomes": "[]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Correlation analysis between E-cadherin and STYK1 expression in pancreatic cancer",
+                    "tumor tissue sample": "E-cadherin Low",
+                    "STYK1 expression": "High",
+                    "count": "23"
+                },
+                "measures": "[]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Tumor tissue sample": "E-cadherin Low",
+                    "STYK1 Low": "9",
+                    "STYK1 High": "23",
+                    "Cancer type": "pancreatic cancer",
+                    "Analysis type": "Correlation analysis"
+                },
+                "measures": "[Correlation coefficient, p-value]",
+                "outcomes": "[-0.420, <0.001]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Correlation analysis between E-cadherin and STYK1 expression in pancreatic cancer",
+                    "tumor tissue sample": "E-cadherin Low",
+                    "correlation coefficient": "-0.420",
+                    "P-value": "<0.001"
+                },
+                "measures": "[]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Tumor tissue sample": "E-cadherin High",
+                    "STYK1 Low": "34",
+                    "STYK1 High": "14",
+                    "Cancer type": "pancreatic cancer",
+                    "Analysis type": "Correlation analysis"
+                },
+                "measures": "[]",
+                "outcomes": "[]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Correlation analysis between E-cadherin and STYK1 expression in pancreatic cancer",
+                    "tumor tissue sample": "E-cadherin High",
+                    "STYK1 expression": "Low",
+                    "count": "34"
+                },
+                "measures": "[]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Tumor tissue sample": "E-cadherin High",
+                    "STYK1 Low": "34",
+                    "STYK1 High": "14",
+                    "Cancer type": "pancreatic cancer",
+                    "Analysis type": "Correlation analysis"
+                },
+                "measures": "[]",
+                "outcomes": "[]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 5,
+    "total_ground_truth_claims": 2,
+    "number_of_matches": 2
+}

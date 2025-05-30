@@ -1,0 +1,411 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "Census",
+                    "Description": "A fictional data set to represent some observations",
+                    "Size": "(25,343)"
+                },
+                "measures": "[Data set, Census]",
+                "outcomes": "[Description, A fictional data set to represent some observations]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "Census",
+                    "Size": "(25, 343)",
+                    "Description": "A fictional data set to represent some observations from a decennial Census",
+                    "Source": "ESSnet-DI",
+                    "Synthetic key variables": "Distorted by missing values and typos to imitate real-life errors",
+                    "Availability": "Freely available online"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "Census",
+                    "Description": "A fictional data set to represent some observations",
+                    "Size": "(25,343)"
+                },
+                "measures": "[Data set, Census]",
+                "outcomes": "[Description, A fictional data set to represent some observations]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "CIS",
+                    "Size": "(24, 613)",
+                    "Description": "Fictional observations from Customer Information System combined administrative data from the tax and benefit systems",
+                    "Source": "ESSnet-DI",
+                    "Synthetic key variables": "Distorted by missing values and typos to imitate real-life errors",
+                    "Availability": "Freely available online"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "Census",
+                    "Description": "A fictional data set to represent some observations",
+                    "Size": "(25,343)"
+                },
+                "measures": "[Data set, Census]",
+                "outcomes": "[Description, A fictional data set to represent some observations]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "PRD",
+                    "Size": "(24, 750)",
+                    "Description": "Fictional observations from Patient Register Data of the National Health Service",
+                    "Source": "ESSnet-DI",
+                    "Synthetic key variables": "Distorted by missing values and typos to imitate real-life errors",
+                    "Availability": "Freely available online"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CIS",
+                    "Description": "Fictional observations from Customer Information System,",
+                    "Size": "(24,613)"
+                },
+                "measures": "[Data set, CIS]",
+                "outcomes": "[Description, Fictional observations from Customer Information System,]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "Census",
+                    "Size": "(25, 343)",
+                    "Description": "A fictional data set to represent some observations from a decennial Census",
+                    "Source": "ESSnet-DI",
+                    "Synthetic key variables": "Distorted by missing values and typos to imitate real-life errors",
+                    "Availability": "Freely available online"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "CIS",
+                    "Description": "Fictional observations from Customer Information System,",
+                    "Size": "(24,613)"
+                },
+                "measures": "[Data set, CIS]",
+                "outcomes": "[Description, Fictional observations from Customer Information System,]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "CIS",
+                    "Size": "(24, 613)",
+                    "Description": "Fictional observations from Customer Information System combined administrative data from the tax and benefit systems",
+                    "Source": "ESSnet-DI",
+                    "Synthetic key variables": "Distorted by missing values and typos to imitate real-life errors",
+                    "Availability": "Freely available online"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "PRD",
+                    "Description": "Fictional observations from Patient Register Data",
+                    "Size": "(24,750)"
+                },
+                "measures": "[Data set, PRD]",
+                "outcomes": "[Description, Fictional observations from Patient Register Data]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "Census",
+                    "Size": "(25, 343)",
+                    "Description": "A fictional data set to represent some observations from a decennial Census",
+                    "Source": "ESSnet-DI",
+                    "Synthetic key variables": "Distorted by missing values and typos to imitate real-life errors",
+                    "Availability": "Freely available online"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "PRD",
+                    "Description": "Fictional observations from Patient Register Data",
+                    "Size": "(24,750)"
+                },
+                "measures": "[Data set, PRD]",
+                "outcomes": "[Description, Fictional observations from Patient Register Data]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "PRD",
+                    "Size": "(24, 750)",
+                    "Description": "Fictional observations from Patient Register Data of the National Health Service",
+                    "Source": "ESSnet-DI",
+                    "Synthetic key variables": "Distorted by missing values and typos to imitate real-life errors",
+                    "Availability": "Freely available online"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Algorithm": "unsupervised MEC",
+                    "Type": "record linkage"
+                },
+                "measures": "[Algorithm, unsupervised MEC]",
+                "outcomes": "[Type, record linkage]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "Census",
+                    "Size": "(25, 343)",
+                    "Description": "A fictional data set to represent some observations from a decennial Census",
+                    "Source": "ESSnet-DI",
+                    "Synthetic key variables": "Distorted by missing values and typos to imitate real-life errors",
+                    "Availability": "Freely available online"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Algorithm": "unsupervised MEC",
+                    "Type": "record linkage"
+                },
+                "measures": "[Algorithm, unsupervised MEC]",
+                "outcomes": "[Type, record linkage]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "PRD",
+                    "Size": "(24, 750)",
+                    "Description": "Fictional observations from Patient Register Data of the National Health Service",
+                    "Source": "ESSnet-DI",
+                    "Synthetic key variables": "Distorted by missing values and typos to imitate real-life errors",
+                    "Availability": "Freely available online"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data source": "ESSnet-DI",
+                    "Year": "2011"
+                },
+                "measures": "[Data source, ESSnet-DI]",
+                "outcomes": "[Year, 2011]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "Census",
+                    "Size": "(25, 343)",
+                    "Description": "A fictional data set to represent some observations from a decennial Census",
+                    "Source": "ESSnet-DI",
+                    "Synthetic key variables": "Distorted by missing values and typos to imitate real-life errors",
+                    "Availability": "Freely available online"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data source": "ESSnet-DI",
+                    "Year": "2011"
+                },
+                "measures": "[Data source, ESSnet-DI]",
+                "outcomes": "[Year, 2011]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "PRD",
+                    "Size": "(24, 750)",
+                    "Description": "Fictional observations from Patient Register Data of the National Health Service",
+                    "Source": "ESSnet-DI",
+                    "Synthetic key variables": "Distorted by missing values and typos to imitate real-life errors",
+                    "Availability": "Freely available online"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data source": "McLeod et al., 2011",
+                    "Year": "2011"
+                },
+                "measures": "[Data source, McLeod et al., 2011]",
+                "outcomes": "[Year, 2011]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "Census",
+                    "Size": "(25, 343)",
+                    "Description": "A fictional data set to represent some observations from a decennial Census",
+                    "Source": "ESSnet-DI",
+                    "Synthetic key variables": "Distorted by missing values and typos to imitate real-life errors",
+                    "Availability": "Freely available online"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data source": "McLeod et al., 2011",
+                    "Year": "2011"
+                },
+                "measures": "[Data source, McLeod et al., 2011]",
+                "outcomes": "[Year, 2011]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "PRD",
+                    "Size": "(24, 750)",
+                    "Description": "Fictional observations from Patient Register Data of the National Health Service",
+                    "Source": "ESSnet-DI",
+                    "Synthetic key variables": "Distorted by missing values and typos to imitate real-life errors",
+                    "Availability": "Freely available online"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Error type": "typos"
+                },
+                "measures": "[Error type, missing values]",
+                "outcomes": "[Error type, typos]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "Census",
+                    "Size": "(25, 343)",
+                    "Description": "A fictional data set to represent some observations from a decennial Census",
+                    "Source": "ESSnet-DI",
+                    "Synthetic key variables": "Distorted by missing values and typos to imitate real-life errors",
+                    "Availability": "Freely available online"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Error type": "typos"
+                },
+                "measures": "[Error type, missing values]",
+                "outcomes": "[Error type, typos]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "PRD",
+                    "Size": "(24, 750)",
+                    "Description": "Fictional observations from Patient Register Data of the National Health Service",
+                    "Source": "ESSnet-DI",
+                    "Synthetic key variables": "Distorted by missing values and typos to imitate real-life errors",
+                    "Availability": "Freely available online"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Simulation study": "practical feasibility",
+                    "Goal": "explore"
+                },
+                "measures": "[Simulation study, practical feasibility]",
+                "outcomes": "[Goal, explore]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "Census",
+                    "Size": "(25, 343)",
+                    "Description": "A fictional data set to represent some observations from a decennial Census",
+                    "Source": "ESSnet-DI",
+                    "Synthetic key variables": "Distorted by missing values and typos to imitate real-life errors",
+                    "Availability": "Freely available online"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Simulation study": "practical feasibility",
+                    "Goal": "explore"
+                },
+                "measures": "[Simulation study, practical feasibility]",
+                "outcomes": "[Goal, explore]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "PRD",
+                    "Size": "(24, 750)",
+                    "Description": "Fictional observations from Patient Register Data of the National Health Service",
+                    "Source": "ESSnet-DI",
+                    "Synthetic key variables": "Distorted by missing values and typos to imitate real-life errors",
+                    "Availability": "Freely available online"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Record linkage": "unsupervised MEC algorithm",
+                    "Method": "simulation study"
+                },
+                "measures": "[Record linkage, unsupervised MEC algorithm]",
+                "outcomes": "[Method, simulation study]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "Census",
+                    "Size": "(25, 343)",
+                    "Description": "A fictional data set to represent some observations from a decennial Census",
+                    "Source": "ESSnet-DI",
+                    "Synthetic key variables": "Distorted by missing values and typos to imitate real-life errors",
+                    "Availability": "Freely available online"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Record linkage": "unsupervised MEC algorithm",
+                    "Method": "simulation study"
+                },
+                "measures": "[Record linkage, unsupervised MEC algorithm]",
+                "outcomes": "[Method, simulation study]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "PRD",
+                    "Size": "(24, 750)",
+                    "Description": "Fictional observations from Patient Register Data of the National Health Service",
+                    "Source": "ESSnet-DI",
+                    "Synthetic key variables": "Distorted by missing values and typos to imitate real-life errors",
+                    "Availability": "Freely available online"
+                }
+            },
+            "match": "no"
+        }
+    ],
+    "total_extracted_claims": 9,
+    "total_ground_truth_claims": 3,
+    "number_of_matches": 1
+}

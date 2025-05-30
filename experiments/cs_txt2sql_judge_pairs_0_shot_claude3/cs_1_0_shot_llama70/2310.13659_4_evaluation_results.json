@@ -1,0 +1,839 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "Column Ambiguity",
+                    "Evaluation Metric": "Either In Top K (%)",
+                    "Method": "Single Stage"
+                },
+                "measures": "[Either In Top K (%)]",
+                "outcomes": "[64.0]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "C",
+                    "Model": "Single stage",
+                    "Evaluation Type": "Either In Top K"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "64.0"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "Table Ambiguity",
+                    "Evaluation Metric": "Either In Top K (%)",
+                    "Method": "Single Stage"
+                },
+                "measures": "[Either In Top K (%)]",
+                "outcomes": "[60.7]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "C",
+                    "Model": "Two stages",
+                    "Evaluation Type": "Either In Top K"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "65.9"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "Join Ambiguity",
+                    "Evaluation Metric": "Either In Top K (%)",
+                    "Method": "Single Stage"
+                },
+                "measures": "[Either In Top K (%)]",
+                "outcomes": "[86.8]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "C",
+                    "Model": "+Template Diversity",
+                    "Evaluation Type": "Either In Top K"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "65.9"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "Precomputed Aggregates",
+                    "Evaluation Metric": "Either In Top K (%)",
+                    "Method": "Single Stage"
+                },
+                "measures": "[Either In Top K (%)]",
+                "outcomes": "[58.4]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "C",
+                    "Model": "+Schema Diversity (Logical Beam)",
+                    "Evaluation Type": "Either In Top K"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "66.6"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "Column Ambiguity",
+                    "Evaluation Metric": "Either In Top K (%)",
+                    "Method": "Two Stages"
+                },
+                "measures": "[Either In Top K (%)]",
+                "outcomes": "[65.9]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "T",
+                    "Model": "Single stage",
+                    "Evaluation Type": "Either In Top K"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "60.7"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "Table Ambiguity",
+                    "Evaluation Metric": "Either In Top K (%)",
+                    "Method": "Two Stages"
+                },
+                "measures": "[Either In Top K (%)]",
+                "outcomes": "[66.2]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "T",
+                    "Model": "Two stages",
+                    "Evaluation Type": "Either In Top K"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "66.2"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "Join Ambiguity",
+                    "Evaluation Metric": "Either In Top K (%)",
+                    "Method": "Two Stages"
+                },
+                "measures": "[Either In Top K (%)]",
+                "outcomes": "[88.5]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "T",
+                    "Model": "+Template Diversity",
+                    "Evaluation Type": "Either In Top K"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "65.0"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "Precomputed Aggregates",
+                    "Evaluation Metric": "Either In Top K (%)",
+                    "Method": "Two Stages"
+                },
+                "measures": "[Either In Top K (%)]",
+                "outcomes": "[62.4]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "T",
+                    "Model": "+Schema Diversity (Logical Beam)",
+                    "Evaluation Type": "Either In Top K"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "67.3"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "Column Ambiguity",
+                    "Evaluation Metric": "Either In Top K (%)",
+                    "Method": "+Template Diversity"
+                },
+                "measures": "[Either In Top K (%)]",
+                "outcomes": "[65.9]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "J",
+                    "Model": "Single stage",
+                    "Evaluation Type": "Either In Top K"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "86.8"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "Table Ambiguity",
+                    "Evaluation Metric": "Either In Top K (%)",
+                    "Method": "+Template Diversity"
+                },
+                "measures": "[Either In Top K (%)]",
+                "outcomes": "[65.0]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "J",
+                    "Model": "Two stages",
+                    "Evaluation Type": "Either In Top K"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "88.5"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "Join Ambiguity",
+                    "Evaluation Metric": "Either In Top K (%)",
+                    "Method": "+Template Diversity"
+                },
+                "measures": "[Either In Top K (%)]",
+                "outcomes": "[87.1]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "J",
+                    "Model": "+Template Diversity",
+                    "Evaluation Type": "Either In Top K"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "87.1"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "Precomputed Aggregates",
+                    "Evaluation Metric": "Either In Top K (%)",
+                    "Method": "+Template Diversity"
+                },
+                "measures": "[Either In Top K (%)]",
+                "outcomes": "[63.4]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "J",
+                    "Model": "+Schema Diversity (Logical Beam)",
+                    "Evaluation Type": "Either In Top K"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "87.2"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "Column Ambiguity",
+                    "Evaluation Metric": "Either In Top K (%)",
+                    "Method": "+Schema Diversity (LogicalBeam)"
+                },
+                "measures": "[Either In Top K (%)]",
+                "outcomes": "[66.6]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "P",
+                    "Model": "Single stage",
+                    "Evaluation Type": "Either In Top K"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "58.4"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "Table Ambiguity",
+                    "Evaluation Metric": "Either In Top K (%)",
+                    "Method": "+Schema Diversity (LogicalBeam)"
+                },
+                "measures": "[Either In Top K (%)]",
+                "outcomes": "[67.3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "P",
+                    "Model": "Two stages",
+                    "Evaluation Type": "Either In Top K"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "62.4"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "Join Ambiguity",
+                    "Evaluation Metric": "Either In Top K (%)",
+                    "Method": "+Schema Diversity (LogicalBeam)"
+                },
+                "measures": "[Either In Top K (%)]",
+                "outcomes": "[87.2]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "P",
+                    "Model": "+Template Diversity",
+                    "Evaluation Type": "Either In Top K"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "63.4"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "Precomputed Aggregates",
+                    "Evaluation Metric": "Either In Top K (%)",
+                    "Method": "+Schema Diversity (LogicalBeam)"
+                },
+                "measures": "[Either In Top K (%)]",
+                "outcomes": "[64.4]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "P",
+                    "Model": "+Schema Diversity (Logical Beam)",
+                    "Evaluation Type": "Either In Top K"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "64.4"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "Column Ambiguity",
+                    "Evaluation Metric": "Both In Top K (Coverage) (%)",
+                    "Method": "Single Stage"
+                },
+                "measures": "[Both In Top K (Coverage) (%)]",
+                "outcomes": "[23.2]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "C",
+                    "Model": "Single stage",
+                    "Evaluation Type": "Both In Top K (Coverage)"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "23.2"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "Table Ambiguity",
+                    "Evaluation Metric": "Both In Top K (Coverage) (%)",
+                    "Method": "Single Stage"
+                },
+                "measures": "[Both In Top K (Coverage) (%)]",
+                "outcomes": "[25.3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "C",
+                    "Model": "Two stages",
+                    "Evaluation Type": "Both In Top K (Coverage)"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "16.0"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "Join Ambiguity",
+                    "Evaluation Metric": "Both In Top K (Coverage) (%)",
+                    "Method": "Single Stage"
+                },
+                "measures": "[Both In Top K (Coverage) (%)]",
+                "outcomes": "[54.5]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "C",
+                    "Model": "+Template Diversity",
+                    "Evaluation Type": "Both In Top K (Coverage)"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "16.1"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "Precomputed Aggregates",
+                    "Evaluation Metric": "Both In Top K (Coverage) (%)",
+                    "Method": "Single Stage"
+                },
+                "measures": "[Both In Top K (Coverage) (%)]",
+                "outcomes": "[9.9]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "C",
+                    "Model": "+Schema Diversity (Logical Beam)",
+                    "Evaluation Type": "Both In Top K (Coverage)"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "28.0"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "Column Ambiguity",
+                    "Evaluation Metric": "Both In Top K (Coverage) (%)",
+                    "Method": "Two Stages"
+                },
+                "measures": "[Both In Top K (Coverage) (%)]",
+                "outcomes": "[16.0]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "T",
+                    "Model": "Single stage",
+                    "Evaluation Type": "Both In Top K (Coverage)"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "25.3"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "Table Ambiguity",
+                    "Evaluation Metric": "Both In Top K (Coverage) (%)",
+                    "Method": "Two Stages"
+                },
+                "measures": "[Both In Top K (Coverage) (%)]",
+                "outcomes": "[28.4]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "T",
+                    "Model": "Two stages",
+                    "Evaluation Type": "Both In Top K (Coverage)"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "28.4"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "Join Ambiguity",
+                    "Evaluation Metric": "Both In Top K (Coverage) (%)",
+                    "Method": "Two Stages"
+                },
+                "measures": "[Both In Top K (Coverage) (%)]",
+                "outcomes": "[54.5]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "T",
+                    "Model": "+Template Diversity",
+                    "Evaluation Type": "Both In Top K (Coverage)"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "28.2"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "Precomputed Aggregates",
+                    "Evaluation Metric": "Both In Top K (Coverage) (%)",
+                    "Method": "Two Stages"
+                },
+                "measures": "[Both In Top K (Coverage) (%)]",
+                "outcomes": "[27.7]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "T",
+                    "Model": "+Schema Diversity (Logical Beam)",
+                    "Evaluation Type": "Both In Top K (Coverage)"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "42.6"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "Column Ambiguity",
+                    "Evaluation Metric": "Both In Top K (Coverage) (%)",
+                    "Method": "+Template Diversity"
+                },
+                "measures": "[Both In Top K (Coverage) (%)]",
+                "outcomes": "[16.1]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "J",
+                    "Model": "Single stage",
+                    "Evaluation Type": "Both In Top K (Coverage)"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "54.5"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "Table Ambiguity",
+                    "Evaluation Metric": "Both In Top K (Coverage) (%)",
+                    "Method": "+Template Diversity"
+                },
+                "measures": "[Both In Top K (Coverage) (%)]",
+                "outcomes": "[28.2]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "J",
+                    "Model": "Two stages",
+                    "Evaluation Type": "Both In Top K (Coverage)"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "54.5"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "Join Ambiguity",
+                    "Evaluation Metric": "Both In Top K (Coverage) (%)",
+                    "Method": "+Template Diversity"
+                },
+                "measures": "[Both In Top K (Coverage) (%)]",
+                "outcomes": "[62.2]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "J",
+                    "Model": "+Template Diversity",
+                    "Evaluation Type": "Both In Top K (Coverage)"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "62.2"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "Precomputed Aggregates",
+                    "Evaluation Metric": "Both In Top K (Coverage) (%)",
+                    "Method": "+Template Diversity"
+                },
+                "measures": "[Both In Top K (Coverage) (%)]",
+                "outcomes": "[30.7]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "J",
+                    "Model": "+Schema Diversity (Logical Beam)",
+                    "Evaluation Type": "Both In Top K (Coverage)"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "59.4"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "Column Ambiguity",
+                    "Evaluation Metric": "Both In Top K (Coverage) (%)",
+                    "Method": "+Schema Diversity (LogicalBeam)"
+                },
+                "measures": "[Both In Top K (Coverage) (%)]",
+                "outcomes": "[28.0]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "P",
+                    "Model": "Single stage",
+                    "Evaluation Type": "Both In Top K (Coverage)"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "9.9"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "Table Ambiguity",
+                    "Evaluation Metric": "Both In Top K (Coverage) (%)",
+                    "Method": "+Schema Diversity (LogicalBeam)"
+                },
+                "measures": "[Both In Top K (Coverage) (%)]",
+                "outcomes": "[42.6]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "P",
+                    "Model": "Two stages",
+                    "Evaluation Type": "Both In Top K (Coverage)"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "27.7"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "Join Ambiguity",
+                    "Evaluation Metric": "Both In Top K (Coverage) (%)",
+                    "Method": "+Schema Diversity (LogicalBeam)"
+                },
+                "measures": "[Both In Top K (Coverage) (%)]",
+                "outcomes": "[59.4]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "P",
+                    "Model": "+Template Diversity",
+                    "Evaluation Type": "Both In Top K (Coverage)"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "30.7"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Kind of Ambiguity": "Precomputed Aggregates",
+                    "Evaluation Metric": "Both In Top K (Coverage) (%)",
+                    "Method": "+Schema Diversity (LogicalBeam)"
+                },
+                "measures": "[Both In Top K (Coverage) (%)]",
+                "outcomes": "[24.8]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "AmbiQT",
+                    "Ambiguity Type": "P",
+                    "Model": "+Schema Diversity (Logical Beam)",
+                    "Evaluation Type": "Both In Top K (Coverage)"
+                },
+                "measures": [
+                    "Execution Match (EXM) accuracy"
+                ],
+                "outcomes": [
+                    "24.8"
+                ]
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 32,
+    "total_ground_truth_claims": 32,
+    "number_of_matches": 32
+}

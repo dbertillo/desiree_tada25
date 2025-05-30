@@ -1,0 +1,56 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "cell type": "quiescent PSCs",
+                    "vitamin A lipid droplets": "present",
+                    "\u03b1 smooth muscle actin": "absent",
+                    "proliferation": "limited",
+                    "migration": "limited",
+                    "extracellular matrix production": "limited",
+                    "matrix metalloproteinases (MMPs) and tissue inhibitors of matrix proteinases (TIMPs)": "complement of MMPs and TIMPs to maintain normal ECM turnover",
+                    "production of cytokines": "limited",
+                    "capacity for phagocytosis": "absent",
+                    "proteomic analyses": "basal protein expression"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "phenotype": "quiescent PSCs",
+                    "characteristic": "Vitamin A lipid droplets",
+                    "state": "present"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "cell type": "activated PSCs",
+                    "vitamin A lipid droplets": "absent",
+                    "\u03b1 smooth muscle actin": "present",
+                    "proliferation": "increased",
+                    "migration": "increased",
+                    "extracellular matrix production": "increased",
+                    "matrix metalloproteinases (MMPs) and tissue inhibitors of matrix proteinases (TIMPs)": "change in types of MMPs and TIMPs to facilitate ECM deposition",
+                    "production of cytokines": "increased",
+                    "cytokines produced": "PDGF, TGF\u03b2, CTGF, IL1, IL6, IL15",
+                    "capacity for phagocytosis": "present",
+                    "proteomic analyses": "differential expression of proteins related to the cell cytoskeleton, cell metabolism, motility, growth and invasion"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "phenotype": "activated PSCs",
+                    "characteristic": "Vitamin A lipid droplets",
+                    "state": "absent"
+                }
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 2,
+    "total_ground_truth_claims": 18,
+    "number_of_matches": 2
+}

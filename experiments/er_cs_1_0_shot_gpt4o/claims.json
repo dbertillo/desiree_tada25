@@ -1,0 +1,4486 @@
+{
+    "2104.09677_5": [
+        {
+            "subject": {
+                "table": "Table 5",
+                "data sets": "German census data sets",
+                "attribute selection threshold": "0.6",
+                "score weight": "0.5",
+                "st": "0.8",
+                "step": "Attribute selection step (Algorithm 1)"
+            },
+            "measures": "[runtime]",
+            "outcomes": "[7,903]"
+        },
+        {
+            "subject": {
+                "table": "Table 5",
+                "data sets": "German census data sets",
+                "attribute selection threshold": "0.6",
+                "score weight": "0.5",
+                "st": "0.8",
+                "step": "Signature generation step (Algorithm 2)"
+            },
+            "measures": "[runtime]",
+            "outcomes": "[4,573]"
+        },
+        {
+            "subject": {
+                "table": "Table 5",
+                "data sets": "German census data sets",
+                "attribute selection threshold": "0.6",
+                "score weight": "0.5",
+                "st": "0.8",
+                "step": "Record matching step (Algorithm 3)"
+            },
+            "measures": "[runtime]",
+            "outcomes": "[3,438]"
+        },
+        {
+            "subject": {
+                "table": "Table 5",
+                "data sets": "German census data sets",
+                "attribute selection threshold": "0.6",
+                "score weight": "0.5",
+                "st": "0.8"
+            },
+            "measures": "[precision]",
+            "outcomes": "[0.999]"
+        },
+        {
+            "subject": {
+                "table": "Table 5",
+                "data sets": "German census data sets",
+                "attribute selection threshold": "0.6",
+                "score weight": "0.5",
+                "st": "0.8"
+            },
+            "measures": "[recall]",
+            "outcomes": "[0.962]"
+        }
+    ],
+    "2211.02161_4": [
+        {
+            "subject": {
+                "method": "BF",
+                "citation": "[45, 46, 10]",
+                "dataset": "DBLP-ACM-C"
+            },
+            "measures": "[45, 46, 10]",
+            "outcomes": [
+                "[runtime]",
+                "[6]"
+            ]
+        },
+        {
+            "subject": {
+                "method": "BF",
+                "citation": "[45, 46, 10]",
+                "dataset": "DBLP-ACM-D"
+            },
+            "measures": "[45, 46, 10]",
+            "outcomes": [
+                "[runtime]",
+                "[6]"
+            ]
+        },
+        {
+            "subject": {
+                "method": "BF",
+                "citation": "[45, 46, 10]",
+                "dataset": "DBLP-Scholar-C"
+            },
+            "measures": "[45, 46, 10]",
+            "outcomes": [
+                "[runtime]",
+                "[70]"
+            ]
+        },
+        {
+            "subject": {
+                "method": "BF",
+                "citation": "[45, 46, 10]",
+                "dataset": "DBLP-Scholar-D"
+            },
+            "measures": "[45, 46, 10]",
+            "outcomes": [
+                "[runtime]",
+                "[71]"
+            ]
+        },
+        {
+            "subject": {
+                "method": "BF",
+                "citation": "[45, 46, 10]",
+                "dataset": "iTune-Amazon"
+            },
+            "measures": "[45, 46, 10]",
+            "outcomes": [
+                "[runtime]",
+                "[91]"
+            ]
+        },
+        {
+            "subject": {
+                "method": "BF",
+                "citation": "[45, 46, 10]",
+                "dataset": "Music-Brainz"
+            },
+            "measures": "[45, 46, 10]",
+            "outcomes": [
+                "[runtime]",
+                "[16]"
+            ]
+        },
+        {
+            "subject": {
+                "method": "BF",
+                "citation": "[45, 46, 10]",
+                "dataset": "Amazon-Google"
+            },
+            "measures": "[45, 46, 10]",
+            "outcomes": [
+                "[runtime]",
+                "[11]"
+            ]
+        },
+        {
+            "subject": {
+                "method": "BF",
+                "citation": "[45, 46, 10]",
+                "dataset": "NCVR"
+            },
+            "measures": "[45, 46, 10]",
+            "outcomes": [
+                "[runtime]",
+                "[462]"
+            ]
+        },
+        {
+            "subject": {
+                "method": "BF",
+                "citation": "[45, 46, 10]",
+                "dataset": "European Census"
+            },
+            "measures": "[45, 46, 10]",
+            "outcomes": [
+                "[runtime]",
+                "[58]"
+            ]
+        },
+        {
+            "subject": {
+                "method": "DP-BF",
+                "citation": "[18, 19, 7]",
+                "dataset": "DBLP-ACM-C"
+            },
+            "measures": "[18, 19, 7]",
+            "outcomes": [
+                "[runtime]",
+                "[8]"
+            ]
+        },
+        {
+            "subject": {
+                "method": "DP-BF",
+                "citation": "[18, 19, 7]",
+                "dataset": "DBLP-ACM-D"
+            },
+            "measures": "[18, 19, 7]",
+            "outcomes": [
+                "[runtime]",
+                "[9]"
+            ]
+        },
+        {
+            "subject": {
+                "method": "DP-BF",
+                "citation": "[18, 19, 7]",
+                "dataset": "DBLP-Scholar-C"
+            },
+            "measures": "[18, 19, 7]",
+            "outcomes": [
+                "[runtime]",
+                "[75]"
+            ]
+        },
+        {
+            "subject": {
+                "method": "DP-BF",
+                "citation": "[18, 19, 7]",
+                "dataset": "DBLP-Scholar-D"
+            },
+            "measures": "[18, 19, 7]",
+            "outcomes": [
+                "[runtime]",
+                "[75]"
+            ]
+        },
+        {
+            "subject": {
+                "method": "DP-BF",
+                "citation": "[18, 19, 7]",
+                "dataset": "iTune-Amazon"
+            },
+            "measures": "[18, 19, 7]",
+            "outcomes": [
+                "[runtime]",
+                "[94]"
+            ]
+        },
+        {
+            "subject": {
+                "method": "DP-BF",
+                "citation": "[18, 19, 7]",
+                "dataset": "Music-Brainz"
+            },
+            "measures": "[18, 19, 7]",
+            "outcomes": [
+                "[runtime]",
+                "[18]"
+            ]
+        },
+        {
+            "subject": {
+                "method": "DP-BF",
+                "citation": "[18, 19, 7]",
+                "dataset": "Amazon-Google"
+            },
+            "measures": "[18, 19, 7]",
+            "outcomes": [
+                "[runtime]",
+                "[13]"
+            ]
+        },
+        {
+            "subject": {
+                "method": "DP-BF",
+                "citation": "[18, 19, 7]",
+                "dataset": "NCVR"
+            },
+            "measures": "[18, 19, 7]",
+            "outcomes": [
+                "[runtime]",
+                "[473]"
+            ]
+        },
+        {
+            "subject": {
+                "method": "DP-BF",
+                "citation": "[18, 19, 7]",
+                "dataset": "European Census"
+            },
+            "measures": "[18, 19, 7]",
+            "outcomes": [
+                "[runtime]",
+                "[73]"
+            ]
+        },
+        {
+            "subject": {
+                "method": "DL-BF",
+                "dataset": "DBLP-ACM-C"
+            },
+            "measures": "[runtime]",
+            "outcomes": "[8]"
+        },
+        {
+            "subject": {
+                "method": "DL-BF",
+                "dataset": "DBLP-ACM-D"
+            },
+            "measures": "[runtime]",
+            "outcomes": "[9]"
+        },
+        {
+            "subject": {
+                "method": "DL-BF",
+                "dataset": "DBLP-Scholar-C"
+            },
+            "measures": "[runtime]",
+            "outcomes": "[77]"
+        },
+        {
+            "subject": {
+                "method": "DL-BF",
+                "dataset": "DBLP-Scholar-D"
+            },
+            "measures": "[runtime]",
+            "outcomes": "[78]"
+        },
+        {
+            "subject": {
+                "method": "DL-BF",
+                "dataset": "iTune-Amazon"
+            },
+            "measures": "[runtime]",
+            "outcomes": "[96]"
+        },
+        {
+            "subject": {
+                "method": "DL-BF",
+                "dataset": "Music-Brainz"
+            },
+            "measures": "[runtime]",
+            "outcomes": "[18]"
+        },
+        {
+            "subject": {
+                "method": "DL-BF",
+                "dataset": "Amazon-Google"
+            },
+            "measures": "[runtime]",
+            "outcomes": "[14]"
+        },
+        {
+            "subject": {
+                "method": "DL-BF",
+                "dataset": "NCVR"
+            },
+            "measures": "[runtime]",
+            "outcomes": "[475]"
+        },
+        {
+            "subject": {
+                "method": "DL-BF",
+                "dataset": "European Census"
+            },
+            "measures": "[runtime]",
+            "outcomes": "[75]"
+        },
+        {
+            "subject": {
+                "method": "DP-DL-BF",
+                "dataset": "DBLP-ACM-C"
+            },
+            "measures": "[runtime]",
+            "outcomes": "[10]"
+        },
+        {
+            "subject": {
+                "method": "DP-DL-BF",
+                "dataset": "DBLP-ACM-D"
+            },
+            "measures": "[runtime]",
+            "outcomes": "[12]"
+        },
+        {
+            "subject": {
+                "method": "DP-DL-BF",
+                "dataset": "DBLP-Scholar-C"
+            },
+            "measures": "[runtime]",
+            "outcomes": "[92]"
+        },
+        {
+            "subject": {
+                "method": "DP-DL-BF",
+                "dataset": "DBLP-Scholar-D"
+            },
+            "measures": "[runtime]",
+            "outcomes": "[91]"
+        },
+        {
+            "subject": {
+                "method": "DP-DL-BF",
+                "dataset": "iTune-Amazon"
+            },
+            "measures": "[runtime]",
+            "outcomes": "[103]"
+        },
+        {
+            "subject": {
+                "method": "DP-DL-BF",
+                "dataset": "Music-Brainz"
+            },
+            "measures": "[runtime]",
+            "outcomes": "[25]"
+        },
+        {
+            "subject": {
+                "method": "DP-DL-BF",
+                "dataset": "Amazon-Google"
+            },
+            "measures": "[runtime]",
+            "outcomes": "[19]"
+        },
+        {
+            "subject": {
+                "method": "DP-DL-BF",
+                "dataset": "NCVR"
+            },
+            "measures": "[runtime]",
+            "outcomes": "[491]"
+        },
+        {
+            "subject": {
+                "method": "DP-DL-BF",
+                "dataset": "European Census"
+            },
+            "measures": "[runtime]",
+            "outcomes": "[82]"
+        }
+    ],
+    "2104.09677_2": [
+        {
+            "subject": {
+                "dataset_pair": "DBLP-Scholar",
+                "records": "2,616",
+                "missing_percentage": "17%",
+                "ground_truth_pairs": "2,386",
+                "entities": "academic publications",
+                "record_fields": "title, authors, venue, year of publication",
+                "missing_data_category": "MCAR",
+                "missing_values_randomly_added": "true",
+                "max_missing_values_per_record": "2"
+            },
+            "measures": "[records, missing_percentage]",
+            "outcomes": "[2,616, 17%]"
+        },
+        {
+            "subject": {
+                "dataset_pair": "DBLP-Scholar",
+                "records": "64,263",
+                "missing_percentage": "54%",
+                "ground_truth_pairs": "2,386",
+                "entities": "academic publications",
+                "record_fields": "title, authors, venue, year of publication",
+                "missing_data_category": "MCAR",
+                "missing_values_randomly_added": "true",
+                "max_missing_values_per_record": "2"
+            },
+            "measures": "[records, missing_percentage]",
+            "outcomes": "[64,263, 54%]"
+        },
+        {
+            "subject": {
+                "dataset_pair": "DBLP-ACM",
+                "records": "2,616",
+                "missing_percentage": "20%",
+                "ground_truth_pairs": "2,220",
+                "entities": "academic publications",
+                "record_fields": "title, authors, venue, year of publication",
+                "missing_data_category": "MCAR",
+                "missing_values_randomly_added": "true",
+                "max_missing_values_per_record": "2"
+            },
+            "measures": "[records, missing_percentage]",
+            "outcomes": "[2,616, 20%]"
+        },
+        {
+            "subject": {
+                "dataset_pair": "DBLP-ACM",
+                "records": "2,294",
+                "missing_percentage": "20%",
+                "ground_truth_pairs": "2,220",
+                "entities": "academic publications",
+                "record_fields": "title, authors, venue, year of publication",
+                "missing_data_category": "MCAR",
+                "missing_values_randomly_added": "true",
+                "max_missing_values_per_record": "2"
+            },
+            "measures": "[records, missing_percentage]",
+            "outcomes": "[2,294, 20%]"
+        },
+        {
+            "subject": {
+                "dataset_pair": "UKCD",
+                "records": "18,699",
+                "missing_percentage": "24%",
+                "ground_truth_pairs": "18,354"
+            },
+            "measures": "[records, missing_percentage]",
+            "outcomes": "[18,699, 24%]"
+        },
+        {
+            "subject": {
+                "dataset_pair": "NCVR-20",
+                "records": "877,012",
+                "missing_percentage": "20%",
+                "ground_truth_pairs": "877,012"
+            },
+            "measures": "[records, missing_percentage]",
+            "outcomes": "[877,012, 20%]"
+        },
+        {
+            "subject": {
+                "dataset_pair": "NCVR-50",
+                "records": "877,012",
+                "missing_percentage": "50%",
+                "ground_truth_pairs": "877,012"
+            },
+            "measures": "[records, missing_percentage]",
+            "outcomes": "[877,012, 50%]"
+        },
+        {
+            "subject": {
+                "dataset_pair": "NCVR-2017-NCVR-2019",
+                "records_2017": "7,846,174",
+                "records_2019": "7,688,308",
+                "missing_percentage_2017": "12%",
+                "missing_percentage_2019": "10%",
+                "ground_truth_pairs": "6,948,248"
+            },
+            "measures": "[records_2017, missing_percentage_2017]",
+            "outcomes": "[7,846,174, 12%]"
+        },
+        {
+            "subject": {
+                "dataset_pair": "NCVR-2017-NCVR-2019",
+                "records_2017": "7,846,174",
+                "records_2019": "7,688,308",
+                "missing_percentage_2017": "12%",
+                "missing_percentage_2019": "10%",
+                "ground_truth_pairs": "6,948,248"
+            },
+            "measures": "[records_2019, missing_percentage_2019]",
+            "outcomes": "[7,688,308, 10%]"
+        }
+    ],
+    "2004.02008_4": [
+        {
+            "subject": {
+                "dataset": "SDS",
+                "model": "DP",
+                "metric": "FNR SE",
+                "method": "MCMC",
+                "precision": "one decimal place",
+                "burn-in": "5000 iterations",
+                "software": "R package CODA",
+                "source": "Table 4"
+            },
+            "measures": "[FNR SE]",
+            "outcomes": "[0.03]"
+        },
+        {
+            "subject": {
+                "dataset": "SDS",
+                "model": "DP",
+                "metric": "FDR SE",
+                "method": "MCMC",
+                "precision": "one decimal place",
+                "burn-in": "5000 iterations",
+                "software": "R package CODA",
+                "source": "Table 4"
+            },
+            "measures": "[FDR SE]",
+            "outcomes": "[0.04]"
+        },
+        {
+            "subject": {
+                "dataset": "SIPP",
+                "model": "DP",
+                "metric": "FNR SE",
+                "method": "MCMC",
+                "precision": "one decimal place",
+                "burn-in": "5000 iterations",
+                "software": "R package CODA",
+                "source": "Table 4"
+            },
+            "measures": "[FNR SE]",
+            "outcomes": "[0.02]"
+        },
+        {
+            "subject": {
+                "dataset": "SIPP",
+                "model": "DP",
+                "metric": "FDR SE",
+                "method": "MCMC",
+                "precision": "one decimal place",
+                "burn-in": "5000 iterations",
+                "software": "R package CODA",
+                "source": "Table 4"
+            },
+            "measures": "[FDR SE]",
+            "outcomes": "[0.01]"
+        },
+        {
+            "subject": {
+                "dataset": "SDS",
+                "model": "PY",
+                "metric": "FNR SE",
+                "method": "MCMC",
+                "precision": "one decimal place",
+                "burn-in": "5000 iterations",
+                "software": "R package CODA",
+                "source": "Table 4"
+            },
+            "measures": "[FNR SE]",
+            "outcomes": "[0.02]"
+        },
+        {
+            "subject": {
+                "dataset": "SDS",
+                "model": "PY",
+                "metric": "FDR SE",
+                "method": "MCMC",
+                "precision": "one decimal place",
+                "burn-in": "5000 iterations",
+                "software": "R package CODA",
+                "source": "Table 4"
+            },
+            "measures": "[FDR SE]",
+            "outcomes": "[0.04]"
+        },
+        {
+            "subject": {
+                "dataset": "SIPP",
+                "model": "PY",
+                "metric": "FNR SE",
+                "method": "MCMC",
+                "precision": "one decimal place",
+                "burn-in": "5000 iterations",
+                "software": "R package CODA",
+                "source": "Table 4"
+            },
+            "measures": "[FNR SE]",
+            "outcomes": "[0.02]"
+        },
+        {
+            "subject": {
+                "dataset": "SIPP",
+                "model": "PY",
+                "metric": "FDR SE",
+                "method": "MCMC",
+                "precision": "one decimal place",
+                "burn-in": "5000 iterations",
+                "software": "R package CODA",
+                "source": "Table 4"
+            },
+            "measures": "[FDR SE]",
+            "outcomes": "[0.01]"
+        },
+        {
+            "subject": {
+                "dataset": "SDS",
+                "model": "ESCNB",
+                "metric": "FNR SE",
+                "method": "MCMC",
+                "precision": "one decimal place",
+                "burn-in": "5000 iterations",
+                "software": "R package CODA",
+                "source": "Table 4"
+            },
+            "measures": "[FNR SE]",
+            "outcomes": "[0.02]"
+        },
+        {
+            "subject": {
+                "dataset": "SDS",
+                "model": "ESCNB",
+                "metric": "FDR SE",
+                "method": "MCMC",
+                "precision": "one decimal place",
+                "burn-in": "5000 iterations",
+                "software": "R package CODA",
+                "source": "Table 4"
+            },
+            "measures": "[FDR SE]",
+            "outcomes": "[0.04]"
+        },
+        {
+            "subject": {
+                "dataset": "SIPP",
+                "model": "ESCNB",
+                "metric": "FNR SE",
+                "method": "MCMC",
+                "precision": "one decimal place",
+                "burn-in": "5000 iterations",
+                "software": "R package CODA",
+                "source": "Table 4"
+            },
+            "measures": "[FNR SE]",
+            "outcomes": "[0.01]"
+        },
+        {
+            "subject": {
+                "dataset": "SIPP",
+                "model": "ESCNB",
+                "metric": "FDR SE",
+                "method": "MCMC",
+                "precision": "one decimal place",
+                "burn-in": "5000 iterations",
+                "software": "R package CODA",
+                "source": "Table 4"
+            },
+            "measures": "[FDR SE]",
+            "outcomes": "[0.02]"
+        },
+        {
+            "subject": {
+                "dataset": "SDS",
+                "model": "ESCD",
+                "metric": "FNR SE",
+                "method": "MCMC",
+                "precision": "one decimal place",
+                "burn-in": "5000 iterations",
+                "software": "R package CODA",
+                "source": "Table 4"
+            },
+            "measures": "[FNR SE]",
+            "outcomes": "[0.02]"
+        },
+        {
+            "subject": {
+                "dataset": "SDS",
+                "model": "ESCD",
+                "metric": "FDR SE",
+                "method": "MCMC",
+                "precision": "one decimal place",
+                "burn-in": "5000 iterations",
+                "software": "R package CODA",
+                "source": "Table 4"
+            },
+            "measures": "[FDR SE]",
+            "outcomes": "[0.02]"
+        },
+        {
+            "subject": {
+                "dataset": "SIPP",
+                "model": "ESCD",
+                "metric": "FNR SE",
+                "method": "MCMC",
+                "precision": "one decimal place",
+                "burn-in": "5000 iterations",
+                "software": "R package CODA",
+                "source": "Table 4"
+            },
+            "measures": "[FNR SE]",
+            "outcomes": "[0.01]"
+        },
+        {
+            "subject": {
+                "dataset": "SIPP",
+                "model": "ESCD",
+                "metric": "FDR SE",
+                "method": "MCMC",
+                "precision": "one decimal place",
+                "burn-in": "5000 iterations",
+                "software": "R package CODA",
+                "source": "Table 4"
+            },
+            "measures": "[FDR SE]",
+            "outcomes": "[0.01]"
+        }
+    ],
+    "2310.12450_3": [
+        {
+            "subject": {
+                "method": "Baseline",
+                "subset": "High Overlap (HO)",
+                "source": "Table 3"
+            },
+            "measures": "[accuracy]",
+            "outcomes": "[87.64]"
+        },
+        {
+            "subject": {
+                "method": "Baseline",
+                "subset": "Multiple Categories (MC)",
+                "source": "Table 3"
+            },
+            "measures": "[accuracy]",
+            "outcomes": "[77.27]"
+        },
+        {
+            "subject": {
+                "method": "Baseline",
+                "subset": "Ambiguous Substring (AS)",
+                "source": "Table 3"
+            },
+            "measures": "[accuracy]",
+            "outcomes": "[75.89]"
+        },
+        {
+            "subject": {
+                "method": "Baseline",
+                "subset": "Low Overlap (LO)",
+                "source": "Table 3"
+            },
+            "measures": "[accuracy]",
+            "outcomes": "[71.46]"
+        },
+        {
+            "subject": {
+                "method": "BLINK*",
+                "subset": "High Overlap (HO)",
+                "source": "Table 3",
+                "implementation": "our implementation"
+            },
+            "measures": "[accuracy]",
+            "outcomes": "[94.30]"
+        },
+        {
+            "subject": {
+                "method": "BLINK*",
+                "subset": "Multiple Categories (MC)",
+                "source": "Table 3",
+                "implementation": "our implementation"
+            },
+            "measures": "[accuracy]",
+            "outcomes": "[75.40]"
+        },
+        {
+            "subject": {
+                "method": "BLINK*",
+                "subset": "Ambiguous Substring (AS)",
+                "source": "Table 3",
+                "implementation": "our implementation"
+            },
+            "measures": "[accuracy]",
+            "outcomes": "[79.95]"
+        },
+        {
+            "subject": {
+                "method": "BLINK*",
+                "subset": "Low Overlap (LO)",
+                "source": "Table 3",
+                "implementation": "our implementation"
+            },
+            "measures": "[accuracy]",
+            "outcomes": "[73.50]"
+        },
+        {
+            "subject": {
+                "method": "Uni-MPR",
+                "subset": "High Overlap (HO)",
+                "source": "Table 3"
+            },
+            "measures": "[accuracy]",
+            "outcomes": "[91.43]"
+        },
+        {
+            "subject": {
+                "method": "Uni-MPR",
+                "subset": "Multiple Categories (MC)",
+                "source": "Table 3"
+            },
+            "measures": "[accuracy]",
+            "outcomes": "[79.07]"
+        },
+        {
+            "subject": {
+                "method": "Uni-MPR",
+                "subset": "Ambiguous Substring (AS)",
+                "source": "Table 3"
+            },
+            "measures": "[accuracy]",
+            "outcomes": "[75.60]"
+        },
+        {
+            "subject": {
+                "method": "Uni-MPR",
+                "subset": "Low Overlap (LO)",
+                "source": "Table 3"
+            },
+            "measures": "[accuracy]",
+            "outcomes": "[73.53]"
+        },
+        {
+            "subject": {
+                "method": "Bi-MPR",
+                "subset": "High Overlap (HO)",
+                "source": "Table 3"
+            },
+            "measures": "[accuracy]",
+            "outcomes": "[92.84]"
+        },
+        {
+            "subject": {
+                "method": "Bi-MPR",
+                "subset": "Multiple Categories (MC)",
+                "source": "Table 3"
+            },
+            "measures": "[accuracy]",
+            "outcomes": "[81.93]"
+        },
+        {
+            "subject": {
+                "method": "Bi-MPR",
+                "subset": "Ambiguous Substring (AS)",
+                "source": "Table 3"
+            },
+            "measures": "[accuracy]",
+            "outcomes": "[77.37]"
+        },
+        {
+            "subject": {
+                "method": "Bi-MPR",
+                "subset": "Low Overlap (LO)",
+                "source": "Table 3"
+            },
+            "measures": "[accuracy]",
+            "outcomes": "[73.88]"
+        },
+        {
+            "subject": {
+                "method": "ReS",
+                "subset": "High Overlap (HO)",
+                "source": "Table 3"
+            },
+            "measures": "[accuracy]",
+            "outcomes": "[94.42]"
+        },
+        {
+            "subject": {
+                "method": "ReS",
+                "subset": "Multiple Categories (MC)",
+                "source": "Table 3"
+            },
+            "measures": "[accuracy]",
+            "outcomes": "[81.29]"
+        },
+        {
+            "subject": {
+                "method": "ReS",
+                "subset": "Ambiguous Substring (AS)",
+                "source": "Table 3"
+            },
+            "measures": "[accuracy]",
+            "outcomes": "[77.80]"
+        },
+        {
+            "subject": {
+                "method": "ReS",
+                "subset": "Low Overlap (LO)",
+                "source": "Table 3"
+            },
+            "measures": "[accuracy]",
+            "outcomes": "[76.51]"
+        },
+        {
+            "subject": {
+                "method": "ReS (w/o selecting)",
+                "subset": "High Overlap (HO)",
+                "source": "Table 3"
+            },
+            "measures": "[accuracy]",
+            "outcomes": "[92.72]"
+        },
+        {
+            "subject": {
+                "method": "ReS (w/o selecting)",
+                "subset": "Multiple Categories (MC)",
+                "source": "Table 3"
+            },
+            "measures": "[accuracy]",
+            "outcomes": "[78.30]"
+        },
+        {
+            "subject": {
+                "method": "ReS (w/o selecting)",
+                "subset": "Ambiguous Substring (AS)",
+                "source": "Table 3"
+            },
+            "measures": "[accuracy]",
+            "outcomes": "[79.00]"
+        },
+        {
+            "subject": {
+                "method": "ReS (w/o selecting)",
+                "subset": "Low Overlap (LO)",
+                "source": "Table 3"
+            },
+            "measures": "[accuracy]",
+            "outcomes": "[75.50]"
+        },
+        {
+            "subject": {
+                "method": "ReS",
+                "comparison": "ReS (w/o selecting)",
+                "subset": "Multiple Categories (MC)",
+                "source": "Table 3"
+            },
+            "measures": "[accuracy improvement]",
+            "outcomes": "[2.99]"
+        },
+        {
+            "subject": {
+                "method": "ReS",
+                "comparison": "BLINK*",
+                "subset": "Multiple Categories (MC)",
+                "source": "Table 3"
+            },
+            "measures": "[accuracy improvement]",
+            "outcomes": "[5.89]"
+        },
+        {
+            "subject": {
+                "method": "ReS",
+                "comparison": "BLINK*",
+                "subset": "Low Overlap (LO)",
+                "source": "Table 3"
+            },
+            "measures": "[accuracy improvement]",
+            "outcomes": "[3.01]"
+        },
+        {
+            "subject": {
+                "method": "ReS (w/o selecting)",
+                "comparison": "BLINK*",
+                "source": "Table 2"
+            },
+            "measures": "[micro-averaged accuracy improvement]",
+            "outcomes": "[1.72]"
+        },
+        {
+            "subject": {
+                "method": "ReS",
+                "comparison": "ReS (w/o selecting)",
+                "source": "Table 2"
+            },
+            "measures": "[micro-averaged accuracy improvement]",
+            "outcomes": "[1.61]"
+        },
+        {
+            "subject": {
+                "method": "ReS",
+                "subset": "Multiple Categories (MC)",
+                "source": "Table 3",
+                "reasoning ability": "cross-entity interaction helpful for disambiguating lexically similar entities"
+            },
+            "measures": "[]",
+            "outcomes": ""
+        },
+        {
+            "subject": {
+                "method": "ReS",
+                "subset": "Low Overlap (LO)",
+                "source": "Table 3",
+                "reasoning ability": "better aggregation of mention context and entity description"
+            },
+            "measures": "[]",
+            "outcomes": ""
+        }
+    ],
+    "2404.05566_3": [
+        {
+            "subject": {
+                "year1": "2014",
+                "year2": "2016",
+                "dataset": "training",
+                "rank": "1",
+                "description": "highest probability corresponds to the true match"
+            },
+            "measures": "[percentage]",
+            "outcomes": "[76.74]"
+        },
+        {
+            "subject": {
+                "year1": "2014",
+                "year2": "2016",
+                "dataset": "test",
+                "rank": "1",
+                "description": "highest probability corresponds to the true match"
+            },
+            "measures": "[percentage]",
+            "outcomes": "[79.55]"
+        },
+        {
+            "subject": {
+                "year1": "2014",
+                "year2": "2016",
+                "dataset": "training",
+                "rank": "2",
+                "description": "second-highest probability corresponds to the true match"
+            },
+            "measures": "[percentage]",
+            "outcomes": "[4.92]"
+        },
+        {
+            "subject": {
+                "year1": "2014",
+                "year2": "2016",
+                "dataset": "test",
+                "rank": "2",
+                "description": "second-highest probability corresponds to the true match"
+            },
+            "measures": "[percentage]",
+            "outcomes": "[4.19]"
+        },
+        {
+            "subject": {
+                "year1": "2014",
+                "year2": "2016",
+                "dataset": "training",
+                "rank": "3",
+                "description": "third-highest probability corresponds to the true match"
+            },
+            "measures": "[percentage]",
+            "outcomes": "[1.76]"
+        },
+        {
+            "subject": {
+                "year1": "2014",
+                "year2": "2016",
+                "dataset": "test",
+                "rank": "3",
+                "description": "third-highest probability corresponds to the true match"
+            },
+            "measures": "[percentage]",
+            "outcomes": "[1.14]"
+        },
+        {
+            "subject": {
+                "year1": "2014",
+                "year2": "2016",
+                "dataset": "training",
+                "rank": "4",
+                "description": "fourth-highest probability corresponds to the true match"
+            },
+            "measures": "[percentage]",
+            "outcomes": "[1.09]"
+        },
+        {
+            "subject": {
+                "year1": "2014",
+                "year2": "2016",
+                "dataset": "test",
+                "rank": "4",
+                "description": "fourth-highest probability corresponds to the true match"
+            },
+            "measures": "[percentage]",
+            "outcomes": "[0.64]"
+        },
+        {
+            "subject": {
+                "year1": "2014",
+                "year2": "2016",
+                "dataset": "training",
+                "rank": "\u2265 5",
+                "description": "fifth or lower probability corresponds to the true match"
+            },
+            "measures": "[percentage]",
+            "outcomes": "[15.49]"
+        },
+        {
+            "subject": {
+                "year1": "2014",
+                "year2": "2016",
+                "dataset": "test",
+                "rank": "\u2265 5",
+                "description": "fifth or lower probability corresponds to the true match"
+            },
+            "measures": "[percentage]",
+            "outcomes": "[14.48]"
+        },
+        {
+            "subject": {
+                "year1": "2014",
+                "year2": "2016",
+                "dataset": "training",
+                "description": "top three positions correspond to actually matching pairs"
+            },
+            "measures": "[percentage]",
+            "outcomes": "[85]"
+        },
+        {
+            "subject": {
+                "year1": "2014",
+                "year2": "2016",
+                "dataset": "test",
+                "description": "top three positions correspond to actually matching pairs"
+            },
+            "measures": "[percentage]",
+            "outcomes": "[85]"
+        }
+    ],
+    "2211.02161_2": [
+        {
+            "subject": {
+                "Data set": "DBLP-ACM (Clean)",
+                "Domain": "Publication",
+                "Num Records": "2,616 - 2,294",
+                "Ground Truth": "2,224",
+                "Training data": "7,417",
+                "Missing values (%)": "0 - 0",
+                "Provenance": "Real",
+                "Linkage attributes": "authors names, publication name, venue, year",
+                "Data quality": "Clean"
+            },
+            "measures": "[]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "Data set": "DBLP-ACM (Dirty)",
+                "Domain": "Publication",
+                "Num Records": "2,616 - 2,294",
+                "Ground Truth": "2,224",
+                "Training data": "7,417",
+                "Missing values (%)": "49 - 47",
+                "Provenance": "Real",
+                "Linkage attributes": "authors names, publication name, venue, year",
+                "Data quality": "Dirty"
+            },
+            "measures": "[]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "Data set": "DBLP-Scholar (Clean)",
+                "Domain": "Publication",
+                "Num Records": "2,616 - 64,263",
+                "Ground Truth": "2,324",
+                "Training data": "17,223",
+                "Missing values (%)": "7 - 22",
+                "Provenance": "Real",
+                "Linkage attributes": "authors names, publication name, venue, year",
+                "Data quality": "Clean"
+            },
+            "measures": "[]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "Data set": "DBLP-Scholar (Dirty)",
+                "Domain": "Publication",
+                "Num Records": "2,616 - 64,263",
+                "Ground Truth": "2,324",
+                "Training data": "17,223",
+                "Missing values (%)": "48 - 61",
+                "Provenance": "Real",
+                "Linkage attributes": "authors names, publication name, venue, year",
+                "Data quality": "Dirty"
+            },
+            "measures": "[]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "Data set": "iTune-Amazon",
+                "Domain": "Music",
+                "Num Records": "6,907 - 55,923",
+                "Ground Truth": "132",
+                "Training data": "321",
+                "Missing values (%)": "0 - 0",
+                "Provenance": "Real"
+            },
+            "measures": "[]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "Data set": "Music-Brainz",
+                "Domain": "Music",
+                "Num Records": "3,827 - 3,861",
+                "Ground Truth": "1,219",
+                "Training data": "3,565",
+                "Missing values (%)": "24 - 23",
+                "Provenance": "Real"
+            },
+            "measures": "[]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "Data set": "Amazon-Google",
+                "Domain": "E-commerce",
+                "Num Records": "1,363 - 3,226",
+                "Ground Truth": "1,300",
+                "Training data": "3,571",
+                "Missing values (%)": "8 - 10",
+                "Provenance": "Real"
+            },
+            "measures": "[]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "Data set": "NCVR",
+                "Domain": "Demographic",
+                "Num Records": "222,251 - 224,061",
+                "Ground Truth": "148,036",
+                "Training data": "425,731",
+                "Missing values (%)": "3 - 4",
+                "Provenance": "Real"
+            },
+            "measures": "[]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "Data set": "European Census",
+                "Domain": "Demographic",
+                "Num Records": "25,343 - 24,613",
+                "Ground Truth": "24,043",
+                "Training data": "71,887",
+                "Missing values (%)": "3 - 3",
+                "Provenance": "Synthetic"
+            },
+            "measures": "[]",
+            "outcomes": "[]"
+        }
+    ],
+    "1308.3357_1": [
+        {
+            "subject": {
+                "experiment": "disk space estimation",
+                "dataset": "SP2bench",
+                "serialization": "N-Triples",
+                "database": "CouchDB",
+                "compression": "off"
+            },
+            "measures": "[size (kB/1K triples)]",
+            "outcomes": "[157]"
+        },
+        {
+            "subject": {
+                "experiment": "disk space estimation",
+                "dataset": "SP2bench",
+                "serialization": "Model 1",
+                "database": "CouchDB",
+                "compression": "off"
+            },
+            "measures": "[size (kB/1K triples)]",
+            "outcomes": "[143]"
+        },
+        {
+            "subject": {
+                "experiment": "disk space estimation",
+                "dataset": "SP2bench",
+                "serialization": "Model 2",
+                "database": "CouchDB",
+                "compression": "off"
+            },
+            "measures": "[size (kB/1K triples)]",
+            "outcomes": "[157]"
+        },
+        {
+            "subject": {
+                "experiment": "disk space estimation",
+                "dataset": "SP2bench",
+                "serialization": "Document per quad",
+                "database": "CouchDB",
+                "compression": "off"
+            },
+            "measures": "[size (kB/1K triples)]",
+            "outcomes": "[418]"
+        }
+    ],
+    "2111.01767_2": [
+        {
+            "subject": {
+                "experiment": "real data experiment",
+                "dataset": "Beijing Air Quality Data",
+                "method": "naive",
+                "metric": "average REE",
+                "replications": "100",
+                "comparison": "local shuffling prior",
+                "context": "without regularization"
+            },
+            "measures": "[Corr est - Corr * Frobenius norm]",
+            "outcomes": "[0.76]"
+        },
+        {
+            "subject": {
+                "experiment": "real data experiment",
+                "dataset": "Beijing Air Quality Data",
+                "method": "EM",
+                "metric": "average REE",
+                "replications": "100",
+                "comparison": "local shuffling prior",
+                "context": "without regularization"
+            },
+            "measures": "[Corr est - Corr * Frobenius norm]",
+            "outcomes": "[1.97]"
+        },
+        {
+            "subject": {
+                "experiment": "real data experiment",
+                "dataset": "Beijing Air Quality Data",
+                "method": "EML",
+                "metric": "average REE",
+                "replications": "100",
+                "comparison": "local shuffling prior",
+                "context": "with regularization"
+            },
+            "measures": "[Corr est - Corr * Frobenius norm]",
+            "outcomes": "[0.34]"
+        },
+        {
+            "subject": {
+                "experiment": "real data experiment",
+                "dataset": "Beijing Air Quality Data",
+                "method": "naive",
+                "metric": "standard error",
+                "replications": "100",
+                "comparison": "local shuffling prior",
+                "context": "without regularization"
+            },
+            "measures": "[standard error]",
+            "outcomes": "[0.0012]"
+        },
+        {
+            "subject": {
+                "experiment": "real data experiment",
+                "dataset": "Beijing Air Quality Data",
+                "method": "EM",
+                "metric": "standard error",
+                "replications": "100",
+                "comparison": "local shuffling prior",
+                "context": "without regularization"
+            },
+            "measures": "[standard error]",
+            "outcomes": "[0.0111]"
+        },
+        {
+            "subject": {
+                "experiment": "real data experiment",
+                "dataset": "Beijing Air Quality Data",
+                "method": "EML",
+                "metric": "standard error",
+                "replications": "100",
+                "comparison": "local shuffling prior",
+                "context": "with regularization"
+            },
+            "measures": "[standard error]",
+            "outcomes": "[0.0010]"
+        }
+    ],
+    "2005.09399_1": [
+        {
+            "subject": {
+                "method": "Token Blocking",
+                "criterion": "The descriptions have a common token in their values.",
+                "context": "Criteria for placing descriptions in the same block",
+                "source": "Table I"
+            }
+        },
+        {
+            "subject": {
+                "method": "Attribute Clustering Blocking",
+                "criterion": "The descriptions have a common token in the values of attributes that have similar values in overall.",
+                "context": "Criteria for placing descriptions in the same block",
+                "source": "Table I"
+            }
+        },
+        {
+            "subject": {
+                "method": "Prefix-Infix(-Suffix) Blocking",
+                "criterion": "The descriptions have a common token in their literal values, or a common URI infix.",
+                "context": "Criteria for placing descriptions in the same block",
+                "source": "Table I"
+            }
+        },
+        {
+            "subject": {
+                "method": "Iterative Blocking",
+                "criterion": "The descriptions are placed in a block by a blocking method, or after replacing descriptions that were merged in a previous iteration.",
+                "context": "Criteria for placing descriptions in the same block",
+                "source": "Table I"
+            }
+        }
+    ],
+    "1906.08042_5": [
+        {
+            "subject": {
+                "genre": "restaurant",
+                "source_dataset": "Zomato-Yelp",
+                "target_dataset": "Fodors-Zagats",
+                "method": "Train on Src",
+                "precision": "100.00",
+                "recall": "6.37",
+                "f1_score": "11.76 \u00b1 6.84"
+            },
+            "measures": "[precision, recall, f1_score]",
+            "outcomes": "[100.00, 6.37, 11.76 \u00b1 6.84]"
+        },
+        {
+            "subject": {
+                "genre": "restaurant",
+                "source_dataset": "Zomato-Yelp",
+                "target_dataset": "Fodors-Zagats",
+                "method": "+Adaptation",
+                "precision": "95.33",
+                "recall": "57.27",
+                "f1_score": "70.13 \u00b1 19.89"
+            },
+            "measures": "[precision, recall, f1_score]",
+            "outcomes": "[95.33, 57.27, 70.13 \u00b1 19.89]"
+        },
+        {
+            "subject": {
+                "genre": "restaurant",
+                "source_dataset": "Zomato-Yelp",
+                "target_dataset": "Fodors-Zagats",
+                "method": "+100 active labels",
+                "precision": "100.00",
+                "recall": "100.00",
+                "f1_score": "100.00 \u00b1 0.00"
+            },
+            "measures": "[precision, recall, f1_score]",
+            "outcomes": "[100.00, 100.00, 100.00 \u00b1 0.00]"
+        },
+        {
+            "subject": {
+                "genre": "restaurant",
+                "source_dataset": "Zomato-Yelp",
+                "target_dataset": "Fodors-Zagats",
+                "method": "Train on Tgt",
+                "precision": "100.00",
+                "recall": "100.00",
+                "f1_score": "100.00 \u00b1 0.00"
+            },
+            "measures": "[precision, recall, f1_score]",
+            "outcomes": "[100.00, 100.00, 100.00 \u00b1 0.00]"
+        },
+        {
+            "subject": {
+                "genre": "restaurant",
+                "source_dataset": "Zomato-Yelp",
+                "target_dataset": "Fodors-Zagats",
+                "method": "Mudgal et al. (2018)",
+                "f1_score": "100"
+            },
+            "measures": "[f1_score]",
+            "outcomes": "[100]"
+        }
+    ],
+    "2106.14444_1": [
+        {
+            "subject": {
+                "system": "baseline",
+                "sub-task": "Sub-task 1",
+                "metric": "F1"
+            },
+            "measures": "[F1]",
+            "outcomes": "[0.9455]"
+        },
+        {
+            "subject": {
+                "system": "baseline",
+                "sub-task": "Sub-task 2",
+                "metric": "R@1"
+            },
+            "measures": "[R@1]",
+            "outcomes": "[0.6201]"
+        },
+        {
+            "subject": {
+                "system": "baseline",
+                "sub-task": "Sub-task 3",
+                "metric": "BLEU-1"
+            },
+            "measures": "[BLEU-1]",
+            "outcomes": "[0.3031]"
+        },
+        {
+            "subject": {
+                "system": "baseline",
+                "sub-task": "Sub-task 3",
+                "metric": "METEOR"
+            },
+            "measures": "[METEOR]",
+            "outcomes": "[0.2983]"
+        },
+        {
+            "subject": {
+                "system": "baseline",
+                "sub-task": "Sub-task 3",
+                "metric": "Rouge-L"
+            },
+            "measures": "[Rouge-L]",
+            "outcomes": "[0.3039]"
+        },
+        {
+            "subject": {
+                "system": "baseline",
+                "metric": "Accuracy"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[3.7155]"
+        },
+        {
+            "subject": {
+                "system": "baseline",
+                "metric": "Appropriateness"
+            },
+            "measures": "[Appropriateness]",
+            "outcomes": "[3.9386]"
+        },
+        {
+            "subject": {
+                "system": "our system",
+                "team": "Team 11",
+                "sub-task": "Sub-task 1",
+                "metric": "F1"
+            },
+            "measures": "[F1]",
+            "outcomes": "[0.9675]"
+        },
+        {
+            "subject": {
+                "system": "our system",
+                "team": "Team 11",
+                "sub-task": "Sub-task 2",
+                "metric": "R@1"
+            },
+            "measures": "[R@1]",
+            "outcomes": "[0.8702]"
+        },
+        {
+            "subject": {
+                "system": "our system",
+                "team": "Team 11",
+                "sub-task": "Sub-task 3",
+                "metric": "BLEU-1"
+            },
+            "measures": "[BLEU-1]",
+            "outcomes": "[0.3743]"
+        },
+        {
+            "subject": {
+                "system": "our system",
+                "team": "Team 11",
+                "sub-task": "Sub-task 3",
+                "metric": "METEOR"
+            },
+            "measures": "[METEOR]",
+            "outcomes": "[0.3854]"
+        },
+        {
+            "subject": {
+                "system": "our system",
+                "team": "Team 11",
+                "sub-task": "Sub-task 3",
+                "metric": "Rouge-L"
+            },
+            "measures": "[Rouge-L]",
+            "outcomes": "[0.3797]"
+        },
+        {
+            "subject": {
+                "system": "our system",
+                "team": "Team 11",
+                "metric": "Accuracy"
+            },
+            "measures": "[Accuracy]",
+            "outcomes": "[4.2722]"
+        },
+        {
+            "subject": {
+                "system": "our system",
+                "team": "Team 11",
+                "metric": "Appropriateness"
+            },
+            "measures": "[Appropriateness]",
+            "outcomes": "[4.2619]"
+        },
+        {
+            "subject": {
+                "evaluation": "human",
+                "scale": "1-5",
+                "source": "overview of DSTC9 (Gunasekara etal. 2020)",
+                "note": "scores for downstream sub-tasks are weighted by upstream tasks"
+            },
+            "measures": "[]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "system": "our system",
+                "team": "Team 11",
+                "models": "T5",
+                "method": "fine-tuned on different sub-tasks"
+            },
+            "measures": "[]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "system": "our system",
+                "team": "Team 11",
+                "comparison": "baseline",
+                "effectiveness": "overall"
+            },
+            "measures": "[]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "system": "our system",
+                "team": "Team 11",
+                "improvement": "significant in all sub-tasks",
+                "response quality": "higher"
+            },
+            "measures": "[]",
+            "outcomes": "[]"
+        }
+    ],
+    "2012.10004_7": [
+        {
+            "subject": {
+                "Dataset": "WA",
+                "Feature Extractor": "BatchER-LR",
+                "Type": "Structure-aware",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[Matching Accuracy]",
+            "outcomes": "[80.66]"
+        },
+        {
+            "subject": {
+                "Dataset": "WA",
+                "Feature Extractor": "BatchER-JAC",
+                "Type": "Structure-aware",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[Matching Accuracy]",
+            "outcomes": "[78.05]"
+        },
+        {
+            "subject": {
+                "Dataset": "WA",
+                "Feature Extractor": "BatchER-SEM",
+                "Type": "Semantics-based",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[Matching Accuracy]",
+            "outcomes": "[78.66]"
+        },
+        {
+            "subject": {
+                "Dataset": "AB",
+                "Feature Extractor": "BatchER-LR",
+                "Type": "Structure-aware",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[Matching Accuracy]",
+            "outcomes": "[88.38]"
+        },
+        {
+            "subject": {
+                "Dataset": "AB",
+                "Feature Extractor": "BatchER-JAC",
+                "Type": "Structure-aware",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[Matching Accuracy]",
+            "outcomes": "[84.23]"
+        },
+        {
+            "subject": {
+                "Dataset": "AB",
+                "Feature Extractor": "BatchER-SEM",
+                "Type": "Semantics-based",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[Matching Accuracy]",
+            "outcomes": "[87.06]"
+        },
+        {
+            "subject": {
+                "Dataset": "AG",
+                "Feature Extractor": "BatchER-LR",
+                "Type": "Structure-aware",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[Matching Accuracy]",
+            "outcomes": "[62.16]"
+        },
+        {
+            "subject": {
+                "Dataset": "AG",
+                "Feature Extractor": "BatchER-JAC",
+                "Type": "Structure-aware",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[Matching Accuracy]",
+            "outcomes": "[59.90]"
+        },
+        {
+            "subject": {
+                "Dataset": "AG",
+                "Feature Extractor": "BatchER-SEM",
+                "Type": "Semantics-based",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[Matching Accuracy]",
+            "outcomes": "[59.20]"
+        },
+        {
+            "subject": {
+                "Dataset": "DS",
+                "Feature Extractor": "BatchER-LR",
+                "Type": "Structure-aware",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[Matching Accuracy]",
+            "outcomes": "[83.70]"
+        },
+        {
+            "subject": {
+                "Dataset": "DS",
+                "Feature Extractor": "BatchER-JAC",
+                "Type": "Structure-aware",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[Matching Accuracy]",
+            "outcomes": "[81.27]"
+        },
+        {
+            "subject": {
+                "Dataset": "DS",
+                "Feature Extractor": "BatchER-SEM",
+                "Type": "Semantics-based",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[Matching Accuracy]",
+            "outcomes": "[80.91]"
+        },
+        {
+            "subject": {
+                "Dataset": "DA",
+                "Feature Extractor": "BatchER-LR",
+                "Type": "Structure-aware",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[Matching Accuracy]",
+            "outcomes": "[94.96]"
+        },
+        {
+            "subject": {
+                "Dataset": "DA",
+                "Feature Extractor": "BatchER-JAC",
+                "Type": "Structure-aware",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[Matching Accuracy]",
+            "outcomes": "[92.70]"
+        },
+        {
+            "subject": {
+                "Dataset": "DA",
+                "Feature Extractor": "BatchER-SEM",
+                "Type": "Semantics-based",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[Matching Accuracy]",
+            "outcomes": "[90.36]"
+        },
+        {
+            "subject": {
+                "Dataset": "FZ",
+                "Feature Extractor": "BatchER-LR",
+                "Type": "Structure-aware",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[Matching Accuracy]",
+            "outcomes": "[100.00]"
+        },
+        {
+            "subject": {
+                "Dataset": "FZ",
+                "Feature Extractor": "BatchER-JAC",
+                "Type": "Structure-aware",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[Matching Accuracy]",
+            "outcomes": "[93.62]"
+        },
+        {
+            "subject": {
+                "Dataset": "FZ",
+                "Feature Extractor": "BatchER-SEM",
+                "Type": "Semantics-based",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[Matching Accuracy]",
+            "outcomes": "[95.24]"
+        },
+        {
+            "subject": {
+                "Dataset": "IA",
+                "Feature Extractor": "BatchER-LR",
+                "Type": "Structure-aware",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[Matching Accuracy]",
+            "outcomes": "[96.43]"
+        },
+        {
+            "subject": {
+                "Dataset": "IA",
+                "Feature Extractor": "BatchER-JAC",
+                "Type": "Structure-aware",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[Matching Accuracy]",
+            "outcomes": "[90.57]"
+        },
+        {
+            "subject": {
+                "Dataset": "IA",
+                "Feature Extractor": "BatchER-SEM",
+                "Type": "Semantics-based",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[Matching Accuracy]",
+            "outcomes": "[90.91]"
+        },
+        {
+            "subject": {
+                "Dataset": "Beer",
+                "Feature Extractor": "BatchER-LR",
+                "Type": "Structure-aware",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[Matching Accuracy]",
+            "outcomes": "[96.55]"
+        },
+        {
+            "subject": {
+                "Dataset": "Beer",
+                "Feature Extractor": "BatchER-JAC",
+                "Type": "Structure-aware",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[Matching Accuracy]",
+            "outcomes": "[89.66]"
+        },
+        {
+            "subject": {
+                "Dataset": "Beer",
+                "Feature Extractor": "BatchER-SEM",
+                "Type": "Semantics-based",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[Matching Accuracy]",
+            "outcomes": "[91.67]"
+        },
+        {
+            "subject": {
+                "Feature Extractor": "BatchER-LR",
+                "Comparison": "Sensitivity to string order",
+                "Example": "listen and silent",
+                "Similarity Score": "0.5"
+            }
+        },
+        {
+            "subject": {
+                "Feature Extractor": "BatchER-JAC",
+                "Comparison": "Sensitivity to string order",
+                "Example": "listen and silent",
+                "Similarity Score": "0.89"
+            }
+        }
+    ],
+    "2209.07569_6": [
+        {
+            "subject": {
+                "Dataset": "AmazonMI",
+                "Model": "In-parallel",
+                "Intent": "Equivalence",
+                "Precision": ".829",
+                "Recall": ".991",
+                "F1": ".901",
+                "Accuracy": ".960",
+                "EFsubscriptE_{F}": "-"
+            },
+            "measures": "[Precision, Recall, F1, Accuracy]",
+            "outcomes": "[.829, .991, .901, .960]"
+        },
+        {
+            "subject": {
+                "Dataset": "AmazonMI",
+                "Model": "Multi-label",
+                "Intent": "Equivalence",
+                "Precision": ".921",
+                "Recall": ".905",
+                "F1": ".912",
+                "Accuracy": ".969",
+                "EFsubscriptE_{F}": "-"
+            },
+            "measures": "[Precision, Recall, F1, Accuracy]",
+            "outcomes": "[.921, .905, .912, .969]"
+        },
+        {
+            "subject": {
+                "Dataset": "AmazonMI",
+                "Model": "FlexER",
+                "Intent": "Equivalence",
+                "Precision": ".933",
+                "Recall": ".985",
+                "F1": ".958",
+                "Accuracy": ".985",
+                "EFsubscriptE_{F}": "57.6 %"
+            },
+            "measures": "[Precision, Recall, F1, Accuracy, EFsubscriptE_{F}]",
+            "outcomes": "[.933, .985, .958, .985, 57.6]"
+        },
+        {
+            "subject": {
+                "Dataset": "Walmart-Amazon",
+                "Model": "In-parallel",
+                "Intent": "Equivalence",
+                "Precision": ".852",
+                "Recall": ".812",
+                "F1": ".831",
+                "Accuracy": ".969",
+                "EFsubscriptE_{F}": "-"
+            },
+            "measures": "[Precision, Recall, F1, Accuracy]",
+            "outcomes": "[.852, .812, .831, .969]"
+        },
+        {
+            "subject": {
+                "Dataset": "Walmart-Amazon",
+                "Model": "Multi-label",
+                "Intent": "Equivalence",
+                "Precision": ".854",
+                "Recall": ".772",
+                "F1": ".810",
+                "Accuracy": ".966",
+                "EFsubscriptE_{F}": "-"
+            },
+            "measures": "[Precision, Recall, F1, Accuracy]",
+            "outcomes": "[.854, .772, .810, .966]"
+        },
+        {
+            "subject": {
+                "Dataset": "Walmart-Amazon",
+                "Model": "FlexER",
+                "Intent": "Equivalence",
+                "Precision": ".903",
+                "Recall": ".792",
+                "F1": ".844",
+                "Accuracy": ".985",
+                "EFsubscriptE_{F}": "7.7 %"
+            },
+            "measures": "[Precision, Recall, F1, Accuracy, EFsubscriptE_{F}]",
+            "outcomes": "[.903, .792, .844, .985, 7.7]"
+        },
+        {
+            "subject": {
+                "Dataset": "WDC",
+                "Model": "In-parallel",
+                "Intent": "Equivalence",
+                "Precision": ".786",
+                "Recall": ".745",
+                "F1": ".761",
+                "Accuracy": ".948",
+                "EFsubscriptE_{F}": "-"
+            },
+            "measures": "[Precision, Recall, F1, Accuracy]",
+            "outcomes": "[.786, .745, .761, .948]"
+        },
+        {
+            "subject": {
+                "Dataset": "WDC",
+                "Model": "Multi-label",
+                "Intent": "Equivalence",
+                "Precision": ".808",
+                "Recall": ".713",
+                "F1": ".757",
+                "Accuracy": ".948",
+                "EFsubscriptE_{F}": "-"
+            },
+            "measures": "[Precision, Recall, F1, Accuracy]",
+            "outcomes": "[.808, .713, .757, .948]"
+        },
+        {
+            "subject": {
+                "Dataset": "WDC",
+                "Model": "FlexER",
+                "Intent": "Equivalence",
+                "Precision": ".775",
+                "Recall": ".788",
+                "F1": ".782",
+                "Accuracy": ".950",
+                "EFsubscriptE_{F}": "8.8 %"
+            },
+            "measures": "[Precision, Recall, F1, Accuracy, EFsubscriptE_{F}]",
+            "outcomes": "[.775, .788, .782, .950, 8.8]"
+        }
+    ],
+    "1305.2254_4": [
+        {
+            "subject": {
+                "program": "ProPPR",
+                "task": "entity resolution",
+                "method": "MLN(B+T) approach",
+                "difference": "absence of tests on words in a field excluded",
+                "dataset": "CORA",
+                "dataset_size": "1295 bibliography citations",
+                "distinct_papers": "132",
+                "regularization_coefficient": "0.001",
+                "epochs": "5",
+                "learning_rate": "1",
+                "objective_function": "standard log loss",
+                "rule": "samebib(BC1,BC2) :- author(BC1,A1),sameauthor(A1,A2),authorinverse(A2,BC2)",
+                "description": "# author"
+            },
+            "measures": "[]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "program": "ProPPR",
+                "task": "entity resolution",
+                "method": "MLN(B+T) approach",
+                "difference": "absence of tests on words in a field excluded",
+                "dataset": "CORA",
+                "dataset_size": "1295 bibliography citations",
+                "distinct_papers": "132",
+                "regularization_coefficient": "0.001",
+                "epochs": "5",
+                "learning_rate": "1",
+                "objective_function": "standard log loss",
+                "rule": "samebib(BC1,BC2) :- title(BC1,A1),sametitle(A1,A2),titleinverse(A2,BC2)",
+                "description": "# title"
+            },
+            "measures": "[]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "program": "ProPPR",
+                "task": "entity resolution",
+                "method": "MLN(B+T) approach",
+                "difference": "absence of tests on words in a field excluded",
+                "dataset": "CORA",
+                "dataset_size": "1295 bibliography citations",
+                "distinct_papers": "132",
+                "regularization_coefficient": "0.001",
+                "epochs": "5",
+                "learning_rate": "1",
+                "objective_function": "standard log loss",
+                "rule": "samebib(BC1,BC2) :- venue(BC1,A1),samevenue(A1,A2),venueinverse(A2,BC2)",
+                "description": "# venue"
+            },
+            "measures": "[]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "program": "ProPPR",
+                "task": "entity resolution",
+                "method": "MLN(B+T) approach",
+                "difference": "absence of tests on words in a field excluded",
+                "dataset": "CORA",
+                "dataset_size": "1295 bibliography citations",
+                "distinct_papers": "132",
+                "regularization_coefficient": "0.001",
+                "epochs": "5",
+                "learning_rate": "1",
+                "objective_function": "standard log loss",
+                "rule": "samebib(BC1,BC2) :- samebib(BC1,BC3),samebib(BC3,BC2)",
+                "description": "# tcbib"
+            },
+            "measures": "[]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "program": "ProPPR",
+                "task": "entity resolution",
+                "method": "MLN(B+T) approach",
+                "difference": "absence of tests on words in a field excluded",
+                "dataset": "CORA",
+                "dataset_size": "1295 bibliography citations",
+                "distinct_papers": "132",
+                "regularization_coefficient": "0.001",
+                "epochs": "5",
+                "learning_rate": "1",
+                "objective_function": "standard log loss",
+                "rule": "sameauthor(A1,A2) :- haswordauthor(A1,W),haswordauthorinverse(W,A2),keyauthorword(W)",
+                "description": "# authorword"
+            },
+            "measures": "[]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "program": "ProPPR",
+                "task": "entity resolution",
+                "method": "MLN(B+T) approach",
+                "difference": "absence of tests on words in a field excluded",
+                "dataset": "CORA",
+                "dataset_size": "1295 bibliography citations",
+                "distinct_papers": "132",
+                "regularization_coefficient": "0.001",
+                "epochs": "5",
+                "learning_rate": "1",
+                "objective_function": "standard log loss",
+                "rule": "sameauthor(A1,A2) :- sameauthor(A1,A3),sameauthor(A3,A2)",
+                "description": "# tcauthor"
+            },
+            "measures": "[]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "program": "ProPPR",
+                "task": "entity resolution",
+                "method": "MLN(B+T) approach",
+                "difference": "absence of tests on words in a field excluded",
+                "dataset": "CORA",
+                "dataset_size": "1295 bibliography citations",
+                "distinct_papers": "132",
+                "regularization_coefficient": "0.001",
+                "epochs": "5",
+                "learning_rate": "1",
+                "objective_function": "standard log loss",
+                "rule": "sametitle(A1,A2) :- haswordtitle(A1,W),haswordtitleinverse(W,A2),keytitleword(W)",
+                "description": "# titleword"
+            },
+            "measures": "[]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "program": "ProPPR",
+                "task": "entity resolution",
+                "method": "MLN(B+T) approach",
+                "difference": "absence of tests on words in a field excluded",
+                "dataset": "CORA",
+                "dataset_size": "1295 bibliography citations",
+                "distinct_papers": "132",
+                "regularization_coefficient": "0.001",
+                "epochs": "5",
+                "learning_rate": "1",
+                "objective_function": "standard log loss",
+                "rule": "sametitle(A1,A2) :- sametitle(A1,A3),sametitle(A3,A2)",
+                "description": "# tctitle"
+            },
+            "measures": "[]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "program": "ProPPR",
+                "task": "entity resolution",
+                "method": "MLN(B+T) approach",
+                "difference": "absence of tests on words in a field excluded",
+                "dataset": "CORA",
+                "dataset_size": "1295 bibliography citations",
+                "distinct_papers": "132",
+                "regularization_coefficient": "0.001",
+                "epochs": "5",
+                "learning_rate": "1",
+                "objective_function": "standard log loss",
+                "rule": "samevenue(A1,A2) :- haswordvenue(A1,W),haswordvenueinverse(W,A2),keyvenueword(W)",
+                "description": "# venueword"
+            },
+            "measures": "[]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "program": "ProPPR",
+                "task": "entity resolution",
+                "method": "MLN(B+T) approach",
+                "difference": "absence of tests on words in a field excluded",
+                "dataset": "CORA",
+                "dataset_size": "1295 bibliography citations",
+                "distinct_papers": "132",
+                "regularization_coefficient": "0.001",
+                "epochs": "5",
+                "learning_rate": "1",
+                "objective_function": "standard log loss",
+                "rule": "samevenue(A1,A2) :- samevenue(A1,A3),samevenue(A3,A2)",
+                "description": "# tcvenue"
+            },
+            "measures": "[]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "program": "ProPPR",
+                "task": "entity resolution",
+                "method": "MLN(B+T) approach",
+                "difference": "absence of tests on words in a field excluded",
+                "dataset": "CORA",
+                "dataset_size": "1295 bibliography citations",
+                "distinct_papers": "132",
+                "regularization_coefficient": "0.001",
+                "epochs": "5",
+                "learning_rate": "1",
+                "objective_function": "standard log loss",
+                "rule": "keyauthorword(W) :- true",
+                "description": "# authorWord(W)"
+            },
+            "measures": "[]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "program": "ProPPR",
+                "task": "entity resolution",
+                "method": "MLN(B+T) approach",
+                "difference": "absence of tests on words in a field excluded",
+                "dataset": "CORA",
+                "dataset_size": "1295 bibliography citations",
+                "distinct_papers": "132",
+                "regularization_coefficient": "0.001",
+                "epochs": "5",
+                "learning_rate": "1",
+                "objective_function": "standard log loss",
+                "rule": "keytitleword(W) :- true",
+                "description": "# titleWord(W)"
+            },
+            "measures": "[]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "program": "ProPPR",
+                "task": "entity resolution",
+                "method": "MLN(B+T) approach",
+                "difference": "absence of tests on words in a field excluded",
+                "dataset": "CORA",
+                "dataset_size": "1295 bibliography citations",
+                "distinct_papers": "132",
+                "regularization_coefficient": "0.001",
+                "epochs": "5",
+                "learning_rate": "1",
+                "objective_function": "standard log loss",
+                "rule": "keyvenueword(W) :- true",
+                "description": "# venueWord(W)"
+            },
+            "measures": "[]",
+            "outcomes": "[]"
+        }
+    ],
+    "2009.14797_2": [
+        {
+            "subject": {
+                "data_set": "Census",
+                "description": "A fictional data set to represent some observations",
+                "source": "ESSnet-DI",
+                "citation": "McLeod et al., 2011",
+                "availability": "freely available online"
+            }
+        },
+        {
+            "subject": {
+                "data_set": "(25,343)",
+                "description": "from a decennial Census",
+                "source": "ESSnet-DI",
+                "citation": "McLeod et al., 2011",
+                "availability": "freely available online"
+            }
+        },
+        {
+            "subject": {
+                "data_set": "CIS",
+                "description": "Fictional observations from Customer Information System,",
+                "source": "ESSnet-DI",
+                "citation": "McLeod et al., 2011",
+                "availability": "freely available online"
+            }
+        },
+        {
+            "subject": {
+                "data_set": "(24,613)",
+                "description": "combined administrative data from the tax and benefit systems",
+                "source": "ESSnet-DI",
+                "citation": "McLeod et al., 2011",
+                "availability": "freely available online"
+            }
+        },
+        {
+            "subject": {
+                "data_set": "PRD",
+                "description": "Fictional observations from Patient Register Data",
+                "source": "ESSnet-DI",
+                "citation": "McLeod et al., 2011",
+                "availability": "freely available online"
+            }
+        },
+        {
+            "subject": {
+                "data_set": "(24,750)",
+                "description": "of the National Health Service",
+                "source": "ESSnet-DI",
+                "citation": "McLeod et al., 2011",
+                "availability": "freely available online"
+            }
+        }
+    ],
+    "2301.09521_5": [
+        {
+            "subject": {
+                "experiment": "multi-class matching",
+                "table": "Table 5",
+                "dimension": "amount of corner-cases",
+                "development set size": "Small",
+                "corner-cases": "80%",
+                "method": "Word-Occ"
+            },
+            "measures": "[micro-F1]",
+            "outcomes": "[63.30]"
+        },
+        {
+            "subject": {
+                "experiment": "multi-class matching",
+                "table": "Table 5",
+                "dimension": "amount of corner-cases",
+                "development set size": "Small",
+                "corner-cases": "80%",
+                "method": "RoBERTa"
+            },
+            "measures": "[micro-F1]",
+            "outcomes": "[36.63]"
+        },
+        {
+            "subject": {
+                "experiment": "multi-class matching",
+                "table": "Table 5",
+                "dimension": "amount of corner-cases",
+                "development set size": "Small",
+                "corner-cases": "80%",
+                "method": "R-SupCon"
+            },
+            "measures": "[micro-F1]",
+            "outcomes": "[82.30]"
+        },
+        {
+            "subject": {
+                "experiment": "multi-class matching",
+                "table": "Table 5",
+                "dimension": "amount of corner-cases",
+                "development set size": "Medium",
+                "corner-cases": "80%",
+                "method": "Word-Occ"
+            },
+            "measures": "[micro-F1]",
+            "outcomes": "[71.50]"
+        },
+        {
+            "subject": {
+                "experiment": "multi-class matching",
+                "table": "Table 5",
+                "dimension": "amount of corner-cases",
+                "development set size": "Medium",
+                "corner-cases": "80%",
+                "method": "RoBERTa"
+            },
+            "measures": "[micro-F1]",
+            "outcomes": "[52.03]"
+        },
+        {
+            "subject": {
+                "experiment": "multi-class matching",
+                "table": "Table 5",
+                "dimension": "amount of corner-cases",
+                "development set size": "Medium",
+                "corner-cases": "80%",
+                "method": "R-SupCon"
+            },
+            "measures": "[micro-F1]",
+            "outcomes": "[88.63]"
+        },
+        {
+            "subject": {
+                "experiment": "multi-class matching",
+                "table": "Table 5",
+                "dimension": "amount of corner-cases",
+                "development set size": "Large",
+                "corner-cases": "80%",
+                "method": "Word-Occ"
+            },
+            "measures": "[micro-F1]",
+            "outcomes": "[79.40]"
+        },
+        {
+            "subject": {
+                "experiment": "multi-class matching",
+                "table": "Table 5",
+                "dimension": "amount of corner-cases",
+                "development set size": "Large",
+                "corner-cases": "80%",
+                "method": "RoBERTa"
+            },
+            "measures": "[micro-F1]",
+            "outcomes": "[78.77]"
+        },
+        {
+            "subject": {
+                "experiment": "multi-class matching",
+                "table": "Table 5",
+                "dimension": "amount of corner-cases",
+                "development set size": "Large",
+                "corner-cases": "80%",
+                "method": "R-SupCon"
+            },
+            "measures": "[micro-F1]",
+            "outcomes": "[89.33]"
+        },
+        {
+            "subject": {
+                "experiment": "multi-class matching",
+                "table": "Table 5",
+                "dimension": "amount of corner-cases",
+                "development set size": "Small",
+                "corner-cases": "50%",
+                "method": "Word-Occ"
+            },
+            "measures": "[micro-F1]",
+            "outcomes": "[68.60]"
+        },
+        {
+            "subject": {
+                "experiment": "multi-class matching",
+                "table": "Table 5",
+                "dimension": "amount of corner-cases",
+                "development set size": "Small",
+                "corner-cases": "50%",
+                "method": "RoBERTa"
+            },
+            "measures": "[micro-F1]",
+            "outcomes": "[40.83]"
+        },
+        {
+            "subject": {
+                "experiment": "multi-class matching",
+                "table": "Table 5",
+                "dimension": "amount of corner-cases",
+                "development set size": "Small",
+                "corner-cases": "50%",
+                "method": "R-SupCon"
+            },
+            "measures": "[micro-F1]",
+            "outcomes": "[85.23]"
+        },
+        {
+            "subject": {
+                "experiment": "multi-class matching",
+                "table": "Table 5",
+                "dimension": "amount of corner-cases",
+                "development set size": "Medium",
+                "corner-cases": "50%",
+                "method": "Word-Occ"
+            },
+            "measures": "[micro-F1]",
+            "outcomes": "[76.10]"
+        },
+        {
+            "subject": {
+                "experiment": "multi-class matching",
+                "table": "Table 5",
+                "dimension": "amount of corner-cases",
+                "development set size": "Medium",
+                "corner-cases": "50%",
+                "method": "RoBERTa"
+            },
+            "measures": "[micro-F1]",
+            "outcomes": "[61.33]"
+        },
+        {
+            "subject": {
+                "experiment": "multi-class matching",
+                "table": "Table 5",
+                "dimension": "amount of corner-cases",
+                "development set size": "Medium",
+                "corner-cases": "50%",
+                "method": "R-SupCon"
+            },
+            "measures": "[micro-F1]",
+            "outcomes": "[89.80]"
+        },
+        {
+            "subject": {
+                "experiment": "multi-class matching",
+                "table": "Table 5",
+                "dimension": "amount of corner-cases",
+                "development set size": "Large",
+                "corner-cases": "50%",
+                "method": "Word-Occ"
+            },
+            "measures": "[micro-F1]",
+            "outcomes": "[81.10]"
+        },
+        {
+            "subject": {
+                "experiment": "multi-class matching",
+                "table": "Table 5",
+                "dimension": "amount of corner-cases",
+                "development set size": "Large",
+                "corner-cases": "50%",
+                "method": "RoBERTa"
+            },
+            "measures": "[micro-F1]",
+            "outcomes": "[82.00]"
+        },
+        {
+            "subject": {
+                "experiment": "multi-class matching",
+                "table": "Table 5",
+                "dimension": "amount of corner-cases",
+                "development set size": "Large",
+                "corner-cases": "50%",
+                "method": "R-SupCon"
+            },
+            "measures": "[micro-F1]",
+            "outcomes": "[91.73]"
+        },
+        {
+            "subject": {
+                "experiment": "multi-class matching",
+                "table": "Table 5",
+                "dimension": "amount of corner-cases",
+                "development set size": "Small",
+                "corner-cases": "20%",
+                "method": "Word-Occ"
+            },
+            "measures": "[micro-F1]",
+            "outcomes": "[66.60]"
+        },
+        {
+            "subject": {
+                "experiment": "multi-class matching",
+                "table": "Table 5",
+                "dimension": "amount of corner-cases",
+                "development set size": "Small",
+                "corner-cases": "20%",
+                "method": "RoBERTa"
+            },
+            "measures": "[micro-F1]",
+            "outcomes": "[39.83]"
+        },
+        {
+            "subject": {
+                "experiment": "multi-class matching",
+                "table": "Table 5",
+                "dimension": "amount of corner-cases",
+                "development set size": "Small",
+                "corner-cases": "20%",
+                "method": "R-SupCon"
+            },
+            "measures": "[micro-F1]",
+            "outcomes": "[87.87]"
+        },
+        {
+            "subject": {
+                "experiment": "multi-class matching",
+                "table": "Table 5",
+                "dimension": "amount of corner-cases",
+                "development set size": "Medium",
+                "corner-cases": "20%",
+                "method": "Word-Occ"
+            },
+            "measures": "[micro-F1]",
+            "outcomes": "[76.20]"
+        },
+        {
+            "subject": {
+                "experiment": "multi-class matching",
+                "table": "Table 5",
+                "dimension": "amount of corner-cases",
+                "development set size": "Medium",
+                "corner-cases": "20%",
+                "method": "RoBERTa"
+            },
+            "measures": "[micro-F1]",
+            "outcomes": "[61.13]"
+        },
+        {
+            "subject": {
+                "experiment": "multi-class matching",
+                "table": "Table 5",
+                "dimension": "amount of corner-cases",
+                "development set size": "Medium",
+                "corner-cases": "20%",
+                "method": "R-SupCon"
+            },
+            "measures": "[micro-F1]",
+            "outcomes": "[92.60]"
+        },
+        {
+            "subject": {
+                "experiment": "multi-class matching",
+                "table": "Table 5",
+                "dimension": "amount of corner-cases",
+                "development set size": "Large",
+                "corner-cases": "20%",
+                "method": "Word-Occ"
+            },
+            "measures": "[micro-F1]",
+            "outcomes": "[81.30]"
+        },
+        {
+            "subject": {
+                "experiment": "multi-class matching",
+                "table": "Table 5",
+                "dimension": "amount of corner-cases",
+                "development set size": "Large",
+                "corner-cases": "20%",
+                "method": "RoBERTa"
+            },
+            "measures": "[micro-F1]",
+            "outcomes": "[83.37]"
+        },
+        {
+            "subject": {
+                "experiment": "multi-class matching",
+                "table": "Table 5",
+                "dimension": "amount of corner-cases",
+                "development set size": "Large",
+                "corner-cases": "20%",
+                "method": "R-SupCon"
+            },
+            "measures": "[micro-F1]",
+            "outcomes": "[93.03]"
+        }
+    ],
+    "2012.10004_1": [
+        {
+            "subject": {
+                "Dataset": "Cora",
+                "Attributes": "4",
+                "Instances": "837865",
+                "Imbalance Rate": "1:49",
+                "Subspaces": "16"
+            },
+            "measures": "[Attributes, Instances, Imbalance Rate, Subspaces]",
+            "outcomes": "[4, 837865, 1:49, 16]"
+        },
+        {
+            "subject": {
+                "Dataset": "DBLP-ACM",
+                "Attributes": "4/4",
+                "Instances": "6001104",
+                "Imbalance Rate": "1:2698",
+                "Subspaces": "16"
+            },
+            "measures": "[Attributes, Instances, Imbalance Rate, Subspaces]",
+            "outcomes": "[4/4, 6001104, 1:2698, 16]"
+        },
+        {
+            "subject": {
+                "Dataset": "DBLP-Scholar",
+                "Attributes": "4/4",
+                "Instances": "168112008",
+                "Imbalance Rate": "1:71233",
+                "Subspaces": "16"
+            },
+            "measures": "[Attributes, Instances, Imbalance Rate, Subspaces]",
+            "outcomes": "[4/4, 168112008, 1:71233, 16]"
+        },
+        {
+            "subject": {
+                "Dataset": "NCVoter",
+                "Attributes": "18/18",
+                "Instances": "1000000",
+                "Imbalance Rate": "1:4202",
+                "Subspaces": "64"
+            },
+            "measures": "[Attributes, Instances, Imbalance Rate, Subspaces]",
+            "outcomes": "[18/18, 1000000, 1:4202, 64]"
+        },
+        {
+            "subject": {
+                "Dataset": "Cora",
+                "Source": "http://secondstring.sourceforge.net",
+                "Description": "bibliographic records of machine learning publications"
+            },
+            "measures": "[]",
+            "outcomes": ""
+        },
+        {
+            "subject": {
+                "Dataset": "DBLP-Scholar",
+                "Source": "http://secondstring.sourceforge.net",
+                "Description": "bibliographic records from DBLP and Google Scholar websites"
+            },
+            "measures": "[]",
+            "outcomes": ""
+        },
+        {
+            "subject": {
+                "Dataset": "DBLP-ACM",
+                "Source": "[24]",
+                "Description": "bibliographic records from DBLP and ACM websites"
+            },
+            "measures": "[24]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "Dataset": "NCVoter",
+                "Source": "http://alt.ncsbe.gov/data/",
+                "Description": "real-world voter registration information of people from North Carolina in the USA"
+            },
+            "measures": "[]",
+            "outcomes": ""
+        },
+        {
+            "subject": {
+                "Observation": "Datasets are highly imbalanced",
+                "Majority Class": "non-match",
+                "Minority Class": "match"
+            },
+            "measures": "[]",
+            "outcomes": ""
+        }
+    ],
+    "1305.2254_6": [
+        {
+            "subject": {
+                "table": "Table 6",
+                "task": "citation-matching",
+                "dataset": "CORA",
+                "evaluation_procedure": "same for all models",
+                "training_system": "Alchemy",
+                "training_commands": "recommended commands for CORA",
+                "MLN_version": "MLN(Fig1)",
+                "heuristics": "none"
+            },
+            "measures": "[AUC_cites, AUC_authors, AUC_venues, AUC_titles]",
+            "outcomes": "[0.513, 0.532, 0.602, 0.544]"
+        },
+        {
+            "subject": {
+                "table": "Table 6",
+                "task": "citation-matching",
+                "dataset": "CORA",
+                "evaluation_procedure": "same for all models",
+                "training_system": "Alchemy",
+                "training_commands": "recommended commands for CORA",
+                "MLN_version": "MLN(S&D)",
+                "heuristics": "complex heuristics by Singla and Domingos",
+                "additional_procedure": "TFIDF-based matching with canopies"
+            },
+            "measures": "[AUC_cites, AUC_authors, AUC_venues, AUC_titles]",
+            "outcomes": "[0.520, 0.573, 0.627, 0.629]"
+        },
+        {
+            "subject": {
+                "table": "Table 6",
+                "task": "citation-matching",
+                "dataset": "CORA",
+                "evaluation_procedure": "same for all models",
+                "training_system": "Alchemy",
+                "training_commands": "recommended commands for CORA",
+                "model": "ProPPR",
+                "parameter_w": "1"
+            },
+            "measures": "[AUC_cites, AUC_authors, AUC_venues, AUC_titles]",
+            "outcomes": "[0.680, 0.836, 0.860, 0.908]"
+        },
+        {
+            "subject": {
+                "table": "Table 6",
+                "task": "citation-matching",
+                "dataset": "CORA",
+                "evaluation_procedure": "same for all models",
+                "training_system": "Alchemy",
+                "training_commands": "recommended commands for CORA",
+                "model": "ProPPR"
+            },
+            "measures": "[AUC_cites, AUC_authors, AUC_venues, AUC_titles]",
+            "outcomes": "[0.800, 0.840, 0.869, 0.900]"
+        },
+        {
+            "subject": {
+                "table": "Table 6",
+                "task": "citation-matching",
+                "dataset": "CORA",
+                "evaluation_procedure": "same for all models",
+                "training_system": "Alchemy",
+                "training_commands": "recommended commands for CORA",
+                "comparison": "ProPPR vs MLN(S&D)",
+                "result": "title performance not reported by Singla and Domingos"
+            }
+        }
+    ],
+    "2003.04238_8": [
+        {
+            "subject": {
+                "method": "Bayesian",
+                "specification": "baseline",
+                "parameters": "\u03bb=(1,1,2)",
+                "context": "Union Army dataset",
+                "source": "expert-linked matches",
+                "reliability": "unreliable when nA<<nB"
+            },
+            "measures": "[TPR, PPV]",
+            "outcomes": "[0.204, 0.768]"
+        },
+        {
+            "subject": {
+                "method": "Bayesian",
+                "specification": "baseline",
+                "parameters": "\u03bb=(1,1,2)",
+                "context": "Union Army dataset",
+                "source": "expert-linked matches",
+                "reliability": "unreliable when nA<<nB"
+            },
+            "measures": "[est. TPR, est. PPV]",
+            "outcomes": "[0.326, 0.756]"
+        },
+        {
+            "subject": {
+                "method": "-",
+                "specification": "common names",
+                "parameters": "\u03bb=(1,1,2)",
+                "context": "Union Army dataset",
+                "source": "expert-linked matches",
+                "reliability": "unreliable when nA<<nB"
+            },
+            "measures": "[TPR, PPV]",
+            "outcomes": "[0.223, 0.763]"
+        },
+        {
+            "subject": {
+                "method": "-",
+                "specification": "common names",
+                "parameters": "\u03bb=(1,1,2)",
+                "context": "Union Army dataset",
+                "source": "expert-linked matches",
+                "reliability": "unreliable when nA<<nB"
+            },
+            "measures": "[est. TPR, est. PPV]",
+            "outcomes": "[0.361, 0.773]"
+        },
+        {
+            "subject": {
+                "method": "-",
+                "specification": "record-specific",
+                "parameters": "\u03bb=(1,1,2)",
+                "context": "Union Army dataset",
+                "source": "expert-linked matches",
+                "reliability": "unreliable when nA<<nB"
+            },
+            "measures": "[TPR, PPV]",
+            "outcomes": "[0.455, 0.657]"
+        },
+        {
+            "subject": {
+                "method": "-",
+                "specification": "record-specific",
+                "parameters": "\u03bb=(1,1,2)",
+                "context": "Union Army dataset",
+                "source": "expert-linked matches",
+                "reliability": "unreliable when nA<<nB"
+            },
+            "measures": "[est. TPR, est. PPV]",
+            "outcomes": "[0.389, 0.824]"
+        },
+        {
+            "subject": {
+                "method": "-",
+                "specification": "record-specific",
+                "parameters": "\u03bb=(1,2,4)",
+                "context": "Union Army dataset",
+                "source": "expert-linked matches",
+                "reliability": "unreliable when nA<<nB"
+            },
+            "measures": "[TPR, PPV]",
+            "outcomes": "[0.359, 0.746]"
+        },
+        {
+            "subject": {
+                "method": "-",
+                "specification": "record-specific",
+                "parameters": "\u03bb=(1,2,4)",
+                "context": "Union Army dataset",
+                "source": "expert-linked matches",
+                "reliability": "unreliable when nA<<nB"
+            },
+            "measures": "[est. TPR, est. PPV]",
+            "outcomes": "[0.301, 0.922]"
+        },
+        {
+            "subject": {
+                "method": "-",
+                "specification": "record-specific",
+                "parameters": "\u03bb=(1,3,6)",
+                "context": "Union Army dataset",
+                "source": "expert-linked matches",
+                "reliability": "unreliable when nA<<nB"
+            },
+            "measures": "[TPR, PPV]",
+            "outcomes": "[0.315, 0.770]"
+        },
+        {
+            "subject": {
+                "method": "-",
+                "specification": "record-specific",
+                "parameters": "\u03bb=(1,3,6)",
+                "context": "Union Army dataset",
+                "source": "expert-linked matches",
+                "reliability": "unreliable when nA<<nB"
+            },
+            "measures": "[est. TPR, est. PPV]",
+            "outcomes": "[0.263, 0.949]"
+        }
+    ],
+    "1704.02450_3": [
+        {
+            "subject": {
+                "database": "IIIT-D Sketch Database",
+                "method": "Original WLD",
+                "training dataset": "CUFSF"
+            },
+            "measures": "[Rank-1]",
+            "outcomes": "[74.34]"
+        },
+        {
+            "subject": {
+                "database": "IIIT-D Sketch Database",
+                "method": "SIFT",
+                "training dataset": "CUFSF"
+            },
+            "measures": "[Rank-1]",
+            "outcomes": "[76.28]"
+        },
+        {
+            "subject": {
+                "database": "IIIT-D Sketch Database",
+                "method": "EUCLBP",
+                "training dataset": "CUFSF"
+            },
+            "measures": "[Rank-1]",
+            "outcomes": "[79.36]"
+        },
+        {
+            "subject": {
+                "database": "IIIT-D Sketch Database",
+                "method": "LFDA",
+                "training dataset": "CUFSF"
+            },
+            "measures": "[Rank-1]",
+            "outcomes": "[81.43]"
+        },
+        {
+            "subject": {
+                "database": "IIIT-D Sketch Database",
+                "method": "MCWLD",
+                "training dataset": "CUFSF"
+            },
+            "measures": "[Rank-1]",
+            "outcomes": "[84.24]"
+        },
+        {
+            "subject": {
+                "database": "IIIT-D Sketch Database",
+                "method": "VGG",
+                "training dataset": "CUFSF"
+            },
+            "measures": "[Rank-1, FAR=1%]",
+            "outcomes": "[80.89, 72.08]"
+        },
+        {
+            "subject": {
+                "database": "IIIT-D Sketch Database",
+                "method": "CenterLoss",
+                "training dataset": "CUFSF"
+            },
+            "measures": "[Rank-1, FAR=1%]",
+            "outcomes": "[84.07, 76.20]"
+        },
+        {
+            "subject": {
+                "database": "IIIT-D Sketch Database",
+                "method": "Light CNN",
+                "training dataset": "CUFSF"
+            },
+            "measures": "[Rank-1, FAR=1%]",
+            "outcomes": "[84.07, 75.30]"
+        },
+        {
+            "subject": {
+                "database": "IIIT-D Sketch Database",
+                "method": "CDL",
+                "training dataset": "CUFSF"
+            },
+            "measures": "[Rank-1, FAR=1%]",
+            "outcomes": "[85.35, 82.52]"
+        },
+        {
+            "subject": {
+                "evaluation": "viewed sketch-photo face recognition",
+                "database": "IIIT-D Sketch Database",
+                "method": "CDL",
+                "training dataset": "CUFSF"
+            },
+            "measures": "[Rank-1]",
+            "outcomes": "[85.35]"
+        },
+        {
+            "subject": {
+                "evaluation": "viewed sketch-photo face recognition",
+                "database": "IIIT-D Sketch Database",
+                "method": "CDL",
+                "training dataset": "CUFSF"
+            },
+            "measures": "[VR@FAR=1%]",
+            "outcomes": "[82.52]"
+        },
+        {
+            "subject": {
+                "evaluation": "viewed sketch-photo face recognition",
+                "database": "IIIT-D Sketch Database",
+                "training dataset": "CUFSF",
+                "context": "small number of training samples"
+            },
+            "measures": "[Rank-1]",
+            "outcomes": "[85.35]"
+        },
+        {
+            "subject": {
+                "evaluation": "viewed sketch-photo face recognition",
+                "database": "IIIT-D Sketch Database",
+                "training dataset": "CUFSF",
+                "context": "more sketch-photo images"
+            },
+            "measures": "[Rank-1]",
+            "outcomes": "[improved performance]"
+        }
+    ],
+    "2005.09399_9": [
+        {
+            "subject": {
+                "dataset": "airports",
+                "link type": "umbel:isLike",
+                "blocking method": "token blocking",
+                "evaluation metric": "recall"
+            },
+            "measures": "[recall]",
+            "outcomes": "[97.47%]"
+        },
+        {
+            "subject": {
+                "dataset": "airlines",
+                "link type": "umbel:isLike",
+                "blocking method": "token blocking",
+                "evaluation metric": "recall"
+            },
+            "measures": "[recall]",
+            "outcomes": "[99.75%]"
+        },
+        {
+            "subject": {
+                "dataset": "twitter",
+                "link type": "dct:subject",
+                "blocking method": "token blocking",
+                "evaluation metric": "recall"
+            },
+            "measures": "[recall]",
+            "outcomes": "[9.52%]"
+        },
+        {
+            "subject": {
+                "dataset": "books",
+                "link type": "dct:subject",
+                "blocking method": "token blocking",
+                "evaluation metric": "recall"
+            },
+            "measures": "[recall]",
+            "outcomes": "[63.55%]"
+        },
+        {
+            "subject": {
+                "dataset": "iati",
+                "link type": "dct:subject",
+                "blocking method": "token blocking",
+                "evaluation metric": "recall"
+            },
+            "measures": "[recall]",
+            "outcomes": "[49.13%]"
+        },
+        {
+            "subject": {
+                "dataset": "iati",
+                "link type": "dct:coverage",
+                "blocking method": "token blocking",
+                "evaluation metric": "recall"
+            },
+            "measures": "[recall]",
+            "outcomes": "[39.46%]"
+        },
+        {
+            "subject": {
+                "dataset": "www2012",
+                "link type": "foaf:based_near",
+                "blocking method": "token blocking",
+                "evaluation metric": "recall"
+            },
+            "measures": "[recall]",
+            "outcomes": "[62.61%]"
+        },
+        {
+            "subject": {
+                "context": "peripheral collections",
+                "datasets": "TableIII and BTC12DBpedia",
+                "blocking method": "token blocking",
+                "link type": "multiple types",
+                "evaluation metric": "recall"
+            },
+            "measures": "[]",
+            "outcomes": ""
+        },
+        {
+            "subject": {
+                "dataset": "twitter",
+                "characteristics": "data states who created a slideset"
+            },
+            "measures": "[]",
+            "outcomes": ""
+        },
+        {
+            "subject": {
+                "dataset": "iati",
+                "example": "cereal crop residues linked to Latin America and the Caribbean",
+                "link type": "dct:coverage"
+            },
+            "measures": "[]",
+            "outcomes": ""
+        },
+        {
+            "subject": {
+                "dataset": "www2012",
+                "example": "Greek professor linked to Greece",
+                "link type": "foaf:based_near"
+            },
+            "measures": "[]",
+            "outcomes": ""
+        },
+        {
+            "subject": {
+                "link type": "owl:sameAs",
+                "semantics": "equivalence"
+            },
+            "measures": "[]",
+            "outcomes": ""
+        },
+        {
+            "subject": {
+                "link type": "umbel:isLike",
+                "semantics": "possible equivalence"
+            },
+            "measures": "[]",
+            "outcomes": ""
+        },
+        {
+            "subject": {
+                "link type": "dct:subject",
+                "semantics": "topic of a description"
+            },
+            "measures": "[]",
+            "outcomes": ""
+        },
+        {
+            "subject": {
+                "link type": "dct:coverage",
+                "semantics": "spatial topic of a description"
+            },
+            "measures": "[]",
+            "outcomes": ""
+        },
+        {
+            "subject": {
+                "link type": "foaf:based_near",
+                "semantics": "relating two spatial objects"
+            },
+            "measures": "[]",
+            "outcomes": ""
+        }
+    ],
+    "2312.03987_2": [
+        {
+            "subject": {
+                "Dataset": "Walmart-Amazon (WA)",
+                "Domain": "Electronics",
+                "# Attributes": "5",
+                "# Pairs": "10,242",
+                "# Matches": "962"
+            },
+            "measures": "[# Pairs, # Matches]",
+            "outcomes": "[10,242, 962]"
+        },
+        {
+            "subject": {
+                "Dataset": "Abt-Buy (AB)",
+                "Domain": "Product",
+                "# Attributes": "3",
+                "# Pairs": "9,575",
+                "# Matches": "1,028"
+            },
+            "measures": "[# Pairs, # Matches]",
+            "outcomes": "[9,575, 1,028]"
+        },
+        {
+            "subject": {
+                "Dataset": "Amazon-Google (AG)",
+                "Domain": "Software",
+                "# Attributes": "3",
+                "# Pairs": "11,460",
+                "# Matches": "1,167",
+                "Attributes": "title, manufacturer, price",
+                "Split Ratio": "3:1:1"
+            },
+            "measures": "[# Pairs, # Matches]",
+            "outcomes": "[11,460, 1,167]"
+        },
+        {
+            "subject": {
+                "Dataset": "DBLP-Scholar (DS)",
+                "Domain": "Citation",
+                "# Attributes": "4",
+                "# Pairs": "28,707",
+                "# Matches": "5,347"
+            },
+            "measures": "[# Pairs, # Matches]",
+            "outcomes": "[28,707, 5,347]"
+        },
+        {
+            "subject": {
+                "Dataset": "DBLP-ACM (DA)",
+                "Domain": "Citation",
+                "# Attributes": "4",
+                "# Pairs": "12,363",
+                "# Matches": "2,220"
+            },
+            "measures": "[# Pairs, # Matches]",
+            "outcomes": "[12,363, 2,220]"
+        },
+        {
+            "subject": {
+                "Dataset": "Fodors-Zagats (FZ)",
+                "Domain": "Restaurant",
+                "# Attributes": "6",
+                "# Pairs": "946",
+                "# Matches": "110"
+            },
+            "measures": "[# Pairs, # Matches]",
+            "outcomes": "[946, 110]"
+        },
+        {
+            "subject": {
+                "Dataset": "iTunes-Amazon (IA)",
+                "Domain": "Music",
+                "# Attributes": "8",
+                "# Pairs": "532",
+                "# Matches": "132"
+            },
+            "measures": "[# Pairs, # Matches]",
+            "outcomes": "[532, 132]"
+        },
+        {
+            "subject": {
+                "Dataset": "Beer",
+                "Domain": "Beer",
+                "# Attributes": "4",
+                "# Pairs": "450",
+                "# Matches": "68"
+            },
+            "measures": "[# Pairs, # Matches]",
+            "outcomes": "[450, 68]"
+        }
+    ],
+    "1906.11180_2": [
+        {
+            "subject": {
+                "framework": "S-Lite",
+                "evaluation": "typing performance",
+                "setting": "pre-training",
+                "model": "MLP",
+                "typing strategy": "independent"
+            },
+            "measures": "[AvgF1@all, AvgF1@top5]",
+            "outcomes": "[0.4102, 0.4832]"
+        },
+        {
+            "subject": {
+                "framework": "S-Lite",
+                "evaluation": "typing performance",
+                "setting": "pre-training",
+                "model": "MLP",
+                "typing strategy": "hierarchical (kappa = -0.1)"
+            },
+            "measures": "[AvgF1@all, AvgF1@top5]",
+            "outcomes": "[0.5060, 0.5458]"
+        },
+        {
+            "subject": {
+                "framework": "S-Lite",
+                "evaluation": "typing performance",
+                "setting": "pre-training",
+                "model": "MLP",
+                "typing strategy": "hierarchical (kappa = 0)"
+            },
+            "measures": "[AvgF1@all, AvgF1@top5]",
+            "outcomes": "[0.5916, 0.5923]"
+        },
+        {
+            "subject": {
+                "framework": "S-Lite",
+                "evaluation": "typing performance",
+                "setting": "pre-training",
+                "model": "BiRNN",
+                "typing strategy": "independent"
+            },
+            "measures": "[AvgF1@all, AvgF1@top5]",
+            "outcomes": "[0.4686, 0.5566]"
+        },
+        {
+            "subject": {
+                "framework": "S-Lite",
+                "evaluation": "typing performance",
+                "setting": "pre-training",
+                "model": "BiRNN",
+                "typing strategy": "hierarchical (kappa = -0.1)"
+            },
+            "measures": "[AvgF1@all, AvgF1@top5]",
+            "outcomes": "[0.5295, 0.5649]"
+        },
+        {
+            "subject": {
+                "framework": "S-Lite",
+                "evaluation": "typing performance",
+                "setting": "pre-training",
+                "model": "BiRNN",
+                "typing strategy": "hierarchical (kappa = 0)"
+            },
+            "measures": "[AvgF1@all, AvgF1@top5]",
+            "outcomes": "[0.5977, 0.5985]"
+        },
+        {
+            "subject": {
+                "framework": "S-Lite",
+                "evaluation": "typing performance",
+                "setting": "pre-training",
+                "model": "AttBiRNN",
+                "typing strategy": "independent"
+            },
+            "measures": "[AvgF1@all, AvgF1@top5]",
+            "outcomes": "[0.4728, 0.5590]"
+        },
+        {
+            "subject": {
+                "framework": "S-Lite",
+                "evaluation": "typing performance",
+                "setting": "pre-training",
+                "model": "AttBiRNN",
+                "typing strategy": "hierarchical (kappa = -0.1)"
+            },
+            "measures": "[AvgF1@all, AvgF1@top5]",
+            "outcomes": "[0.5420, 0.5912]"
+        },
+        {
+            "subject": {
+                "framework": "S-Lite",
+                "evaluation": "typing performance",
+                "setting": "pre-training",
+                "model": "AttBiRNN",
+                "typing strategy": "hierarchical (kappa = 0)"
+            },
+            "measures": "[AvgF1@all, AvgF1@top5]",
+            "outcomes": "[0.6049, 0.6052]"
+        },
+        {
+            "subject": {
+                "framework": "S-Lite",
+                "evaluation": "typing performance",
+                "setting": "fine tuning",
+                "model": "MLP",
+                "typing strategy": "independent"
+            },
+            "measures": "[AvgF1@all, AvgF1@top5]",
+            "outcomes": "[0.6506, 0.6948]"
+        },
+        {
+            "subject": {
+                "framework": "S-Lite",
+                "evaluation": "typing performance",
+                "setting": "fine tuning",
+                "model": "MLP",
+                "typing strategy": "hierarchical (kappa = -0.1)"
+            },
+            "measures": "[AvgF1@all, AvgF1@top5]",
+            "outcomes": "[0.6859, 0.6989]"
+        },
+        {
+            "subject": {
+                "framework": "S-Lite",
+                "evaluation": "typing performance",
+                "setting": "fine tuning",
+                "model": "MLP",
+                "typing strategy": "hierarchical (kappa = 0)"
+            },
+            "measures": "[AvgF1@all, AvgF1@top5]",
+            "outcomes": "[0.6429, 0.6626]"
+        },
+        {
+            "subject": {
+                "framework": "S-Lite",
+                "evaluation": "typing performance",
+                "setting": "fine tuning",
+                "model": "BiRNN",
+                "typing strategy": "independent"
+            },
+            "measures": "[AvgF1@all, AvgF1@top5]",
+            "outcomes": "[0.7008, 0.7434]"
+        },
+        {
+            "subject": {
+                "framework": "S-Lite",
+                "evaluation": "typing performance",
+                "setting": "fine tuning",
+                "model": "BiRNN",
+                "typing strategy": "hierarchical (kappa = -0.1)"
+            },
+            "measures": "[AvgF1@all, AvgF1@top5]",
+            "outcomes": "[0.7167, 0.7372]"
+        },
+        {
+            "subject": {
+                "framework": "S-Lite",
+                "evaluation": "typing performance",
+                "setting": "fine tuning",
+                "model": "BiRNN",
+                "typing strategy": "hierarchical (kappa = 0)"
+            },
+            "measures": "[AvgF1@all, AvgF1@top5]",
+            "outcomes": "[0.6697, 0.6850]"
+        },
+        {
+            "subject": {
+                "framework": "S-Lite",
+                "evaluation": "typing performance",
+                "setting": "fine tuning",
+                "model": "AttBiRNN",
+                "typing strategy": "independent"
+            },
+            "measures": "[AvgF1@all, AvgF1@top5]",
+            "outcomes": "[0.7286, 0.7557]"
+        },
+        {
+            "subject": {
+                "framework": "S-Lite",
+                "evaluation": "typing performance",
+                "setting": "fine tuning",
+                "model": "AttBiRNN",
+                "typing strategy": "hierarchical (kappa = -0.1)"
+            },
+            "measures": "[AvgF1@all, AvgF1@top5]",
+            "outcomes": "[0.7429, 0.7601]"
+        },
+        {
+            "subject": {
+                "framework": "S-Lite",
+                "evaluation": "typing performance",
+                "setting": "fine tuning",
+                "model": "AttBiRNN",
+                "typing strategy": "hierarchical (kappa = 0)"
+            },
+            "measures": "[AvgF1@all, AvgF1@top5]",
+            "outcomes": "[0.6918, 0.7070]"
+        }
+    ],
+    "2312.03987_7": [
+        {
+            "subject": {
+                "Dataset": "WA",
+                "Feature Extractor": "BatchER-LR",
+                "Type": "Structure-aware",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[80.66]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "Dataset": "WA",
+                "Feature Extractor": "BatchER-JAC",
+                "Type": "Structure-aware",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[78.05]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "Dataset": "WA",
+                "Feature Extractor": "BatchER-SEM",
+                "Type": "Semantics-based",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[78.66]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "Dataset": "AB",
+                "Feature Extractor": "BatchER-LR",
+                "Type": "Structure-aware",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[88.38]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "Dataset": "AB",
+                "Feature Extractor": "BatchER-JAC",
+                "Type": "Structure-aware",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[84.23]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "Dataset": "AB",
+                "Feature Extractor": "BatchER-SEM",
+                "Type": "Semantics-based",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[87.06]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "Dataset": "AG",
+                "Feature Extractor": "BatchER-LR",
+                "Type": "Structure-aware",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[62.16]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "Dataset": "AG",
+                "Feature Extractor": "BatchER-JAC",
+                "Type": "Structure-aware",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[59.90]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "Dataset": "AG",
+                "Feature Extractor": "BatchER-SEM",
+                "Type": "Semantics-based",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[59.20]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "Dataset": "DS",
+                "Feature Extractor": "BatchER-LR",
+                "Type": "Structure-aware",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[83.70]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "Dataset": "DS",
+                "Feature Extractor": "BatchER-JAC",
+                "Type": "Structure-aware",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[81.27]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "Dataset": "DS",
+                "Feature Extractor": "BatchER-SEM",
+                "Type": "Semantics-based",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[80.91]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "Dataset": "DA",
+                "Feature Extractor": "BatchER-LR",
+                "Type": "Structure-aware",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[94.96]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "Dataset": "DA",
+                "Feature Extractor": "BatchER-JAC",
+                "Type": "Structure-aware",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[92.70]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "Dataset": "DA",
+                "Feature Extractor": "BatchER-SEM",
+                "Type": "Semantics-based",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[90.36]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "Dataset": "FZ",
+                "Feature Extractor": "BatchER-LR",
+                "Type": "Structure-aware",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[100.00]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "Dataset": "FZ",
+                "Feature Extractor": "BatchER-JAC",
+                "Type": "Structure-aware",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[93.62]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "Dataset": "FZ",
+                "Feature Extractor": "BatchER-SEM",
+                "Type": "Semantics-based",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[95.24]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "Dataset": "IA",
+                "Feature Extractor": "BatchER-LR",
+                "Type": "Structure-aware",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[96.43]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "Dataset": "IA",
+                "Feature Extractor": "BatchER-JAC",
+                "Type": "Structure-aware",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[90.57]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "Dataset": "IA",
+                "Feature Extractor": "BatchER-SEM",
+                "Type": "Semantics-based",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[90.91]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "Dataset": "Beer",
+                "Feature Extractor": "BatchER-LR",
+                "Type": "Structure-aware",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[96.55]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "Dataset": "Beer",
+                "Feature Extractor": "BatchER-JAC",
+                "Type": "Structure-aware",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[89.66]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "Dataset": "Beer",
+                "Feature Extractor": "BatchER-SEM",
+                "Type": "Semantics-based",
+                "Evaluation Metric": "Matching Accuracy"
+            },
+            "measures": "[91.67]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "Feature Extractor": "BatchER-LR",
+                "Sensitivity": "High",
+                "String Order Sensitivity": "Yes",
+                "Effectiveness": "Superior Precision"
+            },
+            "measures": "[0.5]",
+            "outcomes": "[Similarity Score]"
+        },
+        {
+            "subject": {
+                "Feature Extractor": "BatchER-JAC",
+                "Sensitivity": "Low",
+                "String Order Sensitivity": "No",
+                "Effectiveness": "Comparative Precision"
+            },
+            "measures": "[0.89]",
+            "outcomes": "[Similarity Score]"
+        },
+        {
+            "subject": {
+                "Feature Extractor": "BatchER-LR",
+                "Effectiveness": "Better Quantification",
+                "Scenario": "Entity Resolution"
+            },
+            "measures": "[]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "Feature Extractor": "BatchER-JAC",
+                "Effectiveness": "Comparative Quantification",
+                "Scenario": "Entity Resolution"
+            },
+            "measures": "[]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "Feature Extractor": "BatchER-SEM",
+                "Effectiveness": "Comparative Quantification",
+                "Scenario": "Entity Resolution"
+            },
+            "measures": "[]",
+            "outcomes": "[]"
+        }
+    ],
+    "1711.07424_2": [
+        {
+            "subject": {
+                "comparison": "GB vs RW",
+                "region": "1",
+                "efficiency measure": "ESS/time",
+                "summary statistics": "5",
+                "summary statistic type": "Hamming distance",
+                "computation method": "coda R package",
+                "reference": "Plummer et al., 2006"
+            },
+            "measures": "[efficiency]",
+            "outcomes": "[0.8]"
+        },
+        {
+            "subject": {
+                "comparison": "GB vs RW",
+                "region": "2",
+                "efficiency measure": "ESS/time",
+                "summary statistics": "5",
+                "summary statistic type": "Hamming distance",
+                "computation method": "coda R package",
+                "reference": "Plummer et al., 2006"
+            },
+            "measures": "[efficiency]",
+            "outcomes": "[2.9]"
+        },
+        {
+            "subject": {
+                "comparison": "GB vs RW",
+                "region": "3",
+                "efficiency measure": "ESS/time",
+                "summary statistics": "5",
+                "summary statistic type": "Hamming distance",
+                "computation method": "coda R package",
+                "reference": "Plummer et al., 2006"
+            },
+            "measures": "[efficiency]",
+            "outcomes": "[0.7]"
+        },
+        {
+            "subject": {
+                "comparison": "GB vs RW",
+                "region": "4",
+                "efficiency measure": "ESS/time",
+                "summary statistics": "5",
+                "summary statistic type": "Hamming distance",
+                "computation method": "coda R package",
+                "reference": "Plummer et al., 2006"
+            },
+            "measures": "[efficiency]",
+            "outcomes": "[1.7]"
+        },
+        {
+            "subject": {
+                "comparison": "GB vs RW",
+                "region": "5",
+                "efficiency measure": "ESS/time",
+                "summary statistics": "5",
+                "summary statistic type": "Hamming distance",
+                "computation method": "coda R package",
+                "reference": "Plummer et al., 2006"
+            },
+            "measures": "[efficiency]",
+            "outcomes": "[1.4]"
+        },
+        {
+            "subject": {
+                "comparison": "GB vs RW",
+                "region": "6",
+                "efficiency measure": "ESS/time",
+                "summary statistics": "5",
+                "summary statistic type": "Hamming distance",
+                "computation method": "coda R package",
+                "reference": "Plummer et al., 2006"
+            },
+            "measures": "[efficiency]",
+            "outcomes": "[0.5]"
+        },
+        {
+            "subject": {
+                "comparison": "GB vs RW",
+                "region": "7",
+                "efficiency measure": "ESS/time",
+                "summary statistics": "5",
+                "summary statistic type": "Hamming distance",
+                "computation method": "coda R package",
+                "reference": "Plummer et al., 2006"
+            },
+            "measures": "[efficiency]",
+            "outcomes": "[1.0]"
+        },
+        {
+            "subject": {
+                "comparison": "GB vs RW",
+                "region": "8",
+                "efficiency measure": "ESS/time",
+                "summary statistics": "5",
+                "summary statistic type": "Hamming distance",
+                "computation method": "coda R package",
+                "reference": "Plummer et al., 2006"
+            },
+            "measures": "[efficiency]",
+            "outcomes": "[0.9]"
+        },
+        {
+            "subject": {
+                "comparison": "GB vs RW",
+                "region": "average",
+                "efficiency measure": "ESS/time",
+                "summary statistics": "5",
+                "summary statistic type": "Hamming distance",
+                "computation method": "coda R package",
+                "reference": "Plummer et al., 2006"
+            },
+            "measures": "[efficiency]",
+            "outcomes": "[0.94]"
+        },
+        {
+            "subject": {
+                "comparison": "LB vs RW",
+                "region": "1",
+                "efficiency measure": "ESS/time",
+                "summary statistics": "5",
+                "summary statistic type": "Hamming distance",
+                "computation method": "coda R package",
+                "reference": "Plummer et al., 2006"
+            },
+            "measures": "[efficiency]",
+            "outcomes": "[60.6]"
+        },
+        {
+            "subject": {
+                "comparison": "LB vs RW",
+                "region": "2",
+                "efficiency measure": "ESS/time",
+                "summary statistics": "5",
+                "summary statistic type": "Hamming distance",
+                "computation method": "coda R package",
+                "reference": "Plummer et al., 2006"
+            },
+            "measures": "[efficiency]",
+            "outcomes": "[209]"
+        },
+        {
+            "subject": {
+                "comparison": "LB vs RW",
+                "region": "3",
+                "efficiency measure": "ESS/time",
+                "summary statistics": "5",
+                "summary statistic type": "Hamming distance",
+                "computation method": "coda R package",
+                "reference": "Plummer et al., 2006"
+            },
+            "measures": "[efficiency]",
+            "outcomes": "[36.2]"
+        },
+        {
+            "subject": {
+                "comparison": "LB vs RW",
+                "region": "4",
+                "efficiency measure": "ESS/time",
+                "summary statistics": "5",
+                "summary statistic type": "Hamming distance",
+                "computation method": "coda R package",
+                "reference": "Plummer et al., 2006"
+            },
+            "measures": "[efficiency]",
+            "outcomes": "[127]"
+        },
+        {
+            "subject": {
+                "comparison": "LB vs RW",
+                "region": "5",
+                "efficiency measure": "ESS/time",
+                "summary statistics": "5",
+                "summary statistic type": "Hamming distance",
+                "computation method": "coda R package",
+                "reference": "Plummer et al., 2006"
+            },
+            "measures": "[efficiency]",
+            "outcomes": "[48.9]"
+        },
+        {
+            "subject": {
+                "comparison": "LB vs RW",
+                "region": "6",
+                "efficiency measure": "ESS/time",
+                "summary statistics": "5",
+                "summary statistic type": "Hamming distance",
+                "computation method": "coda R package",
+                "reference": "Plummer et al., 2006"
+            },
+            "measures": "[efficiency]",
+            "outcomes": "[104]"
+        },
+        {
+            "subject": {
+                "comparison": "LB vs RW",
+                "region": "7",
+                "efficiency measure": "ESS/time",
+                "summary statistics": "5",
+                "summary statistic type": "Hamming distance",
+                "computation method": "coda R package",
+                "reference": "Plummer et al., 2006"
+            },
+            "measures": "[efficiency]",
+            "outcomes": "[172]"
+        },
+        {
+            "subject": {
+                "comparison": "LB vs RW",
+                "region": "8",
+                "efficiency measure": "ESS/time",
+                "summary statistics": "5",
+                "summary statistic type": "Hamming distance",
+                "computation method": "coda R package",
+                "reference": "Plummer et al., 2006"
+            },
+            "measures": "[efficiency]",
+            "outcomes": "[33.3]"
+        },
+        {
+            "subject": {
+                "comparison": "LB vs RW",
+                "region": "average",
+                "efficiency measure": "ESS/time",
+                "summary statistics": "5",
+                "summary statistic type": "Hamming distance",
+                "computation method": "coda R package",
+                "reference": "Plummer et al., 2006"
+            },
+            "measures": "[efficiency]",
+            "outcomes": "[94.0]"
+        },
+        {
+            "subject": {
+                "comparison": "HB vs RW",
+                "region": "1",
+                "efficiency measure": "ESS/time",
+                "summary statistics": "5",
+                "summary statistic type": "Hamming distance",
+                "computation method": "coda R package",
+                "reference": "Plummer et al., 2006"
+            },
+            "measures": "[efficiency]",
+            "outcomes": "[6.3]"
+        },
+        {
+            "subject": {
+                "comparison": "HB vs RW",
+                "region": "2",
+                "efficiency measure": "ESS/time",
+                "summary statistics": "5",
+                "summary statistic type": "Hamming distance",
+                "computation method": "coda R package",
+                "reference": "Plummer et al., 2006"
+            },
+            "measures": "[efficiency]",
+            "outcomes": "[20.3]"
+        },
+        {
+            "subject": {
+                "comparison": "HB vs RW",
+                "region": "3",
+                "efficiency measure": "ESS/time",
+                "summary statistics": "5",
+                "summary statistic type": "Hamming distance",
+                "computation method": "coda R package",
+                "reference": "Plummer et al., 2006"
+            },
+            "measures": "[efficiency]",
+            "outcomes": "[3.7]"
+        },
+        {
+            "subject": {
+                "comparison": "HB vs RW",
+                "region": "4",
+                "efficiency measure": "ESS/time",
+                "summary statistics": "5",
+                "summary statistic type": "Hamming distance",
+                "computation method": "coda R package",
+                "reference": "Plummer et al., 2006"
+            },
+            "measures": "[efficiency]",
+            "outcomes": "[15.3]"
+        },
+        {
+            "subject": {
+                "comparison": "HB vs RW",
+                "region": "5",
+                "efficiency measure": "ESS/time",
+                "summary statistics": "5",
+                "summary statistic type": "Hamming distance",
+                "computation method": "coda R package",
+                "reference": "Plummer et al., 2006"
+            },
+            "measures": "[efficiency]",
+            "outcomes": "[7.2]"
+        },
+        {
+            "subject": {
+                "comparison": "HB vs RW",
+                "region": "6",
+                "efficiency measure": "ESS/time",
+                "summary statistics": "5",
+                "summary statistic type": "Hamming distance",
+                "computation method": "coda R package",
+                "reference": "Plummer et al., 2006"
+            },
+            "measures": "[efficiency]",
+            "outcomes": "[10.9]"
+        },
+        {
+            "subject": {
+                "comparison": "HB vs RW",
+                "region": "7",
+                "efficiency measure": "ESS/time",
+                "summary statistics": "5",
+                "summary statistic type": "Hamming distance",
+                "computation method": "coda R package",
+                "reference": "Plummer et al., 2006"
+            },
+            "measures": "[efficiency]",
+            "outcomes": "[15.6]"
+        },
+        {
+            "subject": {
+                "comparison": "HB vs RW",
+                "region": "8",
+                "efficiency measure": "ESS/time",
+                "summary statistics": "5",
+                "summary statistic type": "Hamming distance",
+                "computation method": "coda R package",
+                "reference": "Plummer et al., 2006"
+            },
+            "measures": "[efficiency]",
+            "outcomes": "[3.1]"
+        },
+        {
+            "subject": {
+                "comparison": "HB vs RW",
+                "region": "average",
+                "efficiency measure": "ESS/time",
+                "summary statistics": "5",
+                "summary statistic type": "Hamming distance",
+                "computation method": "coda R package",
+                "reference": "Plummer et al., 2006"
+            },
+            "measures": "[efficiency]",
+            "outcomes": "[9.96]"
+        }
+    ],
+    "2503.24193_3": [
+        {
+            "subject": {
+                "model": "BM25",
+                "how_it_works": "Keyword indexing",
+                "task": "generative track retrieval",
+                "comparison": "baselines",
+                "effectiveness_proven_by": "hits@10",
+                "closest_competitor": "Bi-encoder fine-tuned"
+            },
+            "measures": "[hits@10]",
+            "outcomes": "[0.101]"
+        },
+        {
+            "subject": {
+                "model": "Bi-encoder zero-shot",
+                "how_it_works": "Semantic match between playlist titles",
+                "task": "generative track retrieval",
+                "comparison": "baselines",
+                "effectiveness_proven_by": "hits@10",
+                "closest_competitor": "Bi-encoder fine-tuned"
+            },
+            "measures": "[hits@10]",
+            "outcomes": "[0.065]"
+        },
+        {
+            "subject": {
+                "model": "Bi-encoder fine-tuned",
+                "how_it_works": "Fine-tuned semantic match between playlist titles",
+                "task": "generative track retrieval",
+                "comparison": "baselines",
+                "effectiveness_proven_by": "hits@10",
+                "closest_competitor": "Text2Tracks"
+            },
+            "measures": "[hits@10]",
+            "outcomes": "[0.119]"
+        },
+        {
+            "subject": {
+                "model": "Text2Tracks",
+                "how_it_works": "GR using cf-based semantic-ids",
+                "task": "generative track retrieval",
+                "comparison": "baselines",
+                "effectiveness_proven_by": "hits@10",
+                "closest_competitor": "Bi-encoder fine-tuned",
+                "increase_in_hits@10": "127%"
+            },
+            "measures": "[hits@10]",
+            "outcomes": "[0.270]"
+        }
+    ],
+    "2205.10678_1": [
+        {
+            "subject": {
+                "method": "XGBoost",
+                "precision threshold": "95%",
+                "category": "all"
+            },
+            "measures": "[mean recall]",
+            "outcomes": "[0.934]"
+        },
+        {
+            "subject": {
+                "method": "XGBoost",
+                "precision threshold": "99%",
+                "category": "all"
+            },
+            "measures": "[mean recall]",
+            "outcomes": "[0.779]"
+        },
+        {
+            "subject": {
+                "method": "XGBoost",
+                "precision threshold": "95%",
+                "category": "with ID"
+            },
+            "measures": "[mean recall]",
+            "outcomes": "[NA]"
+        },
+        {
+            "subject": {
+                "method": "XGBoost",
+                "precision threshold": "99%",
+                "category": "with ID"
+            },
+            "measures": "[mean recall]",
+            "outcomes": "[0.997]"
+        },
+        {
+            "subject": {
+                "method": "XGBoost",
+                "precision threshold": "95%",
+                "category": "without ID"
+            },
+            "measures": "[mean recall]",
+            "outcomes": "[0.71]"
+        },
+        {
+            "subject": {
+                "method": "XGBoost",
+                "precision threshold": "99%",
+                "category": "without ID"
+            },
+            "measures": "[mean recall]",
+            "outcomes": "[0.49]"
+        },
+        {
+            "subject": {
+                "method": "XGBoost + top all",
+                "precision threshold": "95%",
+                "category": "all"
+            },
+            "measures": "[mean recall]",
+            "outcomes": "[0.949]"
+        },
+        {
+            "subject": {
+                "method": "XGBoost + top all",
+                "precision threshold": "99%",
+                "category": "all"
+            },
+            "measures": "[mean recall]",
+            "outcomes": "[0.9]"
+        },
+        {
+            "subject": {
+                "method": "XGBoost + top all",
+                "precision threshold": "95%",
+                "category": "with ID"
+            },
+            "measures": "[mean recall]",
+            "outcomes": "[NA]"
+        },
+        {
+            "subject": {
+                "method": "XGBoost + top all",
+                "precision threshold": "99%",
+                "category": "with ID"
+            },
+            "measures": "[mean recall]",
+            "outcomes": "[0.989]"
+        },
+        {
+            "subject": {
+                "method": "XGBoost + top all",
+                "precision threshold": "95%",
+                "category": "without ID"
+            },
+            "measures": "[mean recall]",
+            "outcomes": "[0.896]"
+        },
+        {
+            "subject": {
+                "method": "XGBoost + top all",
+                "precision threshold": "99%",
+                "category": "without ID"
+            },
+            "measures": "[mean recall]",
+            "outcomes": "[0.695]"
+        },
+        {
+            "subject": {
+                "method": "Cascade 4 + top all",
+                "precision threshold": "95%",
+                "category": "all"
+            },
+            "measures": "[mean recall]",
+            "outcomes": "[0.945]"
+        },
+        {
+            "subject": {
+                "method": "Cascade 4 + top all",
+                "precision threshold": "99%",
+                "category": "all"
+            },
+            "measures": "[mean recall]",
+            "outcomes": "[0.918]"
+        },
+        {
+            "subject": {
+                "method": "Cascade 4 + top all",
+                "precision threshold": "95%",
+                "category": "with ID"
+            },
+            "measures": "[mean recall]",
+            "outcomes": "[NA]"
+        },
+        {
+            "subject": {
+                "method": "Cascade 4 + top all",
+                "precision threshold": "99%",
+                "category": "with ID"
+            },
+            "measures": "[mean recall]",
+            "outcomes": "[1.0]"
+        },
+        {
+            "subject": {
+                "method": "Cascade 4 + top all",
+                "precision threshold": "95%",
+                "category": "without ID"
+            },
+            "measures": "[mean recall]",
+            "outcomes": "[0.906]"
+        },
+        {
+            "subject": {
+                "method": "Cascade 4 + top all",
+                "precision threshold": "99%",
+                "category": "without ID"
+            },
+            "measures": "[mean recall]",
+            "outcomes": "[0.834]"
+        },
+        {
+            "subject": {
+                "method": "Chain + top all",
+                "precision threshold": "95%",
+                "category": "all"
+            },
+            "measures": "[mean recall]",
+            "outcomes": "[NA]"
+        },
+        {
+            "subject": {
+                "method": "Chain + top all",
+                "precision threshold": "99%",
+                "category": "all"
+            },
+            "measures": "[mean recall]",
+            "outcomes": "[0.905]"
+        },
+        {
+            "subject": {
+                "method": "Chain + top all",
+                "precision threshold": "95%",
+                "category": "with ID"
+            },
+            "measures": "[mean recall]",
+            "outcomes": "[NA]"
+        },
+        {
+            "subject": {
+                "method": "Chain + top all",
+                "precision threshold": "99%",
+                "category": "with ID"
+            },
+            "measures": "[mean recall]",
+            "outcomes": "[NA]"
+        },
+        {
+            "subject": {
+                "method": "Chain + top all",
+                "precision threshold": "95%",
+                "category": "without ID"
+            },
+            "measures": "[mean recall]",
+            "outcomes": "[NA]"
+        },
+        {
+            "subject": {
+                "method": "Chain + top all",
+                "precision threshold": "99%",
+                "category": "without ID"
+            },
+            "measures": "[mean recall]",
+            "outcomes": "[0.816]"
+        }
+    ]
+}

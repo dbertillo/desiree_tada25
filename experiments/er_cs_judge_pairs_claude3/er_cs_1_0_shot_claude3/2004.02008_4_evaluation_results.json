@@ -1,0 +1,775 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "SDS",
+                    "model": "DP",
+                    "metric": "FNR SE",
+                    "unit": "percentage"
+                },
+                "measures": "[FNR SE]",
+                "outcomes": "[0.03]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "DP",
+                    "Dataset": "SDS",
+                    "Metric Type": "Time-series MCMC error",
+                    "Reported Precision": "One decimal place",
+                    "Computation Method": "summary.mcmc from R package CODA"
+                },
+                "measures": "[FNR SE]",
+                "outcomes": "[0.03]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "SDS",
+                    "model": "DP",
+                    "metric": "FDR SE",
+                    "unit": "percentage"
+                },
+                "measures": "[FDR SE]",
+                "outcomes": "[0.04]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "DP",
+                    "Dataset": "SDS",
+                    "Metric Type": "Time-series MCMC error",
+                    "Reported Precision": "One decimal place",
+                    "Computation Method": "summary.mcmc from R package CODA"
+                },
+                "measures": "[FDR SE]",
+                "outcomes": "[0.04]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "SDS",
+                    "model": "PY",
+                    "metric": "FNR SE",
+                    "unit": "percentage"
+                },
+                "measures": "[FNR SE]",
+                "outcomes": "[0.02]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "DP",
+                    "Dataset": "SIPP",
+                    "Metric Type": "Time-series MCMC error",
+                    "Reported Precision": "One decimal place",
+                    "Computation Method": "summary.mcmc from R package CODA"
+                },
+                "measures": "[FNR SE]",
+                "outcomes": "[0.02]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "SDS",
+                    "model": "PY",
+                    "metric": "FDR SE",
+                    "unit": "percentage"
+                },
+                "measures": "[FDR SE]",
+                "outcomes": "[0.04]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "DP",
+                    "Dataset": "SIPP",
+                    "Metric Type": "Time-series MCMC error",
+                    "Reported Precision": "One decimal place",
+                    "Computation Method": "summary.mcmc from R package CODA"
+                },
+                "measures": "[FDR SE]",
+                "outcomes": "[0.01]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "SDS",
+                    "model": "PY",
+                    "metric": "FDR SE",
+                    "unit": "percentage"
+                },
+                "measures": "[FDR SE]",
+                "outcomes": "[0.04]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "PY",
+                    "Dataset": "SDS",
+                    "Metric Type": "Time-series MCMC error",
+                    "Reported Precision": "One decimal place",
+                    "Computation Method": "summary.mcmc from R package CODA"
+                },
+                "measures": "[FNR SE]",
+                "outcomes": "[0.02]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "SDS",
+                    "model": "PY",
+                    "metric": "FDR SE",
+                    "unit": "percentage"
+                },
+                "measures": "[FDR SE]",
+                "outcomes": "[0.04]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "PY",
+                    "Dataset": "SDS",
+                    "Metric Type": "Time-series MCMC error",
+                    "Reported Precision": "One decimal place",
+                    "Computation Method": "summary.mcmc from R package CODA"
+                },
+                "measures": "[FDR SE]",
+                "outcomes": "[0.04]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "SDS",
+                    "model": "ESCNB",
+                    "metric": "FNR SE",
+                    "unit": "percentage"
+                },
+                "measures": "[FNR SE]",
+                "outcomes": "[0.02]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "DP",
+                    "Dataset": "SIPP",
+                    "Metric Type": "Time-series MCMC error",
+                    "Reported Precision": "One decimal place",
+                    "Computation Method": "summary.mcmc from R package CODA"
+                },
+                "measures": "[FDR SE]",
+                "outcomes": "[0.01]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "SDS",
+                    "model": "ESCNB",
+                    "metric": "FNR SE",
+                    "unit": "percentage"
+                },
+                "measures": "[FNR SE]",
+                "outcomes": "[0.02]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "PY",
+                    "Dataset": "SDS",
+                    "Metric Type": "Time-series MCMC error",
+                    "Reported Precision": "One decimal place",
+                    "Computation Method": "summary.mcmc from R package CODA"
+                },
+                "measures": "[FNR SE]",
+                "outcomes": "[0.02]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "SDS",
+                    "model": "ESCNB",
+                    "metric": "FDR SE",
+                    "unit": "percentage"
+                },
+                "measures": "[FDR SE]",
+                "outcomes": "[0.04]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "DP",
+                    "Dataset": "SIPP",
+                    "Metric Type": "Time-series MCMC error",
+                    "Reported Precision": "One decimal place",
+                    "Computation Method": "summary.mcmc from R package CODA"
+                },
+                "measures": "[FDR SE]",
+                "outcomes": "[0.01]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "SDS",
+                    "model": "ESCNB",
+                    "metric": "FDR SE",
+                    "unit": "percentage"
+                },
+                "measures": "[FDR SE]",
+                "outcomes": "[0.04]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "PY",
+                    "Dataset": "SIPP",
+                    "Metric Type": "Time-series MCMC error",
+                    "Reported Precision": "One decimal place",
+                    "Computation Method": "summary.mcmc from R package CODA"
+                },
+                "measures": "[FNR SE]",
+                "outcomes": "[0.02]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "SDS",
+                    "model": "ESCNB",
+                    "metric": "FDR SE",
+                    "unit": "percentage"
+                },
+                "measures": "[FDR SE]",
+                "outcomes": "[0.04]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "PY",
+                    "Dataset": "SIPP",
+                    "Metric Type": "Time-series MCMC error",
+                    "Reported Precision": "One decimal place",
+                    "Computation Method": "summary.mcmc from R package CODA"
+                },
+                "measures": "[FDR SE]",
+                "outcomes": "[0.01]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "SDS",
+                    "model": "ESCNB",
+                    "metric": "FDR SE",
+                    "unit": "percentage"
+                },
+                "measures": "[FDR SE]",
+                "outcomes": "[0.04]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ESCNB",
+                    "Dataset": "SDS",
+                    "Metric Type": "Time-series MCMC error",
+                    "Reported Precision": "One decimal place",
+                    "Computation Method": "summary.mcmc from R package CODA"
+                },
+                "measures": "[FNR SE]",
+                "outcomes": "[0.02]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "SDS",
+                    "model": "ESCNB",
+                    "metric": "FDR SE",
+                    "unit": "percentage"
+                },
+                "measures": "[FDR SE]",
+                "outcomes": "[0.04]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ESCNB",
+                    "Dataset": "SDS",
+                    "Metric Type": "Time-series MCMC error",
+                    "Reported Precision": "One decimal place",
+                    "Computation Method": "summary.mcmc from R package CODA"
+                },
+                "measures": "[FDR SE]",
+                "outcomes": "[0.04]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "SDS",
+                    "model": "ESCD",
+                    "metric": "FNR SE",
+                    "unit": "percentage"
+                },
+                "measures": "[FNR SE]",
+                "outcomes": "[0.02]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "DP",
+                    "Dataset": "SIPP",
+                    "Metric Type": "Time-series MCMC error",
+                    "Reported Precision": "One decimal place",
+                    "Computation Method": "summary.mcmc from R package CODA"
+                },
+                "measures": "[FDR SE]",
+                "outcomes": "[0.01]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "SDS",
+                    "model": "ESCD",
+                    "metric": "FNR SE",
+                    "unit": "percentage"
+                },
+                "measures": "[FNR SE]",
+                "outcomes": "[0.02]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "PY",
+                    "Dataset": "SIPP",
+                    "Metric Type": "Time-series MCMC error",
+                    "Reported Precision": "One decimal place",
+                    "Computation Method": "summary.mcmc from R package CODA"
+                },
+                "measures": "[FNR SE]",
+                "outcomes": "[0.02]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "SDS",
+                    "model": "ESCD",
+                    "metric": "FDR SE",
+                    "unit": "percentage"
+                },
+                "measures": "[FDR SE]",
+                "outcomes": "[0.02]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "DP",
+                    "Dataset": "SIPP",
+                    "Metric Type": "Time-series MCMC error",
+                    "Reported Precision": "One decimal place",
+                    "Computation Method": "summary.mcmc from R package CODA"
+                },
+                "measures": "[FDR SE]",
+                "outcomes": "[0.01]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "SDS",
+                    "model": "ESCD",
+                    "metric": "FDR SE",
+                    "unit": "percentage"
+                },
+                "measures": "[FDR SE]",
+                "outcomes": "[0.02]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "PY",
+                    "Dataset": "SIPP",
+                    "Metric Type": "Time-series MCMC error",
+                    "Reported Precision": "One decimal place",
+                    "Computation Method": "summary.mcmc from R package CODA"
+                },
+                "measures": "[FDR SE]",
+                "outcomes": "[0.01]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "SDS",
+                    "model": "ESCD",
+                    "metric": "FDR SE",
+                    "unit": "percentage"
+                },
+                "measures": "[FDR SE]",
+                "outcomes": "[0.02]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ESCNB",
+                    "Dataset": "SDS",
+                    "Metric Type": "Time-series MCMC error",
+                    "Reported Precision": "One decimal place",
+                    "Computation Method": "summary.mcmc from R package CODA"
+                },
+                "measures": "[FNR SE]",
+                "outcomes": "[0.02]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "SDS",
+                    "model": "ESCD",
+                    "metric": "FDR SE",
+                    "unit": "percentage"
+                },
+                "measures": "[FDR SE]",
+                "outcomes": "[0.02]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ESCNB",
+                    "Dataset": "SIPP",
+                    "Metric Type": "Time-series MCMC error",
+                    "Reported Precision": "One decimal place",
+                    "Computation Method": "summary.mcmc from R package CODA"
+                },
+                "measures": "[FNR SE]",
+                "outcomes": "[0.01]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "SDS",
+                    "model": "ESCD",
+                    "metric": "FDR SE",
+                    "unit": "percentage"
+                },
+                "measures": "[FDR SE]",
+                "outcomes": "[0.02]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ESCNB",
+                    "Dataset": "SIPP",
+                    "Metric Type": "Time-series MCMC error",
+                    "Reported Precision": "One decimal place",
+                    "Computation Method": "summary.mcmc from R package CODA"
+                },
+                "measures": "[FDR SE]",
+                "outcomes": "[0.02]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "SIPP",
+                    "model": "DP",
+                    "metric": "FNR SE",
+                    "unit": "percentage"
+                },
+                "measures": "[FNR SE]",
+                "outcomes": "[0.02]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "DP",
+                    "Dataset": "SIPP",
+                    "Metric Type": "Time-series MCMC error",
+                    "Reported Precision": "One decimal place",
+                    "Computation Method": "summary.mcmc from R package CODA"
+                },
+                "measures": "[FDR SE]",
+                "outcomes": "[0.01]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "SIPP",
+                    "model": "DP",
+                    "metric": "FNR SE",
+                    "unit": "percentage"
+                },
+                "measures": "[FNR SE]",
+                "outcomes": "[0.02]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "PY",
+                    "Dataset": "SIPP",
+                    "Metric Type": "Time-series MCMC error",
+                    "Reported Precision": "One decimal place",
+                    "Computation Method": "summary.mcmc from R package CODA"
+                },
+                "measures": "[FDR SE]",
+                "outcomes": "[0.01]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "SIPP",
+                    "model": "DP",
+                    "metric": "FNR SE",
+                    "unit": "percentage"
+                },
+                "measures": "[FNR SE]",
+                "outcomes": "[0.02]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ESCNB",
+                    "Dataset": "SDS",
+                    "Metric Type": "Time-series MCMC error",
+                    "Reported Precision": "One decimal place",
+                    "Computation Method": "summary.mcmc from R package CODA"
+                },
+                "measures": "[FNR SE]",
+                "outcomes": "[0.02]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "SIPP",
+                    "model": "DP",
+                    "metric": "FDR SE",
+                    "unit": "percentage"
+                },
+                "measures": "[FDR SE]",
+                "outcomes": "[0.01]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "DP",
+                    "Dataset": "SIPP",
+                    "Metric Type": "Time-series MCMC error",
+                    "Reported Precision": "One decimal place",
+                    "Computation Method": "summary.mcmc from R package CODA"
+                },
+                "measures": "[FDR SE]",
+                "outcomes": "[0.01]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "SIPP",
+                    "model": "PY",
+                    "metric": "FNR SE",
+                    "unit": "percentage"
+                },
+                "measures": "[FNR SE]",
+                "outcomes": "[0.02]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "PY",
+                    "Dataset": "SIPP",
+                    "Metric Type": "Time-series MCMC error",
+                    "Reported Precision": "One decimal place",
+                    "Computation Method": "summary.mcmc from R package CODA"
+                },
+                "measures": "[FDR SE]",
+                "outcomes": "[0.01]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "SIPP",
+                    "model": "PY",
+                    "metric": "FNR SE",
+                    "unit": "percentage"
+                },
+                "measures": "[FNR SE]",
+                "outcomes": "[0.02]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ESCNB",
+                    "Dataset": "SIPP",
+                    "Metric Type": "Time-series MCMC error",
+                    "Reported Precision": "One decimal place",
+                    "Computation Method": "summary.mcmc from R package CODA"
+                },
+                "measures": "[FNR SE]",
+                "outcomes": "[0.01]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "SIPP",
+                    "model": "PY",
+                    "metric": "FNR SE",
+                    "unit": "percentage"
+                },
+                "measures": "[FNR SE]",
+                "outcomes": "[0.02]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ESCD",
+                    "Dataset": "SDS",
+                    "Metric Type": "Time-series MCMC error",
+                    "Reported Precision": "One decimal place",
+                    "Computation Method": "summary.mcmc from R package CODA"
+                },
+                "measures": "[FNR SE]",
+                "outcomes": "[0.02]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "SIPP",
+                    "model": "PY",
+                    "metric": "FDR SE",
+                    "unit": "percentage"
+                },
+                "measures": "[FDR SE]",
+                "outcomes": "[0.01]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "PY",
+                    "Dataset": "SIPP",
+                    "Metric Type": "Time-series MCMC error",
+                    "Reported Precision": "One decimal place",
+                    "Computation Method": "summary.mcmc from R package CODA"
+                },
+                "measures": "[FDR SE]",
+                "outcomes": "[0.01]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "SIPP",
+                    "model": "ESCNB",
+                    "metric": "FNR SE",
+                    "unit": "percentage"
+                },
+                "measures": "[FNR SE]",
+                "outcomes": "[0.01]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ESCNB",
+                    "Dataset": "SIPP",
+                    "Metric Type": "Time-series MCMC error",
+                    "Reported Precision": "One decimal place",
+                    "Computation Method": "summary.mcmc from R package CODA"
+                },
+                "measures": "[FNR SE]",
+                "outcomes": "[0.01]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "SIPP",
+                    "model": "ESCNB",
+                    "metric": "FDR SE",
+                    "unit": "percentage"
+                },
+                "measures": "[FDR SE]",
+                "outcomes": "[0.02]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ESCD",
+                    "Dataset": "SDS",
+                    "Metric Type": "Time-series MCMC error",
+                    "Reported Precision": "One decimal place",
+                    "Computation Method": "summary.mcmc from R package CODA"
+                },
+                "measures": "[FDR SE]",
+                "outcomes": "[0.02]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "SIPP",
+                    "model": "ESCD",
+                    "metric": "FNR SE",
+                    "unit": "percentage"
+                },
+                "measures": "[FNR SE]",
+                "outcomes": "[0.01]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ESCD",
+                    "Dataset": "SIPP",
+                    "Metric Type": "Time-series MCMC error",
+                    "Reported Precision": "One decimal place",
+                    "Computation Method": "summary.mcmc from R package CODA"
+                },
+                "measures": "[FNR SE]",
+                "outcomes": "[0.01]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "SIPP",
+                    "model": "ESCD",
+                    "metric": "FDR SE",
+                    "unit": "percentage"
+                },
+                "measures": "[FDR SE]",
+                "outcomes": "[0.01]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ESCD",
+                    "Dataset": "SIPP",
+                    "Metric Type": "Time-series MCMC error",
+                    "Reported Precision": "One decimal place",
+                    "Computation Method": "summary.mcmc from R package CODA"
+                },
+                "measures": "[FDR SE]",
+                "outcomes": "[0.01]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 19,
+    "total_ground_truth_claims": 16,
+    "number_of_matches": 16
+}

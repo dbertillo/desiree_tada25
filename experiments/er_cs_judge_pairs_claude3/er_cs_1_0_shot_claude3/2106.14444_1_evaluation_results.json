@@ -1,0 +1,842 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "system": "Baseline",
+                    "task": "Sub-task 1",
+                    "metric": "F1"
+                },
+                "measures": "[F1]",
+                "outcomes": "[0.9455]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "System": "Baseline",
+                    "Sub-task": "Sub-task 1",
+                    "Dataset": "DSTC9"
+                },
+                "measures": "[F1]",
+                "outcomes": "[0.9455]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "system": "Baseline",
+                    "task": "Sub-task 2",
+                    "metric": "R@1"
+                },
+                "measures": "[R@1]",
+                "outcomes": "[0.6201]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "System": "Baseline",
+                    "Sub-task": "Sub-task 2",
+                    "Dataset": "DSTC9"
+                },
+                "measures": "[R@1]",
+                "outcomes": "[0.6201]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "system": "Baseline",
+                    "task": "Sub-task 3",
+                    "metric": "Rouge-L"
+                },
+                "measures": "[BLEU-1, METEOR, Rouge-L]",
+                "outcomes": "[0.3031, 0.2983, 0.3039]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "System": "Baseline",
+                    "Sub-task": "Sub-task 3",
+                    "Dataset": "DSTC9"
+                },
+                "measures": "[BLEU-1]",
+                "outcomes": "[0.3031]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "system": "Baseline",
+                    "task": "Sub-task 3",
+                    "metric": "Rouge-L"
+                },
+                "measures": "[BLEU-1, METEOR, Rouge-L]",
+                "outcomes": "[0.3031, 0.2983, 0.3039]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "System": "Baseline",
+                    "Sub-task": "Sub-task 3",
+                    "Dataset": "DSTC9"
+                },
+                "measures": "[METEOR]",
+                "outcomes": "[0.2983]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "system": "Baseline",
+                    "task": "Sub-task 3",
+                    "metric": "Rouge-L"
+                },
+                "measures": "[BLEU-1, METEOR, Rouge-L]",
+                "outcomes": "[0.3031, 0.2983, 0.3039]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "System": "Baseline",
+                    "Sub-task": "Sub-task 3",
+                    "Dataset": "DSTC9"
+                },
+                "measures": "[Rouge-L]",
+                "outcomes": "[0.3039]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "system": "Baseline",
+                    "metric": "Accuracy",
+                    "evaluation_method": "human",
+                    "scale": "1-5"
+                },
+                "measures": "[Accuracy]",
+                "outcomes": "[3.7155]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "System": "Baseline",
+                    "Sub-task": "Sub-task 3",
+                    "Dataset": "DSTC9"
+                },
+                "measures": "[BLEU-1]",
+                "outcomes": "[0.3031]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "system": "Baseline",
+                    "metric": "Accuracy",
+                    "evaluation_method": "human",
+                    "scale": "1-5"
+                },
+                "measures": "[Accuracy]",
+                "outcomes": "[3.7155]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "System": "Baseline",
+                    "Sub-task": "Sub-task 3",
+                    "Dataset": "DSTC9"
+                },
+                "measures": "[METEOR]",
+                "outcomes": "[0.2983]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "system": "Baseline",
+                    "metric": "Accuracy",
+                    "evaluation_method": "human",
+                    "scale": "1-5"
+                },
+                "measures": "[Accuracy]",
+                "outcomes": "[3.7155]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "System": "Baseline",
+                    "Dataset": "DSTC9",
+                    "Evaluation": "Human evaluation on a scale of 1-5"
+                },
+                "measures": "[Accuracy]",
+                "outcomes": "[3.7155]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "system": "Baseline",
+                    "metric": "Appropriateness",
+                    "evaluation_method": "human",
+                    "scale": "1-5"
+                },
+                "measures": "[Appropriateness]",
+                "outcomes": "[3.9386]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "System": "Baseline",
+                    "Sub-task": "Sub-task 3",
+                    "Dataset": "DSTC9"
+                },
+                "measures": "[BLEU-1]",
+                "outcomes": "[0.3031]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "system": "Baseline",
+                    "metric": "Appropriateness",
+                    "evaluation_method": "human",
+                    "scale": "1-5"
+                },
+                "measures": "[Appropriateness]",
+                "outcomes": "[3.9386]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "System": "Baseline",
+                    "Sub-task": "Sub-task 3",
+                    "Dataset": "DSTC9"
+                },
+                "measures": "[METEOR]",
+                "outcomes": "[0.2983]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "system": "Baseline",
+                    "metric": "Appropriateness",
+                    "evaluation_method": "human",
+                    "scale": "1-5"
+                },
+                "measures": "[Appropriateness]",
+                "outcomes": "[3.9386]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "System": "Baseline",
+                    "Dataset": "DSTC9",
+                    "Evaluation": "Human evaluation on a scale of 1-5"
+                },
+                "measures": "[Appropriateness]",
+                "outcomes": "[3.9386]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "system": "Our system",
+                    "team": "Team 11",
+                    "task": "Sub-task 1",
+                    "metric": "F1"
+                },
+                "measures": "[F1]",
+                "outcomes": "[0.9675]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "System": "Baseline",
+                    "Sub-task": "Sub-task 3",
+                    "Dataset": "DSTC9"
+                },
+                "measures": "[BLEU-1]",
+                "outcomes": "[0.3031]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "system": "Our system",
+                    "team": "Team 11",
+                    "task": "Sub-task 1",
+                    "metric": "F1"
+                },
+                "measures": "[F1]",
+                "outcomes": "[0.9675]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "System": "Baseline",
+                    "Sub-task": "Sub-task 3",
+                    "Dataset": "DSTC9"
+                },
+                "measures": "[METEOR]",
+                "outcomes": "[0.2983]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "system": "Our system",
+                    "team": "Team 11",
+                    "task": "Sub-task 1",
+                    "metric": "F1"
+                },
+                "measures": "[F1]",
+                "outcomes": "[0.9675]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "System": "Our system",
+                    "Sub-task": "Sub-task 1",
+                    "Dataset": "DSTC9"
+                },
+                "measures": "[F1]",
+                "outcomes": "[0.9675]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "system": "Our system",
+                    "team": "Team 11",
+                    "task": "Sub-task 2",
+                    "metric": "R@1"
+                },
+                "measures": "[R@1]",
+                "outcomes": "[0.8702]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "System": "Baseline",
+                    "Sub-task": "Sub-task 3",
+                    "Dataset": "DSTC9"
+                },
+                "measures": "[BLEU-1]",
+                "outcomes": "[0.3031]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "system": "Our system",
+                    "team": "Team 11",
+                    "task": "Sub-task 2",
+                    "metric": "R@1"
+                },
+                "measures": "[R@1]",
+                "outcomes": "[0.8702]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "System": "Baseline",
+                    "Sub-task": "Sub-task 3",
+                    "Dataset": "DSTC9"
+                },
+                "measures": "[METEOR]",
+                "outcomes": "[0.2983]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "system": "Our system",
+                    "team": "Team 11",
+                    "task": "Sub-task 2",
+                    "metric": "R@1"
+                },
+                "measures": "[R@1]",
+                "outcomes": "[0.8702]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "System": "Our system",
+                    "Sub-task": "Sub-task 2",
+                    "Dataset": "DSTC9"
+                },
+                "measures": "[R@1]",
+                "outcomes": "[0.8702]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "system": "Our system",
+                    "team": "Team 11",
+                    "task": "Sub-task 3",
+                    "metric": "Rouge-L"
+                },
+                "measures": "[BLEU-1, METEOR, Rouge-L]",
+                "outcomes": "[0.3743, 0.3854, 0.3797]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "System": "Baseline",
+                    "Sub-task": "Sub-task 3",
+                    "Dataset": "DSTC9"
+                },
+                "measures": "[BLEU-1]",
+                "outcomes": "[0.3031]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "system": "Our system",
+                    "team": "Team 11",
+                    "task": "Sub-task 3",
+                    "metric": "Rouge-L"
+                },
+                "measures": "[BLEU-1, METEOR, Rouge-L]",
+                "outcomes": "[0.3743, 0.3854, 0.3797]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "System": "Baseline",
+                    "Sub-task": "Sub-task 3",
+                    "Dataset": "DSTC9"
+                },
+                "measures": "[METEOR]",
+                "outcomes": "[0.2983]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "system": "Our system",
+                    "team": "Team 11",
+                    "task": "Sub-task 3",
+                    "metric": "Rouge-L"
+                },
+                "measures": "[BLEU-1, METEOR, Rouge-L]",
+                "outcomes": "[0.3743, 0.3854, 0.3797]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "System": "Our system",
+                    "Sub-task": "Sub-task 3",
+                    "Dataset": "DSTC9"
+                },
+                "measures": "[BLEU-1]",
+                "outcomes": "[0.3743]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "system": "Our system",
+                    "team": "Team 11",
+                    "task": "Sub-task 3",
+                    "metric": "Rouge-L"
+                },
+                "measures": "[BLEU-1, METEOR, Rouge-L]",
+                "outcomes": "[0.3743, 0.3854, 0.3797]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "System": "Our system",
+                    "Sub-task": "Sub-task 3",
+                    "Dataset": "DSTC9"
+                },
+                "measures": "[METEOR]",
+                "outcomes": "[0.3854]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "system": "Our system",
+                    "team": "Team 11",
+                    "metric": "Accuracy",
+                    "evaluation_method": "human",
+                    "scale": "1-5"
+                },
+                "measures": "[Accuracy]",
+                "outcomes": "[4.2722]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "System": "Baseline",
+                    "Sub-task": "Sub-task 3",
+                    "Dataset": "DSTC9"
+                },
+                "measures": "[BLEU-1]",
+                "outcomes": "[0.3031]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "system": "Our system",
+                    "team": "Team 11",
+                    "metric": "Accuracy",
+                    "evaluation_method": "human",
+                    "scale": "1-5"
+                },
+                "measures": "[Accuracy]",
+                "outcomes": "[4.2722]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "System": "Baseline",
+                    "Sub-task": "Sub-task 3",
+                    "Dataset": "DSTC9"
+                },
+                "measures": "[METEOR]",
+                "outcomes": "[0.2983]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "system": "Our system",
+                    "team": "Team 11",
+                    "metric": "Accuracy",
+                    "evaluation_method": "human",
+                    "scale": "1-5"
+                },
+                "measures": "[Accuracy]",
+                "outcomes": "[4.2722]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "System": "Our system",
+                    "Sub-task": "Sub-task 3",
+                    "Dataset": "DSTC9"
+                },
+                "measures": "[BLEU-1]",
+                "outcomes": "[0.3743]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "system": "Our system",
+                    "team": "Team 11",
+                    "metric": "Accuracy",
+                    "evaluation_method": "human",
+                    "scale": "1-5"
+                },
+                "measures": "[Accuracy]",
+                "outcomes": "[4.2722]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "System": "Our system",
+                    "Sub-task": "Sub-task 3",
+                    "Dataset": "DSTC9"
+                },
+                "measures": "[Rouge-L]",
+                "outcomes": "[0.3797]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "system": "Our system",
+                    "team": "Team 11",
+                    "metric": "Accuracy",
+                    "evaluation_method": "human",
+                    "scale": "1-5"
+                },
+                "measures": "[Accuracy]",
+                "outcomes": "[4.2722]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "System": "Our system",
+                    "Dataset": "DSTC9",
+                    "Evaluation": "Human evaluation on a scale of 1-5"
+                },
+                "measures": "[Accuracy]",
+                "outcomes": "[4.2722]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "system": "Our system",
+                    "team": "Team 11",
+                    "metric": "Appropriateness",
+                    "evaluation_method": "human",
+                    "scale": "1-5"
+                },
+                "measures": "[Appropriateness]",
+                "outcomes": "[4.2619]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "System": "Baseline",
+                    "Sub-task": "Sub-task 3",
+                    "Dataset": "DSTC9"
+                },
+                "measures": "[BLEU-1]",
+                "outcomes": "[0.3031]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "system": "Our system",
+                    "team": "Team 11",
+                    "metric": "Appropriateness",
+                    "evaluation_method": "human",
+                    "scale": "1-5"
+                },
+                "measures": "[Appropriateness]",
+                "outcomes": "[4.2619]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "System": "Baseline",
+                    "Sub-task": "Sub-task 3",
+                    "Dataset": "DSTC9"
+                },
+                "measures": "[METEOR]",
+                "outcomes": "[0.2983]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "system": "Our system",
+                    "team": "Team 11",
+                    "metric": "Appropriateness",
+                    "evaluation_method": "human",
+                    "scale": "1-5"
+                },
+                "measures": "[Appropriateness]",
+                "outcomes": "[4.2619]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "System": "Our system",
+                    "Sub-task": "Sub-task 3",
+                    "Dataset": "DSTC9"
+                },
+                "measures": "[BLEU-1]",
+                "outcomes": "[0.3743]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "system": "Our system",
+                    "team": "Team 11",
+                    "metric": "Appropriateness",
+                    "evaluation_method": "human",
+                    "scale": "1-5"
+                },
+                "measures": "[Appropriateness]",
+                "outcomes": "[4.2619]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "System": "Our system",
+                    "Sub-task": "Sub-task 3",
+                    "Dataset": "DSTC9"
+                },
+                "measures": "[Rouge-L]",
+                "outcomes": "[0.3797]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "system": "Our system",
+                    "team": "Team 11",
+                    "metric": "Appropriateness",
+                    "evaluation_method": "human",
+                    "scale": "1-5"
+                },
+                "measures": "[Appropriateness]",
+                "outcomes": "[4.2619]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "System": "Our system",
+                    "Dataset": "DSTC9",
+                    "Evaluation": "Human evaluation on a scale of 1-5"
+                },
+                "measures": "[Appropriateness]",
+                "outcomes": "[4.2619]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "DSTC9",
+                    "reference": "Gunasekara etal. 2020"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "System": "Baseline",
+                    "Sub-task": "Sub-task 3",
+                    "Dataset": "DSTC9"
+                },
+                "measures": "[BLEU-1]",
+                "outcomes": "[0.3031]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "DSTC9",
+                    "reference": "Gunasekara etal. 2020"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "System": "Baseline",
+                    "Sub-task": "Sub-task 3",
+                    "Dataset": "DSTC9"
+                },
+                "measures": "[METEOR]",
+                "outcomes": "[0.2983]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "DSTC9",
+                    "reference": "Gunasekara etal. 2020"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "System": "Our system",
+                    "Sub-task": "Sub-task 3",
+                    "Dataset": "DSTC9"
+                },
+                "measures": "[BLEU-1]",
+                "outcomes": "[0.3743]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "DSTC9",
+                    "reference": "Gunasekara etal. 2020"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "System": "Our system",
+                    "Sub-task": "Sub-task 3",
+                    "Dataset": "DSTC9"
+                },
+                "measures": "[Rouge-L]",
+                "outcomes": "[0.3797]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "system": "Our system",
+                    "model": "T5",
+                    "fine-tuning": "different sub-tasks"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "System": "Baseline",
+                    "Sub-task": "Sub-task 3",
+                    "Dataset": "DSTC9"
+                },
+                "measures": "[BLEU-1]",
+                "outcomes": "[0.3031]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "system": "Our system",
+                    "model": "T5",
+                    "fine-tuning": "different sub-tasks"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "System": "Baseline",
+                    "Sub-task": "Sub-task 3",
+                    "Dataset": "DSTC9"
+                },
+                "measures": "[METEOR]",
+                "outcomes": "[0.2983]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "system": "Our system",
+                    "model": "T5",
+                    "fine-tuning": "different sub-tasks"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "System": "Our system",
+                    "Sub-task": "Sub-task 3",
+                    "Dataset": "DSTC9"
+                },
+                "measures": "[BLEU-1]",
+                "outcomes": "[0.3743]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "system": "Our system",
+                    "model": "T5",
+                    "fine-tuning": "different sub-tasks"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "System": "Our system",
+                    "Sub-task": "Sub-task 3",
+                    "Dataset": "DSTC9"
+                },
+                "measures": "[Rouge-L]",
+                "outcomes": "[0.3797]"
+            },
+            "match": "no"
+        }
+    ],
+    "total_extracted_claims": 12,
+    "total_ground_truth_claims": 14,
+    "number_of_matches": 10
+}

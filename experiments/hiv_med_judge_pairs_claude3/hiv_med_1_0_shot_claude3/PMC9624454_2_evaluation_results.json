@@ -1,0 +1,2863 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "All children",
+                    "sample_size": "1024",
+                    "hiv_exposure": "All"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[314 (30.7), 59 (5.8), 2.3 (1.9\u20132.7)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "All children",
+                    "Total No.": "1024",
+                    "Method": "Overall CMV viremia analysis across all groups"
+                },
+                "measures": "[CMV Viremia (%)]",
+                "outcomes": "[30.7%]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV unexposed",
+                    "sample_size": "872",
+                    "hiv_exposure": "Unexposed"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[253 (29.0), 45 (5.2), 2.3 (1.9\u20132.7)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "All children",
+                    "Total No.": "1024",
+                    "Method": "Overall CMV viremia analysis across all groups"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%)]",
+                "outcomes": "[5.8%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV unexposed",
+                    "sample_size": "872",
+                    "hiv_exposure": "Unexposed"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[253 (29.0), 45 (5.2), 2.3 (1.9\u20132.7)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "All children",
+                    "Total No.": "1024",
+                    "Method": "Overall CMV viremia analysis across all groups"
+                },
+                "measures": "[log10 CMV IU/mL in Viremics (Median, IQR)]",
+                "outcomes": "[2.3 (1.9\u20132.7)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV unexposed",
+                    "sample_size": "872",
+                    "hiv_exposure": "Unexposed"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[253 (29.0), 45 (5.2), 2.3 (1.9\u20132.7)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[CMV Viremia (%)]",
+                "outcomes": "[29.0%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV unexposed",
+                    "sample_size": "872",
+                    "hiv_exposure": "Unexposed"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[253 (29.0), 45 (5.2), 2.3 (1.9\u20132.7)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%)]",
+                "outcomes": "[5.2%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV unexposed",
+                    "sample_size": "872",
+                    "hiv_exposure": "Unexposed"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[253 (29.0), 45 (5.2), 2.3 (1.9\u20132.7)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[log10 CMV IU/mL in Viremics (Median, IQR)]",
+                "outcomes": "[2.3 (1.9\u20132.7)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV unexposed",
+                    "sample_size": "872",
+                    "hiv_exposure": "Unexposed"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[253 (29.0), 45 (5.2), 2.3 (1.9\u20132.7)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed",
+                    "Total No.": "118",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[CMV Viremia (%), P Value]",
+                "outcomes": "[38.1%, 0.061]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV unexposed",
+                    "sample_size": "872",
+                    "hiv_exposure": "Unexposed"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[253 (29.0), 45 (5.2), 2.3 (1.9\u20132.7)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed",
+                    "Total No.": "118",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%), P Value]",
+                "outcomes": "[8.5%, 0.18]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV unexposed",
+                    "sample_size": "872",
+                    "hiv_exposure": "Unexposed"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[253 (29.0), 45 (5.2), 2.3 (1.9\u20132.7)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed",
+                    "Total No.": "118",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[log10 CMV IU/mL (Median, IQR), P Value]",
+                "outcomes": "[2.4 (2.0\u20132.9), 0.24]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV unexposed",
+                    "sample_size": "872",
+                    "hiv_exposure": "Unexposed"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[253 (29.0), 45 (5.2), 2.3 (1.9\u20132.7)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed uninfected",
+                    "Total No.": "97",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[CMV Viremia (%), P Value]",
+                "outcomes": "[37.1%, 0.088]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV unexposed",
+                    "sample_size": "872",
+                    "hiv_exposure": "Unexposed"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[253 (29.0), 45 (5.2), 2.3 (1.9\u20132.7)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed uninfected",
+                    "Total No.": "97",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%), P Value]",
+                "outcomes": "[6.2%, 0.56]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV unexposed",
+                    "sample_size": "872",
+                    "hiv_exposure": "Unexposed"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[253 (29.0), 45 (5.2), 2.3 (1.9\u20132.7)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed uninfected",
+                    "Total No.": "97",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[log10 CMV IU/mL (Median, IQR), P Value]",
+                "outcomes": "[2.4 (1.9\u20132.7), 0.74]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV unexposed",
+                    "sample_size": "872",
+                    "hiv_exposure": "Unexposed"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[253 (29.0), 45 (5.2), 2.3 (1.9\u20132.7)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV infected",
+                    "Total No.": "15",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[CMV Viremia (%), P Value]",
+                "outcomes": "[40.0%, 0.39]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV unexposed",
+                    "sample_size": "872",
+                    "hiv_exposure": "Unexposed"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[253 (29.0), 45 (5.2), 2.3 (1.9\u20132.7)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV infected",
+                    "Total No.": "15",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%), P Value]",
+                "outcomes": "[20.0%, 0.015]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV unexposed",
+                    "sample_size": "872",
+                    "hiv_exposure": "Unexposed"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[253 (29.0), 45 (5.2), 2.3 (1.9\u20132.7)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV infected",
+                    "Total No.": "15",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[log10 CMV IU/mL (Median, IQR), P Value]",
+                "outcomes": "[3.2 (2.6\u20135.3), 0.012]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed",
+                    "sample_size": "118",
+                    "hiv_exposure": "Exposed",
+                    "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[45 (38.1), 10 (8.5), 2.4 (2.0\u20132.9)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "All children",
+                    "Total No.": "1024",
+                    "Method": "Overall CMV viremia analysis across all groups"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%)]",
+                "outcomes": "[5.8%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed",
+                    "sample_size": "118",
+                    "hiv_exposure": "Exposed",
+                    "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[45 (38.1), 10 (8.5), 2.4 (2.0\u20132.9)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "All children",
+                    "Total No.": "1024",
+                    "Method": "Overall CMV viremia analysis across all groups"
+                },
+                "measures": "[log10 CMV IU/mL in Viremics (Median, IQR)]",
+                "outcomes": "[2.3 (1.9\u20132.7)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed",
+                    "sample_size": "118",
+                    "hiv_exposure": "Exposed",
+                    "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[45 (38.1), 10 (8.5), 2.4 (2.0\u20132.9)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[CMV Viremia (%)]",
+                "outcomes": "[29.0%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed",
+                    "sample_size": "118",
+                    "hiv_exposure": "Exposed",
+                    "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[45 (38.1), 10 (8.5), 2.4 (2.0\u20132.9)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%)]",
+                "outcomes": "[5.2%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed",
+                    "sample_size": "118",
+                    "hiv_exposure": "Exposed",
+                    "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[45 (38.1), 10 (8.5), 2.4 (2.0\u20132.9)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[log10 CMV IU/mL in Viremics (Median, IQR)]",
+                "outcomes": "[2.3 (1.9\u20132.7)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed",
+                    "sample_size": "118",
+                    "hiv_exposure": "Exposed",
+                    "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[45 (38.1), 10 (8.5), 2.4 (2.0\u20132.9)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed",
+                    "Total No.": "118",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[CMV Viremia (%), P Value]",
+                "outcomes": "[38.1%, 0.061]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed",
+                    "sample_size": "118",
+                    "hiv_exposure": "Exposed",
+                    "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[45 (38.1), 10 (8.5), 2.4 (2.0\u20132.9)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed",
+                    "Total No.": "118",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%), P Value]",
+                "outcomes": "[8.5%, 0.18]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed",
+                    "sample_size": "118",
+                    "hiv_exposure": "Exposed",
+                    "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[45 (38.1), 10 (8.5), 2.4 (2.0\u20132.9)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed",
+                    "Total No.": "118",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[log10 CMV IU/mL (Median, IQR), P Value]",
+                "outcomes": "[2.4 (2.0\u20132.9), 0.24]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed",
+                    "sample_size": "118",
+                    "hiv_exposure": "Exposed",
+                    "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[45 (38.1), 10 (8.5), 2.4 (2.0\u20132.9)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed uninfected",
+                    "Total No.": "97",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[CMV Viremia (%), P Value]",
+                "outcomes": "[37.1%, 0.088]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed",
+                    "sample_size": "118",
+                    "hiv_exposure": "Exposed",
+                    "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[45 (38.1), 10 (8.5), 2.4 (2.0\u20132.9)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed uninfected",
+                    "Total No.": "97",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%), P Value]",
+                "outcomes": "[6.2%, 0.56]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed",
+                    "sample_size": "118",
+                    "hiv_exposure": "Exposed",
+                    "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[45 (38.1), 10 (8.5), 2.4 (2.0\u20132.9)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed uninfected",
+                    "Total No.": "97",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[log10 CMV IU/mL (Median, IQR), P Value]",
+                "outcomes": "[2.4 (1.9\u20132.7), 0.74]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed",
+                    "sample_size": "118",
+                    "hiv_exposure": "Exposed",
+                    "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[45 (38.1), 10 (8.5), 2.4 (2.0\u20132.9)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV infected",
+                    "Total No.": "15",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[CMV Viremia (%), P Value]",
+                "outcomes": "[40.0%, 0.39]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed",
+                    "sample_size": "118",
+                    "hiv_exposure": "Exposed",
+                    "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[45 (38.1), 10 (8.5), 2.4 (2.0\u20132.9)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV infected",
+                    "Total No.": "15",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%), P Value]",
+                "outcomes": "[20.0%, 0.015]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed",
+                    "sample_size": "118",
+                    "hiv_exposure": "Exposed",
+                    "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[45 (38.1), 10 (8.5), 2.4 (2.0\u20132.9)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV infected",
+                    "Total No.": "15",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[log10 CMV IU/mL (Median, IQR), P Value]",
+                "outcomes": "[3.2 (2.6\u20135.3), 0.012]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed",
+                    "sample_size": "118",
+                    "hiv_exposure": "Exposed",
+                    "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown",
+                    "comparison": "CMV detection in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.061]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "All children",
+                    "Total No.": "1024",
+                    "Method": "Overall CMV viremia analysis across all groups"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%)]",
+                "outcomes": "[5.8%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed",
+                    "sample_size": "118",
+                    "hiv_exposure": "Exposed",
+                    "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown",
+                    "comparison": "CMV detection in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.061]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "All children",
+                    "Total No.": "1024",
+                    "Method": "Overall CMV viremia analysis across all groups"
+                },
+                "measures": "[log10 CMV IU/mL in Viremics (Median, IQR)]",
+                "outcomes": "[2.3 (1.9\u20132.7)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed",
+                    "sample_size": "118",
+                    "hiv_exposure": "Exposed",
+                    "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown",
+                    "comparison": "CMV detection in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.061]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[CMV Viremia (%)]",
+                "outcomes": "[29.0%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed",
+                    "sample_size": "118",
+                    "hiv_exposure": "Exposed",
+                    "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown",
+                    "comparison": "CMV detection in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.061]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%)]",
+                "outcomes": "[5.2%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed",
+                    "sample_size": "118",
+                    "hiv_exposure": "Exposed",
+                    "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown",
+                    "comparison": "CMV detection in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.061]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[log10 CMV IU/mL in Viremics (Median, IQR)]",
+                "outcomes": "[2.3 (1.9\u20132.7)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed",
+                    "sample_size": "118",
+                    "hiv_exposure": "Exposed",
+                    "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown",
+                    "comparison": "CMV detection in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.061]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed",
+                    "Total No.": "118",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[CMV Viremia (%), P Value]",
+                "outcomes": "[38.1%, 0.061]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed",
+                    "sample_size": "118",
+                    "hiv_exposure": "Exposed",
+                    "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown",
+                    "comparison": "CMV detection \u2264 1000 IU/mL in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.18]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "All children",
+                    "Total No.": "1024",
+                    "Method": "Overall CMV viremia analysis across all groups"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%)]",
+                "outcomes": "[5.8%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed",
+                    "sample_size": "118",
+                    "hiv_exposure": "Exposed",
+                    "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown",
+                    "comparison": "CMV detection \u2264 1000 IU/mL in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.18]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "All children",
+                    "Total No.": "1024",
+                    "Method": "Overall CMV viremia analysis across all groups"
+                },
+                "measures": "[log10 CMV IU/mL in Viremics (Median, IQR)]",
+                "outcomes": "[2.3 (1.9\u20132.7)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed",
+                    "sample_size": "118",
+                    "hiv_exposure": "Exposed",
+                    "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown",
+                    "comparison": "CMV detection \u2264 1000 IU/mL in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.18]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[CMV Viremia (%)]",
+                "outcomes": "[29.0%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed",
+                    "sample_size": "118",
+                    "hiv_exposure": "Exposed",
+                    "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown",
+                    "comparison": "CMV detection \u2264 1000 IU/mL in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.18]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%)]",
+                "outcomes": "[5.2%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed",
+                    "sample_size": "118",
+                    "hiv_exposure": "Exposed",
+                    "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown",
+                    "comparison": "CMV detection \u2264 1000 IU/mL in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.18]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[log10 CMV IU/mL in Viremics (Median, IQR)]",
+                "outcomes": "[2.3 (1.9\u20132.7)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed",
+                    "sample_size": "118",
+                    "hiv_exposure": "Exposed",
+                    "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown",
+                    "comparison": "CMV detection \u2264 1000 IU/mL in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.18]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed",
+                    "Total No.": "118",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%), P Value]",
+                "outcomes": "[8.5%, 0.18]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed",
+                    "sample_size": "118",
+                    "hiv_exposure": "Exposed",
+                    "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown",
+                    "comparison": "CMV viral load distribution to HIV-unexposed children",
+                    "statistical_test": "Wilcoxon rank-sum test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.24]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "All children",
+                    "Total No.": "1024",
+                    "Method": "Overall CMV viremia analysis across all groups"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%)]",
+                "outcomes": "[5.8%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed",
+                    "sample_size": "118",
+                    "hiv_exposure": "Exposed",
+                    "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown",
+                    "comparison": "CMV viral load distribution to HIV-unexposed children",
+                    "statistical_test": "Wilcoxon rank-sum test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.24]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "All children",
+                    "Total No.": "1024",
+                    "Method": "Overall CMV viremia analysis across all groups"
+                },
+                "measures": "[log10 CMV IU/mL in Viremics (Median, IQR)]",
+                "outcomes": "[2.3 (1.9\u20132.7)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed",
+                    "sample_size": "118",
+                    "hiv_exposure": "Exposed",
+                    "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown",
+                    "comparison": "CMV viral load distribution to HIV-unexposed children",
+                    "statistical_test": "Wilcoxon rank-sum test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.24]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[CMV Viremia (%)]",
+                "outcomes": "[29.0%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed",
+                    "sample_size": "118",
+                    "hiv_exposure": "Exposed",
+                    "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown",
+                    "comparison": "CMV viral load distribution to HIV-unexposed children",
+                    "statistical_test": "Wilcoxon rank-sum test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.24]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%)]",
+                "outcomes": "[5.2%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed",
+                    "sample_size": "118",
+                    "hiv_exposure": "Exposed",
+                    "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown",
+                    "comparison": "CMV viral load distribution to HIV-unexposed children",
+                    "statistical_test": "Wilcoxon rank-sum test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.24]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[log10 CMV IU/mL in Viremics (Median, IQR)]",
+                "outcomes": "[2.3 (1.9\u20132.7)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed",
+                    "sample_size": "118",
+                    "hiv_exposure": "Exposed",
+                    "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown",
+                    "comparison": "CMV viral load distribution to HIV-unexposed children",
+                    "statistical_test": "Wilcoxon rank-sum test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.24]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed",
+                    "Total No.": "118",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[log10 CMV IU/mL (Median, IQR), P Value]",
+                "outcomes": "[2.4 (2.0\u20132.9), 0.24]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed",
+                    "sample_size": "118",
+                    "hiv_exposure": "Exposed",
+                    "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown",
+                    "comparison": "CMV viral load distribution to HIV-unexposed children",
+                    "statistical_test": "Wilcoxon rank-sum test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.24]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed uninfected",
+                    "Total No.": "97",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[CMV Viremia (%), P Value]",
+                "outcomes": "[37.1%, 0.088]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed",
+                    "sample_size": "118",
+                    "hiv_exposure": "Exposed",
+                    "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown",
+                    "comparison": "CMV viral load distribution to HIV-unexposed children",
+                    "statistical_test": "Wilcoxon rank-sum test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.24]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed uninfected",
+                    "Total No.": "97",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%), P Value]",
+                "outcomes": "[6.2%, 0.56]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed",
+                    "sample_size": "118",
+                    "hiv_exposure": "Exposed",
+                    "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown",
+                    "comparison": "CMV viral load distribution to HIV-unexposed children",
+                    "statistical_test": "Wilcoxon rank-sum test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.24]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed uninfected",
+                    "Total No.": "97",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[log10 CMV IU/mL (Median, IQR), P Value]",
+                "outcomes": "[2.4 (1.9\u20132.7), 0.74]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed",
+                    "sample_size": "118",
+                    "hiv_exposure": "Exposed",
+                    "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown",
+                    "comparison": "CMV viral load distribution to HIV-unexposed children",
+                    "statistical_test": "Wilcoxon rank-sum test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.24]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV infected",
+                    "Total No.": "15",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[CMV Viremia (%), P Value]",
+                "outcomes": "[40.0%, 0.39]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed",
+                    "sample_size": "118",
+                    "hiv_exposure": "Exposed",
+                    "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown",
+                    "comparison": "CMV viral load distribution to HIV-unexposed children",
+                    "statistical_test": "Wilcoxon rank-sum test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.24]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV infected",
+                    "Total No.": "15",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%), P Value]",
+                "outcomes": "[20.0%, 0.015]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed",
+                    "sample_size": "118",
+                    "hiv_exposure": "Exposed",
+                    "note": "Includes 6 children who were HIV exposed but whose HIV infection status was unknown",
+                    "comparison": "CMV viral load distribution to HIV-unexposed children",
+                    "statistical_test": "Wilcoxon rank-sum test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.24]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV infected",
+                    "Total No.": "15",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[log10 CMV IU/mL (Median, IQR), P Value]",
+                "outcomes": "[3.2 (2.6\u20135.3), 0.012]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed uninfected",
+                    "sample_size": "97",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Uninfected"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[36 (37.1), 6 (6.2), 2.4 (1.9\u20132.7)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "All children",
+                    "Total No.": "1024",
+                    "Method": "Overall CMV viremia analysis across all groups"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%)]",
+                "outcomes": "[5.8%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed uninfected",
+                    "sample_size": "97",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Uninfected"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[36 (37.1), 6 (6.2), 2.4 (1.9\u20132.7)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "All children",
+                    "Total No.": "1024",
+                    "Method": "Overall CMV viremia analysis across all groups"
+                },
+                "measures": "[log10 CMV IU/mL in Viremics (Median, IQR)]",
+                "outcomes": "[2.3 (1.9\u20132.7)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed uninfected",
+                    "sample_size": "97",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Uninfected"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[36 (37.1), 6 (6.2), 2.4 (1.9\u20132.7)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[CMV Viremia (%)]",
+                "outcomes": "[29.0%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed uninfected",
+                    "sample_size": "97",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Uninfected"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[36 (37.1), 6 (6.2), 2.4 (1.9\u20132.7)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%)]",
+                "outcomes": "[5.2%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed uninfected",
+                    "sample_size": "97",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Uninfected"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[36 (37.1), 6 (6.2), 2.4 (1.9\u20132.7)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[log10 CMV IU/mL in Viremics (Median, IQR)]",
+                "outcomes": "[2.3 (1.9\u20132.7)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed uninfected",
+                    "sample_size": "97",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Uninfected"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[36 (37.1), 6 (6.2), 2.4 (1.9\u20132.7)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed",
+                    "Total No.": "118",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[log10 CMV IU/mL (Median, IQR), P Value]",
+                "outcomes": "[2.4 (2.0\u20132.9), 0.24]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed uninfected",
+                    "sample_size": "97",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Uninfected"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[36 (37.1), 6 (6.2), 2.4 (1.9\u20132.7)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed uninfected",
+                    "Total No.": "97",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[CMV Viremia (%), P Value]",
+                "outcomes": "[37.1%, 0.088]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed uninfected",
+                    "sample_size": "97",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Uninfected"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[36 (37.1), 6 (6.2), 2.4 (1.9\u20132.7)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed uninfected",
+                    "Total No.": "97",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%), P Value]",
+                "outcomes": "[6.2%, 0.56]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed uninfected",
+                    "sample_size": "97",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Uninfected"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[36 (37.1), 6 (6.2), 2.4 (1.9\u20132.7)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed uninfected",
+                    "Total No.": "97",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[log10 CMV IU/mL (Median, IQR), P Value]",
+                "outcomes": "[2.4 (1.9\u20132.7), 0.74]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed uninfected",
+                    "sample_size": "97",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Uninfected"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[36 (37.1), 6 (6.2), 2.4 (1.9\u20132.7)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV infected",
+                    "Total No.": "15",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[CMV Viremia (%), P Value]",
+                "outcomes": "[40.0%, 0.39]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed uninfected",
+                    "sample_size": "97",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Uninfected"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[36 (37.1), 6 (6.2), 2.4 (1.9\u20132.7)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV infected",
+                    "Total No.": "15",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%), P Value]",
+                "outcomes": "[20.0%, 0.015]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed uninfected",
+                    "sample_size": "97",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Uninfected"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[36 (37.1), 6 (6.2), 2.4 (1.9\u20132.7)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV infected",
+                    "Total No.": "15",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[log10 CMV IU/mL (Median, IQR), P Value]",
+                "outcomes": "[3.2 (2.6\u20135.3), 0.012]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed uninfected",
+                    "sample_size": "97",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Uninfected",
+                    "comparison": "CMV detection in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.088]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "All children",
+                    "Total No.": "1024",
+                    "Method": "Overall CMV viremia analysis across all groups"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%)]",
+                "outcomes": "[5.8%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed uninfected",
+                    "sample_size": "97",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Uninfected",
+                    "comparison": "CMV detection in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.088]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "All children",
+                    "Total No.": "1024",
+                    "Method": "Overall CMV viremia analysis across all groups"
+                },
+                "measures": "[log10 CMV IU/mL in Viremics (Median, IQR)]",
+                "outcomes": "[2.3 (1.9\u20132.7)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed uninfected",
+                    "sample_size": "97",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Uninfected",
+                    "comparison": "CMV detection in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.088]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[CMV Viremia (%)]",
+                "outcomes": "[29.0%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed uninfected",
+                    "sample_size": "97",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Uninfected",
+                    "comparison": "CMV detection in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.088]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%)]",
+                "outcomes": "[5.2%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed uninfected",
+                    "sample_size": "97",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Uninfected",
+                    "comparison": "CMV detection in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.088]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[log10 CMV IU/mL in Viremics (Median, IQR)]",
+                "outcomes": "[2.3 (1.9\u20132.7)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed uninfected",
+                    "sample_size": "97",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Uninfected",
+                    "comparison": "CMV detection in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.088]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed",
+                    "Total No.": "118",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[log10 CMV IU/mL (Median, IQR), P Value]",
+                "outcomes": "[2.4 (2.0\u20132.9), 0.24]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed uninfected",
+                    "sample_size": "97",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Uninfected",
+                    "comparison": "CMV detection in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.088]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed uninfected",
+                    "Total No.": "97",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[CMV Viremia (%), P Value]",
+                "outcomes": "[37.1%, 0.088]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed uninfected",
+                    "sample_size": "97",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Uninfected",
+                    "comparison": "CMV detection \u2264 1000 IU/mL in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.56]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "All children",
+                    "Total No.": "1024",
+                    "Method": "Overall CMV viremia analysis across all groups"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%)]",
+                "outcomes": "[5.8%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed uninfected",
+                    "sample_size": "97",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Uninfected",
+                    "comparison": "CMV detection \u2264 1000 IU/mL in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.56]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "All children",
+                    "Total No.": "1024",
+                    "Method": "Overall CMV viremia analysis across all groups"
+                },
+                "measures": "[log10 CMV IU/mL in Viremics (Median, IQR)]",
+                "outcomes": "[2.3 (1.9\u20132.7)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed uninfected",
+                    "sample_size": "97",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Uninfected",
+                    "comparison": "CMV detection \u2264 1000 IU/mL in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.56]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[CMV Viremia (%)]",
+                "outcomes": "[29.0%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed uninfected",
+                    "sample_size": "97",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Uninfected",
+                    "comparison": "CMV detection \u2264 1000 IU/mL in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.56]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%)]",
+                "outcomes": "[5.2%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed uninfected",
+                    "sample_size": "97",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Uninfected",
+                    "comparison": "CMV detection \u2264 1000 IU/mL in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.56]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[log10 CMV IU/mL in Viremics (Median, IQR)]",
+                "outcomes": "[2.3 (1.9\u20132.7)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed uninfected",
+                    "sample_size": "97",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Uninfected",
+                    "comparison": "CMV detection \u2264 1000 IU/mL in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.56]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed",
+                    "Total No.": "118",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[log10 CMV IU/mL (Median, IQR), P Value]",
+                "outcomes": "[2.4 (2.0\u20132.9), 0.24]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed uninfected",
+                    "sample_size": "97",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Uninfected",
+                    "comparison": "CMV detection \u2264 1000 IU/mL in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.56]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed uninfected",
+                    "Total No.": "97",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%), P Value]",
+                "outcomes": "[6.2%, 0.56]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed uninfected",
+                    "sample_size": "97",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Uninfected",
+                    "comparison": "CMV viral load distribution to HIV-unexposed children",
+                    "statistical_test": "Wilcoxon rank-sum test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.74]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "All children",
+                    "Total No.": "1024",
+                    "Method": "Overall CMV viremia analysis across all groups"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%)]",
+                "outcomes": "[5.8%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed uninfected",
+                    "sample_size": "97",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Uninfected",
+                    "comparison": "CMV viral load distribution to HIV-unexposed children",
+                    "statistical_test": "Wilcoxon rank-sum test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.74]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "All children",
+                    "Total No.": "1024",
+                    "Method": "Overall CMV viremia analysis across all groups"
+                },
+                "measures": "[log10 CMV IU/mL in Viremics (Median, IQR)]",
+                "outcomes": "[2.3 (1.9\u20132.7)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed uninfected",
+                    "sample_size": "97",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Uninfected",
+                    "comparison": "CMV viral load distribution to HIV-unexposed children",
+                    "statistical_test": "Wilcoxon rank-sum test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.74]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[CMV Viremia (%)]",
+                "outcomes": "[29.0%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed uninfected",
+                    "sample_size": "97",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Uninfected",
+                    "comparison": "CMV viral load distribution to HIV-unexposed children",
+                    "statistical_test": "Wilcoxon rank-sum test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.74]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%)]",
+                "outcomes": "[5.2%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed uninfected",
+                    "sample_size": "97",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Uninfected",
+                    "comparison": "CMV viral load distribution to HIV-unexposed children",
+                    "statistical_test": "Wilcoxon rank-sum test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.74]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[log10 CMV IU/mL in Viremics (Median, IQR)]",
+                "outcomes": "[2.3 (1.9\u20132.7)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed uninfected",
+                    "sample_size": "97",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Uninfected",
+                    "comparison": "CMV viral load distribution to HIV-unexposed children",
+                    "statistical_test": "Wilcoxon rank-sum test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.74]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed",
+                    "Total No.": "118",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[log10 CMV IU/mL (Median, IQR), P Value]",
+                "outcomes": "[2.4 (2.0\u20132.9), 0.24]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed uninfected",
+                    "sample_size": "97",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Uninfected",
+                    "comparison": "CMV viral load distribution to HIV-unexposed children",
+                    "statistical_test": "Wilcoxon rank-sum test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.74]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed uninfected",
+                    "Total No.": "97",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[log10 CMV IU/mL (Median, IQR), P Value]",
+                "outcomes": "[2.4 (1.9\u20132.7), 0.74]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed uninfected",
+                    "sample_size": "97",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Uninfected",
+                    "comparison": "CMV viral load distribution to HIV-unexposed children",
+                    "statistical_test": "Wilcoxon rank-sum test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.74]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV infected",
+                    "Total No.": "15",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[CMV Viremia (%), P Value]",
+                "outcomes": "[40.0%, 0.39]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed uninfected",
+                    "sample_size": "97",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Uninfected",
+                    "comparison": "CMV viral load distribution to HIV-unexposed children",
+                    "statistical_test": "Wilcoxon rank-sum test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.74]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV infected",
+                    "Total No.": "15",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%), P Value]",
+                "outcomes": "[20.0%, 0.015]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV exposed uninfected",
+                    "sample_size": "97",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Uninfected",
+                    "comparison": "CMV viral load distribution to HIV-unexposed children",
+                    "statistical_test": "Wilcoxon rank-sum test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.74]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV infected",
+                    "Total No.": "15",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[log10 CMV IU/mL (Median, IQR), P Value]",
+                "outcomes": "[3.2 (2.6\u20135.3), 0.012]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV infected",
+                    "sample_size": "15",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Infected"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[6 (40.0), 3 (20.0), 3.2 (2.6\u20135.3)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "All children",
+                    "Total No.": "1024",
+                    "Method": "Overall CMV viremia analysis across all groups"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%)]",
+                "outcomes": "[5.8%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV infected",
+                    "sample_size": "15",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Infected"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[6 (40.0), 3 (20.0), 3.2 (2.6\u20135.3)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "All children",
+                    "Total No.": "1024",
+                    "Method": "Overall CMV viremia analysis across all groups"
+                },
+                "measures": "[log10 CMV IU/mL in Viremics (Median, IQR)]",
+                "outcomes": "[2.3 (1.9\u20132.7)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV infected",
+                    "sample_size": "15",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Infected"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[6 (40.0), 3 (20.0), 3.2 (2.6\u20135.3)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[CMV Viremia (%)]",
+                "outcomes": "[29.0%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV infected",
+                    "sample_size": "15",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Infected"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[6 (40.0), 3 (20.0), 3.2 (2.6\u20135.3)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%)]",
+                "outcomes": "[5.2%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV infected",
+                    "sample_size": "15",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Infected"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[6 (40.0), 3 (20.0), 3.2 (2.6\u20135.3)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[log10 CMV IU/mL in Viremics (Median, IQR)]",
+                "outcomes": "[2.3 (1.9\u20132.7)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV infected",
+                    "sample_size": "15",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Infected"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[6 (40.0), 3 (20.0), 3.2 (2.6\u20135.3)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed",
+                    "Total No.": "118",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[log10 CMV IU/mL (Median, IQR), P Value]",
+                "outcomes": "[2.4 (2.0\u20132.9), 0.24]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV infected",
+                    "sample_size": "15",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Infected"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[6 (40.0), 3 (20.0), 3.2 (2.6\u20135.3)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed uninfected",
+                    "Total No.": "97",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[log10 CMV IU/mL (Median, IQR), P Value]",
+                "outcomes": "[2.4 (1.9\u20132.7), 0.74]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV infected",
+                    "sample_size": "15",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Infected"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[6 (40.0), 3 (20.0), 3.2 (2.6\u20135.3)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV infected",
+                    "Total No.": "15",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[CMV Viremia (%), P Value]",
+                "outcomes": "[40.0%, 0.39]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV infected",
+                    "sample_size": "15",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Infected"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[6 (40.0), 3 (20.0), 3.2 (2.6\u20135.3)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV infected",
+                    "Total No.": "15",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%), P Value]",
+                "outcomes": "[20.0%, 0.015]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV infected",
+                    "sample_size": "15",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Infected"
+                },
+                "measures": "[CMV Viremia, CMV Viremia \u2264 1000 IU/mL, log10 CMV IU/mL in Viremics]",
+                "outcomes": "[6 (40.0), 3 (20.0), 3.2 (2.6\u20135.3)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV infected",
+                    "Total No.": "15",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[log10 CMV IU/mL (Median, IQR), P Value]",
+                "outcomes": "[3.2 (2.6\u20135.3), 0.012]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV infected",
+                    "sample_size": "15",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Infected",
+                    "comparison": "CMV detection in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.39]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "All children",
+                    "Total No.": "1024",
+                    "Method": "Overall CMV viremia analysis across all groups"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%)]",
+                "outcomes": "[5.8%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV infected",
+                    "sample_size": "15",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Infected",
+                    "comparison": "CMV detection in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.39]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "All children",
+                    "Total No.": "1024",
+                    "Method": "Overall CMV viremia analysis across all groups"
+                },
+                "measures": "[log10 CMV IU/mL in Viremics (Median, IQR)]",
+                "outcomes": "[2.3 (1.9\u20132.7)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV infected",
+                    "sample_size": "15",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Infected",
+                    "comparison": "CMV detection in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.39]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[CMV Viremia (%)]",
+                "outcomes": "[29.0%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV infected",
+                    "sample_size": "15",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Infected",
+                    "comparison": "CMV detection in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.39]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%)]",
+                "outcomes": "[5.2%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV infected",
+                    "sample_size": "15",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Infected",
+                    "comparison": "CMV detection in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.39]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[log10 CMV IU/mL in Viremics (Median, IQR)]",
+                "outcomes": "[2.3 (1.9\u20132.7)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV infected",
+                    "sample_size": "15",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Infected",
+                    "comparison": "CMV detection in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.39]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed",
+                    "Total No.": "118",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[log10 CMV IU/mL (Median, IQR), P Value]",
+                "outcomes": "[2.4 (2.0\u20132.9), 0.24]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV infected",
+                    "sample_size": "15",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Infected",
+                    "comparison": "CMV detection in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.39]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed uninfected",
+                    "Total No.": "97",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[log10 CMV IU/mL (Median, IQR), P Value]",
+                "outcomes": "[2.4 (1.9\u20132.7), 0.74]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV infected",
+                    "sample_size": "15",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Infected",
+                    "comparison": "CMV detection in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.39]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV infected",
+                    "Total No.": "15",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[CMV Viremia (%), P Value]",
+                "outcomes": "[40.0%, 0.39]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV infected",
+                    "sample_size": "15",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Infected",
+                    "comparison": "CMV detection \u2264 1000 IU/mL in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.015]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "All children",
+                    "Total No.": "1024",
+                    "Method": "Overall CMV viremia analysis across all groups"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%)]",
+                "outcomes": "[5.8%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV infected",
+                    "sample_size": "15",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Infected",
+                    "comparison": "CMV detection \u2264 1000 IU/mL in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.015]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "All children",
+                    "Total No.": "1024",
+                    "Method": "Overall CMV viremia analysis across all groups"
+                },
+                "measures": "[log10 CMV IU/mL in Viremics (Median, IQR)]",
+                "outcomes": "[2.3 (1.9\u20132.7)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV infected",
+                    "sample_size": "15",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Infected",
+                    "comparison": "CMV detection \u2264 1000 IU/mL in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.015]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[CMV Viremia (%)]",
+                "outcomes": "[29.0%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV infected",
+                    "sample_size": "15",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Infected",
+                    "comparison": "CMV detection \u2264 1000 IU/mL in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.015]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%)]",
+                "outcomes": "[5.2%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV infected",
+                    "sample_size": "15",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Infected",
+                    "comparison": "CMV detection \u2264 1000 IU/mL in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.015]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[log10 CMV IU/mL in Viremics (Median, IQR)]",
+                "outcomes": "[2.3 (1.9\u20132.7)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV infected",
+                    "sample_size": "15",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Infected",
+                    "comparison": "CMV detection \u2264 1000 IU/mL in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.015]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed",
+                    "Total No.": "118",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[log10 CMV IU/mL (Median, IQR), P Value]",
+                "outcomes": "[2.4 (2.0\u20132.9), 0.24]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV infected",
+                    "sample_size": "15",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Infected",
+                    "comparison": "CMV detection \u2264 1000 IU/mL in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.015]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed uninfected",
+                    "Total No.": "97",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[log10 CMV IU/mL (Median, IQR), P Value]",
+                "outcomes": "[2.4 (1.9\u20132.7), 0.74]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV infected",
+                    "sample_size": "15",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Infected",
+                    "comparison": "CMV detection \u2264 1000 IU/mL in HIV-unexposed children",
+                    "statistical_test": "\u03c7\u00b2 test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.015]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV infected",
+                    "Total No.": "15",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%), P Value]",
+                "outcomes": "[20.0%, 0.015]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV infected",
+                    "sample_size": "15",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Infected",
+                    "comparison": "CMV viral load distribution to HIV-unexposed children",
+                    "statistical_test": "Wilcoxon rank-sum test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.012]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "All children",
+                    "Total No.": "1024",
+                    "Method": "Overall CMV viremia analysis across all groups"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%)]",
+                "outcomes": "[5.8%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV infected",
+                    "sample_size": "15",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Infected",
+                    "comparison": "CMV viral load distribution to HIV-unexposed children",
+                    "statistical_test": "Wilcoxon rank-sum test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.012]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "All children",
+                    "Total No.": "1024",
+                    "Method": "Overall CMV viremia analysis across all groups"
+                },
+                "measures": "[log10 CMV IU/mL in Viremics (Median, IQR)]",
+                "outcomes": "[2.3 (1.9\u20132.7)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV infected",
+                    "sample_size": "15",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Infected",
+                    "comparison": "CMV viral load distribution to HIV-unexposed children",
+                    "statistical_test": "Wilcoxon rank-sum test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.012]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[CMV Viremia (%)]",
+                "outcomes": "[29.0%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV infected",
+                    "sample_size": "15",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Infected",
+                    "comparison": "CMV viral load distribution to HIV-unexposed children",
+                    "statistical_test": "Wilcoxon rank-sum test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.012]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%)]",
+                "outcomes": "[5.2%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV infected",
+                    "sample_size": "15",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Infected",
+                    "comparison": "CMV viral load distribution to HIV-unexposed children",
+                    "statistical_test": "Wilcoxon rank-sum test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.012]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[log10 CMV IU/mL in Viremics (Median, IQR)]",
+                "outcomes": "[2.3 (1.9\u20132.7)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV infected",
+                    "sample_size": "15",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Infected",
+                    "comparison": "CMV viral load distribution to HIV-unexposed children",
+                    "statistical_test": "Wilcoxon rank-sum test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.012]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed",
+                    "Total No.": "118",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[log10 CMV IU/mL (Median, IQR), P Value]",
+                "outcomes": "[2.4 (2.0\u20132.9), 0.24]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV infected",
+                    "sample_size": "15",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Infected",
+                    "comparison": "CMV viral load distribution to HIV-unexposed children",
+                    "statistical_test": "Wilcoxon rank-sum test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.012]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed uninfected",
+                    "Total No.": "97",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[log10 CMV IU/mL (Median, IQR), P Value]",
+                "outcomes": "[2.4 (1.9\u20132.7), 0.74]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "HIV infected",
+                    "sample_size": "15",
+                    "hiv_exposure": "Exposed",
+                    "hiv_status": "Infected",
+                    "comparison": "CMV viral load distribution to HIV-unexposed children",
+                    "statistical_test": "Wilcoxon rank-sum test"
+                },
+                "measures": "[P Value]",
+                "outcomes": "[0.012]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV infected",
+                    "Total No.": "15",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[log10 CMV IU/mL (Median, IQR), P Value]",
+                "outcomes": "[3.2 (2.6\u20135.3), 0.012]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "All children",
+                    "sample_size": "1024",
+                    "measurement_time": "At hospital discharge"
+                },
+                "measures": "[CMV viremia detection, CMV levels \u2264 1000 IU/mL]",
+                "outcomes": "[314 (31%), 5.8%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "All children",
+                    "Total No.": "1024",
+                    "Method": "Overall CMV viremia analysis across all groups"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%)]",
+                "outcomes": "[5.8%]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 15,
+    "total_ground_truth_claims": 15,
+    "number_of_matches": 9
+}

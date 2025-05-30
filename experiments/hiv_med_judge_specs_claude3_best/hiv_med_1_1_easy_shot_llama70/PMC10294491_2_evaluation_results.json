@@ -1,0 +1,182 @@
+{
+    "matched_specifications": [
+        [
+            "group",
+            "tdf/ftc"
+        ],
+        [
+            "no. subjects",
+            "2693"
+        ],
+        [
+            "pyfu",
+            "4386"
+        ],
+        [
+            "incident hiv infections",
+            "11"
+        ],
+        [
+            "group",
+            "taf/ftc"
+        ],
+        [
+            "no. subjects",
+            "2694"
+        ],
+        [
+            "pyfu",
+            "4370"
+        ],
+        [
+            "incident hiv infections",
+            "6"
+        ],
+        [
+            "analysis",
+            "re-analysis using an averted infections framework"
+        ],
+        [
+            "group",
+            "tdf/ftc"
+        ],
+        [
+            "pyfu",
+            "4386"
+        ],
+        [
+            "observed infections",
+            "11"
+        ],
+        [
+            "predicted infections",
+            "90.4"
+        ],
+        [
+            "analysis",
+            "re-analysis using an averted infections framework"
+        ],
+        [
+            "group",
+            "taf/ftc"
+        ],
+        [
+            "pyfu",
+            "4370"
+        ],
+        [
+            "observed infections",
+            "6"
+        ],
+        [
+            "predicted infections",
+            "90.0"
+        ]
+    ],
+    "unmatched_specifications": [
+        [
+            "trial",
+            "discover"
+        ],
+        [
+            "analysis",
+            "primary outcome analysis"
+        ],
+        [
+            "incidence rate",
+            "0.251 per 100 pyfu"
+        ],
+        [
+            "rate ratio",
+            "ref"
+        ],
+        [
+            "trial",
+            "discover"
+        ],
+        [
+            "analysis",
+            "primary outcome analysis"
+        ],
+        [
+            "incidence rate",
+            "0.137 per 100 pyfu"
+        ],
+        [
+            "rate ratio",
+            "0.55 (0.20, 1.48)"
+        ],
+        [
+            "trial",
+            "discover"
+        ],
+        [
+            "averted infections",
+            "79.4"
+        ],
+        [
+            "averted infections ratio",
+            "ref"
+        ],
+        [
+            "trial",
+            "discover"
+        ],
+        [
+            "averted infections",
+            "84.0"
+        ],
+        [
+            "averted infections ratio",
+            "1.06 (0.96\u20131.17)"
+        ]
+    ],
+    "unmatched_extracted_keys": [
+        "averted infections",
+        "averted infections ratio",
+        "incidence rate",
+        "trial"
+    ],
+    "unmatched_extracted_values": [
+        "0.137 per 100 pyfu",
+        "primary outcome analysis",
+        "0.55 (0.20, 1.48)",
+        "0.251 per 100 pyfu",
+        "ref",
+        "84.0",
+        "79.4",
+        "discover",
+        "1.06 (0.96\u20131.17)"
+    ],
+    "unmatched_ground_truth_keys": [],
+    "unmatched_ground_truth_values": [
+        "averted infections framework (using counterfactual placebo incidence rate of 2.06 per 100 pyfu)",
+        "rate ratio analysis",
+        "original analysis on rate ratio scale"
+    ],
+    "mapped_keys": {
+        "pyfu": "pyfu",
+        "no. subjects": "no. subjects",
+        "incident hiv infections": "incident hiv infections",
+        "group": "group",
+        "observed infections": "observed infections",
+        "analysis": "analysis",
+        "predicted infections": "predicted infections",
+        "rate ratio": "method"
+    },
+    "mapped_values": {
+        "2694": "2694",
+        "6": "6",
+        "2693": "2693",
+        "11": "11",
+        "re-analysis using an averted infections framework": "re-analysis using an averted infections framework",
+        "90.0": "90.0",
+        "tdf/ftc": "tdf/ftc",
+        "4386": "4386",
+        "taf/ftc": "taf/ftc",
+        "4370": "4370",
+        "90.4": "90.4"
+    },
+    "precision": 0.5625,
+    "recall": 0.75
+}

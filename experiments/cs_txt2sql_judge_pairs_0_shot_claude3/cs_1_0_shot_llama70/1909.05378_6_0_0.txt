@@ -1,0 +1,18 @@
+To determine if the extracted claim is the same as one of the ground truth claims, I'll compare the key information:
+
+Extracted claim:
+- Model: Template
+- Evaluation Set: Development
+- Evaluation Metric: BLEU
+- BLEU Score: 9.5
+
+The matching ground truth claim is:
+{'subject': {'Model': 'Template', 'Dataset': 'Dev', 'Evaluation': 'Automatic'}, 'measures': ['BLEU'], 'outcomes': ['9.5']}
+
+Both claims refer to the Template model, on the Development/Dev set, with a BLEU score of 9.5. The ground truth adds that it's an automatic evaluation, which is implied but not explicitly stated in the extracted claim.
+
+Given this comparison:
+
+<classification>yes</classification>
+
+The claims contain the same core information, despite minor differences in terminology (e.g., "Evaluation Set" vs "Dataset").

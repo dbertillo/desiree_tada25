@@ -1,0 +1,123 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "German census data sets",
+                    "Runtime Step": "Attribute selection step (Algorithm1)",
+                    "Threshold st": "0.8"
+                },
+                "measures": "[Runtime (seconds)]",
+                "outcomes": "[7,903]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "German census data sets",
+                    "Similarity threshold": "0.8",
+                    "Score weight": "0.5",
+                    "Attribute selection threshold": "0.6",
+                    "Step": "Attribute selection",
+                    "Algorithm": "Algorithm1"
+                },
+                "measures": "[Runtime]",
+                "outcomes": "[7903]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "German census data sets",
+                    "Runtime Step": "Signature generation step (Algorithm2)",
+                    "Threshold st": "0.8"
+                },
+                "measures": "[Runtime (seconds)]",
+                "outcomes": "[4,573]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "German census data sets",
+                    "Similarity threshold": "0.8",
+                    "Score weight": "0.5",
+                    "Attribute selection threshold": "0.6",
+                    "Step": "Signature generation",
+                    "Algorithm": "Algorithm2"
+                },
+                "measures": "[Runtime]",
+                "outcomes": "[4573]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "German census data sets",
+                    "Runtime Step": "Record matching step (Algorithm3)",
+                    "Threshold st": "0.8"
+                },
+                "measures": "[Runtime (seconds)]",
+                "outcomes": "[3,438]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "German census data sets",
+                    "Similarity threshold": "0.8",
+                    "Score weight": "0.5",
+                    "Attribute selection threshold": "0.6",
+                    "Step": "Record matching",
+                    "Algorithm": "Algorithm3"
+                },
+                "measures": "[Runtime]",
+                "outcomes": "[3438]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "German census data sets",
+                    "Linkage Quality Metric": "Precision",
+                    "Threshold st": "0.8"
+                },
+                "measures": "[Linkage Quality]",
+                "outcomes": "[0.999]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "German census data sets",
+                    "Similarity threshold": "0.8",
+                    "Score weight": "0.5",
+                    "Attribute selection threshold": "0.6"
+                },
+                "measures": "[Precision]",
+                "outcomes": "[0.999]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Dataset": "German census data sets",
+                    "Linkage Quality Metric": "Recall",
+                    "Threshold st": "0.8"
+                },
+                "measures": "[Linkage Quality]",
+                "outcomes": "[0.962]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "German census data sets",
+                    "Similarity threshold": "0.8",
+                    "Score weight": "0.5",
+                    "Attribute selection threshold": "0.6"
+                },
+                "measures": "[Recall]",
+                "outcomes": "[0.962]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 6,
+    "total_ground_truth_claims": 5,
+    "number_of_matches": 5
+}

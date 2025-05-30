@@ -1,0 +1,63 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Correlation analysis",
+                    "cancer type": "pancreatic cancer",
+                    "clinical stage": "Not specified",
+                    "protein 1": "E-cadherin",
+                    "protein 2": "STYK1",
+                    "expression type": "Low",
+                    "tumor tissue sample": "E-cadherin Low",
+                    "technique": "correlation analysis"
+                },
+                "measures": "[correlation coefficient, P-value]",
+                "outcomes": "[-0.42, <0.001]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Tumor tissue sample": "E-cadherin Low",
+                    "STYK1 Low": "9",
+                    "STYK1 High": "23",
+                    "Cancer type": "pancreatic cancer",
+                    "Analysis type": "Correlation analysis"
+                },
+                "measures": "[Correlation coefficient, p-value]",
+                "outcomes": "[-0.420, <0.001]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Correlation analysis",
+                    "cancer type": "pancreatic cancer",
+                    "clinical stage": "Not specified",
+                    "protein 1": "E-cadherin",
+                    "protein 2": "STYK1",
+                    "expression type": "High",
+                    "tumor tissue sample": "E-cadherin High",
+                    "technique": "correlation analysis"
+                },
+                "measures": "[correlation coefficient, P-value]",
+                "outcomes": "[NaN, NaN]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Tumor tissue sample": "E-cadherin High",
+                    "STYK1 Low": "34",
+                    "STYK1 High": "14",
+                    "Cancer type": "pancreatic cancer",
+                    "Analysis type": "Correlation analysis"
+                },
+                "measures": "[]",
+                "outcomes": "[]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 8,
+    "total_ground_truth_claims": 2,
+    "number_of_matches": 2
+}

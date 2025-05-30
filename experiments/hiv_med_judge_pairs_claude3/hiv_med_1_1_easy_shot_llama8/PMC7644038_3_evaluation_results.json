@@ -1,0 +1,1931 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Health Condition": "Depression",
+                    "HIV Status": "HIV",
+                    "Age": "65",
+                    "Year": "2011-2016",
+                    "Beneficiaries": "Medicare",
+                    "Unadjusted": "Yes"
+                },
+                "measures": "[Prevalence, Percent difference, Odds ratio]",
+                "outcomes": "[24.3%, 291.9%, 2.29]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Depression",
+                    "HIV Prevalence": "24.3%",
+                    "No HIV Prevalence": "6.2%",
+                    "Percent Difference": "291.9%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[2.29, 2.22-2.35]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Health Condition": "Chronic kidney disease",
+                    "HIV Status": "HIV",
+                    "Age": "65",
+                    "Year": "2011-2016",
+                    "Beneficiaries": "Medicare",
+                    "Unadjusted": "Yes"
+                },
+                "measures": "[Prevalence, Percent difference, Odds ratio]",
+                "outcomes": "[46.2%, 144.4%, 1.92]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Chronic kidney disease",
+                    "HIV Prevalence": "46.2%",
+                    "No HIV Prevalence": "18.9%",
+                    "Percent Difference": "144.4%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.92, 1.88-1.97]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Health Condition": "Depression",
+                    "HIV Status": "No HIV",
+                    "Age": "65",
+                    "Year": "2011-2016",
+                    "Beneficiaries": "Medicare",
+                    "Unadjusted": "Yes"
+                },
+                "measures": "[Prevalence, Percent difference, Odds ratio]",
+                "outcomes": "[6.2%, -%, -]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "COPD",
+                    "HIV Prevalence": "28.3%",
+                    "No HIV Prevalence": "4.1%",
+                    "Percent Difference": "590.2%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.52, 1.47-1.57]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Health Condition": "Depression",
+                    "HIV Status": "No HIV",
+                    "Age": "65",
+                    "Year": "2011-2016",
+                    "Beneficiaries": "Medicare",
+                    "Unadjusted": "Yes"
+                },
+                "measures": "[Prevalence, Percent difference, Odds ratio]",
+                "outcomes": "[6.2%, -%, -]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Osteoporosis",
+                    "HIV Prevalence": "14.6%",
+                    "No HIV Prevalence": "3.4%",
+                    "Percent Difference": "329.4%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[2.17, 2.06-2.29]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Health Condition": "Depression",
+                    "HIV Status": "No HIV",
+                    "Age": "65",
+                    "Year": "2011-2016",
+                    "Beneficiaries": "Medicare",
+                    "Unadjusted": "Yes"
+                },
+                "measures": "[Prevalence, Percent difference, Odds ratio]",
+                "outcomes": "[6.2%, -%, -]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Colorectal cancer",
+                    "HIV Prevalence": "3.8%",
+                    "No HIV Prevalence": "1.3%",
+                    "Percent Difference": "192.3%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.85, 1.70-2.03]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Health Condition": "Depression",
+                    "HIV Status": "No HIV",
+                    "Age": "65",
+                    "Year": "2011-2016",
+                    "Beneficiaries": "Medicare",
+                    "Unadjusted": "Yes"
+                },
+                "measures": "[Prevalence, Percent difference, Odds ratio]",
+                "outcomes": "[6.2%, -%, -]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Lung cancer",
+                    "HIV Prevalence": "26.8%",
+                    "No HIV Prevalence": "7.7%",
+                    "Percent Difference": "248.1%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.38, 1.25-1.53]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Health Condition": "Depression",
+                    "HIV Status": "No HIV",
+                    "Age": "65",
+                    "Year": "2011-2016",
+                    "Beneficiaries": "Medicare",
+                    "Unadjusted": "Yes"
+                },
+                "measures": "[Prevalence, Percent difference, Odds ratio]",
+                "outcomes": "[6.2%, -%, -]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Hypertension",
+                    "HIV Prevalence": "1.4%",
+                    "No HIV Prevalence": "0.3%",
+                    "Percent Difference": "366.7%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.31, 1.28-1.33]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Health Condition": "Depression",
+                    "HIV Status": "No HIV",
+                    "Age": "65",
+                    "Year": "2011-2016",
+                    "Beneficiaries": "Medicare",
+                    "Unadjusted": "Yes"
+                },
+                "measures": "[Prevalence, Percent difference, Odds ratio]",
+                "outcomes": "[6.2%, -%, -]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Ischemic heart disease",
+                    "HIV Prevalence": "1.3%",
+                    "No HIV Prevalence": "0.3%",
+                    "Percent Difference": "333.3%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.31, 1.28-1.34]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Health Condition": "Depression",
+                    "HIV Status": "No HIV",
+                    "Age": "65",
+                    "Year": "2011-2016",
+                    "Beneficiaries": "Medicare",
+                    "Unadjusted": "Yes"
+                },
+                "measures": "[Prevalence, Percent difference, Odds ratio]",
+                "outcomes": "[6.2%, -%, -]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Diabetes",
+                    "HIV Prevalence": "29.8%",
+                    "No HIV Prevalence": "10.4%",
+                    "Percent Difference": "186.5%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.06, 1.04-1.09]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Health Condition": "Depression",
+                    "HIV Status": "No HIV",
+                    "Age": "65",
+                    "Year": "2011-2016",
+                    "Beneficiaries": "Medicare",
+                    "Unadjusted": "Yes"
+                },
+                "measures": "[Prevalence, Percent difference, Odds ratio]",
+                "outcomes": "[6.2%, -%, -]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Chronic hepatitis",
+                    "HIV Prevalence": "13.1%",
+                    "No HIV Prevalence": "0.2%",
+                    "Percent Difference": "6450.0%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[12.70, 11.86-13.59]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Health Condition": "Depression",
+                    "HIV Status": "No HIV",
+                    "Age": "65",
+                    "Year": "2011-2016",
+                    "Beneficiaries": "Medicare",
+                    "Unadjusted": "Yes"
+                },
+                "measures": "[Prevalence, Percent difference, Odds ratio]",
+                "outcomes": "[6.2%, -%, -]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "End-stage liver disease",
+                    "HIV Prevalence": "2.7%",
+                    "No HIV Prevalence": "0.1%",
+                    "Percent Difference": "2600.0%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[4.51, 4.08-4.98]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Health Condition": "Chronic kidney disease",
+                    "HIV Status": "No HIV",
+                    "Age": "65",
+                    "Year": "2011-2016",
+                    "Beneficiaries": "Medicare",
+                    "Unadjusted": "Yes"
+                },
+                "measures": "[Prevalence, Percent difference, Odds ratio]",
+                "outcomes": "[18.9%, -%, -]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "COPD",
+                    "HIV Prevalence": "28.3%",
+                    "No HIV Prevalence": "4.1%",
+                    "Percent Difference": "590.2%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.52, 1.47-1.57]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Health Condition": "Chronic kidney disease",
+                    "HIV Status": "No HIV",
+                    "Age": "65",
+                    "Year": "2011-2016",
+                    "Beneficiaries": "Medicare",
+                    "Unadjusted": "Yes"
+                },
+                "measures": "[Prevalence, Percent difference, Odds ratio]",
+                "outcomes": "[18.9%, -%, -]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Osteoporosis",
+                    "HIV Prevalence": "14.6%",
+                    "No HIV Prevalence": "3.4%",
+                    "Percent Difference": "329.4%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[2.17, 2.06-2.29]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Health Condition": "Chronic kidney disease",
+                    "HIV Status": "No HIV",
+                    "Age": "65",
+                    "Year": "2011-2016",
+                    "Beneficiaries": "Medicare",
+                    "Unadjusted": "Yes"
+                },
+                "measures": "[Prevalence, Percent difference, Odds ratio]",
+                "outcomes": "[18.9%, -%, -]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Colorectal cancer",
+                    "HIV Prevalence": "3.8%",
+                    "No HIV Prevalence": "1.3%",
+                    "Percent Difference": "192.3%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.85, 1.70-2.03]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Health Condition": "Chronic kidney disease",
+                    "HIV Status": "No HIV",
+                    "Age": "65",
+                    "Year": "2011-2016",
+                    "Beneficiaries": "Medicare",
+                    "Unadjusted": "Yes"
+                },
+                "measures": "[Prevalence, Percent difference, Odds ratio]",
+                "outcomes": "[18.9%, -%, -]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Lung cancer",
+                    "HIV Prevalence": "26.8%",
+                    "No HIV Prevalence": "7.7%",
+                    "Percent Difference": "248.1%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.38, 1.25-1.53]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Health Condition": "Chronic kidney disease",
+                    "HIV Status": "No HIV",
+                    "Age": "65",
+                    "Year": "2011-2016",
+                    "Beneficiaries": "Medicare",
+                    "Unadjusted": "Yes"
+                },
+                "measures": "[Prevalence, Percent difference, Odds ratio]",
+                "outcomes": "[18.9%, -%, -]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Hypertension",
+                    "HIV Prevalence": "1.4%",
+                    "No HIV Prevalence": "0.3%",
+                    "Percent Difference": "366.7%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.31, 1.28-1.33]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Health Condition": "Chronic kidney disease",
+                    "HIV Status": "No HIV",
+                    "Age": "65",
+                    "Year": "2011-2016",
+                    "Beneficiaries": "Medicare",
+                    "Unadjusted": "Yes"
+                },
+                "measures": "[Prevalence, Percent difference, Odds ratio]",
+                "outcomes": "[18.9%, -%, -]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Ischemic heart disease",
+                    "HIV Prevalence": "1.3%",
+                    "No HIV Prevalence": "0.3%",
+                    "Percent Difference": "333.3%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.31, 1.28-1.34]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Health Condition": "Chronic kidney disease",
+                    "HIV Status": "No HIV",
+                    "Age": "65",
+                    "Year": "2011-2016",
+                    "Beneficiaries": "Medicare",
+                    "Unadjusted": "Yes"
+                },
+                "measures": "[Prevalence, Percent difference, Odds ratio]",
+                "outcomes": "[18.9%, -%, -]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Diabetes",
+                    "HIV Prevalence": "29.8%",
+                    "No HIV Prevalence": "10.4%",
+                    "Percent Difference": "186.5%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.06, 1.04-1.09]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Health Condition": "Chronic kidney disease",
+                    "HIV Status": "No HIV",
+                    "Age": "65",
+                    "Year": "2011-2016",
+                    "Beneficiaries": "Medicare",
+                    "Unadjusted": "Yes"
+                },
+                "measures": "[Prevalence, Percent difference, Odds ratio]",
+                "outcomes": "[18.9%, -%, -]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Chronic hepatitis",
+                    "HIV Prevalence": "13.1%",
+                    "No HIV Prevalence": "0.2%",
+                    "Percent Difference": "6450.0%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[12.70, 11.86-13.59]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Health Condition": "Chronic kidney disease",
+                    "HIV Status": "No HIV",
+                    "Age": "65",
+                    "Year": "2011-2016",
+                    "Beneficiaries": "Medicare",
+                    "Unadjusted": "Yes"
+                },
+                "measures": "[Prevalence, Percent difference, Odds ratio]",
+                "outcomes": "[18.9%, -%, -]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "End-stage liver disease",
+                    "HIV Prevalence": "2.7%",
+                    "No HIV Prevalence": "0.1%",
+                    "Percent Difference": "2600.0%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[4.51, 4.08-4.98]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Citation": "People with HIV",
+                    "Health Condition": "All",
+                    "Age": "65",
+                    "Year": "2011-2016",
+                    "Beneficiaries": "Medicare",
+                    "Unadjusted": "Yes"
+                },
+                "measures": "[Rates, -]",
+                "outcomes": "[higher overall rates]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "COPD",
+                    "HIV Prevalence": "28.3%",
+                    "No HIV Prevalence": "4.1%",
+                    "Percent Difference": "590.2%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.52, 1.47-1.57]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Citation": "People with HIV",
+                    "Health Condition": "All",
+                    "Age": "65",
+                    "Year": "2011-2016",
+                    "Beneficiaries": "Medicare",
+                    "Unadjusted": "Yes"
+                },
+                "measures": "[Rates, -]",
+                "outcomes": "[higher overall rates]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Osteoporosis",
+                    "HIV Prevalence": "14.6%",
+                    "No HIV Prevalence": "3.4%",
+                    "Percent Difference": "329.4%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[2.17, 2.06-2.29]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Citation": "People with HIV",
+                    "Health Condition": "All",
+                    "Age": "65",
+                    "Year": "2011-2016",
+                    "Beneficiaries": "Medicare",
+                    "Unadjusted": "Yes"
+                },
+                "measures": "[Rates, -]",
+                "outcomes": "[higher overall rates]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Colorectal cancer",
+                    "HIV Prevalence": "3.8%",
+                    "No HIV Prevalence": "1.3%",
+                    "Percent Difference": "192.3%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.85, 1.70-2.03]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Citation": "People with HIV",
+                    "Health Condition": "All",
+                    "Age": "65",
+                    "Year": "2011-2016",
+                    "Beneficiaries": "Medicare",
+                    "Unadjusted": "Yes"
+                },
+                "measures": "[Rates, -]",
+                "outcomes": "[higher overall rates]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Lung cancer",
+                    "HIV Prevalence": "26.8%",
+                    "No HIV Prevalence": "7.7%",
+                    "Percent Difference": "248.1%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.38, 1.25-1.53]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Citation": "People with HIV",
+                    "Health Condition": "All",
+                    "Age": "65",
+                    "Year": "2011-2016",
+                    "Beneficiaries": "Medicare",
+                    "Unadjusted": "Yes"
+                },
+                "measures": "[Rates, -]",
+                "outcomes": "[higher overall rates]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Hypertension",
+                    "HIV Prevalence": "1.4%",
+                    "No HIV Prevalence": "0.3%",
+                    "Percent Difference": "366.7%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.31, 1.28-1.33]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Citation": "People with HIV",
+                    "Health Condition": "All",
+                    "Age": "65",
+                    "Year": "2011-2016",
+                    "Beneficiaries": "Medicare",
+                    "Unadjusted": "Yes"
+                },
+                "measures": "[Rates, -]",
+                "outcomes": "[higher overall rates]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Ischemic heart disease",
+                    "HIV Prevalence": "1.3%",
+                    "No HIV Prevalence": "0.3%",
+                    "Percent Difference": "333.3%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.31, 1.28-1.34]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Citation": "People with HIV",
+                    "Health Condition": "All",
+                    "Age": "65",
+                    "Year": "2011-2016",
+                    "Beneficiaries": "Medicare",
+                    "Unadjusted": "Yes"
+                },
+                "measures": "[Rates, -]",
+                "outcomes": "[higher overall rates]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Diabetes",
+                    "HIV Prevalence": "29.8%",
+                    "No HIV Prevalence": "10.4%",
+                    "Percent Difference": "186.5%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.06, 1.04-1.09]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Citation": "People with HIV",
+                    "Health Condition": "All",
+                    "Age": "65",
+                    "Year": "2011-2016",
+                    "Beneficiaries": "Medicare",
+                    "Unadjusted": "Yes"
+                },
+                "measures": "[Rates, -]",
+                "outcomes": "[higher overall rates]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Chronic hepatitis",
+                    "HIV Prevalence": "13.1%",
+                    "No HIV Prevalence": "0.2%",
+                    "Percent Difference": "6450.0%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[12.70, 11.86-13.59]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Citation": "People with HIV",
+                    "Health Condition": "All",
+                    "Age": "65",
+                    "Year": "2011-2016",
+                    "Beneficiaries": "Medicare",
+                    "Unadjusted": "Yes"
+                },
+                "measures": "[Rates, -]",
+                "outcomes": "[higher overall rates]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "End-stage liver disease",
+                    "HIV Prevalence": "2.7%",
+                    "No HIV Prevalence": "0.1%",
+                    "Percent Difference": "2600.0%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[4.51, 4.08-4.98]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Caption": "Prevalence",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[Means, Odds ratios]",
+                "outcomes": "[reported]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "COPD",
+                    "HIV Prevalence": "28.3%",
+                    "No HIV Prevalence": "4.1%",
+                    "Percent Difference": "590.2%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.52, 1.47-1.57]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Caption": "Prevalence",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[Means, Odds ratios]",
+                "outcomes": "[reported]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Osteoporosis",
+                    "HIV Prevalence": "14.6%",
+                    "No HIV Prevalence": "3.4%",
+                    "Percent Difference": "329.4%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[2.17, 2.06-2.29]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Caption": "Prevalence",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[Means, Odds ratios]",
+                "outcomes": "[reported]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Colorectal cancer",
+                    "HIV Prevalence": "3.8%",
+                    "No HIV Prevalence": "1.3%",
+                    "Percent Difference": "192.3%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.85, 1.70-2.03]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Caption": "Prevalence",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[Means, Odds ratios]",
+                "outcomes": "[reported]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Lung cancer",
+                    "HIV Prevalence": "26.8%",
+                    "No HIV Prevalence": "7.7%",
+                    "Percent Difference": "248.1%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.38, 1.25-1.53]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Caption": "Prevalence",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[Means, Odds ratios]",
+                "outcomes": "[reported]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Hypertension",
+                    "HIV Prevalence": "1.4%",
+                    "No HIV Prevalence": "0.3%",
+                    "Percent Difference": "366.7%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.31, 1.28-1.33]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Caption": "Prevalence",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[Means, Odds ratios]",
+                "outcomes": "[reported]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Ischemic heart disease",
+                    "HIV Prevalence": "1.3%",
+                    "No HIV Prevalence": "0.3%",
+                    "Percent Difference": "333.3%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.31, 1.28-1.34]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Caption": "Prevalence",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[Means, Odds ratios]",
+                "outcomes": "[reported]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Diabetes",
+                    "HIV Prevalence": "29.8%",
+                    "No HIV Prevalence": "10.4%",
+                    "Percent Difference": "186.5%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.06, 1.04-1.09]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Caption": "Prevalence",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[Means, Odds ratios]",
+                "outcomes": "[reported]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Chronic hepatitis",
+                    "HIV Prevalence": "13.1%",
+                    "No HIV Prevalence": "0.2%",
+                    "Percent Difference": "6450.0%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[12.70, 11.86-13.59]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Caption": "Prevalence",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[Means, Odds ratios]",
+                "outcomes": "[reported]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "End-stage liver disease",
+                    "HIV Prevalence": "2.7%",
+                    "No HIV Prevalence": "0.1%",
+                    "Percent Difference": "2600.0%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[4.51, 4.08-4.98]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Footnote": "Significance",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[p-value, -]",
+                "outcomes": "[*** p-value<0.001, ** p-value < 0.01, * p-value < 0.05]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "COPD",
+                    "HIV Prevalence": "28.3%",
+                    "No HIV Prevalence": "4.1%",
+                    "Percent Difference": "590.2%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.52, 1.47-1.57]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Footnote": "Significance",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[p-value, -]",
+                "outcomes": "[*** p-value<0.001, ** p-value < 0.01, * p-value < 0.05]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Osteoporosis",
+                    "HIV Prevalence": "14.6%",
+                    "No HIV Prevalence": "3.4%",
+                    "Percent Difference": "329.4%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[2.17, 2.06-2.29]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Footnote": "Significance",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[p-value, -]",
+                "outcomes": "[*** p-value<0.001, ** p-value < 0.01, * p-value < 0.05]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Colorectal cancer",
+                    "HIV Prevalence": "3.8%",
+                    "No HIV Prevalence": "1.3%",
+                    "Percent Difference": "192.3%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.85, 1.70-2.03]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Footnote": "Significance",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[p-value, -]",
+                "outcomes": "[*** p-value<0.001, ** p-value < 0.01, * p-value < 0.05]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Lung cancer",
+                    "HIV Prevalence": "26.8%",
+                    "No HIV Prevalence": "7.7%",
+                    "Percent Difference": "248.1%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.38, 1.25-1.53]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Footnote": "Significance",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[p-value, -]",
+                "outcomes": "[*** p-value<0.001, ** p-value < 0.01, * p-value < 0.05]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Hypertension",
+                    "HIV Prevalence": "1.4%",
+                    "No HIV Prevalence": "0.3%",
+                    "Percent Difference": "366.7%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.31, 1.28-1.33]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Footnote": "Significance",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[p-value, -]",
+                "outcomes": "[*** p-value<0.001, ** p-value < 0.01, * p-value < 0.05]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Ischemic heart disease",
+                    "HIV Prevalence": "1.3%",
+                    "No HIV Prevalence": "0.3%",
+                    "Percent Difference": "333.3%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.31, 1.28-1.34]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Footnote": "Significance",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[p-value, -]",
+                "outcomes": "[*** p-value<0.001, ** p-value < 0.01, * p-value < 0.05]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Diabetes",
+                    "HIV Prevalence": "29.8%",
+                    "No HIV Prevalence": "10.4%",
+                    "Percent Difference": "186.5%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.06, 1.04-1.09]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Footnote": "Significance",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[p-value, -]",
+                "outcomes": "[*** p-value<0.001, ** p-value < 0.01, * p-value < 0.05]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Chronic hepatitis",
+                    "HIV Prevalence": "13.1%",
+                    "No HIV Prevalence": "0.2%",
+                    "Percent Difference": "6450.0%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[12.70, 11.86-13.59]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Footnote": "Significance",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[p-value, -]",
+                "outcomes": "[*** p-value<0.001, ** p-value < 0.01, * p-value < 0.05]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "End-stage liver disease",
+                    "HIV Prevalence": "2.7%",
+                    "No HIV Prevalence": "0.1%",
+                    "Percent Difference": "2600.0%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[4.51, 4.08-4.98]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Footnote": "Controls",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[Variables, -]",
+                "outcomes": "[age, race/ethnicity, sex, state, rural/urban residence, dual enrollment in Medicaid]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "COPD",
+                    "HIV Prevalence": "28.3%",
+                    "No HIV Prevalence": "4.1%",
+                    "Percent Difference": "590.2%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.52, 1.47-1.57]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Footnote": "Controls",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[Variables, -]",
+                "outcomes": "[age, race/ethnicity, sex, state, rural/urban residence, dual enrollment in Medicaid]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Osteoporosis",
+                    "HIV Prevalence": "14.6%",
+                    "No HIV Prevalence": "3.4%",
+                    "Percent Difference": "329.4%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[2.17, 2.06-2.29]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Footnote": "Controls",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[Variables, -]",
+                "outcomes": "[age, race/ethnicity, sex, state, rural/urban residence, dual enrollment in Medicaid]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Colorectal cancer",
+                    "HIV Prevalence": "3.8%",
+                    "No HIV Prevalence": "1.3%",
+                    "Percent Difference": "192.3%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.85, 1.70-2.03]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Footnote": "Controls",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[Variables, -]",
+                "outcomes": "[age, race/ethnicity, sex, state, rural/urban residence, dual enrollment in Medicaid]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Lung cancer",
+                    "HIV Prevalence": "26.8%",
+                    "No HIV Prevalence": "7.7%",
+                    "Percent Difference": "248.1%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.38, 1.25-1.53]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Footnote": "Controls",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[Variables, -]",
+                "outcomes": "[age, race/ethnicity, sex, state, rural/urban residence, dual enrollment in Medicaid]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Hypertension",
+                    "HIV Prevalence": "1.4%",
+                    "No HIV Prevalence": "0.3%",
+                    "Percent Difference": "366.7%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.31, 1.28-1.33]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Footnote": "Controls",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[Variables, -]",
+                "outcomes": "[age, race/ethnicity, sex, state, rural/urban residence, dual enrollment in Medicaid]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Ischemic heart disease",
+                    "HIV Prevalence": "1.3%",
+                    "No HIV Prevalence": "0.3%",
+                    "Percent Difference": "333.3%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.31, 1.28-1.34]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Footnote": "Controls",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[Variables, -]",
+                "outcomes": "[age, race/ethnicity, sex, state, rural/urban residence, dual enrollment in Medicaid]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Diabetes",
+                    "HIV Prevalence": "29.8%",
+                    "No HIV Prevalence": "10.4%",
+                    "Percent Difference": "186.5%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.06, 1.04-1.09]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Footnote": "Controls",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[Variables, -]",
+                "outcomes": "[age, race/ethnicity, sex, state, rural/urban residence, dual enrollment in Medicaid]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Chronic hepatitis",
+                    "HIV Prevalence": "13.1%",
+                    "No HIV Prevalence": "0.2%",
+                    "Percent Difference": "6450.0%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[12.70, 11.86-13.59]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Footnote": "Controls",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[Variables, -]",
+                "outcomes": "[age, race/ethnicity, sex, state, rural/urban residence, dual enrollment in Medicaid]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "End-stage liver disease",
+                    "HIV Prevalence": "2.7%",
+                    "No HIV Prevalence": "0.1%",
+                    "Percent Difference": "2600.0%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[4.51, 4.08-4.98]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Footnote": "Weighting",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[Method, -]",
+                "outcomes": "[probability weights]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "COPD",
+                    "HIV Prevalence": "28.3%",
+                    "No HIV Prevalence": "4.1%",
+                    "Percent Difference": "590.2%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.52, 1.47-1.57]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Footnote": "Weighting",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[Method, -]",
+                "outcomes": "[probability weights]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Osteoporosis",
+                    "HIV Prevalence": "14.6%",
+                    "No HIV Prevalence": "3.4%",
+                    "Percent Difference": "329.4%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[2.17, 2.06-2.29]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Footnote": "Weighting",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[Method, -]",
+                "outcomes": "[probability weights]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Colorectal cancer",
+                    "HIV Prevalence": "3.8%",
+                    "No HIV Prevalence": "1.3%",
+                    "Percent Difference": "192.3%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.85, 1.70-2.03]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Footnote": "Weighting",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[Method, -]",
+                "outcomes": "[probability weights]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Lung cancer",
+                    "HIV Prevalence": "26.8%",
+                    "No HIV Prevalence": "7.7%",
+                    "Percent Difference": "248.1%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.38, 1.25-1.53]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Footnote": "Weighting",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[Method, -]",
+                "outcomes": "[probability weights]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Hypertension",
+                    "HIV Prevalence": "1.4%",
+                    "No HIV Prevalence": "0.3%",
+                    "Percent Difference": "366.7%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.31, 1.28-1.33]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Footnote": "Weighting",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[Method, -]",
+                "outcomes": "[probability weights]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Ischemic heart disease",
+                    "HIV Prevalence": "1.3%",
+                    "No HIV Prevalence": "0.3%",
+                    "Percent Difference": "333.3%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.31, 1.28-1.34]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Footnote": "Weighting",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[Method, -]",
+                "outcomes": "[probability weights]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Diabetes",
+                    "HIV Prevalence": "29.8%",
+                    "No HIV Prevalence": "10.4%",
+                    "Percent Difference": "186.5%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.06, 1.04-1.09]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Footnote": "Weighting",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[Method, -]",
+                "outcomes": "[probability weights]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Chronic hepatitis",
+                    "HIV Prevalence": "13.1%",
+                    "No HIV Prevalence": "0.2%",
+                    "Percent Difference": "6450.0%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[12.70, 11.86-13.59]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Footnote": "Weighting",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[Method, -]",
+                "outcomes": "[probability weights]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "End-stage liver disease",
+                    "HIV Prevalence": "2.7%",
+                    "No HIV Prevalence": "0.1%",
+                    "Percent Difference": "2600.0%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[4.51, 4.08-4.98]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Footnote": "Confidence intervals",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[95%, -]",
+                "outcomes": "[reported in parentheses]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "COPD",
+                    "HIV Prevalence": "28.3%",
+                    "No HIV Prevalence": "4.1%",
+                    "Percent Difference": "590.2%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.52, 1.47-1.57]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Footnote": "Confidence intervals",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[95%, -]",
+                "outcomes": "[reported in parentheses]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Osteoporosis",
+                    "HIV Prevalence": "14.6%",
+                    "No HIV Prevalence": "3.4%",
+                    "Percent Difference": "329.4%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[2.17, 2.06-2.29]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Footnote": "Confidence intervals",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[95%, -]",
+                "outcomes": "[reported in parentheses]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Colorectal cancer",
+                    "HIV Prevalence": "3.8%",
+                    "No HIV Prevalence": "1.3%",
+                    "Percent Difference": "192.3%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.85, 1.70-2.03]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Footnote": "Confidence intervals",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[95%, -]",
+                "outcomes": "[reported in parentheses]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Lung cancer",
+                    "HIV Prevalence": "26.8%",
+                    "No HIV Prevalence": "7.7%",
+                    "Percent Difference": "248.1%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.38, 1.25-1.53]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Footnote": "Confidence intervals",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[95%, -]",
+                "outcomes": "[reported in parentheses]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Hypertension",
+                    "HIV Prevalence": "1.4%",
+                    "No HIV Prevalence": "0.3%",
+                    "Percent Difference": "366.7%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.31, 1.28-1.33]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Footnote": "Confidence intervals",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[95%, -]",
+                "outcomes": "[reported in parentheses]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Ischemic heart disease",
+                    "HIV Prevalence": "1.3%",
+                    "No HIV Prevalence": "0.3%",
+                    "Percent Difference": "333.3%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.31, 1.28-1.34]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Footnote": "Confidence intervals",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[95%, -]",
+                "outcomes": "[reported in parentheses]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Diabetes",
+                    "HIV Prevalence": "29.8%",
+                    "No HIV Prevalence": "10.4%",
+                    "Percent Difference": "186.5%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.06, 1.04-1.09]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Footnote": "Confidence intervals",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[95%, -]",
+                "outcomes": "[reported in parentheses]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Chronic hepatitis",
+                    "HIV Prevalence": "13.1%",
+                    "No HIV Prevalence": "0.2%",
+                    "Percent Difference": "6450.0%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[12.70, 11.86-13.59]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Footnote": "Confidence intervals",
+                    "Health Condition": "-",
+                    "Age": "-",
+                    "Year": "-",
+                    "Beneficiaries": "-",
+                    "Unadjusted": "-"
+                },
+                "measures": "[95%, -]",
+                "outcomes": "[reported in parentheses]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "End-stage liver disease",
+                    "HIV Prevalence": "2.7%",
+                    "No HIV Prevalence": "0.1%",
+                    "Percent Difference": "2600.0%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[4.51, 4.08-4.98]"
+            },
+            "match": "no"
+        }
+    ],
+    "total_extracted_claims": 10,
+    "total_ground_truth_claims": 11,
+    "number_of_matches": 2
+}

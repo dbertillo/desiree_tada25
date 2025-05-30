@@ -1,0 +1,332 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "Original WLD",
+                    "Database": "IIIT-D Sketch Database",
+                    "Task": "viewed sketch-photo face recognition"
+                },
+                "measures": "[Rank-1]",
+                "outcomes": "[74.34]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Original WLD",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[Rank-1 Accuracy]",
+                "outcomes": "[74.34]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "SIFT",
+                    "Database": "IIIT-D Sketch Database",
+                    "Task": "viewed sketch-photo face recognition"
+                },
+                "measures": "[Rank-1]",
+                "outcomes": "[76.28]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "SIFT",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[Rank-1 Accuracy]",
+                "outcomes": "[76.28]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "EUCLBP",
+                    "Database": "IIIT-D Sketch Database",
+                    "Task": "viewed sketch-photo face recognition"
+                },
+                "measures": "[Rank-1]",
+                "outcomes": "[79.36]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "EUCLBP",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[Rank-1 Accuracy]",
+                "outcomes": "[79.36]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "LFDA",
+                    "Database": "IIIT-D Sketch Database",
+                    "Task": "viewed sketch-photo face recognition"
+                },
+                "measures": "[Rank-1]",
+                "outcomes": "[81.43]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "LFDA",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[Rank-1 Accuracy]",
+                "outcomes": "[81.43]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "MCWLD",
+                    "Database": "IIIT-D Sketch Database",
+                    "Task": "viewed sketch-photo face recognition"
+                },
+                "measures": "[Rank-1]",
+                "outcomes": "[84.24]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "MCWLD",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[Rank-1 Accuracy]",
+                "outcomes": "[84.24]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "VGG",
+                    "Database": "IIIT-D Sketch Database",
+                    "Task": "viewed sketch-photo face recognition",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[Rank-1, FAR=1%]",
+                "outcomes": "[80.89, 72.08]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "VGG",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[Rank-1 Accuracy]",
+                "outcomes": "[80.89]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "CenterLoss",
+                    "Database": "IIIT-D Sketch Database",
+                    "Task": "viewed sketch-photo face recognition",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[Rank-1, FAR=1%]",
+                "outcomes": "[84.07, 76.20]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "VGG",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[72.08]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "CenterLoss",
+                    "Database": "IIIT-D Sketch Database",
+                    "Task": "viewed sketch-photo face recognition",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[Rank-1, FAR=1%]",
+                "outcomes": "[84.07, 76.20]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CenterLoss",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[Rank-1 Accuracy]",
+                "outcomes": "[84.07]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "Light CNN",
+                    "Database": "IIIT-D Sketch Database",
+                    "Task": "viewed sketch-photo face recognition",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[Rank-1, FAR=1%]",
+                "outcomes": "[84.07, 75.30]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "VGG",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[72.08]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "Light CNN",
+                    "Database": "IIIT-D Sketch Database",
+                    "Task": "viewed sketch-photo face recognition",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[Rank-1, FAR=1%]",
+                "outcomes": "[84.07, 75.30]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CenterLoss",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[76.20]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "Light CNN",
+                    "Database": "IIIT-D Sketch Database",
+                    "Task": "viewed sketch-photo face recognition",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[Rank-1, FAR=1%]",
+                "outcomes": "[84.07, 75.30]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Light CNN",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[Rank-1 Accuracy]",
+                "outcomes": "[84.07]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "CDL",
+                    "Database": "IIIT-D Sketch Database",
+                    "Task": "viewed sketch-photo face recognition",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[Rank-1, FAR=1%]",
+                "outcomes": "[85.35, 82.52]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "VGG",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[72.08]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "CDL",
+                    "Database": "IIIT-D Sketch Database",
+                    "Task": "viewed sketch-photo face recognition",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[Rank-1, FAR=1%]",
+                "outcomes": "[85.35, 82.52]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CenterLoss",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[76.20]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "CDL",
+                    "Database": "IIIT-D Sketch Database",
+                    "Task": "viewed sketch-photo face recognition",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[Rank-1, FAR=1%]",
+                "outcomes": "[85.35, 82.52]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Light CNN",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[75.30]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "CDL",
+                    "Database": "IIIT-D Sketch Database",
+                    "Task": "viewed sketch-photo face recognition",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[Rank-1, FAR=1%]",
+                "outcomes": "[85.35, 82.52]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CDL",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[Rank-1 Accuracy]",
+                "outcomes": "[85.35]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 9,
+    "total_ground_truth_claims": 13,
+    "number_of_matches": 9
+}

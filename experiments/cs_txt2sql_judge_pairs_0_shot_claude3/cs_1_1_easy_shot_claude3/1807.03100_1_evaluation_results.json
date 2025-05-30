@@ -1,0 +1,679 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "Pointer-SQL",
+                    "Dataset": "WikiSQL",
+                    "Split": "Dev"
+                },
+                "measures": "[Acc_syn]",
+                "outcomes": "[61.8]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Pointer-SQL",
+                    "Dataset": "WikiSQL",
+                    "Split": "Dev",
+                    "Unit": "%"
+                },
+                "measures": [
+                    "Syntactical Accuracy"
+                ],
+                "outcomes": [
+                    "61.8"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "Pointer-SQL",
+                    "Dataset": "WikiSQL",
+                    "Split": "Dev"
+                },
+                "measures": "[Acc_ex]",
+                "outcomes": "[72.5]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Pointer-SQL",
+                    "Dataset": "WikiSQL",
+                    "Split": "Dev",
+                    "Unit": "%"
+                },
+                "measures": [
+                    "Execution Accuracy"
+                ],
+                "outcomes": [
+                    "72.5"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "Pointer-SQL",
+                    "Dataset": "WikiSQL",
+                    "Split": "Test"
+                },
+                "measures": "[Acc_syn]",
+                "outcomes": "[62.3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Pointer-SQL",
+                    "Dataset": "WikiSQL",
+                    "Split": "Test",
+                    "Unit": "%"
+                },
+                "measures": [
+                    "Syntactical Accuracy"
+                ],
+                "outcomes": [
+                    "62.3"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "Pointer-SQL",
+                    "Dataset": "WikiSQL",
+                    "Split": "Test"
+                },
+                "measures": "[Acc_ex]",
+                "outcomes": "[71.9]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Pointer-SQL",
+                    "Dataset": "WikiSQL",
+                    "Split": "Test",
+                    "Unit": "%"
+                },
+                "measures": [
+                    "Execution Accuracy"
+                ],
+                "outcomes": [
+                    "71.9"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "Pointer-SQL + EG",
+                    "Dataset": "WikiSQL",
+                    "Split": "Dev",
+                    "Beam size": "3"
+                },
+                "measures": "[Acc_syn]",
+                "outcomes": "[66.6]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Pointer-SQL + EG (3)",
+                    "Strategy": "Execution-guided",
+                    "Beam size": "3",
+                    "Dataset": "WikiSQL",
+                    "Split": "Dev",
+                    "Unit": "%"
+                },
+                "measures": [
+                    "Syntactical Accuracy"
+                ],
+                "outcomes": [
+                    "66.6"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "Pointer-SQL + EG",
+                    "Dataset": "WikiSQL",
+                    "Split": "Dev",
+                    "Beam size": "3"
+                },
+                "measures": "[Acc_ex]",
+                "outcomes": "[77.3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Pointer-SQL + EG (3)",
+                    "Strategy": "Execution-guided",
+                    "Beam size": "3",
+                    "Dataset": "WikiSQL",
+                    "Split": "Dev",
+                    "Unit": "%"
+                },
+                "measures": [
+                    "Execution Accuracy"
+                ],
+                "outcomes": [
+                    "77.3"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "Pointer-SQL + EG",
+                    "Dataset": "WikiSQL",
+                    "Split": "Test",
+                    "Beam size": "3"
+                },
+                "measures": "[Acc_syn]",
+                "outcomes": "[66.7]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Pointer-SQL + EG (3)",
+                    "Strategy": "Execution-guided",
+                    "Beam size": "3",
+                    "Dataset": "WikiSQL",
+                    "Split": "Test",
+                    "Unit": "%"
+                },
+                "measures": [
+                    "Syntactical Accuracy"
+                ],
+                "outcomes": [
+                    "66.7"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "Pointer-SQL + EG",
+                    "Dataset": "WikiSQL",
+                    "Split": "Test",
+                    "Beam size": "3"
+                },
+                "measures": "[Acc_ex]",
+                "outcomes": "[76.9]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Pointer-SQL + EG (3)",
+                    "Strategy": "Execution-guided",
+                    "Beam size": "3",
+                    "Dataset": "WikiSQL",
+                    "Split": "Test",
+                    "Unit": "%"
+                },
+                "measures": [
+                    "Execution Accuracy"
+                ],
+                "outcomes": [
+                    "76.9"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "Pointer-SQL + EG",
+                    "Dataset": "WikiSQL",
+                    "Split": "Dev",
+                    "Beam size": "5"
+                },
+                "measures": "[Acc_syn]",
+                "outcomes": "[67.5]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Pointer-SQL + EG (5)",
+                    "Strategy": "Execution-guided",
+                    "Beam size": "5",
+                    "Dataset": "WikiSQL",
+                    "Split": "Dev",
+                    "Unit": "%"
+                },
+                "measures": [
+                    "Syntactical Accuracy"
+                ],
+                "outcomes": [
+                    "67.5"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "Pointer-SQL + EG",
+                    "Dataset": "WikiSQL",
+                    "Split": "Dev",
+                    "Beam size": "5"
+                },
+                "measures": "[Acc_ex]",
+                "outcomes": "[78.4]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Pointer-SQL + EG (5)",
+                    "Strategy": "Execution-guided",
+                    "Beam size": "5",
+                    "Dataset": "WikiSQL",
+                    "Split": "Dev",
+                    "Unit": "%"
+                },
+                "measures": [
+                    "Execution Accuracy"
+                ],
+                "outcomes": [
+                    "78.4"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "Pointer-SQL + EG",
+                    "Dataset": "WikiSQL",
+                    "Split": "Test",
+                    "Beam size": "5"
+                },
+                "measures": "[Acc_syn]",
+                "outcomes": "[67.9]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Pointer-SQL + EG (5)",
+                    "Strategy": "Execution-guided",
+                    "Beam size": "5",
+                    "Dataset": "WikiSQL",
+                    "Split": "Test",
+                    "Unit": "%"
+                },
+                "measures": [
+                    "Syntactical Accuracy"
+                ],
+                "outcomes": [
+                    "67.9"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "Pointer-SQL + EG",
+                    "Dataset": "WikiSQL",
+                    "Split": "Test",
+                    "Beam size": "5"
+                },
+                "measures": "[Acc_ex]",
+                "outcomes": "[78.3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Pointer-SQL + EG (5)",
+                    "Strategy": "Execution-guided",
+                    "Beam size": "5",
+                    "Dataset": "WikiSQL",
+                    "Split": "Test",
+                    "Unit": "%"
+                },
+                "measures": [
+                    "Execution Accuracy"
+                ],
+                "outcomes": [
+                    "78.3"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "Coarse2Fine",
+                    "Dataset": "WikiSQL",
+                    "Split": "Dev"
+                },
+                "measures": "[Acc_syn]",
+                "outcomes": "[72.9]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Coarse2Fine",
+                    "Dataset": "WikiSQL",
+                    "Split": "Dev",
+                    "Unit": "%"
+                },
+                "measures": [
+                    "Syntactical Accuracy"
+                ],
+                "outcomes": [
+                    "72.9"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "Coarse2Fine",
+                    "Dataset": "WikiSQL",
+                    "Split": "Dev"
+                },
+                "measures": "[Acc_ex]",
+                "outcomes": "[79.2]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Coarse2Fine",
+                    "Dataset": "WikiSQL",
+                    "Split": "Dev",
+                    "Unit": "%"
+                },
+                "measures": [
+                    "Execution Accuracy"
+                ],
+                "outcomes": [
+                    "79.2"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "Coarse2Fine",
+                    "Dataset": "WikiSQL",
+                    "Split": "Test"
+                },
+                "measures": "[Acc_syn]",
+                "outcomes": "[71.7]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Coarse2Fine",
+                    "Dataset": "WikiSQL",
+                    "Split": "Test",
+                    "Unit": "%"
+                },
+                "measures": [
+                    "Syntactical Accuracy"
+                ],
+                "outcomes": [
+                    "71.7"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "Coarse2Fine",
+                    "Dataset": "WikiSQL",
+                    "Split": "Test"
+                },
+                "measures": "[Acc_ex]",
+                "outcomes": "[78.4]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Coarse2Fine",
+                    "Dataset": "WikiSQL",
+                    "Split": "Test",
+                    "Unit": "%"
+                },
+                "measures": [
+                    "Execution Accuracy"
+                ],
+                "outcomes": [
+                    "78.4"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "Coarse2Fine + EG",
+                    "Dataset": "WikiSQL",
+                    "Split": "Dev",
+                    "Beam size": "3"
+                },
+                "measures": "[Acc_syn]",
+                "outcomes": "[75.6]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Coarse2Fine + EG (3)",
+                    "Strategy": "Execution-guided",
+                    "Beam size": "3",
+                    "Dataset": "WikiSQL",
+                    "Split": "Dev",
+                    "Unit": "%"
+                },
+                "measures": [
+                    "Syntactical Accuracy"
+                ],
+                "outcomes": [
+                    "75.6"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "Coarse2Fine + EG",
+                    "Dataset": "WikiSQL",
+                    "Split": "Dev",
+                    "Beam size": "3"
+                },
+                "measures": "[Acc_ex]",
+                "outcomes": "[83.4]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Coarse2Fine + EG (3)",
+                    "Strategy": "Execution-guided",
+                    "Beam size": "3",
+                    "Dataset": "WikiSQL",
+                    "Split": "Dev",
+                    "Unit": "%"
+                },
+                "measures": [
+                    "Execution Accuracy"
+                ],
+                "outcomes": [
+                    "83.4"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "Coarse2Fine + EG",
+                    "Dataset": "WikiSQL",
+                    "Split": "Test",
+                    "Beam size": "3"
+                },
+                "measures": "[Acc_syn]",
+                "outcomes": "[74.8]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Coarse2Fine + EG (3)",
+                    "Strategy": "Execution-guided",
+                    "Beam size": "3",
+                    "Dataset": "WikiSQL",
+                    "Split": "Test",
+                    "Unit": "%"
+                },
+                "measures": [
+                    "Syntactical Accuracy"
+                ],
+                "outcomes": [
+                    "74.8"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "Coarse2Fine + EG",
+                    "Dataset": "WikiSQL",
+                    "Split": "Test",
+                    "Beam size": "3"
+                },
+                "measures": "[Acc_ex]",
+                "outcomes": "[83.0]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Coarse2Fine + EG (3)",
+                    "Strategy": "Execution-guided",
+                    "Beam size": "3",
+                    "Dataset": "WikiSQL",
+                    "Split": "Test",
+                    "Unit": "%"
+                },
+                "measures": [
+                    "Execution Accuracy"
+                ],
+                "outcomes": [
+                    "83.0"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "Coarse2Fine + EG",
+                    "Dataset": "WikiSQL",
+                    "Split": "Dev",
+                    "Beam size": "5"
+                },
+                "measures": "[Acc_syn]",
+                "outcomes": "[76.0]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Coarse2Fine + EG (5)",
+                    "Strategy": "Execution-guided",
+                    "Beam size": "5",
+                    "Dataset": "WikiSQL",
+                    "Split": "Dev",
+                    "Unit": "%"
+                },
+                "measures": [
+                    "Syntactical Accuracy"
+                ],
+                "outcomes": [
+                    "76.0"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "Coarse2Fine + EG",
+                    "Dataset": "WikiSQL",
+                    "Split": "Dev",
+                    "Beam size": "5"
+                },
+                "measures": "[Acc_ex]",
+                "outcomes": "[84.0]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Coarse2Fine + EG (5)",
+                    "Strategy": "Execution-guided",
+                    "Beam size": "5",
+                    "Dataset": "WikiSQL",
+                    "Split": "Dev",
+                    "Unit": "%"
+                },
+                "measures": [
+                    "Execution Accuracy"
+                ],
+                "outcomes": [
+                    "84.0"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "Coarse2Fine + EG",
+                    "Dataset": "WikiSQL",
+                    "Split": "Test",
+                    "Beam size": "5"
+                },
+                "measures": "[Acc_syn]",
+                "outcomes": "[75.4]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Coarse2Fine + EG (5)",
+                    "Strategy": "Execution-guided",
+                    "Beam size": "5",
+                    "Dataset": "WikiSQL",
+                    "Split": "Test",
+                    "Unit": "%"
+                },
+                "measures": [
+                    "Syntactical Accuracy"
+                ],
+                "outcomes": [
+                    "75.4"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "Coarse2Fine + EG",
+                    "Dataset": "WikiSQL",
+                    "Split": "Test",
+                    "Beam size": "5"
+                },
+                "measures": "[Acc_ex]",
+                "outcomes": "[83.8]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "Coarse2Fine + EG (5)",
+                    "Strategy": "Execution-guided",
+                    "Beam size": "5",
+                    "Dataset": "WikiSQL",
+                    "Split": "Test",
+                    "Unit": "%"
+                },
+                "measures": [
+                    "Execution Accuracy"
+                ],
+                "outcomes": [
+                    "83.8"
+                ]
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 24,
+    "total_ground_truth_claims": 24,
+    "number_of_matches": 24
+}

@@ -1,0 +1,239 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "citation": "Analysis on SQL patterns",
+                    "advantage": "ability to generate new SQL patterns that do not appear in the training data",
+                    "dataset": "Spider",
+                    "evaluation data": "contains 20% low-frequency SQL patterns unseen in the training data",
+                    "category": "seen patterns",
+                    "model": "IRNet"
+                },
+                "measures": "[EM accuracy]",
+                "outcomes": "[63.5]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "IRNet",
+                    "Dataset": "Spider",
+                    "Pattern type": "Seen patterns"
+                },
+                "measures": [
+                    "EM accuracy"
+                ],
+                "outcomes": [
+                    "63.5"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "citation": "Analysis on SQL patterns",
+                    "advantage": "ability to generate new SQL patterns that do not appear in the training data",
+                    "dataset": "Spider",
+                    "evaluation data": "contains 20% low-frequency SQL patterns unseen in the training data",
+                    "category": "unseen patterns",
+                    "model": "IRNet"
+                },
+                "measures": "[EM accuracy]",
+                "outcomes": "[48.8]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "IRNet",
+                    "Dataset": "Spider",
+                    "Pattern type": "Unseen patterns"
+                },
+                "measures": [
+                    "EM accuracy"
+                ],
+                "outcomes": [
+                    "48.8"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "citation": "Analysis on SQL patterns",
+                    "advantage": "ability to generate new SQL patterns that do not appear in the training data",
+                    "dataset": "Spider",
+                    "evaluation data": "contains 20% low-frequency SQL patterns unseen in the training data",
+                    "category": "seen patterns",
+                    "model": "IRNet + Aug",
+                    "improvement": "+1.2"
+                },
+                "measures": "[EM accuracy]",
+                "outcomes": "[64.7]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "IRNet + Aug",
+                    "Dataset": "Spider",
+                    "Pattern type": "Seen patterns",
+                    "Improvement": "1.2"
+                },
+                "measures": [
+                    "EM accuracy"
+                ],
+                "outcomes": [
+                    "64.7"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "citation": "Analysis on SQL patterns",
+                    "advantage": "ability to generate new SQL patterns that do not appear in the training data",
+                    "dataset": "Spider",
+                    "evaluation data": "contains 20% low-frequency SQL patterns unseen in the training data",
+                    "category": "unseen patterns",
+                    "model": "IRNet + Aug",
+                    "improvement": "+4.9"
+                },
+                "measures": "[EM accuracy]",
+                "outcomes": "[53.7]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "IRNet + Aug",
+                    "Dataset": "Spider",
+                    "Pattern type": "Unseen patterns",
+                    "Improvement": "4.9"
+                },
+                "measures": [
+                    "EM accuracy"
+                ],
+                "outcomes": [
+                    "53.7"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "citation": "Analysis on SQL patterns",
+                    "advantage": "ability to generate new SQL patterns that do not appear in the training data",
+                    "dataset": "Spider",
+                    "evaluation data": "contains 20% low-frequency SQL patterns unseen in the training data",
+                    "category": "seen patterns",
+                    "model": "RATSQL"
+                },
+                "measures": "[EM accuracy]",
+                "outcomes": "[66.6]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "RATSQL",
+                    "Dataset": "Spider",
+                    "Pattern type": "Seen patterns"
+                },
+                "measures": [
+                    "EM accuracy"
+                ],
+                "outcomes": [
+                    "66.6"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "citation": "Analysis on SQL patterns",
+                    "advantage": "ability to generate new SQL patterns that do not appear in the training data",
+                    "dataset": "Spider",
+                    "evaluation data": "contains 20% low-frequency SQL patterns unseen in the training data",
+                    "category": "unseen patterns",
+                    "model": "RATSQL"
+                },
+                "measures": "[EM accuracy]",
+                "outcomes": "[52.3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "RATSQL",
+                    "Dataset": "Spider",
+                    "Pattern type": "Unseen patterns"
+                },
+                "measures": [
+                    "EM accuracy"
+                ],
+                "outcomes": [
+                    "52.3"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "citation": "Analysis on SQL patterns",
+                    "advantage": "ability to generate new SQL patterns that do not appear in the training data",
+                    "dataset": "Spider",
+                    "evaluation data": "contains 20% low-frequency SQL patterns unseen in the training data",
+                    "category": "seen patterns",
+                    "model": "RATSQL + Aug",
+                    "improvement": "+6.4"
+                },
+                "measures": "[EM accuracy]",
+                "outcomes": "[73.0]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "RATSQL + Aug",
+                    "Dataset": "Spider",
+                    "Pattern type": "Seen patterns",
+                    "Improvement": "6.4"
+                },
+                "measures": [
+                    "EM accuracy"
+                ],
+                "outcomes": [
+                    "73.0"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "citation": "Analysis on SQL patterns",
+                    "advantage": "ability to generate new SQL patterns that do not appear in the training data",
+                    "dataset": "Spider",
+                    "evaluation data": "contains 20% low-frequency SQL patterns unseen in the training data",
+                    "category": "unseen patterns",
+                    "model": "RATSQL + Aug",
+                    "improvement": "+3.1"
+                },
+                "measures": "[EM accuracy]",
+                "outcomes": "[55.4]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "RATSQL + Aug",
+                    "Dataset": "Spider",
+                    "Pattern type": "Unseen patterns",
+                    "Improvement": "3.1"
+                },
+                "measures": [
+                    "EM accuracy"
+                ],
+                "outcomes": [
+                    "55.4"
+                ]
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 8,
+    "total_ground_truth_claims": 8,
+    "number_of_matches": 8
+}

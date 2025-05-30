@@ -1,0 +1,93 @@
+{
+    "matched_specifications": [
+        [
+            "study",
+            "remoxtb trial"
+        ],
+        [
+            "adverse event type",
+            "hepatobiliary disorders"
+        ],
+        [
+            "hiv status",
+            "hiv-positive"
+        ],
+        [
+            "grade",
+            "3 or 4"
+        ],
+        [
+            "study",
+            "remoxtb trial"
+        ],
+        [
+            "adverse event type",
+            "hepatobiliary disorders"
+        ],
+        [
+            "hiv status",
+            "hiv-negative"
+        ],
+        [
+            "grade",
+            "3 or 4"
+        ]
+    ],
+    "unmatched_specifications": [
+        [
+            "event frequency",
+            "12"
+        ],
+        [
+            "percentage of total g3+ events",
+            "30.0%"
+        ],
+        [
+            "event frequency",
+            "15"
+        ],
+        [
+            "percentage of total g3+ events",
+            "25.0%"
+        ]
+    ],
+    "unmatched_extracted_keys": [
+        "percentage of total g3+ events",
+        "event frequency"
+    ],
+    "unmatched_extracted_values": [
+        "25.0%",
+        "12",
+        "30.0%",
+        "15"
+    ],
+    "unmatched_ground_truth_keys": [
+        "phase",
+        "population",
+        "comparison",
+        "filter",
+        "system organ class (soc)"
+    ],
+    "unmatched_ground_truth_values": [
+        "adverse events (aes)",
+        "matched population",
+        "hiv-positive vs hiv-negative patients",
+        "enrolment",
+        "five most frequently reported socs"
+    ],
+    "mapped_keys": {
+        "hiv status": "hiv status",
+        "study": "trial",
+        "adverse event type": "event type",
+        "grade": "event severity"
+    },
+    "mapped_values": {
+        "hepatobiliary disorders": "hepatobiliary disorders",
+        "hiv-negative": "hiv-negative",
+        "hiv-positive": "hiv-positive",
+        "remoxtb trial": "remoxtb",
+        "3 or 4": "grade 3 or 4"
+    },
+    "precision": 0.6666666666666666,
+    "recall": 0.4444444444444444
+}

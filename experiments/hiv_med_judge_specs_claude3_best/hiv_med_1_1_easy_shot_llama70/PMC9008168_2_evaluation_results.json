@@ -1,0 +1,142 @@
+{
+    "matched_specifications": [
+        [
+            "hiv status",
+            "without hiv"
+        ]
+    ],
+    "unmatched_specifications": [
+        [
+            "analysis",
+            "incidence rates and hazard ratios of bmi \u226525 kg/m\u00b2"
+        ],
+        [
+            "art status",
+            "none"
+        ],
+        [
+            "incidence rate type",
+            "unadjusted"
+        ],
+        [
+            "unit",
+            "cases/1000 py"
+        ],
+        [
+            "statistical representation",
+            "95% ci"
+        ],
+        [
+            "analysis",
+            "incidence rates and hazard ratios of bmi \u226525 kg/m\u00b2"
+        ],
+        [
+            "hiv status",
+            "with hiv"
+        ],
+        [
+            "art status",
+            "non-tld art"
+        ],
+        [
+            "incidence rate type",
+            "unadjusted"
+        ],
+        [
+            "unit",
+            "cases/1000 py"
+        ],
+        [
+            "statistical representation",
+            "95% ci"
+        ],
+        [
+            "analysis",
+            "incidence rates and hazard ratios of bmi \u226525 kg/m\u00b2"
+        ],
+        [
+            "hiv status",
+            "with hiv"
+        ],
+        [
+            "art status",
+            "tld"
+        ],
+        [
+            "incidence rate type",
+            "unadjusted"
+        ],
+        [
+            "unit",
+            "cases/1000 py"
+        ],
+        [
+            "statistical representation",
+            "95% ci"
+        ],
+        [
+            "analysis",
+            "incidence rates and hazard ratios of bmi \u226525 kg/m\u00b2"
+        ],
+        [
+            "hiv status",
+            "with hiv"
+        ],
+        [
+            "art status",
+            "art na\u00efve"
+        ],
+        [
+            "incidence rate type",
+            "unadjusted"
+        ],
+        [
+            "unit",
+            "cases/1000 py"
+        ],
+        [
+            "statistical representation",
+            "95% ci"
+        ]
+    ],
+    "unmatched_extracted_keys": [
+        "art status",
+        "analysis",
+        "unit"
+    ],
+    "unmatched_extracted_values": [
+        "unadjusted",
+        "with hiv",
+        "none",
+        "95% ci",
+        "tld",
+        "cases/1000 py"
+    ],
+    "unmatched_ground_truth_keys": [
+        "failures"
+    ],
+    "unmatched_ground_truth_values": [
+        "5069.11",
+        "19",
+        "391",
+        "559.35",
+        "65",
+        "plwh on tld",
+        "503.77",
+        "41",
+        "937.23"
+    ],
+    "mapped_keys": {
+        "hiv status": "group",
+        "incidence rate type": "person-time",
+        "statistical representation": "unadjusted incidence rate"
+    },
+    "mapped_values": {
+        "incidence rates and hazard ratios of bmi \u226525 kg/m\u00b2": "bmi \u226525 kg/m2",
+        "without hiv": "people without hiv",
+        "non-tld art": "plwh on non-tld art",
+        "art na\u00efve": "plwh, art na\u00efve"
+    },
+    "precision": 0.041666666666666664,
+    "recall": 0.0625
+}

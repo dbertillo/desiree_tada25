@@ -1,0 +1,83 @@
+{
+    "matched_specifications": [
+        [
+            "hiv-1 genotype",
+            "crf01_ae"
+        ],
+        [
+            "patients",
+            "1687 (59.3)"
+        ],
+        [
+            "cd4+ median (iqr)",
+            "111 (31\u2013279)"
+        ],
+        [
+            "hiv-1 genotype",
+            "others"
+        ],
+        [
+            "patients",
+            "176 (6.2)"
+        ],
+        [
+            "cd4+ median (iqr)",
+            "198 (89\u2013355)"
+        ]
+    ],
+    "unmatched_specifications": [
+        [
+            "study type",
+            "observational"
+        ],
+        [
+            "patient population",
+            "newly diagnosed hiv patients"
+        ],
+        [
+            "analysis",
+            "effects of hiv-1 genotype on baseline cd4+ cell counts"
+        ],
+        [
+            "study type",
+            "observational"
+        ],
+        [
+            "patient population",
+            "newly diagnosed hiv patients"
+        ],
+        [
+            "analysis",
+            "effects of hiv-1 genotype on baseline cd4+ cell counts"
+        ]
+    ],
+    "unmatched_extracted_keys": [
+        "study type",
+        "patient population",
+        "analysis"
+    ],
+    "unmatched_extracted_values": [
+        "observational",
+        "effects of hiv-1 genotype on baseline cd4+ cell counts"
+    ],
+    "unmatched_ground_truth_keys": [
+        "reference group"
+    ],
+    "unmatched_ground_truth_values": [],
+    "mapped_keys": {
+        "patients": "patients",
+        "cd4+ median (iqr)": "cd4+ median (iqr)",
+        "hiv-1 genotype": "hiv-1 genotype"
+    },
+    "mapped_values": {
+        "198 (89\u2013355)": "198 (89\u2013355)",
+        "111 (31\u2013279)": "111 (31\u2013279)",
+        "others": "others",
+        "crf01_ae": "crf01_ae",
+        "newly diagnosed hiv patients": "yes",
+        "1687 (59.3)": "1687 (59.3%)",
+        "176 (6.2)": "176 (6.2%)"
+    },
+    "precision": 0.5,
+    "recall": 0.8571428571428571
+}

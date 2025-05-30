@@ -1,0 +1,89 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "condition": "Depression",
+                    "population": "Medicare beneficiaries at age 65 between 2011\u20132016",
+                    "comparison group": "No HIV",
+                    "comparison group prevalence": "6.2%",
+                    "HIV group prevalence": "24.3%",
+                    "percent difference": "291.9%",
+                    "significance level": "***",
+                    "logistic regression model": "Coefficients from logistic regression model",
+                    "odds ratio": "2.29",
+                    "confidence interval": "[2.22, 2.35]",
+                    "year": "2016",
+                    "upper age limit": "98 years",
+                    "statistical test": "chi-squared test",
+                    "controls": "age, race/ethnicity, sex, state, rural/urban residence, dual enrollment in Medicaid",
+                    "omitted group": "White, urban, non-Medicaid enrolled males between the age of 65 and 74",
+                    "weighting": "probability weights to reflect differential selection probabilities based on HIV diagnosis",
+                    "Bonferroni correction": "applied",
+                    "number of tests": "11"
+                },
+                "measures": "[2.22, 2.35]",
+                "outcomes": [
+                    "[24.3%, 6.2%, 291.9%, 2.29]",
+                    "[HIV group prevalence, comparison group prevalence, percent difference, odds ratio]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Depression",
+                    "HIV Prevalence": "24.3%",
+                    "No HIV Prevalence": "6.2%",
+                    "Percent Difference": "291.9%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[2.29, 2.22-2.35]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "condition": "Chronic kidney disease",
+                    "population": "Medicare beneficiaries at age 65 between 2011\u20132016",
+                    "comparison group": "No HIV",
+                    "comparison group prevalence": "18.9%",
+                    "HIV group prevalence": "46.2%",
+                    "percent difference": "144.4%",
+                    "significance level": "***",
+                    "logistic regression model": "Coefficients from logistic regression model",
+                    "odds ratio": "1.92",
+                    "confidence interval": "[1.88, 1.97]",
+                    "year": "2016",
+                    "upper age limit": "98 years",
+                    "statistical test": "chi-squared test",
+                    "controls": "age, race/ethnicity, sex, state, rural/urban residence, dual enrollment in Medicaid",
+                    "omitted group": "White, urban, non-Medicaid enrolled males between the age of 65 and 74",
+                    "weighting": "probability weights to reflect differential selection probabilities based on HIV diagnosis",
+                    "Bonferroni correction": "applied",
+                    "number of tests": "11"
+                },
+                "measures": "[1.88, 1.97]",
+                "outcomes": [
+                    "[46.2%, 18.9%, 144.4%, 1.92]",
+                    "[HIV group prevalence, comparison group prevalence, percent difference, odds ratio]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Health Outcome": "Chronic kidney disease",
+                    "HIV Prevalence": "46.2%",
+                    "No HIV Prevalence": "18.9%",
+                    "Percent Difference": "144.4%",
+                    "Method": "Logistic regression model (2016 data)"
+                },
+                "measures": "[Odds Ratio, 95% CI]",
+                "outcomes": "[1.92, 1.88-1.97]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 2,
+    "total_ground_truth_claims": 11,
+    "number_of_matches": 2
+}

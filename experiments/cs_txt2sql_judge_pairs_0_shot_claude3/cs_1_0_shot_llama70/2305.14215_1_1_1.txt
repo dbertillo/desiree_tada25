@@ -1,0 +1,9 @@
+The extracted claim and the ground truth claims are not exactly the same. The extracted claim combines information that is split across multiple ground truth claims. However, it does contain some of the same information as one of the ground truth claims. Specifically, it matches the following ground truth claim:
+
+{'subject': {'Method': 'Standard', 'Dataset': 'Spider Realistic', 'Model': 'Codex', 'Number of shots': '8', 'Difficulty': 'Overall'}, 'measures': ['Test-suite accuracy'], 'outcomes': ['51.0']}
+
+The extracted claim includes this information, but also combines it with the execution accuracy and standard deviations, which are separate claims in the ground truth. Additionally, the extracted claim is missing some context information that is present in the ground truth (like 'Model', 'Number of shots', and 'Difficulty').
+
+Given these differences:
+
+<classification>no</classification>

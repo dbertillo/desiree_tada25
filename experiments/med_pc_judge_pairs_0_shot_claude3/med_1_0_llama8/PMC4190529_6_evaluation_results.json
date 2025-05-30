@@ -1,0 +1,1847 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine",
+                    "Control": "5-fluorouracil",
+                    "Phase": "3",
+                    "Median Survival": "5.7",
+                    "One-Year Survival": "4.2",
+                    "Side Effects": "18%",
+                    "FDA Approval": "1996"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 5.7]",
+                    "[One-Year Survival, 4.2]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine",
+                    "Control": "5-fluorouracil",
+                    "Phase": "3",
+                    "Side Effects": "more favorable than 5-fluorouracil",
+                    "FDA Approval": "1996",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['Median Survival Therapy', 'Median Survival Control]",
+                "outcomes": "['5.7', '4.2']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine",
+                    "Control": "5-fluorouracil",
+                    "Phase": "3",
+                    "Median Survival": "5.7",
+                    "One-Year Survival": "4.2",
+                    "Side Effects": "18%",
+                    "FDA Approval": "1996"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 5.7]",
+                    "[One-Year Survival, 4.2]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine",
+                    "Control": "5-fluorouracil",
+                    "Phase": "3",
+                    "Side Effects": "more favorable than 5-fluorouracil",
+                    "FDA Approval": "1996",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['One-Year Survival Therapy', 'One-Year Survival Control']",
+                "outcomes": "['18%', '2%']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine",
+                    "Control": "5-fluorouracil",
+                    "Phase": "3",
+                    "Median Survival": "5.7",
+                    "One-Year Survival": "4.2",
+                    "Side Effects": "18%",
+                    "FDA Approval": "1996"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 5.7]",
+                    "[One-Year Survival, 4.2]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + erlotinib hydrochloride (Tarceva)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Side Effects": "less favorable than gemcitabine",
+                    "FDA Approval": "2005",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['Median Survival Therapy', 'Median Survival Control']",
+                "outcomes": "['6.4', '6']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine",
+                    "Control": "5-fluorouracil",
+                    "Phase": "3",
+                    "Median Survival": "5.7",
+                    "One-Year Survival": "4.2",
+                    "Side Effects": "18%",
+                    "FDA Approval": "1996"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 5.7]",
+                    "[One-Year Survival, 4.2]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + erlotinib hydrochloride (Tarceva)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Side Effects": "less favorable than gemcitabine",
+                    "FDA Approval": "2005",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['One-Year Survival Therapy', 'One-Year Survival Control']",
+                "outcomes": "['24%', '19%']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine",
+                    "Control": "5-fluorouracil",
+                    "Phase": "3",
+                    "Median Survival": "5.7",
+                    "One-Year Survival": "4.2",
+                    "Side Effects": "18%",
+                    "FDA Approval": "1996"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 5.7]",
+                    "[One-Year Survival, 4.2]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + protein-bound paclitaxel (Abraxane)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Side Effects": "less favorable than gemcitabine",
+                    "FDA Approval": "2013",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['Median Survival Therapy', 'Median Survival Control']",
+                "outcomes": "['8.5', '6.7']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine",
+                    "Control": "5-fluorouracil",
+                    "Phase": "3",
+                    "Median Survival": "5.7",
+                    "One-Year Survival": "4.2",
+                    "Side Effects": "18%",
+                    "FDA Approval": "1996"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 5.7]",
+                    "[One-Year Survival, 4.2]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + protein-bound paclitaxel (Abraxane)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Side Effects": "less favorable than gemcitabine",
+                    "FDA Approval": "2013",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['One-Year Survival Therapy', 'One-Year Survival Control']",
+                "outcomes": "['35%', '22%']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine",
+                    "Control": "5-fluorouracil",
+                    "Phase": "3",
+                    "Median Survival": "5.7",
+                    "One-Year Survival": "4.2",
+                    "Side Effects": "18%",
+                    "FDA Approval": "1996"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 5.7]",
+                    "[One-Year Survival, 4.2]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "FOLFIRINOX",
+                    "Control": "gemcitabine",
+                    "Phase": "2/3",
+                    "Side Effects": "less favorable than gemcitabine",
+                    "FDA Approval": "n/a",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['Median Survival Therapy', 'Median Survival Control']",
+                "outcomes": "['11.1', '6.8']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine",
+                    "Control": "5-fluorouracil",
+                    "Phase": "3",
+                    "Median Survival": "5.7",
+                    "One-Year Survival": "4.2",
+                    "Side Effects": "18%",
+                    "FDA Approval": "1996"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 5.7]",
+                    "[One-Year Survival, 4.2]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "FOLFIRINOX",
+                    "Control": "gemcitabine",
+                    "Phase": "2/3",
+                    "Side Effects": "less favorable than gemcitabine",
+                    "FDA Approval": "n/a",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['One-Year Survival Therapy', 'One-Year Survival Control']",
+                "outcomes": "['48.4%', '20.6%']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine",
+                    "Control": "5-fluorouracil",
+                    "Phase": "3",
+                    "Median Survival": "5.7",
+                    "One-Year Survival": "4.2",
+                    "Side Effects": "18%",
+                    "FDA Approval": "1996"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 5.7]",
+                    "[One-Year Survival, 4.2]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "cell encapsulation + ifosfamide",
+                    "Control": "5-fluorouracil",
+                    "Phase": "2",
+                    "Side Effects": "more favorable than 5-fluorouracil or gemcitabine",
+                    "FDA Approval": "n/a",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['Median Survival Therapy', 'Median Survival Control']",
+                "outcomes": "['10', '5']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine",
+                    "Control": "5-fluorouracil",
+                    "Phase": "3",
+                    "Median Survival": "5.7",
+                    "One-Year Survival": "4.2",
+                    "Side Effects": "18%",
+                    "FDA Approval": "1996"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 5.7]",
+                    "[One-Year Survival, 4.2]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "cell encapsulation + ifosfamide",
+                    "Control": "5-fluorouracil",
+                    "Phase": "2",
+                    "Side Effects": "more favorable than 5-fluorouracil or gemcitabine",
+                    "FDA Approval": "n/a",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['One-Year Survival Therapy', 'One-Year Survival Control']",
+                "outcomes": "['36%', '18%']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + erlotinib hydrochloride (Tarceva)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Median Survival": "6.4",
+                    "One-Year Survival": "6",
+                    "Side Effects": "24%",
+                    "FDA Approval": "2005"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 6.4]",
+                    "[One-Year Survival, 6]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine",
+                    "Control": "5-fluorouracil",
+                    "Phase": "3",
+                    "Side Effects": "more favorable than 5-fluorouracil",
+                    "FDA Approval": "1996",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['Median Survival Therapy', 'Median Survival Control]",
+                "outcomes": "['5.7', '4.2']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + erlotinib hydrochloride (Tarceva)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Median Survival": "6.4",
+                    "One-Year Survival": "6",
+                    "Side Effects": "24%",
+                    "FDA Approval": "2005"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 6.4]",
+                    "[One-Year Survival, 6]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine",
+                    "Control": "5-fluorouracil",
+                    "Phase": "3",
+                    "Side Effects": "more favorable than 5-fluorouracil",
+                    "FDA Approval": "1996",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['One-Year Survival Therapy', 'One-Year Survival Control']",
+                "outcomes": "['18%', '2%']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + erlotinib hydrochloride (Tarceva)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Median Survival": "6.4",
+                    "One-Year Survival": "6",
+                    "Side Effects": "24%",
+                    "FDA Approval": "2005"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 6.4]",
+                    "[One-Year Survival, 6]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + erlotinib hydrochloride (Tarceva)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Side Effects": "less favorable than gemcitabine",
+                    "FDA Approval": "2005",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['Median Survival Therapy', 'Median Survival Control']",
+                "outcomes": "['6.4', '6']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + erlotinib hydrochloride (Tarceva)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Median Survival": "6.4",
+                    "One-Year Survival": "6",
+                    "Side Effects": "24%",
+                    "FDA Approval": "2005"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 6.4]",
+                    "[One-Year Survival, 6]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + erlotinib hydrochloride (Tarceva)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Side Effects": "less favorable than gemcitabine",
+                    "FDA Approval": "2005",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['One-Year Survival Therapy', 'One-Year Survival Control']",
+                "outcomes": "['24%', '19%']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + erlotinib hydrochloride (Tarceva)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Median Survival": "6.4",
+                    "One-Year Survival": "6",
+                    "Side Effects": "24%",
+                    "FDA Approval": "2005"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 6.4]",
+                    "[One-Year Survival, 6]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + protein-bound paclitaxel (Abraxane)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Side Effects": "less favorable than gemcitabine",
+                    "FDA Approval": "2013",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['Median Survival Therapy', 'Median Survival Control']",
+                "outcomes": "['8.5', '6.7']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + erlotinib hydrochloride (Tarceva)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Median Survival": "6.4",
+                    "One-Year Survival": "6",
+                    "Side Effects": "24%",
+                    "FDA Approval": "2005"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 6.4]",
+                    "[One-Year Survival, 6]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + protein-bound paclitaxel (Abraxane)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Side Effects": "less favorable than gemcitabine",
+                    "FDA Approval": "2013",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['One-Year Survival Therapy', 'One-Year Survival Control']",
+                "outcomes": "['35%', '22%']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + erlotinib hydrochloride (Tarceva)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Median Survival": "6.4",
+                    "One-Year Survival": "6",
+                    "Side Effects": "24%",
+                    "FDA Approval": "2005"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 6.4]",
+                    "[One-Year Survival, 6]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "FOLFIRINOX",
+                    "Control": "gemcitabine",
+                    "Phase": "2/3",
+                    "Side Effects": "less favorable than gemcitabine",
+                    "FDA Approval": "n/a",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['Median Survival Therapy', 'Median Survival Control']",
+                "outcomes": "['11.1', '6.8']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + erlotinib hydrochloride (Tarceva)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Median Survival": "6.4",
+                    "One-Year Survival": "6",
+                    "Side Effects": "24%",
+                    "FDA Approval": "2005"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 6.4]",
+                    "[One-Year Survival, 6]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "FOLFIRINOX",
+                    "Control": "gemcitabine",
+                    "Phase": "2/3",
+                    "Side Effects": "less favorable than gemcitabine",
+                    "FDA Approval": "n/a",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['One-Year Survival Therapy', 'One-Year Survival Control']",
+                "outcomes": "['48.4%', '20.6%']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + erlotinib hydrochloride (Tarceva)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Median Survival": "6.4",
+                    "One-Year Survival": "6",
+                    "Side Effects": "24%",
+                    "FDA Approval": "2005"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 6.4]",
+                    "[One-Year Survival, 6]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "cell encapsulation + ifosfamide",
+                    "Control": "5-fluorouracil",
+                    "Phase": "2",
+                    "Side Effects": "more favorable than 5-fluorouracil or gemcitabine",
+                    "FDA Approval": "n/a",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['Median Survival Therapy', 'Median Survival Control']",
+                "outcomes": "['10', '5']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + erlotinib hydrochloride (Tarceva)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Median Survival": "6.4",
+                    "One-Year Survival": "6",
+                    "Side Effects": "24%",
+                    "FDA Approval": "2005"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 6.4]",
+                    "[One-Year Survival, 6]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "cell encapsulation + ifosfamide",
+                    "Control": "5-fluorouracil",
+                    "Phase": "2",
+                    "Side Effects": "more favorable than 5-fluorouracil or gemcitabine",
+                    "FDA Approval": "n/a",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['One-Year Survival Therapy', 'One-Year Survival Control']",
+                "outcomes": "['36%', '18%']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + protein-bound paclitaxel (Abraxane)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Median Survival": "8.5",
+                    "One-Year Survival": "6.7",
+                    "Side Effects": "35%",
+                    "FDA Approval": "2013"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 8.5]",
+                    "[One-Year Survival, 6.7]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine",
+                    "Control": "5-fluorouracil",
+                    "Phase": "3",
+                    "Side Effects": "more favorable than 5-fluorouracil",
+                    "FDA Approval": "1996",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['Median Survival Therapy', 'Median Survival Control]",
+                "outcomes": "['5.7', '4.2']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + protein-bound paclitaxel (Abraxane)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Median Survival": "8.5",
+                    "One-Year Survival": "6.7",
+                    "Side Effects": "35%",
+                    "FDA Approval": "2013"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 8.5]",
+                    "[One-Year Survival, 6.7]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine",
+                    "Control": "5-fluorouracil",
+                    "Phase": "3",
+                    "Side Effects": "more favorable than 5-fluorouracil",
+                    "FDA Approval": "1996",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['One-Year Survival Therapy', 'One-Year Survival Control']",
+                "outcomes": "['18%', '2%']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + protein-bound paclitaxel (Abraxane)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Median Survival": "8.5",
+                    "One-Year Survival": "6.7",
+                    "Side Effects": "35%",
+                    "FDA Approval": "2013"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 8.5]",
+                    "[One-Year Survival, 6.7]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + erlotinib hydrochloride (Tarceva)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Side Effects": "less favorable than gemcitabine",
+                    "FDA Approval": "2005",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['Median Survival Therapy', 'Median Survival Control']",
+                "outcomes": "['6.4', '6']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + protein-bound paclitaxel (Abraxane)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Median Survival": "8.5",
+                    "One-Year Survival": "6.7",
+                    "Side Effects": "35%",
+                    "FDA Approval": "2013"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 8.5]",
+                    "[One-Year Survival, 6.7]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + erlotinib hydrochloride (Tarceva)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Side Effects": "less favorable than gemcitabine",
+                    "FDA Approval": "2005",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['One-Year Survival Therapy', 'One-Year Survival Control']",
+                "outcomes": "['24%', '19%']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + protein-bound paclitaxel (Abraxane)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Median Survival": "8.5",
+                    "One-Year Survival": "6.7",
+                    "Side Effects": "35%",
+                    "FDA Approval": "2013"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 8.5]",
+                    "[One-Year Survival, 6.7]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + protein-bound paclitaxel (Abraxane)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Side Effects": "less favorable than gemcitabine",
+                    "FDA Approval": "2013",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['Median Survival Therapy', 'Median Survival Control']",
+                "outcomes": "['8.5', '6.7']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + protein-bound paclitaxel (Abraxane)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Median Survival": "8.5",
+                    "One-Year Survival": "6.7",
+                    "Side Effects": "35%",
+                    "FDA Approval": "2013"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 8.5]",
+                    "[One-Year Survival, 6.7]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + protein-bound paclitaxel (Abraxane)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Side Effects": "less favorable than gemcitabine",
+                    "FDA Approval": "2013",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['One-Year Survival Therapy', 'One-Year Survival Control']",
+                "outcomes": "['35%', '22%']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + protein-bound paclitaxel (Abraxane)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Median Survival": "8.5",
+                    "One-Year Survival": "6.7",
+                    "Side Effects": "35%",
+                    "FDA Approval": "2013"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 8.5]",
+                    "[One-Year Survival, 6.7]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "FOLFIRINOX",
+                    "Control": "gemcitabine",
+                    "Phase": "2/3",
+                    "Side Effects": "less favorable than gemcitabine",
+                    "FDA Approval": "n/a",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['Median Survival Therapy', 'Median Survival Control']",
+                "outcomes": "['11.1', '6.8']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + protein-bound paclitaxel (Abraxane)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Median Survival": "8.5",
+                    "One-Year Survival": "6.7",
+                    "Side Effects": "35%",
+                    "FDA Approval": "2013"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 8.5]",
+                    "[One-Year Survival, 6.7]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "FOLFIRINOX",
+                    "Control": "gemcitabine",
+                    "Phase": "2/3",
+                    "Side Effects": "less favorable than gemcitabine",
+                    "FDA Approval": "n/a",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['One-Year Survival Therapy', 'One-Year Survival Control']",
+                "outcomes": "['48.4%', '20.6%']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + protein-bound paclitaxel (Abraxane)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Median Survival": "8.5",
+                    "One-Year Survival": "6.7",
+                    "Side Effects": "35%",
+                    "FDA Approval": "2013"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 8.5]",
+                    "[One-Year Survival, 6.7]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "cell encapsulation + ifosfamide",
+                    "Control": "5-fluorouracil",
+                    "Phase": "2",
+                    "Side Effects": "more favorable than 5-fluorouracil or gemcitabine",
+                    "FDA Approval": "n/a",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['Median Survival Therapy', 'Median Survival Control']",
+                "outcomes": "['10', '5']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + protein-bound paclitaxel (Abraxane)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Median Survival": "8.5",
+                    "One-Year Survival": "6.7",
+                    "Side Effects": "35%",
+                    "FDA Approval": "2013"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 8.5]",
+                    "[One-Year Survival, 6.7]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "cell encapsulation + ifosfamide",
+                    "Control": "5-fluorouracil",
+                    "Phase": "2",
+                    "Side Effects": "more favorable than 5-fluorouracil or gemcitabine",
+                    "FDA Approval": "n/a",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['One-Year Survival Therapy', 'One-Year Survival Control']",
+                "outcomes": "['36%', '18%']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "FOLFIRINOX *",
+                    "Control": "gemcitabine",
+                    "Phase": "2/3",
+                    "Median Survival": "11.1",
+                    "One-Year Survival": "6.8",
+                    "Side Effects": "48.4%",
+                    "FDA Approval": "n/a"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 11.1]",
+                    "[One-Year Survival, 6.8]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine",
+                    "Control": "5-fluorouracil",
+                    "Phase": "3",
+                    "Side Effects": "more favorable than 5-fluorouracil",
+                    "FDA Approval": "1996",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['Median Survival Therapy', 'Median Survival Control]",
+                "outcomes": "['5.7', '4.2']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "FOLFIRINOX *",
+                    "Control": "gemcitabine",
+                    "Phase": "2/3",
+                    "Median Survival": "11.1",
+                    "One-Year Survival": "6.8",
+                    "Side Effects": "48.4%",
+                    "FDA Approval": "n/a"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 11.1]",
+                    "[One-Year Survival, 6.8]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine",
+                    "Control": "5-fluorouracil",
+                    "Phase": "3",
+                    "Side Effects": "more favorable than 5-fluorouracil",
+                    "FDA Approval": "1996",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['One-Year Survival Therapy', 'One-Year Survival Control']",
+                "outcomes": "['18%', '2%']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "FOLFIRINOX *",
+                    "Control": "gemcitabine",
+                    "Phase": "2/3",
+                    "Median Survival": "11.1",
+                    "One-Year Survival": "6.8",
+                    "Side Effects": "48.4%",
+                    "FDA Approval": "n/a"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 11.1]",
+                    "[One-Year Survival, 6.8]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + erlotinib hydrochloride (Tarceva)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Side Effects": "less favorable than gemcitabine",
+                    "FDA Approval": "2005",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['Median Survival Therapy', 'Median Survival Control']",
+                "outcomes": "['6.4', '6']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "FOLFIRINOX *",
+                    "Control": "gemcitabine",
+                    "Phase": "2/3",
+                    "Median Survival": "11.1",
+                    "One-Year Survival": "6.8",
+                    "Side Effects": "48.4%",
+                    "FDA Approval": "n/a"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 11.1]",
+                    "[One-Year Survival, 6.8]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + erlotinib hydrochloride (Tarceva)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Side Effects": "less favorable than gemcitabine",
+                    "FDA Approval": "2005",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['One-Year Survival Therapy', 'One-Year Survival Control']",
+                "outcomes": "['24%', '19%']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "FOLFIRINOX *",
+                    "Control": "gemcitabine",
+                    "Phase": "2/3",
+                    "Median Survival": "11.1",
+                    "One-Year Survival": "6.8",
+                    "Side Effects": "48.4%",
+                    "FDA Approval": "n/a"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 11.1]",
+                    "[One-Year Survival, 6.8]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + protein-bound paclitaxel (Abraxane)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Side Effects": "less favorable than gemcitabine",
+                    "FDA Approval": "2013",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['Median Survival Therapy', 'Median Survival Control']",
+                "outcomes": "['8.5', '6.7']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "FOLFIRINOX *",
+                    "Control": "gemcitabine",
+                    "Phase": "2/3",
+                    "Median Survival": "11.1",
+                    "One-Year Survival": "6.8",
+                    "Side Effects": "48.4%",
+                    "FDA Approval": "n/a"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 11.1]",
+                    "[One-Year Survival, 6.8]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + protein-bound paclitaxel (Abraxane)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Side Effects": "less favorable than gemcitabine",
+                    "FDA Approval": "2013",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['One-Year Survival Therapy', 'One-Year Survival Control']",
+                "outcomes": "['35%', '22%']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "FOLFIRINOX *",
+                    "Control": "gemcitabine",
+                    "Phase": "2/3",
+                    "Median Survival": "11.1",
+                    "One-Year Survival": "6.8",
+                    "Side Effects": "48.4%",
+                    "FDA Approval": "n/a"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 11.1]",
+                    "[One-Year Survival, 6.8]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "FOLFIRINOX",
+                    "Control": "gemcitabine",
+                    "Phase": "2/3",
+                    "Side Effects": "less favorable than gemcitabine",
+                    "FDA Approval": "n/a",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['Median Survival Therapy', 'Median Survival Control']",
+                "outcomes": "['11.1', '6.8']"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "cell encapsulation + ifosfamide",
+                    "Control": "5-fluorouracil",
+                    "Phase": "2",
+                    "Median Survival": "10",
+                    "One-Year Survival": "5",
+                    "Side Effects": "36%",
+                    "FDA Approval": "n/a"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 10]",
+                    "[One-Year Survival, 5]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine",
+                    "Control": "5-fluorouracil",
+                    "Phase": "3",
+                    "Side Effects": "more favorable than 5-fluorouracil",
+                    "FDA Approval": "1996",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['Median Survival Therapy', 'Median Survival Control]",
+                "outcomes": "['5.7', '4.2']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "cell encapsulation + ifosfamide",
+                    "Control": "5-fluorouracil",
+                    "Phase": "2",
+                    "Median Survival": "10",
+                    "One-Year Survival": "5",
+                    "Side Effects": "36%",
+                    "FDA Approval": "n/a"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 10]",
+                    "[One-Year Survival, 5]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine",
+                    "Control": "5-fluorouracil",
+                    "Phase": "3",
+                    "Side Effects": "more favorable than 5-fluorouracil",
+                    "FDA Approval": "1996",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['One-Year Survival Therapy', 'One-Year Survival Control']",
+                "outcomes": "['18%', '2%']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "cell encapsulation + ifosfamide",
+                    "Control": "5-fluorouracil",
+                    "Phase": "2",
+                    "Median Survival": "10",
+                    "One-Year Survival": "5",
+                    "Side Effects": "36%",
+                    "FDA Approval": "n/a"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 10]",
+                    "[One-Year Survival, 5]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + erlotinib hydrochloride (Tarceva)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Side Effects": "less favorable than gemcitabine",
+                    "FDA Approval": "2005",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['Median Survival Therapy', 'Median Survival Control']",
+                "outcomes": "['6.4', '6']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "cell encapsulation + ifosfamide",
+                    "Control": "5-fluorouracil",
+                    "Phase": "2",
+                    "Median Survival": "10",
+                    "One-Year Survival": "5",
+                    "Side Effects": "36%",
+                    "FDA Approval": "n/a"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 10]",
+                    "[One-Year Survival, 5]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + erlotinib hydrochloride (Tarceva)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Side Effects": "less favorable than gemcitabine",
+                    "FDA Approval": "2005",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['One-Year Survival Therapy', 'One-Year Survival Control']",
+                "outcomes": "['24%', '19%']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "cell encapsulation + ifosfamide",
+                    "Control": "5-fluorouracil",
+                    "Phase": "2",
+                    "Median Survival": "10",
+                    "One-Year Survival": "5",
+                    "Side Effects": "36%",
+                    "FDA Approval": "n/a"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 10]",
+                    "[One-Year Survival, 5]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + protein-bound paclitaxel (Abraxane)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Side Effects": "less favorable than gemcitabine",
+                    "FDA Approval": "2013",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['Median Survival Therapy', 'Median Survival Control']",
+                "outcomes": "['8.5', '6.7']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "cell encapsulation + ifosfamide",
+                    "Control": "5-fluorouracil",
+                    "Phase": "2",
+                    "Median Survival": "10",
+                    "One-Year Survival": "5",
+                    "Side Effects": "36%",
+                    "FDA Approval": "n/a"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 10]",
+                    "[One-Year Survival, 5]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + protein-bound paclitaxel (Abraxane)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Side Effects": "less favorable than gemcitabine",
+                    "FDA Approval": "2013",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['One-Year Survival Therapy', 'One-Year Survival Control']",
+                "outcomes": "['35%', '22%']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "cell encapsulation + ifosfamide",
+                    "Control": "5-fluorouracil",
+                    "Phase": "2",
+                    "Median Survival": "10",
+                    "One-Year Survival": "5",
+                    "Side Effects": "36%",
+                    "FDA Approval": "n/a"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 10]",
+                    "[One-Year Survival, 5]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "FOLFIRINOX",
+                    "Control": "gemcitabine",
+                    "Phase": "2/3",
+                    "Side Effects": "less favorable than gemcitabine",
+                    "FDA Approval": "n/a",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['One-Year Survival Therapy', 'One-Year Survival Control']",
+                "outcomes": "['48.4%', '20.6%']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "cell encapsulation + ifosfamide",
+                    "Control": "5-fluorouracil",
+                    "Phase": "2",
+                    "Median Survival": "10",
+                    "One-Year Survival": "5",
+                    "Side Effects": "36%",
+                    "FDA Approval": "n/a"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 10]",
+                    "[One-Year Survival, 5]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "cell encapsulation + ifosfamide",
+                    "Control": "5-fluorouracil",
+                    "Phase": "2",
+                    "Side Effects": "more favorable than 5-fluorouracil or gemcitabine",
+                    "FDA Approval": "n/a",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['Median Survival Therapy', 'Median Survival Control']",
+                "outcomes": "['10', '5']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Treatment": "cell encapsulation + ifosfamide",
+                    "Control": "5-fluorouracil",
+                    "Phase": "2",
+                    "Median Survival": "10",
+                    "One-Year Survival": "5",
+                    "Side Effects": "36%",
+                    "FDA Approval": "n/a"
+                },
+                "measures": "[Treatment, FDA Approved]",
+                "outcomes": [
+                    "[Median Survival, 10]",
+                    "[One-Year Survival, 5]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "cell encapsulation + ifosfamide",
+                    "Control": "5-fluorouracil",
+                    "Phase": "2",
+                    "Side Effects": "more favorable than 5-fluorouracil or gemcitabine",
+                    "FDA Approval": "n/a",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['One-Year Survival Therapy', 'One-Year Survival Control']",
+                "outcomes": "['36%', '18%']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Citation": "Oxaliplatin, irinotecan, fluorouracil and leucovorin",
+                    "Toxicity": "Grade 3 or Grade 4 NCI",
+                    "Survival": "9.5 months"
+                },
+                "measures": "[Citation, NCI Toxicity]",
+                "outcomes": "[Survival, 9.5 months]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine",
+                    "Control": "5-fluorouracil",
+                    "Phase": "3",
+                    "Side Effects": "more favorable than 5-fluorouracil",
+                    "FDA Approval": "1996",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['Median Survival Therapy', 'Median Survival Control]",
+                "outcomes": "['5.7', '4.2']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Citation": "Oxaliplatin, irinotecan, fluorouracil and leucovorin",
+                    "Toxicity": "Grade 3 or Grade 4 NCI",
+                    "Survival": "9.5 months"
+                },
+                "measures": "[Citation, NCI Toxicity]",
+                "outcomes": "[Survival, 9.5 months]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine",
+                    "Control": "5-fluorouracil",
+                    "Phase": "3",
+                    "Side Effects": "more favorable than 5-fluorouracil",
+                    "FDA Approval": "1996",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['One-Year Survival Therapy', 'One-Year Survival Control']",
+                "outcomes": "['18%', '2%']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Citation": "Oxaliplatin, irinotecan, fluorouracil and leucovorin",
+                    "Toxicity": "Grade 3 or Grade 4 NCI",
+                    "Survival": "9.5 months"
+                },
+                "measures": "[Citation, NCI Toxicity]",
+                "outcomes": "[Survival, 9.5 months]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + erlotinib hydrochloride (Tarceva)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Side Effects": "less favorable than gemcitabine",
+                    "FDA Approval": "2005",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['Median Survival Therapy', 'Median Survival Control']",
+                "outcomes": "['6.4', '6']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Citation": "Oxaliplatin, irinotecan, fluorouracil and leucovorin",
+                    "Toxicity": "Grade 3 or Grade 4 NCI",
+                    "Survival": "9.5 months"
+                },
+                "measures": "[Citation, NCI Toxicity]",
+                "outcomes": "[Survival, 9.5 months]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + erlotinib hydrochloride (Tarceva)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Side Effects": "less favorable than gemcitabine",
+                    "FDA Approval": "2005",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['One-Year Survival Therapy', 'One-Year Survival Control']",
+                "outcomes": "['24%', '19%']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Citation": "Oxaliplatin, irinotecan, fluorouracil and leucovorin",
+                    "Toxicity": "Grade 3 or Grade 4 NCI",
+                    "Survival": "9.5 months"
+                },
+                "measures": "[Citation, NCI Toxicity]",
+                "outcomes": "[Survival, 9.5 months]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + protein-bound paclitaxel (Abraxane)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Side Effects": "less favorable than gemcitabine",
+                    "FDA Approval": "2013",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['Median Survival Therapy', 'Median Survival Control']",
+                "outcomes": "['8.5', '6.7']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Citation": "Oxaliplatin, irinotecan, fluorouracil and leucovorin",
+                    "Toxicity": "Grade 3 or Grade 4 NCI",
+                    "Survival": "9.5 months"
+                },
+                "measures": "[Citation, NCI Toxicity]",
+                "outcomes": "[Survival, 9.5 months]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + protein-bound paclitaxel (Abraxane)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Side Effects": "less favorable than gemcitabine",
+                    "FDA Approval": "2013",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['One-Year Survival Therapy', 'One-Year Survival Control']",
+                "outcomes": "['35%', '22%']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Citation": "Oxaliplatin, irinotecan, fluorouracil and leucovorin",
+                    "Toxicity": "Grade 3 or Grade 4 NCI",
+                    "Survival": "9.5 months"
+                },
+                "measures": "[Citation, NCI Toxicity]",
+                "outcomes": "[Survival, 9.5 months]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "FOLFIRINOX",
+                    "Control": "gemcitabine",
+                    "Phase": "2/3",
+                    "Side Effects": "less favorable than gemcitabine",
+                    "FDA Approval": "n/a",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['One-Year Survival Therapy', 'One-Year Survival Control']",
+                "outcomes": "['48.4%', '20.6%']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Citation": "Oxaliplatin, irinotecan, fluorouracil and leucovorin",
+                    "Toxicity": "Grade 3 or Grade 4 NCI",
+                    "Survival": "9.5 months"
+                },
+                "measures": "[Citation, NCI Toxicity]",
+                "outcomes": "[Survival, 9.5 months]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "cell encapsulation + ifosfamide",
+                    "Control": "5-fluorouracil",
+                    "Phase": "2",
+                    "Side Effects": "more favorable than 5-fluorouracil or gemcitabine",
+                    "FDA Approval": "n/a",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['Median Survival Therapy', 'Median Survival Control']",
+                "outcomes": "['10', '5']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Citation": "Oxaliplatin, irinotecan, fluorouracil and leucovorin",
+                    "Toxicity": "Grade 3 or Grade 4 NCI",
+                    "Survival": "9.5 months"
+                },
+                "measures": "[Citation, NCI Toxicity]",
+                "outcomes": "[Survival, 9.5 months]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "cell encapsulation + ifosfamide",
+                    "Control": "5-fluorouracil",
+                    "Phase": "2",
+                    "Side Effects": "more favorable than 5-fluorouracil or gemcitabine",
+                    "FDA Approval": "n/a",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['One-Year Survival Therapy', 'One-Year Survival Control']",
+                "outcomes": "['36%', '18%']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Caption": "Summary of recent trial data for pancreatic cancer treatments"
+                },
+                "measures": "[Caption, Pancreatic Cancer Treatments]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine",
+                    "Control": "5-fluorouracil",
+                    "Phase": "3",
+                    "Side Effects": "more favorable than 5-fluorouracil",
+                    "FDA Approval": "1996",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['Median Survival Therapy', 'Median Survival Control]",
+                "outcomes": "['5.7', '4.2']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Caption": "Summary of recent trial data for pancreatic cancer treatments"
+                },
+                "measures": "[Caption, Pancreatic Cancer Treatments]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine",
+                    "Control": "5-fluorouracil",
+                    "Phase": "3",
+                    "Side Effects": "more favorable than 5-fluorouracil",
+                    "FDA Approval": "1996",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['One-Year Survival Therapy', 'One-Year Survival Control']",
+                "outcomes": "['18%', '2%']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Caption": "Summary of recent trial data for pancreatic cancer treatments"
+                },
+                "measures": "[Caption, Pancreatic Cancer Treatments]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + erlotinib hydrochloride (Tarceva)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Side Effects": "less favorable than gemcitabine",
+                    "FDA Approval": "2005",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['Median Survival Therapy', 'Median Survival Control']",
+                "outcomes": "['6.4', '6']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Caption": "Summary of recent trial data for pancreatic cancer treatments"
+                },
+                "measures": "[Caption, Pancreatic Cancer Treatments]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + erlotinib hydrochloride (Tarceva)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Side Effects": "less favorable than gemcitabine",
+                    "FDA Approval": "2005",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['One-Year Survival Therapy', 'One-Year Survival Control']",
+                "outcomes": "['24%', '19%']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Caption": "Summary of recent trial data for pancreatic cancer treatments"
+                },
+                "measures": "[Caption, Pancreatic Cancer Treatments]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + protein-bound paclitaxel (Abraxane)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Side Effects": "less favorable than gemcitabine",
+                    "FDA Approval": "2013",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['Median Survival Therapy', 'Median Survival Control']",
+                "outcomes": "['8.5', '6.7']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Caption": "Summary of recent trial data for pancreatic cancer treatments"
+                },
+                "measures": "[Caption, Pancreatic Cancer Treatments]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "gemcitabine + protein-bound paclitaxel (Abraxane)",
+                    "Control": "gemcitabine",
+                    "Phase": "3",
+                    "Side Effects": "less favorable than gemcitabine",
+                    "FDA Approval": "2013",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['One-Year Survival Therapy', 'One-Year Survival Control']",
+                "outcomes": "['35%', '22%']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Caption": "Summary of recent trial data for pancreatic cancer treatments"
+                },
+                "measures": "[Caption, Pancreatic Cancer Treatments]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "FOLFIRINOX",
+                    "Control": "gemcitabine",
+                    "Phase": "2/3",
+                    "Side Effects": "less favorable than gemcitabine",
+                    "FDA Approval": "n/a",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['One-Year Survival Therapy', 'One-Year Survival Control']",
+                "outcomes": "['48.4%', '20.6%']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Caption": "Summary of recent trial data for pancreatic cancer treatments"
+                },
+                "measures": "[Caption, Pancreatic Cancer Treatments]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "cell encapsulation + ifosfamide",
+                    "Control": "5-fluorouracil",
+                    "Phase": "2",
+                    "Side Effects": "more favorable than 5-fluorouracil or gemcitabine",
+                    "FDA Approval": "n/a",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['Median Survival Therapy', 'Median Survival Control']",
+                "outcomes": "['10', '5']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Caption": "Summary of recent trial data for pancreatic cancer treatments"
+                },
+                "measures": "[Caption, Pancreatic Cancer Treatments]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Treatment": "cell encapsulation + ifosfamide",
+                    "Control": "5-fluorouracil",
+                    "Phase": "2",
+                    "Side Effects": "more favorable than 5-fluorouracil or gemcitabine",
+                    "FDA Approval": "n/a",
+                    "Cancer Type": "pancreatic cancer"
+                },
+                "measures": "['One-Year Survival Therapy', 'One-Year Survival Control']",
+                "outcomes": "['36%', '18%']"
+            },
+            "match": "no"
+        }
+    ],
+    "total_extracted_claims": 7,
+    "total_ground_truth_claims": 10,
+    "number_of_matches": 1
+}

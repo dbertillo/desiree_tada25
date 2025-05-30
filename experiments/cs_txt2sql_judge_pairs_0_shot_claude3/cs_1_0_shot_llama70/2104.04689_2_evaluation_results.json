@@ -1,0 +1,787 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Approach": "R-GCN",
+                    "Citation": "Kelkar etal. (2020)",
+                    "Hardness Level": "Easy",
+                    "Match Accuracy": "70.4%"
+                },
+                "measures": "[Match Accuracy]",
+                "outcomes": "[70.4%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Approaches": "R-GCN",
+                    "Citation": "Kelkar etal. (2020)",
+                    "Dataset": "development set",
+                    "Hardness Level": "Easy"
+                },
+                "measures": [
+                    "Match Accuracy"
+                ],
+                "outcomes": [
+                    "70.4"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Approach": "R-GCN",
+                    "Implemented By": "us",
+                    "Hardness Level": "Easy",
+                    "Match Accuracy": "78.9%"
+                },
+                "measures": "[Match Accuracy]",
+                "outcomes": "[78.9%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Approaches": "R-GCN",
+                    "Citation": "Kelkar etal. (2020)",
+                    "Dataset": "development set",
+                    "Hardness Level": "Medium"
+                },
+                "measures": [
+                    "Match Accuracy"
+                ],
+                "outcomes": [
+                    "54.1"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Approach": "R-GCN+RAT",
+                    "Hardness Level": "Easy",
+                    "Match Accuracy": "85.0%"
+                },
+                "measures": "[Match Accuracy]",
+                "outcomes": "[85.0%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Approaches": "R-GCN",
+                    "Citation": "Kelkar etal. (2020)",
+                    "Dataset": "development set",
+                    "Hardness Level": "Hard"
+                },
+                "measures": [
+                    "Match Accuracy"
+                ],
+                "outcomes": [
+                    "35.6"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Approach": "GPNN",
+                    "Hardness Level": "Easy",
+                    "Match Accuracy": "87.5%"
+                },
+                "measures": "[Match Accuracy]",
+                "outcomes": "[87.5%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Approaches": "R-GCN",
+                    "Citation": "Kelkar etal. (2020)",
+                    "Dataset": "development set",
+                    "Hardness Level": "Extra Hard"
+                },
+                "measures": [
+                    "Match Accuracy"
+                ],
+                "outcomes": [
+                    "28.2"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Approach": "RATSQL",
+                    "Implemented By": "us",
+                    "Hardness Level": "Easy",
+                    "Match Accuracy": "87.1%"
+                },
+                "measures": "[Match Accuracy]",
+                "outcomes": "[87.1%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Approaches": "R-GCN",
+                    "Citation": "Kelkar etal. (2020)",
+                    "Dataset": "development set",
+                    "Hardness Level": "All"
+                },
+                "measures": [
+                    "Match Accuracy"
+                ],
+                "outcomes": [
+                    "50.7"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Approach": "ShadowGNN",
+                    "Hardness Level": "Easy",
+                    "Match Accuracy": "87.5%"
+                },
+                "measures": "[Match Accuracy]",
+                "outcomes": "[87.5%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Approaches": "R-GCN",
+                    "Implementation": "Custom",
+                    "Dataset": "development set",
+                    "Hardness Level": "Easy"
+                },
+                "measures": [
+                    "Match Accuracy"
+                ],
+                "outcomes": [
+                    "78.9"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Approach": "R-GCN",
+                    "Citation": "Kelkar etal. (2020)",
+                    "Hardness Level": "Medium",
+                    "Match Accuracy": "54.1%"
+                },
+                "measures": "[Match Accuracy]",
+                "outcomes": "[54.1%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Approaches": "R-GCN",
+                    "Implementation": "Custom",
+                    "Dataset": "development set",
+                    "Hardness Level": "Medium"
+                },
+                "measures": [
+                    "Match Accuracy"
+                ],
+                "outcomes": [
+                    "63.2"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Approach": "R-GCN",
+                    "Implemented By": "us",
+                    "Hardness Level": "Medium",
+                    "Match Accuracy": "63.2%"
+                },
+                "measures": "[Match Accuracy]",
+                "outcomes": "[63.2%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Approaches": "R-GCN",
+                    "Implementation": "Custom",
+                    "Dataset": "development set",
+                    "Hardness Level": "Hard"
+                },
+                "measures": [
+                    "Match Accuracy"
+                ],
+                "outcomes": [
+                    "46.6"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Approach": "R-GCN+RAT",
+                    "Hardness Level": "Medium",
+                    "Match Accuracy": "70.9%"
+                },
+                "measures": "[Match Accuracy]",
+                "outcomes": "[70.9%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Approaches": "R-GCN",
+                    "Implementation": "Custom",
+                    "Dataset": "development set",
+                    "Hardness Level": "Extra Hard"
+                },
+                "measures": [
+                    "Match Accuracy"
+                ],
+                "outcomes": [
+                    "29.8"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Approach": "GPNN",
+                    "Hardness Level": "Medium",
+                    "Match Accuracy": "74.9%"
+                },
+                "measures": "[Match Accuracy]",
+                "outcomes": "[74.9%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Approaches": "R-GCN",
+                    "Implementation": "Custom",
+                    "Dataset": "development set",
+                    "Hardness Level": "All"
+                },
+                "measures": [
+                    "Match Accuracy"
+                ],
+                "outcomes": [
+                    "58.7"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Approach": "RATSQL",
+                    "Implemented By": "us",
+                    "Hardness Level": "Medium",
+                    "Match Accuracy": "74.9%"
+                },
+                "measures": "[Match Accuracy]",
+                "outcomes": "[74.9%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Approaches": "R-GCN+RAT",
+                    "Dataset": "development set",
+                    "Hardness Level": "Easy"
+                },
+                "measures": [
+                    "Match Accuracy"
+                ],
+                "outcomes": [
+                    "85.0"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Approach": "ShadowGNN",
+                    "Hardness Level": "Medium",
+                    "Match Accuracy": "78.0%"
+                },
+                "measures": "[Match Accuracy]",
+                "outcomes": "[78.0%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Approaches": "R-GCN+RAT",
+                    "Dataset": "development set",
+                    "Hardness Level": "Medium"
+                },
+                "measures": [
+                    "Match Accuracy"
+                ],
+                "outcomes": [
+                    "70.9"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Approach": "R-GCN",
+                    "Citation": "Kelkar etal. (2020)",
+                    "Hardness Level": "Hard",
+                    "Match Accuracy": "35.6%"
+                },
+                "measures": "[Match Accuracy]",
+                "outcomes": "[35.6%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Approaches": "R-GCN+RAT",
+                    "Dataset": "development set",
+                    "Hardness Level": "Hard"
+                },
+                "measures": [
+                    "Match Accuracy"
+                ],
+                "outcomes": [
+                    "56.3"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Approach": "R-GCN",
+                    "Implemented By": "us",
+                    "Hardness Level": "Hard",
+                    "Match Accuracy": "46.6%"
+                },
+                "measures": "[Match Accuracy]",
+                "outcomes": "[46.6%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Approaches": "R-GCN+RAT",
+                    "Dataset": "development set",
+                    "Hardness Level": "Extra Hard"
+                },
+                "measures": [
+                    "Match Accuracy"
+                ],
+                "outcomes": [
+                    "32.7"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Approach": "R-GCN+RAT",
+                    "Hardness Level": "Hard",
+                    "Match Accuracy": "56.3%"
+                },
+                "measures": "[Match Accuracy]",
+                "outcomes": "[56.3%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Approaches": "R-GCN+RAT",
+                    "Dataset": "development set",
+                    "Hardness Level": "All"
+                },
+                "measures": [
+                    "Match Accuracy"
+                ],
+                "outcomes": [
+                    "65.6"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Approach": "GPNN",
+                    "Hardness Level": "Hard",
+                    "Match Accuracy": "59.2%"
+                },
+                "measures": "[Match Accuracy]",
+                "outcomes": "[59.2%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Approaches": "GPNN",
+                    "Dataset": "development set",
+                    "Hardness Level": "Easy"
+                },
+                "measures": [
+                    "Match Accuracy"
+                ],
+                "outcomes": [
+                    "87.5"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Approach": "RATSQL",
+                    "Implemented By": "us",
+                    "Hardness Level": "Hard",
+                    "Match Accuracy": "57.5%"
+                },
+                "measures": "[Match Accuracy]",
+                "outcomes": "[57.5%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Approaches": "GPNN",
+                    "Dataset": "development set",
+                    "Hardness Level": "Medium"
+                },
+                "measures": [
+                    "Match Accuracy"
+                ],
+                "outcomes": [
+                    "74.9"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Approach": "ShadowGNN",
+                    "Hardness Level": "Hard",
+                    "Match Accuracy": "61.5%"
+                },
+                "measures": "[Match Accuracy]",
+                "outcomes": "[61.5%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Approaches": "GPNN",
+                    "Dataset": "development set",
+                    "Hardness Level": "Hard"
+                },
+                "measures": [
+                    "Match Accuracy"
+                ],
+                "outcomes": [
+                    "59.2"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Approach": "R-GCN",
+                    "Citation": "Kelkar etal. (2020)",
+                    "Hardness Level": "Extra Hard",
+                    "Match Accuracy": "28.2%"
+                },
+                "measures": "[Match Accuracy]",
+                "outcomes": "[28.2%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Approaches": "GPNN",
+                    "Dataset": "development set",
+                    "Hardness Level": "Extra Hard"
+                },
+                "measures": [
+                    "Match Accuracy"
+                ],
+                "outcomes": [
+                    "41.6"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Approach": "R-GCN",
+                    "Implemented By": "us",
+                    "Hardness Level": "Extra Hard",
+                    "Match Accuracy": "29.8%"
+                },
+                "measures": "[Match Accuracy]",
+                "outcomes": "[29.8%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Approaches": "GPNN",
+                    "Dataset": "development set",
+                    "Hardness Level": "All"
+                },
+                "measures": [
+                    "Match Accuracy"
+                ],
+                "outcomes": [
+                    "69.9"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Approach": "R-GCN+RAT",
+                    "Hardness Level": "Extra Hard",
+                    "Match Accuracy": "32.7%"
+                },
+                "measures": "[Match Accuracy]",
+                "outcomes": "[32.7%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Approaches": "RATSQL",
+                    "Implementation": "Custom",
+                    "Dataset": "development set",
+                    "Hardness Level": "Easy"
+                },
+                "measures": [
+                    "Match Accuracy"
+                ],
+                "outcomes": [
+                    "87.1"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Approach": "GPNN",
+                    "Hardness Level": "Extra Hard",
+                    "Match Accuracy": "41.6%"
+                },
+                "measures": "[Match Accuracy]",
+                "outcomes": "[41.6%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Approaches": "RATSQL",
+                    "Implementation": "Custom",
+                    "Dataset": "development set",
+                    "Hardness Level": "Medium"
+                },
+                "measures": [
+                    "Match Accuracy"
+                ],
+                "outcomes": [
+                    "74.9"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Approach": "RATSQL",
+                    "Implemented By": "us",
+                    "Hardness Level": "Extra Hard",
+                    "Match Accuracy": "46.4%"
+                },
+                "measures": "[Match Accuracy]",
+                "outcomes": "[46.4%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Approaches": "RATSQL",
+                    "Implementation": "Custom",
+                    "Dataset": "development set",
+                    "Hardness Level": "Hard"
+                },
+                "measures": [
+                    "Match Accuracy"
+                ],
+                "outcomes": [
+                    "57.5"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Approach": "ShadowGNN",
+                    "Hardness Level": "Extra Hard",
+                    "Match Accuracy": "45.8%"
+                },
+                "measures": "[Match Accuracy]",
+                "outcomes": "[45.8%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Approaches": "RATSQL",
+                    "Implementation": "Custom",
+                    "Dataset": "development set",
+                    "Hardness Level": "Extra Hard"
+                },
+                "measures": [
+                    "Match Accuracy"
+                ],
+                "outcomes": [
+                    "46.4"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Approach": "R-GCN",
+                    "Citation": "Kelkar etal. (2020)",
+                    "Hardness Level": "All",
+                    "Match Accuracy": "50.7%"
+                },
+                "measures": "[Match Accuracy]",
+                "outcomes": "[50.7%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Approaches": "RATSQL",
+                    "Implementation": "Custom",
+                    "Dataset": "development set",
+                    "Hardness Level": "All"
+                },
+                "measures": [
+                    "Match Accuracy"
+                ],
+                "outcomes": [
+                    "70.2"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Approach": "R-GCN",
+                    "Implemented By": "us",
+                    "Hardness Level": "All",
+                    "Match Accuracy": "58.7%"
+                },
+                "measures": "[Match Accuracy]",
+                "outcomes": "[58.7%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Approaches": "ShadowGNN",
+                    "Dataset": "development set",
+                    "Hardness Level": "Easy"
+                },
+                "measures": [
+                    "Match Accuracy"
+                ],
+                "outcomes": [
+                    "87.5"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Approach": "R-GCN+RAT",
+                    "Hardness Level": "All",
+                    "Match Accuracy": "65.6%"
+                },
+                "measures": "[Match Accuracy]",
+                "outcomes": "[65.6%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Approaches": "ShadowGNN",
+                    "Dataset": "development set",
+                    "Hardness Level": "Medium"
+                },
+                "measures": [
+                    "Match Accuracy"
+                ],
+                "outcomes": [
+                    "78.0"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Approach": "GPNN",
+                    "Hardness Level": "All",
+                    "Match Accuracy": "69.9%"
+                },
+                "measures": "[Match Accuracy]",
+                "outcomes": "[69.9%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Approaches": "ShadowGNN",
+                    "Dataset": "development set",
+                    "Hardness Level": "Hard"
+                },
+                "measures": [
+                    "Match Accuracy"
+                ],
+                "outcomes": [
+                    "61.5"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Approach": "RATSQL",
+                    "Implemented By": "us",
+                    "Hardness Level": "All",
+                    "Match Accuracy": "70.2%"
+                },
+                "measures": "[Match Accuracy]",
+                "outcomes": "[70.2%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Approaches": "ShadowGNN",
+                    "Dataset": "development set",
+                    "Hardness Level": "Extra Hard"
+                },
+                "measures": [
+                    "Match Accuracy"
+                ],
+                "outcomes": [
+                    "45.8"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Approach": "ShadowGNN",
+                    "Hardness Level": "All",
+                    "Match Accuracy": "72.3%"
+                },
+                "measures": "[Match Accuracy]",
+                "outcomes": "[72.3%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Approaches": "ShadowGNN",
+                    "Dataset": "development set",
+                    "Hardness Level": "All"
+                },
+                "measures": [
+                    "Match Accuracy"
+                ],
+                "outcomes": [
+                    "72.3"
+                ]
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 30,
+    "total_ground_truth_claims": 30,
+    "number_of_matches": 30
+}

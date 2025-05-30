@@ -1,0 +1,151 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Tumor tissue sample": "Cytoplasmic CDH1 Low",
+                    "Nuclear HDAC3": "Low and High",
+                    "Correlation coefficient": "0.440",
+                    "P-value": "< 0.001"
+                },
+                "measures": "[Correlation coefficient]",
+                "outcomes": "[0.440]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Analysis": "Association between nuclear HDAC3 and cytoplasmic CDH1 expression",
+                    "Tumor tissue sample": "Cytoplasmic CDH1 Low",
+                    "Nuclear HDAC3 expression": "Low",
+                    "Tumor tissue sample count": "34",
+                    "Correlation measure": "Spearman correlation coefficient"
+                },
+                "measures": "[Spearman correlation coefficient]",
+                "outcomes": "[0.440]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Tumor tissue sample": "Cytoplasmic CDH1 High",
+                    "Nuclear HDAC3": "Low and High",
+                    "Correlation coefficient": "0.440",
+                    "P-value": "< 0.001"
+                },
+                "measures": "[Correlation coefficient]",
+                "outcomes": "[0.440]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Analysis": "Association between nuclear HDAC3 and cytoplasmic CDH1 expression",
+                    "Tumor tissue sample": "Cytoplasmic CDH1 Low",
+                    "Nuclear HDAC3 expression": "High",
+                    "Tumor tissue sample count": "22",
+                    "Correlation measure": "Spearman correlation coefficient"
+                },
+                "measures": "[Spearman correlation coefficient, P-value]",
+                "outcomes": "[0.440, < 0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Tumor tissue sample": "Cytoplasmic CDH1 High",
+                    "Nuclear HDAC3": "Low and High",
+                    "Correlation coefficient": "0.440",
+                    "P-value": "< 0.001"
+                },
+                "measures": "[Correlation coefficient]",
+                "outcomes": "[0.440]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Analysis": "Association between nuclear HDAC3 and cytoplasmic CDH1 expression",
+                    "Tumor tissue sample": "Cytoplasmic CDH1 High",
+                    "Nuclear HDAC3 expression": "Low",
+                    "Tumor tissue sample count": "4",
+                    "Correlation measure": "Spearman correlation coefficient"
+                },
+                "measures": "[Spearman correlation coefficient, P-value]",
+                "outcomes": "[0.440, < 0.001]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "CDH1 expression location": "Membrane",
+                    "HDAC3 expression location": "Nuclear",
+                    "Correlation coefficient": "-0.348",
+                    "P-value": "0.001"
+                },
+                "measures": "[Correlation coefficient]",
+                "outcomes": "[-0.348]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Analysis": "Association between nuclear HDAC3 and cytoplasmic CDH1 expression",
+                    "Tumor tissue sample": "Cytoplasmic CDH1 Low",
+                    "Nuclear HDAC3 expression": "High",
+                    "Tumor tissue sample count": "22",
+                    "Correlation measure": "Spearman correlation coefficient"
+                },
+                "measures": "[Spearman correlation coefficient, P-value]",
+                "outcomes": "[0.440, < 0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "CDH1 expression location": "Membrane",
+                    "HDAC3 expression location": "Nuclear",
+                    "Correlation coefficient": "-0.348",
+                    "P-value": "0.001"
+                },
+                "measures": "[Correlation coefficient]",
+                "outcomes": "[-0.348]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Analysis": "Association between nuclear HDAC3 and cytoplasmic CDH1 expression",
+                    "Tumor tissue sample": "Cytoplasmic CDH1 High",
+                    "Nuclear HDAC3 expression": "High",
+                    "Tumor tissue sample count": "24",
+                    "Correlation measure": "Spearman correlation coefficient"
+                },
+                "measures": "[Spearman correlation coefficient, P-value]",
+                "outcomes": "[0.440, < 0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "CDH1 expression location": "Cytoplasmic",
+                    "HDAC3 expression location": "Nuclear",
+                    "Correlation coefficient": "0.440",
+                    "P-value": "< 0.001"
+                },
+                "measures": "[Correlation coefficient]",
+                "outcomes": "[0.440]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Analysis": "Association between nuclear HDAC3 and cytoplasmic CDH1 expression",
+                    "Tumor tissue sample": "Cytoplasmic CDH1 Low",
+                    "Nuclear HDAC3 expression": "High",
+                    "Tumor tissue sample count": "22",
+                    "Correlation measure": "Spearman correlation coefficient"
+                },
+                "measures": "[Spearman correlation coefficient, P-value]",
+                "outcomes": "[0.440, < 0.001]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 4,
+    "total_ground_truth_claims": 4,
+    "number_of_matches": 3
+}

@@ -1,0 +1,79 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "syndrome": "Lynch Syndrome",
+                    "mutated gene": "Mismatch Repair Genes (MMR): MLH1, MSH2, MSH6 and PMS2",
+                    "category": "Inherited pancreatic cancer syndromes"
+                },
+                "measures": "[]",
+                "outcomes": "[]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Inherited Syndrome": "Lynch Syndrome",
+                    "Mutated Gene": ", Mismatch Repair Genes (MMR): MLH1, MSH2, MSH6 and PMS2"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "syndrome": "Peutz-Jeghers Syndrome",
+                    "mutated gene": "STK11/LKB1",
+                    "category": "Inherited pancreatic cancer syndromes"
+                },
+                "measures": "[]",
+                "outcomes": "[]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Inherited Syndrome": "Peutz-Jeghers Syndrome",
+                    "Mutated Gene": "STK11/LKB1"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "syndrome": "Hereditary Breast Cancer",
+                    "mutated gene": "BRCA1/BRCA2",
+                    "category": "Inherited pancreatic cancer syndromes"
+                },
+                "measures": "[]",
+                "outcomes": "[]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Inherited Syndrome": "Hereditary Breast Cancer",
+                    "Mutated Gene": "BRCA1/BRCA2"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "syndrome": "Familial Atypical Multiple Mole Melanoma",
+                    "mutated gene": "CDKN2A mutation",
+                    "category": "Inherited pancreatic cancer syndromes"
+                },
+                "measures": "[]",
+                "outcomes": "[]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Inherited Syndrome": "Familial Atypical Multiple Mole Melanoma",
+                    "Mutated Gene": "CDKN2A mutation"
+                }
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 4,
+    "total_ground_truth_claims": 4,
+    "number_of_matches": 4
+}

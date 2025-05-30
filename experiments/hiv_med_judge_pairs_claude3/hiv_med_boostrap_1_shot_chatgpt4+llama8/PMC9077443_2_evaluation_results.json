@@ -1,0 +1,646 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Group": "Overall",
+                    "Intervention": "Cabotegravir",
+                    "Comparator": "TDF-FTC (tenofovir disoproxil fumarate plus emtricitabine)",
+                    "Events per total PY in cabotegravir group": "4/1956 (0\u00b720%)",
+                    "Events per total PY in TDF-FTC group": "36/1942 (1\u00b785%)",
+                    "HR (hazard ratio)": "0\u00b712 (0\u00b705\u20130\u00b731)",
+                    "p value": "<0\u00b70001",
+                    "Endpoint": "HIV incidence",
+                    "Analysis": "ITT",
+                    "Dataset": "40 HIV infections"
+                },
+                "measures": "[HR]",
+                "outcomes": "[0\u00b712]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Overall",
+                    "Events per total PY in cabotegravir group": "4/1956 (0.20%)",
+                    "Events per total PY in TDF-FTC group": "36/1942 (1.85%)",
+                    "Method": "Median unbiased estimate HR (95% CI) for cabotegravir versus TDF-FTC overall displayed"
+                },
+                "measures": "[HR, 95% CI, p value]",
+                "outcomes": "[0.12, 0.05-0.31, <0.0001]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Group": "Age",
+                    "Intervention": "Cabotegravir",
+                    "Comparator": "TDF-FTC (tenofovir disoproxil fumarate plus emtricitabine)",
+                    "HR (hazard ratio)": ".",
+                    "p value": "0\u00b753",
+                    "Endpoint": "HIV incidence",
+                    "Analysis": "ITT",
+                    "Dataset": "40 HIV infections"
+                },
+                "measures": "[]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Age <25 years",
+                    "Events per total PY in cabotegravir group": "3/866 (0.35%)",
+                    "Events per total PY in TDF-FTC group": "20/851 (2.34%)",
+                    "Method": "Standard estimation method (no indication of zero infections)"
+                },
+                "measures": "[HR, 95% CI, p value]",
+                "outcomes": "[0.17, 0.05-0.54, 0.53]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Group": "Age",
+                    "Intervention": "Cabotegravir",
+                    "Comparator": "TDF-FTC (tenofovir disoproxil fumarate plus emtricitabine)",
+                    "HR (hazard ratio)": ".",
+                    "p value": "0\u00b753",
+                    "Endpoint": "HIV incidence",
+                    "Analysis": "ITT",
+                    "Dataset": "40 HIV infections"
+                },
+                "measures": "[]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Age \u226525 years",
+                    "Events per total PY in cabotegravir group": "1/1090 (0.09%)",
+                    "Events per total PY in TDF-FTC group": "16/1091 (1.47%)",
+                    "Method": "Standard estimation method (no indication of zero infections)"
+                },
+                "measures": "[HR, 95% CI]",
+                "outcomes": "[0.09, 0.02-0.49]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Group": "Age",
+                    "Intervention": "Cabotegravir",
+                    "Comparator": "TDF-FTC (tenofovir disoproxil fumarate plus emtricitabine)",
+                    "HR (hazard ratio)": ".",
+                    "p value": "0\u00b753",
+                    "Endpoint": "HIV incidence",
+                    "Analysis": "ITT",
+                    "Dataset": "40 HIV infections"
+                },
+                "measures": "[]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "DMPA contraceptive method",
+                    "Events per total PY in cabotegravir group": "3/1009 (0.30%)",
+                    "Events per total PY in TDF-FTC group": "21/1000 (2.10%)",
+                    "Method": "Standard estimation method (no indication of zero infections)"
+                },
+                "measures": "[HR, 95% CI]",
+                "outcomes": "[0.16, 0.05-0.53]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Group": "Age",
+                    "Intervention": "Cabotegravir",
+                    "Comparator": "TDF-FTC (tenofovir disoproxil fumarate plus emtricitabine)",
+                    "HR (hazard ratio)": ".",
+                    "p value": "0\u00b753",
+                    "Endpoint": "HIV incidence",
+                    "Analysis": "ITT",
+                    "Dataset": "40 HIV infections"
+                },
+                "measures": "[]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "NET-EN contraceptive method",
+                    "Events per total PY in cabotegravir group": "1/175 (0.57%)",
+                    "Events per total PY in TDF-FTC group": "6/182 (3.30%)",
+                    "Method": "Standard estimation method (no indication of zero infections)"
+                },
+                "measures": "[HR, 95% CI]",
+                "outcomes": "[0.22, 0.03-1.48]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Group": "Age",
+                    "Intervention": "Cabotegravir",
+                    "Comparator": "TDF-FTC (tenofovir disoproxil fumarate plus emtricitabine)",
+                    "HR (hazard ratio)": ".",
+                    "p value": "0\u00b753",
+                    "Endpoint": "HIV incidence",
+                    "Analysis": "ITT",
+                    "Dataset": "40 HIV infections"
+                },
+                "measures": "[]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Implant contraceptive method",
+                    "Events per total PY in cabotegravir group": "0",
+                    "Events per total PY in TDF-FTC group": "8/607 (1.32%)",
+                    "Method": "Firth's method used due to zero infections in cabotegravir group"
+                },
+                "measures": "[HR, 95% CI]",
+                "outcomes": "[0.06, 0.00-1.16]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Group": "Age",
+                    "Intervention": "Cabotegravir",
+                    "Comparator": "TDF-FTC (tenofovir disoproxil fumarate plus emtricitabine)",
+                    "HR (hazard ratio)": ".",
+                    "p value": "0\u00b753",
+                    "Endpoint": "HIV incidence",
+                    "Analysis": "ITT",
+                    "Dataset": "40 HIV infections"
+                },
+                "measures": "[]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Other contraceptive method",
+                    "Events per total PY in cabotegravir group": "0",
+                    "Events per total PY in TDF-FTC group": "1/152 (0.66%)",
+                    "Method": "Firth's method used due to zero infections in cabotegravir group"
+                },
+                "measures": "[HR, 95% CI]",
+                "outcomes": "[0.32, 0.01-9.89]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Group": "Age",
+                    "Intervention": "Cabotegravir",
+                    "Comparator": "TDF-FTC (tenofovir disoproxil fumarate plus emtricitabine)",
+                    "HR (hazard ratio)": ".",
+                    "p value": "0\u00b753",
+                    "Endpoint": "HIV incidence",
+                    "Analysis": "ITT",
+                    "Dataset": "40 HIV infections"
+                },
+                "measures": "[]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "BMI \u226430 kg/m\u00b2",
+                    "Events per total PY in cabotegravir group": "4/1389 (0.29%)",
+                    "Events per total PY in TDF-FTC group": "27/1447 (1.87%)",
+                    "Method": "Standard estimation method (no indication of zero infections)"
+                },
+                "measures": "[HR, 95% CI]",
+                "outcomes": "[0.16, 0.06-0.45]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Group": "Age",
+                    "Intervention": "Cabotegravir",
+                    "Comparator": "TDF-FTC (tenofovir disoproxil fumarate plus emtricitabine)",
+                    "HR (hazard ratio)": ".",
+                    "p value": "0\u00b753",
+                    "Endpoint": "HIV incidence",
+                    "Analysis": "ITT",
+                    "Dataset": "40 HIV infections"
+                },
+                "measures": "[]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "BMI >30 kg/m\u00b2",
+                    "Events per total PY in cabotegravir group": "0",
+                    "Events per total PY in TDF-FTC group": "9/495 (1.82%)",
+                    "Method": "Firth's method used due to zero infections in cabotegravir group"
+                },
+                "measures": "[HR, 95% CI]",
+                "outcomes": "[0.05, 0.00-0.96]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Group": "Age <25 years",
+                    "Intervention": "Cabotegravir",
+                    "Comparator": "TDF-FTC (tenofovir disoproxil fumarate plus emtricitabine)",
+                    "Events per total PY in cabotegravir group": "3/866 (0\u00b735%)",
+                    "Events per total PY in TDF-FTC group": "20/851 (2\u00b734%)",
+                    "HR (hazard ratio)": "0\u00b717 (0\u00b705\u20130\u00b754)",
+                    "p value": ".",
+                    "Endpoint": "HIV incidence",
+                    "Analysis": "ITT",
+                    "Dataset": "40 HIV infections"
+                },
+                "measures": "[HR]",
+                "outcomes": "[0\u00b717]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Age <25 years",
+                    "Events per total PY in cabotegravir group": "3/866 (0.35%)",
+                    "Events per total PY in TDF-FTC group": "20/851 (2.34%)",
+                    "Method": "Standard estimation method (no indication of zero infections)"
+                },
+                "measures": "[HR, 95% CI, p value]",
+                "outcomes": "[0.17, 0.05-0.54, 0.53]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Group": "Age \u226525 years",
+                    "Intervention": "Cabotegravir",
+                    "Comparator": "TDF-FTC (tenofovir disoproxil fumarate plus emtricitabine)",
+                    "Events per total PY in cabotegravir group": "1/1090 (0\u00b709%)",
+                    "Events per total PY in TDF-FTC group": "16/1091 (1\u00b747%)",
+                    "HR (hazard ratio)": "0\u00b709 (0\u00b702\u20130\u00b749)",
+                    "p value": ".",
+                    "Endpoint": "HIV incidence",
+                    "Analysis": "ITT",
+                    "Dataset": "40 HIV infections"
+                },
+                "measures": "[HR]",
+                "outcomes": "[0\u00b709]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Age \u226525 years",
+                    "Events per total PY in cabotegravir group": "1/1090 (0.09%)",
+                    "Events per total PY in TDF-FTC group": "16/1091 (1.47%)",
+                    "Method": "Standard estimation method (no indication of zero infections)"
+                },
+                "measures": "[HR, 95% CI]",
+                "outcomes": "[0.09, 0.02-0.49]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Group": "Contraceptive method",
+                    "Intervention": "Cabotegravir",
+                    "Comparator": "TDF-FTC (tenofovir disoproxil fumarate plus emtricitabine)",
+                    "HR (hazard ratio)": ".",
+                    "p value": "0\u00b787",
+                    "Endpoint": "HIV incidence",
+                    "Analysis": "ITT",
+                    "Dataset": "40 HIV infections"
+                },
+                "measures": "[]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "DMPA contraceptive method",
+                    "Events per total PY in cabotegravir group": "3/1009 (0.30%)",
+                    "Events per total PY in TDF-FTC group": "21/1000 (2.10%)",
+                    "Method": "Standard estimation method (no indication of zero infections)"
+                },
+                "measures": "[HR, 95% CI]",
+                "outcomes": "[0.16, 0.05-0.53]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Group": "Contraceptive method",
+                    "Intervention": "Cabotegravir",
+                    "Comparator": "TDF-FTC (tenofovir disoproxil fumarate plus emtricitabine)",
+                    "HR (hazard ratio)": ".",
+                    "p value": "0\u00b787",
+                    "Endpoint": "HIV incidence",
+                    "Analysis": "ITT",
+                    "Dataset": "40 HIV infections"
+                },
+                "measures": "[]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "NET-EN contraceptive method",
+                    "Events per total PY in cabotegravir group": "1/175 (0.57%)",
+                    "Events per total PY in TDF-FTC group": "6/182 (3.30%)",
+                    "Method": "Standard estimation method (no indication of zero infections)"
+                },
+                "measures": "[HR, 95% CI]",
+                "outcomes": "[0.22, 0.03-1.48]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Group": "Contraceptive method",
+                    "Intervention": "Cabotegravir",
+                    "Comparator": "TDF-FTC (tenofovir disoproxil fumarate plus emtricitabine)",
+                    "HR (hazard ratio)": ".",
+                    "p value": "0\u00b787",
+                    "Endpoint": "HIV incidence",
+                    "Analysis": "ITT",
+                    "Dataset": "40 HIV infections"
+                },
+                "measures": "[]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Implant contraceptive method",
+                    "Events per total PY in cabotegravir group": "0",
+                    "Events per total PY in TDF-FTC group": "8/607 (1.32%)",
+                    "Method": "Firth's method used due to zero infections in cabotegravir group"
+                },
+                "measures": "[HR, 95% CI]",
+                "outcomes": "[0.06, 0.00-1.16]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Group": "Contraceptive method",
+                    "Intervention": "Cabotegravir",
+                    "Comparator": "TDF-FTC (tenofovir disoproxil fumarate plus emtricitabine)",
+                    "HR (hazard ratio)": ".",
+                    "p value": "0\u00b787",
+                    "Endpoint": "HIV incidence",
+                    "Analysis": "ITT",
+                    "Dataset": "40 HIV infections"
+                },
+                "measures": "[]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Other contraceptive method",
+                    "Events per total PY in cabotegravir group": "0",
+                    "Events per total PY in TDF-FTC group": "1/152 (0.66%)",
+                    "Method": "Firth's method used due to zero infections in cabotegravir group"
+                },
+                "measures": "[HR, 95% CI]",
+                "outcomes": "[0.32, 0.01-9.89]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Group": "Contraceptive method",
+                    "Intervention": "Cabotegravir",
+                    "Comparator": "TDF-FTC (tenofovir disoproxil fumarate plus emtricitabine)",
+                    "HR (hazard ratio)": ".",
+                    "p value": "0\u00b787",
+                    "Endpoint": "HIV incidence",
+                    "Analysis": "ITT",
+                    "Dataset": "40 HIV infections"
+                },
+                "measures": "[]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "BMI \u226430 kg/m\u00b2",
+                    "Events per total PY in cabotegravir group": "4/1389 (0.29%)",
+                    "Events per total PY in TDF-FTC group": "27/1447 (1.87%)",
+                    "Method": "Standard estimation method (no indication of zero infections)"
+                },
+                "measures": "[HR, 95% CI]",
+                "outcomes": "[0.16, 0.06-0.45]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Group": "Contraceptive method",
+                    "Intervention": "Cabotegravir",
+                    "Comparator": "TDF-FTC (tenofovir disoproxil fumarate plus emtricitabine)",
+                    "HR (hazard ratio)": ".",
+                    "p value": "0\u00b787",
+                    "Endpoint": "HIV incidence",
+                    "Analysis": "ITT",
+                    "Dataset": "40 HIV infections"
+                },
+                "measures": "[]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "BMI >30 kg/m\u00b2",
+                    "Events per total PY in cabotegravir group": "0",
+                    "Events per total PY in TDF-FTC group": "9/495 (1.82%)",
+                    "Method": "Firth's method used due to zero infections in cabotegravir group"
+                },
+                "measures": "[HR, 95% CI]",
+                "outcomes": "[0.05, 0.00-0.96]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Group": "Contraceptive method DMPA",
+                    "Intervention": "Cabotegravir",
+                    "Comparator": "TDF-FTC (tenofovir disoproxil fumarate plus emtricitabine)",
+                    "Events per total PY in cabotegravir group": "3/1009 (0\u00b730%)",
+                    "Events per total PY in TDF-FTC group": "21/1000 (2\u00b710%)",
+                    "HR (hazard ratio)": "0\u00b716 (0\u00b705\u20130\u00b753)",
+                    "p value": ".",
+                    "Endpoint": "HIV incidence",
+                    "Analysis": "ITT",
+                    "Dataset": "40 HIV infections"
+                },
+                "measures": "[HR]",
+                "outcomes": "[0\u00b716]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "DMPA contraceptive method",
+                    "Events per total PY in cabotegravir group": "3/1009 (0.30%)",
+                    "Events per total PY in TDF-FTC group": "21/1000 (2.10%)",
+                    "Method": "Standard estimation method (no indication of zero infections)"
+                },
+                "measures": "[HR, 95% CI]",
+                "outcomes": "[0.16, 0.05-0.53]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Group": "Contraceptive method NET-EN",
+                    "Intervention": "Cabotegravir",
+                    "Comparator": "TDF-FTC (tenofovir disoproxil fumarate plus emtricitabine)",
+                    "Events per total PY in cabotegravir group": "1/175 (0\u00b757%)",
+                    "Events per total PY in TDF-FTC group": "6/182 (3\u00b730%)",
+                    "HR (hazard ratio)": "0\u00b722 (0\u00b703\u20131\u00b748)",
+                    "p value": ".",
+                    "Endpoint": "HIV incidence",
+                    "Analysis": "ITT",
+                    "Dataset": "40 HIV infections"
+                },
+                "measures": "[HR]",
+                "outcomes": "[0\u00b722]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "NET-EN contraceptive method",
+                    "Events per total PY in cabotegravir group": "1/175 (0.57%)",
+                    "Events per total PY in TDF-FTC group": "6/182 (3.30%)",
+                    "Method": "Standard estimation method (no indication of zero infections)"
+                },
+                "measures": "[HR, 95% CI]",
+                "outcomes": "[0.22, 0.03-1.48]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Group": "Contraceptive method Implant",
+                    "Intervention": "Cabotegravir",
+                    "Comparator": "TDF-FTC (tenofovir disoproxil fumarate plus emtricitabine)",
+                    "Events per total PY in cabotegravir group": "0",
+                    "Events per total PY in TDF-FTC group": "8/607 (1\u00b732%)",
+                    "HR (hazard ratio)": "0\u00b706 (0\u00b700\u20131\u00b716)",
+                    "p value": ".",
+                    "Endpoint": "HIV incidence",
+                    "Analysis": "ITT",
+                    "Dataset": "40 HIV infections"
+                },
+                "measures": "[HR]",
+                "outcomes": "[0\u00b706]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Implant contraceptive method",
+                    "Events per total PY in cabotegravir group": "0",
+                    "Events per total PY in TDF-FTC group": "8/607 (1.32%)",
+                    "Method": "Firth's method used due to zero infections in cabotegravir group"
+                },
+                "measures": "[HR, 95% CI]",
+                "outcomes": "[0.06, 0.00-1.16]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Group": "Contraceptive method Other",
+                    "Intervention": "Cabotegravir",
+                    "Comparator": "TDF-FTC (tenofovir disoproxil fumarate plus emtricitabine)",
+                    "Events per total PY in cabotegravir group": "0",
+                    "Events per total PY in TDF-FTC group": "1/152 (0\u00b766%)",
+                    "HR (hazard ratio)": "0\u00b732 (0\u00b701\u20139\u00b789)",
+                    "p value": ".",
+                    "Endpoint": "HIV incidence",
+                    "Analysis": "ITT",
+                    "Dataset": "40 HIV infections"
+                },
+                "measures": "[HR]",
+                "outcomes": "[0\u00b732]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Other contraceptive method",
+                    "Events per total PY in cabotegravir group": "0",
+                    "Events per total PY in TDF-FTC group": "1/152 (0.66%)",
+                    "Method": "Firth's method used due to zero infections in cabotegravir group"
+                },
+                "measures": "[HR, 95% CI]",
+                "outcomes": "[0.32, 0.01-9.89]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Group": "Body-mass index \u226430 kg/m<sup>2</sup>",
+                    "Intervention": "Cabotegravir",
+                    "Comparator": "TDF-FTC (tenofovir disoproxil fumarate plus emtricitabine)",
+                    "Events per total PY in cabotegravir group": "4/1389 (0\u00b729%)",
+                    "Events per total PY in TDF-FTC group": "27/1447 (1\u00b787%)",
+                    "HR (hazard ratio)": "0\u00b716 (0\u00b706\u20130\u00b745)",
+                    "p value": "0\u00b747",
+                    "Endpoint": "HIV incidence",
+                    "Analysis": "ITT",
+                    "Dataset": "40 HIV infections"
+                },
+                "measures": "[HR]",
+                "outcomes": "[0\u00b716]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "BMI \u226430 kg/m\u00b2",
+                    "Events per total PY in cabotegravir group": "4/1389 (0.29%)",
+                    "Events per total PY in TDF-FTC group": "27/1447 (1.87%)",
+                    "Method": "Standard estimation method (no indication of zero infections)"
+                },
+                "measures": "[HR, 95% CI]",
+                "outcomes": "[0.16, 0.06-0.45]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Group": "Body-mass index >30 kg/m<sup>2</sup>",
+                    "Intervention": "Cabotegravir",
+                    "Comparator": "TDF-FTC (tenofovir disoproxil fumarate plus emtricitabine)",
+                    "Events per total PY in cabotegravir group": "0",
+                    "Events per total PY in TDF-FTC group": "9/495 (1\u00b782%)",
+                    "HR (hazard ratio)": "0\u00b705 (0\u00b700\u20130\u00b796)",
+                    "p value": ".",
+                    "Endpoint": "HIV incidence",
+                    "Analysis": "ITT",
+                    "Dataset": "40 HIV infections"
+                },
+                "measures": "[HR]",
+                "outcomes": "[0\u00b705]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "BMI >30 kg/m\u00b2",
+                    "Events per total PY in cabotegravir group": "0",
+                    "Events per total PY in TDF-FTC group": "9/495 (1.82%)",
+                    "Method": "Firth's method used due to zero infections in cabotegravir group"
+                },
+                "measures": "[HR, 95% CI]",
+                "outcomes": "[0.05, 0.00-0.96]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 11,
+    "total_ground_truth_claims": 9,
+    "number_of_matches": 9
+}

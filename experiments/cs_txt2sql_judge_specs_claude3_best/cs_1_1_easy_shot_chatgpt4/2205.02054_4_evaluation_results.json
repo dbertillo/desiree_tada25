@@ -1,0 +1,266 @@
+{
+    "matched_specifications": [
+        [
+            "dataset",
+            "cg-sub_t"
+        ],
+        [
+            "deviation",
+            "<= 1"
+        ],
+        [
+            "split_algorithm",
+            "same"
+        ],
+        [
+            "dataset",
+            "cg-sub_t"
+        ],
+        [
+            "deviation",
+            "<= 2"
+        ],
+        [
+            "split_algorithm",
+            "same"
+        ],
+        [
+            "dataset",
+            "cg-sub_d"
+        ],
+        [
+            "deviation",
+            "<= 1"
+        ],
+        [
+            "split_algorithm",
+            "same"
+        ],
+        [
+            "dataset",
+            "cg-sub_d"
+        ],
+        [
+            "deviation",
+            "<= 2"
+        ],
+        [
+            "split_algorithm",
+            "same"
+        ],
+        [
+            "dataset",
+            "cg-app_t"
+        ],
+        [
+            "deviation",
+            "<= 1"
+        ],
+        [
+            "split_algorithm",
+            "same"
+        ],
+        [
+            "dataset",
+            "cg-app_t"
+        ],
+        [
+            "deviation",
+            "<= 2"
+        ],
+        [
+            "split_algorithm",
+            "same"
+        ],
+        [
+            "dataset",
+            "cg-app_d"
+        ],
+        [
+            "deviation",
+            "<= 1"
+        ],
+        [
+            "split_algorithm",
+            "same"
+        ],
+        [
+            "dataset",
+            "cg-app_d"
+        ],
+        [
+            "deviation",
+            "<= 2"
+        ],
+        [
+            "split_algorithm",
+            "same"
+        ]
+    ],
+    "unmatched_specifications": [
+        [
+            "evaluation_set",
+            "training"
+        ],
+        [
+            "source",
+            "spider-ss"
+        ],
+        [
+            "target",
+            "spider-cg"
+        ],
+        [
+            "context",
+            "similarity between sub-sentences"
+        ],
+        [
+            "evaluation_set",
+            "training"
+        ],
+        [
+            "source",
+            "spider-ss"
+        ],
+        [
+            "target",
+            "spider-cg"
+        ],
+        [
+            "context",
+            "similarity between sub-sentences"
+        ],
+        [
+            "evaluation_set",
+            "development"
+        ],
+        [
+            "source",
+            "spider-ss"
+        ],
+        [
+            "target",
+            "spider-cg"
+        ],
+        [
+            "context",
+            "similarity between sub-sentences"
+        ],
+        [
+            "evaluation_set",
+            "development"
+        ],
+        [
+            "source",
+            "spider-ss"
+        ],
+        [
+            "target",
+            "spider-cg"
+        ],
+        [
+            "context",
+            "similarity between sub-sentences"
+        ],
+        [
+            "evaluation_set",
+            "training"
+        ],
+        [
+            "source",
+            "spider-ss"
+        ],
+        [
+            "target",
+            "spider-cg"
+        ],
+        [
+            "context",
+            "similarity between sub-sentences"
+        ],
+        [
+            "evaluation_set",
+            "training"
+        ],
+        [
+            "source",
+            "spider-ss"
+        ],
+        [
+            "target",
+            "spider-cg"
+        ],
+        [
+            "context",
+            "similarity between sub-sentences"
+        ],
+        [
+            "evaluation_set",
+            "development"
+        ],
+        [
+            "source",
+            "spider-ss"
+        ],
+        [
+            "target",
+            "spider-cg"
+        ],
+        [
+            "context",
+            "similarity between sub-sentences"
+        ],
+        [
+            "evaluation_set",
+            "development"
+        ],
+        [
+            "source",
+            "spider-ss"
+        ],
+        [
+            "target",
+            "spider-cg"
+        ],
+        [
+            "context",
+            "similarity between sub-sentences"
+        ]
+    ],
+    "unmatched_extracted_keys": [
+        "target",
+        "source",
+        "context",
+        "evaluation_set"
+    ],
+    "unmatched_extracted_values": [
+        "spider-ss",
+        "training",
+        "development",
+        "spider-cg"
+    ],
+    "unmatched_ground_truth_keys": [
+        "sentence type",
+        "comparison"
+    ],
+    "unmatched_ground_truth_values": [
+        "spider-ss and spider-cg"
+    ],
+    "mapped_keys": {
+        "deviation": "deviation",
+        "dataset": "dataset",
+        "split_algorithm": "split algorithm"
+    },
+    "mapped_values": {
+        "cg-app_d": "cg-app_d",
+        "cg-app_t": "cg-app_t",
+        "cg-sub_d": "cg-sub_d",
+        "same": "same",
+        "cg-sub_t": "cg-sub_t",
+        "<= 1": "<=1",
+        "similarity between sub-sentences": "sub-sentences",
+        "<= 2": "<=2"
+    },
+    "precision": 0.42857142857142855,
+    "recall": 0.6
+}

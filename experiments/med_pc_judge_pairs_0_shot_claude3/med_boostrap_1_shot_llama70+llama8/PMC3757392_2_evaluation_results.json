@@ -1,0 +1,266 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "vector": "C595:MUC1",
+                    "cell line": "Capan-1",
+                    "analysis": "Comparison of cell line properties",
+                    "ICC": "++",
+                    "Flow": "40",
+                    "Confocal": "++",
+                    "Do": "170"
+                },
+                "measures": "[ICC, Flow, Confocal, Do]",
+                "outcomes": "[++, 40, ++, 170]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "vector": "C595:MUC1",
+                    "cell line": "Capan-1"
+                },
+                "measures": "[ICC (immunocytochemistry), flow cytometry, confocal microscopy, Do (kBq)]",
+                "outcomes": "[++, 40, ++, 170]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "vector": "",
+                    "cell line": "Cfpac-1",
+                    "analysis": "Comparison of cell line properties",
+                    "ICC": "+++",
+                    "Flow": "500",
+                    "Confocal": "+++",
+                    "Do": "140"
+                },
+                "measures": "[ICC, Flow, Confocal, Do]",
+                "outcomes": "[+++, 500, +++, 140]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "vector": "C595:MUC1",
+                    "cell line": "Cfpac-1"
+                },
+                "measures": "[ICC (immunocytochemistry), flow cytometry, confocal microscopy, Do (kBq)]",
+                "outcomes": "[+++, 500, +++, 140]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "vector": "",
+                    "cell line": "Panc-1",
+                    "analysis": "Comparison of cell line properties",
+                    "ICC": "+++",
+                    "Flow": "80",
+                    "Confocal": "+++",
+                    "Do": "160"
+                },
+                "measures": "[ICC, Flow, Confocal, Do]",
+                "outcomes": "[+++, 80, +++, 160]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "vector": "C595:MUC1",
+                    "cell line": "Panc-1"
+                },
+                "measures": "[[ICC (immunocytochemistry), flow cytometry, confocal microscopy, Do (kBq)]",
+                "outcomes": "[+++, 80, +++, 160]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "vector": "394:uPA",
+                    "cell line": "Capan-1",
+                    "analysis": "Comparison of cell line properties",
+                    "ICC": "++",
+                    "Flow": "88",
+                    "Confocal": "++",
+                    "Do": "190"
+                },
+                "measures": "[ICC, Flow, Confocal, Do]",
+                "outcomes": "[++, 88, ++, 190]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "vector": "394:uPA",
+                    "cell line": "Capan-1"
+                },
+                "measures": "[[ICC (immunocytochemistry), flow cytometry, confocal microscopy, Do (kBq)]",
+                "outcomes": "[++, 88, ++, 190]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "vector": "",
+                    "cell line": "Cfpac-1",
+                    "analysis": "Comparison of cell line properties",
+                    "ICC": "+++",
+                    "Flow": "92",
+                    "Confocal": "+++",
+                    "Do": "130"
+                },
+                "measures": "[ICC, Flow, Confocal, Do]",
+                "outcomes": "[+++, 92, +++, 130]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "vector": "394:uPA",
+                    "cell line": "Cfpac-1"
+                },
+                "measures": "[[ICC (immunocytochemistry), flow cytometry, confocal microscopy, Do (kBq)]",
+                "outcomes": "[+++, 92, +++, 130]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "vector": "",
+                    "cell line": "Panc-1",
+                    "analysis": "Comparison of cell line properties",
+                    "ICC": "+++",
+                    "Flow": "91",
+                    "Confocal": "+++",
+                    "Do": "170"
+                },
+                "measures": "[ICC, Flow, Confocal, Do]",
+                "outcomes": "[+++, 91, +++, 170]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "vector": "394:uPA",
+                    "cell line": "Panc-1"
+                },
+                "measures": "[[ICC (immunocytochemistry), flow cytometry, confocal microscopy, Do (kBq)]",
+                "outcomes": "[+++, 91, +++, 170]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "MUC1": "",
+                    "immunoreactivity": "strong",
+                    "expression": "cell membrane",
+                    "analysis": "Comparison of cell line properties",
+                    "method": "confocal microscopy",
+                    "outcome": "green image"
+                },
+                "measures": "[immunoreactivity, expression, analysis, method, outcome]",
+                "outcomes": "[strong, cell membrane, Comparison of cell line properties, confocal microscopy, green image]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "vector": "2200-2500",
+                    "cell line": "all cells"
+                },
+                "measures": "[Do (kBq)]",
+                "outcomes": "[2200-2500]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "MUC1": "",
+                    "immunoreactivity": "strong",
+                    "expression": "cell membrane",
+                    "analysis": "Comparison of cell line properties",
+                    "method": "flow cytometry",
+                    "outcome": "purple peak"
+                },
+                "measures": "[immunoreactivity, expression, analysis, method, outcome]",
+                "outcomes": "[strong, cell membrane, Comparison of cell line properties, flow cytometry, purple peak]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "vector": "2200-2500",
+                    "cell line": "all cells"
+                },
+                "measures": "[Do (kBq)]",
+                "outcomes": "[2200-2500]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "MUC1": "",
+                    "immunoreactivity": "strong",
+                    "expression": "cell membrane",
+                    "analysis": "Comparison of cell line properties",
+                    "method": "cell survival",
+                    "outcome": "incubation in AC"
+                },
+                "measures": "[immunoreactivity, expression, analysis, method, outcome]",
+                "outcomes": "[strong, cell membrane, Comparison of cell line properties, cell survival, incubation in AC]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "vector": "2200-2500",
+                    "cell line": "all cells"
+                },
+                "measures": "[Do (kBq)]",
+                "outcomes": "[2200-2500]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "C595": "",
+                    "immunoreactivity": "strong",
+                    "expression": "cell membrane",
+                    "analysis": "Comparison of cell line properties",
+                    "method": "immunocytochemistry",
+                    "outcome": "brown stain"
+                },
+                "measures": "[immunoreactivity, expression, analysis, method, outcome]",
+                "outcomes": "[strong, cell membrane, Comparison of cell line properties, immunocytochemistry, brown stain]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "vector": "2200-2500",
+                    "cell line": "all cells"
+                },
+                "measures": "[Do (kBq)]",
+                "outcomes": "[2200-2500]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "A2": "",
+                    "immunoreactivity": "not found",
+                    "expression": "cell membrane",
+                    "analysis": "Comparison of cell line properties",
+                    "method": "immunocytochemistry",
+                    "outcome": ""
+                },
+                "measures": "[immunoreactivity, expression, analysis, method, outcome]",
+                "outcomes": "[not found, cell membrane, Comparison of cell line properties, immunocytochemistry, ]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "vector": "2200-2500",
+                    "cell line": "all cells"
+                },
+                "measures": "[Do (kBq)]",
+                "outcomes": "[2200-2500]"
+            },
+            "match": "no"
+        }
+    ],
+    "total_extracted_claims": 11,
+    "total_ground_truth_claims": 7,
+    "number_of_matches": 6
+}

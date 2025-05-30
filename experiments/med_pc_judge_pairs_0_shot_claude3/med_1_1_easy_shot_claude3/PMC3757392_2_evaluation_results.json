@@ -1,0 +1,163 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "vector": "C595:MUC1",
+                    "cell line": "Capan-1",
+                    "ICC": "++",
+                    "flow cytometry": "40",
+                    "confocal microscopy": "++",
+                    "Do": "170 kBq"
+                },
+                "measures": "[ICC, flow cytometry, confocal microscopy, Do]",
+                "outcomes": "[++, 40, ++, 170]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "vector": "C595:MUC1",
+                    "cell line": "Capan-1"
+                },
+                "measures": "[ICC (immunocytochemistry), flow cytometry, confocal microscopy, Do (kBq)]",
+                "outcomes": "[++, 40, ++, 170]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "vector": "C595:MUC1",
+                    "cell line": "Cfpac-1",
+                    "ICC": "+++",
+                    "flow cytometry": "500",
+                    "confocal microscopy": "+++",
+                    "Do": "140 kBq"
+                },
+                "measures": "[ICC, flow cytometry, confocal microscopy, Do]",
+                "outcomes": "[+++, 500, +++, 140]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "vector": "C595:MUC1",
+                    "cell line": "Cfpac-1"
+                },
+                "measures": "[ICC (immunocytochemistry), flow cytometry, confocal microscopy, Do (kBq)]",
+                "outcomes": "[+++, 500, +++, 140]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "vector": "C595:MUC1",
+                    "cell line": "Panc-1",
+                    "ICC": "+++",
+                    "flow cytometry": "80",
+                    "confocal microscopy": "+++",
+                    "Do": "160 kBq"
+                },
+                "measures": "[ICC, flow cytometry, confocal microscopy, Do]",
+                "outcomes": "[+++, 80, +++, 160]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "vector": "C595:MUC1",
+                    "cell line": "Panc-1"
+                },
+                "measures": "[[ICC (immunocytochemistry), flow cytometry, confocal microscopy, Do (kBq)]",
+                "outcomes": "[+++, 80, +++, 160]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "vector": "394:uPA",
+                    "cell line": "Capan-1",
+                    "ICC": "++",
+                    "flow cytometry": "88",
+                    "confocal microscopy": "++",
+                    "Do": "190 kBq"
+                },
+                "measures": "[ICC, flow cytometry, confocal microscopy, Do]",
+                "outcomes": "[++, 88, ++, 190]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "vector": "394:uPA",
+                    "cell line": "Capan-1"
+                },
+                "measures": "[[ICC (immunocytochemistry), flow cytometry, confocal microscopy, Do (kBq)]",
+                "outcomes": "[++, 88, ++, 190]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "vector": "394:uPA",
+                    "cell line": "Cfpac-1",
+                    "ICC": "+++",
+                    "flow cytometry": "92",
+                    "confocal microscopy": "+++",
+                    "Do": "130 kBq"
+                },
+                "measures": "[ICC, flow cytometry, confocal microscopy, Do]",
+                "outcomes": "[+++, 92, +++, 130]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "vector": "394:uPA",
+                    "cell line": "Cfpac-1"
+                },
+                "measures": "[[ICC (immunocytochemistry), flow cytometry, confocal microscopy, Do (kBq)]",
+                "outcomes": "[+++, 92, +++, 130]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "vector": "394:uPA",
+                    "cell line": "Panc-1",
+                    "ICC": "+++",
+                    "flow cytometry": "91",
+                    "confocal microscopy": "+++",
+                    "Do": "170 kBq"
+                },
+                "measures": "[ICC, flow cytometry, confocal microscopy, Do]",
+                "outcomes": "[+++, 91, +++, 170]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "vector": "394:uPA",
+                    "cell line": "Panc-1"
+                },
+                "measures": "[[ICC (immunocytochemistry), flow cytometry, confocal microscopy, Do (kBq)]",
+                "outcomes": "[+++, 91, +++, 170]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "vector": "2200-2500",
+                    "cell line": "all cells",
+                    "Do": "2200-2500 kBq"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "vector": "2200-2500",
+                    "cell line": "all cells"
+                },
+                "measures": "[Do (kBq)]",
+                "outcomes": "[2200-2500]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 7,
+    "total_ground_truth_claims": 7,
+    "number_of_matches": 7
+}

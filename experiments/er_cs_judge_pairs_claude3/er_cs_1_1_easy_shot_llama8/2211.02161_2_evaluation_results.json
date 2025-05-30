@@ -1,0 +1,1789 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-ACM (Clean)",
+                    "Domain": "Publication"
+                },
+                "measures": "[Num Records]",
+                "outcomes": "[2,616 - 2,294]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "DBLP-ACM (Clean)",
+                    "Domain": "Publication",
+                    "Num Records": "2,616 - 2,294",
+                    "Ground Truth": "2,224",
+                    "Training data": "7,417",
+                    "Missing values (%)": "0 - 0",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-ACM (Clean)",
+                    "Ground Truth": "2,224"
+                },
+                "measures": "[Training data]",
+                "outcomes": "[7,417]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "DBLP-ACM (Dirty)",
+                    "Domain": "Publication",
+                    "Num Records": "2,616 - 2,294",
+                    "Ground Truth": "2,224",
+                    "Training data": "7,417",
+                    "Missing values (%)": "49 - 47",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-ACM (Clean)",
+                    "Ground Truth": "2,224"
+                },
+                "measures": "[Training data]",
+                "outcomes": "[7,417]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "DBLP-Scholar (Clean)",
+                    "Domain": "Publication",
+                    "Num Records": "2,616 - 64,263",
+                    "Ground Truth": "2,324",
+                    "Training data": "17,223",
+                    "Missing values (%)": "7 - 22",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-ACM (Clean)",
+                    "Ground Truth": "2,224"
+                },
+                "measures": "[Training data]",
+                "outcomes": "[7,417]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "DBLP-Scholar (Dirty)",
+                    "Domain": "Publication",
+                    "Num Records": "2,616 - 64,263",
+                    "Ground Truth": "2,324",
+                    "Training data": "17,223",
+                    "Missing values (%)": "48 - 61",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-ACM (Clean)",
+                    "Ground Truth": "2,224"
+                },
+                "measures": "[Training data]",
+                "outcomes": "[7,417]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "iTune-Amazon",
+                    "Domain": "Music",
+                    "Num Records": "6,907 - 55,923",
+                    "Ground Truth": "132",
+                    "Training data": "321",
+                    "Missing values (%)": "0 - 0",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-ACM (Clean)",
+                    "Ground Truth": "2,224"
+                },
+                "measures": "[Training data]",
+                "outcomes": "[7,417]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "Music-Brainz",
+                    "Domain": "Music",
+                    "Num Records": "3,827 - 3,861",
+                    "Ground Truth": "1,219",
+                    "Training data": "3,565",
+                    "Missing values (%)": "24 - 23",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-ACM (Clean)",
+                    "Ground Truth": "2,224"
+                },
+                "measures": "[Training data]",
+                "outcomes": "[7,417]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "Amazon-Google",
+                    "Domain": "E-commerce",
+                    "Num Records": "1,363 - 3,226",
+                    "Ground Truth": "1,300",
+                    "Training data": "3,571",
+                    "Missing values (%)": "8 - 10",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-ACM (Clean)",
+                    "Ground Truth": "2,224"
+                },
+                "measures": "[Training data]",
+                "outcomes": "[7,417]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "NCVR",
+                    "Domain": "Demographic",
+                    "Num Records": "222,251 - 224,061",
+                    "Ground Truth": "148,036",
+                    "Training data": "425,731",
+                    "Missing values (%)": "3 - 4",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-ACM (Clean)",
+                    "Ground Truth": "2,224"
+                },
+                "measures": "[Training data]",
+                "outcomes": "[7,417]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "European Census",
+                    "Domain": "Demographic",
+                    "Num Records": "25,343 - 24,613",
+                    "Ground Truth": "24,043",
+                    "Training data": "71,887",
+                    "Missing values (%)": "3 - 3",
+                    "Provenance": "Synthetic"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-ACM (Clean)",
+                    "Missing values": "0 - 0"
+                },
+                "measures": "[Provenance]",
+                "outcomes": "[Real]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "DBLP-ACM (Dirty)",
+                    "Domain": "Publication",
+                    "Num Records": "2,616 - 2,294",
+                    "Ground Truth": "2,224",
+                    "Training data": "7,417",
+                    "Missing values (%)": "49 - 47",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-ACM (Clean)",
+                    "Missing values": "0 - 0"
+                },
+                "measures": "[Provenance]",
+                "outcomes": "[Real]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "DBLP-Scholar (Clean)",
+                    "Domain": "Publication",
+                    "Num Records": "2,616 - 64,263",
+                    "Ground Truth": "2,324",
+                    "Training data": "17,223",
+                    "Missing values (%)": "7 - 22",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-ACM (Clean)",
+                    "Missing values": "0 - 0"
+                },
+                "measures": "[Provenance]",
+                "outcomes": "[Real]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "DBLP-Scholar (Dirty)",
+                    "Domain": "Publication",
+                    "Num Records": "2,616 - 64,263",
+                    "Ground Truth": "2,324",
+                    "Training data": "17,223",
+                    "Missing values (%)": "48 - 61",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-ACM (Clean)",
+                    "Missing values": "0 - 0"
+                },
+                "measures": "[Provenance]",
+                "outcomes": "[Real]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "iTune-Amazon",
+                    "Domain": "Music",
+                    "Num Records": "6,907 - 55,923",
+                    "Ground Truth": "132",
+                    "Training data": "321",
+                    "Missing values (%)": "0 - 0",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-ACM (Clean)",
+                    "Missing values": "0 - 0"
+                },
+                "measures": "[Provenance]",
+                "outcomes": "[Real]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "Music-Brainz",
+                    "Domain": "Music",
+                    "Num Records": "3,827 - 3,861",
+                    "Ground Truth": "1,219",
+                    "Training data": "3,565",
+                    "Missing values (%)": "24 - 23",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-ACM (Clean)",
+                    "Missing values": "0 - 0"
+                },
+                "measures": "[Provenance]",
+                "outcomes": "[Real]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "Amazon-Google",
+                    "Domain": "E-commerce",
+                    "Num Records": "1,363 - 3,226",
+                    "Ground Truth": "1,300",
+                    "Training data": "3,571",
+                    "Missing values (%)": "8 - 10",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-ACM (Clean)",
+                    "Missing values": "0 - 0"
+                },
+                "measures": "[Provenance]",
+                "outcomes": "[Real]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "NCVR",
+                    "Domain": "Demographic",
+                    "Num Records": "222,251 - 224,061",
+                    "Ground Truth": "148,036",
+                    "Training data": "425,731",
+                    "Missing values (%)": "3 - 4",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-ACM (Clean)",
+                    "Missing values": "0 - 0"
+                },
+                "measures": "[Provenance]",
+                "outcomes": "[Real]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "European Census",
+                    "Domain": "Demographic",
+                    "Num Records": "25,343 - 24,613",
+                    "Ground Truth": "24,043",
+                    "Training data": "71,887",
+                    "Missing values (%)": "3 - 3",
+                    "Provenance": "Synthetic"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-ACM (Dirty)",
+                    "Domain": "Publication"
+                },
+                "measures": "[Num Records]",
+                "outcomes": "[2,616 - 2,294]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "DBLP-ACM (Dirty)",
+                    "Domain": "Publication",
+                    "Num Records": "2,616 - 2,294",
+                    "Ground Truth": "2,224",
+                    "Training data": "7,417",
+                    "Missing values (%)": "49 - 47",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-ACM (Dirty)",
+                    "Ground Truth": "2,224"
+                },
+                "measures": "[Training data]",
+                "outcomes": "[7,417]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "DBLP-Scholar (Clean)",
+                    "Domain": "Publication",
+                    "Num Records": "2,616 - 64,263",
+                    "Ground Truth": "2,324",
+                    "Training data": "17,223",
+                    "Missing values (%)": "7 - 22",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-ACM (Dirty)",
+                    "Ground Truth": "2,224"
+                },
+                "measures": "[Training data]",
+                "outcomes": "[7,417]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "DBLP-Scholar (Dirty)",
+                    "Domain": "Publication",
+                    "Num Records": "2,616 - 64,263",
+                    "Ground Truth": "2,324",
+                    "Training data": "17,223",
+                    "Missing values (%)": "48 - 61",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-ACM (Dirty)",
+                    "Ground Truth": "2,224"
+                },
+                "measures": "[Training data]",
+                "outcomes": "[7,417]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "iTune-Amazon",
+                    "Domain": "Music",
+                    "Num Records": "6,907 - 55,923",
+                    "Ground Truth": "132",
+                    "Training data": "321",
+                    "Missing values (%)": "0 - 0",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-ACM (Dirty)",
+                    "Ground Truth": "2,224"
+                },
+                "measures": "[Training data]",
+                "outcomes": "[7,417]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "Music-Brainz",
+                    "Domain": "Music",
+                    "Num Records": "3,827 - 3,861",
+                    "Ground Truth": "1,219",
+                    "Training data": "3,565",
+                    "Missing values (%)": "24 - 23",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-ACM (Dirty)",
+                    "Ground Truth": "2,224"
+                },
+                "measures": "[Training data]",
+                "outcomes": "[7,417]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "Amazon-Google",
+                    "Domain": "E-commerce",
+                    "Num Records": "1,363 - 3,226",
+                    "Ground Truth": "1,300",
+                    "Training data": "3,571",
+                    "Missing values (%)": "8 - 10",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-ACM (Dirty)",
+                    "Ground Truth": "2,224"
+                },
+                "measures": "[Training data]",
+                "outcomes": "[7,417]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "NCVR",
+                    "Domain": "Demographic",
+                    "Num Records": "222,251 - 224,061",
+                    "Ground Truth": "148,036",
+                    "Training data": "425,731",
+                    "Missing values (%)": "3 - 4",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-ACM (Dirty)",
+                    "Ground Truth": "2,224"
+                },
+                "measures": "[Training data]",
+                "outcomes": "[7,417]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "European Census",
+                    "Domain": "Demographic",
+                    "Num Records": "25,343 - 24,613",
+                    "Ground Truth": "24,043",
+                    "Training data": "71,887",
+                    "Missing values (%)": "3 - 3",
+                    "Provenance": "Synthetic"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-ACM (Dirty)",
+                    "Missing values": "49 - 47"
+                },
+                "measures": "[Provenance]",
+                "outcomes": "[Real]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "DBLP-Scholar (Clean)",
+                    "Domain": "Publication",
+                    "Num Records": "2,616 - 64,263",
+                    "Ground Truth": "2,324",
+                    "Training data": "17,223",
+                    "Missing values (%)": "7 - 22",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-ACM (Dirty)",
+                    "Missing values": "49 - 47"
+                },
+                "measures": "[Provenance]",
+                "outcomes": "[Real]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "DBLP-Scholar (Dirty)",
+                    "Domain": "Publication",
+                    "Num Records": "2,616 - 64,263",
+                    "Ground Truth": "2,324",
+                    "Training data": "17,223",
+                    "Missing values (%)": "48 - 61",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-ACM (Dirty)",
+                    "Missing values": "49 - 47"
+                },
+                "measures": "[Provenance]",
+                "outcomes": "[Real]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "iTune-Amazon",
+                    "Domain": "Music",
+                    "Num Records": "6,907 - 55,923",
+                    "Ground Truth": "132",
+                    "Training data": "321",
+                    "Missing values (%)": "0 - 0",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-ACM (Dirty)",
+                    "Missing values": "49 - 47"
+                },
+                "measures": "[Provenance]",
+                "outcomes": "[Real]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "Music-Brainz",
+                    "Domain": "Music",
+                    "Num Records": "3,827 - 3,861",
+                    "Ground Truth": "1,219",
+                    "Training data": "3,565",
+                    "Missing values (%)": "24 - 23",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-ACM (Dirty)",
+                    "Missing values": "49 - 47"
+                },
+                "measures": "[Provenance]",
+                "outcomes": "[Real]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "Amazon-Google",
+                    "Domain": "E-commerce",
+                    "Num Records": "1,363 - 3,226",
+                    "Ground Truth": "1,300",
+                    "Training data": "3,571",
+                    "Missing values (%)": "8 - 10",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-ACM (Dirty)",
+                    "Missing values": "49 - 47"
+                },
+                "measures": "[Provenance]",
+                "outcomes": "[Real]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "NCVR",
+                    "Domain": "Demographic",
+                    "Num Records": "222,251 - 224,061",
+                    "Ground Truth": "148,036",
+                    "Training data": "425,731",
+                    "Missing values (%)": "3 - 4",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-ACM (Dirty)",
+                    "Missing values": "49 - 47"
+                },
+                "measures": "[Provenance]",
+                "outcomes": "[Real]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "European Census",
+                    "Domain": "Demographic",
+                    "Num Records": "25,343 - 24,613",
+                    "Ground Truth": "24,043",
+                    "Training data": "71,887",
+                    "Missing values (%)": "3 - 3",
+                    "Provenance": "Synthetic"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-Scholar (Clean)",
+                    "Domain": "Publication"
+                },
+                "measures": "[Num Records]",
+                "outcomes": "[2,616 - 64,263]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "DBLP-Scholar (Clean)",
+                    "Domain": "Publication",
+                    "Num Records": "2,616 - 64,263",
+                    "Ground Truth": "2,324",
+                    "Training data": "17,223",
+                    "Missing values (%)": "7 - 22",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-Scholar (Clean)",
+                    "Ground Truth": "2,324"
+                },
+                "measures": "[Training data]",
+                "outcomes": "[17,223]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "DBLP-Scholar (Dirty)",
+                    "Domain": "Publication",
+                    "Num Records": "2,616 - 64,263",
+                    "Ground Truth": "2,324",
+                    "Training data": "17,223",
+                    "Missing values (%)": "48 - 61",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-Scholar (Clean)",
+                    "Ground Truth": "2,324"
+                },
+                "measures": "[Training data]",
+                "outcomes": "[17,223]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "iTune-Amazon",
+                    "Domain": "Music",
+                    "Num Records": "6,907 - 55,923",
+                    "Ground Truth": "132",
+                    "Training data": "321",
+                    "Missing values (%)": "0 - 0",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-Scholar (Clean)",
+                    "Ground Truth": "2,324"
+                },
+                "measures": "[Training data]",
+                "outcomes": "[17,223]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "Music-Brainz",
+                    "Domain": "Music",
+                    "Num Records": "3,827 - 3,861",
+                    "Ground Truth": "1,219",
+                    "Training data": "3,565",
+                    "Missing values (%)": "24 - 23",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-Scholar (Clean)",
+                    "Ground Truth": "2,324"
+                },
+                "measures": "[Training data]",
+                "outcomes": "[17,223]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "Amazon-Google",
+                    "Domain": "E-commerce",
+                    "Num Records": "1,363 - 3,226",
+                    "Ground Truth": "1,300",
+                    "Training data": "3,571",
+                    "Missing values (%)": "8 - 10",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-Scholar (Clean)",
+                    "Ground Truth": "2,324"
+                },
+                "measures": "[Training data]",
+                "outcomes": "[17,223]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "NCVR",
+                    "Domain": "Demographic",
+                    "Num Records": "222,251 - 224,061",
+                    "Ground Truth": "148,036",
+                    "Training data": "425,731",
+                    "Missing values (%)": "3 - 4",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-Scholar (Clean)",
+                    "Ground Truth": "2,324"
+                },
+                "measures": "[Training data]",
+                "outcomes": "[17,223]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "European Census",
+                    "Domain": "Demographic",
+                    "Num Records": "25,343 - 24,613",
+                    "Ground Truth": "24,043",
+                    "Training data": "71,887",
+                    "Missing values (%)": "3 - 3",
+                    "Provenance": "Synthetic"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-Scholar (Clean)",
+                    "Missing values": "7 - 22"
+                },
+                "measures": "[Provenance]",
+                "outcomes": "[Real]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "DBLP-Scholar (Dirty)",
+                    "Domain": "Publication",
+                    "Num Records": "2,616 - 64,263",
+                    "Ground Truth": "2,324",
+                    "Training data": "17,223",
+                    "Missing values (%)": "48 - 61",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-Scholar (Clean)",
+                    "Missing values": "7 - 22"
+                },
+                "measures": "[Provenance]",
+                "outcomes": "[Real]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "iTune-Amazon",
+                    "Domain": "Music",
+                    "Num Records": "6,907 - 55,923",
+                    "Ground Truth": "132",
+                    "Training data": "321",
+                    "Missing values (%)": "0 - 0",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-Scholar (Clean)",
+                    "Missing values": "7 - 22"
+                },
+                "measures": "[Provenance]",
+                "outcomes": "[Real]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "Music-Brainz",
+                    "Domain": "Music",
+                    "Num Records": "3,827 - 3,861",
+                    "Ground Truth": "1,219",
+                    "Training data": "3,565",
+                    "Missing values (%)": "24 - 23",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-Scholar (Clean)",
+                    "Missing values": "7 - 22"
+                },
+                "measures": "[Provenance]",
+                "outcomes": "[Real]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "Amazon-Google",
+                    "Domain": "E-commerce",
+                    "Num Records": "1,363 - 3,226",
+                    "Ground Truth": "1,300",
+                    "Training data": "3,571",
+                    "Missing values (%)": "8 - 10",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-Scholar (Clean)",
+                    "Missing values": "7 - 22"
+                },
+                "measures": "[Provenance]",
+                "outcomes": "[Real]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "NCVR",
+                    "Domain": "Demographic",
+                    "Num Records": "222,251 - 224,061",
+                    "Ground Truth": "148,036",
+                    "Training data": "425,731",
+                    "Missing values (%)": "3 - 4",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-Scholar (Clean)",
+                    "Missing values": "7 - 22"
+                },
+                "measures": "[Provenance]",
+                "outcomes": "[Real]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "European Census",
+                    "Domain": "Demographic",
+                    "Num Records": "25,343 - 24,613",
+                    "Ground Truth": "24,043",
+                    "Training data": "71,887",
+                    "Missing values (%)": "3 - 3",
+                    "Provenance": "Synthetic"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-Scholar (Dirty)",
+                    "Domain": "Publication"
+                },
+                "measures": "[Num Records]",
+                "outcomes": "[2,616 - 64,263]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "DBLP-Scholar (Dirty)",
+                    "Domain": "Publication",
+                    "Num Records": "2,616 - 64,263",
+                    "Ground Truth": "2,324",
+                    "Training data": "17,223",
+                    "Missing values (%)": "48 - 61",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-Scholar (Dirty)",
+                    "Ground Truth": "2,324"
+                },
+                "measures": "[Training data]",
+                "outcomes": "[17,223]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "iTune-Amazon",
+                    "Domain": "Music",
+                    "Num Records": "6,907 - 55,923",
+                    "Ground Truth": "132",
+                    "Training data": "321",
+                    "Missing values (%)": "0 - 0",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-Scholar (Dirty)",
+                    "Ground Truth": "2,324"
+                },
+                "measures": "[Training data]",
+                "outcomes": "[17,223]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "Music-Brainz",
+                    "Domain": "Music",
+                    "Num Records": "3,827 - 3,861",
+                    "Ground Truth": "1,219",
+                    "Training data": "3,565",
+                    "Missing values (%)": "24 - 23",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-Scholar (Dirty)",
+                    "Ground Truth": "2,324"
+                },
+                "measures": "[Training data]",
+                "outcomes": "[17,223]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "Amazon-Google",
+                    "Domain": "E-commerce",
+                    "Num Records": "1,363 - 3,226",
+                    "Ground Truth": "1,300",
+                    "Training data": "3,571",
+                    "Missing values (%)": "8 - 10",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-Scholar (Dirty)",
+                    "Ground Truth": "2,324"
+                },
+                "measures": "[Training data]",
+                "outcomes": "[17,223]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "NCVR",
+                    "Domain": "Demographic",
+                    "Num Records": "222,251 - 224,061",
+                    "Ground Truth": "148,036",
+                    "Training data": "425,731",
+                    "Missing values (%)": "3 - 4",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-Scholar (Dirty)",
+                    "Ground Truth": "2,324"
+                },
+                "measures": "[Training data]",
+                "outcomes": "[17,223]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "European Census",
+                    "Domain": "Demographic",
+                    "Num Records": "25,343 - 24,613",
+                    "Ground Truth": "24,043",
+                    "Training data": "71,887",
+                    "Missing values (%)": "3 - 3",
+                    "Provenance": "Synthetic"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-Scholar (Dirty)",
+                    "Missing values": "48 - 61"
+                },
+                "measures": "[Provenance]",
+                "outcomes": "[Real]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "iTune-Amazon",
+                    "Domain": "Music",
+                    "Num Records": "6,907 - 55,923",
+                    "Ground Truth": "132",
+                    "Training data": "321",
+                    "Missing values (%)": "0 - 0",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-Scholar (Dirty)",
+                    "Missing values": "48 - 61"
+                },
+                "measures": "[Provenance]",
+                "outcomes": "[Real]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "Music-Brainz",
+                    "Domain": "Music",
+                    "Num Records": "3,827 - 3,861",
+                    "Ground Truth": "1,219",
+                    "Training data": "3,565",
+                    "Missing values (%)": "24 - 23",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-Scholar (Dirty)",
+                    "Missing values": "48 - 61"
+                },
+                "measures": "[Provenance]",
+                "outcomes": "[Real]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "Amazon-Google",
+                    "Domain": "E-commerce",
+                    "Num Records": "1,363 - 3,226",
+                    "Ground Truth": "1,300",
+                    "Training data": "3,571",
+                    "Missing values (%)": "8 - 10",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-Scholar (Dirty)",
+                    "Missing values": "48 - 61"
+                },
+                "measures": "[Provenance]",
+                "outcomes": "[Real]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "NCVR",
+                    "Domain": "Demographic",
+                    "Num Records": "222,251 - 224,061",
+                    "Ground Truth": "148,036",
+                    "Training data": "425,731",
+                    "Missing values (%)": "3 - 4",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "DBLP-Scholar (Dirty)",
+                    "Missing values": "48 - 61"
+                },
+                "measures": "[Provenance]",
+                "outcomes": "[Real]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "European Census",
+                    "Domain": "Demographic",
+                    "Num Records": "25,343 - 24,613",
+                    "Ground Truth": "24,043",
+                    "Training data": "71,887",
+                    "Missing values (%)": "3 - 3",
+                    "Provenance": "Synthetic"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "iTune-Amazon",
+                    "Domain": "Music"
+                },
+                "measures": "[Num Records]",
+                "outcomes": "[6,907 - 55,923]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "iTune-Amazon",
+                    "Domain": "Music",
+                    "Num Records": "6,907 - 55,923",
+                    "Ground Truth": "132",
+                    "Training data": "321",
+                    "Missing values (%)": "0 - 0",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "iTune-Amazon",
+                    "Ground Truth": "132"
+                },
+                "measures": "[Training data]",
+                "outcomes": "[321]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "Music-Brainz",
+                    "Domain": "Music",
+                    "Num Records": "3,827 - 3,861",
+                    "Ground Truth": "1,219",
+                    "Training data": "3,565",
+                    "Missing values (%)": "24 - 23",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "iTune-Amazon",
+                    "Ground Truth": "132"
+                },
+                "measures": "[Training data]",
+                "outcomes": "[321]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "Amazon-Google",
+                    "Domain": "E-commerce",
+                    "Num Records": "1,363 - 3,226",
+                    "Ground Truth": "1,300",
+                    "Training data": "3,571",
+                    "Missing values (%)": "8 - 10",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "iTune-Amazon",
+                    "Ground Truth": "132"
+                },
+                "measures": "[Training data]",
+                "outcomes": "[321]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "NCVR",
+                    "Domain": "Demographic",
+                    "Num Records": "222,251 - 224,061",
+                    "Ground Truth": "148,036",
+                    "Training data": "425,731",
+                    "Missing values (%)": "3 - 4",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "iTune-Amazon",
+                    "Ground Truth": "132"
+                },
+                "measures": "[Training data]",
+                "outcomes": "[321]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "European Census",
+                    "Domain": "Demographic",
+                    "Num Records": "25,343 - 24,613",
+                    "Ground Truth": "24,043",
+                    "Training data": "71,887",
+                    "Missing values (%)": "3 - 3",
+                    "Provenance": "Synthetic"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "iTune-Amazon",
+                    "Missing values": "0 - 0"
+                },
+                "measures": "[Provenance]",
+                "outcomes": "[Real]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "Music-Brainz",
+                    "Domain": "Music",
+                    "Num Records": "3,827 - 3,861",
+                    "Ground Truth": "1,219",
+                    "Training data": "3,565",
+                    "Missing values (%)": "24 - 23",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "iTune-Amazon",
+                    "Missing values": "0 - 0"
+                },
+                "measures": "[Provenance]",
+                "outcomes": "[Real]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "Amazon-Google",
+                    "Domain": "E-commerce",
+                    "Num Records": "1,363 - 3,226",
+                    "Ground Truth": "1,300",
+                    "Training data": "3,571",
+                    "Missing values (%)": "8 - 10",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "iTune-Amazon",
+                    "Missing values": "0 - 0"
+                },
+                "measures": "[Provenance]",
+                "outcomes": "[Real]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "NCVR",
+                    "Domain": "Demographic",
+                    "Num Records": "222,251 - 224,061",
+                    "Ground Truth": "148,036",
+                    "Training data": "425,731",
+                    "Missing values (%)": "3 - 4",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "iTune-Amazon",
+                    "Missing values": "0 - 0"
+                },
+                "measures": "[Provenance]",
+                "outcomes": "[Real]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "European Census",
+                    "Domain": "Demographic",
+                    "Num Records": "25,343 - 24,613",
+                    "Ground Truth": "24,043",
+                    "Training data": "71,887",
+                    "Missing values (%)": "3 - 3",
+                    "Provenance": "Synthetic"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "Music-Brainz",
+                    "Domain": "Music"
+                },
+                "measures": "[Num Records]",
+                "outcomes": "[3,827 - 3,861]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "Music-Brainz",
+                    "Domain": "Music",
+                    "Num Records": "3,827 - 3,861",
+                    "Ground Truth": "1,219",
+                    "Training data": "3,565",
+                    "Missing values (%)": "24 - 23",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "Music-Brainz",
+                    "Ground Truth": "1,219"
+                },
+                "measures": "[Training data]",
+                "outcomes": "[3,565]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "Amazon-Google",
+                    "Domain": "E-commerce",
+                    "Num Records": "1,363 - 3,226",
+                    "Ground Truth": "1,300",
+                    "Training data": "3,571",
+                    "Missing values (%)": "8 - 10",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "Music-Brainz",
+                    "Ground Truth": "1,219"
+                },
+                "measures": "[Training data]",
+                "outcomes": "[3,565]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "NCVR",
+                    "Domain": "Demographic",
+                    "Num Records": "222,251 - 224,061",
+                    "Ground Truth": "148,036",
+                    "Training data": "425,731",
+                    "Missing values (%)": "3 - 4",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "Music-Brainz",
+                    "Ground Truth": "1,219"
+                },
+                "measures": "[Training data]",
+                "outcomes": "[3,565]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "European Census",
+                    "Domain": "Demographic",
+                    "Num Records": "25,343 - 24,613",
+                    "Ground Truth": "24,043",
+                    "Training data": "71,887",
+                    "Missing values (%)": "3 - 3",
+                    "Provenance": "Synthetic"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "Music-Brainz",
+                    "Missing values": "24 - 23"
+                },
+                "measures": "[Provenance]",
+                "outcomes": "[Real]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "Amazon-Google",
+                    "Domain": "E-commerce",
+                    "Num Records": "1,363 - 3,226",
+                    "Ground Truth": "1,300",
+                    "Training data": "3,571",
+                    "Missing values (%)": "8 - 10",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "Music-Brainz",
+                    "Missing values": "24 - 23"
+                },
+                "measures": "[Provenance]",
+                "outcomes": "[Real]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "NCVR",
+                    "Domain": "Demographic",
+                    "Num Records": "222,251 - 224,061",
+                    "Ground Truth": "148,036",
+                    "Training data": "425,731",
+                    "Missing values (%)": "3 - 4",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "Music-Brainz",
+                    "Missing values": "24 - 23"
+                },
+                "measures": "[Provenance]",
+                "outcomes": "[Real]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "European Census",
+                    "Domain": "Demographic",
+                    "Num Records": "25,343 - 24,613",
+                    "Ground Truth": "24,043",
+                    "Training data": "71,887",
+                    "Missing values (%)": "3 - 3",
+                    "Provenance": "Synthetic"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "Amazon-Google",
+                    "Domain": "E-commerce"
+                },
+                "measures": "[Num Records]",
+                "outcomes": "[1,363 - 3,226]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "Amazon-Google",
+                    "Domain": "E-commerce",
+                    "Num Records": "1,363 - 3,226",
+                    "Ground Truth": "1,300",
+                    "Training data": "3,571",
+                    "Missing values (%)": "8 - 10",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "Amazon-Google",
+                    "Ground Truth": "1,300"
+                },
+                "measures": "[Training data]",
+                "outcomes": "[3,571]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "NCVR",
+                    "Domain": "Demographic",
+                    "Num Records": "222,251 - 224,061",
+                    "Ground Truth": "148,036",
+                    "Training data": "425,731",
+                    "Missing values (%)": "3 - 4",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "Amazon-Google",
+                    "Ground Truth": "1,300"
+                },
+                "measures": "[Training data]",
+                "outcomes": "[3,571]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "European Census",
+                    "Domain": "Demographic",
+                    "Num Records": "25,343 - 24,613",
+                    "Ground Truth": "24,043",
+                    "Training data": "71,887",
+                    "Missing values (%)": "3 - 3",
+                    "Provenance": "Synthetic"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "Amazon-Google",
+                    "Missing values": "8 - 10"
+                },
+                "measures": "[Provenance]",
+                "outcomes": "[Real]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "NCVR",
+                    "Domain": "Demographic",
+                    "Num Records": "222,251 - 224,061",
+                    "Ground Truth": "148,036",
+                    "Training data": "425,731",
+                    "Missing values (%)": "3 - 4",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "Amazon-Google",
+                    "Missing values": "8 - 10"
+                },
+                "measures": "[Provenance]",
+                "outcomes": "[Real]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "European Census",
+                    "Domain": "Demographic",
+                    "Num Records": "25,343 - 24,613",
+                    "Ground Truth": "24,043",
+                    "Training data": "71,887",
+                    "Missing values (%)": "3 - 3",
+                    "Provenance": "Synthetic"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "NCVR",
+                    "Domain": "Demographic"
+                },
+                "measures": "[Num Records]",
+                "outcomes": "[222,251 - 224,061]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "NCVR",
+                    "Domain": "Demographic",
+                    "Num Records": "222,251 - 224,061",
+                    "Ground Truth": "148,036",
+                    "Training data": "425,731",
+                    "Missing values (%)": "3 - 4",
+                    "Provenance": "Real"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "NCVR",
+                    "Ground Truth": "148,036"
+                },
+                "measures": "[Training data]",
+                "outcomes": "[425,731]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "European Census",
+                    "Domain": "Demographic",
+                    "Num Records": "25,343 - 24,613",
+                    "Ground Truth": "24,043",
+                    "Training data": "71,887",
+                    "Missing values (%)": "3 - 3",
+                    "Provenance": "Synthetic"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "NCVR",
+                    "Missing values": "3 - 4"
+                },
+                "measures": "[Provenance]",
+                "outcomes": "[Real]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "European Census",
+                    "Domain": "Demographic",
+                    "Num Records": "25,343 - 24,613",
+                    "Ground Truth": "24,043",
+                    "Training data": "71,887",
+                    "Missing values (%)": "3 - 3",
+                    "Provenance": "Synthetic"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Data set": "European Census",
+                    "Domain": "Demographic"
+                },
+                "measures": "[Num Records]",
+                "outcomes": "[25,343 - 24,613]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Data set": "European Census",
+                    "Domain": "Demographic",
+                    "Num Records": "25,343 - 24,613",
+                    "Ground Truth": "24,043",
+                    "Training data": "71,887",
+                    "Missing values (%)": "3 - 3",
+                    "Provenance": "Synthetic"
+                }
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 27,
+    "total_ground_truth_claims": 9,
+    "number_of_matches": 9
+}

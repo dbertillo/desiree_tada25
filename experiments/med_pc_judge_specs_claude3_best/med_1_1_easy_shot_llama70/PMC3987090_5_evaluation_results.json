@@ -1,0 +1,120 @@
+{
+    "matched_specifications": [
+        [
+            "study",
+            "an x et al."
+        ],
+        [
+            "year",
+            "2010"
+        ],
+        [
+            "n",
+            "89"
+        ],
+        [
+            "study",
+            "wang ds et al."
+        ],
+        [
+            "year",
+            "2012"
+        ],
+        [
+            "n",
+            "86"
+        ],
+        [
+            "study",
+            "our study"
+        ],
+        [
+            "year",
+            "2013"
+        ],
+        [
+            "n",
+            "253"
+        ]
+    ],
+    "unmatched_specifications": [
+        [
+            "prognostic factor",
+            "nlr"
+        ],
+        [
+            "patient group",
+            "apc patients receiving chemotherapy"
+        ],
+        [
+            "association",
+            "nlr and prognosis"
+        ],
+        [
+            "prognostic factor",
+            "nlr"
+        ],
+        [
+            "patient group",
+            "apc patients receiving chemotherapy"
+        ],
+        [
+            "association",
+            "nlr and prognosis"
+        ],
+        [
+            "prognostic factor",
+            "nlr"
+        ],
+        [
+            "patient group",
+            "apc patients receiving chemotherapy"
+        ],
+        [
+            "association",
+            "nlr and prognosis"
+        ]
+    ],
+    "unmatched_extracted_keys": [
+        "patient group",
+        "prognostic factor",
+        "association"
+    ],
+    "unmatched_extracted_values": [
+        "nlr",
+        "apc patients receiving chemotherapy",
+        "nlr and prognosis"
+    ],
+    "unmatched_ground_truth_keys": [
+        "overall survival (nlr >5 vs \u22645) (months)",
+        "nlr \u22645",
+        "number of patientis with nlr > 5 (%)"
+    ],
+    "unmatched_ground_truth_values": [
+        "12 (13.9)",
+        "2.4 versus 7.7",
+        "40 (15.8)",
+        "6.0 versus 12.8",
+        "5.8 versus 10.2",
+        "16 (17.9)",
+        "1"
+    ],
+    "mapped_keys": {
+        "year": "year",
+        "study": "study",
+        "n": "number of patients"
+    },
+    "mapped_values": {
+        "89": "89",
+        "2010": "2010",
+        "an x et al.": "an x et al.",
+        "our study": "our study",
+        "253": "253",
+        "2013": "2013",
+        "2012": "2012",
+        "86": "86",
+        "wang ds et al.": "wang ds et al."
+    },
+    "precision": 0.5,
+    "recall": 0.5
+}

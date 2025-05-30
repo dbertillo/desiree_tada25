@@ -1,0 +1,156 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "gene": "FCGR2C",
+                    "region": "CNR1",
+                    "outcome": "perinatal HIV-1 acquisition",
+                    "adjustment factors": "birthweight and FCGR2C genotypes",
+                    "copy number": "1"
+                },
+                "measures": "[univariate OR, 95% CI, P-value, P_Bonf, adjusted OR, adjusted P-value, adjusted P_Bonf]",
+                "outcomes": "[0.29, 0.12-0.71, 0.007, 0.112, 0.37, 0.029, 0.464]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Effect of FCGR2C CNR1 copy number distribution on perinatal HIV-1 acquisition",
+                    "adjustment factors": "birthweight and FCGR2C genotypes",
+                    "group": "Total group",
+                    "Fc\u03b3RIIc copy number": "1 copy",
+                    "Bonferroni corrected P-value": "0.112"
+                },
+                "measures": "[Univariate OR, 95% CI, P-value]",
+                "outcomes": "[0.29, (0.12-0.71), 0.007]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "gene": "FCGR2C",
+                    "region": "CNR1",
+                    "outcome": "perinatal HIV-1 acquisition",
+                    "adjustment factors": "birthweight and FCGR2C genotypes",
+                    "copy number": "2",
+                    "reference": "yes"
+                },
+                "measures": "[univariate OR, 95% CI, P-value, P_Bonf, adjusted OR, adjusted P-value, adjusted P_Bonf]",
+                "outcomes": "[Ref, , , , Ref, , ]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Effect of FCGR2C CNR1 copy number distribution on perinatal HIV-1 acquisition",
+                    "adjustment factors": "birthweight and FCGR2C genotypes",
+                    "group": "Total group",
+                    "Fc\u03b3RIIc copy number": "1 copy",
+                    "Bonferroni corrected P-value": "0.464"
+                },
+                "measures": "[Adjusted OR, 95%CI, P-value]",
+                "outcomes": "[0.37 (0.15-0.90), 0.029]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "gene": "FCGR2C",
+                    "region": "CNR1",
+                    "outcome": "perinatal HIV-1 acquisition",
+                    "adjustment factors": "birthweight and FCGR2C genotypes",
+                    "copy number": "2",
+                    "reference": "yes"
+                },
+                "measures": "[univariate OR, 95% CI, P-value, P_Bonf, adjusted OR, adjusted P-value, adjusted P_Bonf]",
+                "outcomes": "[Ref, , , , Ref, , ]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Effect of FCGR2C CNR1 copy number distribution on perinatal HIV-1 acquisition",
+                    "adjustment factors": "birthweight and FCGR2C genotypes",
+                    "group": "Total group",
+                    "Fc\u03b3RIIc copy number": "2 copies",
+                    "statistical measure": "Adjusted OR",
+                    "value": "Ref"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "gene": "FCGR2C",
+                    "region": "CNR1",
+                    "outcome": "perinatal HIV-1 acquisition",
+                    "adjustment factors": "birthweight and FCGR2C genotypes",
+                    "copy number": "\u22653"
+                },
+                "measures": "[univariate OR, 95% CI, P-value, adjusted OR, adjusted P-value]",
+                "outcomes": "[0.99, 0.63-1.57, 0.978, 0.74, 0.275]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Effect of FCGR2C CNR1 copy number distribution on perinatal HIV-1 acquisition",
+                    "adjustment factors": "birthweight and FCGR2C genotypes",
+                    "group": "Total group",
+                    "Fc\u03b3RIIc copy number": "1 copy",
+                    "Bonferroni corrected P-value": "0.464"
+                },
+                "measures": "[Adjusted OR, 95%CI, P-value]",
+                "outcomes": "[0.37 (0.15-0.90), 0.029]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "gene": "FCGR2C",
+                    "region": "CNR1",
+                    "outcome": "perinatal HIV-1 acquisition",
+                    "adjustment factors": "birthweight and FCGR2C genotypes",
+                    "copy number": "\u22653"
+                },
+                "measures": "[univariate OR, 95% CI, P-value, adjusted OR, adjusted P-value]",
+                "outcomes": "[0.99, 0.63-1.57, 0.978, 0.74, 0.275]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Effect of FCGR2C CNR1 copy number distribution on perinatal HIV-1 acquisition",
+                    "adjustment factors": "birthweight and FCGR2C genotypes",
+                    "group": "Total group",
+                    "Fc\u03b3RIIc copy number": "\u22653 copies"
+                },
+                "measures": "[Univariate OR, 95% CI, P-value]",
+                "outcomes": "[0.99, (0.63-1.57), 0.978]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "gene": "FCGR2C",
+                    "region": "CNR1",
+                    "outcome": "perinatal HIV-1 acquisition",
+                    "adjustment factors": "birthweight and FCGR2C genotypes",
+                    "copy number": "\u22653"
+                },
+                "measures": "[univariate OR, 95% CI, P-value, adjusted OR, adjusted P-value]",
+                "outcomes": "[0.99, 0.63-1.57, 0.978, 0.74, 0.275]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Effect of FCGR2C CNR1 copy number distribution on perinatal HIV-1 acquisition",
+                    "adjustment factors": "birthweight and FCGR2C genotypes",
+                    "group": "Total group",
+                    "Fc\u03b3RIIc copy number": "\u22653 copies"
+                },
+                "measures": "[Adjusted OR, 95% CI, P-value]",
+                "outcomes": "[0.74, (0.43-1.27), 0.275]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 3,
+    "total_ground_truth_claims": 5,
+    "number_of_matches": 3
+}

@@ -1,0 +1,76 @@
+{
+    "matched_specifications": [
+        [
+            "treatment",
+            "gemcitabine"
+        ],
+        [
+            "control",
+            "5-fluorouracil"
+        ],
+        [
+            "phase",
+            "3"
+        ],
+        [
+            "fda approval",
+            "1996"
+        ],
+        [
+            "treatment",
+            "cell encapsulation + ifosfamide"
+        ],
+        [
+            "control",
+            "5-fluorouracil"
+        ],
+        [
+            "phase",
+            "2"
+        ],
+        [
+            "fda approval",
+            "n/a"
+        ]
+    ],
+    "unmatched_specifications": [
+        [
+            "study type",
+            "pancreatic cancer treatment"
+        ],
+        [
+            "study type",
+            "pancreatic cancer treatment"
+        ]
+    ],
+    "unmatched_extracted_keys": [
+        "study type"
+    ],
+    "unmatched_extracted_values": [],
+    "unmatched_ground_truth_keys": [
+        "cancer type",
+        "side effects"
+    ],
+    "unmatched_ground_truth_values": [
+        "more favorable than 5-fluorouracil",
+        "more favorable than 5-fluorouracil or gemcitabine"
+    ],
+    "mapped_keys": {
+        "fda approval": "fda approval",
+        "control": "control",
+        "treatment": "treatment",
+        "phase": "phase"
+    },
+    "mapped_values": {
+        "n/a": "n/a",
+        "gemcitabine": "gemcitabine",
+        "1996": "1996",
+        "5-fluorouracil": "5-fluorouracil",
+        "2": "2",
+        "3": "3",
+        "cell encapsulation + ifosfamide": "cell encapsulation + ifosfamide",
+        "pancreatic cancer treatment": "pancreatic cancer"
+    },
+    "precision": 0.8,
+    "recall": 0.6666666666666666
+}

@@ -1,0 +1,129 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Trial": "DISCOVER",
+                    "Analysis": "primary outcome",
+                    "Scale": "rate ratio",
+                    "Group": "TDF/FTC",
+                    "No. subjects": "2693",
+                    "PYFU": "4386",
+                    "Incident HIV infections": "11",
+                    "Incidence rate": "0.251",
+                    "Rate ratio": "REF"
+                },
+                "measures": "[Incidence rate, Rate ratio]",
+                "outcomes": "[0.251, REF]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Analysis": "Original analysis on rate ratio scale",
+                    "Group": "TDF/FTC",
+                    "No. subjects": "2693",
+                    "PYFU": "4386",
+                    "Incident HIV infections": "11",
+                    "Method": "Rate ratio analysis"
+                },
+                "measures": "[Incidence rate (per 100 PYFU), Rate ratio (95% CI)]",
+                "outcomes": "[0.251, REF]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Trial": "DISCOVER",
+                    "Analysis": "primary outcome",
+                    "Scale": "rate ratio",
+                    "Group": "TAF/FTC",
+                    "No. subjects": "2694",
+                    "PYFU": "4370",
+                    "Incident HIV infections": "6",
+                    "Incidence rate": "0.137",
+                    "Rate ratio": "0.55",
+                    "95% CI": "0.20, 1.48"
+                },
+                "measures": "[Incidence rate, Rate ratio]",
+                "outcomes": "[0.137, 0.55]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Analysis": "Original analysis on rate ratio scale",
+                    "Group": "TAF/FTC",
+                    "No. subjects": "2694",
+                    "PYFU": "4370",
+                    "Incident HIV infections": "6",
+                    "Method": "Rate ratio analysis"
+                },
+                "measures": "[Incidence rate (per 100 PYFU), Rate ratio (95% CI)]",
+                "outcomes": "[0.137, 0.55 (0.20\u20131.48)]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Trial": "DISCOVER",
+                    "Analysis": "re-analysis",
+                    "Scale": "averted infections",
+                    "Group": "TDF/FTC",
+                    "PYFU": "4386",
+                    "Observed infections": "11",
+                    "Predicted infections": "90.4",
+                    "Averted infections": "79.4",
+                    "Averted infections ratio": "REF"
+                },
+                "measures": "[Averted infections, Averted infections ratio]",
+                "outcomes": "[79.4, REF]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Analysis": "Re-analysis using an averted infections framework",
+                    "Group": "TDF/FTC",
+                    "PYFU": "4386",
+                    "Observed infections": "11",
+                    "Predicted infections": "90.4",
+                    "Method": "Averted infections framework (using counterfactual placebo incidence rate of 2.06 per 100 PYFU)"
+                },
+                "measures": "[Averted infections, Averted infections ratio (95% CI)]",
+                "outcomes": "[79.4, REF]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Trial": "DISCOVER",
+                    "Analysis": "re-analysis",
+                    "Scale": "averted infections",
+                    "Group": "TAF/FTC",
+                    "PYFU": "4370",
+                    "Observed infections": "6",
+                    "Predicted infections": "90.0",
+                    "Averted infections": "84.0",
+                    "Averted infections ratio": "1.06",
+                    "95% CI": "0.96, 1.17"
+                },
+                "measures": "[Averted infections, Averted infections ratio]",
+                "outcomes": "[84.0, 1.06]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Analysis": "Re-analysis using an averted infections framework",
+                    "Group": "TAF/FTC",
+                    "PYFU": "4370",
+                    "Observed infections": "6",
+                    "Predicted infections": "90.0",
+                    "Method": "Averted infections framework (using counterfactual placebo incidence rate of 2.06 per 100 PYFU)"
+                },
+                "measures": "[Averted infections, Averted infections ratio (95% CI)]",
+                "outcomes": "[84.0, 1.06 (0.96-1.17)]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 5,
+    "total_ground_truth_claims": 4,
+    "number_of_matches": 4
+}

@@ -1,0 +1,247 @@
+{
+    "matched_specifications": [
+        [
+            "dataset",
+            "spider"
+        ],
+        [
+            "category",
+            "seen patterns"
+        ],
+        [
+            "model",
+            "irnet"
+        ],
+        [
+            "dataset",
+            "spider"
+        ],
+        [
+            "category",
+            "unseen patterns"
+        ],
+        [
+            "model",
+            "irnet"
+        ],
+        [
+            "dataset",
+            "spider"
+        ],
+        [
+            "category",
+            "seen patterns"
+        ],
+        [
+            "model",
+            "irnet + aug"
+        ],
+        [
+            "improvement",
+            "+1.2"
+        ],
+        [
+            "dataset",
+            "spider"
+        ],
+        [
+            "category",
+            "unseen patterns"
+        ],
+        [
+            "model",
+            "irnet + aug"
+        ],
+        [
+            "improvement",
+            "+4.9"
+        ],
+        [
+            "dataset",
+            "spider"
+        ],
+        [
+            "category",
+            "seen patterns"
+        ],
+        [
+            "model",
+            "ratsql"
+        ],
+        [
+            "dataset",
+            "spider"
+        ],
+        [
+            "category",
+            "unseen patterns"
+        ],
+        [
+            "model",
+            "ratsql"
+        ],
+        [
+            "dataset",
+            "spider"
+        ],
+        [
+            "category",
+            "seen patterns"
+        ],
+        [
+            "model",
+            "ratsql + aug"
+        ],
+        [
+            "improvement",
+            "+6.4"
+        ],
+        [
+            "dataset",
+            "spider"
+        ],
+        [
+            "category",
+            "unseen patterns"
+        ],
+        [
+            "model",
+            "ratsql + aug"
+        ],
+        [
+            "improvement",
+            "+3.1"
+        ]
+    ],
+    "unmatched_specifications": [
+        [
+            "citation",
+            "analysis on sql patterns"
+        ],
+        [
+            "advantage",
+            "ability to generate new sql patterns that do not appear in the training data"
+        ],
+        [
+            "evaluation data",
+            "contains 20% low-frequency sql patterns unseen in the training data"
+        ],
+        [
+            "citation",
+            "analysis on sql patterns"
+        ],
+        [
+            "advantage",
+            "ability to generate new sql patterns that do not appear in the training data"
+        ],
+        [
+            "evaluation data",
+            "contains 20% low-frequency sql patterns unseen in the training data"
+        ],
+        [
+            "citation",
+            "analysis on sql patterns"
+        ],
+        [
+            "advantage",
+            "ability to generate new sql patterns that do not appear in the training data"
+        ],
+        [
+            "evaluation data",
+            "contains 20% low-frequency sql patterns unseen in the training data"
+        ],
+        [
+            "citation",
+            "analysis on sql patterns"
+        ],
+        [
+            "advantage",
+            "ability to generate new sql patterns that do not appear in the training data"
+        ],
+        [
+            "evaluation data",
+            "contains 20% low-frequency sql patterns unseen in the training data"
+        ],
+        [
+            "citation",
+            "analysis on sql patterns"
+        ],
+        [
+            "advantage",
+            "ability to generate new sql patterns that do not appear in the training data"
+        ],
+        [
+            "evaluation data",
+            "contains 20% low-frequency sql patterns unseen in the training data"
+        ],
+        [
+            "citation",
+            "analysis on sql patterns"
+        ],
+        [
+            "advantage",
+            "ability to generate new sql patterns that do not appear in the training data"
+        ],
+        [
+            "evaluation data",
+            "contains 20% low-frequency sql patterns unseen in the training data"
+        ],
+        [
+            "citation",
+            "analysis on sql patterns"
+        ],
+        [
+            "advantage",
+            "ability to generate new sql patterns that do not appear in the training data"
+        ],
+        [
+            "evaluation data",
+            "contains 20% low-frequency sql patterns unseen in the training data"
+        ],
+        [
+            "citation",
+            "analysis on sql patterns"
+        ],
+        [
+            "advantage",
+            "ability to generate new sql patterns that do not appear in the training data"
+        ],
+        [
+            "evaluation data",
+            "contains 20% low-frequency sql patterns unseen in the training data"
+        ]
+    ],
+    "unmatched_extracted_keys": [
+        "citation",
+        "advantage",
+        "evaluation data"
+    ],
+    "unmatched_extracted_values": [
+        "contains 20% low-frequency sql patterns unseen in the training data",
+        "analysis on sql patterns",
+        "ability to generate new sql patterns that do not appear in the training data"
+    ],
+    "unmatched_ground_truth_keys": [],
+    "unmatched_ground_truth_values": [],
+    "mapped_keys": {
+        "model": "model",
+        "dataset": "dataset",
+        "improvement": "improvement",
+        "category": "pattern type"
+    },
+    "mapped_values": {
+        "ratsql": "ratsql",
+        "irnet": "irnet",
+        "seen patterns": "seen patterns",
+        "ratsql + aug": "ratsql + aug",
+        "unseen patterns": "unseen patterns",
+        "spider": "spider",
+        "irnet + aug": "irnet + aug",
+        "+1.2": "1.2",
+        "+4.9": "4.9",
+        "+6.4": "6.4",
+        "+3.1": "3.1"
+    },
+    "precision": 0.5384615384615384,
+    "recall": 1.0
+}

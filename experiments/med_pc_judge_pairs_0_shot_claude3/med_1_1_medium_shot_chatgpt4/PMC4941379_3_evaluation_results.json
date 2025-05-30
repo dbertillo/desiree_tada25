@@ -1,0 +1,1280 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG\u2212/CagA\u2212",
+                    "Sample size": "4555",
+                    "Cases": "5",
+                    "Crude incidence rate": "10.42 per 100,000 person-years",
+                    "HR1 (95% CI)": "Ref",
+                    "HR2 (95% CI)": "Ref"
+                },
+                "measures": "[Crude incidence rate]",
+                "outcomes": "[10.42]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG\u2212/CagA\u2212",
+                    "Sample size": "4555",
+                    "Cases": "5",
+                    "Unit": ", Per 100,000 person-years"
+                },
+                "measures": "['Crude incidence rate']",
+                "outcomes": "['10.42']"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG+/CagA\u2212",
+                    "Sample size": "1984",
+                    "Cases": "2",
+                    "Crude incidence rate": "9.54 per 100,000 person-years",
+                    "HR1 (95% CI)": "0.79 (0.15\u20134.08)",
+                    "HR2 (95% CI)": "Ref"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[9.54, 0.79]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG\u2212/CagA\u2212",
+                    "Sample size": "4555",
+                    "Cases": "5",
+                    "Unit": ", Per 100,000 person-years",
+                    "HR1 description": "comparing participants with and without chronic atrophic gastritis",
+                    "Adjustment factors": ", age, sex, education level, smoking status, alcohol consumption"
+                },
+                "measures": "[HR1, 95% CI]",
+                "outcomes": "[Ref, NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG+/CagA\u2212",
+                    "Sample size": "1984",
+                    "Cases": "2",
+                    "Crude incidence rate": "9.54 per 100,000 person-years",
+                    "HR1 (95% CI)": "0.79 (0.15\u20134.08)",
+                    "HR2 (95% CI)": "Ref"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[9.54, 0.79]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG\u2212/CagA\u2212",
+                    "Sample size": "4555",
+                    "Cases": "5",
+                    "Unit": ", Per 100,000 person-years",
+                    "HR2 description": "comparing different groups with participants without chronic atrophic gastritis and without H. pylori infection",
+                    "Adjustment factors": ", age, sex, education level, smoking status, alcohol consumption"
+                },
+                "measures": "[HR2, 95% CI]",
+                "outcomes": "[Ref, NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG+/CagA\u2212",
+                    "Sample size": "1984",
+                    "Cases": "2",
+                    "Crude incidence rate": "9.54 per 100,000 person-years",
+                    "HR1 (95% CI)": "0.79 (0.15\u20134.08)",
+                    "HR2 (95% CI)": "Ref"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[9.54, 0.79]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG+/CagA-",
+                    "Sample size": "1984",
+                    "Cases": "2",
+                    "Unit": ", Per 100,000 person-years"
+                },
+                "measures": "['Crude incidence rate']",
+                "outcomes": "['9.54']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG+/CagA\u2212",
+                    "Sample size": "1984",
+                    "Cases": "2",
+                    "Crude incidence rate": "9.54 per 100,000 person-years",
+                    "HR1 (95% CI)": "0.79 (0.15\u20134.08)",
+                    "HR2 (95% CI)": "Ref"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[9.54, 0.79]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG+/CagA-",
+                    "Sample size": "1984",
+                    "Cases": "2",
+                    "Unit": ", Per 100,000 person-years",
+                    "HR1 description": "comparing participants with and without chronic atrophic gastritis",
+                    "Adjustment factors": ", age, sex, education level, smoking status, alcohol consumption"
+                },
+                "measures": "[HR1, 95% CI]",
+                "outcomes": "[NA, NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG+/CagA\u2212",
+                    "Sample size": "1984",
+                    "Cases": "2",
+                    "Crude incidence rate": "9.54 per 100,000 person-years",
+                    "HR1 (95% CI)": "0.79 (0.15\u20134.08)",
+                    "HR2 (95% CI)": "Ref"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[9.54, 0.79]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG+/CagA-",
+                    "Sample size": "1984",
+                    "Cases": "2",
+                    "Unit": ", Per 100,000 person-years",
+                    "HR2 description": "comparing different groups with participants without chronic atrophic gastritis and without H. pylori infection",
+                    "Adjustment factors": ", age, sex, education level, smoking status, alcohol consumption"
+                },
+                "measures": "[HR2, 95% CI]",
+                "outcomes": "[0.79, (0.15-4.08)]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG+/CagA+",
+                    "Sample size": "2295",
+                    "Cases": "14",
+                    "Crude incidence rate": "58.13 per 100,000 person-years",
+                    "HR1 (95% CI)": "5.05 (1.81\u201314.09)",
+                    "HR2 (95% CI)": "Ref"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[58.13, 5.05]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG\u2212/CagA\u2212",
+                    "Sample size": "4555",
+                    "Cases": "5",
+                    "Unit": ", Per 100,000 person-years",
+                    "HR1 description": "comparing participants with and without chronic atrophic gastritis",
+                    "Adjustment factors": ", age, sex, education level, smoking status, alcohol consumption"
+                },
+                "measures": "[HR1, 95% CI]",
+                "outcomes": "[Ref, NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG+/CagA+",
+                    "Sample size": "2295",
+                    "Cases": "14",
+                    "Crude incidence rate": "58.13 per 100,000 person-years",
+                    "HR1 (95% CI)": "5.05 (1.81\u201314.09)",
+                    "HR2 (95% CI)": "Ref"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[58.13, 5.05]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG\u2212/CagA\u2212",
+                    "Sample size": "4555",
+                    "Cases": "5",
+                    "Unit": ", Per 100,000 person-years",
+                    "HR2 description": "comparing different groups with participants without chronic atrophic gastritis and without H. pylori infection",
+                    "Adjustment factors": ", age, sex, education level, smoking status, alcohol consumption"
+                },
+                "measures": "[HR2, 95% CI]",
+                "outcomes": "[Ref, NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG+/CagA+",
+                    "Sample size": "2295",
+                    "Cases": "14",
+                    "Crude incidence rate": "58.13 per 100,000 person-years",
+                    "HR1 (95% CI)": "5.05 (1.81\u201314.09)",
+                    "HR2 (95% CI)": "Ref"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[58.13, 5.05]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG+/CagA-",
+                    "Sample size": "1984",
+                    "Cases": "2",
+                    "Unit": ", Per 100,000 person-years"
+                },
+                "measures": "['Crude incidence rate']",
+                "outcomes": "['9.54']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG+/CagA+",
+                    "Sample size": "2295",
+                    "Cases": "14",
+                    "Crude incidence rate": "58.13 per 100,000 person-years",
+                    "HR1 (95% CI)": "5.05 (1.81\u201314.09)",
+                    "HR2 (95% CI)": "Ref"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[58.13, 5.05]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG+/CagA-",
+                    "Sample size": "1984",
+                    "Cases": "2",
+                    "Unit": ", Per 100,000 person-years",
+                    "HR1 description": "comparing participants with and without chronic atrophic gastritis",
+                    "Adjustment factors": ", age, sex, education level, smoking status, alcohol consumption"
+                },
+                "measures": "[HR1, 95% CI]",
+                "outcomes": "[NA, NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG+/CagA+",
+                    "Sample size": "2295",
+                    "Cases": "14",
+                    "Crude incidence rate": "58.13 per 100,000 person-years",
+                    "HR1 (95% CI)": "5.05 (1.81\u201314.09)",
+                    "HR2 (95% CI)": "Ref"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[58.13, 5.05]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG+/CagA+",
+                    "Sample size": "2295",
+                    "Cases": "14",
+                    "Unit": ", Per 100,000 person-years"
+                },
+                "measures": "['Crude incidence rate']",
+                "outcomes": "['58.13']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG+/CagA+",
+                    "Sample size": "2295",
+                    "Cases": "14",
+                    "Crude incidence rate": "58.13 per 100,000 person-years",
+                    "HR1 (95% CI)": "5.05 (1.81\u201314.09)",
+                    "HR2 (95% CI)": "Ref"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[58.13, 5.05]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG+/CagA+",
+                    "Sample size": "2295",
+                    "Cases": "14",
+                    "Unit": ", Per 100,000 person-years",
+                    "HR1 description": "comparing participants with and without chronic atrophic gastritis",
+                    "Adjustment factors": ", age, sex, education level, smoking status, alcohol consumption"
+                },
+                "measures": "[HR1, 95% CI]",
+                "outcomes": "[NA, NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG+/CagA+",
+                    "Sample size": "2295",
+                    "Cases": "14",
+                    "Crude incidence rate": "58.13 per 100,000 person-years",
+                    "HR1 (95% CI)": "5.05 (1.81\u201314.09)",
+                    "HR2 (95% CI)": "Ref"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[58.13, 5.05]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG+/CagA+",
+                    "Sample size": "2295",
+                    "Cases": "14",
+                    "Unit": ", Per 100,000 person-years",
+                    "HR2 description": "comparing different groups with participants without chronic atrophic gastritis and without H. pylori infection",
+                    "Adjustment factors": ", age, sex, education level, smoking status, alcohol consumption"
+                },
+                "measures": "[HR2, 95% CI]",
+                "outcomes": "[5.05, (1.81-14.09)]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG\u2212/CagA\u2212",
+                    "Sample size": "205",
+                    "Cases": "0",
+                    "Crude incidence rate": "0 per 100,000 person-years",
+                    "HR1 (95% CI)": "3.45 (1.38\u20138.64)",
+                    "HR2 (95% CI)": "Not estimable"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[0, 3.45]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG\u2212/CagA\u2212",
+                    "Sample size": "4555",
+                    "Cases": "5",
+                    "Unit": ", Per 100,000 person-years",
+                    "HR1 description": "comparing participants with and without chronic atrophic gastritis",
+                    "Adjustment factors": ", age, sex, education level, smoking status, alcohol consumption"
+                },
+                "measures": "[HR1, 95% CI]",
+                "outcomes": "[Ref, NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG\u2212/CagA\u2212",
+                    "Sample size": "205",
+                    "Cases": "0",
+                    "Crude incidence rate": "0 per 100,000 person-years",
+                    "HR1 (95% CI)": "3.45 (1.38\u20138.64)",
+                    "HR2 (95% CI)": "Not estimable"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[0, 3.45]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG\u2212/CagA\u2212",
+                    "Sample size": "4555",
+                    "Cases": "5",
+                    "Unit": ", Per 100,000 person-years",
+                    "HR2 description": "comparing different groups with participants without chronic atrophic gastritis and without H. pylori infection",
+                    "Adjustment factors": ", age, sex, education level, smoking status, alcohol consumption"
+                },
+                "measures": "[HR2, 95% CI]",
+                "outcomes": "[Ref, NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG\u2212/CagA\u2212",
+                    "Sample size": "205",
+                    "Cases": "0",
+                    "Crude incidence rate": "0 per 100,000 person-years",
+                    "HR1 (95% CI)": "3.45 (1.38\u20138.64)",
+                    "HR2 (95% CI)": "Not estimable"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[0, 3.45]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG+/CagA-",
+                    "Sample size": "1984",
+                    "Cases": "2",
+                    "Unit": ", Per 100,000 person-years"
+                },
+                "measures": "['Crude incidence rate']",
+                "outcomes": "['9.54']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG\u2212/CagA\u2212",
+                    "Sample size": "205",
+                    "Cases": "0",
+                    "Crude incidence rate": "0 per 100,000 person-years",
+                    "HR1 (95% CI)": "3.45 (1.38\u20138.64)",
+                    "HR2 (95% CI)": "Not estimable"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[0, 3.45]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG+/CagA-",
+                    "Sample size": "1984",
+                    "Cases": "2",
+                    "Unit": ", Per 100,000 person-years",
+                    "HR1 description": "comparing participants with and without chronic atrophic gastritis",
+                    "Adjustment factors": ", age, sex, education level, smoking status, alcohol consumption"
+                },
+                "measures": "[HR1, 95% CI]",
+                "outcomes": "[NA, NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG\u2212/CagA\u2212",
+                    "Sample size": "205",
+                    "Cases": "0",
+                    "Crude incidence rate": "0 per 100,000 person-years",
+                    "HR1 (95% CI)": "3.45 (1.38\u20138.64)",
+                    "HR2 (95% CI)": "Not estimable"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[0, 3.45]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG+/CagA+",
+                    "Sample size": "2295",
+                    "Cases": "14",
+                    "Unit": ", Per 100,000 person-years"
+                },
+                "measures": "['Crude incidence rate']",
+                "outcomes": "['58.13']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG\u2212/CagA\u2212",
+                    "Sample size": "205",
+                    "Cases": "0",
+                    "Crude incidence rate": "0 per 100,000 person-years",
+                    "HR1 (95% CI)": "3.45 (1.38\u20138.64)",
+                    "HR2 (95% CI)": "Not estimable"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[0, 3.45]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG+/CagA+",
+                    "Sample size": "2295",
+                    "Cases": "14",
+                    "Unit": ", Per 100,000 person-years",
+                    "HR1 description": "comparing participants with and without chronic atrophic gastritis",
+                    "Adjustment factors": ", age, sex, education level, smoking status, alcohol consumption"
+                },
+                "measures": "[HR1, 95% CI]",
+                "outcomes": "[NA, NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG\u2212/CagA\u2212",
+                    "Sample size": "205",
+                    "Cases": "0",
+                    "Crude incidence rate": "0 per 100,000 person-years",
+                    "HR1 (95% CI)": "3.45 (1.38\u20138.64)",
+                    "HR2 (95% CI)": "Not estimable"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[0, 3.45]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG-/CagA-",
+                    "Sample size": "205",
+                    "Cases": "0",
+                    "Unit": ", Per 100,000 person-years"
+                },
+                "measures": "['Crude incidence rate']",
+                "outcomes": "['0']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG\u2212/CagA\u2212",
+                    "Sample size": "205",
+                    "Cases": "0",
+                    "Crude incidence rate": "0 per 100,000 person-years",
+                    "HR1 (95% CI)": "3.45 (1.38\u20138.64)",
+                    "HR2 (95% CI)": "Not estimable"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[0, 3.45]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG-/CagA-",
+                    "Sample size": "205",
+                    "Cases": "0",
+                    "Unit": ", Per 100,000 person-years",
+                    "HR1 description": "comparing participants with and without chronic atrophic gastritis",
+                    "Adjustment factors": ", age, sex, education level, smoking status, alcohol consumption"
+                },
+                "measures": "[HR1, 95% CI]",
+                "outcomes": "[3.45, (1.38-8.64)]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG+/CagA\u2212",
+                    "Sample size": "143",
+                    "Cases": "1",
+                    "Crude incidence rate": "64.61 per 100,000 person-years",
+                    "HR1 (95% CI)": "5.50 (0.63\u201347.57)",
+                    "HR2 (95% CI)": "Not estimable"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[64.61, 5.50]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG\u2212/CagA\u2212",
+                    "Sample size": "4555",
+                    "Cases": "5",
+                    "Unit": ", Per 100,000 person-years",
+                    "HR1 description": "comparing participants with and without chronic atrophic gastritis",
+                    "Adjustment factors": ", age, sex, education level, smoking status, alcohol consumption"
+                },
+                "measures": "[HR1, 95% CI]",
+                "outcomes": "[Ref, NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG+/CagA\u2212",
+                    "Sample size": "143",
+                    "Cases": "1",
+                    "Crude incidence rate": "64.61 per 100,000 person-years",
+                    "HR1 (95% CI)": "5.50 (0.63\u201347.57)",
+                    "HR2 (95% CI)": "Not estimable"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[64.61, 5.50]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG\u2212/CagA\u2212",
+                    "Sample size": "4555",
+                    "Cases": "5",
+                    "Unit": ", Per 100,000 person-years",
+                    "HR2 description": "comparing different groups with participants without chronic atrophic gastritis and without H. pylori infection",
+                    "Adjustment factors": ", age, sex, education level, smoking status, alcohol consumption"
+                },
+                "measures": "[HR2, 95% CI]",
+                "outcomes": "[Ref, NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG+/CagA\u2212",
+                    "Sample size": "143",
+                    "Cases": "1",
+                    "Crude incidence rate": "64.61 per 100,000 person-years",
+                    "HR1 (95% CI)": "5.50 (0.63\u201347.57)",
+                    "HR2 (95% CI)": "Not estimable"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[64.61, 5.50]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG+/CagA-",
+                    "Sample size": "1984",
+                    "Cases": "2",
+                    "Unit": ", Per 100,000 person-years"
+                },
+                "measures": "['Crude incidence rate']",
+                "outcomes": "['9.54']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG+/CagA\u2212",
+                    "Sample size": "143",
+                    "Cases": "1",
+                    "Crude incidence rate": "64.61 per 100,000 person-years",
+                    "HR1 (95% CI)": "5.50 (0.63\u201347.57)",
+                    "HR2 (95% CI)": "Not estimable"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[64.61, 5.50]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG+/CagA-",
+                    "Sample size": "1984",
+                    "Cases": "2",
+                    "Unit": ", Per 100,000 person-years",
+                    "HR1 description": "comparing participants with and without chronic atrophic gastritis",
+                    "Adjustment factors": ", age, sex, education level, smoking status, alcohol consumption"
+                },
+                "measures": "[HR1, 95% CI]",
+                "outcomes": "[NA, NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG+/CagA\u2212",
+                    "Sample size": "143",
+                    "Cases": "1",
+                    "Crude incidence rate": "64.61 per 100,000 person-years",
+                    "HR1 (95% CI)": "5.50 (0.63\u201347.57)",
+                    "HR2 (95% CI)": "Not estimable"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[64.61, 5.50]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG+/CagA+",
+                    "Sample size": "2295",
+                    "Cases": "14",
+                    "Unit": ", Per 100,000 person-years"
+                },
+                "measures": "['Crude incidence rate']",
+                "outcomes": "['58.13']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG+/CagA\u2212",
+                    "Sample size": "143",
+                    "Cases": "1",
+                    "Crude incidence rate": "64.61 per 100,000 person-years",
+                    "HR1 (95% CI)": "5.50 (0.63\u201347.57)",
+                    "HR2 (95% CI)": "Not estimable"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[64.61, 5.50]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG+/CagA+",
+                    "Sample size": "2295",
+                    "Cases": "14",
+                    "Unit": ", Per 100,000 person-years",
+                    "HR1 description": "comparing participants with and without chronic atrophic gastritis",
+                    "Adjustment factors": ", age, sex, education level, smoking status, alcohol consumption"
+                },
+                "measures": "[HR1, 95% CI]",
+                "outcomes": "[NA, NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG+/CagA\u2212",
+                    "Sample size": "143",
+                    "Cases": "1",
+                    "Crude incidence rate": "64.61 per 100,000 person-years",
+                    "HR1 (95% CI)": "5.50 (0.63\u201347.57)",
+                    "HR2 (95% CI)": "Not estimable"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[64.61, 5.50]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG-/CagA-",
+                    "Sample size": "205",
+                    "Cases": "0",
+                    "Unit": ", Per 100,000 person-years"
+                },
+                "measures": "['Crude incidence rate']",
+                "outcomes": "['0']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG+/CagA\u2212",
+                    "Sample size": "143",
+                    "Cases": "1",
+                    "Crude incidence rate": "64.61 per 100,000 person-years",
+                    "HR1 (95% CI)": "5.50 (0.63\u201347.57)",
+                    "HR2 (95% CI)": "Not estimable"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[64.61, 5.50]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG-/CagA-",
+                    "Sample size": "205",
+                    "Cases": "0",
+                    "Unit": ", Per 100,000 person-years",
+                    "HR2 description": "comparing different groups with participants without chronic atrophic gastritis and without H. pylori infection",
+                    "Adjustment factors": ", age, sex, education level, smoking status, alcohol consumption"
+                },
+                "measures": "[HR2, 95% CI]",
+                "outcomes": "[NA, Not estimable]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG+/CagA\u2212",
+                    "Sample size": "143",
+                    "Cases": "1",
+                    "Crude incidence rate": "64.61 per 100,000 person-years",
+                    "HR1 (95% CI)": "5.50 (0.63\u201347.57)",
+                    "HR2 (95% CI)": "Not estimable"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[64.61, 5.50]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG+/CagA-",
+                    "Sample size": "143",
+                    "Cases": "1",
+                    "Unit": ", Per 100,000 person-years"
+                },
+                "measures": "['Crude incidence rate']",
+                "outcomes": "['64.61']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG+/CagA\u2212",
+                    "Sample size": "143",
+                    "Cases": "1",
+                    "Crude incidence rate": "64.61 per 100,000 person-years",
+                    "HR1 (95% CI)": "5.50 (0.63\u201347.57)",
+                    "HR2 (95% CI)": "Not estimable"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[64.61, 5.50]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG+/CagA-",
+                    "Sample size": "143",
+                    "Cases": "1",
+                    "Unit": ", Per 100,000 person-years",
+                    "HR1 description": "comparing participants with and without chronic atrophic gastritis",
+                    "Adjustment factors": ", age, sex, education level, smoking status, alcohol consumption"
+                },
+                "measures": "[HR1, 95% CI]",
+                "outcomes": "[NA, NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG+/CagA\u2212",
+                    "Sample size": "143",
+                    "Cases": "1",
+                    "Crude incidence rate": "64.61 per 100,000 person-years",
+                    "HR1 (95% CI)": "5.50 (0.63\u201347.57)",
+                    "HR2 (95% CI)": "Not estimable"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[64.61, 5.50]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG+/CagA-",
+                    "Sample size": "143",
+                    "Cases": "1",
+                    "Unit": ", Per 100,000 person-years",
+                    "HR2 description": "comparing different groups with participants without chronic atrophic gastritis and without H. pylori infection",
+                    "Adjustment factors": ", age, sex, education level, smoking status, alcohol consumption"
+                },
+                "measures": "[HR2, 95% CI]",
+                "outcomes": "[5.50, (0.63-47.57)]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG+/CagA+",
+                    "Sample size": "315",
+                    "Cases": "5",
+                    "Crude incidence rate": "151.20 per 100,000 person-years",
+                    "HR1 (95% CI)": "12.51 (3.57\u201343.22)",
+                    "HR2 (95% CI)": "Not estimable"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[151.20, 12.51]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG\u2212/CagA\u2212",
+                    "Sample size": "4555",
+                    "Cases": "5",
+                    "Unit": ", Per 100,000 person-years",
+                    "HR1 description": "comparing participants with and without chronic atrophic gastritis",
+                    "Adjustment factors": ", age, sex, education level, smoking status, alcohol consumption"
+                },
+                "measures": "[HR1, 95% CI]",
+                "outcomes": "[Ref, NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG+/CagA+",
+                    "Sample size": "315",
+                    "Cases": "5",
+                    "Crude incidence rate": "151.20 per 100,000 person-years",
+                    "HR1 (95% CI)": "12.51 (3.57\u201343.22)",
+                    "HR2 (95% CI)": "Not estimable"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[151.20, 12.51]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG\u2212/CagA\u2212",
+                    "Sample size": "4555",
+                    "Cases": "5",
+                    "Unit": ", Per 100,000 person-years",
+                    "HR2 description": "comparing different groups with participants without chronic atrophic gastritis and without H. pylori infection",
+                    "Adjustment factors": ", age, sex, education level, smoking status, alcohol consumption"
+                },
+                "measures": "[HR2, 95% CI]",
+                "outcomes": "[Ref, NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG+/CagA+",
+                    "Sample size": "315",
+                    "Cases": "5",
+                    "Crude incidence rate": "151.20 per 100,000 person-years",
+                    "HR1 (95% CI)": "12.51 (3.57\u201343.22)",
+                    "HR2 (95% CI)": "Not estimable"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[151.20, 12.51]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG+/CagA-",
+                    "Sample size": "1984",
+                    "Cases": "2",
+                    "Unit": ", Per 100,000 person-years"
+                },
+                "measures": "['Crude incidence rate']",
+                "outcomes": "['9.54']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG+/CagA+",
+                    "Sample size": "315",
+                    "Cases": "5",
+                    "Crude incidence rate": "151.20 per 100,000 person-years",
+                    "HR1 (95% CI)": "12.51 (3.57\u201343.22)",
+                    "HR2 (95% CI)": "Not estimable"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[151.20, 12.51]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG+/CagA-",
+                    "Sample size": "1984",
+                    "Cases": "2",
+                    "Unit": ", Per 100,000 person-years",
+                    "HR1 description": "comparing participants with and without chronic atrophic gastritis",
+                    "Adjustment factors": ", age, sex, education level, smoking status, alcohol consumption"
+                },
+                "measures": "[HR1, 95% CI]",
+                "outcomes": "[NA, NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG+/CagA+",
+                    "Sample size": "315",
+                    "Cases": "5",
+                    "Crude incidence rate": "151.20 per 100,000 person-years",
+                    "HR1 (95% CI)": "12.51 (3.57\u201343.22)",
+                    "HR2 (95% CI)": "Not estimable"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[151.20, 12.51]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG+/CagA+",
+                    "Sample size": "2295",
+                    "Cases": "14",
+                    "Unit": ", Per 100,000 person-years"
+                },
+                "measures": "['Crude incidence rate']",
+                "outcomes": "['58.13']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG+/CagA+",
+                    "Sample size": "315",
+                    "Cases": "5",
+                    "Crude incidence rate": "151.20 per 100,000 person-years",
+                    "HR1 (95% CI)": "12.51 (3.57\u201343.22)",
+                    "HR2 (95% CI)": "Not estimable"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[151.20, 12.51]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "None",
+                    "H. pylori infection": "IgG+/CagA+",
+                    "Sample size": "2295",
+                    "Cases": "14",
+                    "Unit": ", Per 100,000 person-years",
+                    "HR1 description": "comparing participants with and without chronic atrophic gastritis",
+                    "Adjustment factors": ", age, sex, education level, smoking status, alcohol consumption"
+                },
+                "measures": "[HR1, 95% CI]",
+                "outcomes": "[NA, NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG+/CagA+",
+                    "Sample size": "315",
+                    "Cases": "5",
+                    "Crude incidence rate": "151.20 per 100,000 person-years",
+                    "HR1 (95% CI)": "12.51 (3.57\u201343.22)",
+                    "HR2 (95% CI)": "Not estimable"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[151.20, 12.51]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG-/CagA-",
+                    "Sample size": "205",
+                    "Cases": "0",
+                    "Unit": ", Per 100,000 person-years"
+                },
+                "measures": "['Crude incidence rate']",
+                "outcomes": "['0']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG+/CagA+",
+                    "Sample size": "315",
+                    "Cases": "5",
+                    "Crude incidence rate": "151.20 per 100,000 person-years",
+                    "HR1 (95% CI)": "12.51 (3.57\u201343.22)",
+                    "HR2 (95% CI)": "Not estimable"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[151.20, 12.51]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG-/CagA-",
+                    "Sample size": "205",
+                    "Cases": "0",
+                    "Unit": ", Per 100,000 person-years",
+                    "HR2 description": "comparing different groups with participants without chronic atrophic gastritis and without H. pylori infection",
+                    "Adjustment factors": ", age, sex, education level, smoking status, alcohol consumption"
+                },
+                "measures": "[HR2, 95% CI]",
+                "outcomes": "[NA, Not estimable]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG+/CagA+",
+                    "Sample size": "315",
+                    "Cases": "5",
+                    "Crude incidence rate": "151.20 per 100,000 person-years",
+                    "HR1 (95% CI)": "12.51 (3.57\u201343.22)",
+                    "HR2 (95% CI)": "Not estimable"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[151.20, 12.51]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG+/CagA-",
+                    "Sample size": "143",
+                    "Cases": "1",
+                    "Unit": ", Per 100,000 person-years"
+                },
+                "measures": "['Crude incidence rate']",
+                "outcomes": "['64.61']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG+/CagA+",
+                    "Sample size": "315",
+                    "Cases": "5",
+                    "Crude incidence rate": "151.20 per 100,000 person-years",
+                    "HR1 (95% CI)": "12.51 (3.57\u201343.22)",
+                    "HR2 (95% CI)": "Not estimable"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[151.20, 12.51]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG+/CagA-",
+                    "Sample size": "143",
+                    "Cases": "1",
+                    "Unit": ", Per 100,000 person-years",
+                    "HR1 description": "comparing participants with and without chronic atrophic gastritis",
+                    "Adjustment factors": ", age, sex, education level, smoking status, alcohol consumption"
+                },
+                "measures": "[HR1, 95% CI]",
+                "outcomes": "[NA, NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG+/CagA+",
+                    "Sample size": "315",
+                    "Cases": "5",
+                    "Crude incidence rate": "151.20 per 100,000 person-years",
+                    "HR1 (95% CI)": "12.51 (3.57\u201343.22)",
+                    "HR2 (95% CI)": "Not estimable"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[151.20, 12.51]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG+/CagA+",
+                    "Sample size": "315",
+                    "Cases": "5",
+                    "Unit": ", Per 100,000 person-years"
+                },
+                "measures": "['Crude incidence rate']",
+                "outcomes": "['151.20']"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG+/CagA+",
+                    "Sample size": "315",
+                    "Cases": "5",
+                    "Crude incidence rate": "151.20 per 100,000 person-years",
+                    "HR1 (95% CI)": "12.51 (3.57\u201343.22)",
+                    "HR2 (95% CI)": "Not estimable"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[151.20, 12.51]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG+/CagA+",
+                    "Sample size": "315",
+                    "Cases": "5",
+                    "Unit": ", Per 100,000 person-years",
+                    "HR1 description": "comparing participants with and without chronic atrophic gastritis",
+                    "Adjustment factors": ", age, sex, education level, smoking status, alcohol consumption"
+                },
+                "measures": "[HR1, 95% CI]",
+                "outcomes": "[NA, NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG+/CagA+",
+                    "Sample size": "315",
+                    "Cases": "5",
+                    "Crude incidence rate": "151.20 per 100,000 person-years",
+                    "HR1 (95% CI)": "12.51 (3.57\u201343.22)",
+                    "HR2 (95% CI)": "Not estimable"
+                },
+                "measures": "[Crude incidence rate, HR1]",
+                "outcomes": "[151.20, 12.51]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Chronic atrophic gastritis": "Present",
+                    "H. pylori infection": "IgG+/CagA+",
+                    "Sample size": "315",
+                    "Cases": "5",
+                    "Unit": ", Per 100,000 person-years",
+                    "HR2 description": "comparing different groups with participants without chronic atrophic gastritis and without H. pylori infection",
+                    "Adjustment factors": ", age, sex, education level, smoking status, alcohol consumption"
+                },
+                "measures": "[HR2, 95% CI]",
+                "outcomes": "[12.51, (3.57-43.22)]"
+            },
+            "match": "no"
+        }
+    ],
+    "total_extracted_claims": 6,
+    "total_ground_truth_claims": 18,
+    "number_of_matches": 5
+}

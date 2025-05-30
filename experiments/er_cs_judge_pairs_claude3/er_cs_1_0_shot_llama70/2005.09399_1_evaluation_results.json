@@ -1,0 +1,71 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "Token Blocking",
+                    "Criterion": "The descriptions have a common token in their values."
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Token Blocking",
+                    "Criterion": "The descriptions have a common token in their values.",
+                    "Context": "Criteria for placing descriptions in the same block"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "Attribute Clustering Blocking",
+                    "Criterion": "The descriptions have a common token in the values of attributes that have similar values in overall."
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Attribute Clustering Blocking",
+                    "Criterion": "The descriptions have a common token in the values of attributes that have similar values in overall.",
+                    "Context": "Criteria for placing descriptions in the same block"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "Prefix-Infix(-Suffix) Blocking",
+                    "Criterion": "The descriptions have a common token in their literal values, or a common URI infix."
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Prefix-Infix(-Suffix) Blocking",
+                    "Criterion": "The descriptions have a common token in their literal values, or a common URI infix.",
+                    "Context": "Criteria for placing descriptions in the same block"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "Iterative Blocking",
+                    "Criterion": "The descriptions are placed in a block by a blocking method, or after replacing descriptions that were merged in a previous iteration."
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Iterative Blocking",
+                    "Criterion": "The descriptions are placed in a block by a blocking method, or after replacing descriptions that were merged in a previous iteration.",
+                    "Context": "Criteria for placing descriptions in the same block"
+                }
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 5,
+    "total_ground_truth_claims": 4,
+    "number_of_matches": 4
+}

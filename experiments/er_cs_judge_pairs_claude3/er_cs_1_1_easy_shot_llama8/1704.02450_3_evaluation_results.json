@@ -1,0 +1,2347 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "Original WLD",
+                    "Dataset": "IIIT-D Sketch Database"
+                },
+                "measures": "[Rank-1 Accuracy]",
+                "outcomes": "[74.34]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Original WLD",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[Rank-1 Accuracy]",
+                "outcomes": "[74.34]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "SIFT",
+                    "Dataset": "IIIT-D Sketch Database"
+                },
+                "measures": "[Rank-1 Accuracy]",
+                "outcomes": "[76.28]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "SIFT",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[Rank-1 Accuracy]",
+                "outcomes": "[76.28]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "EUCLBP",
+                    "Dataset": "IIIT-D Sketch Database"
+                },
+                "measures": "[Rank-1 Accuracy]",
+                "outcomes": "[79.36]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "EUCLBP",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[Rank-1 Accuracy]",
+                "outcomes": "[79.36]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "LFDA",
+                    "Dataset": "IIIT-D Sketch Database"
+                },
+                "measures": "[Rank-1 Accuracy]",
+                "outcomes": "[81.43]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "LFDA",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[Rank-1 Accuracy]",
+                "outcomes": "[81.43]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "MCWLD",
+                    "Dataset": "IIIT-D Sketch Database"
+                },
+                "measures": "[Rank-1 Accuracy]",
+                "outcomes": "[84.24]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "MCWLD",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[Rank-1 Accuracy]",
+                "outcomes": "[84.24]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "VGG",
+                    "Dataset": "IIIT-D Sketch Database"
+                },
+                "measures": "[Rank-1 Accuracy]",
+                "outcomes": [
+                    "[80.89]",
+                    "[FAR=1%]",
+                    "[72.08]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "VGG",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[Rank-1 Accuracy]",
+                "outcomes": "[80.89]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "CenterLoss",
+                    "Dataset": "IIIT-D Sketch Database"
+                },
+                "measures": "[Rank-1 Accuracy]",
+                "outcomes": [
+                    "[84.07]",
+                    "[FAR=1%]",
+                    "[76.20]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "VGG",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[72.08]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "CenterLoss",
+                    "Dataset": "IIIT-D Sketch Database"
+                },
+                "measures": "[Rank-1 Accuracy]",
+                "outcomes": [
+                    "[84.07]",
+                    "[FAR=1%]",
+                    "[76.20]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CenterLoss",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[Rank-1 Accuracy]",
+                "outcomes": "[84.07]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "Light CNN",
+                    "Dataset": "IIIT-D Sketch Database"
+                },
+                "measures": "[Rank-1 Accuracy]",
+                "outcomes": [
+                    "[84.07]",
+                    "[FAR=1%]",
+                    "[75.30]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "VGG",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[72.08]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "Light CNN",
+                    "Dataset": "IIIT-D Sketch Database"
+                },
+                "measures": "[Rank-1 Accuracy]",
+                "outcomes": [
+                    "[84.07]",
+                    "[FAR=1%]",
+                    "[75.30]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CenterLoss",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[76.20]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "Light CNN",
+                    "Dataset": "IIIT-D Sketch Database"
+                },
+                "measures": "[Rank-1 Accuracy]",
+                "outcomes": [
+                    "[84.07]",
+                    "[FAR=1%]",
+                    "[75.30]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Light CNN",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[Rank-1 Accuracy]",
+                "outcomes": "[84.07]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "CDL",
+                    "Dataset": "IIIT-D Sketch Database"
+                },
+                "measures": "[Rank-1 Accuracy]",
+                "outcomes": [
+                    "[85.35]",
+                    "[FAR=1%]",
+                    "[82.52]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "VGG",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[72.08]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "CDL",
+                    "Dataset": "IIIT-D Sketch Database"
+                },
+                "measures": "[Rank-1 Accuracy]",
+                "outcomes": [
+                    "[85.35]",
+                    "[FAR=1%]",
+                    "[82.52]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CenterLoss",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[76.20]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "CDL",
+                    "Dataset": "IIIT-D Sketch Database"
+                },
+                "measures": "[Rank-1 Accuracy]",
+                "outcomes": [
+                    "[85.35]",
+                    "[FAR=1%]",
+                    "[82.52]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Light CNN",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[75.30]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Method": "CDL",
+                    "Dataset": "IIIT-D Sketch Database"
+                },
+                "measures": "[Rank-1 Accuracy]",
+                "outcomes": [
+                    "[85.35]",
+                    "[FAR=1%]",
+                    "[82.52]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CDL",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[Rank-1 Accuracy]",
+                "outcomes": "[85.35]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Training Dataset": "CUFSF",
+                    "Method": "CDL"
+                },
+                "measures": "[Training Dataset]",
+                "outcomes": "[CUFSF]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "VGG",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[72.08]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Training Dataset": "CUFSF",
+                    "Method": "CDL"
+                },
+                "measures": "[Training Dataset]",
+                "outcomes": "[CUFSF]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CenterLoss",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[76.20]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Training Dataset": "CUFSF",
+                    "Method": "CDL"
+                },
+                "measures": "[Training Dataset]",
+                "outcomes": "[CUFSF]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Light CNN",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[75.30]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Training Dataset": "CUFSF",
+                    "Method": "CDL"
+                },
+                "measures": "[Training Dataset]",
+                "outcomes": "[CUFSF]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CDL",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[82.52]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Training Dataset": "CUFSF",
+                    "Method": "VGG"
+                },
+                "measures": "[Training Dataset]",
+                "outcomes": "[CUFSF]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "VGG",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[72.08]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Training Dataset": "CUFSF",
+                    "Method": "VGG"
+                },
+                "measures": "[Training Dataset]",
+                "outcomes": "[CUFSF]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CenterLoss",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[76.20]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Training Dataset": "CUFSF",
+                    "Method": "VGG"
+                },
+                "measures": "[Training Dataset]",
+                "outcomes": "[CUFSF]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Light CNN",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[75.30]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Training Dataset": "CUFSF",
+                    "Method": "VGG"
+                },
+                "measures": "[Training Dataset]",
+                "outcomes": "[CUFSF]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CDL",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[82.52]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Training Dataset": "CUFSF",
+                    "Method": "CenterLoss"
+                },
+                "measures": "[Training Dataset]",
+                "outcomes": "[CUFSF]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "VGG",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[72.08]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Training Dataset": "CUFSF",
+                    "Method": "CenterLoss"
+                },
+                "measures": "[Training Dataset]",
+                "outcomes": "[CUFSF]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CenterLoss",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[76.20]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Training Dataset": "CUFSF",
+                    "Method": "CenterLoss"
+                },
+                "measures": "[Training Dataset]",
+                "outcomes": "[CUFSF]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Light CNN",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[75.30]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Training Dataset": "CUFSF",
+                    "Method": "CenterLoss"
+                },
+                "measures": "[Training Dataset]",
+                "outcomes": "[CUFSF]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CDL",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[82.52]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Training Dataset": "CUFSF",
+                    "Method": "Light CNN"
+                },
+                "measures": "[Training Dataset]",
+                "outcomes": "[CUFSF]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "VGG",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[72.08]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Training Dataset": "CUFSF",
+                    "Method": "Light CNN"
+                },
+                "measures": "[Training Dataset]",
+                "outcomes": "[CUFSF]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CenterLoss",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[76.20]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Training Dataset": "CUFSF",
+                    "Method": "Light CNN"
+                },
+                "measures": "[Training Dataset]",
+                "outcomes": "[CUFSF]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Light CNN",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[75.30]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Training Dataset": "CUFSF",
+                    "Method": "Light CNN"
+                },
+                "measures": "[Training Dataset]",
+                "outcomes": "[CUFSF]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CDL",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[82.52]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Training Dataset": "CUFSF",
+                    "Method": "CDL"
+                },
+                "measures": "[Training Dataset]",
+                "outcomes": "[CUFSF]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "VGG",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[72.08]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Training Dataset": "CUFSF",
+                    "Method": "CDL"
+                },
+                "measures": "[Training Dataset]",
+                "outcomes": "[CUFSF]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CenterLoss",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[76.20]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Training Dataset": "CUFSF",
+                    "Method": "CDL"
+                },
+                "measures": "[Training Dataset]",
+                "outcomes": "[CUFSF]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Light CNN",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[75.30]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Training Dataset": "CUFSF",
+                    "Method": "CDL"
+                },
+                "measures": "[Training Dataset]",
+                "outcomes": "[CUFSF]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CDL",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[82.52]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Citation": "viewed sketch-photo face recognition database",
+                    "Method": "CDL"
+                },
+                "measures": "[Citation]",
+                "outcomes": "[viewed sketch-photo face recognition database]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "VGG",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[72.08]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Citation": "viewed sketch-photo face recognition database",
+                    "Method": "CDL"
+                },
+                "measures": "[Citation]",
+                "outcomes": "[viewed sketch-photo face recognition database]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CenterLoss",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[76.20]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Citation": "viewed sketch-photo face recognition database",
+                    "Method": "CDL"
+                },
+                "measures": "[Citation]",
+                "outcomes": "[viewed sketch-photo face recognition database]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Light CNN",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[75.30]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Citation": "viewed sketch-photo face recognition database",
+                    "Method": "CDL"
+                },
+                "measures": "[Citation]",
+                "outcomes": "[viewed sketch-photo face recognition database]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CDL",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[82.52]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Citation": "viewed sketch-photo face recognition database",
+                    "Method": "VGG"
+                },
+                "measures": "[Citation]",
+                "outcomes": "[viewed sketch-photo face recognition database]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "VGG",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[72.08]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Citation": "viewed sketch-photo face recognition database",
+                    "Method": "VGG"
+                },
+                "measures": "[Citation]",
+                "outcomes": "[viewed sketch-photo face recognition database]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CenterLoss",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[76.20]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Citation": "viewed sketch-photo face recognition database",
+                    "Method": "VGG"
+                },
+                "measures": "[Citation]",
+                "outcomes": "[viewed sketch-photo face recognition database]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Light CNN",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[75.30]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Citation": "viewed sketch-photo face recognition database",
+                    "Method": "VGG"
+                },
+                "measures": "[Citation]",
+                "outcomes": "[viewed sketch-photo face recognition database]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CDL",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[82.52]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Citation": "viewed sketch-photo face recognition database",
+                    "Method": "CenterLoss"
+                },
+                "measures": "[Citation]",
+                "outcomes": "[viewed sketch-photo face recognition database]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "VGG",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[72.08]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Citation": "viewed sketch-photo face recognition database",
+                    "Method": "CenterLoss"
+                },
+                "measures": "[Citation]",
+                "outcomes": "[viewed sketch-photo face recognition database]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CenterLoss",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[76.20]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Citation": "viewed sketch-photo face recognition database",
+                    "Method": "CenterLoss"
+                },
+                "measures": "[Citation]",
+                "outcomes": "[viewed sketch-photo face recognition database]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Light CNN",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[75.30]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Citation": "viewed sketch-photo face recognition database",
+                    "Method": "CenterLoss"
+                },
+                "measures": "[Citation]",
+                "outcomes": "[viewed sketch-photo face recognition database]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CDL",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[82.52]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Citation": "viewed sketch-photo face recognition database",
+                    "Method": "Light CNN"
+                },
+                "measures": "[Citation]",
+                "outcomes": "[viewed sketch-photo face recognition database]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "VGG",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[72.08]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Citation": "viewed sketch-photo face recognition database",
+                    "Method": "Light CNN"
+                },
+                "measures": "[Citation]",
+                "outcomes": "[viewed sketch-photo face recognition database]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CenterLoss",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[76.20]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Citation": "viewed sketch-photo face recognition database",
+                    "Method": "Light CNN"
+                },
+                "measures": "[Citation]",
+                "outcomes": "[viewed sketch-photo face recognition database]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Light CNN",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[75.30]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Citation": "viewed sketch-photo face recognition database",
+                    "Method": "Light CNN"
+                },
+                "measures": "[Citation]",
+                "outcomes": "[viewed sketch-photo face recognition database]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CDL",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[82.52]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Citation": "viewed sketch-photo face recognition database",
+                    "Method": "CDL"
+                },
+                "measures": "[Citation]",
+                "outcomes": "[viewed sketch-photo face recognition database]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "VGG",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[72.08]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Citation": "viewed sketch-photo face recognition database",
+                    "Method": "CDL"
+                },
+                "measures": "[Citation]",
+                "outcomes": "[viewed sketch-photo face recognition database]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CenterLoss",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[76.20]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Citation": "viewed sketch-photo face recognition database",
+                    "Method": "CDL"
+                },
+                "measures": "[Citation]",
+                "outcomes": "[viewed sketch-photo face recognition database]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Light CNN",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[75.30]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Citation": "viewed sketch-photo face recognition database",
+                    "Method": "CDL"
+                },
+                "measures": "[Citation]",
+                "outcomes": "[viewed sketch-photo face recognition database]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CDL",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[82.52]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "small number of training samples",
+                    "Method": "CDL"
+                },
+                "measures": "[Note]",
+                "outcomes": "[small number of training samples]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "VGG",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[72.08]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "small number of training samples",
+                    "Method": "CDL"
+                },
+                "measures": "[Note]",
+                "outcomes": "[small number of training samples]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CenterLoss",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[76.20]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "small number of training samples",
+                    "Method": "CDL"
+                },
+                "measures": "[Note]",
+                "outcomes": "[small number of training samples]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Light CNN",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[75.30]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "small number of training samples",
+                    "Method": "CDL"
+                },
+                "measures": "[Note]",
+                "outcomes": "[small number of training samples]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CDL",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[82.52]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "small number of training samples",
+                    "Method": "VGG"
+                },
+                "measures": "[Note]",
+                "outcomes": "[small number of training samples]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "VGG",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[72.08]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "small number of training samples",
+                    "Method": "VGG"
+                },
+                "measures": "[Note]",
+                "outcomes": "[small number of training samples]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CenterLoss",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[76.20]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "small number of training samples",
+                    "Method": "VGG"
+                },
+                "measures": "[Note]",
+                "outcomes": "[small number of training samples]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Light CNN",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[75.30]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "small number of training samples",
+                    "Method": "VGG"
+                },
+                "measures": "[Note]",
+                "outcomes": "[small number of training samples]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CDL",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[82.52]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "small number of training samples",
+                    "Method": "CenterLoss"
+                },
+                "measures": "[Note]",
+                "outcomes": "[small number of training samples]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "VGG",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[72.08]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "small number of training samples",
+                    "Method": "CenterLoss"
+                },
+                "measures": "[Note]",
+                "outcomes": "[small number of training samples]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CenterLoss",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[76.20]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "small number of training samples",
+                    "Method": "CenterLoss"
+                },
+                "measures": "[Note]",
+                "outcomes": "[small number of training samples]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Light CNN",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[75.30]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "small number of training samples",
+                    "Method": "CenterLoss"
+                },
+                "measures": "[Note]",
+                "outcomes": "[small number of training samples]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CDL",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[82.52]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "small number of training samples",
+                    "Method": "Light CNN"
+                },
+                "measures": "[Note]",
+                "outcomes": "[small number of training samples]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "VGG",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[72.08]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "small number of training samples",
+                    "Method": "Light CNN"
+                },
+                "measures": "[Note]",
+                "outcomes": "[small number of training samples]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CenterLoss",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[76.20]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "small number of training samples",
+                    "Method": "Light CNN"
+                },
+                "measures": "[Note]",
+                "outcomes": "[small number of training samples]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Light CNN",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[75.30]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "small number of training samples",
+                    "Method": "Light CNN"
+                },
+                "measures": "[Note]",
+                "outcomes": "[small number of training samples]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CDL",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[82.52]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "small number of training samples",
+                    "Method": "CDL"
+                },
+                "measures": "[Note]",
+                "outcomes": "[small number of training samples]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "VGG",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[72.08]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "small number of training samples",
+                    "Method": "CDL"
+                },
+                "measures": "[Note]",
+                "outcomes": "[small number of training samples]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CenterLoss",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[76.20]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "small number of training samples",
+                    "Method": "CDL"
+                },
+                "measures": "[Note]",
+                "outcomes": "[small number of training samples]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Light CNN",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[75.30]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "small number of training samples",
+                    "Method": "CDL"
+                },
+                "measures": "[Note]",
+                "outcomes": "[small number of training samples]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CDL",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[82.52]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "more sketch-photo images",
+                    "Method": "CDL"
+                },
+                "measures": "[Note]",
+                "outcomes": "[more sketch-photo images]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "VGG",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[72.08]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "more sketch-photo images",
+                    "Method": "CDL"
+                },
+                "measures": "[Note]",
+                "outcomes": "[more sketch-photo images]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CenterLoss",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[76.20]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "more sketch-photo images",
+                    "Method": "CDL"
+                },
+                "measures": "[Note]",
+                "outcomes": "[more sketch-photo images]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Light CNN",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[75.30]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "more sketch-photo images",
+                    "Method": "CDL"
+                },
+                "measures": "[Note]",
+                "outcomes": "[more sketch-photo images]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CDL",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[82.52]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "more sketch-photo images",
+                    "Method": "VGG"
+                },
+                "measures": "[Note]",
+                "outcomes": "[more sketch-photo images]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "VGG",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[72.08]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "more sketch-photo images",
+                    "Method": "VGG"
+                },
+                "measures": "[Note]",
+                "outcomes": "[more sketch-photo images]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CenterLoss",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[76.20]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "more sketch-photo images",
+                    "Method": "VGG"
+                },
+                "measures": "[Note]",
+                "outcomes": "[more sketch-photo images]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Light CNN",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[75.30]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "more sketch-photo images",
+                    "Method": "VGG"
+                },
+                "measures": "[Note]",
+                "outcomes": "[more sketch-photo images]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CDL",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[82.52]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "more sketch-photo images",
+                    "Method": "CenterLoss"
+                },
+                "measures": "[Note]",
+                "outcomes": "[more sketch-photo images]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "VGG",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[72.08]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "more sketch-photo images",
+                    "Method": "CenterLoss"
+                },
+                "measures": "[Note]",
+                "outcomes": "[more sketch-photo images]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CenterLoss",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[76.20]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "more sketch-photo images",
+                    "Method": "CenterLoss"
+                },
+                "measures": "[Note]",
+                "outcomes": "[more sketch-photo images]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Light CNN",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[75.30]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "more sketch-photo images",
+                    "Method": "CenterLoss"
+                },
+                "measures": "[Note]",
+                "outcomes": "[more sketch-photo images]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CDL",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[82.52]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "more sketch-photo images",
+                    "Method": "Light CNN"
+                },
+                "measures": "[Note]",
+                "outcomes": "[more sketch-photo images]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "VGG",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[72.08]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "more sketch-photo images",
+                    "Method": "Light CNN"
+                },
+                "measures": "[Note]",
+                "outcomes": "[more sketch-photo images]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CenterLoss",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[76.20]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "more sketch-photo images",
+                    "Method": "Light CNN"
+                },
+                "measures": "[Note]",
+                "outcomes": "[more sketch-photo images]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Light CNN",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[75.30]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "more sketch-photo images",
+                    "Method": "Light CNN"
+                },
+                "measures": "[Note]",
+                "outcomes": "[more sketch-photo images]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CDL",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[82.52]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "more sketch-photo images",
+                    "Method": "CDL"
+                },
+                "measures": "[Note]",
+                "outcomes": "[more sketch-photo images]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "VGG",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[72.08]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "more sketch-photo images",
+                    "Method": "CDL"
+                },
+                "measures": "[Note]",
+                "outcomes": "[more sketch-photo images]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CenterLoss",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[76.20]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "more sketch-photo images",
+                    "Method": "CDL"
+                },
+                "measures": "[Note]",
+                "outcomes": "[more sketch-photo images]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Light CNN",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[75.30]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Note": "more sketch-photo images",
+                    "Method": "CDL"
+                },
+                "measures": "[Note]",
+                "outcomes": "[more sketch-photo images]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CDL",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[82.52]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Caption": "Table 3",
+                    "Method": "CDL"
+                },
+                "measures": "[Caption]",
+                "outcomes": "[Table 3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "VGG",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[72.08]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Caption": "Table 3",
+                    "Method": "CDL"
+                },
+                "measures": "[Caption]",
+                "outcomes": "[Table 3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CenterLoss",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[76.20]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Caption": "Table 3",
+                    "Method": "CDL"
+                },
+                "measures": "[Caption]",
+                "outcomes": "[Table 3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Light CNN",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[75.30]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Caption": "Table 3",
+                    "Method": "CDL"
+                },
+                "measures": "[Caption]",
+                "outcomes": "[Table 3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CDL",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[82.52]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Caption": "Table 3",
+                    "Method": "VGG"
+                },
+                "measures": "[Caption]",
+                "outcomes": "[Table 3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "VGG",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[72.08]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Caption": "Table 3",
+                    "Method": "VGG"
+                },
+                "measures": "[Caption]",
+                "outcomes": "[Table 3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CenterLoss",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[76.20]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Caption": "Table 3",
+                    "Method": "VGG"
+                },
+                "measures": "[Caption]",
+                "outcomes": "[Table 3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Light CNN",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[75.30]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Caption": "Table 3",
+                    "Method": "VGG"
+                },
+                "measures": "[Caption]",
+                "outcomes": "[Table 3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CDL",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[82.52]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Caption": "Table 3",
+                    "Method": "CenterLoss"
+                },
+                "measures": "[Caption]",
+                "outcomes": "[Table 3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "VGG",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[72.08]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Caption": "Table 3",
+                    "Method": "CenterLoss"
+                },
+                "measures": "[Caption]",
+                "outcomes": "[Table 3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CenterLoss",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[76.20]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Caption": "Table 3",
+                    "Method": "CenterLoss"
+                },
+                "measures": "[Caption]",
+                "outcomes": "[Table 3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Light CNN",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[75.30]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Caption": "Table 3",
+                    "Method": "CenterLoss"
+                },
+                "measures": "[Caption]",
+                "outcomes": "[Table 3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CDL",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[82.52]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Caption": "Table 3",
+                    "Method": "Light CNN"
+                },
+                "measures": "[Caption]",
+                "outcomes": "[Table 3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "VGG",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[72.08]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Caption": "Table 3",
+                    "Method": "Light CNN"
+                },
+                "measures": "[Caption]",
+                "outcomes": "[Table 3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CenterLoss",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[76.20]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Caption": "Table 3",
+                    "Method": "Light CNN"
+                },
+                "measures": "[Caption]",
+                "outcomes": "[Table 3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Light CNN",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[75.30]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Caption": "Table 3",
+                    "Method": "Light CNN"
+                },
+                "measures": "[Caption]",
+                "outcomes": "[Table 3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CDL",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[82.52]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Caption": "Table 3",
+                    "Method": "CDL"
+                },
+                "measures": "[Caption]",
+                "outcomes": "[Table 3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "VGG",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[72.08]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Caption": "Table 3",
+                    "Method": "CDL"
+                },
+                "measures": "[Caption]",
+                "outcomes": "[Table 3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CenterLoss",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[76.20]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Caption": "Table 3",
+                    "Method": "CDL"
+                },
+                "measures": "[Caption]",
+                "outcomes": "[Table 3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "Light CNN",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[75.30]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Caption": "Table 3",
+                    "Method": "CDL"
+                },
+                "measures": "[Caption]",
+                "outcomes": "[Table 3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Method": "CDL",
+                    "Dataset": "IIIT-D Sketch Database",
+                    "Training Dataset": "CUFSF"
+                },
+                "measures": "[VR@FAR=1%]",
+                "outcomes": "[82.52]"
+            },
+            "match": "no"
+        }
+    ],
+    "total_extracted_claims": 34,
+    "total_ground_truth_claims": 13,
+    "number_of_matches": 9
+}

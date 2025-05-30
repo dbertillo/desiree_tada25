@@ -1,0 +1,661 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "population": "study population",
+                    "stratification": "LDH serum levels and treatment",
+                    "treatment": "chemotherapy plus sorafenib or chemotherapy alone",
+                    "LDH serum levels": "\u2264 UNR",
+                    "sorafenib": "yes",
+                    "no sorafenib": "no",
+                    "PFS": "7.6 months",
+                    "OS": "12.7 months"
+                },
+                "measures": "[PFS, 0.05]",
+                "outcomes": "[OS, 0.0012]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "analysis": "PFS and OS",
+                    "population subgroup": "Sorafenib group",
+                    "LDH level": "LDH \u2264 UNR",
+                    "treatment": "chemotherapy plus sorafenib",
+                    "patients number": "31",
+                    "patients percentage": "44%",
+                    "unit": "months"
+                },
+                "measures": "[PFS, p]",
+                "outcomes": "[7.6, 0.05]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "population": "study population",
+                    "stratification": "LDH serum levels and treatment",
+                    "treatment": "chemotherapy plus sorafenib or chemotherapy alone",
+                    "LDH serum levels": "\u2264 UNR",
+                    "sorafenib": "yes",
+                    "no sorafenib": "no",
+                    "PFS": "7.6 months",
+                    "OS": "12.7 months"
+                },
+                "measures": "[PFS, 0.05]",
+                "outcomes": "[OS, 0.0012]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "analysis": "PFS and OS",
+                    "population subgroup": "Sorafenib group",
+                    "LDH level": "LDH \u2264 UNR",
+                    "treatment": "chemotherapy plus sorafenib",
+                    "patients number": "31",
+                    "patients percentage": "44%",
+                    "unit": "months"
+                },
+                "measures": "[OS, p]",
+                "outcomes": "[12.7, 0.0012]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "population": "study population",
+                    "stratification": "LDH serum levels and treatment",
+                    "treatment": "chemotherapy plus sorafenib or chemotherapy alone",
+                    "LDH serum levels": "\u2264 UNR",
+                    "sorafenib": "yes",
+                    "no sorafenib": "no",
+                    "PFS": "7.6 months",
+                    "OS": "12.7 months"
+                },
+                "measures": "[PFS, 0.05]",
+                "outcomes": "[OS, 0.0012]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "analysis": "PFS and OS",
+                    "population subgroup": "Sorafenib group",
+                    "LDH level": "LDH > UNR",
+                    "treatment": "chemotherapy plus sorafenib",
+                    "patients number": "6",
+                    "patients percentage": "8%",
+                    "unit": "months"
+                },
+                "measures": "[PFS, p]",
+                "outcomes": "[2.8, 0.05]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "population": "study population",
+                    "stratification": "LDH serum levels and treatment",
+                    "treatment": "chemotherapy plus sorafenib or chemotherapy alone",
+                    "LDH serum levels": "\u2264 UNR",
+                    "sorafenib": "yes",
+                    "no sorafenib": "no",
+                    "PFS": "7.6 months",
+                    "OS": "12.7 months"
+                },
+                "measures": "[PFS, 0.05]",
+                "outcomes": "[OS, 0.0012]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "analysis": "PFS and OS",
+                    "population subgroup": "Sorafenib group",
+                    "LDH level": "LDH > UNR",
+                    "treatment": "chemotherapy plus sorafenib",
+                    "patients number": "6",
+                    "patients percentage": "8%",
+                    "PFS (months)": "2.8",
+                    "OS (months)": "5.9",
+                    "PFS p-value": "0.05",
+                    "OS p-value": "0.0012",
+                    "unit": "months"
+                },
+                "measures": "[OS, p]",
+                "outcomes": "[5.9, 0.0012]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "population": "study population",
+                    "stratification": "LDH serum levels and treatment",
+                    "treatment": "chemotherapy plus sorafenib or chemotherapy alone",
+                    "LDH serum levels": "\u2264 UNR",
+                    "sorafenib": "yes",
+                    "no sorafenib": "no",
+                    "PFS": "7.6 months",
+                    "OS": "12.7 months"
+                },
+                "measures": "[PFS, 0.05]",
+                "outcomes": "[OS, 0.0012]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "analysis": "PFS and OS",
+                    "population subgroup": "No Sorafenib group",
+                    "LDH level": "LDH \u2264 UNR",
+                    "treatment": "chemotherapy alone",
+                    "patients number": "27",
+                    "patients percentage": "38%",
+                    "unit": "months"
+                },
+                "measures": "[PFS, p]",
+                "outcomes": "[3.3, 0.05]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "population": "study population",
+                    "stratification": "LDH serum levels and treatment",
+                    "treatment": "chemotherapy plus sorafenib or chemotherapy alone",
+                    "LDH serum levels": "\u2264 UNR",
+                    "sorafenib": "yes",
+                    "no sorafenib": "no",
+                    "PFS": "7.6 months",
+                    "OS": "12.7 months"
+                },
+                "measures": "[PFS, 0.05]",
+                "outcomes": "[OS, 0.0012]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "analysis": "PFS and OS",
+                    "population subgroup": "No Sorafenib group",
+                    "LDH level": "LDH \u2264 UNR",
+                    "treatment": "chemotherapy alone",
+                    "patients number": "27",
+                    "patients percentage": "38%",
+                    "unit": "months"
+                },
+                "measures": "[OS, p]",
+                "outcomes": "[8.6, 0.0012]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "population": "study population",
+                    "stratification": "LDH serum levels and treatment",
+                    "treatment": "chemotherapy plus sorafenib or chemotherapy alone",
+                    "LDH serum levels": "\u2264 UNR",
+                    "sorafenib": "yes",
+                    "no sorafenib": "no",
+                    "PFS": "7.6 months",
+                    "OS": "12.7 months"
+                },
+                "measures": "[PFS, 0.05]",
+                "outcomes": "[OS, 0.0012]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "analysis": "PFS and OS",
+                    "population subgroup": "No Sorafenib group",
+                    "LDH level": "LDH > UNR",
+                    "treatment": "chemotherapy alone",
+                    "patients number": "7",
+                    "patients percentage": "10%",
+                    "unit": "months"
+                },
+                "measures": "[PFS, p]",
+                "outcomes": "[2.2, 0.05]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "population": "study population",
+                    "stratification": "LDH serum levels and treatment",
+                    "treatment": "chemotherapy plus sorafenib or chemotherapy alone",
+                    "LDH serum levels": "\u2264 UNR",
+                    "sorafenib": "yes",
+                    "no sorafenib": "no",
+                    "PFS": "7.6 months",
+                    "OS": "12.7 months"
+                },
+                "measures": "[PFS, 0.05]",
+                "outcomes": "[OS, 0.0012]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "analysis": "PFS and OS",
+                    "population subgroup": "No Sorafenib group",
+                    "LDH level": "LDH > UNR",
+                    "treatment": "chemotherapy alone",
+                    "patients number": "7",
+                    "patients percentage": "10%",
+                    "unit": "months"
+                },
+                "measures": "[OS, p]",
+                "outcomes": "[5.2, 0.0012]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "population": "study population",
+                    "stratification": "LDH serum levels and treatment",
+                    "treatment": "chemotherapy plus sorafenib or chemotherapy alone",
+                    "LDH serum levels": "> UNR",
+                    "sorafenib": "yes",
+                    "no sorafenib": "no"
+                },
+                "measures": "[PFS, 2.8 months]",
+                "outcomes": "[OS, 5.9 months]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "analysis": "PFS and OS",
+                    "population subgroup": "Sorafenib group",
+                    "LDH level": "LDH \u2264 UNR",
+                    "treatment": "chemotherapy plus sorafenib",
+                    "patients number": "31",
+                    "patients percentage": "44%",
+                    "unit": "months"
+                },
+                "measures": "[PFS, p]",
+                "outcomes": "[7.6, 0.05]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "population": "study population",
+                    "stratification": "LDH serum levels and treatment",
+                    "treatment": "chemotherapy plus sorafenib or chemotherapy alone",
+                    "LDH serum levels": "> UNR",
+                    "sorafenib": "yes",
+                    "no sorafenib": "no"
+                },
+                "measures": "[PFS, 2.8 months]",
+                "outcomes": "[OS, 5.9 months]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "analysis": "PFS and OS",
+                    "population subgroup": "Sorafenib group",
+                    "LDH level": "LDH \u2264 UNR",
+                    "treatment": "chemotherapy plus sorafenib",
+                    "patients number": "31",
+                    "patients percentage": "44%",
+                    "unit": "months"
+                },
+                "measures": "[OS, p]",
+                "outcomes": "[12.7, 0.0012]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "population": "study population",
+                    "stratification": "LDH serum levels and treatment",
+                    "treatment": "chemotherapy plus sorafenib or chemotherapy alone",
+                    "LDH serum levels": "> UNR",
+                    "sorafenib": "yes",
+                    "no sorafenib": "no"
+                },
+                "measures": "[PFS, 2.8 months]",
+                "outcomes": "[OS, 5.9 months]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "analysis": "PFS and OS",
+                    "population subgroup": "Sorafenib group",
+                    "LDH level": "LDH > UNR",
+                    "treatment": "chemotherapy plus sorafenib",
+                    "patients number": "6",
+                    "patients percentage": "8%",
+                    "unit": "months"
+                },
+                "measures": "[PFS, p]",
+                "outcomes": "[2.8, 0.05]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "population": "study population",
+                    "stratification": "LDH serum levels and treatment",
+                    "treatment": "chemotherapy plus sorafenib or chemotherapy alone",
+                    "LDH serum levels": "> UNR",
+                    "sorafenib": "yes",
+                    "no sorafenib": "no"
+                },
+                "measures": "[PFS, 2.8 months]",
+                "outcomes": "[OS, 5.9 months]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "analysis": "PFS and OS",
+                    "population subgroup": "Sorafenib group",
+                    "LDH level": "LDH > UNR",
+                    "treatment": "chemotherapy plus sorafenib",
+                    "patients number": "6",
+                    "patients percentage": "8%",
+                    "PFS (months)": "2.8",
+                    "OS (months)": "5.9",
+                    "PFS p-value": "0.05",
+                    "OS p-value": "0.0012",
+                    "unit": "months"
+                },
+                "measures": "[OS, p]",
+                "outcomes": "[5.9, 0.0012]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "population": "study population",
+                    "stratification": "LDH serum levels and treatment",
+                    "treatment": "chemotherapy plus sorafenib or chemotherapy alone",
+                    "LDH serum levels": "\u2264 UNR",
+                    "sorafenib": "no",
+                    "no sorafenib": "yes"
+                },
+                "measures": "[PFS, 3.3 months]",
+                "outcomes": "[OS, 8.6 months]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "analysis": "PFS and OS",
+                    "population subgroup": "Sorafenib group",
+                    "LDH level": "LDH \u2264 UNR",
+                    "treatment": "chemotherapy plus sorafenib",
+                    "patients number": "31",
+                    "patients percentage": "44%",
+                    "unit": "months"
+                },
+                "measures": "[PFS, p]",
+                "outcomes": "[7.6, 0.05]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "population": "study population",
+                    "stratification": "LDH serum levels and treatment",
+                    "treatment": "chemotherapy plus sorafenib or chemotherapy alone",
+                    "LDH serum levels": "\u2264 UNR",
+                    "sorafenib": "no",
+                    "no sorafenib": "yes"
+                },
+                "measures": "[PFS, 3.3 months]",
+                "outcomes": "[OS, 8.6 months]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "analysis": "PFS and OS",
+                    "population subgroup": "Sorafenib group",
+                    "LDH level": "LDH \u2264 UNR",
+                    "treatment": "chemotherapy plus sorafenib",
+                    "patients number": "31",
+                    "patients percentage": "44%",
+                    "unit": "months"
+                },
+                "measures": "[OS, p]",
+                "outcomes": "[12.7, 0.0012]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "population": "study population",
+                    "stratification": "LDH serum levels and treatment",
+                    "treatment": "chemotherapy plus sorafenib or chemotherapy alone",
+                    "LDH serum levels": "\u2264 UNR",
+                    "sorafenib": "no",
+                    "no sorafenib": "yes"
+                },
+                "measures": "[PFS, 3.3 months]",
+                "outcomes": "[OS, 8.6 months]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "analysis": "PFS and OS",
+                    "population subgroup": "Sorafenib group",
+                    "LDH level": "LDH > UNR",
+                    "treatment": "chemotherapy plus sorafenib",
+                    "patients number": "6",
+                    "patients percentage": "8%",
+                    "unit": "months"
+                },
+                "measures": "[PFS, p]",
+                "outcomes": "[2.8, 0.05]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "population": "study population",
+                    "stratification": "LDH serum levels and treatment",
+                    "treatment": "chemotherapy plus sorafenib or chemotherapy alone",
+                    "LDH serum levels": "\u2264 UNR",
+                    "sorafenib": "no",
+                    "no sorafenib": "yes"
+                },
+                "measures": "[PFS, 3.3 months]",
+                "outcomes": "[OS, 8.6 months]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "analysis": "PFS and OS",
+                    "population subgroup": "No Sorafenib group",
+                    "LDH level": "LDH \u2264 UNR",
+                    "treatment": "chemotherapy alone",
+                    "patients number": "27",
+                    "patients percentage": "38%",
+                    "unit": "months"
+                },
+                "measures": "[PFS, p]",
+                "outcomes": "[3.3, 0.05]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "population": "study population",
+                    "stratification": "LDH serum levels and treatment",
+                    "treatment": "chemotherapy plus sorafenib or chemotherapy alone",
+                    "LDH serum levels": "> UNR",
+                    "sorafenib": "no",
+                    "no sorafenib": "yes"
+                },
+                "measures": "[PFS, 2.2 months]",
+                "outcomes": "[OS, 5.2 months]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "analysis": "PFS and OS",
+                    "population subgroup": "Sorafenib group",
+                    "LDH level": "LDH \u2264 UNR",
+                    "treatment": "chemotherapy plus sorafenib",
+                    "patients number": "31",
+                    "patients percentage": "44%",
+                    "unit": "months"
+                },
+                "measures": "[PFS, p]",
+                "outcomes": "[7.6, 0.05]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "population": "study population",
+                    "stratification": "LDH serum levels and treatment",
+                    "treatment": "chemotherapy plus sorafenib or chemotherapy alone",
+                    "LDH serum levels": "> UNR",
+                    "sorafenib": "no",
+                    "no sorafenib": "yes"
+                },
+                "measures": "[PFS, 2.2 months]",
+                "outcomes": "[OS, 5.2 months]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "analysis": "PFS and OS",
+                    "population subgroup": "Sorafenib group",
+                    "LDH level": "LDH \u2264 UNR",
+                    "treatment": "chemotherapy plus sorafenib",
+                    "patients number": "31",
+                    "patients percentage": "44%",
+                    "unit": "months"
+                },
+                "measures": "[OS, p]",
+                "outcomes": "[12.7, 0.0012]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "population": "study population",
+                    "stratification": "LDH serum levels and treatment",
+                    "treatment": "chemotherapy plus sorafenib or chemotherapy alone",
+                    "LDH serum levels": "> UNR",
+                    "sorafenib": "no",
+                    "no sorafenib": "yes"
+                },
+                "measures": "[PFS, 2.2 months]",
+                "outcomes": "[OS, 5.2 months]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "analysis": "PFS and OS",
+                    "population subgroup": "Sorafenib group",
+                    "LDH level": "LDH > UNR",
+                    "treatment": "chemotherapy plus sorafenib",
+                    "patients number": "6",
+                    "patients percentage": "8%",
+                    "unit": "months"
+                },
+                "measures": "[PFS, p]",
+                "outcomes": "[2.8, 0.05]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "population": "study population",
+                    "stratification": "LDH serum levels and treatment",
+                    "treatment": "chemotherapy plus sorafenib or chemotherapy alone",
+                    "LDH serum levels": "> UNR",
+                    "sorafenib": "no",
+                    "no sorafenib": "yes"
+                },
+                "measures": "[PFS, 2.2 months]",
+                "outcomes": "[OS, 5.2 months]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "analysis": "PFS and OS",
+                    "population subgroup": "No Sorafenib group",
+                    "LDH level": "LDH \u2264 UNR",
+                    "treatment": "chemotherapy alone",
+                    "patients number": "27",
+                    "patients percentage": "38%",
+                    "unit": "months"
+                },
+                "measures": "[OS, p]",
+                "outcomes": "[8.6, 0.0012]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "population": "study population",
+                    "stratification": "LDH serum levels and treatment",
+                    "treatment": "chemotherapy plus sorafenib or chemotherapy alone",
+                    "LDH serum levels": "> UNR",
+                    "sorafenib": "no",
+                    "no sorafenib": "yes"
+                },
+                "measures": "[PFS, 2.2 months]",
+                "outcomes": "[OS, 5.2 months]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "study": "MAPS phase II",
+                    "analysis": "PFS and OS",
+                    "population subgroup": "No Sorafenib group",
+                    "LDH level": "LDH > UNR",
+                    "treatment": "chemotherapy alone",
+                    "patients number": "7",
+                    "patients percentage": "10%",
+                    "unit": "months"
+                },
+                "measures": "[PFS, p]",
+                "outcomes": "[2.2, 0.05]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 4,
+    "total_ground_truth_claims": 8,
+    "number_of_matches": 3
+}

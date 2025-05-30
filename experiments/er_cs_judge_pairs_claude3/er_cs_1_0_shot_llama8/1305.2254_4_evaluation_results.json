@@ -1,0 +1,847 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "program": "ProPPR",
+                    "dataset": "CORA",
+                    "regularization coefficient": "0.001",
+                    "total number of epochs": "5",
+                    "learning rate parameter": "1",
+                    "objective function": "log loss"
+                },
+                "measures": "[program, ProPPR]",
+                "outcomes": "[dataset, CORA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "samebib(BC1,BC2) :- author(BC1,A1),sameauthor(A1,A2),authorinverse(A2,BC2)",
+                    "Description": "# author"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "program": "ProPPR",
+                    "dataset": "CORA",
+                    "regularization coefficient": "0.001",
+                    "total number of epochs": "5",
+                    "learning rate parameter": "1",
+                    "objective function": "log loss"
+                },
+                "measures": "[program, ProPPR]",
+                "outcomes": "[dataset, CORA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "samebib(BC1,BC2) :- title(BC1,A1),sametitle(A1,A2),titleinverse(A2,BC2)",
+                    "Description": "# title"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "program": "ProPPR",
+                    "dataset": "CORA",
+                    "regularization coefficient": "0.001",
+                    "total number of epochs": "5",
+                    "learning rate parameter": "1",
+                    "objective function": "log loss"
+                },
+                "measures": "[program, ProPPR]",
+                "outcomes": "[dataset, CORA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "samebib(BC1,BC2) :- venue(BC1,A1),samevenue(A1,A2),venueinverse(A2,BC2)",
+                    "Description": "# venue"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "program": "ProPPR",
+                    "dataset": "CORA",
+                    "regularization coefficient": "0.001",
+                    "total number of epochs": "5",
+                    "learning rate parameter": "1",
+                    "objective function": "log loss"
+                },
+                "measures": "[program, ProPPR]",
+                "outcomes": "[dataset, CORA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "samebib(BC1,BC2) :- samebib(BC1,BC3),samebib(BC3,BC2)",
+                    "Description": "# tcbib"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "program": "ProPPR",
+                    "dataset": "CORA",
+                    "regularization coefficient": "0.001",
+                    "total number of epochs": "5",
+                    "learning rate parameter": "1",
+                    "objective function": "log loss"
+                },
+                "measures": "[program, ProPPR]",
+                "outcomes": "[dataset, CORA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "sameauthor(A1,A2) :- haswordauthor(A1,W),haswordauthorinverse(W,A2),keyauthorword(W)",
+                    "Description": "# authorword"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "program": "ProPPR",
+                    "dataset": "CORA",
+                    "regularization coefficient": "0.001",
+                    "total number of epochs": "5",
+                    "learning rate parameter": "1",
+                    "objective function": "log loss"
+                },
+                "measures": "[program, ProPPR]",
+                "outcomes": "[dataset, CORA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "sameauthor(A1,A2) :- sameauthor(A1,A3),sameauthor(A3,A2)",
+                    "Description": "# tcauthor"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "program": "ProPPR",
+                    "dataset": "CORA",
+                    "regularization coefficient": "0.001",
+                    "total number of epochs": "5",
+                    "learning rate parameter": "1",
+                    "objective function": "log loss"
+                },
+                "measures": "[program, ProPPR]",
+                "outcomes": "[dataset, CORA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "sametitle(A1,A2) :- haswordtitle(A1,W),haswordtitleinverse(W,A2),keytitleword(W)",
+                    "Description": "# titleword"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "program": "ProPPR",
+                    "dataset": "CORA",
+                    "regularization coefficient": "0.001",
+                    "total number of epochs": "5",
+                    "learning rate parameter": "1",
+                    "objective function": "log loss"
+                },
+                "measures": "[program, ProPPR]",
+                "outcomes": "[dataset, CORA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "sametitle(A1,A2) :- sametitle(A1,A3),sametitle(A3,A2)",
+                    "Description": "# tctitle"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "program": "ProPPR",
+                    "dataset": "CORA",
+                    "regularization coefficient": "0.001",
+                    "total number of epochs": "5",
+                    "learning rate parameter": "1",
+                    "objective function": "log loss"
+                },
+                "measures": "[program, ProPPR]",
+                "outcomes": "[dataset, CORA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "samevenue(A1,A2) :- haswordvenue(A1,W),haswordvenueinverse(W,A2),keyvenueword(W)",
+                    "Description": "# venueword"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "program": "ProPPR",
+                    "dataset": "CORA",
+                    "regularization coefficient": "0.001",
+                    "total number of epochs": "5",
+                    "learning rate parameter": "1",
+                    "objective function": "log loss"
+                },
+                "measures": "[program, ProPPR]",
+                "outcomes": "[dataset, CORA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "samevenue(A1,A2) :- samevenue(A1,A3),samevenue(A3,A2)",
+                    "Description": "# tcvenue"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "program": "ProPPR",
+                    "dataset": "CORA",
+                    "regularization coefficient": "0.001",
+                    "total number of epochs": "5",
+                    "learning rate parameter": "1",
+                    "objective function": "log loss"
+                },
+                "measures": "[program, ProPPR]",
+                "outcomes": "[dataset, CORA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "keyauthorword(W) :- true",
+                    "Description": "# authorWord(W)"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "program": "ProPPR",
+                    "dataset": "CORA",
+                    "regularization coefficient": "0.001",
+                    "total number of epochs": "5",
+                    "learning rate parameter": "1",
+                    "objective function": "log loss"
+                },
+                "measures": "[program, ProPPR]",
+                "outcomes": "[dataset, CORA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "keytitleword(W) :- true",
+                    "Description": "# titleWord(W)"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "program": "ProPPR",
+                    "dataset": "CORA",
+                    "regularization coefficient": "0.001",
+                    "total number of epochs": "5",
+                    "learning rate parameter": "1",
+                    "objective function": "log loss"
+                },
+                "measures": "[program, ProPPR]",
+                "outcomes": "[dataset, CORA]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "keyvenueword(W) :- true",
+                    "Description": "# venueWord(W)"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 4",
+                    "description": "ProPPR program used for entity resolution"
+                },
+                "measures": "[table, Table 4]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "samebib(BC1,BC2) :- author(BC1,A1),sameauthor(A1,A2),authorinverse(A2,BC2)",
+                    "Description": "# author"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 4",
+                    "description": "ProPPR program used for entity resolution"
+                },
+                "measures": "[table, Table 4]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "samebib(BC1,BC2) :- title(BC1,A1),sametitle(A1,A2),titleinverse(A2,BC2)",
+                    "Description": "# title"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 4",
+                    "description": "ProPPR program used for entity resolution"
+                },
+                "measures": "[table, Table 4]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "samebib(BC1,BC2) :- venue(BC1,A1),samevenue(A1,A2),venueinverse(A2,BC2)",
+                    "Description": "# venue"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 4",
+                    "description": "ProPPR program used for entity resolution"
+                },
+                "measures": "[table, Table 4]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "samebib(BC1,BC2) :- samebib(BC1,BC3),samebib(BC3,BC2)",
+                    "Description": "# tcbib"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 4",
+                    "description": "ProPPR program used for entity resolution"
+                },
+                "measures": "[table, Table 4]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "sameauthor(A1,A2) :- haswordauthor(A1,W),haswordauthorinverse(W,A2),keyauthorword(W)",
+                    "Description": "# authorword"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 4",
+                    "description": "ProPPR program used for entity resolution"
+                },
+                "measures": "[table, Table 4]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "sameauthor(A1,A2) :- sameauthor(A1,A3),sameauthor(A3,A2)",
+                    "Description": "# tcauthor"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 4",
+                    "description": "ProPPR program used for entity resolution"
+                },
+                "measures": "[table, Table 4]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "sametitle(A1,A2) :- haswordtitle(A1,W),haswordtitleinverse(W,A2),keytitleword(W)",
+                    "Description": "# titleword"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 4",
+                    "description": "ProPPR program used for entity resolution"
+                },
+                "measures": "[table, Table 4]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "sametitle(A1,A2) :- sametitle(A1,A3),sametitle(A3,A2)",
+                    "Description": "# tctitle"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 4",
+                    "description": "ProPPR program used for entity resolution"
+                },
+                "measures": "[table, Table 4]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "samevenue(A1,A2) :- haswordvenue(A1,W),haswordvenueinverse(W,A2),keyvenueword(W)",
+                    "Description": "# venueword"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 4",
+                    "description": "ProPPR program used for entity resolution"
+                },
+                "measures": "[table, Table 4]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "samevenue(A1,A2) :- samevenue(A1,A3),samevenue(A3,A2)",
+                    "Description": "# tcvenue"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 4",
+                    "description": "ProPPR program used for entity resolution"
+                },
+                "measures": "[table, Table 4]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "keyauthorword(W) :- true",
+                    "Description": "# authorWord(W)"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 4",
+                    "description": "ProPPR program used for entity resolution"
+                },
+                "measures": "[table, Table 4]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "keytitleword(W) :- true",
+                    "Description": "# titleWord(W)"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "table": "Table 4",
+                    "description": "ProPPR program used for entity resolution"
+                },
+                "measures": "[table, Table 4]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "keyvenueword(W) :- true",
+                    "Description": "# venueWord(W)"
+                }
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "samebib": "samebib(BC1,BC2)",
+                    "author": "author(BC1,A1)",
+                    "sameauthor": "sameauthor(A1,A2)",
+                    "authorinverse": "authorinverse(A2,BC2)"
+                },
+                "measures": "[metric, samebib]",
+                "outcomes": "[outcome, samebib(BC1,BC2)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "samebib(BC1,BC2) :- author(BC1,A1),sameauthor(A1,A2),authorinverse(A2,BC2)",
+                    "Description": "# author"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "samebib": "samebib(BC1,BC2)",
+                    "title": "title(BC1,A1)",
+                    "sametitle": "sametitle(A1,A2)",
+                    "titleinverse": "titleinverse(A2,BC2)"
+                },
+                "measures": "[metric, samebib]",
+                "outcomes": "[outcome, samebib(BC1,BC2)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "samebib(BC1,BC2) :- title(BC1,A1),sametitle(A1,A2),titleinverse(A2,BC2)",
+                    "Description": "# title"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "samebib": "samebib(BC1,BC2)",
+                    "venue": "venue(BC1,A1)",
+                    "samevenue": "samevenue(A1,A2)",
+                    "venueinverse": "venueinverse(A2,BC2)"
+                },
+                "measures": "[metric, samebib]",
+                "outcomes": "[outcome, samebib(BC1,BC2)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "samebib(BC1,BC2) :- venue(BC1,A1),samevenue(A1,A2),venueinverse(A2,BC2)",
+                    "Description": "# venue"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "samebib": "samebib(BC1,BC3),samebib(BC3,BC2)"
+                },
+                "measures": "[metric, samebib]",
+                "outcomes": "[outcome, samebib(BC1,BC2)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "samebib(BC1,BC2) :- samebib(BC1,BC3),samebib(BC3,BC2)",
+                    "Description": "# tcbib"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "sameauthor": "sameauthor(A1,A2)",
+                    "haswordauthor": "haswordauthor(A1,W)",
+                    "haswordauthorinverse": "haswordauthorinverse(W,A2)",
+                    "keyauthorword": "keyauthorword(W)"
+                },
+                "measures": "[metric, sameauthor]",
+                "outcomes": "[outcome, sameauthor(A1,A2)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "sameauthor(A1,A2) :- haswordauthor(A1,W),haswordauthorinverse(W,A2),keyauthorword(W)",
+                    "Description": "# authorword"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "sameauthor": "sameauthor(A1,A3),sameauthor(A3,A2)"
+                },
+                "measures": "[metric, sameauthor]",
+                "outcomes": "[outcome, sameauthor(A1,A2)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "sameauthor(A1,A2) :- sameauthor(A1,A3),sameauthor(A3,A2)",
+                    "Description": "# tcauthor"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "sametitle": "sametitle(A1,A2)",
+                    "haswordtitle": "haswordtitle(A1,W)",
+                    "haswordtitleinverse": "haswordtitleinverse(W,A2)",
+                    "keytitleword": "keytitleword(W)"
+                },
+                "measures": "[metric, sametitle]",
+                "outcomes": "[outcome, sametitle(A1,A2)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "sametitle(A1,A2) :- haswordtitle(A1,W),haswordtitleinverse(W,A2),keytitleword(W)",
+                    "Description": "# titleword"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "sametitle": "sametitle(A1,A3),sametitle(A3,A2)"
+                },
+                "measures": "[metric, sametitle]",
+                "outcomes": "[outcome, sametitle(A1,A2)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "sametitle(A1,A2) :- sametitle(A1,A3),sametitle(A3,A2)",
+                    "Description": "# tctitle"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "samevenue": "samevenue(A1,A2)",
+                    "haswordvenue": "haswordvenue(A1,W)",
+                    "haswordvenueinverse": "haswordvenueinverse(W,A2)",
+                    "keyvenueword": "keyvenueword(W)"
+                },
+                "measures": "[metric, samevenue]",
+                "outcomes": "[outcome, samevenue(A1,A2)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "samevenue(A1,A2) :- haswordvenue(A1,W),haswordvenueinverse(W,A2),keyvenueword(W)",
+                    "Description": "# venueword"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "samevenue": "samevenue(A1,A3),samevenue(A3,A2)"
+                },
+                "measures": "[metric, samevenue]",
+                "outcomes": "[outcome, samevenue(A1,A2)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "samevenue(A1,A2) :- samevenue(A1,A3),samevenue(A3,A2)",
+                    "Description": "# tcvenue"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "keyauthorword": "keyauthorword(W)",
+                    "true": "true"
+                },
+                "measures": "[metric, keyauthorword]",
+                "outcomes": "[outcome, keyauthorword(W)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "keyauthorword(W) :- true",
+                    "Description": "# authorWord(W)"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "keytitleword": "keytitleword(W)",
+                    "true": "true"
+                },
+                "measures": "[metric, keytitleword]",
+                "outcomes": "[outcome, keytitleword(W)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "keytitleword(W) :- true",
+                    "Description": "# titleWord(W)"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "keyvenueword": "keyvenueword(W)",
+                    "true": "true"
+                },
+                "measures": "[metric, keyvenueword]",
+                "outcomes": "[outcome, keyvenueword(W)]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Program": "ProPPR",
+                    "Task": "Entity Resolution",
+                    "Dataset": "CORA",
+                    "Clause": "keyvenueword(W) :- true",
+                    "Description": "# venueWord(W)"
+                }
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 15,
+    "total_ground_truth_claims": 13,
+    "number_of_matches": 13
+}

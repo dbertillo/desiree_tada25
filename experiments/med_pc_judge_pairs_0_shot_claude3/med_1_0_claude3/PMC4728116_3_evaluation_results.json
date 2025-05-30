@@ -1,0 +1,3781 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "family history of pancreatic cancer": "no",
+                    "cases_n": "312",
+                    "cases_percentage": "96.6",
+                    "controls_n": "320",
+                    "controls_percentage": "99.1"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "no",
+                    "cases_n": "312",
+                    "cases_percentage": "96.6",
+                    "controls_n": "320",
+                    "controls_percentage": "99.1"
+                },
+                "measures": "[Crude OR, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "family history of pancreatic cancer": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[3.67, 4.04, 1.23]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "no",
+                    "cases_n": "312",
+                    "cases_percentage": "96.6",
+                    "controls_n": "320",
+                    "controls_percentage": "99.1",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted  OR1, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "family history of pancreatic cancer": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[3.67, 4.04, 1.23]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "no",
+                    "cases_n": "312",
+                    "cases_percentage": "96.6",
+                    "controls_n": "320",
+                    "controls_percentage": "99.1",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "family history of pancreatic cancer": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[3.67, 4.04, 1.23]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9"
+                },
+                "measures": "[Crude OR, 95% CI]",
+                "outcomes": "[3.67, (1.02\u201313.14)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "family history of pancreatic cancer": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[3.67, 4.04, 1.23]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted OR1, 95% CI]",
+                "outcomes": "[4.04, (1.08\u201315.07)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "family history of pancreatic cancer": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[3.67, 4.04, 1.23]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.23, (1.11\u20133.70)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "family history of pancreatic cancer": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[3.67, 4.04, 1.23]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "BMI",
+                    "group": "<24.0",
+                    "cases_n": "197",
+                    "cases_percentage": "61.0",
+                    "controls_n": "230",
+                    "controls_percentage": "71.2"
+                },
+                "measures": "[Crude OR, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "family history of pancreatic cancer": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[3.67, 4.04, 1.23]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "BMI",
+                    "group": "<24.0",
+                    "cases_n": "197",
+                    "cases_percentage": "61.0",
+                    "controls_n": "230",
+                    "controls_percentage": "71.2",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted OR1, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "family history of pancreatic cancer": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[3.67, 4.04, 1.23]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "BMI",
+                    "group": "<24.0",
+                    "cases_n": "197",
+                    "cases_percentage": "61.0",
+                    "controls_n": "230",
+                    "controls_percentage": "71.2",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "family history of pancreatic cancer": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[3.67, 4.04, 1.23]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "BMI",
+                    "group": "\u226524.0",
+                    "cases_n": "126",
+                    "cases_percentage": "39.0",
+                    "controls_n": "93",
+                    "controls_percentage": "28.8"
+                },
+                "measures": "[Crude OR, 95% CI]",
+                "outcomes": "[1.67, (1.18\u20132.38)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "family history of pancreatic cancer": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[3.67, 4.04, 1.23]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "BMI",
+                    "group": "\u226524.0",
+                    "cases_n": "126",
+                    "cases_percentage": "39.0",
+                    "controls_n": "93",
+                    "controls_percentage": "28.8",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted OR1, 95% CI]",
+                "outcomes": "[1.78, (1.23\u20132.58)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "family history of pancreatic cancer": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[3.67, 4.04, 1.23]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "BMI",
+                    "group": "\u226524.0",
+                    "cases_n": "126",
+                    "cases_percentage": "39.0",
+                    "controls_n": "93",
+                    "controls_percentage": "28.8",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.77, (1.22\u20132.57)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "family history of pancreatic cancer": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[3.67, 4.04, 1.23]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Diabetes",
+                    "group": "No",
+                    "cases_n": "174",
+                    "cases_percentage": "78.0",
+                    "controls_n": "255",
+                    "controls_percentage": "90.7"
+                },
+                "measures": "[Crude OR, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "family history of pancreatic cancer": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[3.67, 4.04, 1.23]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Diabetes",
+                    "group": "No",
+                    "cases_n": "174",
+                    "cases_percentage": "78.0",
+                    "controls_n": "255",
+                    "controls_percentage": "90.7",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted OR1, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "family history of pancreatic cancer": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[3.67, 4.04, 1.23]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Diabetes",
+                    "group": "No",
+                    "cases_n": "174",
+                    "cases_percentage": "78.0",
+                    "controls_n": "255",
+                    "controls_percentage": "90.7",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "family history of pancreatic cancer": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[3.67, 4.04, 1.23]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Diabetes",
+                    "group": "Yes",
+                    "cases_n": "49",
+                    "cases_percentage": "22.0",
+                    "controls_n": "26",
+                    "controls_percentage": "9.3"
+                },
+                "measures": "[Crude OR, 95% CI]",
+                "outcomes": "[2.69, (1.51\u20134.77)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "family history of pancreatic cancer": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[3.67, 4.04, 1.23]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Diabetes",
+                    "group": "Yes",
+                    "cases_n": "49",
+                    "cases_percentage": "22.0",
+                    "controls_n": "26",
+                    "controls_percentage": "9.3",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted OR1, 95% CI]",
+                "outcomes": "[2.60, (1.41\u20134.79)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "family history of pancreatic cancer": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[3.67, 4.04, 1.23]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Diabetes",
+                    "group": "Yes",
+                    "cases_n": "49",
+                    "cases_percentage": "22.0",
+                    "controls_n": "26",
+                    "controls_percentage": "9.3",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[2.96, (1.48\u20135.92)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "family history of pancreatic cancer": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[3.67, 4.04, 1.23]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Cholecystitis",
+                    "group": "No",
+                    "cases_n": "272",
+                    "cases_percentage": "94.1",
+                    "controls_n": "195",
+                    "controls_percentage": "96.7"
+                },
+                "measures": "[Crude OR, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "family history of pancreatic cancer": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[3.67, 4.04, 1.23]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Cholecystitis",
+                    "group": "No",
+                    "cases_n": "272",
+                    "cases_percentage": "94.1",
+                    "controls_n": "195",
+                    "controls_percentage": "96.7",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted OR1, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "family history of pancreatic cancer": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[3.67, 4.04, 1.23]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Cholecystitis",
+                    "group": "No",
+                    "cases_n": "272",
+                    "cases_percentage": "94.1",
+                    "controls_n": "195",
+                    "controls_percentage": "96.7",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "family history of pancreatic cancer": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[3.67, 4.04, 1.23]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Cholecystitis",
+                    "group": "Yes",
+                    "cases_n": "17",
+                    "cases_percentage": "5.9",
+                    "controls_n": "10",
+                    "controls_percentage": "3.3"
+                },
+                "measures": "[Crude OR, 95% CI]",
+                "outcomes": "[1.89, (0.84\u20134.24)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "family history of pancreatic cancer": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[3.67, 4.04, 1.23]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Cholecystitis",
+                    "group": "Yes",
+                    "cases_n": "17",
+                    "cases_percentage": "5.9",
+                    "controls_n": "10",
+                    "controls_percentage": "3.3",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted OR1, 95% CI]",
+                "outcomes": "[1.91, (0.83\u20134.38)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "family history of pancreatic cancer": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[3.67, 4.04, 1.23]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Cholecystitis",
+                    "group": "Yes",
+                    "cases_n": "17",
+                    "cases_percentage": "5.9",
+                    "controls_n": "10",
+                    "controls_percentage": "3.3",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.35, (0.50\u20133.68)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "family history of pancreatic cancer": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[3.67, 4.04, 1.23]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Gallstone",
+                    "group": "No",
+                    "cases_n": "274",
+                    "cases_percentage": "95.1",
+                    "controls_n": "300",
+                    "controls_percentage": "98.4"
+                },
+                "measures": "[Crude OR, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "family history of pancreatic cancer": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[3.67, 4.04, 1.23]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Gallstone",
+                    "group": "No",
+                    "cases_n": "274",
+                    "cases_percentage": "95.1",
+                    "controls_n": "300",
+                    "controls_percentage": "98.4",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted OR1, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "family history of pancreatic cancer": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[3.67, 4.04, 1.23]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Gallstone",
+                    "group": "No",
+                    "cases_n": "274",
+                    "cases_percentage": "95.1",
+                    "controls_n": "300",
+                    "controls_percentage": "98.4",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "family history of pancreatic cancer": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[3.67, 4.04, 1.23]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Gallstone",
+                    "group": "Yes",
+                    "cases_n": "14",
+                    "cases_percentage": "4.9",
+                    "controls_n": "5",
+                    "controls_percentage": "1.6"
+                },
+                "measures": "[Crude OR, 95% CI]",
+                "outcomes": "[2.80, (1.01\u20137.77)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "family history of pancreatic cancer": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[3.67, 4.04, 1.23]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Gallstone",
+                    "group": "Yes",
+                    "cases_n": "14",
+                    "cases_percentage": "4.9",
+                    "controls_n": "5",
+                    "controls_percentage": "1.6",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted OR1, 95% CI]",
+                "outcomes": "[2.58, (0.89\u20137.44)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "family history of pancreatic cancer": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[3.67, 4.04, 1.23]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Gallstone",
+                    "group": "Yes",
+                    "cases_n": "14",
+                    "cases_percentage": "4.9",
+                    "controls_n": "5",
+                    "controls_percentage": "1.6",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[2.68, (0.65\u201311.07)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "bmi",
+                    "bmi": "<24.0",
+                    "cases_n": "197",
+                    "cases_percentage": "61.0",
+                    "controls_n": "230",
+                    "controls_percentage": "71.2"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "no",
+                    "cases_n": "312",
+                    "cases_percentage": "96.6",
+                    "controls_n": "320",
+                    "controls_percentage": "99.1",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted  OR1, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "bmi",
+                    "bmi": "<24.0",
+                    "cases_n": "197",
+                    "cases_percentage": "61.0",
+                    "controls_n": "230",
+                    "controls_percentage": "71.2"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "no",
+                    "cases_n": "312",
+                    "cases_percentage": "96.6",
+                    "controls_n": "320",
+                    "controls_percentage": "99.1",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "bmi",
+                    "bmi": "<24.0",
+                    "cases_n": "197",
+                    "cases_percentage": "61.0",
+                    "controls_n": "230",
+                    "controls_percentage": "71.2"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9"
+                },
+                "measures": "[Crude OR, 95% CI]",
+                "outcomes": "[3.67, (1.02\u201313.14)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "bmi",
+                    "bmi": "<24.0",
+                    "cases_n": "197",
+                    "cases_percentage": "61.0",
+                    "controls_n": "230",
+                    "controls_percentage": "71.2"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted OR1, 95% CI]",
+                "outcomes": "[4.04, (1.08\u201315.07)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "bmi",
+                    "bmi": "<24.0",
+                    "cases_n": "197",
+                    "cases_percentage": "61.0",
+                    "controls_n": "230",
+                    "controls_percentage": "71.2"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.23, (1.11\u20133.70)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "bmi",
+                    "bmi": "<24.0",
+                    "cases_n": "197",
+                    "cases_percentage": "61.0",
+                    "controls_n": "230",
+                    "controls_percentage": "71.2"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "BMI",
+                    "group": "<24.0",
+                    "cases_n": "197",
+                    "cases_percentage": "61.0",
+                    "controls_n": "230",
+                    "controls_percentage": "71.2"
+                },
+                "measures": "[Crude OR, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "bmi",
+                    "bmi": "\u226524.0",
+                    "cases_n": "126",
+                    "cases_percentage": "39.0",
+                    "controls_n": "93",
+                    "controls_percentage": "28.8"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.67, 1.78, 1.77]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "no",
+                    "cases_n": "312",
+                    "cases_percentage": "96.6",
+                    "controls_n": "320",
+                    "controls_percentage": "99.1",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted  OR1, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "bmi",
+                    "bmi": "\u226524.0",
+                    "cases_n": "126",
+                    "cases_percentage": "39.0",
+                    "controls_n": "93",
+                    "controls_percentage": "28.8"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.67, 1.78, 1.77]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "no",
+                    "cases_n": "312",
+                    "cases_percentage": "96.6",
+                    "controls_n": "320",
+                    "controls_percentage": "99.1",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "bmi",
+                    "bmi": "\u226524.0",
+                    "cases_n": "126",
+                    "cases_percentage": "39.0",
+                    "controls_n": "93",
+                    "controls_percentage": "28.8"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.67, 1.78, 1.77]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9"
+                },
+                "measures": "[Crude OR, 95% CI]",
+                "outcomes": "[3.67, (1.02\u201313.14)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "bmi",
+                    "bmi": "\u226524.0",
+                    "cases_n": "126",
+                    "cases_percentage": "39.0",
+                    "controls_n": "93",
+                    "controls_percentage": "28.8"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.67, 1.78, 1.77]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted OR1, 95% CI]",
+                "outcomes": "[4.04, (1.08\u201315.07)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "bmi",
+                    "bmi": "\u226524.0",
+                    "cases_n": "126",
+                    "cases_percentage": "39.0",
+                    "controls_n": "93",
+                    "controls_percentage": "28.8"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.67, 1.78, 1.77]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.23, (1.11\u20133.70)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "bmi",
+                    "bmi": "\u226524.0",
+                    "cases_n": "126",
+                    "cases_percentage": "39.0",
+                    "controls_n": "93",
+                    "controls_percentage": "28.8"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.67, 1.78, 1.77]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "BMI",
+                    "group": "<24.0",
+                    "cases_n": "197",
+                    "cases_percentage": "61.0",
+                    "controls_n": "230",
+                    "controls_percentage": "71.2",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted OR1, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "bmi",
+                    "bmi": "\u226524.0",
+                    "cases_n": "126",
+                    "cases_percentage": "39.0",
+                    "controls_n": "93",
+                    "controls_percentage": "28.8"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.67, 1.78, 1.77]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "BMI",
+                    "group": "<24.0",
+                    "cases_n": "197",
+                    "cases_percentage": "61.0",
+                    "controls_n": "230",
+                    "controls_percentage": "71.2",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "bmi",
+                    "bmi": "\u226524.0",
+                    "cases_n": "126",
+                    "cases_percentage": "39.0",
+                    "controls_n": "93",
+                    "controls_percentage": "28.8"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.67, 1.78, 1.77]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "BMI",
+                    "group": "\u226524.0",
+                    "cases_n": "126",
+                    "cases_percentage": "39.0",
+                    "controls_n": "93",
+                    "controls_percentage": "28.8"
+                },
+                "measures": "[Crude OR, 95% CI]",
+                "outcomes": "[1.67, (1.18\u20132.38)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "bmi",
+                    "bmi": "\u226524.0",
+                    "cases_n": "126",
+                    "cases_percentage": "39.0",
+                    "controls_n": "93",
+                    "controls_percentage": "28.8"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.67, 1.78, 1.77]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "BMI",
+                    "group": "\u226524.0",
+                    "cases_n": "126",
+                    "cases_percentage": "39.0",
+                    "controls_n": "93",
+                    "controls_percentage": "28.8",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted OR1, 95% CI]",
+                "outcomes": "[1.78, (1.23\u20132.58)]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "diabetes",
+                    "diabetes": "no",
+                    "cases_n": "174",
+                    "cases_percentage": "78.0",
+                    "controls_n": "255",
+                    "controls_percentage": "90.7"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "no",
+                    "cases_n": "312",
+                    "cases_percentage": "96.6",
+                    "controls_n": "320",
+                    "controls_percentage": "99.1",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted  OR1, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "diabetes",
+                    "diabetes": "no",
+                    "cases_n": "174",
+                    "cases_percentage": "78.0",
+                    "controls_n": "255",
+                    "controls_percentage": "90.7"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "no",
+                    "cases_n": "312",
+                    "cases_percentage": "96.6",
+                    "controls_n": "320",
+                    "controls_percentage": "99.1",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "diabetes",
+                    "diabetes": "no",
+                    "cases_n": "174",
+                    "cases_percentage": "78.0",
+                    "controls_n": "255",
+                    "controls_percentage": "90.7"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9"
+                },
+                "measures": "[Crude OR, 95% CI]",
+                "outcomes": "[3.67, (1.02\u201313.14)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "diabetes",
+                    "diabetes": "no",
+                    "cases_n": "174",
+                    "cases_percentage": "78.0",
+                    "controls_n": "255",
+                    "controls_percentage": "90.7"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted OR1, 95% CI]",
+                "outcomes": "[4.04, (1.08\u201315.07)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "diabetes",
+                    "diabetes": "no",
+                    "cases_n": "174",
+                    "cases_percentage": "78.0",
+                    "controls_n": "255",
+                    "controls_percentage": "90.7"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.23, (1.11\u20133.70)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "diabetes",
+                    "diabetes": "no",
+                    "cases_n": "174",
+                    "cases_percentage": "78.0",
+                    "controls_n": "255",
+                    "controls_percentage": "90.7"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "BMI",
+                    "group": "<24.0",
+                    "cases_n": "197",
+                    "cases_percentage": "61.0",
+                    "controls_n": "230",
+                    "controls_percentage": "71.2",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted OR1, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "diabetes",
+                    "diabetes": "no",
+                    "cases_n": "174",
+                    "cases_percentage": "78.0",
+                    "controls_n": "255",
+                    "controls_percentage": "90.7"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "BMI",
+                    "group": "<24.0",
+                    "cases_n": "197",
+                    "cases_percentage": "61.0",
+                    "controls_n": "230",
+                    "controls_percentage": "71.2",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "diabetes",
+                    "diabetes": "no",
+                    "cases_n": "174",
+                    "cases_percentage": "78.0",
+                    "controls_n": "255",
+                    "controls_percentage": "90.7"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "BMI",
+                    "group": "\u226524.0",
+                    "cases_n": "126",
+                    "cases_percentage": "39.0",
+                    "controls_n": "93",
+                    "controls_percentage": "28.8"
+                },
+                "measures": "[Crude OR, 95% CI]",
+                "outcomes": "[1.67, (1.18\u20132.38)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "diabetes",
+                    "diabetes": "no",
+                    "cases_n": "174",
+                    "cases_percentage": "78.0",
+                    "controls_n": "255",
+                    "controls_percentage": "90.7"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "BMI",
+                    "group": "\u226524.0",
+                    "cases_n": "126",
+                    "cases_percentage": "39.0",
+                    "controls_n": "93",
+                    "controls_percentage": "28.8",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.77, (1.22\u20132.57)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "diabetes",
+                    "diabetes": "no",
+                    "cases_n": "174",
+                    "cases_percentage": "78.0",
+                    "controls_n": "255",
+                    "controls_percentage": "90.7"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Diabetes",
+                    "group": "No",
+                    "cases_n": "174",
+                    "cases_percentage": "78.0",
+                    "controls_n": "255",
+                    "controls_percentage": "90.7"
+                },
+                "measures": "[Crude OR, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "diabetes",
+                    "diabetes": "yes",
+                    "cases_n": "49",
+                    "cases_percentage": "22.0",
+                    "controls_n": "26",
+                    "controls_percentage": "9.3"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[2.69, 2.60, 2.96]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "no",
+                    "cases_n": "312",
+                    "cases_percentage": "96.6",
+                    "controls_n": "320",
+                    "controls_percentage": "99.1",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted  OR1, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "diabetes",
+                    "diabetes": "yes",
+                    "cases_n": "49",
+                    "cases_percentage": "22.0",
+                    "controls_n": "26",
+                    "controls_percentage": "9.3"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[2.69, 2.60, 2.96]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "no",
+                    "cases_n": "312",
+                    "cases_percentage": "96.6",
+                    "controls_n": "320",
+                    "controls_percentage": "99.1",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "diabetes",
+                    "diabetes": "yes",
+                    "cases_n": "49",
+                    "cases_percentage": "22.0",
+                    "controls_n": "26",
+                    "controls_percentage": "9.3"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[2.69, 2.60, 2.96]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9"
+                },
+                "measures": "[Crude OR, 95% CI]",
+                "outcomes": "[3.67, (1.02\u201313.14)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "diabetes",
+                    "diabetes": "yes",
+                    "cases_n": "49",
+                    "cases_percentage": "22.0",
+                    "controls_n": "26",
+                    "controls_percentage": "9.3"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[2.69, 2.60, 2.96]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted OR1, 95% CI]",
+                "outcomes": "[4.04, (1.08\u201315.07)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "diabetes",
+                    "diabetes": "yes",
+                    "cases_n": "49",
+                    "cases_percentage": "22.0",
+                    "controls_n": "26",
+                    "controls_percentage": "9.3"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[2.69, 2.60, 2.96]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.23, (1.11\u20133.70)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "diabetes",
+                    "diabetes": "yes",
+                    "cases_n": "49",
+                    "cases_percentage": "22.0",
+                    "controls_n": "26",
+                    "controls_percentage": "9.3"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[2.69, 2.60, 2.96]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "BMI",
+                    "group": "<24.0",
+                    "cases_n": "197",
+                    "cases_percentage": "61.0",
+                    "controls_n": "230",
+                    "controls_percentage": "71.2",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted OR1, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "diabetes",
+                    "diabetes": "yes",
+                    "cases_n": "49",
+                    "cases_percentage": "22.0",
+                    "controls_n": "26",
+                    "controls_percentage": "9.3"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[2.69, 2.60, 2.96]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "BMI",
+                    "group": "<24.0",
+                    "cases_n": "197",
+                    "cases_percentage": "61.0",
+                    "controls_n": "230",
+                    "controls_percentage": "71.2",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "diabetes",
+                    "diabetes": "yes",
+                    "cases_n": "49",
+                    "cases_percentage": "22.0",
+                    "controls_n": "26",
+                    "controls_percentage": "9.3"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[2.69, 2.60, 2.96]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "BMI",
+                    "group": "\u226524.0",
+                    "cases_n": "126",
+                    "cases_percentage": "39.0",
+                    "controls_n": "93",
+                    "controls_percentage": "28.8"
+                },
+                "measures": "[Crude OR, 95% CI]",
+                "outcomes": "[1.67, (1.18\u20132.38)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "diabetes",
+                    "diabetes": "yes",
+                    "cases_n": "49",
+                    "cases_percentage": "22.0",
+                    "controls_n": "26",
+                    "controls_percentage": "9.3"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[2.69, 2.60, 2.96]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "BMI",
+                    "group": "\u226524.0",
+                    "cases_n": "126",
+                    "cases_percentage": "39.0",
+                    "controls_n": "93",
+                    "controls_percentage": "28.8",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.77, (1.22\u20132.57)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "diabetes",
+                    "diabetes": "yes",
+                    "cases_n": "49",
+                    "cases_percentage": "22.0",
+                    "controls_n": "26",
+                    "controls_percentage": "9.3"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[2.69, 2.60, 2.96]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Diabetes",
+                    "group": "No",
+                    "cases_n": "174",
+                    "cases_percentage": "78.0",
+                    "controls_n": "255",
+                    "controls_percentage": "90.7",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted OR1, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "diabetes",
+                    "diabetes": "yes",
+                    "cases_n": "49",
+                    "cases_percentage": "22.0",
+                    "controls_n": "26",
+                    "controls_percentage": "9.3"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[2.69, 2.60, 2.96]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Diabetes",
+                    "group": "No",
+                    "cases_n": "174",
+                    "cases_percentage": "78.0",
+                    "controls_n": "255",
+                    "controls_percentage": "90.7",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "diabetes",
+                    "diabetes": "yes",
+                    "cases_n": "49",
+                    "cases_percentage": "22.0",
+                    "controls_n": "26",
+                    "controls_percentage": "9.3"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[2.69, 2.60, 2.96]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Diabetes",
+                    "group": "Yes",
+                    "cases_n": "49",
+                    "cases_percentage": "22.0",
+                    "controls_n": "26",
+                    "controls_percentage": "9.3"
+                },
+                "measures": "[Crude OR, 95% CI]",
+                "outcomes": "[2.69, (1.51\u20134.77)]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "cholecystitis",
+                    "cholecystitis": "no",
+                    "cases_n": "272",
+                    "cases_percentage": "94.1",
+                    "controls_n": "195",
+                    "controls_percentage": "96.7"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "no",
+                    "cases_n": "312",
+                    "cases_percentage": "96.6",
+                    "controls_n": "320",
+                    "controls_percentage": "99.1",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted  OR1, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "cholecystitis",
+                    "cholecystitis": "no",
+                    "cases_n": "272",
+                    "cases_percentage": "94.1",
+                    "controls_n": "195",
+                    "controls_percentage": "96.7"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "no",
+                    "cases_n": "312",
+                    "cases_percentage": "96.6",
+                    "controls_n": "320",
+                    "controls_percentage": "99.1",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "cholecystitis",
+                    "cholecystitis": "no",
+                    "cases_n": "272",
+                    "cases_percentage": "94.1",
+                    "controls_n": "195",
+                    "controls_percentage": "96.7"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9"
+                },
+                "measures": "[Crude OR, 95% CI]",
+                "outcomes": "[3.67, (1.02\u201313.14)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "cholecystitis",
+                    "cholecystitis": "no",
+                    "cases_n": "272",
+                    "cases_percentage": "94.1",
+                    "controls_n": "195",
+                    "controls_percentage": "96.7"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted OR1, 95% CI]",
+                "outcomes": "[4.04, (1.08\u201315.07)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "cholecystitis",
+                    "cholecystitis": "no",
+                    "cases_n": "272",
+                    "cases_percentage": "94.1",
+                    "controls_n": "195",
+                    "controls_percentage": "96.7"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.23, (1.11\u20133.70)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "cholecystitis",
+                    "cholecystitis": "no",
+                    "cases_n": "272",
+                    "cases_percentage": "94.1",
+                    "controls_n": "195",
+                    "controls_percentage": "96.7"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "BMI",
+                    "group": "<24.0",
+                    "cases_n": "197",
+                    "cases_percentage": "61.0",
+                    "controls_n": "230",
+                    "controls_percentage": "71.2",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted OR1, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "cholecystitis",
+                    "cholecystitis": "no",
+                    "cases_n": "272",
+                    "cases_percentage": "94.1",
+                    "controls_n": "195",
+                    "controls_percentage": "96.7"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "BMI",
+                    "group": "<24.0",
+                    "cases_n": "197",
+                    "cases_percentage": "61.0",
+                    "controls_n": "230",
+                    "controls_percentage": "71.2",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "cholecystitis",
+                    "cholecystitis": "no",
+                    "cases_n": "272",
+                    "cases_percentage": "94.1",
+                    "controls_n": "195",
+                    "controls_percentage": "96.7"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "BMI",
+                    "group": "\u226524.0",
+                    "cases_n": "126",
+                    "cases_percentage": "39.0",
+                    "controls_n": "93",
+                    "controls_percentage": "28.8"
+                },
+                "measures": "[Crude OR, 95% CI]",
+                "outcomes": "[1.67, (1.18\u20132.38)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "cholecystitis",
+                    "cholecystitis": "no",
+                    "cases_n": "272",
+                    "cases_percentage": "94.1",
+                    "controls_n": "195",
+                    "controls_percentage": "96.7"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "BMI",
+                    "group": "\u226524.0",
+                    "cases_n": "126",
+                    "cases_percentage": "39.0",
+                    "controls_n": "93",
+                    "controls_percentage": "28.8",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.77, (1.22\u20132.57)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "cholecystitis",
+                    "cholecystitis": "no",
+                    "cases_n": "272",
+                    "cases_percentage": "94.1",
+                    "controls_n": "195",
+                    "controls_percentage": "96.7"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Diabetes",
+                    "group": "No",
+                    "cases_n": "174",
+                    "cases_percentage": "78.0",
+                    "controls_n": "255",
+                    "controls_percentage": "90.7",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted OR1, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "cholecystitis",
+                    "cholecystitis": "no",
+                    "cases_n": "272",
+                    "cases_percentage": "94.1",
+                    "controls_n": "195",
+                    "controls_percentage": "96.7"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Diabetes",
+                    "group": "No",
+                    "cases_n": "174",
+                    "cases_percentage": "78.0",
+                    "controls_n": "255",
+                    "controls_percentage": "90.7",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "cholecystitis",
+                    "cholecystitis": "no",
+                    "cases_n": "272",
+                    "cases_percentage": "94.1",
+                    "controls_n": "195",
+                    "controls_percentage": "96.7"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Diabetes",
+                    "group": "Yes",
+                    "cases_n": "49",
+                    "cases_percentage": "22.0",
+                    "controls_n": "26",
+                    "controls_percentage": "9.3",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted OR1, 95% CI]",
+                "outcomes": "[2.60, (1.41\u20134.79)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "cholecystitis",
+                    "cholecystitis": "no",
+                    "cases_n": "272",
+                    "cases_percentage": "94.1",
+                    "controls_n": "195",
+                    "controls_percentage": "96.7"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Diabetes",
+                    "group": "Yes",
+                    "cases_n": "49",
+                    "cases_percentage": "22.0",
+                    "controls_n": "26",
+                    "controls_percentage": "9.3",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[2.96, (1.48\u20135.92)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "cholecystitis",
+                    "cholecystitis": "no",
+                    "cases_n": "272",
+                    "cases_percentage": "94.1",
+                    "controls_n": "195",
+                    "controls_percentage": "96.7"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Cholecystitis",
+                    "group": "No",
+                    "cases_n": "272",
+                    "cases_percentage": "94.1",
+                    "controls_n": "195",
+                    "controls_percentage": "96.7"
+                },
+                "measures": "[Crude OR, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "cholecystitis",
+                    "cholecystitis": "yes",
+                    "cases_n": "17",
+                    "cases_percentage": "5.9",
+                    "controls_n": "10",
+                    "controls_percentage": "3.3"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.89, 1.91, 1.35]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "no",
+                    "cases_n": "312",
+                    "cases_percentage": "96.6",
+                    "controls_n": "320",
+                    "controls_percentage": "99.1",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted  OR1, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "cholecystitis",
+                    "cholecystitis": "yes",
+                    "cases_n": "17",
+                    "cases_percentage": "5.9",
+                    "controls_n": "10",
+                    "controls_percentage": "3.3"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.89, 1.91, 1.35]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "no",
+                    "cases_n": "312",
+                    "cases_percentage": "96.6",
+                    "controls_n": "320",
+                    "controls_percentage": "99.1",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "cholecystitis",
+                    "cholecystitis": "yes",
+                    "cases_n": "17",
+                    "cases_percentage": "5.9",
+                    "controls_n": "10",
+                    "controls_percentage": "3.3"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.89, 1.91, 1.35]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9"
+                },
+                "measures": "[Crude OR, 95% CI]",
+                "outcomes": "[3.67, (1.02\u201313.14)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "cholecystitis",
+                    "cholecystitis": "yes",
+                    "cases_n": "17",
+                    "cases_percentage": "5.9",
+                    "controls_n": "10",
+                    "controls_percentage": "3.3"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.89, 1.91, 1.35]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted OR1, 95% CI]",
+                "outcomes": "[4.04, (1.08\u201315.07)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "cholecystitis",
+                    "cholecystitis": "yes",
+                    "cases_n": "17",
+                    "cases_percentage": "5.9",
+                    "controls_n": "10",
+                    "controls_percentage": "3.3"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.89, 1.91, 1.35]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.23, (1.11\u20133.70)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "cholecystitis",
+                    "cholecystitis": "yes",
+                    "cases_n": "17",
+                    "cases_percentage": "5.9",
+                    "controls_n": "10",
+                    "controls_percentage": "3.3"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.89, 1.91, 1.35]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "BMI",
+                    "group": "<24.0",
+                    "cases_n": "197",
+                    "cases_percentage": "61.0",
+                    "controls_n": "230",
+                    "controls_percentage": "71.2",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted OR1, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "cholecystitis",
+                    "cholecystitis": "yes",
+                    "cases_n": "17",
+                    "cases_percentage": "5.9",
+                    "controls_n": "10",
+                    "controls_percentage": "3.3"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.89, 1.91, 1.35]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "BMI",
+                    "group": "<24.0",
+                    "cases_n": "197",
+                    "cases_percentage": "61.0",
+                    "controls_n": "230",
+                    "controls_percentage": "71.2",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "cholecystitis",
+                    "cholecystitis": "yes",
+                    "cases_n": "17",
+                    "cases_percentage": "5.9",
+                    "controls_n": "10",
+                    "controls_percentage": "3.3"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.89, 1.91, 1.35]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "BMI",
+                    "group": "\u226524.0",
+                    "cases_n": "126",
+                    "cases_percentage": "39.0",
+                    "controls_n": "93",
+                    "controls_percentage": "28.8"
+                },
+                "measures": "[Crude OR, 95% CI]",
+                "outcomes": "[1.67, (1.18\u20132.38)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "cholecystitis",
+                    "cholecystitis": "yes",
+                    "cases_n": "17",
+                    "cases_percentage": "5.9",
+                    "controls_n": "10",
+                    "controls_percentage": "3.3"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.89, 1.91, 1.35]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "BMI",
+                    "group": "\u226524.0",
+                    "cases_n": "126",
+                    "cases_percentage": "39.0",
+                    "controls_n": "93",
+                    "controls_percentage": "28.8",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.77, (1.22\u20132.57)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "cholecystitis",
+                    "cholecystitis": "yes",
+                    "cases_n": "17",
+                    "cases_percentage": "5.9",
+                    "controls_n": "10",
+                    "controls_percentage": "3.3"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.89, 1.91, 1.35]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Diabetes",
+                    "group": "No",
+                    "cases_n": "174",
+                    "cases_percentage": "78.0",
+                    "controls_n": "255",
+                    "controls_percentage": "90.7",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted OR1, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "cholecystitis",
+                    "cholecystitis": "yes",
+                    "cases_n": "17",
+                    "cases_percentage": "5.9",
+                    "controls_n": "10",
+                    "controls_percentage": "3.3"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.89, 1.91, 1.35]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Diabetes",
+                    "group": "No",
+                    "cases_n": "174",
+                    "cases_percentage": "78.0",
+                    "controls_n": "255",
+                    "controls_percentage": "90.7",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "cholecystitis",
+                    "cholecystitis": "yes",
+                    "cases_n": "17",
+                    "cases_percentage": "5.9",
+                    "controls_n": "10",
+                    "controls_percentage": "3.3"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.89, 1.91, 1.35]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Diabetes",
+                    "group": "Yes",
+                    "cases_n": "49",
+                    "cases_percentage": "22.0",
+                    "controls_n": "26",
+                    "controls_percentage": "9.3",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted OR1, 95% CI]",
+                "outcomes": "[2.60, (1.41\u20134.79)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "cholecystitis",
+                    "cholecystitis": "yes",
+                    "cases_n": "17",
+                    "cases_percentage": "5.9",
+                    "controls_n": "10",
+                    "controls_percentage": "3.3"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.89, 1.91, 1.35]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Diabetes",
+                    "group": "Yes",
+                    "cases_n": "49",
+                    "cases_percentage": "22.0",
+                    "controls_n": "26",
+                    "controls_percentage": "9.3",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[2.96, (1.48\u20135.92)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "cholecystitis",
+                    "cholecystitis": "yes",
+                    "cases_n": "17",
+                    "cases_percentage": "5.9",
+                    "controls_n": "10",
+                    "controls_percentage": "3.3"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.89, 1.91, 1.35]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Cholecystitis",
+                    "group": "No",
+                    "cases_n": "272",
+                    "cases_percentage": "94.1",
+                    "controls_n": "195",
+                    "controls_percentage": "96.7",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted OR1, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "cholecystitis",
+                    "cholecystitis": "yes",
+                    "cases_n": "17",
+                    "cases_percentage": "5.9",
+                    "controls_n": "10",
+                    "controls_percentage": "3.3"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.89, 1.91, 1.35]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Cholecystitis",
+                    "group": "No",
+                    "cases_n": "272",
+                    "cases_percentage": "94.1",
+                    "controls_n": "195",
+                    "controls_percentage": "96.7",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "cholecystitis",
+                    "cholecystitis": "yes",
+                    "cases_n": "17",
+                    "cases_percentage": "5.9",
+                    "controls_n": "10",
+                    "controls_percentage": "3.3"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.89, 1.91, 1.35]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Cholecystitis",
+                    "group": "Yes",
+                    "cases_n": "17",
+                    "cases_percentage": "5.9",
+                    "controls_n": "10",
+                    "controls_percentage": "3.3"
+                },
+                "measures": "[Crude OR, 95% CI]",
+                "outcomes": "[1.89, (0.84\u20134.24)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "cholecystitis",
+                    "cholecystitis": "yes",
+                    "cases_n": "17",
+                    "cases_percentage": "5.9",
+                    "controls_n": "10",
+                    "controls_percentage": "3.3"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.89, 1.91, 1.35]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Cholecystitis",
+                    "group": "Yes",
+                    "cases_n": "17",
+                    "cases_percentage": "5.9",
+                    "controls_n": "10",
+                    "controls_percentage": "3.3",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted OR1, 95% CI]",
+                "outcomes": "[1.91, (0.83\u20134.38)]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "gallstone",
+                    "gallstone": "no",
+                    "cases_n": "274",
+                    "cases_percentage": "95.1",
+                    "controls_n": "300",
+                    "controls_percentage": "98.4"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "no",
+                    "cases_n": "312",
+                    "cases_percentage": "96.6",
+                    "controls_n": "320",
+                    "controls_percentage": "99.1",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted  OR1, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "gallstone",
+                    "gallstone": "no",
+                    "cases_n": "274",
+                    "cases_percentage": "95.1",
+                    "controls_n": "300",
+                    "controls_percentage": "98.4"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "no",
+                    "cases_n": "312",
+                    "cases_percentage": "96.6",
+                    "controls_n": "320",
+                    "controls_percentage": "99.1",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "gallstone",
+                    "gallstone": "no",
+                    "cases_n": "274",
+                    "cases_percentage": "95.1",
+                    "controls_n": "300",
+                    "controls_percentage": "98.4"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9"
+                },
+                "measures": "[Crude OR, 95% CI]",
+                "outcomes": "[3.67, (1.02\u201313.14)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "gallstone",
+                    "gallstone": "no",
+                    "cases_n": "274",
+                    "cases_percentage": "95.1",
+                    "controls_n": "300",
+                    "controls_percentage": "98.4"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted OR1, 95% CI]",
+                "outcomes": "[4.04, (1.08\u201315.07)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "gallstone",
+                    "gallstone": "no",
+                    "cases_n": "274",
+                    "cases_percentage": "95.1",
+                    "controls_n": "300",
+                    "controls_percentage": "98.4"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.23, (1.11\u20133.70)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "gallstone",
+                    "gallstone": "no",
+                    "cases_n": "274",
+                    "cases_percentage": "95.1",
+                    "controls_n": "300",
+                    "controls_percentage": "98.4"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "BMI",
+                    "group": "<24.0",
+                    "cases_n": "197",
+                    "cases_percentage": "61.0",
+                    "controls_n": "230",
+                    "controls_percentage": "71.2",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted OR1, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "gallstone",
+                    "gallstone": "no",
+                    "cases_n": "274",
+                    "cases_percentage": "95.1",
+                    "controls_n": "300",
+                    "controls_percentage": "98.4"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "BMI",
+                    "group": "<24.0",
+                    "cases_n": "197",
+                    "cases_percentage": "61.0",
+                    "controls_n": "230",
+                    "controls_percentage": "71.2",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "gallstone",
+                    "gallstone": "no",
+                    "cases_n": "274",
+                    "cases_percentage": "95.1",
+                    "controls_n": "300",
+                    "controls_percentage": "98.4"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "BMI",
+                    "group": "\u226524.0",
+                    "cases_n": "126",
+                    "cases_percentage": "39.0",
+                    "controls_n": "93",
+                    "controls_percentage": "28.8"
+                },
+                "measures": "[Crude OR, 95% CI]",
+                "outcomes": "[1.67, (1.18\u20132.38)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "gallstone",
+                    "gallstone": "no",
+                    "cases_n": "274",
+                    "cases_percentage": "95.1",
+                    "controls_n": "300",
+                    "controls_percentage": "98.4"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "BMI",
+                    "group": "\u226524.0",
+                    "cases_n": "126",
+                    "cases_percentage": "39.0",
+                    "controls_n": "93",
+                    "controls_percentage": "28.8",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.77, (1.22\u20132.57)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "gallstone",
+                    "gallstone": "no",
+                    "cases_n": "274",
+                    "cases_percentage": "95.1",
+                    "controls_n": "300",
+                    "controls_percentage": "98.4"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Diabetes",
+                    "group": "No",
+                    "cases_n": "174",
+                    "cases_percentage": "78.0",
+                    "controls_n": "255",
+                    "controls_percentage": "90.7",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted OR1, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "gallstone",
+                    "gallstone": "no",
+                    "cases_n": "274",
+                    "cases_percentage": "95.1",
+                    "controls_n": "300",
+                    "controls_percentage": "98.4"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Diabetes",
+                    "group": "No",
+                    "cases_n": "174",
+                    "cases_percentage": "78.0",
+                    "controls_n": "255",
+                    "controls_percentage": "90.7",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "gallstone",
+                    "gallstone": "no",
+                    "cases_n": "274",
+                    "cases_percentage": "95.1",
+                    "controls_n": "300",
+                    "controls_percentage": "98.4"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Diabetes",
+                    "group": "Yes",
+                    "cases_n": "49",
+                    "cases_percentage": "22.0",
+                    "controls_n": "26",
+                    "controls_percentage": "9.3",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted OR1, 95% CI]",
+                "outcomes": "[2.60, (1.41\u20134.79)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "gallstone",
+                    "gallstone": "no",
+                    "cases_n": "274",
+                    "cases_percentage": "95.1",
+                    "controls_n": "300",
+                    "controls_percentage": "98.4"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Diabetes",
+                    "group": "Yes",
+                    "cases_n": "49",
+                    "cases_percentage": "22.0",
+                    "controls_n": "26",
+                    "controls_percentage": "9.3",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[2.96, (1.48\u20135.92)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "gallstone",
+                    "gallstone": "no",
+                    "cases_n": "274",
+                    "cases_percentage": "95.1",
+                    "controls_n": "300",
+                    "controls_percentage": "98.4"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Cholecystitis",
+                    "group": "No",
+                    "cases_n": "272",
+                    "cases_percentage": "94.1",
+                    "controls_n": "195",
+                    "controls_percentage": "96.7",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted OR1, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "gallstone",
+                    "gallstone": "no",
+                    "cases_n": "274",
+                    "cases_percentage": "95.1",
+                    "controls_n": "300",
+                    "controls_percentage": "98.4"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Cholecystitis",
+                    "group": "No",
+                    "cases_n": "272",
+                    "cases_percentage": "94.1",
+                    "controls_n": "195",
+                    "controls_percentage": "96.7",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "gallstone",
+                    "gallstone": "no",
+                    "cases_n": "274",
+                    "cases_percentage": "95.1",
+                    "controls_n": "300",
+                    "controls_percentage": "98.4"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Cholecystitis",
+                    "group": "Yes",
+                    "cases_n": "17",
+                    "cases_percentage": "5.9",
+                    "controls_n": "10",
+                    "controls_percentage": "3.3"
+                },
+                "measures": "[Crude OR, 95% CI]",
+                "outcomes": "[1.89, (0.84\u20134.24)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "gallstone",
+                    "gallstone": "no",
+                    "cases_n": "274",
+                    "cases_percentage": "95.1",
+                    "controls_n": "300",
+                    "controls_percentage": "98.4"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Cholecystitis",
+                    "group": "Yes",
+                    "cases_n": "17",
+                    "cases_percentage": "5.9",
+                    "controls_n": "10",
+                    "controls_percentage": "3.3",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.35, (0.50\u20133.68)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "gallstone",
+                    "gallstone": "no",
+                    "cases_n": "274",
+                    "cases_percentage": "95.1",
+                    "controls_n": "300",
+                    "controls_percentage": "98.4"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[1.00, 1.00, 1.00]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Gallstone",
+                    "group": "No",
+                    "cases_n": "274",
+                    "cases_percentage": "95.1",
+                    "controls_n": "300",
+                    "controls_percentage": "98.4"
+                },
+                "measures": "[Crude OR, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "gallstone",
+                    "gallstone": "yes",
+                    "cases_n": "14",
+                    "cases_percentage": "4.9",
+                    "controls_n": "5",
+                    "controls_percentage": "1.6"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[2.80, 2.58, 2.68]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "no",
+                    "cases_n": "312",
+                    "cases_percentage": "96.6",
+                    "controls_n": "320",
+                    "controls_percentage": "99.1",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted  OR1, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "gallstone",
+                    "gallstone": "yes",
+                    "cases_n": "14",
+                    "cases_percentage": "4.9",
+                    "controls_n": "5",
+                    "controls_percentage": "1.6"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[2.80, 2.58, 2.68]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "no",
+                    "cases_n": "312",
+                    "cases_percentage": "96.6",
+                    "controls_n": "320",
+                    "controls_percentage": "99.1",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "gallstone",
+                    "gallstone": "yes",
+                    "cases_n": "14",
+                    "cases_percentage": "4.9",
+                    "controls_n": "5",
+                    "controls_percentage": "1.6"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[2.80, 2.58, 2.68]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9"
+                },
+                "measures": "[Crude OR, 95% CI]",
+                "outcomes": "[3.67, (1.02\u201313.14)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "gallstone",
+                    "gallstone": "yes",
+                    "cases_n": "14",
+                    "cases_percentage": "4.9",
+                    "controls_n": "5",
+                    "controls_percentage": "1.6"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[2.80, 2.58, 2.68]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted OR1, 95% CI]",
+                "outcomes": "[4.04, (1.08\u201315.07)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "gallstone",
+                    "gallstone": "yes",
+                    "cases_n": "14",
+                    "cases_percentage": "4.9",
+                    "controls_n": "5",
+                    "controls_percentage": "1.6"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[2.80, 2.58, 2.68]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "family history of pancreatic cancer",
+                    "group": "yes",
+                    "cases_n": "11",
+                    "cases_percentage": "3.4",
+                    "controls_n": "3",
+                    "controls_percentage": "0.9",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.23, (1.11\u20133.70)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "gallstone",
+                    "gallstone": "yes",
+                    "cases_n": "14",
+                    "cases_percentage": "4.9",
+                    "controls_n": "5",
+                    "controls_percentage": "1.6"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[2.80, 2.58, 2.68]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "BMI",
+                    "group": "<24.0",
+                    "cases_n": "197",
+                    "cases_percentage": "61.0",
+                    "controls_n": "230",
+                    "controls_percentage": "71.2",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted OR1, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "gallstone",
+                    "gallstone": "yes",
+                    "cases_n": "14",
+                    "cases_percentage": "4.9",
+                    "controls_n": "5",
+                    "controls_percentage": "1.6"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[2.80, 2.58, 2.68]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "BMI",
+                    "group": "<24.0",
+                    "cases_n": "197",
+                    "cases_percentage": "61.0",
+                    "controls_n": "230",
+                    "controls_percentage": "71.2",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "gallstone",
+                    "gallstone": "yes",
+                    "cases_n": "14",
+                    "cases_percentage": "4.9",
+                    "controls_n": "5",
+                    "controls_percentage": "1.6"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[2.80, 2.58, 2.68]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "BMI",
+                    "group": "\u226524.0",
+                    "cases_n": "126",
+                    "cases_percentage": "39.0",
+                    "controls_n": "93",
+                    "controls_percentage": "28.8"
+                },
+                "measures": "[Crude OR, 95% CI]",
+                "outcomes": "[1.67, (1.18\u20132.38)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "gallstone",
+                    "gallstone": "yes",
+                    "cases_n": "14",
+                    "cases_percentage": "4.9",
+                    "controls_n": "5",
+                    "controls_percentage": "1.6"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[2.80, 2.58, 2.68]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "BMI",
+                    "group": "\u226524.0",
+                    "cases_n": "126",
+                    "cases_percentage": "39.0",
+                    "controls_n": "93",
+                    "controls_percentage": "28.8",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.77, (1.22\u20132.57)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "gallstone",
+                    "gallstone": "yes",
+                    "cases_n": "14",
+                    "cases_percentage": "4.9",
+                    "controls_n": "5",
+                    "controls_percentage": "1.6"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[2.80, 2.58, 2.68]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Diabetes",
+                    "group": "No",
+                    "cases_n": "174",
+                    "cases_percentage": "78.0",
+                    "controls_n": "255",
+                    "controls_percentage": "90.7",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted OR1, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "gallstone",
+                    "gallstone": "yes",
+                    "cases_n": "14",
+                    "cases_percentage": "4.9",
+                    "controls_n": "5",
+                    "controls_percentage": "1.6"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[2.80, 2.58, 2.68]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Diabetes",
+                    "group": "No",
+                    "cases_n": "174",
+                    "cases_percentage": "78.0",
+                    "controls_n": "255",
+                    "controls_percentage": "90.7",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "gallstone",
+                    "gallstone": "yes",
+                    "cases_n": "14",
+                    "cases_percentage": "4.9",
+                    "controls_n": "5",
+                    "controls_percentage": "1.6"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[2.80, 2.58, 2.68]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Diabetes",
+                    "group": "Yes",
+                    "cases_n": "49",
+                    "cases_percentage": "22.0",
+                    "controls_n": "26",
+                    "controls_percentage": "9.3",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted OR1, 95% CI]",
+                "outcomes": "[2.60, (1.41\u20134.79)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "gallstone",
+                    "gallstone": "yes",
+                    "cases_n": "14",
+                    "cases_percentage": "4.9",
+                    "controls_n": "5",
+                    "controls_percentage": "1.6"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[2.80, 2.58, 2.68]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Diabetes",
+                    "group": "Yes",
+                    "cases_n": "49",
+                    "cases_percentage": "22.0",
+                    "controls_n": "26",
+                    "controls_percentage": "9.3",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[2.96, (1.48\u20135.92)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "gallstone",
+                    "gallstone": "yes",
+                    "cases_n": "14",
+                    "cases_percentage": "4.9",
+                    "controls_n": "5",
+                    "controls_percentage": "1.6"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[2.80, 2.58, 2.68]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Cholecystitis",
+                    "group": "No",
+                    "cases_n": "272",
+                    "cases_percentage": "94.1",
+                    "controls_n": "195",
+                    "controls_percentage": "96.7",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted OR1, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "gallstone",
+                    "gallstone": "yes",
+                    "cases_n": "14",
+                    "cases_percentage": "4.9",
+                    "controls_n": "5",
+                    "controls_percentage": "1.6"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[2.80, 2.58, 2.68]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Cholecystitis",
+                    "group": "No",
+                    "cases_n": "272",
+                    "cases_percentage": "94.1",
+                    "controls_n": "195",
+                    "controls_percentage": "96.7",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "gallstone",
+                    "gallstone": "yes",
+                    "cases_n": "14",
+                    "cases_percentage": "4.9",
+                    "controls_n": "5",
+                    "controls_percentage": "1.6"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[2.80, 2.58, 2.68]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Cholecystitis",
+                    "group": "Yes",
+                    "cases_n": "17",
+                    "cases_percentage": "5.9",
+                    "controls_n": "10",
+                    "controls_percentage": "3.3"
+                },
+                "measures": "[Crude OR, 95% CI]",
+                "outcomes": "[1.89, (0.84\u20134.24)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "gallstone",
+                    "gallstone": "yes",
+                    "cases_n": "14",
+                    "cases_percentage": "4.9",
+                    "controls_n": "5",
+                    "controls_percentage": "1.6"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[2.80, 2.58, 2.68]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Cholecystitis",
+                    "group": "Yes",
+                    "cases_n": "17",
+                    "cases_percentage": "5.9",
+                    "controls_n": "10",
+                    "controls_percentage": "3.3",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.35, (0.50\u20133.68)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "gallstone",
+                    "gallstone": "yes",
+                    "cases_n": "14",
+                    "cases_percentage": "4.9",
+                    "controls_n": "5",
+                    "controls_percentage": "1.6"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[2.80, 2.58, 2.68]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Gallstone",
+                    "group": "No",
+                    "cases_n": "274",
+                    "cases_percentage": "95.1",
+                    "controls_n": "300",
+                    "controls_percentage": "98.4",
+                    "adjustment": "Adjusted for age, sex, race, and residential areas."
+                },
+                "measures": "[Adjusted OR1, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "gallstone",
+                    "gallstone": "yes",
+                    "cases_n": "14",
+                    "cases_percentage": "4.9",
+                    "controls_n": "5",
+                    "controls_percentage": "1.6"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[2.80, 2.58, 2.68]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Gallstone",
+                    "group": "No",
+                    "cases_n": "274",
+                    "cases_percentage": "95.1",
+                    "controls_n": "300",
+                    "controls_percentage": "98.4",
+                    "adjustment": "Adjusted for age, sex, race, residential areas, smoking, tea drinking, mental pressure, family history of pancreatic cancer, BMI, diabetes, gallstone, pickles and vegetables."
+                },
+                "measures": "[Adjusted OR2, 95% CI]",
+                "outcomes": "[1.00 (reference), NA]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "characteristic": "gallstone",
+                    "gallstone": "yes",
+                    "cases_n": "14",
+                    "cases_percentage": "4.9",
+                    "controls_n": "5",
+                    "controls_percentage": "1.6"
+                },
+                "measures": "[crude_or, adjusted_or1, adjusted_or2]",
+                "outcomes": "[2.80, 2.58, 2.68]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "characteristic": "Gallstone",
+                    "group": "Yes",
+                    "cases_n": "14",
+                    "cases_percentage": "4.9",
+                    "controls_n": "5",
+                    "controls_percentage": "1.6"
+                },
+                "measures": "[Crude OR, 95% CI]",
+                "outcomes": "[2.80, (1.01\u20137.77)]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 10,
+    "total_ground_truth_claims": 30,
+    "number_of_matches": 9
+}

@@ -1,0 +1,288 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "IRNet",
+                    "Dataset": "Spider",
+                    "Pattern Type": "Seen patterns"
+                },
+                "measures": "[EM accuracy]",
+                "outcomes": "[63.5]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "IRNet",
+                    "Dataset": "Spider",
+                    "Pattern type": "Seen patterns"
+                },
+                "measures": [
+                    "EM accuracy"
+                ],
+                "outcomes": [
+                    "63.5"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "IRNet + Aug",
+                    "Dataset": "Spider",
+                    "Pattern Type": "Seen patterns"
+                },
+                "measures": "[EM accuracy]",
+                "outcomes": "[64.7]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "IRNet",
+                    "Dataset": "Spider",
+                    "Pattern type": "Unseen patterns"
+                },
+                "measures": [
+                    "EM accuracy"
+                ],
+                "outcomes": [
+                    "48.8"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "IRNet + Aug",
+                    "Dataset": "Spider",
+                    "Pattern Type": "Seen patterns"
+                },
+                "measures": "[Improvement]",
+                "outcomes": "[1.2]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "IRNet + Aug",
+                    "Dataset": "Spider",
+                    "Pattern type": "Seen patterns",
+                    "Improvement": "1.2"
+                },
+                "measures": [
+                    "EM accuracy"
+                ],
+                "outcomes": [
+                    "64.7"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "IRNet + Aug",
+                    "Dataset": "Spider",
+                    "Pattern Type": "Seen patterns"
+                },
+                "measures": "[Improvement]",
+                "outcomes": "[1.2]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "IRNet + Aug",
+                    "Dataset": "Spider",
+                    "Pattern type": "Unseen patterns",
+                    "Improvement": "4.9"
+                },
+                "measures": [
+                    "EM accuracy"
+                ],
+                "outcomes": [
+                    "53.7"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "IRNet + Aug",
+                    "Dataset": "Spider",
+                    "Pattern Type": "Seen patterns"
+                },
+                "measures": "[Improvement]",
+                "outcomes": "[1.2]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "RATSQL",
+                    "Dataset": "Spider",
+                    "Pattern type": "Seen patterns"
+                },
+                "measures": [
+                    "EM accuracy"
+                ],
+                "outcomes": [
+                    "66.6"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "IRNet",
+                    "Dataset": "Spider",
+                    "Pattern Type": "Unseen patterns"
+                },
+                "measures": "[EM accuracy]",
+                "outcomes": "[48.8]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "IRNet + Aug",
+                    "Dataset": "Spider",
+                    "Pattern type": "Seen patterns",
+                    "Improvement": "1.2"
+                },
+                "measures": [
+                    "EM accuracy"
+                ],
+                "outcomes": [
+                    "64.7"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "IRNet + Aug",
+                    "Dataset": "Spider",
+                    "Pattern Type": "Unseen patterns"
+                },
+                "measures": "[EM accuracy]",
+                "outcomes": "[53.7]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "IRNet + Aug",
+                    "Dataset": "Spider",
+                    "Pattern type": "Unseen patterns",
+                    "Improvement": "4.9"
+                },
+                "measures": [
+                    "EM accuracy"
+                ],
+                "outcomes": [
+                    "53.7"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "IRNet + Aug",
+                    "Dataset": "Spider",
+                    "Pattern Type": "Unseen patterns"
+                },
+                "measures": "[Improvement]",
+                "outcomes": "[4.9]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "RATSQL",
+                    "Dataset": "Spider",
+                    "Pattern type": "Unseen patterns"
+                },
+                "measures": [
+                    "EM accuracy"
+                ],
+                "outcomes": [
+                    "52.3"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "IRNet + Aug",
+                    "Dataset": "Spider",
+                    "Pattern Type": "Unseen patterns"
+                },
+                "measures": "[Improvement]",
+                "outcomes": "[4.9]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "RATSQL + Aug",
+                    "Dataset": "Spider",
+                    "Pattern type": "Seen patterns",
+                    "Improvement": "6.4"
+                },
+                "measures": [
+                    "EM accuracy"
+                ],
+                "outcomes": [
+                    "73.0"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "RATSQL",
+                    "Dataset": "Spider",
+                    "Pattern Type": "Seen patterns"
+                },
+                "measures": "[EM accuracy]",
+                "outcomes": "[66.6]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "RATSQL",
+                    "Dataset": "Spider",
+                    "Pattern type": "Unseen patterns"
+                },
+                "measures": [
+                    "EM accuracy"
+                ],
+                "outcomes": [
+                    "52.3"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "RATSQL + Aug",
+                    "Dataset": "Spider",
+                    "Pattern Type": "Seen patterns"
+                },
+                "measures": "[EM accuracy]",
+                "outcomes": "[73.0]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "RATSQL + Aug",
+                    "Dataset": "Spider",
+                    "Pattern type": "Unseen patterns",
+                    "Improvement": "3.1"
+                },
+                "measures": [
+                    "EM accuracy"
+                ],
+                "outcomes": [
+                    "55.4"
+                ]
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 12,
+    "total_ground_truth_claims": 8,
+    "number_of_matches": 8
+}

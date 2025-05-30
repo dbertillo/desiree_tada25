@@ -1,0 +1,326 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Univariable Cox regression",
+                    "gene": "ISG15",
+                    "statistical measure": "HR",
+                    "HR": "0.29",
+                    "HR 95% CI lower": "0.11",
+                    "HR 95% CI upper": "0.81"
+                },
+                "measures": "[p value]",
+                "outcomes": "[0.0091]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Univariable Cox regression for individual hub genes",
+                    "gene": "ISG15",
+                    "module": "salmon Module 1",
+                    "selection criteria": "p < 0.05"
+                },
+                "measures": "[HR, 95% CI, p value]",
+                "outcomes": "[0.29, 0.11\u20130.81 0.0091]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Univariable Cox regression",
+                    "gene": "IFI6",
+                    "statistical measure": "HR",
+                    "HR": "0.18",
+                    "HR 95% CI lower": "0.037",
+                    "HR 95% CI upper": "0.86"
+                },
+                "measures": "[p value]",
+                "outcomes": "[0.014]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Univariable Cox regression for individual hub genes",
+                    "gene": "IFI6",
+                    "module": "salmon Module 1",
+                    "selection criteria": "p < 0.05"
+                },
+                "measures": "[HR, 95% CI, p value]",
+                "outcomes": "[0.18, 0.037\u20130.86, 0.014]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Univariable Cox regression",
+                    "gene": "IFI44L",
+                    "statistical measure": "HR",
+                    "HR": "0.55",
+                    "HR 95% CI lower": "0.27",
+                    "HR 95% CI upper": "1.1"
+                },
+                "measures": "[p value]",
+                "outcomes": "[0.083]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Univariable Cox regression for individual hub genes",
+                    "gene": "IFI44L",
+                    "module": "salmon Module 1"
+                },
+                "measures": "[HR, 95% CI, p value]",
+                "outcomes": "[0.55, 0.27\u20131.1, 0.083]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Univariable Cox regression",
+                    "gene": "IFI44",
+                    "statistical measure": "HR",
+                    "HR": "0.23",
+                    "HR 95% CI lower": "0.047",
+                    "HR 95% CI upper": "1.2"
+                },
+                "measures": "[p value]",
+                "outcomes": "[0.045]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Univariable Cox regression for individual hub genes",
+                    "gene": "IFI44",
+                    "module": "salmon Module 1",
+                    "selection criteria": "p < 0.05"
+                },
+                "measures": "[HR, 95% CI, p value]",
+                "outcomes": "[0.23, 0.047\u20131.2, 0.045]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Univariable Cox regression",
+                    "gene": "IFIT1",
+                    "statistical measure": "HR",
+                    "HR": "0.37",
+                    "HR 95% CI lower": "0.12",
+                    "HR 95% CI upper": "1.1"
+                },
+                "measures": "[p value]",
+                "outcomes": "[0.054]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Univariable Cox regression for individual hub genes",
+                    "gene": "IFIT1",
+                    "module": "salmon Module 1"
+                },
+                "measures": "[HR, 95% CI, p value]",
+                "outcomes": "[0.37, 0.12\u20131.1, 0.054]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Univariable Cox regression",
+                    "gene": "OAS3",
+                    "statistical measure": "HR",
+                    "HR": "0.52",
+                    "HR 95% CI lower": "0.22",
+                    "HR 95% CI upper": "1.3"
+                },
+                "measures": "[p value]",
+                "outcomes": "[0.15]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Univariable Cox regression for individual hub genes",
+                    "gene": "OAS3",
+                    "module": "salmon Module 1"
+                },
+                "measures": "[HR, 95% CI, p value]",
+                "outcomes": "[0.52, 0.22\u20131.3, 0.15]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Univariable Cox regression",
+                    "gene": "XAF1",
+                    "statistical measure": "HR",
+                    "HR": "0.3",
+                    "HR 95% CI lower": "0.1",
+                    "HR 95% CI upper": "0.92"
+                },
+                "measures": "[p value]",
+                "outcomes": "[0.027]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Univariable Cox regression for individual hub genes",
+                    "gene": "XAF1",
+                    "module": "salmon Module 1",
+                    "selection criteria": "p < 0.05"
+                },
+                "measures": "[HR, 95% CI, p value]",
+                "outcomes": "[0.3, 0.1\u20130.92, 0.027]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Univariable Cox regression",
+                    "gene": "TRIM25",
+                    "statistical measure": "HR",
+                    "HR": "0.074",
+                    "HR 95% CI lower": "0.0068",
+                    "HR 95% CI upper": "0.8"
+                },
+                "measures": "[p value]",
+                "outcomes": "[0.023]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Univariable Cox regression for individual hub genes",
+                    "gene": "TRIM25",
+                    "module": "salmon Module 1",
+                    "selection criteria": "p < 0.05"
+                },
+                "measures": "[HR, 95% CI, p value]",
+                "outcomes": "[0.074, 0.0068\u20130.8, 0.023]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Univariable Cox regression",
+                    "gene": "CMPK2",
+                    "statistical measure": "HR",
+                    "HR": "0.23",
+                    "HR 95% CI lower": "0.037",
+                    "HR 95% CI upper": "1.5"
+                },
+                "measures": "[p value]",
+                "outcomes": "[0.074]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Univariable Cox regression for individual hub genes",
+                    "gene": "CMPK2",
+                    "module": "salmon Module 1"
+                },
+                "measures": "[HR, 95% CI, p value]",
+                "outcomes": "[0.23, 0.037\u20131.5, 0.074]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Univariable Cox regression",
+                    "gene": "RSAD2",
+                    "statistical measure": "HR",
+                    "HR": "0.2",
+                    "HR 95% CI lower": "0.041",
+                    "HR 95% CI upper": "0.99"
+                },
+                "measures": "[p value]",
+                "outcomes": "[0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Univariable Cox regression for individual hub genes",
+                    "gene": "RSAD2",
+                    "module": "salmon Module 1",
+                    "selection criteria": "p < 0.05"
+                },
+                "measures": "[HR, 95% CI, p value]",
+                "outcomes": "[0.2, 0.041\u20130.99, 0.032]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Univariable Cox regression",
+                    "gene": "EIF2AK2",
+                    "statistical measure": "HR",
+                    "HR": "0.54",
+                    "HR 95% CI lower": "0.12",
+                    "HR 95% CI upper": "2.4"
+                },
+                "measures": "[p value]",
+                "outcomes": "[0.42]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Univariable Cox regression for individual hub genes",
+                    "gene": "EIF2AK2",
+                    "module": "salmon Module 1"
+                },
+                "measures": "[HR, 95% CI, p value]",
+                "outcomes": "[0.54, 0.12\u20132.4, 0.42]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Univariable Cox regression",
+                    "gene": "USP18",
+                    "statistical measure": "HR",
+                    "HR": "0.23",
+                    "HR 95% CI lower": "0.062",
+                    "HR 95% CI upper": "0.84"
+                },
+                "measures": "[p value]",
+                "outcomes": "[0.022]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Univariable Cox regression for individual hub genes",
+                    "gene": "USP18",
+                    "module": "salmon Module 1",
+                    "selection criteria": "p < 0.05"
+                },
+                "measures": "[HR, 95% CI, p value]",
+                "outcomes": "[0.23, 0.062\u20130.84, 0.022]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Univariable Cox regression",
+                    "gene": "HERC6",
+                    "statistical measure": "HR",
+                    "HR": "0.16",
+                    "HR 95% CI lower": "0.019",
+                    "HR 95% CI upper": "1.3"
+                },
+                "measures": "[p value]",
+                "outcomes": "[0.057]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Univariable Cox regression for individual hub genes",
+                    "gene": "HERC6",
+                    "module": "salmon Module 1"
+                },
+                "measures": "[HR, 95% CI, p value]",
+                "outcomes": "[0.16, 0.019\u20131.3, 0.057]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 13,
+    "total_ground_truth_claims": 13,
+    "number_of_matches": 13
+}

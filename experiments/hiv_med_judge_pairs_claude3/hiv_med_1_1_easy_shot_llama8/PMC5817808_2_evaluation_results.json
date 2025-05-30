@@ -1,0 +1,2323 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "infant mortality": "2.58%",
+                    "feeding option": "ERF",
+                    "mode of feeding": "ERF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[2.58%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Exclusive breast feeding"
+                },
+                "measures": [
+                    "Unadjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "1.35 [0.52-3.49]",
+                    "0.54"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "infant mortality": "2.58%",
+                    "feeding option": "ERF",
+                    "mode of feeding": "ERF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[2.58%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Exclusive breast feeding"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "1.16 [0.44-3.08]",
+                    "0.76"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "infant mortality": "2.58%",
+                    "feeding option": "ERF",
+                    "mode of feeding": "ERF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[2.58%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Exclusive replacement feeding"
+                },
+                "measures": [
+                    "Unadjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "Ref",
+                    "Ref"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "infant mortality": "2.58%",
+                    "feeding option": "ERF",
+                    "mode of feeding": "ERF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[2.58%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Exclusive replacement feeding"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "Ref",
+                    "Ref"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "infant mortality": "2.58%",
+                    "feeding option": "ERF",
+                    "mode of feeding": "ERF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[2.58%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Mixed feeding"
+                },
+                "measures": [
+                    "Unadjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "0.31 [0.04-2.42]",
+                    "0.26"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "infant mortality": "2.58%",
+                    "feeding option": "ERF",
+                    "mode of feeding": "ERF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[2.58%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Mixed feeding"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "0.44 [0.053-3.74]",
+                    "0.45"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "infant mortality": "2.58%",
+                    "feeding option": "ERF",
+                    "mode of feeding": "ERF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[2.58%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "HIV Status": "Positive"
+                },
+                "measures": [
+                    "Unadjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "0.31 [0.11-0.90]",
+                    "0.032"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "infant mortality": "2.58%",
+                    "feeding option": "ERF",
+                    "mode of feeding": "ERF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[2.58%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "HIV Status": "Positive"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "0.30 [0.08-1.11]",
+                    "0.071"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "infant mortality": "2.58%",
+                    "feeding option": "ERF",
+                    "mode of feeding": "ERF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[2.58%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "HIV Status": "Negative"
+                },
+                "measures": [
+                    "Unadjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "Ref",
+                    "Ref"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "infant mortality": "2.58%",
+                    "feeding option": "ERF",
+                    "mode of feeding": "ERF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[2.58%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "HIV Status": "Negative"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "Ref",
+                    "Ref"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "infant mortality": "2.58%",
+                    "feeding option": "ERF",
+                    "mode of feeding": "ERF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[2.58%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "Birth weight": ">= 2500 g"
+                },
+                "measures": [
+                    "Unadjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "0.70 [0.16-2.96]",
+                    "0.63"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "infant mortality": "2.58%",
+                    "feeding option": "ERF",
+                    "mode of feeding": "ERF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[2.58%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "Birth weight": ">= 2500 g"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "0.93 [0.21-4.12]",
+                    "0.92"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "infant mortality": "2.58%",
+                    "feeding option": "ERF",
+                    "mode of feeding": "ERF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[2.58%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "Birth weight": "< 2500 g"
+                },
+                "measures": [
+                    "Unadjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "Ref",
+                    "Ref"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "infant mortality": "2.58%",
+                    "feeding option": "ERF",
+                    "mode of feeding": "ERF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[2.58%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "Birth weight": "< 2500 g"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "Ref",
+                    "Ref"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "infant mortality": "2.58%",
+                    "feeding option": "ERF",
+                    "mode of feeding": "ERF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[2.58%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Global Schoenfeld residuals test",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program"
+                },
+                "measures": [
+                    "p-value"
+                ],
+                "outcomes": [
+                    "0.23"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "feeding option": "EBF",
+                    "mode of feeding": "EBF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[2.45%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Exclusive breast feeding"
+                },
+                "measures": [
+                    "Unadjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "1.35 [0.52-3.49]",
+                    "0.54"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "feeding option": "EBF",
+                    "mode of feeding": "EBF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[2.45%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Exclusive breast feeding"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "1.16 [0.44-3.08]",
+                    "0.76"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "feeding option": "EBF",
+                    "mode of feeding": "EBF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[2.45%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Exclusive replacement feeding"
+                },
+                "measures": [
+                    "Unadjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "Ref",
+                    "Ref"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "feeding option": "EBF",
+                    "mode of feeding": "EBF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[2.45%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Exclusive replacement feeding"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "Ref",
+                    "Ref"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "feeding option": "EBF",
+                    "mode of feeding": "EBF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[2.45%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Mixed feeding"
+                },
+                "measures": [
+                    "Unadjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "0.31 [0.04-2.42]",
+                    "0.26"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "feeding option": "EBF",
+                    "mode of feeding": "EBF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[2.45%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Mixed feeding"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "0.44 [0.053-3.74]",
+                    "0.45"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "feeding option": "EBF",
+                    "mode of feeding": "EBF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[2.45%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "HIV Status": "Positive"
+                },
+                "measures": [
+                    "Unadjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "0.31 [0.11-0.90]",
+                    "0.032"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "feeding option": "EBF",
+                    "mode of feeding": "EBF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[2.45%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "HIV Status": "Positive"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "0.30 [0.08-1.11]",
+                    "0.071"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "feeding option": "EBF",
+                    "mode of feeding": "EBF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[2.45%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "HIV Status": "Negative"
+                },
+                "measures": [
+                    "Unadjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "Ref",
+                    "Ref"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "feeding option": "EBF",
+                    "mode of feeding": "EBF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[2.45%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "HIV Status": "Negative"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "Ref",
+                    "Ref"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "feeding option": "EBF",
+                    "mode of feeding": "EBF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[2.45%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "Birth weight": ">= 2500 g"
+                },
+                "measures": [
+                    "Unadjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "0.70 [0.16-2.96]",
+                    "0.63"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "feeding option": "EBF",
+                    "mode of feeding": "EBF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[2.45%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "Birth weight": ">= 2500 g"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "0.93 [0.21-4.12]",
+                    "0.92"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "feeding option": "EBF",
+                    "mode of feeding": "EBF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[2.45%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "Birth weight": "< 2500 g"
+                },
+                "measures": [
+                    "Unadjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "Ref",
+                    "Ref"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "feeding option": "EBF",
+                    "mode of feeding": "EBF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[2.45%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "Birth weight": "< 2500 g"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "Ref",
+                    "Ref"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "feeding option": "EBF",
+                    "mode of feeding": "EBF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[2.45%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Global Schoenfeld residuals test",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program"
+                },
+                "measures": [
+                    "p-value"
+                ],
+                "outcomes": [
+                    "0.23"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "feeding option": "MF",
+                    "mode of feeding": "MF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[13.33%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Exclusive breast feeding"
+                },
+                "measures": [
+                    "Unadjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "1.35 [0.52-3.49]",
+                    "0.54"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "feeding option": "MF",
+                    "mode of feeding": "MF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[13.33%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Exclusive breast feeding"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "1.16 [0.44-3.08]",
+                    "0.76"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "feeding option": "MF",
+                    "mode of feeding": "MF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[13.33%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Exclusive replacement feeding"
+                },
+                "measures": [
+                    "Unadjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "Ref",
+                    "Ref"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "feeding option": "MF",
+                    "mode of feeding": "MF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[13.33%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Exclusive replacement feeding"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "Ref",
+                    "Ref"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "feeding option": "MF",
+                    "mode of feeding": "MF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[13.33%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Mixed feeding"
+                },
+                "measures": [
+                    "Unadjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "0.31 [0.04-2.42]",
+                    "0.26"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "feeding option": "MF",
+                    "mode of feeding": "MF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[13.33%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Mixed feeding"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "0.44 [0.053-3.74]",
+                    "0.45"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "feeding option": "MF",
+                    "mode of feeding": "MF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[13.33%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "HIV Status": "Positive"
+                },
+                "measures": [
+                    "Unadjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "0.31 [0.11-0.90]",
+                    "0.032"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "feeding option": "MF",
+                    "mode of feeding": "MF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[13.33%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "HIV Status": "Positive"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "0.30 [0.08-1.11]",
+                    "0.071"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "feeding option": "MF",
+                    "mode of feeding": "MF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[13.33%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "HIV Status": "Negative"
+                },
+                "measures": [
+                    "Unadjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "Ref",
+                    "Ref"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "feeding option": "MF",
+                    "mode of feeding": "MF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[13.33%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "HIV Status": "Negative"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "Ref",
+                    "Ref"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "feeding option": "MF",
+                    "mode of feeding": "MF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[13.33%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "Birth weight": ">= 2500 g"
+                },
+                "measures": [
+                    "Unadjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "0.70 [0.16-2.96]",
+                    "0.63"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "feeding option": "MF",
+                    "mode of feeding": "MF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[13.33%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "Birth weight": ">= 2500 g"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "0.93 [0.21-4.12]",
+                    "0.92"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "feeding option": "MF",
+                    "mode of feeding": "MF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[13.33%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "Birth weight": "< 2500 g"
+                },
+                "measures": [
+                    "Unadjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "Ref",
+                    "Ref"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "feeding option": "MF",
+                    "mode of feeding": "MF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[13.33%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "Birth weight": "< 2500 g"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "Ref",
+                    "Ref"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "feeding option": "MF",
+                    "mode of feeding": "MF"
+                },
+                "measures": "[infant mortality, p-value]",
+                "outcomes": "[13.33%, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Global Schoenfeld residuals test",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program"
+                },
+                "measures": [
+                    "p-value"
+                ],
+                "outcomes": [
+                    "0.23"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "HIV status": "Positive"
+                },
+                "measures": "[Hazard Ratio, p-value]",
+                "outcomes": "[0.31, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Exclusive breast feeding"
+                },
+                "measures": [
+                    "Unadjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "1.35 [0.52-3.49]",
+                    "0.54"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "HIV status": "Positive"
+                },
+                "measures": "[Hazard Ratio, p-value]",
+                "outcomes": "[0.31, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Exclusive breast feeding"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "1.16 [0.44-3.08]",
+                    "0.76"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "HIV status": "Positive"
+                },
+                "measures": "[Hazard Ratio, p-value]",
+                "outcomes": "[0.31, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Exclusive replacement feeding"
+                },
+                "measures": [
+                    "Unadjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "Ref",
+                    "Ref"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "HIV status": "Positive"
+                },
+                "measures": "[Hazard Ratio, p-value]",
+                "outcomes": "[0.31, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Exclusive replacement feeding"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "Ref",
+                    "Ref"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "HIV status": "Positive"
+                },
+                "measures": "[Hazard Ratio, p-value]",
+                "outcomes": "[0.31, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Mixed feeding"
+                },
+                "measures": [
+                    "Unadjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "0.31 [0.04-2.42]",
+                    "0.26"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "HIV status": "Positive"
+                },
+                "measures": "[Hazard Ratio, p-value]",
+                "outcomes": "[0.31, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Mixed feeding"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "0.44 [0.053-3.74]",
+                    "0.45"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "HIV status": "Positive"
+                },
+                "measures": "[Hazard Ratio, p-value]",
+                "outcomes": "[0.31, 0.032]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "HIV Status": "Positive"
+                },
+                "measures": [
+                    "Unadjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "0.31 [0.11-0.90]",
+                    "0.032"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "HIV status": "Negative"
+                },
+                "measures": "[Hazard Ratio, p-value]",
+                "outcomes": "[Ref, Ref]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Exclusive breast feeding"
+                },
+                "measures": [
+                    "Unadjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "1.35 [0.52-3.49]",
+                    "0.54"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "HIV status": "Negative"
+                },
+                "measures": "[Hazard Ratio, p-value]",
+                "outcomes": "[Ref, Ref]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Exclusive breast feeding"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "1.16 [0.44-3.08]",
+                    "0.76"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "HIV status": "Negative"
+                },
+                "measures": "[Hazard Ratio, p-value]",
+                "outcomes": "[Ref, Ref]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Exclusive replacement feeding"
+                },
+                "measures": [
+                    "Unadjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "Ref",
+                    "Ref"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "HIV status": "Negative"
+                },
+                "measures": "[Hazard Ratio, p-value]",
+                "outcomes": "[Ref, Ref]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Exclusive replacement feeding"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "Ref",
+                    "Ref"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "HIV status": "Negative"
+                },
+                "measures": "[Hazard Ratio, p-value]",
+                "outcomes": "[Ref, Ref]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Mixed feeding"
+                },
+                "measures": [
+                    "Unadjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "0.31 [0.04-2.42]",
+                    "0.26"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "HIV status": "Negative"
+                },
+                "measures": "[Hazard Ratio, p-value]",
+                "outcomes": "[Ref, Ref]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Mixed feeding"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "0.44 [0.053-3.74]",
+                    "0.45"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "HIV status": "Negative"
+                },
+                "measures": "[Hazard Ratio, p-value]",
+                "outcomes": "[Ref, Ref]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "HIV Status": "Positive"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "0.30 [0.08-1.11]",
+                    "0.071"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "HIV status": "Negative"
+                },
+                "measures": "[Hazard Ratio, p-value]",
+                "outcomes": "[Ref, Ref]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "HIV Status": "Negative"
+                },
+                "measures": [
+                    "Unadjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "Ref",
+                    "Ref"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "birth weight": ">=2500 g"
+                },
+                "measures": "[Hazard Ratio, p-value]",
+                "outcomes": "[0.88, 0.80]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Exclusive breast feeding"
+                },
+                "measures": [
+                    "Unadjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "1.35 [0.52-3.49]",
+                    "0.54"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "birth weight": ">=2500 g"
+                },
+                "measures": "[Hazard Ratio, p-value]",
+                "outcomes": "[0.88, 0.80]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Exclusive breast feeding"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "1.16 [0.44-3.08]",
+                    "0.76"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "birth weight": ">=2500 g"
+                },
+                "measures": "[Hazard Ratio, p-value]",
+                "outcomes": "[0.88, 0.80]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Exclusive replacement feeding"
+                },
+                "measures": [
+                    "Unadjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "Ref",
+                    "Ref"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "birth weight": ">=2500 g"
+                },
+                "measures": "[Hazard Ratio, p-value]",
+                "outcomes": "[0.88, 0.80]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Exclusive replacement feeding"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "Ref",
+                    "Ref"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "birth weight": ">=2500 g"
+                },
+                "measures": "[Hazard Ratio, p-value]",
+                "outcomes": "[0.88, 0.80]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Mixed feeding"
+                },
+                "measures": [
+                    "Unadjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "0.31 [0.04-2.42]",
+                    "0.26"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "birth weight": ">=2500 g"
+                },
+                "measures": "[Hazard Ratio, p-value]",
+                "outcomes": "[0.88, 0.80]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Mixed feeding"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "0.44 [0.053-3.74]",
+                    "0.45"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "birth weight": ">=2500 g"
+                },
+                "measures": "[Hazard Ratio, p-value]",
+                "outcomes": "[0.88, 0.80]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "HIV Status": "Positive"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "0.30 [0.08-1.11]",
+                    "0.071"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "birth weight": ">=2500 g"
+                },
+                "measures": "[Hazard Ratio, p-value]",
+                "outcomes": "[0.88, 0.80]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "HIV Status": "Negative"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "Ref",
+                    "Ref"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "birth weight": ">=2500 g"
+                },
+                "measures": "[Hazard Ratio, p-value]",
+                "outcomes": "[0.88, 0.80]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "Birth weight": ">= 2500 g"
+                },
+                "measures": [
+                    "Unadjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "0.70 [0.16-2.96]",
+                    "0.63"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "birth weight": ">=2500 g"
+                },
+                "measures": "[Hazard Ratio, p-value]",
+                "outcomes": "[0.88, 0.80]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "Birth weight": ">= 2500 g"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "0.93 [0.21-4.12]",
+                    "0.92"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "birth weight": ">=2500 g"
+                },
+                "measures": "[Hazard Ratio, p-value]",
+                "outcomes": "[0.88, 0.80]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "Birth weight": "< 2500 g"
+                },
+                "measures": [
+                    "Unadjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "Ref",
+                    "Ref"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "birth weight": ">=2500 g"
+                },
+                "measures": "[Hazard Ratio, p-value]",
+                "outcomes": "[0.88, 0.80]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "Birth weight": "< 2500 g"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "Ref",
+                    "Ref"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "birth weight": ">=2500 g"
+                },
+                "measures": "[Hazard Ratio, p-value]",
+                "outcomes": "[0.88, 0.80]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Global Schoenfeld residuals test",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program"
+                },
+                "measures": [
+                    "p-value"
+                ],
+                "outcomes": [
+                    "0.23"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "birth weight": "<2500 g"
+                },
+                "measures": "[Hazard Ratio, p-value]",
+                "outcomes": "[Ref, Ref]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Exclusive breast feeding"
+                },
+                "measures": [
+                    "Unadjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "1.35 [0.52-3.49]",
+                    "0.54"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "birth weight": "<2500 g"
+                },
+                "measures": "[Hazard Ratio, p-value]",
+                "outcomes": "[Ref, Ref]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Exclusive breast feeding"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "1.16 [0.44-3.08]",
+                    "0.76"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "birth weight": "<2500 g"
+                },
+                "measures": "[Hazard Ratio, p-value]",
+                "outcomes": "[Ref, Ref]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Exclusive replacement feeding"
+                },
+                "measures": [
+                    "Unadjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "Ref",
+                    "Ref"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "birth weight": "<2500 g"
+                },
+                "measures": "[Hazard Ratio, p-value]",
+                "outcomes": "[Ref, Ref]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Exclusive replacement feeding"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "Ref",
+                    "Ref"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "birth weight": "<2500 g"
+                },
+                "measures": "[Hazard Ratio, p-value]",
+                "outcomes": "[Ref, Ref]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Mixed feeding"
+                },
+                "measures": [
+                    "Unadjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "0.31 [0.04-2.42]",
+                    "0.26"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "birth weight": "<2500 g"
+                },
+                "measures": "[Hazard Ratio, p-value]",
+                "outcomes": "[Ref, Ref]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "mode of feeding": "Mixed feeding"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "0.44 [0.053-3.74]",
+                    "0.45"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "birth weight": "<2500 g"
+                },
+                "measures": "[Hazard Ratio, p-value]",
+                "outcomes": "[Ref, Ref]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "HIV Status": "Positive"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "0.30 [0.08-1.11]",
+                    "0.071"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "birth weight": "<2500 g"
+                },
+                "measures": "[Hazard Ratio, p-value]",
+                "outcomes": "[Ref, Ref]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "HIV Status": "Negative"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "Ref",
+                    "Ref"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "birth weight": "<2500 g"
+                },
+                "measures": "[Hazard Ratio, p-value]",
+                "outcomes": "[Ref, Ref]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "Birth weight": ">= 2500 g"
+                },
+                "measures": [
+                    "Unadjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "0.70 [0.16-2.96]",
+                    "0.63"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "birth weight": "<2500 g"
+                },
+                "measures": "[Hazard Ratio, p-value]",
+                "outcomes": "[Ref, Ref]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "Birth weight": ">= 2500 g"
+                },
+                "measures": [
+                    "Adjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "0.93 [0.21-4.12]",
+                    "0.92"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "HIV exposed infants of the Essos hospital center PMTCT program",
+                    "birth weight": "<2500 g"
+                },
+                "measures": "[Hazard Ratio, p-value]",
+                "outcomes": "[Ref, Ref]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "survival at 24 months",
+                    "population": "HIV exposed infants",
+                    "program": "Essos hospital center PMTCT program",
+                    "Birth weight": "< 2500 g"
+                },
+                "measures": [
+                    "Unadjusted Hazard Ratio",
+                    "p-value"
+                ],
+                "outcomes": [
+                    "Ref",
+                    "Ref"
+                ]
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 7,
+    "total_ground_truth_claims": 15,
+    "number_of_matches": 3
+}

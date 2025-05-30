@@ -1,0 +1,114 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "event_type": "Composite endpoint",
+                    "total_events": "692",
+                    "no_of_event": "123",
+                    "person_year_follow_up": "4071",
+                    "rate_per_100_person_year": "3.02",
+                    "rate_95_CI": "(2.53\u20133.61)"
+                },
+                "measures": "[no_of_event, person_year_follow_up, rate_per_100_person_year]",
+                "outcomes": "[123, 4071, 3.02]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "Composite endpoint (all participants)",
+                    "Sample size": "692",
+                    "No. of events": "123",
+                    "Person-years of follow-up": "4071",
+                    "Method": "Event rate across total follow-up"
+                },
+                "measures": "[Rate per 100 person-years (95% CI)]",
+                "outcomes": "[3.02 (2.53\u20133.61)]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "event_type": "Composite endpoint",
+                    "total_events": "692",
+                    "current_CD4_CD8_ratio": "< 0.3",
+                    "no_of_event": "21",
+                    "person_year_follow_up": "184",
+                    "rate_per_100_person_year": "11.42",
+                    "rate_95_CI": "(7.45\u201317.52)",
+                    "p_value": "< 0.001"
+                },
+                "measures": "[no_of_event, person_year_follow_up, rate_per_100_person_year]",
+                "outcomes": "[21, 184, 11.42]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "Current CD4/CD8 ratio < 0.3",
+                    "No. of events": "21",
+                    "Person-years of follow-up": "184",
+                    "Method": "Rate stratified by CD4/CD8 ratio group"
+                },
+                "measures": "[Rate per 100 person-years (95% CI)]",
+                "outcomes": "[11.42 (7.45\u201317.52)]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "event_type": "Composite endpoint",
+                    "total_events": "692",
+                    "current_CD4_CD8_ratio": "0.30\u20130.45",
+                    "no_of_event": "28",
+                    "person_year_follow_up": "496",
+                    "rate_per_100_person_year": "5.64",
+                    "rate_95_CI": "(3.90\u20138.17)",
+                    "p_value": "< 0.001"
+                },
+                "measures": "[no_of_event, person_year_follow_up, rate_per_100_person_year]",
+                "outcomes": "[28, 496, 5.64]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "Current CD4/CD8 ratio 0.30\u20130.45",
+                    "No. of events": "28",
+                    "Person-years of follow-up": "496",
+                    "Method": "Rate stratified by CD4/CD8 ratio group"
+                },
+                "measures": "[Rate per 100 person-years (95% CI)]",
+                "outcomes": "[5.64 (3.90\u20138.17)]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "event_type": "Composite endpoint",
+                    "total_events": "692",
+                    "current_CD4_CD8_ratio": "> 0.45",
+                    "no_of_event": "72",
+                    "person_year_follow_up": "3227",
+                    "rate_per_100_person_year": "2.23",
+                    "rate_95_CI": "(1.77\u20132.81)",
+                    "p_value": "< 0.001"
+                },
+                "measures": "[no_of_event, person_year_follow_up, rate_per_100_person_year]",
+                "outcomes": "[72, 3227, 2.23]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Group": "Current CD4/CD8 ratio > 0.45",
+                    "No. of events": "72",
+                    "Person-years of follow-up": "3227",
+                    "Method": "Rate stratified by CD4/CD8 ratio group"
+                },
+                "measures": "[Rate per 100 person-years (95% CI)]",
+                "outcomes": "[2.23 (1.77\u20132.81)]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 4,
+    "total_ground_truth_claims": 4,
+    "number_of_matches": 4
+}

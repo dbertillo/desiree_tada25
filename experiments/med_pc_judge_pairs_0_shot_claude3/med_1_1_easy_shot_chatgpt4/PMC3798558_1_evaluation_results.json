@@ -1,0 +1,539 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Comparison of selected characteristics of pancreatic cancer (PC) patients and non-cancer controls",
+                    "group": "Cases",
+                    "subgroup": "Age <40",
+                    "n": "185",
+                    "percentage": "5.41%",
+                    "comparison group": "Controls",
+                    "comparison n": "1465",
+                    "comparison percentage": "5.12%",
+                    "statistical test": "chi-square test",
+                    "P-value": "0.999"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Characteristic": "Age",
+                    "Group": "Cases",
+                    "Sample Size": "185",
+                    "Age Range": "<40",
+                    "Count": "10",
+                    "Percentage": "5.41",
+                    "P-value": "0.999"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Comparison of selected characteristics of pancreatic cancer (PC) patients and non-cancer controls",
+                    "group": "Cases",
+                    "subgroup": "Age \u226540 but <50",
+                    "n": "185",
+                    "percentage": "10.27%",
+                    "comparison group": "Controls",
+                    "comparison n": "1465",
+                    "comparison percentage": "10.03%",
+                    "statistical test": "chi-square test",
+                    "P-value": "0.999"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Characteristic": "Age",
+                    "Group": "Controls",
+                    "Sample Size": "1465",
+                    "Age Range": "<40",
+                    "Count": "75",
+                    "Percentage": "5.12",
+                    "P-value": "0.999"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Comparison of selected characteristics of pancreatic cancer (PC) patients and non-cancer controls",
+                    "group": "Cases",
+                    "subgroup": "Age \u226550 but <60",
+                    "n": "185",
+                    "percentage": "32.43%",
+                    "comparison group": "Controls",
+                    "comparison n": "1465",
+                    "comparison percentage": "32.70%",
+                    "statistical test": "chi-square test",
+                    "P-value": "0.999"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Characteristic": "Age",
+                    "Group": "Cases",
+                    "Sample Size": "185",
+                    "Age Range": "\u226540 but <50",
+                    "Count": "19",
+                    "Percentage": "10.27",
+                    "P-value": "0.999"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Comparison of selected characteristics of pancreatic cancer (PC) patients and non-cancer controls",
+                    "group": "Cases",
+                    "subgroup": "Age \u226560 but <70",
+                    "n": "185",
+                    "percentage": "32.43%",
+                    "comparison group": "Controls",
+                    "comparison n": "1465",
+                    "comparison percentage": "33.04%",
+                    "statistical test": "chi-square test",
+                    "P-value": "0.999"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Characteristic": "Age",
+                    "Group": "Controls",
+                    "Sample Size": "1465",
+                    "Age Range": "\u226540 but <50",
+                    "Count": "147",
+                    "Percentage": "10.03",
+                    "P-value": "0.999"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Comparison of selected characteristics of pancreatic cancer (PC) patients and non-cancer controls",
+                    "group": "Cases",
+                    "subgroup": "Age \u226570",
+                    "n": "185",
+                    "percentage": "19.46%",
+                    "comparison group": "Controls",
+                    "comparison n": "1465",
+                    "comparison percentage": "19.11%",
+                    "statistical test": "chi-square test",
+                    "P-value": "0.999"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Characteristic": "Age",
+                    "Group": "Cases",
+                    "Sample Size": "185",
+                    "Age Range": "\u226550 but <60",
+                    "Count": "60",
+                    "Percentage": "32.43",
+                    "P-value": "0.999"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Comparison of selected characteristics of pancreatic cancer (PC) patients and non-cancer controls",
+                    "group": "Cases",
+                    "subgroup": "Male",
+                    "n": "185",
+                    "percentage": "68.65%",
+                    "comparison group": "Controls",
+                    "comparison n": "1465",
+                    "comparison percentage": "74.88%",
+                    "statistical test": "chi-square test",
+                    "P-value": "0.068"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Characteristic": "Age",
+                    "Group": "Controls",
+                    "Sample Size": "1465",
+                    "Age Range": "\u226550 but <60",
+                    "Count": "479",
+                    "Percentage": "32.70",
+                    "P-value": "0.999"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Comparison of selected characteristics of pancreatic cancer (PC) patients and non-cancer controls",
+                    "group": "Cases",
+                    "subgroup": "Female",
+                    "n": "185",
+                    "percentage": "31.35%",
+                    "comparison group": "Controls",
+                    "comparison n": "1465",
+                    "comparison percentage": "25.12%",
+                    "statistical test": "chi-square test",
+                    "P-value": "0.068"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Characteristic": "Age",
+                    "Group": "Cases",
+                    "Sample Size": "185",
+                    "Age Range": "\u226560 but <70",
+                    "Count": "60",
+                    "Percentage": "32.43",
+                    "P-value": "0.999"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Comparison of selected characteristics of pancreatic cancer (PC) patients and non-cancer controls",
+                    "group": "Cases",
+                    "subgroup": "Current BMI <18.5",
+                    "n": "185",
+                    "percentage": "8.11%",
+                    "comparison group": "Controls",
+                    "comparison n": "1465",
+                    "comparison percentage": "4.16%",
+                    "statistical test": "chi-square test",
+                    "P-value": "0.021"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Characteristic": "Age",
+                    "Group": "Controls",
+                    "Sample Size": "1465",
+                    "Age Range": "\u226560 but <70",
+                    "Count": "484",
+                    "Percentage": "33.04",
+                    "P-value": "0.999"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Comparison of selected characteristics of pancreatic cancer (PC) patients and non-cancer controls",
+                    "group": "Cases",
+                    "subgroup": "Current BMI \u226518.5 but <22.5",
+                    "n": "185",
+                    "percentage": "45.11%",
+                    "comparison group": "Controls",
+                    "comparison n": "1465",
+                    "comparison percentage": "37.88%",
+                    "statistical test": "chi-square test",
+                    "P-value": "0.021"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Characteristic": "Age",
+                    "Group": "Cases",
+                    "Sample Size": "185",
+                    "Age Range": "\u226570",
+                    "Count": "36",
+                    "Percentage": "19.46",
+                    "P-value": "0.999"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Comparison of selected characteristics of pancreatic cancer (PC) patients and non-cancer controls",
+                    "group": "Cases",
+                    "subgroup": "Current BMI \u226522.5 but <25",
+                    "n": "185",
+                    "percentage": "25.41%",
+                    "comparison group": "Controls",
+                    "comparison n": "1465",
+                    "comparison percentage": "32.63%",
+                    "statistical test": "chi-square test",
+                    "P-value": "0.021"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Characteristic": "Age",
+                    "Group": "Controls",
+                    "Sample Size": "1465",
+                    "Age Range": "\u226570",
+                    "Count": "280",
+                    "Percentage": "19.11",
+                    "P-value": "0.999"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Comparison of selected characteristics of pancreatic cancer (PC) patients and non-cancer controls",
+                    "group": "Cases",
+                    "subgroup": "Current BMI \u226525 but <27.5",
+                    "n": "185",
+                    "percentage": "13.51%",
+                    "comparison group": "Controls",
+                    "comparison n": "1465",
+                    "comparison percentage": "16.72%",
+                    "statistical test": "chi-square test",
+                    "P-value": "0.021"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Characteristic": "Sex",
+                    "Group": "Cases",
+                    "Sample Size": "185",
+                    "Sex": "Male",
+                    "Count": "127",
+                    "Percentage": "68.65",
+                    "P-value": "0.068"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Comparison of selected characteristics of pancreatic cancer (PC) patients and non-cancer controls",
+                    "group": "Cases",
+                    "subgroup": "Current BMI \u226527.5",
+                    "n": "185",
+                    "percentage": "7.57%",
+                    "comparison group": "Controls",
+                    "comparison n": "1465",
+                    "comparison percentage": "7.58%",
+                    "statistical test": "chi-square test",
+                    "P-value": "0.021"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Characteristic": "Sex",
+                    "Group": "Controls",
+                    "Sample Size": "1465",
+                    "Sex": "Male",
+                    "Count": "1097",
+                    "Percentage": "74.88",
+                    "P-value": "0.068"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Comparison of selected characteristics of pancreatic cancer (PC) patients and non-cancer controls",
+                    "group": "Cases",
+                    "subgroup": "BMI at age 20 <18.5",
+                    "n": "185",
+                    "percentage": "7.57%",
+                    "comparison group": "Controls",
+                    "comparison n": "1465",
+                    "comparison percentage": "11.47%",
+                    "statistical test": "chi-square test",
+                    "P-value": "0.018"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Characteristic": "Sex",
+                    "Group": "Cases",
+                    "Sample Size": "185",
+                    "Sex": "Female",
+                    "Count": "58",
+                    "Percentage": "31.35",
+                    "P-value": "0.068"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Comparison of selected characteristics of pancreatic cancer (PC) patients and non-cancer controls",
+                    "group": "Cases",
+                    "subgroup": "BMI at age 20 \u226518.5 but <22.5",
+                    "n": "185",
+                    "percentage": "60.54%",
+                    "comparison group": "Controls",
+                    "comparison n": "1465",
+                    "comparison percentage": "64.85%",
+                    "statistical test": "chi-square test",
+                    "P-value": "0.018"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Characteristic": "Sex",
+                    "Group": "Controls",
+                    "Sample Size": "1465",
+                    "Sex": "Female",
+                    "Count": "368",
+                    "Percentage": "25.12",
+                    "P-value": "0.068"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Comparison of selected characteristics of pancreatic cancer (PC) patients and non-cancer controls",
+                    "group": "Cases",
+                    "subgroup": "BMI at age 20 \u226522.5 but <25",
+                    "n": "185",
+                    "percentage": "19.46%",
+                    "comparison group": "Controls",
+                    "comparison n": "1465",
+                    "comparison percentage": "15.43%",
+                    "statistical test": "chi-square test",
+                    "P-value": "0.018"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Characteristic": "Current BMI",
+                    "Group": "Cases",
+                    "Sample Size": "185",
+                    "BMI Range": "<18.5",
+                    "Count": "15",
+                    "Percentage": "8.11",
+                    "P-value": "0.021"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Comparison of selected characteristics of pancreatic cancer (PC) patients and non-cancer controls",
+                    "group": "Cases",
+                    "subgroup": "BMI at age 20 \u226525 but <27.5",
+                    "n": "185",
+                    "percentage": "5.95%",
+                    "comparison group": "Controls",
+                    "comparison n": "1465",
+                    "comparison percentage": "4.91%",
+                    "statistical test": "chi-square test",
+                    "P-value": "0.018"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Characteristic": "Current BMI",
+                    "Group": "Controls",
+                    "Sample Size": "1465",
+                    "BMI Range": "<18.5",
+                    "Count": "61",
+                    "Percentage": "4.16",
+                    "P-value": "0.021"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Comparison of selected characteristics of pancreatic cancer (PC) patients and non-cancer controls",
+                    "group": "Cases",
+                    "subgroup": "BMI at age 20 \u226527.5",
+                    "n": "185",
+                    "percentage": "3.24%",
+                    "comparison group": "Controls",
+                    "comparison n": "1465",
+                    "comparison percentage": "0.96%",
+                    "statistical test": "chi-square test",
+                    "P-value": "0.018"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Characteristic": "Current BMI",
+                    "Group": "Cases",
+                    "Sample Size": "185",
+                    "BMI Range": "\u226518.5 but <22.5",
+                    "Count": "84",
+                    "Percentage": "45.11",
+                    "P-value": "0.021"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Comparison of selected characteristics of pancreatic cancer (PC) patients and non-cancer controls",
+                    "group": "Cases",
+                    "subgroup": "History of diabetes mellitus Yes",
+                    "n": "185",
+                    "percentage": "20.00%",
+                    "comparison group": "Controls",
+                    "comparison n": "1465",
+                    "comparison percentage": "8.60%",
+                    "statistical test": "chi-square test",
+                    "P-value": "<0.001"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Characteristic": "Current BMI",
+                    "Group": "Controls",
+                    "Sample Size": "1465",
+                    "BMI Range": "\u226518.5 but <22.5",
+                    "Count": "555",
+                    "Percentage": "37.88",
+                    "P-value": "0.021"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Comparison of selected characteristics of pancreatic cancer (PC) patients and non-cancer controls",
+                    "group": "Cases",
+                    "subgroup": "History of diabetes mellitus No",
+                    "n": "185",
+                    "percentage": "80.00%",
+                    "comparison group": "Controls",
+                    "comparison n": "1465",
+                    "comparison percentage": "91.40%",
+                    "statistical test": "chi-square test",
+                    "P-value": "<0.001"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Characteristic": "Current BMI",
+                    "Group": "Cases",
+                    "Sample Size": "185",
+                    "BMI Range": "\u226522.5 but <25",
+                    "Count": "47",
+                    "Percentage": "25.41",
+                    "P-value": "0.021"
+                }
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 19,
+    "total_ground_truth_claims": 47,
+    "number_of_matches": 19
+}

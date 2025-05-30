@@ -1,0 +1,152 @@
+{
+    "matched_specifications": [
+        [
+            "prompt design",
+            "concise"
+        ],
+        [
+            "adaptation setting",
+            "0-shot"
+        ],
+        [
+            "method",
+            "few-shot sql-palm"
+        ],
+        [
+            "prompt design",
+            "verbose"
+        ],
+        [
+            "adaptation setting",
+            "0-shot"
+        ],
+        [
+            "method",
+            "few-shot sql-palm"
+        ],
+        [
+            "prompt design",
+            "concise"
+        ],
+        [
+            "adaptation setting",
+            "4-shot"
+        ],
+        [
+            "method",
+            "few-shot sql-palm"
+        ],
+        [
+            "prompt design",
+            "verbose"
+        ],
+        [
+            "adaptation setting",
+            "4-shot"
+        ],
+        [
+            "method",
+            "few-shot sql-palm"
+        ]
+    ],
+    "unmatched_specifications": [
+        [
+            "test-suite",
+            "spider dev"
+        ],
+        [
+            "analysis",
+            "performance on queries with different prompt designs and number of demonstrations"
+        ],
+        [
+            "source",
+            "table 4"
+        ],
+        [
+            "description",
+            "syntax-based prompt design describing database schema"
+        ],
+        [
+            "test-suite",
+            "spider dev"
+        ],
+        [
+            "analysis",
+            "performance on queries with different prompt designs and number of demonstrations"
+        ],
+        [
+            "source",
+            "table 4"
+        ],
+        [
+            "description",
+            "natural language-based prompt design describing database schema"
+        ],
+        [
+            "test-suite",
+            "spider dev"
+        ],
+        [
+            "analysis",
+            "performance on queries with different prompt designs and number of demonstrations"
+        ],
+        [
+            "source",
+            "table 4"
+        ],
+        [
+            "description",
+            "syntax-based prompt design describing database schema"
+        ],
+        [
+            "test-suite",
+            "spider dev"
+        ],
+        [
+            "analysis",
+            "performance on queries with different prompt designs and number of demonstrations"
+        ],
+        [
+            "source",
+            "table 4"
+        ],
+        [
+            "description",
+            "natural language-based prompt design describing database schema"
+        ]
+    ],
+    "unmatched_extracted_keys": [
+        "test-suite",
+        "source",
+        "analysis",
+        "description"
+    ],
+    "unmatched_extracted_values": [
+        "performance on queries with different prompt designs and number of demonstrations",
+        "table 4",
+        "natural language-based prompt design describing database schema",
+        "syntax-based prompt design describing database schema"
+    ],
+    "unmatched_ground_truth_keys": [
+        "model",
+        "dataset"
+    ],
+    "unmatched_ground_truth_values": [
+        "palm-2"
+    ],
+    "mapped_keys": {
+        "prompt design": "prompt design",
+        "method": "method",
+        "adaptation setting": "adaptation setting"
+    },
+    "mapped_values": {
+        "few-shot sql-palm": "few-shot sql-palm",
+        "spider dev": "spider dev",
+        "4-shot": "4-shot",
+        "verbose": "verbose",
+        "0-shot": "0-shot",
+        "concise": "concise"
+    },
+    "precision": 0.42857142857142855,
+    "recall": 0.6
+}

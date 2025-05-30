@@ -1,0 +1,541 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Effects of HIV-1 genotype on baseline CD4+ cell counts",
+                    "context": "newly diagnosed HIV patients",
+                    "group": "Total",
+                    "patients": "2845 (100.0)",
+                    "CD4+ median (IQR)": "160 (49\u2013310)"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF01_AE",
+                    "Patients": "1687 (59.3%)",
+                    "CD4+ median (IQR)": "111 (31\u2013279)",
+                    "Reference group": "Yes"
+                },
+                "measures": "[Unadjusted Coefficient, 95% CI, P]",
+                "outcomes": "[0, \u2013, \u2013]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Effects of HIV-1 genotype on baseline CD4+ cell counts",
+                    "context": "newly diagnosed HIV patients",
+                    "group": "Total",
+                    "patients": "2845 (100.0)",
+                    "CD4+ median (IQR)": "160 (49\u2013310)"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF01_AE",
+                    "Patients": "1687 (59.3%)",
+                    "CD4+ median (IQR)": "111 (31\u2013279)",
+                    "Reference group": "Yes"
+                },
+                "measures": "[Adjusted Coefficient, 95% CI, P]",
+                "outcomes": "[0, \u2013, \u2013]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Effects of HIV-1 genotype on baseline CD4+ cell counts",
+                    "context": "newly diagnosed HIV patients",
+                    "group": "Total",
+                    "patients": "2845 (100.0)",
+                    "CD4+ median (IQR)": "160 (49\u2013310)"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF07_BC",
+                    "Patients": "254 (8.9%)",
+                    "CD4+ median (IQR)": "250 (156\u2013377)"
+                },
+                "measures": "[Unadjusted Coefficient, 95% CI, P]",
+                "outcomes": "[139, 117\u2013161, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Effects of HIV-1 genotype on baseline CD4+ cell counts",
+                    "context": "newly diagnosed HIV patients",
+                    "group": "Total",
+                    "patients": "2845 (100.0)",
+                    "CD4+ median (IQR)": "160 (49\u2013310)"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF07_BC",
+                    "Patients": "254 (8.9%)",
+                    "CD4+ median (IQR)": "250 (156\u2013377)",
+                    "Vairables adjusted for": "age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, and year of HIV infection diagnosis"
+                },
+                "measures": "[Adjusted Coefficient, 95% CI, P]",
+                "outcomes": "[113, 86\u2013140, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Effects of HIV-1 genotype on baseline CD4+ cell counts",
+                    "context": "newly diagnosed HIV patients",
+                    "group": "Total",
+                    "patients": "2845 (100.0)",
+                    "CD4+ median (IQR)": "160 (49\u2013310)"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF08_BC",
+                    "Patients": "728 (25.6%)",
+                    "CD4+ median (IQR)": "205 (108\u2013327)"
+                },
+                "measures": "[Unadjusted Coefficient, 95% CI, P]",
+                "outcomes": "[94, 73\u2013115, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Effects of HIV-1 genotype on baseline CD4+ cell counts",
+                    "context": "newly diagnosed HIV patients",
+                    "group": "Total",
+                    "patients": "2845 (100.0)",
+                    "CD4+ median (IQR)": "160 (49\u2013310)"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF08_BC",
+                    "Patients": "728 (25.6%)",
+                    "CD4+ median (IQR)": "205 (108\u2013327)",
+                    "Vairables adjusted for": "age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, and year of HIV infection diagnosis"
+                },
+                "measures": "[Adjusted Coefficient, 95% CI, P]",
+                "outcomes": "[80, 65\u201395, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Effects of HIV-1 genotype on baseline CD4+ cell counts",
+                    "context": "newly diagnosed HIV patients",
+                    "group": "Total",
+                    "patients": "2845 (100.0)",
+                    "CD4+ median (IQR)": "160 (49\u2013310)"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "Others",
+                    "Patients": "176 (6.2%)",
+                    "CD4+ median (IQR)": "198 (89\u2013355)"
+                },
+                "measures": "[Unadjusted Coefficient, 95% CI, P]",
+                "outcomes": "[87, 46\u2013128, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Effects of HIV-1 genotype on baseline CD4+ cell counts",
+                    "context": "newly diagnosed HIV patients",
+                    "group": "Total",
+                    "patients": "2845 (100.0)",
+                    "CD4+ median (IQR)": "160 (49\u2013310)"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "Others",
+                    "Patients": "176 (6.2%)",
+                    "CD4+ median (IQR)": "198 (89\u2013355)",
+                    "Vairables adjusted for": "age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, and year of HIV infection diagnosis"
+                },
+                "measures": "[Adjusted Coefficient, 95% CI, P]",
+                "outcomes": "[72, 37\u2013107, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Effects of HIV-1 genotype on baseline CD4+ cell counts",
+                    "context": "newly diagnosed HIV patients",
+                    "group": "CRF01_AE",
+                    "patients": "1687 (59.3)",
+                    "CD4+ median (IQR)": "111 (31\u2013279)",
+                    "unadjusted coefficient": "0",
+                    "adjusted coefficient": "0"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF01_AE",
+                    "Patients": "1687 (59.3%)",
+                    "CD4+ median (IQR)": "111 (31\u2013279)",
+                    "Reference group": "Yes"
+                },
+                "measures": "[Unadjusted Coefficient, 95% CI, P]",
+                "outcomes": "[0, \u2013, \u2013]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Effects of HIV-1 genotype on baseline CD4+ cell counts",
+                    "context": "newly diagnosed HIV patients",
+                    "group": "CRF07_BC",
+                    "patients": "254 (8.9)",
+                    "CD4+ median (IQR)": "250 (156\u2013377)",
+                    "unadjusted coefficient": "139",
+                    "unadjusted 95% CI": "(117\u2013161)",
+                    "unadjusted P": "<0.001",
+                    "adjusted coefficient": "113",
+                    "adjusted 95% CI": "(86\u2013140)",
+                    "adjusted P": "<0.001"
+                },
+                "measures": "[unadjusted coefficient, unadjusted 95% CI, unadjusted P]",
+                "outcomes": [
+                    "[139, (117\u2013161), <0.001]",
+                    "[adjusted coefficient, adjusted 95% CI, adjusted P]",
+                    "[113, (86\u2013140), <0.001]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF01_AE",
+                    "Patients": "1687 (59.3%)",
+                    "CD4+ median (IQR)": "111 (31\u2013279)",
+                    "Reference group": "Yes"
+                },
+                "measures": "[Adjusted Coefficient, 95% CI, P]",
+                "outcomes": "[0, \u2013, \u2013]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Effects of HIV-1 genotype on baseline CD4+ cell counts",
+                    "context": "newly diagnosed HIV patients",
+                    "group": "CRF07_BC",
+                    "patients": "254 (8.9)",
+                    "CD4+ median (IQR)": "250 (156\u2013377)",
+                    "unadjusted coefficient": "139",
+                    "unadjusted 95% CI": "(117\u2013161)",
+                    "unadjusted P": "<0.001",
+                    "adjusted coefficient": "113",
+                    "adjusted 95% CI": "(86\u2013140)",
+                    "adjusted P": "<0.001"
+                },
+                "measures": "[unadjusted coefficient, unadjusted 95% CI, unadjusted P]",
+                "outcomes": [
+                    "[139, (117\u2013161), <0.001]",
+                    "[adjusted coefficient, adjusted 95% CI, adjusted P]",
+                    "[113, (86\u2013140), <0.001]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF07_BC",
+                    "Patients": "254 (8.9%)",
+                    "CD4+ median (IQR)": "250 (156\u2013377)"
+                },
+                "measures": "[Unadjusted Coefficient, 95% CI, P]",
+                "outcomes": "[139, 117\u2013161, <0.001]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Effects of HIV-1 genotype on baseline CD4+ cell counts",
+                    "context": "newly diagnosed HIV patients",
+                    "group": "CRF08_BC",
+                    "patients": "728 (25.6)",
+                    "CD4+ median (IQR)": "205 (108\u2013327)",
+                    "unadjusted coefficient": "94",
+                    "unadjusted 95% CI": "(73\u2013115)",
+                    "unadjusted P": "<0.001",
+                    "adjusted coefficient": "80",
+                    "adjusted 95% CI": "(65\u201395)",
+                    "adjusted P": "<0.001"
+                },
+                "measures": "[unadjusted coefficient, unadjusted 95% CI, unadjusted P]",
+                "outcomes": [
+                    "[94, (73\u2013115), <0.001]",
+                    "[adjusted coefficient, adjusted 95% CI, adjusted P]",
+                    "[80, (65\u201395), <0.001]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF01_AE",
+                    "Patients": "1687 (59.3%)",
+                    "CD4+ median (IQR)": "111 (31\u2013279)",
+                    "Reference group": "Yes"
+                },
+                "measures": "[Adjusted Coefficient, 95% CI, P]",
+                "outcomes": "[0, \u2013, \u2013]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Effects of HIV-1 genotype on baseline CD4+ cell counts",
+                    "context": "newly diagnosed HIV patients",
+                    "group": "CRF08_BC",
+                    "patients": "728 (25.6)",
+                    "CD4+ median (IQR)": "205 (108\u2013327)",
+                    "unadjusted coefficient": "94",
+                    "unadjusted 95% CI": "(73\u2013115)",
+                    "unadjusted P": "<0.001",
+                    "adjusted coefficient": "80",
+                    "adjusted 95% CI": "(65\u201395)",
+                    "adjusted P": "<0.001"
+                },
+                "measures": "[unadjusted coefficient, unadjusted 95% CI, unadjusted P]",
+                "outcomes": [
+                    "[94, (73\u2013115), <0.001]",
+                    "[adjusted coefficient, adjusted 95% CI, adjusted P]",
+                    "[80, (65\u201395), <0.001]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF07_BC",
+                    "Patients": "254 (8.9%)",
+                    "CD4+ median (IQR)": "250 (156\u2013377)",
+                    "Vairables adjusted for": "age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, and year of HIV infection diagnosis"
+                },
+                "measures": "[Adjusted Coefficient, 95% CI, P]",
+                "outcomes": "[113, 86\u2013140, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Effects of HIV-1 genotype on baseline CD4+ cell counts",
+                    "context": "newly diagnosed HIV patients",
+                    "group": "CRF08_BC",
+                    "patients": "728 (25.6)",
+                    "CD4+ median (IQR)": "205 (108\u2013327)",
+                    "unadjusted coefficient": "94",
+                    "unadjusted 95% CI": "(73\u2013115)",
+                    "unadjusted P": "<0.001",
+                    "adjusted coefficient": "80",
+                    "adjusted 95% CI": "(65\u201395)",
+                    "adjusted P": "<0.001"
+                },
+                "measures": "[unadjusted coefficient, unadjusted 95% CI, unadjusted P]",
+                "outcomes": [
+                    "[94, (73\u2013115), <0.001]",
+                    "[adjusted coefficient, adjusted 95% CI, adjusted P]",
+                    "[80, (65\u201395), <0.001]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF08_BC",
+                    "Patients": "728 (25.6%)",
+                    "CD4+ median (IQR)": "205 (108\u2013327)"
+                },
+                "measures": "[Unadjusted Coefficient, 95% CI, P]",
+                "outcomes": "[94, 73\u2013115, <0.001]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Effects of HIV-1 genotype on baseline CD4+ cell counts",
+                    "context": "newly diagnosed HIV patients",
+                    "group": "Others",
+                    "patients": "176 (6.2)",
+                    "CD4+ median (IQR)": "198 (89\u2013355)",
+                    "unadjusted coefficient": "87",
+                    "unadjusted 95% CI": "(46\u2013128)",
+                    "unadjusted P": "<0.001",
+                    "adjusted coefficient": "72",
+                    "adjusted 95% CI": "(37\u2013107)",
+                    "adjusted P": "<0.001"
+                },
+                "measures": "[unadjusted coefficient, unadjusted 95% CI, unadjusted P]",
+                "outcomes": [
+                    "[87, (46\u2013128), <0.001]",
+                    "[adjusted coefficient, adjusted 95% CI, adjusted P]",
+                    "[72, (37\u2013107), <0.001]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF01_AE",
+                    "Patients": "1687 (59.3%)",
+                    "CD4+ median (IQR)": "111 (31\u2013279)",
+                    "Reference group": "Yes"
+                },
+                "measures": "[Adjusted Coefficient, 95% CI, P]",
+                "outcomes": "[0, \u2013, \u2013]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Effects of HIV-1 genotype on baseline CD4+ cell counts",
+                    "context": "newly diagnosed HIV patients",
+                    "group": "Others",
+                    "patients": "176 (6.2)",
+                    "CD4+ median (IQR)": "198 (89\u2013355)",
+                    "unadjusted coefficient": "87",
+                    "unadjusted 95% CI": "(46\u2013128)",
+                    "unadjusted P": "<0.001",
+                    "adjusted coefficient": "72",
+                    "adjusted 95% CI": "(37\u2013107)",
+                    "adjusted P": "<0.001"
+                },
+                "measures": "[unadjusted coefficient, unadjusted 95% CI, unadjusted P]",
+                "outcomes": [
+                    "[87, (46\u2013128), <0.001]",
+                    "[adjusted coefficient, adjusted 95% CI, adjusted P]",
+                    "[72, (37\u2013107), <0.001]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF07_BC",
+                    "Patients": "254 (8.9%)",
+                    "CD4+ median (IQR)": "250 (156\u2013377)",
+                    "Vairables adjusted for": "age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, and year of HIV infection diagnosis"
+                },
+                "measures": "[Adjusted Coefficient, 95% CI, P]",
+                "outcomes": "[113, 86\u2013140, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Effects of HIV-1 genotype on baseline CD4+ cell counts",
+                    "context": "newly diagnosed HIV patients",
+                    "group": "Others",
+                    "patients": "176 (6.2)",
+                    "CD4+ median (IQR)": "198 (89\u2013355)",
+                    "unadjusted coefficient": "87",
+                    "unadjusted 95% CI": "(46\u2013128)",
+                    "unadjusted P": "<0.001",
+                    "adjusted coefficient": "72",
+                    "adjusted 95% CI": "(37\u2013107)",
+                    "adjusted P": "<0.001"
+                },
+                "measures": "[unadjusted coefficient, unadjusted 95% CI, unadjusted P]",
+                "outcomes": [
+                    "[87, (46\u2013128), <0.001]",
+                    "[adjusted coefficient, adjusted 95% CI, adjusted P]",
+                    "[72, (37\u2013107), <0.001]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF08_BC",
+                    "Patients": "728 (25.6%)",
+                    "CD4+ median (IQR)": "205 (108\u2013327)",
+                    "Vairables adjusted for": "age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, and year of HIV infection diagnosis"
+                },
+                "measures": "[Adjusted Coefficient, 95% CI, P]",
+                "outcomes": "[80, 65\u201395, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Effects of HIV-1 genotype on baseline CD4+ cell counts",
+                    "context": "newly diagnosed HIV patients",
+                    "group": "Others",
+                    "patients": "176 (6.2)",
+                    "CD4+ median (IQR)": "198 (89\u2013355)",
+                    "unadjusted coefficient": "87",
+                    "unadjusted 95% CI": "(46\u2013128)",
+                    "unadjusted P": "<0.001",
+                    "adjusted coefficient": "72",
+                    "adjusted 95% CI": "(37\u2013107)",
+                    "adjusted P": "<0.001"
+                },
+                "measures": "[unadjusted coefficient, unadjusted 95% CI, unadjusted P]",
+                "outcomes": [
+                    "[87, (46\u2013128), <0.001]",
+                    "[adjusted coefficient, adjusted 95% CI, adjusted P]",
+                    "[72, (37\u2013107), <0.001]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "Others",
+                    "Patients": "176 (6.2%)",
+                    "CD4+ median (IQR)": "198 (89\u2013355)"
+                },
+                "measures": "[Unadjusted Coefficient, 95% CI, P]",
+                "outcomes": "[87, 46\u2013128, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "analysis": "Effects of HIV-1 genotype on baseline CD4+ cell counts",
+                    "context": "newly diagnosed HIV patients",
+                    "group": "Others",
+                    "patients": "176 (6.2)",
+                    "CD4+ median (IQR)": "198 (89\u2013355)",
+                    "unadjusted coefficient": "87",
+                    "unadjusted 95% CI": "(46\u2013128)",
+                    "unadjusted P": "<0.001",
+                    "adjusted coefficient": "72",
+                    "adjusted 95% CI": "(37\u2013107)",
+                    "adjusted P": "<0.001"
+                },
+                "measures": "[unadjusted coefficient, unadjusted 95% CI, unadjusted P]",
+                "outcomes": [
+                    "[87, (46\u2013128), <0.001]",
+                    "[adjusted coefficient, adjusted 95% CI, adjusted P]",
+                    "[72, (37\u2013107), <0.001]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "Others",
+                    "Patients": "176 (6.2%)",
+                    "CD4+ median (IQR)": "198 (89\u2013355)",
+                    "Vairables adjusted for": "age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, and year of HIV infection diagnosis"
+                },
+                "measures": "[Adjusted Coefficient, 95% CI, P]",
+                "outcomes": "[72, 37\u2013107, <0.001]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 5,
+    "total_ground_truth_claims": 8,
+    "number_of_matches": 4
+}

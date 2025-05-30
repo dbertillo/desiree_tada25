@@ -1,0 +1,4785 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Hepatobiliary disorders",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "12",
+                    "Percentage of total G3+ events in HIV group": "30.0%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[12]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Hepatobiliary disorders",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "12",
+                    "30.0%"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Hepatobiliary disorders",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "15",
+                    "Percentage of total G3+ events in HIV group": "25.0%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[15]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Hepatobiliary disorders",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "15",
+                    "25.0%"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Respiratory and thoracic disorders",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "7",
+                    "Percentage of total G3+ events in HIV group": "17.5%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[7]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Infections and infestations",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "7",
+                    "17.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Respiratory and thoracic disorders",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "7",
+                    "Percentage of total G3+ events in HIV group": "17.5%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[7]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Infections and infestations",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "9",
+                    "15.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Respiratory and thoracic disorders",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "7",
+                    "Percentage of total G3+ events in HIV group": "17.5%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[7]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Gastrointestinal disorders",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "5",
+                    "12.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Respiratory and thoracic disorders",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "7",
+                    "Percentage of total G3+ events in HIV group": "17.5%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[7]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Gastrointestinal disorders",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "8",
+                    "13.3%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Respiratory and thoracic disorders",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "7",
+                    "Percentage of total G3+ events in HIV group": "17.5%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[7]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Investigations",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "5",
+                    "12.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Respiratory and thoracic disorders",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "7",
+                    "Percentage of total G3+ events in HIV group": "17.5%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[7]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Investigations",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "7",
+                    "11.7%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Respiratory and thoracic disorders",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "7",
+                    "Percentage of total G3+ events in HIV group": "17.5%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[7]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Respiratory, thoracic and mediastinal disorders",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "4",
+                    "10.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Respiratory and thoracic disorders",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "7",
+                    "Percentage of total G3+ events in HIV group": "17.5%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[7]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Respiratory, thoracic and mediastinal disorders",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "6",
+                    "10.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Respiratory and thoracic disorders",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "13",
+                    "Percentage of total G3+ events in HIV group": "21.7%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[13]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Infections and infestations",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "7",
+                    "17.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Respiratory and thoracic disorders",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "13",
+                    "Percentage of total G3+ events in HIV group": "21.7%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[13]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Infections and infestations",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "9",
+                    "15.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Respiratory and thoracic disorders",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "13",
+                    "Percentage of total G3+ events in HIV group": "21.7%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[13]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Gastrointestinal disorders",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "5",
+                    "12.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Respiratory and thoracic disorders",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "13",
+                    "Percentage of total G3+ events in HIV group": "21.7%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[13]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Gastrointestinal disorders",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "8",
+                    "13.3%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Respiratory and thoracic disorders",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "13",
+                    "Percentage of total G3+ events in HIV group": "21.7%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[13]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Investigations",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "5",
+                    "12.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Respiratory and thoracic disorders",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "13",
+                    "Percentage of total G3+ events in HIV group": "21.7%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[13]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Investigations",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "7",
+                    "11.7%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Respiratory and thoracic disorders",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "13",
+                    "Percentage of total G3+ events in HIV group": "21.7%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[13]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Respiratory, thoracic and mediastinal disorders",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "4",
+                    "10.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Respiratory and thoracic disorders",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "13",
+                    "Percentage of total G3+ events in HIV group": "21.7%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[13]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Respiratory, thoracic and mediastinal disorders",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "6",
+                    "10.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Blood and lymphatic disorders",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "6",
+                    "Percentage of total G3+ events in HIV group": "15.0%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[6]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Infections and infestations",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "7",
+                    "17.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Blood and lymphatic disorders",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "6",
+                    "Percentage of total G3+ events in HIV group": "15.0%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[6]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Infections and infestations",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "9",
+                    "15.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Blood and lymphatic disorders",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "6",
+                    "Percentage of total G3+ events in HIV group": "15.0%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[6]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Gastrointestinal disorders",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "5",
+                    "12.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Blood and lymphatic disorders",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "6",
+                    "Percentage of total G3+ events in HIV group": "15.0%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[6]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Gastrointestinal disorders",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "8",
+                    "13.3%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Blood and lymphatic disorders",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "6",
+                    "Percentage of total G3+ events in HIV group": "15.0%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[6]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Investigations",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "5",
+                    "12.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Blood and lymphatic disorders",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "6",
+                    "Percentage of total G3+ events in HIV group": "15.0%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[6]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Investigations",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "7",
+                    "11.7%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Blood and lymphatic disorders",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "6",
+                    "Percentage of total G3+ events in HIV group": "15.0%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[6]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Respiratory, thoracic and mediastinal disorders",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "4",
+                    "10.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Blood and lymphatic disorders",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "6",
+                    "Percentage of total G3+ events in HIV group": "15.0%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[6]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Respiratory, thoracic and mediastinal disorders",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "6",
+                    "10.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Blood and lymphatic disorders",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "10",
+                    "Percentage of total G3+ events in HIV group": "16.7%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[10]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Infections and infestations",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "7",
+                    "17.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Blood and lymphatic disorders",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "10",
+                    "Percentage of total G3+ events in HIV group": "16.7%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[10]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Infections and infestations",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "9",
+                    "15.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Blood and lymphatic disorders",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "10",
+                    "Percentage of total G3+ events in HIV group": "16.7%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[10]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Gastrointestinal disorders",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "5",
+                    "12.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Blood and lymphatic disorders",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "10",
+                    "Percentage of total G3+ events in HIV group": "16.7%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[10]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Gastrointestinal disorders",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "8",
+                    "13.3%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Blood and lymphatic disorders",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "10",
+                    "Percentage of total G3+ events in HIV group": "16.7%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[10]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Investigations",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "5",
+                    "12.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Blood and lymphatic disorders",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "10",
+                    "Percentage of total G3+ events in HIV group": "16.7%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[10]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Investigations",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "7",
+                    "11.7%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Blood and lymphatic disorders",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "10",
+                    "Percentage of total G3+ events in HIV group": "16.7%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[10]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Respiratory, thoracic and mediastinal disorders",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "4",
+                    "10.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Blood and lymphatic disorders",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "10",
+                    "Percentage of total G3+ events in HIV group": "16.7%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[10]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Respiratory, thoracic and mediastinal disorders",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "6",
+                    "10.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Infections and infestations",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "3",
+                    "Percentage of total G3+ events in HIV group": "7.5%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Infections and infestations",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "7",
+                    "17.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Infections and infestations",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "3",
+                    "Percentage of total G3+ events in HIV group": "7.5%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Infections and infestations",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "9",
+                    "15.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Infections and infestations",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "3",
+                    "Percentage of total G3+ events in HIV group": "7.5%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Gastrointestinal disorders",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "5",
+                    "12.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Infections and infestations",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "3",
+                    "Percentage of total G3+ events in HIV group": "7.5%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Gastrointestinal disorders",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "8",
+                    "13.3%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Infections and infestations",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "3",
+                    "Percentage of total G3+ events in HIV group": "7.5%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Investigations",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "5",
+                    "12.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Infections and infestations",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "3",
+                    "Percentage of total G3+ events in HIV group": "7.5%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Investigations",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "7",
+                    "11.7%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Infections and infestations",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "3",
+                    "Percentage of total G3+ events in HIV group": "7.5%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Respiratory, thoracic and mediastinal disorders",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "4",
+                    "10.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Infections and infestations",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "3",
+                    "Percentage of total G3+ events in HIV group": "7.5%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Respiratory, thoracic and mediastinal disorders",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "6",
+                    "10.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Infections and infestations",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "5",
+                    "Percentage of total G3+ events in HIV group": "8.3%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[5]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Infections and infestations",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "7",
+                    "17.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Infections and infestations",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "5",
+                    "Percentage of total G3+ events in HIV group": "8.3%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[5]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Infections and infestations",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "9",
+                    "15.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Infections and infestations",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "5",
+                    "Percentage of total G3+ events in HIV group": "8.3%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[5]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Gastrointestinal disorders",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "5",
+                    "12.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Infections and infestations",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "5",
+                    "Percentage of total G3+ events in HIV group": "8.3%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[5]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Gastrointestinal disorders",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "8",
+                    "13.3%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Infections and infestations",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "5",
+                    "Percentage of total G3+ events in HIV group": "8.3%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[5]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Investigations",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "5",
+                    "12.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Infections and infestations",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "5",
+                    "Percentage of total G3+ events in HIV group": "8.3%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[5]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Investigations",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "7",
+                    "11.7%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Infections and infestations",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "5",
+                    "Percentage of total G3+ events in HIV group": "8.3%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[5]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Respiratory, thoracic and mediastinal disorders",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "4",
+                    "10.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Infections and infestations",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "5",
+                    "Percentage of total G3+ events in HIV group": "8.3%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[5]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Respiratory, thoracic and mediastinal disorders",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "6",
+                    "10.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Metabolism and nutrition disorders",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "3",
+                    "Percentage of total G3+ events in HIV group": "7.5%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Infections and infestations",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "7",
+                    "17.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Metabolism and nutrition disorders",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "3",
+                    "Percentage of total G3+ events in HIV group": "7.5%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Infections and infestations",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "9",
+                    "15.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Metabolism and nutrition disorders",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "3",
+                    "Percentage of total G3+ events in HIV group": "7.5%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Gastrointestinal disorders",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "5",
+                    "12.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Metabolism and nutrition disorders",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "3",
+                    "Percentage of total G3+ events in HIV group": "7.5%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Gastrointestinal disorders",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "8",
+                    "13.3%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Metabolism and nutrition disorders",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "3",
+                    "Percentage of total G3+ events in HIV group": "7.5%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Investigations",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "5",
+                    "12.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Metabolism and nutrition disorders",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "3",
+                    "Percentage of total G3+ events in HIV group": "7.5%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Investigations",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "7",
+                    "11.7%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Metabolism and nutrition disorders",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "3",
+                    "Percentage of total G3+ events in HIV group": "7.5%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Respiratory, thoracic and mediastinal disorders",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "4",
+                    "10.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Metabolism and nutrition disorders",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "3",
+                    "Percentage of total G3+ events in HIV group": "7.5%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[3]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Respiratory, thoracic and mediastinal disorders",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "6",
+                    "10.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Metabolism and nutrition disorders",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "4",
+                    "Percentage of total G3+ events in HIV group": "6.7%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[4]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Infections and infestations",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "7",
+                    "17.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Metabolism and nutrition disorders",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "4",
+                    "Percentage of total G3+ events in HIV group": "6.7%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[4]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Infections and infestations",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "9",
+                    "15.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Metabolism and nutrition disorders",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "4",
+                    "Percentage of total G3+ events in HIV group": "6.7%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[4]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Gastrointestinal disorders",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "5",
+                    "12.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Metabolism and nutrition disorders",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "4",
+                    "Percentage of total G3+ events in HIV group": "6.7%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[4]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Gastrointestinal disorders",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "8",
+                    "13.3%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Metabolism and nutrition disorders",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "4",
+                    "Percentage of total G3+ events in HIV group": "6.7%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[4]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Investigations",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "5",
+                    "12.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Metabolism and nutrition disorders",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "4",
+                    "Percentage of total G3+ events in HIV group": "6.7%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[4]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Investigations",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "7",
+                    "11.7%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Metabolism and nutrition disorders",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "4",
+                    "Percentage of total G3+ events in HIV group": "6.7%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[4]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Respiratory, thoracic and mediastinal disorders",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "4",
+                    "10.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Metabolism and nutrition disorders",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "4",
+                    "Percentage of total G3+ events in HIV group": "6.7%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[4]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Respiratory, thoracic and mediastinal disorders",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "6",
+                    "10.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Other",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "9",
+                    "Percentage of total G3+ events in HIV group": "17.5%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[9]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Infections and infestations",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "7",
+                    "17.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Other",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "9",
+                    "Percentage of total G3+ events in HIV group": "17.5%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[9]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Infections and infestations",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "9",
+                    "15.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Other",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "9",
+                    "Percentage of total G3+ events in HIV group": "17.5%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[9]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Gastrointestinal disorders",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "5",
+                    "12.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Other",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "9",
+                    "Percentage of total G3+ events in HIV group": "17.5%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[9]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Gastrointestinal disorders",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "8",
+                    "13.3%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Other",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "9",
+                    "Percentage of total G3+ events in HIV group": "17.5%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[9]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Investigations",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "5",
+                    "12.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Other",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "9",
+                    "Percentage of total G3+ events in HIV group": "17.5%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[9]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Investigations",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "7",
+                    "11.7%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Other",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "9",
+                    "Percentage of total G3+ events in HIV group": "17.5%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[9]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Respiratory, thoracic and mediastinal disorders",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "4",
+                    "10.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Other",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "9",
+                    "Percentage of total G3+ events in HIV group": "17.5%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[9]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Respiratory, thoracic and mediastinal disorders",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "6",
+                    "10.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Other",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "13",
+                    "Percentage of total G3+ events in HIV group": "16.7%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[13]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Infections and infestations",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "7",
+                    "17.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Other",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "13",
+                    "Percentage of total G3+ events in HIV group": "16.7%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[13]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Infections and infestations",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "9",
+                    "15.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Other",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "13",
+                    "Percentage of total G3+ events in HIV group": "16.7%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[13]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Gastrointestinal disorders",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "5",
+                    "12.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Other",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "13",
+                    "Percentage of total G3+ events in HIV group": "16.7%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[13]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Gastrointestinal disorders",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "8",
+                    "13.3%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Other",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "13",
+                    "Percentage of total G3+ events in HIV group": "16.7%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[13]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Investigations",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "5",
+                    "12.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Other",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "13",
+                    "Percentage of total G3+ events in HIV group": "16.7%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[13]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Investigations",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "7",
+                    "11.7%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Other",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "13",
+                    "Percentage of total G3+ events in HIV group": "16.7%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[13]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Respiratory, thoracic and mediastinal disorders",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "4",
+                    "10.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Other",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Event count": "13",
+                    "Percentage of total G3+ events in HIV group": "16.7%"
+                },
+                "measures": "[Event count]",
+                "outcomes": "[13]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Respiratory, thoracic and mediastinal disorders",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "6",
+                    "10.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients experiencing \u22651 AE": "20",
+                    "Percentage of patients experiencing \u22651 AE": "47.6%"
+                },
+                "measures": "[Patients experiencing \u22651 AE]",
+                "outcomes": "[20]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Infections and infestations",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "7",
+                    "17.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients experiencing \u22651 AE": "20",
+                    "Percentage of patients experiencing \u22651 AE": "47.6%"
+                },
+                "measures": "[Patients experiencing \u22651 AE]",
+                "outcomes": "[20]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Infections and infestations",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "9",
+                    "15.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients experiencing \u22651 AE": "20",
+                    "Percentage of patients experiencing \u22651 AE": "47.6%"
+                },
+                "measures": "[Patients experiencing \u22651 AE]",
+                "outcomes": "[20]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Gastrointestinal disorders",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "5",
+                    "12.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients experiencing \u22651 AE": "20",
+                    "Percentage of patients experiencing \u22651 AE": "47.6%"
+                },
+                "measures": "[Patients experiencing \u22651 AE]",
+                "outcomes": "[20]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Gastrointestinal disorders",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "8",
+                    "13.3%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients experiencing \u22651 AE": "20",
+                    "Percentage of patients experiencing \u22651 AE": "47.6%"
+                },
+                "measures": "[Patients experiencing \u22651 AE]",
+                "outcomes": "[20]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Investigations",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "5",
+                    "12.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients experiencing \u22651 AE": "20",
+                    "Percentage of patients experiencing \u22651 AE": "47.6%"
+                },
+                "measures": "[Patients experiencing \u22651 AE]",
+                "outcomes": "[20]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Investigations",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "7",
+                    "11.7%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients experiencing \u22651 AE": "20",
+                    "Percentage of patients experiencing \u22651 AE": "47.6%"
+                },
+                "measures": "[Patients experiencing \u22651 AE]",
+                "outcomes": "[20]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Respiratory, thoracic and mediastinal disorders",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "4",
+                    "10.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients experiencing \u22651 AE": "20",
+                    "Percentage of patients experiencing \u22651 AE": "47.6%"
+                },
+                "measures": "[Patients experiencing \u22651 AE]",
+                "outcomes": "[20]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Respiratory, thoracic and mediastinal disorders",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "6",
+                    "10.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients experiencing \u22651 AE": "34",
+                    "Percentage of patients experiencing \u22651 AE": "15.5%"
+                },
+                "measures": "[Patients experiencing \u22651 AE]",
+                "outcomes": "[34]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Infections and infestations",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "7",
+                    "17.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients experiencing \u22651 AE": "34",
+                    "Percentage of patients experiencing \u22651 AE": "15.5%"
+                },
+                "measures": "[Patients experiencing \u22651 AE]",
+                "outcomes": "[34]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Infections and infestations",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "9",
+                    "15.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients experiencing \u22651 AE": "34",
+                    "Percentage of patients experiencing \u22651 AE": "15.5%"
+                },
+                "measures": "[Patients experiencing \u22651 AE]",
+                "outcomes": "[34]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Gastrointestinal disorders",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "5",
+                    "12.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients experiencing \u22651 AE": "34",
+                    "Percentage of patients experiencing \u22651 AE": "15.5%"
+                },
+                "measures": "[Patients experiencing \u22651 AE]",
+                "outcomes": "[34]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Gastrointestinal disorders",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "8",
+                    "13.3%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients experiencing \u22651 AE": "34",
+                    "Percentage of patients experiencing \u22651 AE": "15.5%"
+                },
+                "measures": "[Patients experiencing \u22651 AE]",
+                "outcomes": "[34]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Investigations",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "5",
+                    "12.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients experiencing \u22651 AE": "34",
+                    "Percentage of patients experiencing \u22651 AE": "15.5%"
+                },
+                "measures": "[Patients experiencing \u22651 AE]",
+                "outcomes": "[34]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Investigations",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "7",
+                    "11.7%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients experiencing \u22651 AE": "34",
+                    "Percentage of patients experiencing \u22651 AE": "15.5%"
+                },
+                "measures": "[Patients experiencing \u22651 AE]",
+                "outcomes": "[34]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Respiratory, thoracic and mediastinal disorders",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "4",
+                    "10.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients experiencing \u22651 AE": "34",
+                    "Percentage of patients experiencing \u22651 AE": "15.5%"
+                },
+                "measures": "[Patients experiencing \u22651 AE]",
+                "outcomes": "[34]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Respiratory, thoracic and mediastinal disorders",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "6",
+                    "10.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients with treatment-related AE": "11",
+                    "Percentage of patients with treatment-related AE": "26.2%"
+                },
+                "measures": "[Patients with treatment-related AE]",
+                "outcomes": "[11]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Infections and infestations",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "7",
+                    "17.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients with treatment-related AE": "11",
+                    "Percentage of patients with treatment-related AE": "26.2%"
+                },
+                "measures": "[Patients with treatment-related AE]",
+                "outcomes": "[11]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Infections and infestations",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "9",
+                    "15.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients with treatment-related AE": "11",
+                    "Percentage of patients with treatment-related AE": "26.2%"
+                },
+                "measures": "[Patients with treatment-related AE]",
+                "outcomes": "[11]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Gastrointestinal disorders",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "5",
+                    "12.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients with treatment-related AE": "11",
+                    "Percentage of patients with treatment-related AE": "26.2%"
+                },
+                "measures": "[Patients with treatment-related AE]",
+                "outcomes": "[11]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Gastrointestinal disorders",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "8",
+                    "13.3%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients with treatment-related AE": "11",
+                    "Percentage of patients with treatment-related AE": "26.2%"
+                },
+                "measures": "[Patients with treatment-related AE]",
+                "outcomes": "[11]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Investigations",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "5",
+                    "12.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients with treatment-related AE": "11",
+                    "Percentage of patients with treatment-related AE": "26.2%"
+                },
+                "measures": "[Patients with treatment-related AE]",
+                "outcomes": "[11]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Investigations",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "7",
+                    "11.7%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients with treatment-related AE": "11",
+                    "Percentage of patients with treatment-related AE": "26.2%"
+                },
+                "measures": "[Patients with treatment-related AE]",
+                "outcomes": "[11]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Respiratory, thoracic and mediastinal disorders",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "4",
+                    "10.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients with treatment-related AE": "11",
+                    "Percentage of patients with treatment-related AE": "26.2%"
+                },
+                "measures": "[Patients with treatment-related AE]",
+                "outcomes": "[11]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Respiratory, thoracic and mediastinal disorders",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "6",
+                    "10.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients with treatment-related AE": "14",
+                    "Percentage of patients with treatment-related AE": "6.4%"
+                },
+                "measures": "[Patients with treatment-related AE]",
+                "outcomes": "[14]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Infections and infestations",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "7",
+                    "17.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients with treatment-related AE": "14",
+                    "Percentage of patients with treatment-related AE": "6.4%"
+                },
+                "measures": "[Patients with treatment-related AE]",
+                "outcomes": "[14]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Infections and infestations",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "9",
+                    "15.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients with treatment-related AE": "14",
+                    "Percentage of patients with treatment-related AE": "6.4%"
+                },
+                "measures": "[Patients with treatment-related AE]",
+                "outcomes": "[14]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Gastrointestinal disorders",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "5",
+                    "12.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients with treatment-related AE": "14",
+                    "Percentage of patients with treatment-related AE": "6.4%"
+                },
+                "measures": "[Patients with treatment-related AE]",
+                "outcomes": "[14]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Gastrointestinal disorders",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "8",
+                    "13.3%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients with treatment-related AE": "14",
+                    "Percentage of patients with treatment-related AE": "6.4%"
+                },
+                "measures": "[Patients with treatment-related AE]",
+                "outcomes": "[14]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Investigations",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "5",
+                    "12.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients with treatment-related AE": "14",
+                    "Percentage of patients with treatment-related AE": "6.4%"
+                },
+                "measures": "[Patients with treatment-related AE]",
+                "outcomes": "[14]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Investigations",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "7",
+                    "11.7%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients with treatment-related AE": "14",
+                    "Percentage of patients with treatment-related AE": "6.4%"
+                },
+                "measures": "[Patients with treatment-related AE]",
+                "outcomes": "[14]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Respiratory, thoracic and mediastinal disorders",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "4",
+                    "10.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients with treatment-related AE": "14",
+                    "Percentage of patients with treatment-related AE": "6.4%"
+                },
+                "measures": "[Patients with treatment-related AE]",
+                "outcomes": "[14]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Respiratory, thoracic and mediastinal disorders",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "6",
+                    "10.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Hepatobiliary disorders",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients experiencing events": "6",
+                    "Percentage of patients experiencing events": "14.3%"
+                },
+                "measures": "[Patients experiencing events]",
+                "outcomes": "[6]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Infections and infestations",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "7",
+                    "17.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Hepatobiliary disorders",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients experiencing events": "6",
+                    "Percentage of patients experiencing events": "14.3%"
+                },
+                "measures": "[Patients experiencing events]",
+                "outcomes": "[6]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Infections and infestations",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "9",
+                    "15.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Hepatobiliary disorders",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients experiencing events": "6",
+                    "Percentage of patients experiencing events": "14.3%"
+                },
+                "measures": "[Patients experiencing events]",
+                "outcomes": "[6]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Gastrointestinal disorders",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "5",
+                    "12.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Hepatobiliary disorders",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients experiencing events": "6",
+                    "Percentage of patients experiencing events": "14.3%"
+                },
+                "measures": "[Patients experiencing events]",
+                "outcomes": "[6]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Gastrointestinal disorders",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "8",
+                    "13.3%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Hepatobiliary disorders",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients experiencing events": "6",
+                    "Percentage of patients experiencing events": "14.3%"
+                },
+                "measures": "[Patients experiencing events]",
+                "outcomes": "[6]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Investigations",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "5",
+                    "12.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Hepatobiliary disorders",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients experiencing events": "6",
+                    "Percentage of patients experiencing events": "14.3%"
+                },
+                "measures": "[Patients experiencing events]",
+                "outcomes": "[6]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Investigations",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "7",
+                    "11.7%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Hepatobiliary disorders",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients experiencing events": "6",
+                    "Percentage of patients experiencing events": "14.3%"
+                },
+                "measures": "[Patients experiencing events]",
+                "outcomes": "[6]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Respiratory, thoracic and mediastinal disorders",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "4",
+                    "10.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Hepatobiliary disorders",
+                    "HIV status": "HIV-positive",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients experiencing events": "6",
+                    "Percentage of patients experiencing events": "14.3%"
+                },
+                "measures": "[Patients experiencing events]",
+                "outcomes": "[6]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Respiratory, thoracic and mediastinal disorders",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "6",
+                    "10.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Hepatobiliary disorders",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients experiencing events": "9",
+                    "Percentage of patients experiencing events": "4.1%"
+                },
+                "measures": "[Patients experiencing events]",
+                "outcomes": "[9]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Infections and infestations",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "7",
+                    "17.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Hepatobiliary disorders",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients experiencing events": "9",
+                    "Percentage of patients experiencing events": "4.1%"
+                },
+                "measures": "[Patients experiencing events]",
+                "outcomes": "[9]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Infections and infestations",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "9",
+                    "15.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Hepatobiliary disorders",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients experiencing events": "9",
+                    "Percentage of patients experiencing events": "4.1%"
+                },
+                "measures": "[Patients experiencing events]",
+                "outcomes": "[9]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Gastrointestinal disorders",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "5",
+                    "12.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Hepatobiliary disorders",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients experiencing events": "9",
+                    "Percentage of patients experiencing events": "4.1%"
+                },
+                "measures": "[Patients experiencing events]",
+                "outcomes": "[9]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Gastrointestinal disorders",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "8",
+                    "13.3%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Hepatobiliary disorders",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients experiencing events": "9",
+                    "Percentage of patients experiencing events": "4.1%"
+                },
+                "measures": "[Patients experiencing events]",
+                "outcomes": "[9]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Investigations",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "5",
+                    "12.5%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Hepatobiliary disorders",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients experiencing events": "9",
+                    "Percentage of patients experiencing events": "4.1%"
+                },
+                "measures": "[Patients experiencing events]",
+                "outcomes": "[9]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Investigations",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "7",
+                    "11.7%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Hepatobiliary disorders",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients experiencing events": "9",
+                    "Percentage of patients experiencing events": "4.1%"
+                },
+                "measures": "[Patients experiencing events]",
+                "outcomes": "[9]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Respiratory, thoracic and mediastinal disorders",
+                    "HIV status": "HIV-positive"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "4",
+                    "10.0%"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Adverse Event SOC": "Hepatobiliary disorders",
+                    "HIV status": "HIV-negative",
+                    "Trial": "REMoxTB",
+                    "Population": "Matched",
+                    "Event severity": "Grade 3 or 4",
+                    "Patients experiencing events": "9",
+                    "Percentage of patients experiencing events": "4.1%"
+                },
+                "measures": "[Patients experiencing events]",
+                "outcomes": "[9]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "trial": "REMoxTB",
+                    "population": "matched population",
+                    "phase": "enrolment",
+                    "comparison": "HIV-positive vs HIV-negative patients",
+                    "event severity": "Grade 3 or 4",
+                    "event type": "Adverse Events (AEs)",
+                    "filter": "five most frequently reported SOCs",
+                    "system organ class (SOC)": "Respiratory, thoracic and mediastinal disorders",
+                    "HIV status": "HIV-negative"
+                },
+                "measures": [
+                    "Count",
+                    "Percentage of G3+ Events"
+                ],
+                "outcomes": [
+                    "6",
+                    "10.0%"
+                ]
+            },
+            "match": "no"
+        }
+    ],
+    "total_extracted_claims": 18,
+    "total_ground_truth_claims": 10,
+    "number_of_matches": 2
+}

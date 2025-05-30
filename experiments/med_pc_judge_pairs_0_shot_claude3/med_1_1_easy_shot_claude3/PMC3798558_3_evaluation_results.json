@@ -1,0 +1,172 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "gene": "XRCC1",
+                    "analysis": "haplotype analysis",
+                    "haplotype": "1",
+                    "SNP1": "C",
+                    "SNP2": "G",
+                    "SNP1_rs": "rs1799782",
+                    "SNP2_rs": "rs25487",
+                    "haplotype_frequency_overall": "0.439",
+                    "haplotype_frequency_cases": "0.433",
+                    "haplotype_frequency_controls": "0.442",
+                    "adjusted_OR": "1.00",
+                    "reference": "ref.",
+                    "sample_size_cases": "185",
+                    "sample_size_controls": "1465",
+                    "adjustment_factors": "age, sex, current BMI, BMI at age 20, smoking status, drinking habit, diabetes mellitus, family history of PC",
+                    "statistical_method": "Haplotype-effects logistic regression for case-control data"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "haplotype analysis for XRCC1",
+                    "haplotype": "CG",
+                    "SNP 1": "rs1799782",
+                    "SNP 2": "rs25487",
+                    "haplotype frequency (overall)": "0.439",
+                    "haplotype frequency (cases)": "0.433",
+                    "haplotype frequency (controls)": "0.442",
+                    "method": "haplotype-effects logistic regression for case-control data",
+                    "mutivariable adjustment": "age, sex, current BMI, BMI at age 20, smoking status, drinking habit, diabetes mellitus, and family history of PC",
+                    "cases": "185",
+                    "controls": "1465"
+                },
+                "measures": "[Adjusted OR]",
+                "outcomes": "[1.00 (ref.)]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "gene": "XRCC1",
+                    "analysis": "haplotype analysis",
+                    "haplotype": "2",
+                    "SNP1": "C",
+                    "SNP2": "A",
+                    "SNP1_rs": "rs1799782",
+                    "SNP2_rs": "rs25487",
+                    "haplotype_frequency_overall": "0.240",
+                    "haplotype_frequency_cases": "0.274",
+                    "haplotype_frequency_controls": "0.239",
+                    "adjusted_OR": "1.32",
+                    "CI": "1.01-1.71",
+                    "p_value": "0.042",
+                    "sample_size_cases": "185",
+                    "sample_size_controls": "1465",
+                    "adjustment_factors": "age, sex, current BMI, BMI at age 20, smoking status, drinking habit, diabetes mellitus, family history of PC",
+                    "statistical_method": "Haplotype-effects logistic regression for case-control data"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "haplotype analysis for XRCC1",
+                    "haplotype": "CA",
+                    "SNP 1": "rs1799782",
+                    "SNP 2": "rs25487",
+                    "haplotype frequency (overall)": "0.240",
+                    "haplotype frequency (cases)": "0.274",
+                    "haplotype frequency (controls)": "0.239",
+                    "method": "haplotype-effects logistic regression for case-control data",
+                    "mutivariable adjustment": "age, sex, current BMI, BMI at age 20, smoking status, drinking habit, diabetes mellitus, and family history of PC",
+                    "cases": "185",
+                    "controls": "1465",
+                    "R-squared value between rs1799782 and rs25487": "0.15"
+                },
+                "measures": "[Adjusted OR, 95% CI, P-value]",
+                "outcomes": "[1.32, 1.01-1.71, 0.042]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "gene": "XRCC1",
+                    "analysis": "haplotype analysis",
+                    "haplotype": "3",
+                    "SNP1": "T",
+                    "SNP2": "G",
+                    "SNP1_rs": "rs1799782",
+                    "SNP2_rs": "rs25487",
+                    "haplotype_frequency_overall": "0.319",
+                    "haplotype_frequency_cases": "0.292",
+                    "haplotype_frequency_controls": "0.318",
+                    "adjusted_OR": "1.05",
+                    "CI": "0.81-1.36",
+                    "p_value": "0.691",
+                    "sample_size_cases": "185",
+                    "sample_size_controls": "1465",
+                    "adjustment_factors": "age, sex, current BMI, BMI at age 20, smoking status, drinking habit, diabetes mellitus, family history of PC",
+                    "statistical_method": "Haplotype-effects logistic regression for case-control data"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "haplotype analysis for XRCC1",
+                    "haplotype": "TG",
+                    "SNP 1": "rs1799782",
+                    "SNP 2": "rs25487",
+                    "haplotype frequency (overall)": "0.319",
+                    "haplotype frequency (cases)": "0.292",
+                    "haplotype frequency (controls)": "0.318",
+                    "method": "haplotype-effects logistic regression for case-control data",
+                    "mutivariable adjustment": "age, sex, current BMI, BMI at age 20, smoking status, drinking habit, diabetes mellitus, and family history of PC",
+                    "cases": "185",
+                    "controls": "1465",
+                    "R-squared value between rs1799782 and rs25487": "0.15"
+                },
+                "measures": "[Adjusted OR, CI, P-value]",
+                "outcomes": "[1.05, 0.81-1.36, 0.691]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "gene": "XRCC1",
+                    "analysis": "haplotype analysis",
+                    "haplotype": "4",
+                    "SNP1": "T",
+                    "SNP2": "A",
+                    "SNP1_rs": "rs1799782",
+                    "SNP2_rs": "rs25487",
+                    "haplotype_frequency_overall": "0.002",
+                    "haplotype_frequency_cases": "<0.001",
+                    "haplotype_frequency_controls": "0.002",
+                    "adjusted_OR": "N.E.",
+                    "p_value": "N.E.",
+                    "sample_size_cases": "185",
+                    "sample_size_controls": "1465",
+                    "adjustment_factors": "age, sex, current BMI, BMI at age 20, smoking status, drinking habit, diabetes mellitus, family history of PC",
+                    "statistical_method": "Haplotype-effects logistic regression for case-control data"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "haplotype analysis for XRCC1",
+                    "haplotype": "TA",
+                    "SNP 1": "rs1799782",
+                    "SNP 2": "rs25487",
+                    "haplotype frequency (overall)": "0.002",
+                    "haplotype frequency (cases)": "<0.001",
+                    "haplotype frequency (controls)": "0.002",
+                    "method": "haplotype-effects logistic regression for case-control data",
+                    "mutivariable adjustment": "age, sex, current BMI, BMI at age 20, smoking status, drinking habit, diabetes mellitus, and family history of PC",
+                    "cases": "185",
+                    "controls": "1465",
+                    "R-squared value between rs1799782 and rs25487": "0.15"
+                },
+                "measures": "[Adjusted OR, CI, P-value]",
+                "outcomes": "[N.E., N.E., N.E.]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 5,
+    "total_ground_truth_claims": 4,
+    "number_of_matches": 4
+}

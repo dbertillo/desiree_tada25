@@ -1,0 +1,790 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "Total",
+                    "Patients": "no. (%), 2845 (100.0)",
+                    "CD4+ median (IQR)": "160 (49\u2013310)",
+                    "Study Population": "Newly diagnosed HIV patients",
+                    "Context": "Baseline CD4+ cell counts",
+                    "Source": "Table 2",
+                    "Adjustment Factors": "Age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, year of HIV infection diagnosis"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF01_AE",
+                    "Patients": "1687 (59.3%)",
+                    "CD4+ median (IQR)": "111 (31\u2013279)",
+                    "Reference group": "Yes"
+                },
+                "measures": "[Unadjusted Coefficient, 95% CI, P]",
+                "outcomes": "[0, \u2013, \u2013]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "Total",
+                    "Patients": "no. (%), 2845 (100.0)",
+                    "CD4+ median (IQR)": "160 (49\u2013310)",
+                    "Study Population": "Newly diagnosed HIV patients",
+                    "Context": "Baseline CD4+ cell counts",
+                    "Source": "Table 2",
+                    "Adjustment Factors": "Age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, year of HIV infection diagnosis"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF01_AE",
+                    "Patients": "1687 (59.3%)",
+                    "CD4+ median (IQR)": "111 (31\u2013279)",
+                    "Reference group": "Yes"
+                },
+                "measures": "[Adjusted Coefficient, 95% CI, P]",
+                "outcomes": "[0, \u2013, \u2013]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "Total",
+                    "Patients": "no. (%), 2845 (100.0)",
+                    "CD4+ median (IQR)": "160 (49\u2013310)",
+                    "Study Population": "Newly diagnosed HIV patients",
+                    "Context": "Baseline CD4+ cell counts",
+                    "Source": "Table 2",
+                    "Adjustment Factors": "Age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, year of HIV infection diagnosis"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF07_BC",
+                    "Patients": "254 (8.9%)",
+                    "CD4+ median (IQR)": "250 (156\u2013377)"
+                },
+                "measures": "[Unadjusted Coefficient, 95% CI, P]",
+                "outcomes": "[139, 117\u2013161, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "Total",
+                    "Patients": "no. (%), 2845 (100.0)",
+                    "CD4+ median (IQR)": "160 (49\u2013310)",
+                    "Study Population": "Newly diagnosed HIV patients",
+                    "Context": "Baseline CD4+ cell counts",
+                    "Source": "Table 2",
+                    "Adjustment Factors": "Age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, year of HIV infection diagnosis"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF07_BC",
+                    "Patients": "254 (8.9%)",
+                    "CD4+ median (IQR)": "250 (156\u2013377)",
+                    "Vairables adjusted for": "age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, and year of HIV infection diagnosis"
+                },
+                "measures": "[Adjusted Coefficient, 95% CI, P]",
+                "outcomes": "[113, 86\u2013140, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "Total",
+                    "Patients": "no. (%), 2845 (100.0)",
+                    "CD4+ median (IQR)": "160 (49\u2013310)",
+                    "Study Population": "Newly diagnosed HIV patients",
+                    "Context": "Baseline CD4+ cell counts",
+                    "Source": "Table 2",
+                    "Adjustment Factors": "Age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, year of HIV infection diagnosis"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF08_BC",
+                    "Patients": "728 (25.6%)",
+                    "CD4+ median (IQR)": "205 (108\u2013327)"
+                },
+                "measures": "[Unadjusted Coefficient, 95% CI, P]",
+                "outcomes": "[94, 73\u2013115, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "Total",
+                    "Patients": "no. (%), 2845 (100.0)",
+                    "CD4+ median (IQR)": "160 (49\u2013310)",
+                    "Study Population": "Newly diagnosed HIV patients",
+                    "Context": "Baseline CD4+ cell counts",
+                    "Source": "Table 2",
+                    "Adjustment Factors": "Age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, year of HIV infection diagnosis"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF08_BC",
+                    "Patients": "728 (25.6%)",
+                    "CD4+ median (IQR)": "205 (108\u2013327)",
+                    "Vairables adjusted for": "age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, and year of HIV infection diagnosis"
+                },
+                "measures": "[Adjusted Coefficient, 95% CI, P]",
+                "outcomes": "[80, 65\u201395, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "Total",
+                    "Patients": "no. (%), 2845 (100.0)",
+                    "CD4+ median (IQR)": "160 (49\u2013310)",
+                    "Study Population": "Newly diagnosed HIV patients",
+                    "Context": "Baseline CD4+ cell counts",
+                    "Source": "Table 2",
+                    "Adjustment Factors": "Age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, year of HIV infection diagnosis"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "Others",
+                    "Patients": "176 (6.2%)",
+                    "CD4+ median (IQR)": "198 (89\u2013355)"
+                },
+                "measures": "[Unadjusted Coefficient, 95% CI, P]",
+                "outcomes": "[87, 46\u2013128, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "Total",
+                    "Patients": "no. (%), 2845 (100.0)",
+                    "CD4+ median (IQR)": "160 (49\u2013310)",
+                    "Study Population": "Newly diagnosed HIV patients",
+                    "Context": "Baseline CD4+ cell counts",
+                    "Source": "Table 2",
+                    "Adjustment Factors": "Age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, year of HIV infection diagnosis"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "Others",
+                    "Patients": "176 (6.2%)",
+                    "CD4+ median (IQR)": "198 (89\u2013355)",
+                    "Vairables adjusted for": "age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, and year of HIV infection diagnosis"
+                },
+                "measures": "[Adjusted Coefficient, 95% CI, P]",
+                "outcomes": "[72, 37\u2013107, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF01_AE",
+                    "Patients": "no. (%), 1687 (59.3)",
+                    "CD4+ median (IQR)": "111 (31\u2013279)",
+                    "Unadjusted Coefficient": "0",
+                    "Adjusted Coefficient": "0",
+                    "Study Population": "Newly diagnosed HIV patients",
+                    "Context": "Baseline CD4+ cell counts",
+                    "Source": "Table 2",
+                    "Adjustment Factors": "Age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, year of HIV infection diagnosis"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF01_AE",
+                    "Patients": "1687 (59.3%)",
+                    "CD4+ median (IQR)": "111 (31\u2013279)",
+                    "Reference group": "Yes"
+                },
+                "measures": "[Unadjusted Coefficient, 95% CI, P]",
+                "outcomes": "[0, \u2013, \u2013]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF07_BC",
+                    "Patients": "no. (%), 254 (8.9)",
+                    "CD4+ median (IQR)": "250 (156\u2013377)",
+                    "Unadjusted Coefficient": "139",
+                    "Unadjusted 95% CI": "(117\u2013161)",
+                    "Unadjusted P": "<0.001",
+                    "Adjusted Coefficient": "113",
+                    "Adjusted 95% CI": "(86\u2013140)",
+                    "Adjusted P": "<0.001",
+                    "Study Population": "Newly diagnosed HIV patients",
+                    "Context": "Baseline CD4+ cell counts",
+                    "Source": "Table 2",
+                    "Adjustment Factors": "Age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, year of HIV infection diagnosis"
+                },
+                "measures": "[Unadjusted Coefficient, Unadjusted 95% CI, Unadjusted P, Adjusted Coefficient, Adjusted 95% CI, Adjusted P]",
+                "outcomes": "[139, (117\u2013161), <0.001, 113, (86\u2013140), <0.001]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF01_AE",
+                    "Patients": "1687 (59.3%)",
+                    "CD4+ median (IQR)": "111 (31\u2013279)",
+                    "Reference group": "Yes"
+                },
+                "measures": "[Adjusted Coefficient, 95% CI, P]",
+                "outcomes": "[0, \u2013, \u2013]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF07_BC",
+                    "Patients": "no. (%), 254 (8.9)",
+                    "CD4+ median (IQR)": "250 (156\u2013377)",
+                    "Unadjusted Coefficient": "139",
+                    "Unadjusted 95% CI": "(117\u2013161)",
+                    "Unadjusted P": "<0.001",
+                    "Adjusted Coefficient": "113",
+                    "Adjusted 95% CI": "(86\u2013140)",
+                    "Adjusted P": "<0.001",
+                    "Study Population": "Newly diagnosed HIV patients",
+                    "Context": "Baseline CD4+ cell counts",
+                    "Source": "Table 2",
+                    "Adjustment Factors": "Age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, year of HIV infection diagnosis"
+                },
+                "measures": "[Unadjusted Coefficient, Unadjusted 95% CI, Unadjusted P, Adjusted Coefficient, Adjusted 95% CI, Adjusted P]",
+                "outcomes": "[139, (117\u2013161), <0.001, 113, (86\u2013140), <0.001]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF07_BC",
+                    "Patients": "254 (8.9%)",
+                    "CD4+ median (IQR)": "250 (156\u2013377)"
+                },
+                "measures": "[Unadjusted Coefficient, 95% CI, P]",
+                "outcomes": "[139, 117\u2013161, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF07_BC",
+                    "Patients": "no. (%), 254 (8.9)",
+                    "CD4+ median (IQR)": "250 (156\u2013377)",
+                    "Unadjusted Coefficient": "139",
+                    "Unadjusted 95% CI": "(117\u2013161)",
+                    "Unadjusted P": "<0.001",
+                    "Adjusted Coefficient": "113",
+                    "Adjusted 95% CI": "(86\u2013140)",
+                    "Adjusted P": "<0.001",
+                    "Study Population": "Newly diagnosed HIV patients",
+                    "Context": "Baseline CD4+ cell counts",
+                    "Source": "Table 2",
+                    "Adjustment Factors": "Age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, year of HIV infection diagnosis"
+                },
+                "measures": "[Unadjusted Coefficient, Unadjusted 95% CI, Unadjusted P, Adjusted Coefficient, Adjusted 95% CI, Adjusted P]",
+                "outcomes": "[139, (117\u2013161), <0.001, 113, (86\u2013140), <0.001]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF07_BC",
+                    "Patients": "254 (8.9%)",
+                    "CD4+ median (IQR)": "250 (156\u2013377)",
+                    "Vairables adjusted for": "age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, and year of HIV infection diagnosis"
+                },
+                "measures": "[Adjusted Coefficient, 95% CI, P]",
+                "outcomes": "[113, 86\u2013140, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF07_BC",
+                    "Patients": "no. (%), 254 (8.9)",
+                    "CD4+ median (IQR)": "250 (156\u2013377)",
+                    "Unadjusted Coefficient": "139",
+                    "Unadjusted 95% CI": "(117\u2013161)",
+                    "Unadjusted P": "<0.001",
+                    "Adjusted Coefficient": "113",
+                    "Adjusted 95% CI": "(86\u2013140)",
+                    "Adjusted P": "<0.001",
+                    "Study Population": "Newly diagnosed HIV patients",
+                    "Context": "Baseline CD4+ cell counts",
+                    "Source": "Table 2",
+                    "Adjustment Factors": "Age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, year of HIV infection diagnosis"
+                },
+                "measures": "[Unadjusted Coefficient, Unadjusted 95% CI, Unadjusted P, Adjusted Coefficient, Adjusted 95% CI, Adjusted P]",
+                "outcomes": "[139, (117\u2013161), <0.001, 113, (86\u2013140), <0.001]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF08_BC",
+                    "Patients": "728 (25.6%)",
+                    "CD4+ median (IQR)": "205 (108\u2013327)"
+                },
+                "measures": "[Unadjusted Coefficient, 95% CI, P]",
+                "outcomes": "[94, 73\u2013115, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF07_BC",
+                    "Patients": "no. (%), 254 (8.9)",
+                    "CD4+ median (IQR)": "250 (156\u2013377)",
+                    "Unadjusted Coefficient": "139",
+                    "Unadjusted 95% CI": "(117\u2013161)",
+                    "Unadjusted P": "<0.001",
+                    "Adjusted Coefficient": "113",
+                    "Adjusted 95% CI": "(86\u2013140)",
+                    "Adjusted P": "<0.001",
+                    "Study Population": "Newly diagnosed HIV patients",
+                    "Context": "Baseline CD4+ cell counts",
+                    "Source": "Table 2",
+                    "Adjustment Factors": "Age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, year of HIV infection diagnosis"
+                },
+                "measures": "[Unadjusted Coefficient, Unadjusted 95% CI, Unadjusted P, Adjusted Coefficient, Adjusted 95% CI, Adjusted P]",
+                "outcomes": "[139, (117\u2013161), <0.001, 113, (86\u2013140), <0.001]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF08_BC",
+                    "Patients": "728 (25.6%)",
+                    "CD4+ median (IQR)": "205 (108\u2013327)",
+                    "Vairables adjusted for": "age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, and year of HIV infection diagnosis"
+                },
+                "measures": "[Adjusted Coefficient, 95% CI, P]",
+                "outcomes": "[80, 65\u201395, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF07_BC",
+                    "Patients": "no. (%), 254 (8.9)",
+                    "CD4+ median (IQR)": "250 (156\u2013377)",
+                    "Unadjusted Coefficient": "139",
+                    "Unadjusted 95% CI": "(117\u2013161)",
+                    "Unadjusted P": "<0.001",
+                    "Adjusted Coefficient": "113",
+                    "Adjusted 95% CI": "(86\u2013140)",
+                    "Adjusted P": "<0.001",
+                    "Study Population": "Newly diagnosed HIV patients",
+                    "Context": "Baseline CD4+ cell counts",
+                    "Source": "Table 2",
+                    "Adjustment Factors": "Age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, year of HIV infection diagnosis"
+                },
+                "measures": "[Unadjusted Coefficient, Unadjusted 95% CI, Unadjusted P, Adjusted Coefficient, Adjusted 95% CI, Adjusted P]",
+                "outcomes": "[139, (117\u2013161), <0.001, 113, (86\u2013140), <0.001]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "Others",
+                    "Patients": "176 (6.2%)",
+                    "CD4+ median (IQR)": "198 (89\u2013355)"
+                },
+                "measures": "[Unadjusted Coefficient, 95% CI, P]",
+                "outcomes": "[87, 46\u2013128, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF07_BC",
+                    "Patients": "no. (%), 254 (8.9)",
+                    "CD4+ median (IQR)": "250 (156\u2013377)",
+                    "Unadjusted Coefficient": "139",
+                    "Unadjusted 95% CI": "(117\u2013161)",
+                    "Unadjusted P": "<0.001",
+                    "Adjusted Coefficient": "113",
+                    "Adjusted 95% CI": "(86\u2013140)",
+                    "Adjusted P": "<0.001",
+                    "Study Population": "Newly diagnosed HIV patients",
+                    "Context": "Baseline CD4+ cell counts",
+                    "Source": "Table 2",
+                    "Adjustment Factors": "Age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, year of HIV infection diagnosis"
+                },
+                "measures": "[Unadjusted Coefficient, Unadjusted 95% CI, Unadjusted P, Adjusted Coefficient, Adjusted 95% CI, Adjusted P]",
+                "outcomes": "[139, (117\u2013161), <0.001, 113, (86\u2013140), <0.001]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "Others",
+                    "Patients": "176 (6.2%)",
+                    "CD4+ median (IQR)": "198 (89\u2013355)",
+                    "Vairables adjusted for": "age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, and year of HIV infection diagnosis"
+                },
+                "measures": "[Adjusted Coefficient, 95% CI, P]",
+                "outcomes": "[72, 37\u2013107, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF08_BC",
+                    "Patients": "no. (%), 728 (25.6)",
+                    "CD4+ median (IQR)": "205 (108\u2013327)",
+                    "Unadjusted Coefficient": "94",
+                    "Unadjusted 95% CI": "(73\u2013115)",
+                    "Unadjusted P": "<0.001",
+                    "Adjusted Coefficient": "80",
+                    "Adjusted 95% CI": "(65\u201395)",
+                    "Adjusted P": "<0.001",
+                    "Study Population": "Newly diagnosed HIV patients",
+                    "Context": "Baseline CD4+ cell counts",
+                    "Source": "Table 2",
+                    "Adjustment Factors": "Age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, year of HIV infection diagnosis"
+                },
+                "measures": "[Unadjusted Coefficient, Unadjusted 95% CI, Unadjusted P, Adjusted Coefficient, Adjusted 95% CI, Adjusted P]",
+                "outcomes": "[94, (73\u2013115), <0.001, 80, (65\u201395), <0.001]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF01_AE",
+                    "Patients": "1687 (59.3%)",
+                    "CD4+ median (IQR)": "111 (31\u2013279)",
+                    "Reference group": "Yes"
+                },
+                "measures": "[Adjusted Coefficient, 95% CI, P]",
+                "outcomes": "[0, \u2013, \u2013]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF08_BC",
+                    "Patients": "no. (%), 728 (25.6)",
+                    "CD4+ median (IQR)": "205 (108\u2013327)",
+                    "Unadjusted Coefficient": "94",
+                    "Unadjusted 95% CI": "(73\u2013115)",
+                    "Unadjusted P": "<0.001",
+                    "Adjusted Coefficient": "80",
+                    "Adjusted 95% CI": "(65\u201395)",
+                    "Adjusted P": "<0.001",
+                    "Study Population": "Newly diagnosed HIV patients",
+                    "Context": "Baseline CD4+ cell counts",
+                    "Source": "Table 2",
+                    "Adjustment Factors": "Age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, year of HIV infection diagnosis"
+                },
+                "measures": "[Unadjusted Coefficient, Unadjusted 95% CI, Unadjusted P, Adjusted Coefficient, Adjusted 95% CI, Adjusted P]",
+                "outcomes": "[94, (73\u2013115), <0.001, 80, (65\u201395), <0.001]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF07_BC",
+                    "Patients": "254 (8.9%)",
+                    "CD4+ median (IQR)": "250 (156\u2013377)"
+                },
+                "measures": "[Unadjusted Coefficient, 95% CI, P]",
+                "outcomes": "[139, 117\u2013161, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF08_BC",
+                    "Patients": "no. (%), 728 (25.6)",
+                    "CD4+ median (IQR)": "205 (108\u2013327)",
+                    "Unadjusted Coefficient": "94",
+                    "Unadjusted 95% CI": "(73\u2013115)",
+                    "Unadjusted P": "<0.001",
+                    "Adjusted Coefficient": "80",
+                    "Adjusted 95% CI": "(65\u201395)",
+                    "Adjusted P": "<0.001",
+                    "Study Population": "Newly diagnosed HIV patients",
+                    "Context": "Baseline CD4+ cell counts",
+                    "Source": "Table 2",
+                    "Adjustment Factors": "Age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, year of HIV infection diagnosis"
+                },
+                "measures": "[Unadjusted Coefficient, Unadjusted 95% CI, Unadjusted P, Adjusted Coefficient, Adjusted 95% CI, Adjusted P]",
+                "outcomes": "[94, (73\u2013115), <0.001, 80, (65\u201395), <0.001]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF07_BC",
+                    "Patients": "254 (8.9%)",
+                    "CD4+ median (IQR)": "250 (156\u2013377)",
+                    "Vairables adjusted for": "age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, and year of HIV infection diagnosis"
+                },
+                "measures": "[Adjusted Coefficient, 95% CI, P]",
+                "outcomes": "[113, 86\u2013140, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF08_BC",
+                    "Patients": "no. (%), 728 (25.6)",
+                    "CD4+ median (IQR)": "205 (108\u2013327)",
+                    "Unadjusted Coefficient": "94",
+                    "Unadjusted 95% CI": "(73\u2013115)",
+                    "Unadjusted P": "<0.001",
+                    "Adjusted Coefficient": "80",
+                    "Adjusted 95% CI": "(65\u201395)",
+                    "Adjusted P": "<0.001",
+                    "Study Population": "Newly diagnosed HIV patients",
+                    "Context": "Baseline CD4+ cell counts",
+                    "Source": "Table 2",
+                    "Adjustment Factors": "Age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, year of HIV infection diagnosis"
+                },
+                "measures": "[Unadjusted Coefficient, Unadjusted 95% CI, Unadjusted P, Adjusted Coefficient, Adjusted 95% CI, Adjusted P]",
+                "outcomes": "[94, (73\u2013115), <0.001, 80, (65\u201395), <0.001]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF08_BC",
+                    "Patients": "728 (25.6%)",
+                    "CD4+ median (IQR)": "205 (108\u2013327)"
+                },
+                "measures": "[Unadjusted Coefficient, 95% CI, P]",
+                "outcomes": "[94, 73\u2013115, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF08_BC",
+                    "Patients": "no. (%), 728 (25.6)",
+                    "CD4+ median (IQR)": "205 (108\u2013327)",
+                    "Unadjusted Coefficient": "94",
+                    "Unadjusted 95% CI": "(73\u2013115)",
+                    "Unadjusted P": "<0.001",
+                    "Adjusted Coefficient": "80",
+                    "Adjusted 95% CI": "(65\u201395)",
+                    "Adjusted P": "<0.001",
+                    "Study Population": "Newly diagnosed HIV patients",
+                    "Context": "Baseline CD4+ cell counts",
+                    "Source": "Table 2",
+                    "Adjustment Factors": "Age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, year of HIV infection diagnosis"
+                },
+                "measures": "[Unadjusted Coefficient, Unadjusted 95% CI, Unadjusted P, Adjusted Coefficient, Adjusted 95% CI, Adjusted P]",
+                "outcomes": "[94, (73\u2013115), <0.001, 80, (65\u201395), <0.001]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF08_BC",
+                    "Patients": "728 (25.6%)",
+                    "CD4+ median (IQR)": "205 (108\u2013327)",
+                    "Vairables adjusted for": "age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, and year of HIV infection diagnosis"
+                },
+                "measures": "[Adjusted Coefficient, 95% CI, P]",
+                "outcomes": "[80, 65\u201395, <0.001]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "Others",
+                    "Patients": "no. (%), 176 (6.2)",
+                    "CD4+ median (IQR)": "198 (89\u2013355)",
+                    "Unadjusted Coefficient": "87",
+                    "Unadjusted 95% CI": "(46\u2013128)",
+                    "Unadjusted P": "<0.001",
+                    "Adjusted Coefficient": "72",
+                    "Adjusted 95% CI": "(37\u2013107)",
+                    "Adjusted P": "<0.001",
+                    "Study Population": "Newly diagnosed HIV patients",
+                    "Context": "Baseline CD4+ cell counts",
+                    "Source": "Table 2",
+                    "Adjustment Factors": "Age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, year of HIV infection diagnosis"
+                },
+                "measures": "[Unadjusted Coefficient, Unadjusted 95% CI, Unadjusted P, Adjusted Coefficient, Adjusted 95% CI, Adjusted P]",
+                "outcomes": "[87, (46\u2013128), <0.001, 72, (37\u2013107), <0.001]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF01_AE",
+                    "Patients": "1687 (59.3%)",
+                    "CD4+ median (IQR)": "111 (31\u2013279)",
+                    "Reference group": "Yes"
+                },
+                "measures": "[Adjusted Coefficient, 95% CI, P]",
+                "outcomes": "[0, \u2013, \u2013]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "Others",
+                    "Patients": "no. (%), 176 (6.2)",
+                    "CD4+ median (IQR)": "198 (89\u2013355)",
+                    "Unadjusted Coefficient": "87",
+                    "Unadjusted 95% CI": "(46\u2013128)",
+                    "Unadjusted P": "<0.001",
+                    "Adjusted Coefficient": "72",
+                    "Adjusted 95% CI": "(37\u2013107)",
+                    "Adjusted P": "<0.001",
+                    "Study Population": "Newly diagnosed HIV patients",
+                    "Context": "Baseline CD4+ cell counts",
+                    "Source": "Table 2",
+                    "Adjustment Factors": "Age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, year of HIV infection diagnosis"
+                },
+                "measures": "[Unadjusted Coefficient, Unadjusted 95% CI, Unadjusted P, Adjusted Coefficient, Adjusted 95% CI, Adjusted P]",
+                "outcomes": "[87, (46\u2013128), <0.001, 72, (37\u2013107), <0.001]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF07_BC",
+                    "Patients": "254 (8.9%)",
+                    "CD4+ median (IQR)": "250 (156\u2013377)"
+                },
+                "measures": "[Unadjusted Coefficient, 95% CI, P]",
+                "outcomes": "[139, 117\u2013161, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "Others",
+                    "Patients": "no. (%), 176 (6.2)",
+                    "CD4+ median (IQR)": "198 (89\u2013355)",
+                    "Unadjusted Coefficient": "87",
+                    "Unadjusted 95% CI": "(46\u2013128)",
+                    "Unadjusted P": "<0.001",
+                    "Adjusted Coefficient": "72",
+                    "Adjusted 95% CI": "(37\u2013107)",
+                    "Adjusted P": "<0.001",
+                    "Study Population": "Newly diagnosed HIV patients",
+                    "Context": "Baseline CD4+ cell counts",
+                    "Source": "Table 2",
+                    "Adjustment Factors": "Age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, year of HIV infection diagnosis"
+                },
+                "measures": "[Unadjusted Coefficient, Unadjusted 95% CI, Unadjusted P, Adjusted Coefficient, Adjusted 95% CI, Adjusted P]",
+                "outcomes": "[87, (46\u2013128), <0.001, 72, (37\u2013107), <0.001]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF07_BC",
+                    "Patients": "254 (8.9%)",
+                    "CD4+ median (IQR)": "250 (156\u2013377)",
+                    "Vairables adjusted for": "age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, and year of HIV infection diagnosis"
+                },
+                "measures": "[Adjusted Coefficient, 95% CI, P]",
+                "outcomes": "[113, 86\u2013140, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "Others",
+                    "Patients": "no. (%), 176 (6.2)",
+                    "CD4+ median (IQR)": "198 (89\u2013355)",
+                    "Unadjusted Coefficient": "87",
+                    "Unadjusted 95% CI": "(46\u2013128)",
+                    "Unadjusted P": "<0.001",
+                    "Adjusted Coefficient": "72",
+                    "Adjusted 95% CI": "(37\u2013107)",
+                    "Adjusted P": "<0.001",
+                    "Study Population": "Newly diagnosed HIV patients",
+                    "Context": "Baseline CD4+ cell counts",
+                    "Source": "Table 2",
+                    "Adjustment Factors": "Age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, year of HIV infection diagnosis"
+                },
+                "measures": "[Unadjusted Coefficient, Unadjusted 95% CI, Unadjusted P, Adjusted Coefficient, Adjusted 95% CI, Adjusted P]",
+                "outcomes": "[87, (46\u2013128), <0.001, 72, (37\u2013107), <0.001]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "CRF08_BC",
+                    "Patients": "728 (25.6%)",
+                    "CD4+ median (IQR)": "205 (108\u2013327)"
+                },
+                "measures": "[Unadjusted Coefficient, 95% CI, P]",
+                "outcomes": "[94, 73\u2013115, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "Others",
+                    "Patients": "no. (%), 176 (6.2)",
+                    "CD4+ median (IQR)": "198 (89\u2013355)",
+                    "Unadjusted Coefficient": "87",
+                    "Unadjusted 95% CI": "(46\u2013128)",
+                    "Unadjusted P": "<0.001",
+                    "Adjusted Coefficient": "72",
+                    "Adjusted 95% CI": "(37\u2013107)",
+                    "Adjusted P": "<0.001",
+                    "Study Population": "Newly diagnosed HIV patients",
+                    "Context": "Baseline CD4+ cell counts",
+                    "Source": "Table 2",
+                    "Adjustment Factors": "Age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, year of HIV infection diagnosis"
+                },
+                "measures": "[Unadjusted Coefficient, Unadjusted 95% CI, Unadjusted P, Adjusted Coefficient, Adjusted 95% CI, Adjusted P]",
+                "outcomes": "[87, (46\u2013128), <0.001, 72, (37\u2013107), <0.001]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "Others",
+                    "Patients": "176 (6.2%)",
+                    "CD4+ median (IQR)": "198 (89\u2013355)"
+                },
+                "measures": "[Unadjusted Coefficient, 95% CI, P]",
+                "outcomes": "[87, 46\u2013128, <0.001]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "Others",
+                    "Patients": "no. (%), 176 (6.2)",
+                    "CD4+ median (IQR)": "198 (89\u2013355)",
+                    "Unadjusted Coefficient": "87",
+                    "Unadjusted 95% CI": "(46\u2013128)",
+                    "Unadjusted P": "<0.001",
+                    "Adjusted Coefficient": "72",
+                    "Adjusted 95% CI": "(37\u2013107)",
+                    "Adjusted P": "<0.001",
+                    "Study Population": "Newly diagnosed HIV patients",
+                    "Context": "Baseline CD4+ cell counts",
+                    "Source": "Table 2",
+                    "Adjustment Factors": "Age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, year of HIV infection diagnosis"
+                },
+                "measures": "[Unadjusted Coefficient, Unadjusted 95% CI, Unadjusted P, Adjusted Coefficient, Adjusted 95% CI, Adjusted P]",
+                "outcomes": "[87, (46\u2013128), <0.001, 72, (37\u2013107), <0.001]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV-1 Genotype": "Others",
+                    "Patients": "176 (6.2%)",
+                    "CD4+ median (IQR)": "198 (89\u2013355)",
+                    "Vairables adjusted for": "age at diagnosis, sex, marital status, ethnicity, education level, occupation, transmission route, and year of HIV infection diagnosis"
+                },
+                "measures": "[Adjusted Coefficient, 95% CI, P]",
+                "outcomes": "[72, 37\u2013107, <0.001]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 5,
+    "total_ground_truth_claims": 8,
+    "number_of_matches": 3
+}

@@ -1,0 +1,177 @@
+{
+    "matched_specifications": [
+        [
+            "comparison_type",
+            "inference time"
+        ],
+        [
+            "unit",
+            "seconds per 1000 samples"
+        ],
+        [
+            "dataset",
+            "spider"
+        ],
+        [
+            "model",
+            "lstm"
+        ],
+        [
+            "comparison_type",
+            "inference time"
+        ],
+        [
+            "unit",
+            "seconds per 1000 samples"
+        ],
+        [
+            "dataset",
+            "sparc"
+        ],
+        [
+            "model",
+            "lstm"
+        ],
+        [
+            "comparison_type",
+            "inference time"
+        ],
+        [
+            "unit",
+            "seconds per 1000 samples"
+        ],
+        [
+            "dataset",
+            "cosql"
+        ],
+        [
+            "model",
+            "lstm"
+        ],
+        [
+            "comparison_type",
+            "inference time"
+        ],
+        [
+            "unit",
+            "seconds per 1000 samples"
+        ],
+        [
+            "dataset",
+            "spider"
+        ],
+        [
+            "model",
+            "astormer"
+        ],
+        [
+            "comparison_type",
+            "inference time"
+        ],
+        [
+            "unit",
+            "seconds per 1000 samples"
+        ],
+        [
+            "dataset",
+            "sparc"
+        ],
+        [
+            "model",
+            "astormer"
+        ],
+        [
+            "comparison_type",
+            "inference time"
+        ],
+        [
+            "unit",
+            "seconds per 1000 samples"
+        ],
+        [
+            "dataset",
+            "cosql"
+        ],
+        [
+            "model",
+            "astormer"
+        ]
+    ],
+    "unmatched_specifications": [
+        [
+            "table_number",
+            "7"
+        ],
+        [
+            "configuration",
+            "same configuration"
+        ],
+        [
+            "table_number",
+            "7"
+        ],
+        [
+            "configuration",
+            "same configuration"
+        ],
+        [
+            "table_number",
+            "7"
+        ],
+        [
+            "configuration",
+            "same configuration"
+        ],
+        [
+            "table_number",
+            "7"
+        ],
+        [
+            "configuration",
+            "same configuration"
+        ],
+        [
+            "table_number",
+            "7"
+        ],
+        [
+            "configuration",
+            "same configuration"
+        ],
+        [
+            "table_number",
+            "7"
+        ],
+        [
+            "configuration",
+            "same configuration"
+        ]
+    ],
+    "unmatched_extracted_keys": [
+        "configuration",
+        "table_number"
+    ],
+    "unmatched_extracted_values": [
+        "same configuration",
+        "7"
+    ],
+    "unmatched_ground_truth_keys": [],
+    "unmatched_ground_truth_values": [],
+    "mapped_keys": {
+        "model": "model",
+        "dataset": "dataset",
+        "unit": "unit",
+        "comparison_type": "metric"
+    },
+    "mapped_values": {
+        "cosql": "cosql",
+        "astormer": "astormer",
+        "sparc": "sparc",
+        "spider": "spider",
+        "inference time": "inference time",
+        "lstm": "lstm",
+        "seconds per 1000 samples": "seconds/per 1000 samples"
+    },
+    "precision": 0.6666666666666666,
+    "recall": 1.0
+}

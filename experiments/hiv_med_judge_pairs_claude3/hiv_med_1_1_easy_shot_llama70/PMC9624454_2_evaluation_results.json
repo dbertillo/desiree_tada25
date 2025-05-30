@@ -1,0 +1,337 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "hospitalized children",
+                    "analysis": "CMV detection, high-level viremia, and median viral loads",
+                    "stratification": "HIV exposure or infection",
+                    "total number": "1024"
+                },
+                "measures": "[CMV viremia, P Value]",
+                "outcomes": "[314 (30.7), -]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "All children",
+                    "Total No.": "1024",
+                    "Method": "Overall CMV viremia analysis across all groups"
+                },
+                "measures": "[CMV Viremia (%)]",
+                "outcomes": "[30.7%]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "hospitalized children",
+                    "analysis": "CMV detection, high-level viremia, and median viral loads",
+                    "stratification": "HIV exposure or infection",
+                    "HIV exposure": "all children"
+                },
+                "measures": "[CMV viremia \u2264 1000 IU/mL, P Value]",
+                "outcomes": "[59 (5.8), -]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "All children",
+                    "Total No.": "1024",
+                    "Method": "Overall CMV viremia analysis across all groups"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%)]",
+                "outcomes": "[5.8%]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "hospitalized children",
+                    "analysis": "CMV detection, high-level viremia, and median viral loads",
+                    "stratification": "HIV exposure or infection",
+                    "HIV exposure": "all children"
+                },
+                "measures": "[log10 CMV IU/mL in Viremics, P Value]",
+                "outcomes": "[2.3 (1.9\u20132.7), -]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "All children",
+                    "Total No.": "1024",
+                    "Method": "Overall CMV viremia analysis across all groups"
+                },
+                "measures": "[log10 CMV IU/mL in Viremics (Median, IQR)]",
+                "outcomes": "[2.3 (1.9\u20132.7)]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "hospitalized children",
+                    "analysis": "CMV detection, high-level viremia, and median viral loads",
+                    "stratification": "HIV exposure or infection",
+                    "HIV exposure": "HIV unexposed"
+                },
+                "measures": "[CMV viremia, P Value]",
+                "outcomes": "[253 (29.0), -]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[CMV Viremia (%)]",
+                "outcomes": "[29.0%]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "hospitalized children",
+                    "analysis": "CMV detection, high-level viremia, and median viral loads",
+                    "stratification": "HIV exposure or infection",
+                    "HIV exposure": "HIV unexposed"
+                },
+                "measures": "[CMV viremia \u2264 1000 IU/mL, P Value]",
+                "outcomes": "[45 (5.2), -]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%)]",
+                "outcomes": "[5.2%]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "hospitalized children",
+                    "analysis": "CMV detection, high-level viremia, and median viral loads",
+                    "stratification": "HIV exposure or infection",
+                    "HIV exposure": "HIV unexposed"
+                },
+                "measures": "[log10 CMV IU/mL in Viremics, P Value]",
+                "outcomes": "[2.3 (1.9\u20132.7), -]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV unexposed",
+                    "Total No.": "872",
+                    "Method": "Reference group for all comparisons"
+                },
+                "measures": "[log10 CMV IU/mL in Viremics (Median, IQR)]",
+                "outcomes": "[2.3 (1.9\u20132.7)]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "hospitalized children",
+                    "analysis": "CMV detection, high-level viremia, and median viral loads",
+                    "stratification": "HIV exposure or infection",
+                    "HIV exposure": "HIV exposed"
+                },
+                "measures": "[CMV viremia, P Value]",
+                "outcomes": "[45 (38.1), 0.061]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed",
+                    "Total No.": "118",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[CMV Viremia (%), P Value]",
+                "outcomes": "[38.1%, 0.061]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "hospitalized children",
+                    "analysis": "CMV detection, high-level viremia, and median viral loads",
+                    "stratification": "HIV exposure or infection",
+                    "HIV exposure": "HIV exposed"
+                },
+                "measures": "[CMV viremia \u2264 1000 IU/mL, P Value]",
+                "outcomes": "[10 (8.5), 0.18]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed",
+                    "Total No.": "118",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%), P Value]",
+                "outcomes": "[8.5%, 0.18]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "hospitalized children",
+                    "analysis": "CMV detection, high-level viremia, and median viral loads",
+                    "stratification": "HIV exposure or infection",
+                    "HIV exposure": "HIV exposed"
+                },
+                "measures": "[log10 CMV IU/mL in Viremics, P Value]",
+                "outcomes": "[2.4 (2.0\u20132.9), 0.24]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed",
+                    "Total No.": "118",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[log10 CMV IU/mL (Median, IQR), P Value]",
+                "outcomes": "[2.4 (2.0\u20132.9), 0.24]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "hospitalized children",
+                    "analysis": "CMV detection, high-level viremia, and median viral loads",
+                    "stratification": "HIV exposure or infection",
+                    "HIV exposure": "HIV exposed uninfected"
+                },
+                "measures": "[CMV viremia, P Value]",
+                "outcomes": "[36 (37.1), 0.088]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed uninfected",
+                    "Total No.": "97",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[CMV Viremia (%), P Value]",
+                "outcomes": "[37.1%, 0.088]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "hospitalized children",
+                    "analysis": "CMV detection, high-level viremia, and median viral loads",
+                    "stratification": "HIV exposure or infection",
+                    "HIV exposure": "HIV exposed uninfected"
+                },
+                "measures": "[CMV viremia \u2264 1000 IU/mL, P Value]",
+                "outcomes": "[6 (6.2), 0.56]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed uninfected",
+                    "Total No.": "97",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%), P Value]",
+                "outcomes": "[6.2%, 0.56]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "hospitalized children",
+                    "analysis": "CMV detection, high-level viremia, and median viral loads",
+                    "stratification": "HIV exposure or infection",
+                    "HIV exposure": "HIV exposed uninfected"
+                },
+                "measures": "[log10 CMV IU/mL in Viremics, P Value]",
+                "outcomes": "[2.4 (1.9\u20132.7), 0.74]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV exposed uninfected",
+                    "Total No.": "97",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[log10 CMV IU/mL (Median, IQR), P Value]",
+                "outcomes": "[2.4 (1.9\u20132.7), 0.74]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "hospitalized children",
+                    "analysis": "CMV detection, high-level viremia, and median viral loads",
+                    "stratification": "HIV exposure or infection",
+                    "HIV exposure": "HIV infected"
+                },
+                "measures": "[CMV viremia, P Value]",
+                "outcomes": "[6 (40.0), 0.39]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV infected",
+                    "Total No.": "15",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[CMV Viremia (%), P Value]",
+                "outcomes": "[40.0%, 0.39]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "hospitalized children",
+                    "analysis": "CMV detection, high-level viremia, and median viral loads",
+                    "stratification": "HIV exposure or infection",
+                    "HIV exposure": "HIV infected"
+                },
+                "measures": "[CMV viremia \u2264 1000 IU/mL, P Value]",
+                "outcomes": "[3 (20.0), 0.015]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV infected",
+                    "Total No.": "15",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[CMV Viremia \u2265 1000 IU/mL (%), P Value]",
+                "outcomes": "[20.0%, 0.015]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study population": "hospitalized children",
+                    "analysis": "CMV detection, high-level viremia, and median viral loads",
+                    "stratification": "HIV exposure or infection",
+                    "HIV exposure": "HIV infected"
+                },
+                "measures": "[log10 CMV IU/mL in Viremics, P Value]",
+                "outcomes": "[3.2 (2.6\u20135.3), 0.012]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "HIV Status": "HIV infected",
+                    "Total No.": "15",
+                    "Method": "Comparison to HIV unexposed group"
+                },
+                "measures": "[log10 CMV IU/mL (Median, IQR), P Value]",
+                "outcomes": "[3.2 (2.6\u20135.3), 0.012]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 15,
+    "total_ground_truth_claims": 15,
+    "number_of_matches": 15
+}

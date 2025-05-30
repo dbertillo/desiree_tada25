@@ -1,0 +1,191 @@
+{
+    "matched_specifications": [
+        [
+            "study",
+            "hiv incidence rate estimates"
+        ],
+        [
+            "exclusion",
+            "individuals who were diagnosed with hiv during the eligibility assessment at prep linkage"
+        ],
+        [
+            "hiv infections",
+            "91"
+        ],
+        [
+            "total no. of individuals",
+            "13 861"
+        ],
+        [
+            "total follow-up",
+            "26 210 person-years"
+        ],
+        [
+            "study",
+            "hiv incidence rate estimates"
+        ],
+        [
+            "hiv infections",
+            "36"
+        ],
+        [
+            "total no. of individuals",
+            "3013"
+        ],
+        [
+            "total follow-up",
+            "4119 person-years"
+        ],
+        [
+            "study",
+            "hiv incidence rate estimates"
+        ],
+        [
+            "total no. of individuals",
+            "811"
+        ],
+        [
+            "total follow-up",
+            "1226 person-years"
+        ],
+        [
+            "study",
+            "hiv incidence rate estimates"
+        ],
+        [
+            "hiv infections",
+            "4"
+        ],
+        [
+            "total no. of individuals",
+            "1082"
+        ],
+        [
+            "total follow-up",
+            "1420 person-years"
+        ],
+        [
+            "study",
+            "hiv incidence rate estimates"
+        ],
+        [
+            "hiv infections",
+            "38"
+        ],
+        [
+            "total no. of individuals",
+            "2108"
+        ],
+        [
+            "total follow-up",
+            "2973 person-years"
+        ],
+        [
+            "study",
+            "hiv incidence rate estimates"
+        ],
+        [
+            "definition",
+            "individuals who initiated and remained on prep throughout follow-up"
+        ],
+        [
+            "hiv infections",
+            "0"
+        ],
+        [
+            "total no. of individuals",
+            "5367"
+        ],
+        [
+            "total follow-up",
+            "9139 person-years"
+        ]
+    ],
+    "unmatched_specifications": [
+        [
+            "prep status",
+            "overall"
+        ],
+        [
+            "prep status",
+            "linked but not prescribed prep"
+        ],
+        [
+            "prep status",
+            "prescribed prep but did not initiate"
+        ],
+        [
+            "hiv infections",
+            "13"
+        ],
+        [
+            "prep status",
+            "discontinued but reinitiated prep"
+        ],
+        [
+            "prep status",
+            "discontinued and did not reinitiate prep"
+        ],
+        [
+            "prep status",
+            "persistent on prep"
+        ]
+    ],
+    "unmatched_extracted_keys": [
+        "prep status"
+    ],
+    "unmatched_extracted_values": [
+        "13"
+    ],
+    "unmatched_ground_truth_keys": [
+        "hiv infection number",
+        "confidence interval",
+        "total number of individuals",
+        "total follow-up(person-years)",
+        "incidence",
+        "analysis"
+    ],
+    "unmatched_ground_truth_values": [
+        "11",
+        "one-sided 97.5% upper ci",
+        "per 100 person-years"
+    ],
+    "mapped_keys": {
+        "definition": "definition",
+        "study": "group",
+        "exclusion": "exclusion criteria",
+        "hiv infections": "hiv infections number",
+        "total no. of individuals": "number of individuals",
+        "total follow-up": "total follow-up (person-years)"
+    },
+    "mapped_values": {
+        "13 861": "13 861",
+        "2108": "2108",
+        "91": "91",
+        "36": "36",
+        "discontinued and did not reinitiate prep": "discontinued and did not reinitiate prep",
+        "5367": "5367",
+        "811": "811",
+        "discontinued but reinitiated prep": "discontinued but reinitiated prep",
+        "prescribed prep but did not initiate": "prescribed prep but did not initiate",
+        "0": "0",
+        "hiv incidence rate estimates": "hiv incidence rate estimates",
+        "4": "4",
+        "linked but not prescribed prep": "linked but not prescribed prep",
+        "persistent on prep": "persistent on prep",
+        "38": "38",
+        "1082": "1082",
+        "3013": "3013",
+        "overall": "overall",
+        "individuals who were diagnosed with hiv during the eligibility assessment at prep linkage": "excludes individuals who were diagnosed with hiv during the eligibility assessment at prep linkage",
+        "26 210 person-years": "26 210",
+        "4119 person-years": "4119",
+        "1226 person-years": "1226",
+        "1420 person-years": "1420",
+        "2973 person-years": "2973",
+        "individuals who initiated and remained on prep throughout follow-up": "persistent on prep refers to individuals who initiated and remained on prep throughout follow-up",
+        "9139 person-years": "9139"
+    },
+    "precision": 0.78125,
+    "recall": 0.6410256410256411
+}

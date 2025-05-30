@@ -1,0 +1,246 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset_pair": "DBLP-Scholar",
+                    "records": "2,616",
+                    "missing_percentage": "17%",
+                    "ground_truth_pairs": "2,386",
+                    "entities": "academic publications",
+                    "record_fields": "title, authors, venue, year of publication",
+                    "missing_data_category": "MCAR",
+                    "missing_values_randomly_added": "true",
+                    "max_missing_values_per_record": "2"
+                },
+                "measures": "[records, missing_percentage]",
+                "outcomes": "[2,616, 17%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "DBLP",
+                    "Entity type": "Academic publications",
+                    "Record attributes": "title, authors, venue, year of publication",
+                    "Missing data category": "MCAR",
+                    "Missing data limit": "at most two missing values per record",
+                    "Relationship basis": "common authors",
+                    "Records": "2,616",
+                    "Missing %": "17%",
+                    "Ground truth datasets pairs": "DBLP-Scholar",
+                    "Ground truth pairs": "2,386"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset_pair": "DBLP-Scholar",
+                    "records": "64,263",
+                    "missing_percentage": "54%",
+                    "ground_truth_pairs": "2,386",
+                    "entities": "academic publications",
+                    "record_fields": "title, authors, venue, year of publication",
+                    "missing_data_category": "MCAR",
+                    "missing_values_randomly_added": "true",
+                    "max_missing_values_per_record": "2"
+                },
+                "measures": "[records, missing_percentage]",
+                "outcomes": "[64,263, 54%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "Scholar",
+                    "Entity type": "Academic publications",
+                    "Record attributes": "title, authors, venue, year of publication",
+                    "Missing data category": "MCAR",
+                    "Missing data limit": "at most two missing values per record",
+                    "Relationship basis": "common authors",
+                    "Records": "64,263",
+                    "Missing %": "54%",
+                    "Ground truth datasets pairs": "DBLP-Scholar",
+                    "Ground truth pairs": "2,386"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset_pair": "DBLP-ACM",
+                    "records": "2,616",
+                    "missing_percentage": "20%",
+                    "ground_truth_pairs": "2,220",
+                    "entities": "academic publications",
+                    "record_fields": "title, authors, venue, year of publication",
+                    "missing_data_category": "MCAR",
+                    "missing_values_randomly_added": "true",
+                    "max_missing_values_per_record": "2"
+                },
+                "measures": "[records, missing_percentage]",
+                "outcomes": "[2,616, 20%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "DBLP",
+                    "Entity type": "Academic publications",
+                    "Record attributes": "title, authors, venue, year of publication",
+                    "Missing data category": "MCAR",
+                    "Missing data limit": "at most two missing values per record",
+                    "Relationship basis": "common authors",
+                    "Records": "2,616",
+                    "Missing %": "20%",
+                    "Ground truth datasets pairs": "DBLP-ACM",
+                    "Ground truth pairs": "2,220"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset_pair": "DBLP-ACM",
+                    "records": "2,294",
+                    "missing_percentage": "20%",
+                    "ground_truth_pairs": "2,220",
+                    "entities": "academic publications",
+                    "record_fields": "title, authors, venue, year of publication",
+                    "missing_data_category": "MCAR",
+                    "missing_values_randomly_added": "true",
+                    "max_missing_values_per_record": "2"
+                },
+                "measures": "[records, missing_percentage]",
+                "outcomes": "[2,294, 20%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "ACM",
+                    "Entity type": "Academic publications",
+                    "Record attributes": "title, authors, venue, year of publication",
+                    "Missing data category": "MCAR",
+                    "Missing data limit": "at most two missing values per record",
+                    "Relationship basis": "common authors",
+                    "Records": "2,294",
+                    "Missing %": "20%",
+                    "Ground truth datasets pairs": "DBLP-ACM",
+                    "Ground truth pairs": "2,220"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset_pair": "UKCD",
+                    "records": "18,699",
+                    "missing_percentage": "24%",
+                    "ground_truth_pairs": "18,354"
+                },
+                "measures": "[records, missing_percentage]",
+                "outcomes": "[18,699, 24%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "UKCD",
+                    "Records": "18,699",
+                    "Missing %": "24%",
+                    "Ground truth pairs": "18,354"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset_pair": "NCVR-20",
+                    "records": "877,012",
+                    "missing_percentage": "20%",
+                    "ground_truth_pairs": "877,012"
+                },
+                "measures": "[records, missing_percentage]",
+                "outcomes": "[877,012, 20%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "NCVR-20",
+                    "Records": "877,012",
+                    "Missing %": "20%",
+                    "Ground truth pairs": "877,012"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset_pair": "NCVR-50",
+                    "records": "877,012",
+                    "missing_percentage": "50%",
+                    "ground_truth_pairs": "877,012"
+                },
+                "measures": "[records, missing_percentage]",
+                "outcomes": "[877,012, 50%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "NCVR-50",
+                    "Records": "877,012",
+                    "Missing %": "50%",
+                    "Ground truth pairs": "877,012"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset_pair": "NCVR-2017-NCVR-2019",
+                    "records_2017": "7,846,174",
+                    "records_2019": "7,688,308",
+                    "missing_percentage_2017": "12%",
+                    "missing_percentage_2019": "10%",
+                    "ground_truth_pairs": "6,948,248"
+                },
+                "measures": "[records_2017, missing_percentage_2017]",
+                "outcomes": "[7,846,174, 12%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "NCVR-2017",
+                    "Records": "7,846,174",
+                    "Missing %": "12%",
+                    "Ground truth datasets pairs": "NCVR-2017-NCVR-2019",
+                    "Ground truth pairs": "6,948,248"
+                }
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset_pair": "NCVR-2017-NCVR-2019",
+                    "records_2017": "7,846,174",
+                    "records_2019": "7,688,308",
+                    "missing_percentage_2017": "12%",
+                    "missing_percentage_2019": "10%",
+                    "ground_truth_pairs": "6,948,248"
+                },
+                "measures": "[records_2019, missing_percentage_2019]",
+                "outcomes": "[7,688,308, 10%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "NCVR-2019",
+                    "Records": "7,688,308",
+                    "Missing %": "10%",
+                    "Ground truth datasets pairs": "NCVR-2017-NCVR-2019",
+                    "Ground truth pairs": "6,948,248"
+                }
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 9,
+    "total_ground_truth_claims": 9,
+    "number_of_matches": 9
+}

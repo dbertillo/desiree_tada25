@@ -1,0 +1,510 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "context": "Including study visits with on-site PrEP access",
+                    "time period": "Before access",
+                    "number of infections/person-years": "133/2860",
+                    "incidence": "4\u00b765%",
+                    "adjustment factors": "Adjusted for study site, randomisation arm, age <24 years, woman reporting her partner had other partners (baseline and follow-up), any unprotected sex (baseline and follow-up), and any new partner (follow-up only)"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Effect of on-site PrEP access on HIV incidence",
+                    "context": "Including study visits with on-site PrEP access",
+                    "group": "Before access",
+                    "data representation": "incidence",
+                    "PrEP": "pre-exposure prophylaxis",
+                    "number of infections": "133",
+                    "person-years": "2860",
+                    "adjustments": "study site, randomisation arm, age <24 years, woman reporting her partner had other partners (baseline and follow-up), any unprotected sex (baseline and follow-up), and any new partner (follow-up only)"
+                },
+                "measures": "[Incidence]",
+                "outcomes": "[4.65%]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "context": "Including study visits with on-site PrEP access",
+                    "time period": "After access",
+                    "number of infections/person-years": "12/556",
+                    "incidence": "2\u00b716%",
+                    "adjusted incidence rate ratio (95% CI)": "0\u00b745 (0\u00b725-0\u00b782)",
+                    "p value": "0\u00b70085",
+                    "adjustment factors": "Adjusted for study site, randomisation arm, age <24 years, woman reporting her partner had other partners (baseline and follow-up), any unprotected sex (baseline and follow-up), and any new partner (follow-up only)"
+                },
+                "measures": "[adjusted incidence rate ratio (95% CI), p value]",
+                "outcomes": "[0\u00b745 (0\u00b725-0\u00b781), 0\u00b70076]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Effect of on-site PrEP access on HIV incidence",
+                    "context": "Including study visits with on-site PrEP access",
+                    "group": "After access",
+                    "PrEP": "pre-exposure prophylaxis",
+                    "Number of infections": "12",
+                    "person-years": "556",
+                    "adjustments": "study site, randomisation arm, age <24 years, woman reporting her partner had other partners (baseline and follow-up), any unprotected sex (baseline and follow-up), and any new partner (follow-up only)"
+                },
+                "measures": "[Incidence]",
+                "outcomes": "[2.16%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "context": "Including study visits with on-site PrEP access",
+                    "time period": "After access",
+                    "number of infections/person-years": "12/556",
+                    "incidence": "2\u00b716%",
+                    "adjusted incidence rate ratio (95% CI)": "0\u00b745 (0\u00b725-0\u00b782)",
+                    "p value": "0\u00b70085",
+                    "adjustment factors": "Adjusted for study site, randomisation arm, age <24 years, woman reporting her partner had other partners (baseline and follow-up), any unprotected sex (baseline and follow-up), and any new partner (follow-up only)"
+                },
+                "measures": "[adjusted incidence rate ratio (95% CI), p value]",
+                "outcomes": "[0\u00b745 (0\u00b725-0\u00b781), 0\u00b70076]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Effect of on-site PrEP access on HIV incidence",
+                    "context": "Including study visits with on-site PrEP access",
+                    "group": "After access",
+                    "PrEP": "pre-exposure prophylaxis",
+                    "number of infections": "12",
+                    "person-years": "556",
+                    "adjustments": "study site, randomisation arm, age <24 years, woman reporting her partner had other partners (baseline and follow-up), any unprotected sex (baseline and follow-up), and any new partner (follow-up only)"
+                },
+                "measures": "[Adjusted incidence rate ratio, 95% CI, p value]",
+                "outcomes": "[0.45, 0.25-0.81, 0.0076]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "context": "Including study visits with on-site PrEP access",
+                    "time period": "After access",
+                    "number of infections/person-years": "12/556",
+                    "incidence": "2\u00b716%",
+                    "adjusted incidence rate ratio (95% CI)": "0\u00b745 (0\u00b725-0\u00b782)",
+                    "p value": "0\u00b70085",
+                    "adjustment factors": "Adjusted for study site, randomisation arm, age <24 years, woman reporting her partner had other partners (baseline and follow-up), any unprotected sex (baseline and follow-up), and any new partner (follow-up only)"
+                },
+                "measures": "[adjusted incidence rate ratio (95% CI), p value]",
+                "outcomes": "[0\u00b745 (0\u00b725-0\u00b781), 0\u00b70076]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Effect of on-site PrEP access on HIV incidence",
+                    "context": "Including study visits with on-site PrEP access",
+                    "group": "After access",
+                    "PrEP": "pre-exposure prophylaxis",
+                    "number of infections": "12",
+                    "person-years": "556",
+                    "adjustments": "study site, randomisation arm, age <24 years, woman reporting her partner had other partners (baseline and follow-up), any unprotected sex (baseline and follow-up), and any new partner (follow-up only)"
+                },
+                "measures": "[Adjusted incidence rate ratio, (95% CI), p value]",
+                "outcomes": "[0.45, (0.25-0.82), 0.0085]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "context": "Including study visits with on-site PrEP access",
+                    "time period": "After access",
+                    "number of infections/person-years": "12/556",
+                    "incidence": "2\u00b716%",
+                    "adjusted incidence rate ratio (95% CI)": "0\u00b745 (0\u00b725-0\u00b782)",
+                    "p value": "0\u00b70085",
+                    "adjustment factors": "Adjusted for study site, randomisation arm, age <24 years, woman reporting her partner had other partners (baseline and follow-up), any unprotected sex (baseline and follow-up), and any new partner (follow-up only)"
+                },
+                "measures": "[adjusted incidence rate ratio (95% CI), p value]",
+                "outcomes": "[0\u00b745 (0\u00b725-0\u00b781), 0\u00b70076]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Effect of on-site PrEP access on HIV incidence",
+                    "context": "180 days before versus 180 days after on-site PrEP access",
+                    "group": "Before access",
+                    "PrEP": "pre-exposure prophylaxis",
+                    "number of infections": "46",
+                    "person-years": "919",
+                    "adjustments": "study site, randomisation arm, age <24 years, woman reporting her partner had other partners (baseline and follow-up), any unprotected sex (baseline and follow-up), and any new partner (follow-up only)"
+                },
+                "measures": "[Incidence]",
+                "outcomes": "[5.00%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "context": "Including study visits with on-site PrEP access",
+                    "time period": "After access",
+                    "number of infections/person-years": "12/556",
+                    "incidence": "2\u00b716%",
+                    "adjusted incidence rate ratio (95% CI)": "0\u00b745 (0\u00b725-0\u00b782)",
+                    "p value": "0\u00b70085",
+                    "adjustment factors": "Adjusted for study site, randomisation arm, age <24 years, woman reporting her partner had other partners (baseline and follow-up), any unprotected sex (baseline and follow-up), and any new partner (follow-up only)"
+                },
+                "measures": "[adjusted incidence rate ratio (95% CI), p value]",
+                "outcomes": "[0\u00b745 (0\u00b725-0\u00b781), 0\u00b70076]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Effect of on-site PrEP access on HIV incidence",
+                    "context": "180 days before versus 180 days after on-site PrEP access",
+                    "group": "After access",
+                    "PrEP": "pre-exposure prophylaxis",
+                    "number of infections": "11",
+                    "person-years": "481",
+                    "adjustments": "study site, randomisation arm, age <24 years, woman reporting her partner had other partners (baseline and follow-up), any unprotected sex (baseline and follow-up), and any new partner (follow-up only)"
+                },
+                "measures": "[Incidence]",
+                "outcomes": "[2.29%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "context": "Including study visits with on-site PrEP access",
+                    "time period": "After access",
+                    "number of infections/person-years": "12/556",
+                    "incidence": "2\u00b716%",
+                    "adjusted incidence rate ratio (95% CI)": "0\u00b745 (0\u00b725-0\u00b782)",
+                    "p value": "0\u00b70085",
+                    "adjustment factors": "Adjusted for study site, randomisation arm, age <24 years, woman reporting her partner had other partners (baseline and follow-up), any unprotected sex (baseline and follow-up), and any new partner (follow-up only)"
+                },
+                "measures": "[adjusted incidence rate ratio (95% CI), p value]",
+                "outcomes": "[0\u00b745 (0\u00b725-0\u00b781), 0\u00b70076]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Effect of on-site PrEP access on HIV incidence",
+                    "context": "180 days before versus 180 days after on-site PrEP access",
+                    "group": "After access",
+                    "PrEP": "pre-exposure prophylaxis",
+                    "number of infections": "11",
+                    "person-years": "481",
+                    "adjustments": "study site, randomisation arm, age <24 years, woman reporting her partner had other partners (baseline and follow-up), any unprotected sex (baseline and follow-up), and any new partner (follow-up only)"
+                },
+                "measures": "[Adjusted incidence rate ratio, (95% CI), p value]",
+                "outcomes": "[0.44, (0.23-0.85), 0.015]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "context": "Including study visits with on-site PrEP access",
+                    "time period": "After access",
+                    "number of infections/person-years": "12/556",
+                    "incidence": "2\u00b716%",
+                    "adjusted incidence rate ratio (95% CI)": "0\u00b745 (0\u00b725-0\u00b782)",
+                    "p value": "0\u00b70085",
+                    "adjustment factors": "Adjusted for study site, randomisation arm, age <24 years, woman reporting her partner had other partners (baseline and follow-up), any unprotected sex (baseline and follow-up), and any new partner (follow-up only)"
+                },
+                "measures": "[adjusted incidence rate ratio (95% CI), p value]",
+                "outcomes": "[0\u00b745 (0\u00b725-0\u00b781), 0\u00b70076]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Effect of on-site PrEP access on HIV incidence",
+                    "context": "180 days before versus 180 days after on-site PrEP access",
+                    "group": "After access",
+                    "PrEP": "pre-exposure prophylaxis",
+                    "number of infections": "11",
+                    "person-years": "481",
+                    "adjustments": "study site, randomisation arm, age <24 years, woman reporting her partner had other partners (baseline and follow-up), any unprotected sex (baseline and follow-up), and any new partner (follow-up only)"
+                },
+                "measures": "[Adjusted incidence rate ratio, (95% CI), p value]",
+                "outcomes": "[0.43, (0.22-0.83), 0.012]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "context": "180 days before versus 180 days after on-site PrEP access",
+                    "time period": "Before access",
+                    "number of infections/person-years": "46/919",
+                    "incidence": "5\u00b700%",
+                    "adjustment factors": "Adjusted for study site, randomisation arm, age <24 years, woman reporting her partner had other partners (baseline and follow-up), any unprotected sex (baseline and follow-up), and any new partner (follow-up only)"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Effect of on-site PrEP access on HIV incidence",
+                    "context": "Including study visits with on-site PrEP access",
+                    "group": "After access",
+                    "PrEP": "pre-exposure prophylaxis",
+                    "Number of infections": "12",
+                    "person-years": "556",
+                    "adjustments": "study site, randomisation arm, age <24 years, woman reporting her partner had other partners (baseline and follow-up), any unprotected sex (baseline and follow-up), and any new partner (follow-up only)"
+                },
+                "measures": "[Incidence]",
+                "outcomes": "[2.16%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "context": "180 days before versus 180 days after on-site PrEP access",
+                    "time period": "Before access",
+                    "number of infections/person-years": "46/919",
+                    "incidence": "5\u00b700%",
+                    "adjustment factors": "Adjusted for study site, randomisation arm, age <24 years, woman reporting her partner had other partners (baseline and follow-up), any unprotected sex (baseline and follow-up), and any new partner (follow-up only)"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Effect of on-site PrEP access on HIV incidence",
+                    "context": "Including study visits with on-site PrEP access",
+                    "group": "After access",
+                    "PrEP": "pre-exposure prophylaxis",
+                    "number of infections": "12",
+                    "person-years": "556",
+                    "adjustments": "study site, randomisation arm, age <24 years, woman reporting her partner had other partners (baseline and follow-up), any unprotected sex (baseline and follow-up), and any new partner (follow-up only)"
+                },
+                "measures": "[Adjusted incidence rate ratio, 95% CI, p value]",
+                "outcomes": "[0.45, 0.25-0.81, 0.0076]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "context": "180 days before versus 180 days after on-site PrEP access",
+                    "time period": "Before access",
+                    "number of infections/person-years": "46/919",
+                    "incidence": "5\u00b700%",
+                    "adjustment factors": "Adjusted for study site, randomisation arm, age <24 years, woman reporting her partner had other partners (baseline and follow-up), any unprotected sex (baseline and follow-up), and any new partner (follow-up only)"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Effect of on-site PrEP access on HIV incidence",
+                    "context": "Including study visits with on-site PrEP access",
+                    "group": "After access",
+                    "PrEP": "pre-exposure prophylaxis",
+                    "number of infections": "12",
+                    "person-years": "556",
+                    "adjustments": "study site, randomisation arm, age <24 years, woman reporting her partner had other partners (baseline and follow-up), any unprotected sex (baseline and follow-up), and any new partner (follow-up only)"
+                },
+                "measures": "[Adjusted incidence rate ratio, (95% CI), p value]",
+                "outcomes": "[0.45, (0.25-0.82), 0.0085]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "context": "180 days before versus 180 days after on-site PrEP access",
+                    "time period": "Before access",
+                    "number of infections/person-years": "46/919",
+                    "incidence": "5\u00b700%",
+                    "adjustment factors": "Adjusted for study site, randomisation arm, age <24 years, woman reporting her partner had other partners (baseline and follow-up), any unprotected sex (baseline and follow-up), and any new partner (follow-up only)"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Effect of on-site PrEP access on HIV incidence",
+                    "context": "180 days before versus 180 days after on-site PrEP access",
+                    "group": "Before access",
+                    "PrEP": "pre-exposure prophylaxis",
+                    "number of infections": "46",
+                    "person-years": "919",
+                    "adjustments": "study site, randomisation arm, age <24 years, woman reporting her partner had other partners (baseline and follow-up), any unprotected sex (baseline and follow-up), and any new partner (follow-up only)"
+                },
+                "measures": "[Incidence]",
+                "outcomes": "[5.00%]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "context": "180 days before versus 180 days after on-site PrEP access",
+                    "time period": "After access",
+                    "number of infections/person-years": "11/481",
+                    "incidence": "2\u00b729%",
+                    "adjusted incidence rate ratio (95% CI)": "0\u00b743 (0\u00b722-0\u00b783)",
+                    "p value": "0\u00b7012",
+                    "adjustment factors": "Adjusted for study site, randomisation arm, age <24 years, woman reporting her partner had other partners (baseline and follow-up), any unprotected sex (baseline and follow-up), and any new partner (follow-up only)"
+                },
+                "measures": "[adjusted incidence rate ratio (95% CI), p value]",
+                "outcomes": "[0\u00b744 (0\u00b723-0\u00b785), 0\u00b7015]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Effect of on-site PrEP access on HIV incidence",
+                    "context": "Including study visits with on-site PrEP access",
+                    "group": "After access",
+                    "PrEP": "pre-exposure prophylaxis",
+                    "Number of infections": "12",
+                    "person-years": "556",
+                    "adjustments": "study site, randomisation arm, age <24 years, woman reporting her partner had other partners (baseline and follow-up), any unprotected sex (baseline and follow-up), and any new partner (follow-up only)"
+                },
+                "measures": "[Incidence]",
+                "outcomes": "[2.16%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "context": "180 days before versus 180 days after on-site PrEP access",
+                    "time period": "After access",
+                    "number of infections/person-years": "11/481",
+                    "incidence": "2\u00b729%",
+                    "adjusted incidence rate ratio (95% CI)": "0\u00b743 (0\u00b722-0\u00b783)",
+                    "p value": "0\u00b7012",
+                    "adjustment factors": "Adjusted for study site, randomisation arm, age <24 years, woman reporting her partner had other partners (baseline and follow-up), any unprotected sex (baseline and follow-up), and any new partner (follow-up only)"
+                },
+                "measures": "[adjusted incidence rate ratio (95% CI), p value]",
+                "outcomes": "[0\u00b744 (0\u00b723-0\u00b785), 0\u00b7015]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Effect of on-site PrEP access on HIV incidence",
+                    "context": "Including study visits with on-site PrEP access",
+                    "group": "After access",
+                    "PrEP": "pre-exposure prophylaxis",
+                    "number of infections": "12",
+                    "person-years": "556",
+                    "adjustments": "study site, randomisation arm, age <24 years, woman reporting her partner had other partners (baseline and follow-up), any unprotected sex (baseline and follow-up), and any new partner (follow-up only)"
+                },
+                "measures": "[Adjusted incidence rate ratio, 95% CI, p value]",
+                "outcomes": "[0.45, 0.25-0.81, 0.0076]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "context": "180 days before versus 180 days after on-site PrEP access",
+                    "time period": "After access",
+                    "number of infections/person-years": "11/481",
+                    "incidence": "2\u00b729%",
+                    "adjusted incidence rate ratio (95% CI)": "0\u00b743 (0\u00b722-0\u00b783)",
+                    "p value": "0\u00b7012",
+                    "adjustment factors": "Adjusted for study site, randomisation arm, age <24 years, woman reporting her partner had other partners (baseline and follow-up), any unprotected sex (baseline and follow-up), and any new partner (follow-up only)"
+                },
+                "measures": "[adjusted incidence rate ratio (95% CI), p value]",
+                "outcomes": "[0\u00b744 (0\u00b723-0\u00b785), 0\u00b7015]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Effect of on-site PrEP access on HIV incidence",
+                    "context": "Including study visits with on-site PrEP access",
+                    "group": "After access",
+                    "PrEP": "pre-exposure prophylaxis",
+                    "number of infections": "12",
+                    "person-years": "556",
+                    "adjustments": "study site, randomisation arm, age <24 years, woman reporting her partner had other partners (baseline and follow-up), any unprotected sex (baseline and follow-up), and any new partner (follow-up only)"
+                },
+                "measures": "[Adjusted incidence rate ratio, (95% CI), p value]",
+                "outcomes": "[0.45, (0.25-0.82), 0.0085]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "context": "180 days before versus 180 days after on-site PrEP access",
+                    "time period": "After access",
+                    "number of infections/person-years": "11/481",
+                    "incidence": "2\u00b729%",
+                    "adjusted incidence rate ratio (95% CI)": "0\u00b743 (0\u00b722-0\u00b783)",
+                    "p value": "0\u00b7012",
+                    "adjustment factors": "Adjusted for study site, randomisation arm, age <24 years, woman reporting her partner had other partners (baseline and follow-up), any unprotected sex (baseline and follow-up), and any new partner (follow-up only)"
+                },
+                "measures": "[adjusted incidence rate ratio (95% CI), p value]",
+                "outcomes": "[0\u00b744 (0\u00b723-0\u00b785), 0\u00b7015]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Effect of on-site PrEP access on HIV incidence",
+                    "context": "180 days before versus 180 days after on-site PrEP access",
+                    "group": "After access",
+                    "PrEP": "pre-exposure prophylaxis",
+                    "number of infections": "11",
+                    "person-years": "481",
+                    "adjustments": "study site, randomisation arm, age <24 years, woman reporting her partner had other partners (baseline and follow-up), any unprotected sex (baseline and follow-up), and any new partner (follow-up only)"
+                },
+                "measures": "[Incidence]",
+                "outcomes": "[2.29%]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "context": "180 days before versus 180 days after on-site PrEP access",
+                    "time period": "After access",
+                    "number of infections/person-years": "11/481",
+                    "incidence": "2\u00b729%",
+                    "adjusted incidence rate ratio (95% CI)": "0\u00b743 (0\u00b722-0\u00b783)",
+                    "p value": "0\u00b7012",
+                    "adjustment factors": "Adjusted for study site, randomisation arm, age <24 years, woman reporting her partner had other partners (baseline and follow-up), any unprotected sex (baseline and follow-up), and any new partner (follow-up only)"
+                },
+                "measures": "[adjusted incidence rate ratio (95% CI), p value]",
+                "outcomes": "[0\u00b744 (0\u00b723-0\u00b785), 0\u00b7015]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Effect of on-site PrEP access on HIV incidence",
+                    "context": "180 days before versus 180 days after on-site PrEP access",
+                    "group": "After access",
+                    "PrEP": "pre-exposure prophylaxis",
+                    "number of infections": "11",
+                    "person-years": "481",
+                    "adjustments": "study site, randomisation arm, age <24 years, woman reporting her partner had other partners (baseline and follow-up), any unprotected sex (baseline and follow-up), and any new partner (follow-up only)"
+                },
+                "measures": "[Adjusted incidence rate ratio, (95% CI), p value]",
+                "outcomes": "[0.44, (0.23-0.85), 0.015]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "context": "180 days before versus 180 days after on-site PrEP access",
+                    "time period": "After access",
+                    "number of infections/person-years": "11/481",
+                    "incidence": "2\u00b729%",
+                    "adjusted incidence rate ratio (95% CI)": "0\u00b743 (0\u00b722-0\u00b783)",
+                    "p value": "0\u00b7012",
+                    "adjustment factors": "Adjusted for study site, randomisation arm, age <24 years, woman reporting her partner had other partners (baseline and follow-up), any unprotected sex (baseline and follow-up), and any new partner (follow-up only)"
+                },
+                "measures": "[adjusted incidence rate ratio (95% CI), p value]",
+                "outcomes": "[0\u00b744 (0\u00b723-0\u00b785), 0\u00b7015]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "analysis": "Effect of on-site PrEP access on HIV incidence",
+                    "context": "180 days before versus 180 days after on-site PrEP access",
+                    "group": "After access",
+                    "PrEP": "pre-exposure prophylaxis",
+                    "number of infections": "11",
+                    "person-years": "481",
+                    "adjustments": "study site, randomisation arm, age <24 years, woman reporting her partner had other partners (baseline and follow-up), any unprotected sex (baseline and follow-up), and any new partner (follow-up only)"
+                },
+                "measures": "[Adjusted incidence rate ratio, (95% CI), p value]",
+                "outcomes": "[0.43, (0.22-0.83), 0.012]"
+            },
+            "match": "no"
+        }
+    ],
+    "total_extracted_claims": 4,
+    "total_ground_truth_claims": 8,
+    "number_of_matches": 2
+}

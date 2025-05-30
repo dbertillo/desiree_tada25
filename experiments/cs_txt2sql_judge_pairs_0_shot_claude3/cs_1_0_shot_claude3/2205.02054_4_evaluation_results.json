@@ -1,0 +1,779 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "CG-SUB_T",
+                    "data_split": "training",
+                    "comparison": "Spider-SS vs Spider-CG",
+                    "algorithm": "same split algorithm"
+                },
+                "measures": "[deviation <= 1, deviation <= 2]",
+                "outcomes": "[93.2%, 94.4%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "CG-SUB_T",
+                    "Comparison": "Spider-SS and Spider-CG",
+                    "Split Algorithm": "Same",
+                    "Deviation": "<=1",
+                    "Sentence Type": "Sub-sentences"
+                },
+                "measures": [
+                    "Similarity"
+                ],
+                "outcomes": [
+                    "93.2"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "CG-SUB_D",
+                    "data_split": "development",
+                    "comparison": "Spider-SS vs Spider-CG",
+                    "algorithm": "same split algorithm"
+                },
+                "measures": "[deviation <= 1, deviation <= 2]",
+                "outcomes": "[92.9%, 94.1%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "CG-SUB_T",
+                    "Comparison": "Spider-SS and Spider-CG",
+                    "Split Algorithm": "Same",
+                    "Deviation": "<=2",
+                    "Sentence Type": "Sub-sentences"
+                },
+                "measures": [
+                    "Similarity"
+                ],
+                "outcomes": [
+                    "94.4"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "CG-SUB_D",
+                    "data_split": "development",
+                    "comparison": "Spider-SS vs Spider-CG",
+                    "algorithm": "same split algorithm"
+                },
+                "measures": "[deviation <= 1, deviation <= 2]",
+                "outcomes": "[92.9%, 94.1%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "CG-SUB_D",
+                    "Comparison": "Spider-SS and Spider-CG",
+                    "Split Algorithm": "Same",
+                    "Deviation": "<=1",
+                    "Sentence Type": "Sub-sentences"
+                },
+                "measures": [
+                    "Similarity"
+                ],
+                "outcomes": [
+                    "92.9"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "CG-APP_T",
+                    "data_split": "training",
+                    "comparison": "Spider-SS vs Spider-CG",
+                    "algorithm": "same split algorithm"
+                },
+                "measures": "[deviation <= 1, deviation <= 2]",
+                "outcomes": "[86.0%, 90.4%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "CG-SUB_T",
+                    "Comparison": "Spider-SS and Spider-CG",
+                    "Split Algorithm": "Same",
+                    "Deviation": "<=2",
+                    "Sentence Type": "Sub-sentences"
+                },
+                "measures": [
+                    "Similarity"
+                ],
+                "outcomes": [
+                    "94.4"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "CG-APP_T",
+                    "data_split": "training",
+                    "comparison": "Spider-SS vs Spider-CG",
+                    "algorithm": "same split algorithm"
+                },
+                "measures": "[deviation <= 1, deviation <= 2]",
+                "outcomes": "[86.0%, 90.4%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "CG-SUB_D",
+                    "Comparison": "Spider-SS and Spider-CG",
+                    "Split Algorithm": "Same",
+                    "Deviation": "<=2",
+                    "Sentence Type": "Sub-sentences"
+                },
+                "measures": [
+                    "Similarity"
+                ],
+                "outcomes": [
+                    "94.1"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "CG-APP_T",
+                    "data_split": "training",
+                    "comparison": "Spider-SS vs Spider-CG",
+                    "algorithm": "same split algorithm"
+                },
+                "measures": "[deviation <= 1, deviation <= 2]",
+                "outcomes": "[86.0%, 90.4%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "CG-APP_T",
+                    "Comparison": "Spider-SS and Spider-CG",
+                    "Split Algorithm": "Same",
+                    "Deviation": "<=1",
+                    "Sentence Type": "Sub-sentences"
+                },
+                "measures": [
+                    "Similarity"
+                ],
+                "outcomes": [
+                    "86.0"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "CG-APP_D",
+                    "data_split": "development",
+                    "comparison": "Spider-SS vs Spider-CG",
+                    "algorithm": "same split algorithm"
+                },
+                "measures": "[deviation <= 1, deviation <= 2]",
+                "outcomes": "[88.9%, 92.6%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "CG-SUB_T",
+                    "Comparison": "Spider-SS and Spider-CG",
+                    "Split Algorithm": "Same",
+                    "Deviation": "<=2",
+                    "Sentence Type": "Sub-sentences"
+                },
+                "measures": [
+                    "Similarity"
+                ],
+                "outcomes": [
+                    "94.4"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "CG-APP_D",
+                    "data_split": "development",
+                    "comparison": "Spider-SS vs Spider-CG",
+                    "algorithm": "same split algorithm"
+                },
+                "measures": "[deviation <= 1, deviation <= 2]",
+                "outcomes": "[88.9%, 92.6%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "CG-SUB_D",
+                    "Comparison": "Spider-SS and Spider-CG",
+                    "Split Algorithm": "Same",
+                    "Deviation": "<=2",
+                    "Sentence Type": "Sub-sentences"
+                },
+                "measures": [
+                    "Similarity"
+                ],
+                "outcomes": [
+                    "94.1"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "CG-APP_D",
+                    "data_split": "development",
+                    "comparison": "Spider-SS vs Spider-CG",
+                    "algorithm": "same split algorithm"
+                },
+                "measures": "[deviation <= 1, deviation <= 2]",
+                "outcomes": "[88.9%, 92.6%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "CG-APP_T",
+                    "Comparison": "Spider-SS and Spider-CG",
+                    "Split Algorithm": "Same",
+                    "Deviation": "<=2",
+                    "Sentence Type": "Sub-sentences"
+                },
+                "measures": [
+                    "Similarity"
+                ],
+                "outcomes": [
+                    "90.4"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset": "CG-APP_D",
+                    "data_split": "development",
+                    "comparison": "Spider-SS vs Spider-CG",
+                    "algorithm": "same split algorithm"
+                },
+                "measures": "[deviation <= 1, deviation <= 2]",
+                "outcomes": "[88.9%, 92.6%]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "CG-APP_D",
+                    "Comparison": "Spider-SS and Spider-CG",
+                    "Split Algorithm": "Same",
+                    "Deviation": "<=1",
+                    "Sentence Type": "Sub-sentences"
+                },
+                "measures": [
+                    "Similarity"
+                ],
+                "outcomes": [
+                    "88.9"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset_type": "CG-SUB",
+                    "complexity": "less complex",
+                    "performance": "higher similarity"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "CG-SUB_T",
+                    "Comparison": "Spider-SS and Spider-CG",
+                    "Split Algorithm": "Same",
+                    "Deviation": "<=2",
+                    "Sentence Type": "Sub-sentences"
+                },
+                "measures": [
+                    "Similarity"
+                ],
+                "outcomes": [
+                    "94.4"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset_type": "CG-SUB",
+                    "complexity": "less complex",
+                    "performance": "higher similarity"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "CG-SUB_D",
+                    "Comparison": "Spider-SS and Spider-CG",
+                    "Split Algorithm": "Same",
+                    "Deviation": "<=2",
+                    "Sentence Type": "Sub-sentences"
+                },
+                "measures": [
+                    "Similarity"
+                ],
+                "outcomes": [
+                    "94.1"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset_type": "CG-SUB",
+                    "complexity": "less complex",
+                    "performance": "higher similarity"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "CG-APP_T",
+                    "Comparison": "Spider-SS and Spider-CG",
+                    "Split Algorithm": "Same",
+                    "Deviation": "<=2",
+                    "Sentence Type": "Sub-sentences"
+                },
+                "measures": [
+                    "Similarity"
+                ],
+                "outcomes": [
+                    "90.4"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset_type": "CG-SUB",
+                    "complexity": "less complex",
+                    "performance": "higher similarity"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "CG-APP_D",
+                    "Comparison": "Spider-SS and Spider-CG",
+                    "Split Algorithm": "Same",
+                    "Deviation": "<=2",
+                    "Sentence Type": "Sub-sentences"
+                },
+                "measures": [
+                    "Similarity"
+                ],
+                "outcomes": [
+                    "92.6"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset_type": "CG-APP",
+                    "complexity": "more complex",
+                    "performance": "lower similarity"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "CG-SUB_T",
+                    "Comparison": "Spider-SS and Spider-CG",
+                    "Split Algorithm": "Same",
+                    "Deviation": "<=2",
+                    "Sentence Type": "Sub-sentences"
+                },
+                "measures": [
+                    "Similarity"
+                ],
+                "outcomes": [
+                    "94.4"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset_type": "CG-APP",
+                    "complexity": "more complex",
+                    "performance": "lower similarity"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "CG-SUB_D",
+                    "Comparison": "Spider-SS and Spider-CG",
+                    "Split Algorithm": "Same",
+                    "Deviation": "<=2",
+                    "Sentence Type": "Sub-sentences"
+                },
+                "measures": [
+                    "Similarity"
+                ],
+                "outcomes": [
+                    "94.1"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset_type": "CG-APP",
+                    "complexity": "more complex",
+                    "performance": "lower similarity"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "CG-APP_T",
+                    "Comparison": "Spider-SS and Spider-CG",
+                    "Split Algorithm": "Same",
+                    "Deviation": "<=2",
+                    "Sentence Type": "Sub-sentences"
+                },
+                "measures": [
+                    "Similarity"
+                ],
+                "outcomes": [
+                    "90.4"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset_type": "CG-APP",
+                    "complexity": "more complex",
+                    "performance": "lower similarity"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "CG-APP_D",
+                    "Comparison": "Spider-SS and Spider-CG",
+                    "Split Algorithm": "Same",
+                    "Deviation": "<=2",
+                    "Sentence Type": "Sub-sentences"
+                },
+                "measures": [
+                    "Similarity"
+                ],
+                "outcomes": [
+                    "92.6"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset_type": "CG-SUB",
+                    "consistency": "close similarity between training and development"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "CG-SUB_T",
+                    "Comparison": "Spider-SS and Spider-CG",
+                    "Split Algorithm": "Same",
+                    "Deviation": "<=2",
+                    "Sentence Type": "Sub-sentences"
+                },
+                "measures": [
+                    "Similarity"
+                ],
+                "outcomes": [
+                    "94.4"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset_type": "CG-SUB",
+                    "consistency": "close similarity between training and development"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "CG-SUB_D",
+                    "Comparison": "Spider-SS and Spider-CG",
+                    "Split Algorithm": "Same",
+                    "Deviation": "<=2",
+                    "Sentence Type": "Sub-sentences"
+                },
+                "measures": [
+                    "Similarity"
+                ],
+                "outcomes": [
+                    "94.1"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset_type": "CG-SUB",
+                    "consistency": "close similarity between training and development"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "CG-APP_T",
+                    "Comparison": "Spider-SS and Spider-CG",
+                    "Split Algorithm": "Same",
+                    "Deviation": "<=2",
+                    "Sentence Type": "Sub-sentences"
+                },
+                "measures": [
+                    "Similarity"
+                ],
+                "outcomes": [
+                    "90.4"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset_type": "CG-SUB",
+                    "consistency": "close similarity between training and development"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "CG-APP_D",
+                    "Comparison": "Spider-SS and Spider-CG",
+                    "Split Algorithm": "Same",
+                    "Deviation": "<=2",
+                    "Sentence Type": "Sub-sentences"
+                },
+                "measures": [
+                    "Similarity"
+                ],
+                "outcomes": [
+                    "92.6"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset_type": "CG-APP",
+                    "consistency": "close similarity between training and development"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "CG-SUB_T",
+                    "Comparison": "Spider-SS and Spider-CG",
+                    "Split Algorithm": "Same",
+                    "Deviation": "<=2",
+                    "Sentence Type": "Sub-sentences"
+                },
+                "measures": [
+                    "Similarity"
+                ],
+                "outcomes": [
+                    "94.4"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset_type": "CG-APP",
+                    "consistency": "close similarity between training and development"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "CG-SUB_D",
+                    "Comparison": "Spider-SS and Spider-CG",
+                    "Split Algorithm": "Same",
+                    "Deviation": "<=2",
+                    "Sentence Type": "Sub-sentences"
+                },
+                "measures": [
+                    "Similarity"
+                ],
+                "outcomes": [
+                    "94.1"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset_type": "CG-APP",
+                    "consistency": "close similarity between training and development"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "CG-APP_T",
+                    "Comparison": "Spider-SS and Spider-CG",
+                    "Split Algorithm": "Same",
+                    "Deviation": "<=2",
+                    "Sentence Type": "Sub-sentences"
+                },
+                "measures": [
+                    "Similarity"
+                ],
+                "outcomes": [
+                    "90.4"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "dataset_type": "CG-APP",
+                    "consistency": "close similarity between training and development"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "CG-APP_D",
+                    "Comparison": "Spider-SS and Spider-CG",
+                    "Split Algorithm": "Same",
+                    "Deviation": "<=2",
+                    "Sentence Type": "Sub-sentences"
+                },
+                "measures": [
+                    "Similarity"
+                ],
+                "outcomes": [
+                    "92.6"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "algorithm_performance": "stable",
+                    "condition": "sentences not more complex than CG-APP",
+                    "applicability": "other text-to-SQL datasets"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "CG-SUB_T",
+                    "Comparison": "Spider-SS and Spider-CG",
+                    "Split Algorithm": "Same",
+                    "Deviation": "<=2",
+                    "Sentence Type": "Sub-sentences"
+                },
+                "measures": [
+                    "Similarity"
+                ],
+                "outcomes": [
+                    "94.4"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "algorithm_performance": "stable",
+                    "condition": "sentences not more complex than CG-APP",
+                    "applicability": "other text-to-SQL datasets"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "CG-SUB_D",
+                    "Comparison": "Spider-SS and Spider-CG",
+                    "Split Algorithm": "Same",
+                    "Deviation": "<=2",
+                    "Sentence Type": "Sub-sentences"
+                },
+                "measures": [
+                    "Similarity"
+                ],
+                "outcomes": [
+                    "94.1"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "algorithm_performance": "stable",
+                    "condition": "sentences not more complex than CG-APP",
+                    "applicability": "other text-to-SQL datasets"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "CG-APP_T",
+                    "Comparison": "Spider-SS and Spider-CG",
+                    "Split Algorithm": "Same",
+                    "Deviation": "<=2",
+                    "Sentence Type": "Sub-sentences"
+                },
+                "measures": [
+                    "Similarity"
+                ],
+                "outcomes": [
+                    "90.4"
+                ]
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "algorithm_performance": "stable",
+                    "condition": "sentences not more complex than CG-APP",
+                    "applicability": "other text-to-SQL datasets"
+                }
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "CG-APP_D",
+                    "Comparison": "Spider-SS and Spider-CG",
+                    "Split Algorithm": "Same",
+                    "Deviation": "<=2",
+                    "Sentence Type": "Sub-sentences"
+                },
+                "measures": [
+                    "Similarity"
+                ],
+                "outcomes": [
+                    "92.6"
+                ]
+            },
+            "match": "no"
+        }
+    ],
+    "total_extracted_claims": 9,
+    "total_ground_truth_claims": 8,
+    "number_of_matches": 4
+}

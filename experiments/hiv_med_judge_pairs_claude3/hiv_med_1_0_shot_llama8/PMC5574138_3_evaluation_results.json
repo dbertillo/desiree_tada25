@@ -1,0 +1,516 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "meta regression",
+                    "covariates": "length of follow-up, median CD4 cell counts, median age, year of publication, proportion of female"
+                },
+                "measures": "[study design, meta regression]",
+                "outcomes": "[outcome, parameter estimates of meta-regression]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Covariate": "Length of follow-up",
+                    "Method": "Meta-regression"
+                },
+                "measures": "[Estimate, S.E, 95% CI]",
+                "outcomes": "[-0.0138, 0.0666, (-0.1322\u20130.1046)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "meta regression",
+                    "covariates": "length of follow-up, median CD4 cell counts, median age, year of publication, proportion of female"
+                },
+                "measures": "[study design, meta regression]",
+                "outcomes": "[outcome, parameter estimates of meta-regression]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Covariate": "Median CD4 count",
+                    "Method": "Meta-regression"
+                },
+                "measures": "[Estimate, S.E, 95% CI]",
+                "outcomes": "[-0.0034, 0.0066, (-0.0150\u20130.0079)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "meta regression",
+                    "covariates": "length of follow-up, median CD4 cell counts, median age, year of publication, proportion of female"
+                },
+                "measures": "[study design, meta regression]",
+                "outcomes": "[outcome, parameter estimates of meta-regression]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Covariate": "Median age",
+                    "Method": "Meta-regression"
+                },
+                "measures": "[Estimate, S.E, 95% CI]",
+                "outcomes": "[0.0415, 0.0503, (-0.1013\u20130.0755)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "meta regression",
+                    "covariates": "length of follow-up, median CD4 cell counts, median age, year of publication, proportion of female"
+                },
+                "measures": "[study design, meta regression]",
+                "outcomes": "[outcome, parameter estimates of meta-regression]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Covariate": "Year of publication",
+                    "Method": "Meta-regression"
+                },
+                "measures": "[Estimate, S.E, 95% CI]",
+                "outcomes": "[0.0637, 0.0815, (-0.1736\u20130.0980)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "meta regression",
+                    "covariates": "length of follow-up, median CD4 cell counts, median age, year of publication, proportion of female"
+                },
+                "measures": "[study design, meta regression]",
+                "outcomes": "[outcome, parameter estimates of meta-regression]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Covariate": "Female proportion",
+                    "Method": "Meta-regression"
+                },
+                "measures": "[Estimate, S.E, 95% CI]",
+                "outcomes": "[-0.5305, 1.4575, (-3.6792\u20132.6183)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "length of follow-up": "(-0.1322, -0.1046)"
+                },
+                "measures": "[metric, estimate]",
+                "outcomes": "[outcome, 95% CI]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Covariate": "Length of follow-up",
+                    "Method": "Meta-regression"
+                },
+                "measures": "[Estimate, S.E, 95% CI]",
+                "outcomes": "[-0.0138, 0.0666, (-0.1322\u20130.1046)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "length of follow-up": "(-0.1322, -0.1046)"
+                },
+                "measures": "[metric, estimate]",
+                "outcomes": "[outcome, 95% CI]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Covariate": "Median CD4 count",
+                    "Method": "Meta-regression"
+                },
+                "measures": "[Estimate, S.E, 95% CI]",
+                "outcomes": "[-0.0034, 0.0066, (-0.0150\u20130.0079)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "length of follow-up": "(-0.1322, -0.1046)"
+                },
+                "measures": "[metric, estimate]",
+                "outcomes": "[outcome, 95% CI]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Covariate": "Median age",
+                    "Method": "Meta-regression"
+                },
+                "measures": "[Estimate, S.E, 95% CI]",
+                "outcomes": "[0.0415, 0.0503, (-0.1013\u20130.0755)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "length of follow-up": "(-0.1322, -0.1046)"
+                },
+                "measures": "[metric, estimate]",
+                "outcomes": "[outcome, 95% CI]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Covariate": "Year of publication",
+                    "Method": "Meta-regression"
+                },
+                "measures": "[Estimate, S.E, 95% CI]",
+                "outcomes": "[0.0637, 0.0815, (-0.1736\u20130.0980)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "length of follow-up": "(-0.1322, -0.1046)"
+                },
+                "measures": "[metric, estimate]",
+                "outcomes": "[outcome, 95% CI]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Covariate": "Female proportion",
+                    "Method": "Meta-regression"
+                },
+                "measures": "[Estimate, S.E, 95% CI]",
+                "outcomes": "[-0.5305, 1.4575, (-3.6792\u20132.6183)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "median CD4 count": "(-0.0150, -0.0079)"
+                },
+                "measures": "[metric, estimate]",
+                "outcomes": "[outcome, 95% CI]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Covariate": "Length of follow-up",
+                    "Method": "Meta-regression"
+                },
+                "measures": "[Estimate, S.E, 95% CI]",
+                "outcomes": "[-0.0138, 0.0666, (-0.1322\u20130.1046)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "median CD4 count": "(-0.0150, -0.0079)"
+                },
+                "measures": "[metric, estimate]",
+                "outcomes": "[outcome, 95% CI]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Covariate": "Median CD4 count",
+                    "Method": "Meta-regression"
+                },
+                "measures": "[Estimate, S.E, 95% CI]",
+                "outcomes": "[-0.0034, 0.0066, (-0.0150\u20130.0079)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "median CD4 count": "(-0.0150, -0.0079)"
+                },
+                "measures": "[metric, estimate]",
+                "outcomes": "[outcome, 95% CI]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Covariate": "Median age",
+                    "Method": "Meta-regression"
+                },
+                "measures": "[Estimate, S.E, 95% CI]",
+                "outcomes": "[0.0415, 0.0503, (-0.1013\u20130.0755)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "median CD4 count": "(-0.0150, -0.0079)"
+                },
+                "measures": "[metric, estimate]",
+                "outcomes": "[outcome, 95% CI]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Covariate": "Year of publication",
+                    "Method": "Meta-regression"
+                },
+                "measures": "[Estimate, S.E, 95% CI]",
+                "outcomes": "[0.0637, 0.0815, (-0.1736\u20130.0980)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "median CD4 count": "(-0.0150, -0.0079)"
+                },
+                "measures": "[metric, estimate]",
+                "outcomes": "[outcome, 95% CI]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Covariate": "Female proportion",
+                    "Method": "Meta-regression"
+                },
+                "measures": "[Estimate, S.E, 95% CI]",
+                "outcomes": "[-0.5305, 1.4575, (-3.6792\u20132.6183)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "median age": "(-0.1013, -0.0755)"
+                },
+                "measures": "[metric, estimate]",
+                "outcomes": "[outcome, 95% CI]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Covariate": "Length of follow-up",
+                    "Method": "Meta-regression"
+                },
+                "measures": "[Estimate, S.E, 95% CI]",
+                "outcomes": "[-0.0138, 0.0666, (-0.1322\u20130.1046)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "median age": "(-0.1013, -0.0755)"
+                },
+                "measures": "[metric, estimate]",
+                "outcomes": "[outcome, 95% CI]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Covariate": "Median CD4 count",
+                    "Method": "Meta-regression"
+                },
+                "measures": "[Estimate, S.E, 95% CI]",
+                "outcomes": "[-0.0034, 0.0066, (-0.0150\u20130.0079)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "median age": "(-0.1013, -0.0755)"
+                },
+                "measures": "[metric, estimate]",
+                "outcomes": "[outcome, 95% CI]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Covariate": "Median age",
+                    "Method": "Meta-regression"
+                },
+                "measures": "[Estimate, S.E, 95% CI]",
+                "outcomes": "[0.0415, 0.0503, (-0.1013\u20130.0755)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "median age": "(-0.1013, -0.0755)"
+                },
+                "measures": "[metric, estimate]",
+                "outcomes": "[outcome, 95% CI]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Covariate": "Year of publication",
+                    "Method": "Meta-regression"
+                },
+                "measures": "[Estimate, S.E, 95% CI]",
+                "outcomes": "[0.0637, 0.0815, (-0.1736\u20130.0980)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "median age": "(-0.1013, -0.0755)"
+                },
+                "measures": "[metric, estimate]",
+                "outcomes": "[outcome, 95% CI]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Covariate": "Female proportion",
+                    "Method": "Meta-regression"
+                },
+                "measures": "[Estimate, S.E, 95% CI]",
+                "outcomes": "[-0.5305, 1.4575, (-3.6792\u20132.6183)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "year of publication": "(-0.1736, -0.0980)"
+                },
+                "measures": "[metric, estimate]",
+                "outcomes": "[outcome, 95% CI]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Covariate": "Length of follow-up",
+                    "Method": "Meta-regression"
+                },
+                "measures": "[Estimate, S.E, 95% CI]",
+                "outcomes": "[-0.0138, 0.0666, (-0.1322\u20130.1046)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "year of publication": "(-0.1736, -0.0980)"
+                },
+                "measures": "[metric, estimate]",
+                "outcomes": "[outcome, 95% CI]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Covariate": "Median CD4 count",
+                    "Method": "Meta-regression"
+                },
+                "measures": "[Estimate, S.E, 95% CI]",
+                "outcomes": "[-0.0034, 0.0066, (-0.0150\u20130.0079)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "year of publication": "(-0.1736, -0.0980)"
+                },
+                "measures": "[metric, estimate]",
+                "outcomes": "[outcome, 95% CI]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Covariate": "Median age",
+                    "Method": "Meta-regression"
+                },
+                "measures": "[Estimate, S.E, 95% CI]",
+                "outcomes": "[0.0415, 0.0503, (-0.1013\u20130.0755)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "year of publication": "(-0.1736, -0.0980)"
+                },
+                "measures": "[metric, estimate]",
+                "outcomes": "[outcome, 95% CI]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Covariate": "Year of publication",
+                    "Method": "Meta-regression"
+                },
+                "measures": "[Estimate, S.E, 95% CI]",
+                "outcomes": "[0.0637, 0.0815, (-0.1736\u20130.0980)]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "female proportion": "(-3.6792, -2.6183)"
+                },
+                "measures": "[metric, estimate]",
+                "outcomes": "[outcome, 95% CI]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Covariate": "Length of follow-up",
+                    "Method": "Meta-regression"
+                },
+                "measures": "[Estimate, S.E, 95% CI]",
+                "outcomes": "[-0.0138, 0.0666, (-0.1322\u20130.1046)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "female proportion": "(-3.6792, -2.6183)"
+                },
+                "measures": "[metric, estimate]",
+                "outcomes": "[outcome, 95% CI]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Covariate": "Median CD4 count",
+                    "Method": "Meta-regression"
+                },
+                "measures": "[Estimate, S.E, 95% CI]",
+                "outcomes": "[-0.0034, 0.0066, (-0.0150\u20130.0079)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "female proportion": "(-3.6792, -2.6183)"
+                },
+                "measures": "[metric, estimate]",
+                "outcomes": "[outcome, 95% CI]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Covariate": "Median age",
+                    "Method": "Meta-regression"
+                },
+                "measures": "[Estimate, S.E, 95% CI]",
+                "outcomes": "[0.0415, 0.0503, (-0.1013\u20130.0755)]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "female proportion": "(-3.6792, -2.6183)"
+                },
+                "measures": "[metric, estimate]",
+                "outcomes": "[outcome, 95% CI]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Covariate": "Female proportion",
+                    "Method": "Meta-regression"
+                },
+                "measures": "[Estimate, S.E, 95% CI]",
+                "outcomes": "[-0.5305, 1.4575, (-3.6792\u20132.6183)]"
+            },
+            "match": "no"
+        }
+    ],
+    "total_extracted_claims": 6,
+    "total_ground_truth_claims": 5,
+    "number_of_matches": 1
+}

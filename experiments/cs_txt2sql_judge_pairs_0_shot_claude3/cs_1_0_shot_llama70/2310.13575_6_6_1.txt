@@ -1,0 +1,12 @@
+To evaluate if the extracted claim matches any of the ground truth claims, I'll compare the key information:
+
+1. The extracted claim is for the Spider Development Set, which matches all ground truth claims.
+2. The extracted claim mentions "Text-to-QPL" model, which is not specific enough to match either "Q → QPL" or "Q+QD → QPL" in the ground truth.
+3. The extracted claim has an Execution Accuracy of 86.6%, which matches only one ground truth claim: the one for "Q → QPL" model with QPL Length 2.
+4. However, the extracted claim doesn't specify the QPL Length or Support, which are present in the ground truth claim.
+
+Given these observations:
+
+<classification>no</classification>
+
+While the extracted claim partially matches one of the ground truth claims, it lacks specificity in the model type and omits important details like QPL Length and Support. Therefore, it cannot be considered the same as any of the ground truth claims.

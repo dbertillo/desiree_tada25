@@ -1,0 +1,1253 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "intention-to-treat",
+                    "treatment": "dexamethasone",
+                    "control": "placebo",
+                    "deaths_dexamethasone": "116/263",
+                    "deaths_placebo": "126/257",
+                    "hazard_ratio": "0.85",
+                    "confidence_interval": "(0.66, 1.10)",
+                    "p_value": "0.22",
+                    "test_for_proportional_hazards": "0.36",
+                    "heterogeneity_p_value": "not reported",
+                    "primary_endpoint": "death from any cause over the first 12 months after randomization",
+                    "analysis_method": "Cox proportional hazards regression model",
+                    "effect_measure": "hazard ratio comparing dexamethasone vs. placebo",
+                    "time_transformation": "Kaplan-Meier",
+                    "covariates": "treatment only"
+                },
+                "measures": "[hazard_ratio, confidence_interval, p_value]",
+                "outcomes": "[0.85, (0.66, 1.10), 0.22]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Intention-to-treat population",
+                    "Deaths (Dexamethasone)": "116/263",
+                    "Deaths (Placebo)": "126/257",
+                    "Method": "Cox proportional hazards model",
+                    "Test for proportional hazards": "0.36"
+                },
+                "measures": "[Hazard Ratio, 95% CI, P value]",
+                "outcomes": "[0.85, 0.66-1.10, 0.22]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "modified MRC grade",
+                    "subgroup": "Grade I",
+                    "treatment": "dexamethasone",
+                    "control": "placebo",
+                    "deaths_dexamethasone": "22/99",
+                    "deaths_placebo": "28/97",
+                    "hazard_ratio": "0.72",
+                    "confidence_interval": "(0.41, 1.25)",
+                    "p_value": "0.24",
+                    "test_for_proportional_hazards": "0.15",
+                    "heterogeneity_p_value": "0.63",
+                    "primary_endpoint": "death from any cause over the first 12 months after randomization",
+                    "analysis_method": "Cox proportional hazards regression model",
+                    "effect_measure": "hazard ratio comparing dexamethasone vs. placebo",
+                    "time_transformation": "Kaplan-Meier",
+                    "covariates": "TBM MRC severity grade at enrolment"
+                },
+                "measures": "[hazard_ratio, confidence_interval, p_value]",
+                "outcomes": "[0.72, (0.41, 1.25), 0.24]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Modified MRC grade",
+                    "Grade": "I",
+                    "Deaths (Dexamethasone)": "22/99",
+                    "Deaths (Placebo)": "28/97",
+                    "Method": "Subgroup Cox model"
+                },
+                "measures": "[Hazard Ratio, 95% CI, P value, Test for proportional hazards, P-value for heterogeneity]",
+                "outcomes": "[0.72, 0.41-1.25, 0.24, 0.15, 0.63]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "modified MRC grade",
+                    "subgroup": "Grade II",
+                    "treatment": "dexamethasone",
+                    "control": "placebo",
+                    "deaths_dexamethasone": "60/125",
+                    "deaths_placebo": "68/126",
+                    "hazard_ratio": "0.82",
+                    "confidence_interval": "(0.58, 1.16)",
+                    "p_value": "0.27",
+                    "test_for_proportional_hazards": "0.57",
+                    "heterogeneity_p_value": "0.63",
+                    "primary_endpoint": "death from any cause over the first 12 months after randomization",
+                    "analysis_method": "Cox proportional hazards regression model",
+                    "effect_measure": "hazard ratio comparing dexamethasone vs. placebo",
+                    "time_transformation": "Kaplan-Meier",
+                    "covariates": "TBM MRC severity grade at enrolment"
+                },
+                "measures": "[hazard_ratio, confidence_interval, p_value]",
+                "outcomes": "[0.82, (0.58, 1.16), 0.27]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Modified MRC grade",
+                    "Grade": "II",
+                    "Deaths (Dexamethasone)": "60/125",
+                    "Deaths (Placebo)": "68/126",
+                    "Method": "Subgroup Cox model"
+                },
+                "measures": "[Hazard Ratio, 95% CI, P value, Test for proportional hazards, P-value for heterogeneity]",
+                "outcomes": "[0.82, 0.58-1.16, 0.27, 0.30, 0.63]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "modified MRC grade",
+                    "subgroup": "Grade III",
+                    "treatment": "dexamethasone",
+                    "control": "placebo",
+                    "deaths_dexamethasone": "34/39",
+                    "deaths_placebo": "30/34",
+                    "hazard_ratio": "1.11",
+                    "confidence_interval": "(0.70, 1.77)",
+                    "p_value": "0.65",
+                    "test_for_proportional_hazards": "0.89",
+                    "heterogeneity_p_value": "0.63",
+                    "primary_endpoint": "death from any cause over the first 12 months after randomization",
+                    "analysis_method": "Cox proportional hazards regression model",
+                    "effect_measure": "hazard ratio comparing dexamethasone vs. placebo",
+                    "time_transformation": "Kaplan-Meier",
+                    "covariates": "TBM MRC severity grade at enrolment"
+                },
+                "measures": "[hazard_ratio, confidence_interval, p_value]",
+                "outcomes": "[1.11, (0.70, 1.77), 0.65]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Modified MRC grade",
+                    "Grade": "III",
+                    "Deaths (Dexamethasone)": "34/39",
+                    "Deaths (Placebo)": "30/34",
+                    "Method": "Subgroup Cox model"
+                },
+                "measures": "[Hazard Ratio, 95% CI, P value, Test for proportional hazards, P-value for heterogeneity]",
+                "outcomes": "[1.03, 0.63-1.69, 0.90, 0.92, 0.63]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "modified MRC grade",
+                    "subgroup": "Grade III",
+                    "treatment": "dexamethasone",
+                    "control": "placebo",
+                    "deaths_dexamethasone": "34/39",
+                    "deaths_placebo": "30/34",
+                    "hazard_ratio": "1.11",
+                    "confidence_interval": "(0.70, 1.77)",
+                    "p_value": "0.65",
+                    "test_for_proportional_hazards": "0.89",
+                    "heterogeneity_p_value": "0.63",
+                    "primary_endpoint": "death from any cause over the first 12 months after randomization",
+                    "analysis_method": "Cox proportional hazards regression model",
+                    "effect_measure": "hazard ratio comparing dexamethasone vs. placebo",
+                    "time_transformation": "Kaplan-Meier",
+                    "covariates": "TBM MRC severity grade at enrolment"
+                },
+                "measures": "[hazard_ratio, confidence_interval, p_value]",
+                "outcomes": "[1.11, (0.70, 1.77), 0.65]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Diagnostic category",
+                    "Category": "Definite TBM",
+                    "Deaths (Dexamethasone)": "48/108",
+                    "Deaths (Placebo)": "49/104",
+                    "Method": "Subgroup Cox model"
+                },
+                "measures": "[Hazard Ratio, 95% CI, P valu, Test for proportional hazards, P-value for heterogeneity]",
+                "outcomes": "[0.90, 0.61-1.35, 0.62, 0.54, 0.63]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "modified MRC grade",
+                    "subgroup": "Grade III",
+                    "treatment": "dexamethasone",
+                    "control": "placebo",
+                    "deaths_dexamethasone": "34/39",
+                    "deaths_placebo": "30/34",
+                    "hazard_ratio": "1.11",
+                    "confidence_interval": "(0.70, 1.77)",
+                    "p_value": "0.65",
+                    "test_for_proportional_hazards": "0.89",
+                    "heterogeneity_p_value": "0.63",
+                    "primary_endpoint": "death from any cause over the first 12 months after randomization",
+                    "analysis_method": "Cox proportional hazards regression model",
+                    "effect_measure": "hazard ratio comparing dexamethasone vs. placebo",
+                    "time_transformation": "Kaplan-Meier",
+                    "covariates": "TBM MRC severity grade at enrolment"
+                },
+                "measures": "[hazard_ratio, confidence_interval, p_value]",
+                "outcomes": "[1.11, (0.70, 1.77), 0.65]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Diagnostic category",
+                    "Category": "Probable TBM",
+                    "Deaths (Dexamethasone)": "61/129",
+                    "Deaths (Placebo)": "61/124",
+                    "Method": "Subgroup Cox model"
+                },
+                "measures": "[Hazard Ratio, 95% CI, P value, Test for proportional hazards, P-value for heterogeneity]",
+                "outcomes": "[0.91, 0.64-1.30, 0.61, 0.17, 0.15]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "modified MRC grade",
+                    "subgroup": "Grade III",
+                    "treatment": "dexamethasone",
+                    "control": "placebo",
+                    "deaths_dexamethasone": "34/39",
+                    "deaths_placebo": "30/34",
+                    "hazard_ratio": "1.11",
+                    "confidence_interval": "(0.70, 1.77)",
+                    "p_value": "0.65",
+                    "test_for_proportional_hazards": "0.89",
+                    "heterogeneity_p_value": "0.63",
+                    "primary_endpoint": "death from any cause over the first 12 months after randomization",
+                    "analysis_method": "Cox proportional hazards regression model",
+                    "effect_measure": "hazard ratio comparing dexamethasone vs. placebo",
+                    "time_transformation": "Kaplan-Meier",
+                    "covariates": "TBM MRC severity grade at enrolment"
+                },
+                "measures": "[hazard_ratio, confidence_interval, p_value]",
+                "outcomes": "[1.11, (0.70, 1.77), 0.65]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Diagnostic category",
+                    "Category": "Possible TBM",
+                    "Deaths (Dexamethasone)": "61/129",
+                    "Deaths (Placebo)": "61/124",
+                    "Method": "Subgroup Cox model"
+                },
+                "measures": "[Hazard Ratio, 95% CI, P value, Test for proportional hazards, P-value for heterogeneity]",
+                "outcomes": "[0.34, 0.66-1.63, 0.04, 0.08, 0.15]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "modified MRC grade",
+                    "subgroup": "Grade III",
+                    "treatment": "dexamethasone",
+                    "control": "placebo",
+                    "deaths_dexamethasone": "34/39",
+                    "deaths_placebo": "30/34",
+                    "hazard_ratio": "1.11",
+                    "confidence_interval": "(0.70, 1.77)",
+                    "p_value": "0.65",
+                    "test_for_proportional_hazards": "0.89",
+                    "heterogeneity_p_value": "0.63",
+                    "primary_endpoint": "death from any cause over the first 12 months after randomization",
+                    "analysis_method": "Cox proportional hazards regression model",
+                    "effect_measure": "hazard ratio comparing dexamethasone vs. placebo",
+                    "time_transformation": "Kaplan-Meier",
+                    "covariates": "TBM MRC severity grade at enrolment"
+                },
+                "measures": "[hazard_ratio, confidence_interval, p_value]",
+                "outcomes": "[1.11, (0.70, 1.77), 0.65]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Leukotriene A4 hydrolase genotype",
+                    "genotype": "TT",
+                    "Deaths (Dexamethasone)": "12/25",
+                    "Deaths (Placebo)": "11/26",
+                    "Method": "Subgroup Cox model"
+                },
+                "measures": "[Hazard Ratio, 95% CI, P value, Test for proportional hazards, P-value for heterogeneity]",
+                "outcomes": "[1.06, 0.47-2.41, 0.88,0.17, 0.40]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "modified MRC grade",
+                    "subgroup": "Grade III",
+                    "treatment": "dexamethasone",
+                    "control": "placebo",
+                    "deaths_dexamethasone": "34/39",
+                    "deaths_placebo": "30/34",
+                    "hazard_ratio": "1.11",
+                    "confidence_interval": "(0.70, 1.77)",
+                    "p_value": "0.65",
+                    "test_for_proportional_hazards": "0.89",
+                    "heterogeneity_p_value": "0.63",
+                    "primary_endpoint": "death from any cause over the first 12 months after randomization",
+                    "analysis_method": "Cox proportional hazards regression model",
+                    "effect_measure": "hazard ratio comparing dexamethasone vs. placebo",
+                    "time_transformation": "Kaplan-Meier",
+                    "covariates": "TBM MRC severity grade at enrolment"
+                },
+                "measures": "[hazard_ratio, confidence_interval, p_value]",
+                "outcomes": "[1.11, (0.70, 1.77), 0.65]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Leukotriene A4 hydrolase genotype",
+                    "genotype": "CT",
+                    "Deaths (Dexamethasone)": "49/117",
+                    "Deaths (Placebo)": "51/114",
+                    "Method": "Subgroup Cox model"
+                },
+                "measures": "[Hazard Ratio, 95% CI, P value, Test for proportional hazards, P-value for heterogeneity]",
+                "outcomes": "[0.72, 0.49-1.05, 0.09, 0.25, 0.40]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "modified MRC grade",
+                    "subgroup": "Grade III",
+                    "treatment": "dexamethasone",
+                    "control": "placebo",
+                    "deaths_dexamethasone": "34/39",
+                    "deaths_placebo": "30/34",
+                    "hazard_ratio": "1.11",
+                    "confidence_interval": "(0.70, 1.77)",
+                    "p_value": "0.65",
+                    "test_for_proportional_hazards": "0.89",
+                    "heterogeneity_p_value": "0.63",
+                    "primary_endpoint": "death from any cause over the first 12 months after randomization",
+                    "analysis_method": "Cox proportional hazards regression model",
+                    "effect_measure": "hazard ratio comparing dexamethasone vs. placebo",
+                    "time_transformation": "Kaplan-Meier",
+                    "covariates": "TBM MRC severity grade at enrolment"
+                },
+                "measures": "[hazard_ratio, confidence_interval, p_value]",
+                "outcomes": "[1.11, (0.70, 1.77), 0.65]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Leukotriene A4 hydrolase genotype",
+                    "genotype": "CC",
+                    "Deaths (Dexamethasone)": "38/84",
+                    "Deaths (Placebo)": "36/80",
+                    "Method": "Subgroup Cox model"
+                },
+                "measures": "[Hazard Ratio, 95% CI, P value, Test for proportional hazards, P-value for heterogeneity]",
+                "outcomes": "[1.04, 0.66-1.63, 0.88, 0.64, 0.40]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "modified MRC grade",
+                    "subgroup": "Grade III",
+                    "treatment": "dexamethasone",
+                    "control": "placebo",
+                    "deaths_dexamethasone": "34/39",
+                    "deaths_placebo": "30/34",
+                    "hazard_ratio": "1.11",
+                    "confidence_interval": "(0.70, 1.77)",
+                    "p_value": "0.65",
+                    "test_for_proportional_hazards": "0.89",
+                    "heterogeneity_p_value": "0.63",
+                    "primary_endpoint": "death from any cause over the first 12 months after randomization",
+                    "analysis_method": "Cox proportional hazards regression model",
+                    "effect_measure": "hazard ratio comparing dexamethasone vs. placebo",
+                    "time_transformation": "Kaplan-Meier",
+                    "covariates": "TBM MRC severity grade at enrolment"
+                },
+                "measures": "[hazard_ratio, confidence_interval, p_value]",
+                "outcomes": "[1.11, (0.70, 1.77), 0.65]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Anti-tuberculosis drug resistance",
+                    "Drug resistance": "MDR or rifampin mono-resistant",
+                    "Deaths (Dexamethasone)": "7/10",
+                    "Deaths (Placebo)": "5/6",
+                    "Method": "Subgroup Cox model"
+                },
+                "measures": "[Hazard Ratio, 95% CI, P value, Test for proportional hazards, P-value for heterogeneity]",
+                "outcomes": "[0.66, 0.21-2.11, 0.48, 0.92, 0.15]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "modified MRC grade",
+                    "subgroup": "Grade III",
+                    "treatment": "dexamethasone",
+                    "control": "placebo",
+                    "deaths_dexamethasone": "34/39",
+                    "deaths_placebo": "30/34",
+                    "hazard_ratio": "1.11",
+                    "confidence_interval": "(0.70, 1.77)",
+                    "p_value": "0.65",
+                    "test_for_proportional_hazards": "0.89",
+                    "heterogeneity_p_value": "0.63",
+                    "primary_endpoint": "death from any cause over the first 12 months after randomization",
+                    "analysis_method": "Cox proportional hazards regression model",
+                    "effect_measure": "hazard ratio comparing dexamethasone vs. placebo",
+                    "time_transformation": "Kaplan-Meier",
+                    "covariates": "TBM MRC severity grade at enrolment"
+                },
+                "measures": "[hazard_ratio, confidence_interval, p_value]",
+                "outcomes": "[1.11, (0.70, 1.77), 0.65]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Anti-tuberculosis drug resistance",
+                    "Drug resistance": "Isoniazid-resistant non-MDR",
+                    "Deaths (Dexamethasone)": "6/14",
+                    "Deaths (Placebo)": "13/20",
+                    "Method": "Subgroup Cox model"
+                },
+                "measures": "[Hazard Ratio, 95% CI, P value, Test for proportional hazards, P-value for heterogeneity]",
+                "outcomes": "[0.56, 0.21-1.49, 0.25, 0.76, 0.37]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "modified MRC grade",
+                    "subgroup": "Grade III",
+                    "treatment": "dexamethasone",
+                    "control": "placebo",
+                    "deaths_dexamethasone": "34/39",
+                    "deaths_placebo": "30/34",
+                    "hazard_ratio": "1.11",
+                    "confidence_interval": "(0.70, 1.77)",
+                    "p_value": "0.65",
+                    "test_for_proportional_hazards": "0.89",
+                    "heterogeneity_p_value": "0.63",
+                    "primary_endpoint": "death from any cause over the first 12 months after randomization",
+                    "analysis_method": "Cox proportional hazards regression model",
+                    "effect_measure": "hazard ratio comparing dexamethasone vs. placebo",
+                    "time_transformation": "Kaplan-Meier",
+                    "covariates": "TBM MRC severity grade at enrolment"
+                },
+                "measures": "[hazard_ratio, confidence_interval, p_value]",
+                "outcomes": "[1.11, (0.70, 1.77), 0.65]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Anti-tuberculosis drug resistance",
+                    "Drug resistance": "No or other resistance",
+                    "Deaths (Dexamethasone)": "22/52",
+                    "Deaths (Placebo)": "13/45",
+                    "Method": "Subgroup Cox model"
+                },
+                "measures": "[Hazard Ratio, 95% CI, P value, Test for proportional hazards, P-value for heterogeneity]",
+                "outcomes": "[1.58, 0.79-3.13, 0.19, 0.37, 0.15]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "modified MRC grade",
+                    "subgroup": "Grade III",
+                    "treatment": "dexamethasone",
+                    "control": "placebo",
+                    "deaths_dexamethasone": "34/39",
+                    "deaths_placebo": "30/34",
+                    "hazard_ratio": "1.11",
+                    "confidence_interval": "(0.70, 1.77)",
+                    "p_value": "0.65",
+                    "test_for_proportional_hazards": "0.89",
+                    "heterogeneity_p_value": "0.63",
+                    "primary_endpoint": "death from any cause over the first 12 months after randomization",
+                    "analysis_method": "Cox proportional hazards regression model",
+                    "effect_measure": "hazard ratio comparing dexamethasone vs. placebo",
+                    "time_transformation": "Kaplan-Meier",
+                    "covariates": "TBM MRC severity grade at enrolment"
+                },
+                "measures": "[hazard_ratio, confidence_interval, p_value]",
+                "outcomes": "[1.11, (0.70, 1.77), 0.65]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Art status on enrollment",
+                    "Status": "ART naive",
+                    "Deaths (Dexamethasone)": "64/133",
+                    "Deaths (Placebo)": "64/122",
+                    "Method": "Subgroup Cox model"
+                },
+                "measures": "[Hazard Ratio, 95% CI, P value, Test for proportional hazards, P-value for heterogeneity]",
+                "outcomes": "[0.85, 0.60-1.21, 0.37, 0.20, 0.91]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "modified MRC grade",
+                    "subgroup": "Grade III",
+                    "treatment": "dexamethasone",
+                    "control": "placebo",
+                    "deaths_dexamethasone": "34/39",
+                    "deaths_placebo": "30/34",
+                    "hazard_ratio": "1.11",
+                    "confidence_interval": "(0.70, 1.77)",
+                    "p_value": "0.65",
+                    "test_for_proportional_hazards": "0.89",
+                    "heterogeneity_p_value": "0.63",
+                    "primary_endpoint": "death from any cause over the first 12 months after randomization",
+                    "analysis_method": "Cox proportional hazards regression model",
+                    "effect_measure": "hazard ratio comparing dexamethasone vs. placebo",
+                    "time_transformation": "Kaplan-Meier",
+                    "covariates": "TBM MRC severity grade at enrolment"
+                },
+                "measures": "[hazard_ratio, confidence_interval, p_value]",
+                "outcomes": "[1.11, (0.70, 1.77), 0.65]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Art status on enrollment",
+                    "Status": ">3 months of ART",
+                    "Deaths (Dexamethasone)": "20/46",
+                    "Deaths (Placebo)": "26/58",
+                    "Method": "Subgroup Cox model"
+                },
+                "measures": "[Hazard Ratio, 95% CI, P value, Test for proportional hazards, P-value for heterogeneity]",
+                "outcomes": "[0.96, 0.54-1.72, 0.89, 0.83, 0.91]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "modified MRC grade",
+                    "subgroup": "Grade III",
+                    "treatment": "dexamethasone",
+                    "control": "placebo",
+                    "deaths_dexamethasone": "34/39",
+                    "deaths_placebo": "30/34",
+                    "hazard_ratio": "1.11",
+                    "confidence_interval": "(0.70, 1.77)",
+                    "p_value": "0.65",
+                    "test_for_proportional_hazards": "0.89",
+                    "heterogeneity_p_value": "0.63",
+                    "primary_endpoint": "death from any cause over the first 12 months after randomization",
+                    "analysis_method": "Cox proportional hazards regression model",
+                    "effect_measure": "hazard ratio comparing dexamethasone vs. placebo",
+                    "time_transformation": "Kaplan-Meier",
+                    "covariates": "TBM MRC severity grade at enrolment"
+                },
+                "measures": "[hazard_ratio, confidence_interval, p_value]",
+                "outcomes": "[1.11, (0.70, 1.77), 0.65]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Art status on enrollment",
+                    "Status": "Undetermined ART duration",
+                    "Deaths (Dexamethasone)": "19/58",
+                    "Deaths (Placebo)": "19/48",
+                    "Method": "Subgroup Cox model"
+                },
+                "measures": "[Hazard Ratio, 95% CI, P value, Test for proportional hazards, P-value for heterogeneity]",
+                "outcomes": "[0.80, 0.42-1.51, 0.49, 0.95, 0.91]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "modified MRC grade",
+                    "subgroup": "Grade III",
+                    "treatment": "dexamethasone",
+                    "control": "placebo",
+                    "deaths_dexamethasone": "34/39",
+                    "deaths_placebo": "30/34",
+                    "hazard_ratio": "1.11",
+                    "confidence_interval": "(0.70, 1.77)",
+                    "p_value": "0.65",
+                    "test_for_proportional_hazards": "0.89",
+                    "heterogeneity_p_value": "0.63",
+                    "primary_endpoint": "death from any cause over the first 12 months after randomization",
+                    "analysis_method": "Cox proportional hazards regression model",
+                    "effect_measure": "hazard ratio comparing dexamethasone vs. placebo",
+                    "time_transformation": "Kaplan-Meier",
+                    "covariates": "TBM MRC severity grade at enrolment"
+                },
+                "measures": "[hazard_ratio, confidence_interval, p_value]",
+                "outcomes": "[1.11, (0.70, 1.77), 0.65]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Enrolment CD4 count (per mm3)",
+                    "CD4 count": "\u226450",
+                    "Deaths (Dexamethasone)": "67/126",
+                    "Deaths (Placebo)": "67/125",
+                    "Method": "Subgroup Cox model"
+                },
+                "measures": "[Hazard Ratio, 95% CI, P valueTest for proportional hazards, P-value for heterogeneity]",
+                "outcomes": "[0.96, 0.69-1.35, 0.87, 0.95, 0.91]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "modified MRC grade",
+                    "subgroup": "Grade III",
+                    "treatment": "dexamethasone",
+                    "control": "placebo",
+                    "deaths_dexamethasone": "34/39",
+                    "deaths_placebo": "30/34",
+                    "hazard_ratio": "1.11",
+                    "confidence_interval": "(0.70, 1.77)",
+                    "p_value": "0.65",
+                    "test_for_proportional_hazards": "0.89",
+                    "heterogeneity_p_value": "0.63",
+                    "primary_endpoint": "death from any cause over the first 12 months after randomization",
+                    "analysis_method": "Cox proportional hazards regression model",
+                    "effect_measure": "hazard ratio comparing dexamethasone vs. placebo",
+                    "time_transformation": "Kaplan-Meier",
+                    "covariates": "TBM MRC severity grade at enrolment"
+                },
+                "measures": "[hazard_ratio, confidence_interval, p_value]",
+                "outcomes": "[1.11, (0.70, 1.77), 0.65]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Enrolment CD4 count (per mm3)",
+                    "CD4 count": "51-100",
+                    "Deaths (Dexamethasone)": "12/45",
+                    "Deaths (Placebo)": "19/44",
+                    "Method": "Subgroup Cox model"
+                },
+                "measures": "[Hazard Ratio, 95% CI, P value, Test for proportional hazards, P-value for heterogeneity]",
+                "outcomes": "[0.52, 0.23-1.06, 0.07, 0.22, 0.41]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "modified MRC grade",
+                    "subgroup": "Grade III",
+                    "treatment": "dexamethasone",
+                    "control": "placebo",
+                    "deaths_dexamethasone": "34/39",
+                    "deaths_placebo": "30/34",
+                    "hazard_ratio": "1.11",
+                    "confidence_interval": "(0.70, 1.77)",
+                    "p_value": "0.65",
+                    "test_for_proportional_hazards": "0.89",
+                    "heterogeneity_p_value": "0.63",
+                    "primary_endpoint": "death from any cause over the first 12 months after randomization",
+                    "analysis_method": "Cox proportional hazards regression model",
+                    "effect_measure": "hazard ratio comparing dexamethasone vs. placebo",
+                    "time_transformation": "Kaplan-Meier",
+                    "covariates": "TBM MRC severity grade at enrolment"
+                },
+                "measures": "[hazard_ratio, confidence_interval, p_value]",
+                "outcomes": "[1.11, (0.70, 1.77), 0.65]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Enrolment CD4 count (per mm3)",
+                    "CD4 count": "101-200",
+                    "Deaths (Dexamethasone)": "14/36",
+                    "Deaths (Placebo)": "13/35",
+                    "Method": "Subgroup Cox model"
+                },
+                "measures": "[Hazard Ratio, 95% CI, P value, Test for proportional hazards, P-value for heterogeneity]",
+                "outcomes": "[1.24, 0.49-3.22, 0.65, 0.11, 0.41]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "modified MRC grade",
+                    "subgroup": "Grade III",
+                    "treatment": "dexamethasone",
+                    "control": "placebo",
+                    "deaths_dexamethasone": "34/39",
+                    "deaths_placebo": "30/34",
+                    "hazard_ratio": "1.11",
+                    "confidence_interval": "(0.70, 1.77)",
+                    "p_value": "0.65",
+                    "test_for_proportional_hazards": "0.89",
+                    "heterogeneity_p_value": "0.63",
+                    "primary_endpoint": "death from any cause over the first 12 months after randomization",
+                    "analysis_method": "Cox proportional hazards regression model",
+                    "effect_measure": "hazard ratio comparing dexamethasone vs. placebo",
+                    "time_transformation": "Kaplan-Meier",
+                    "covariates": "TBM MRC severity grade at enrolment"
+                },
+                "measures": "[hazard_ratio, confidence_interval, p_value]",
+                "outcomes": "[1.11, (0.70, 1.77), 0.65]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Enrolment CD4 count (per mm3)",
+                    "CD4 count": ">200",
+                    "Deaths (Dexamethasone)": "11/37",
+                    "Deaths (Placebo)": "15/36",
+                    "Method": "Subgroup Cox model"
+                },
+                "measures": "[Hazard Ratio, 95% CI, P value, Test for proportional hazards, P-value for heterogeneity]",
+                "outcomes": "[0.70, 0.32-1.52, 0.36, 0.20, 0.41]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "intention-to-treat",
+                    "analysis_method": "Cox proportional hazards regression model",
+                    "effect_measure": "hazard ratio comparing dexamethasone vs. placebo",
+                    "time_transformation": "Kaplan-Meier",
+                    "covariates": "treatment only",
+                    "heterogeneity_of_effect": "not observed",
+                    "subgroup_analysis": "pre-specified sub-groups",
+                    "primary_endpoint": "death from any cause over the first 12 months after randomization",
+                    "heterogeneity_test_method": "likelihood ratio test",
+                    "interaction_model": "treatment effect and subgroup",
+                    "subgroup_covariates": "TBM MRC severity grade at enrolment"
+                },
+                "measures": "[]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Modified MRC grade",
+                    "Grade": "III",
+                    "Deaths (Dexamethasone)": "34/39",
+                    "Deaths (Placebo)": "30/34",
+                    "Method": "Subgroup Cox model"
+                },
+                "measures": "[Hazard Ratio, 95% CI, P value, Test for proportional hazards, P-value for heterogeneity]",
+                "outcomes": "[1.03, 0.63-1.69, 0.90, 0.92, 0.63]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "intention-to-treat",
+                    "analysis_method": "Cox proportional hazards regression model",
+                    "effect_measure": "hazard ratio comparing dexamethasone vs. placebo",
+                    "time_transformation": "Kaplan-Meier",
+                    "covariates": "treatment only",
+                    "heterogeneity_of_effect": "not observed",
+                    "subgroup_analysis": "pre-specified sub-groups",
+                    "primary_endpoint": "death from any cause over the first 12 months after randomization",
+                    "heterogeneity_test_method": "likelihood ratio test",
+                    "interaction_model": "treatment effect and subgroup",
+                    "subgroup_covariates": "TBM MRC severity grade at enrolment"
+                },
+                "measures": "[]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Diagnostic category",
+                    "Category": "Definite TBM",
+                    "Deaths (Dexamethasone)": "48/108",
+                    "Deaths (Placebo)": "49/104",
+                    "Method": "Subgroup Cox model"
+                },
+                "measures": "[Hazard Ratio, 95% CI, P valu, Test for proportional hazards, P-value for heterogeneity]",
+                "outcomes": "[0.90, 0.61-1.35, 0.62, 0.54, 0.63]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "intention-to-treat",
+                    "analysis_method": "Cox proportional hazards regression model",
+                    "effect_measure": "hazard ratio comparing dexamethasone vs. placebo",
+                    "time_transformation": "Kaplan-Meier",
+                    "covariates": "treatment only",
+                    "heterogeneity_of_effect": "not observed",
+                    "subgroup_analysis": "pre-specified sub-groups",
+                    "primary_endpoint": "death from any cause over the first 12 months after randomization",
+                    "heterogeneity_test_method": "likelihood ratio test",
+                    "interaction_model": "treatment effect and subgroup",
+                    "subgroup_covariates": "TBM MRC severity grade at enrolment"
+                },
+                "measures": "[]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Diagnostic category",
+                    "Category": "Probable TBM",
+                    "Deaths (Dexamethasone)": "61/129",
+                    "Deaths (Placebo)": "61/124",
+                    "Method": "Subgroup Cox model"
+                },
+                "measures": "[Hazard Ratio, 95% CI, P value, Test for proportional hazards, P-value for heterogeneity]",
+                "outcomes": "[0.91, 0.64-1.30, 0.61, 0.17, 0.15]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "intention-to-treat",
+                    "analysis_method": "Cox proportional hazards regression model",
+                    "effect_measure": "hazard ratio comparing dexamethasone vs. placebo",
+                    "time_transformation": "Kaplan-Meier",
+                    "covariates": "treatment only",
+                    "heterogeneity_of_effect": "not observed",
+                    "subgroup_analysis": "pre-specified sub-groups",
+                    "primary_endpoint": "death from any cause over the first 12 months after randomization",
+                    "heterogeneity_test_method": "likelihood ratio test",
+                    "interaction_model": "treatment effect and subgroup",
+                    "subgroup_covariates": "TBM MRC severity grade at enrolment"
+                },
+                "measures": "[]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Diagnostic category",
+                    "Category": "Possible TBM",
+                    "Deaths (Dexamethasone)": "61/129",
+                    "Deaths (Placebo)": "61/124",
+                    "Method": "Subgroup Cox model"
+                },
+                "measures": "[Hazard Ratio, 95% CI, P value, Test for proportional hazards, P-value for heterogeneity]",
+                "outcomes": "[0.34, 0.66-1.63, 0.04, 0.08, 0.15]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "intention-to-treat",
+                    "analysis_method": "Cox proportional hazards regression model",
+                    "effect_measure": "hazard ratio comparing dexamethasone vs. placebo",
+                    "time_transformation": "Kaplan-Meier",
+                    "covariates": "treatment only",
+                    "heterogeneity_of_effect": "not observed",
+                    "subgroup_analysis": "pre-specified sub-groups",
+                    "primary_endpoint": "death from any cause over the first 12 months after randomization",
+                    "heterogeneity_test_method": "likelihood ratio test",
+                    "interaction_model": "treatment effect and subgroup",
+                    "subgroup_covariates": "TBM MRC severity grade at enrolment"
+                },
+                "measures": "[]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Leukotriene A4 hydrolase genotype",
+                    "genotype": "TT",
+                    "Deaths (Dexamethasone)": "12/25",
+                    "Deaths (Placebo)": "11/26",
+                    "Method": "Subgroup Cox model"
+                },
+                "measures": "[Hazard Ratio, 95% CI, P value, Test for proportional hazards, P-value for heterogeneity]",
+                "outcomes": "[1.06, 0.47-2.41, 0.88,0.17, 0.40]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "intention-to-treat",
+                    "analysis_method": "Cox proportional hazards regression model",
+                    "effect_measure": "hazard ratio comparing dexamethasone vs. placebo",
+                    "time_transformation": "Kaplan-Meier",
+                    "covariates": "treatment only",
+                    "heterogeneity_of_effect": "not observed",
+                    "subgroup_analysis": "pre-specified sub-groups",
+                    "primary_endpoint": "death from any cause over the first 12 months after randomization",
+                    "heterogeneity_test_method": "likelihood ratio test",
+                    "interaction_model": "treatment effect and subgroup",
+                    "subgroup_covariates": "TBM MRC severity grade at enrolment"
+                },
+                "measures": "[]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Leukotriene A4 hydrolase genotype",
+                    "genotype": "CT",
+                    "Deaths (Dexamethasone)": "49/117",
+                    "Deaths (Placebo)": "51/114",
+                    "Method": "Subgroup Cox model"
+                },
+                "measures": "[Hazard Ratio, 95% CI, P value, Test for proportional hazards, P-value for heterogeneity]",
+                "outcomes": "[0.72, 0.49-1.05, 0.09, 0.25, 0.40]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "intention-to-treat",
+                    "analysis_method": "Cox proportional hazards regression model",
+                    "effect_measure": "hazard ratio comparing dexamethasone vs. placebo",
+                    "time_transformation": "Kaplan-Meier",
+                    "covariates": "treatment only",
+                    "heterogeneity_of_effect": "not observed",
+                    "subgroup_analysis": "pre-specified sub-groups",
+                    "primary_endpoint": "death from any cause over the first 12 months after randomization",
+                    "heterogeneity_test_method": "likelihood ratio test",
+                    "interaction_model": "treatment effect and subgroup",
+                    "subgroup_covariates": "TBM MRC severity grade at enrolment"
+                },
+                "measures": "[]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Leukotriene A4 hydrolase genotype",
+                    "genotype": "CC",
+                    "Deaths (Dexamethasone)": "38/84",
+                    "Deaths (Placebo)": "36/80",
+                    "Method": "Subgroup Cox model"
+                },
+                "measures": "[Hazard Ratio, 95% CI, P value, Test for proportional hazards, P-value for heterogeneity]",
+                "outcomes": "[1.04, 0.66-1.63, 0.88, 0.64, 0.40]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "intention-to-treat",
+                    "analysis_method": "Cox proportional hazards regression model",
+                    "effect_measure": "hazard ratio comparing dexamethasone vs. placebo",
+                    "time_transformation": "Kaplan-Meier",
+                    "covariates": "treatment only",
+                    "heterogeneity_of_effect": "not observed",
+                    "subgroup_analysis": "pre-specified sub-groups",
+                    "primary_endpoint": "death from any cause over the first 12 months after randomization",
+                    "heterogeneity_test_method": "likelihood ratio test",
+                    "interaction_model": "treatment effect and subgroup",
+                    "subgroup_covariates": "TBM MRC severity grade at enrolment"
+                },
+                "measures": "[]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Anti-tuberculosis drug resistance",
+                    "Drug resistance": "MDR or rifampin mono-resistant",
+                    "Deaths (Dexamethasone)": "7/10",
+                    "Deaths (Placebo)": "5/6",
+                    "Method": "Subgroup Cox model"
+                },
+                "measures": "[Hazard Ratio, 95% CI, P value, Test for proportional hazards, P-value for heterogeneity]",
+                "outcomes": "[0.66, 0.21-2.11, 0.48, 0.92, 0.15]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "intention-to-treat",
+                    "analysis_method": "Cox proportional hazards regression model",
+                    "effect_measure": "hazard ratio comparing dexamethasone vs. placebo",
+                    "time_transformation": "Kaplan-Meier",
+                    "covariates": "treatment only",
+                    "heterogeneity_of_effect": "not observed",
+                    "subgroup_analysis": "pre-specified sub-groups",
+                    "primary_endpoint": "death from any cause over the first 12 months after randomization",
+                    "heterogeneity_test_method": "likelihood ratio test",
+                    "interaction_model": "treatment effect and subgroup",
+                    "subgroup_covariates": "TBM MRC severity grade at enrolment"
+                },
+                "measures": "[]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Anti-tuberculosis drug resistance",
+                    "Drug resistance": "Isoniazid-resistant non-MDR",
+                    "Deaths (Dexamethasone)": "6/14",
+                    "Deaths (Placebo)": "13/20",
+                    "Method": "Subgroup Cox model"
+                },
+                "measures": "[Hazard Ratio, 95% CI, P value, Test for proportional hazards, P-value for heterogeneity]",
+                "outcomes": "[0.56, 0.21-1.49, 0.25, 0.76, 0.37]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "intention-to-treat",
+                    "analysis_method": "Cox proportional hazards regression model",
+                    "effect_measure": "hazard ratio comparing dexamethasone vs. placebo",
+                    "time_transformation": "Kaplan-Meier",
+                    "covariates": "treatment only",
+                    "heterogeneity_of_effect": "not observed",
+                    "subgroup_analysis": "pre-specified sub-groups",
+                    "primary_endpoint": "death from any cause over the first 12 months after randomization",
+                    "heterogeneity_test_method": "likelihood ratio test",
+                    "interaction_model": "treatment effect and subgroup",
+                    "subgroup_covariates": "TBM MRC severity grade at enrolment"
+                },
+                "measures": "[]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Anti-tuberculosis drug resistance",
+                    "Drug resistance": "No or other resistance",
+                    "Deaths (Dexamethasone)": "22/52",
+                    "Deaths (Placebo)": "13/45",
+                    "Method": "Subgroup Cox model"
+                },
+                "measures": "[Hazard Ratio, 95% CI, P value, Test for proportional hazards, P-value for heterogeneity]",
+                "outcomes": "[1.58, 0.79-3.13, 0.19, 0.37, 0.15]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "intention-to-treat",
+                    "analysis_method": "Cox proportional hazards regression model",
+                    "effect_measure": "hazard ratio comparing dexamethasone vs. placebo",
+                    "time_transformation": "Kaplan-Meier",
+                    "covariates": "treatment only",
+                    "heterogeneity_of_effect": "not observed",
+                    "subgroup_analysis": "pre-specified sub-groups",
+                    "primary_endpoint": "death from any cause over the first 12 months after randomization",
+                    "heterogeneity_test_method": "likelihood ratio test",
+                    "interaction_model": "treatment effect and subgroup",
+                    "subgroup_covariates": "TBM MRC severity grade at enrolment"
+                },
+                "measures": "[]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Art status on enrollment",
+                    "Status": "ART naive",
+                    "Deaths (Dexamethasone)": "64/133",
+                    "Deaths (Placebo)": "64/122",
+                    "Method": "Subgroup Cox model"
+                },
+                "measures": "[Hazard Ratio, 95% CI, P value, Test for proportional hazards, P-value for heterogeneity]",
+                "outcomes": "[0.85, 0.60-1.21, 0.37, 0.20, 0.91]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "intention-to-treat",
+                    "analysis_method": "Cox proportional hazards regression model",
+                    "effect_measure": "hazard ratio comparing dexamethasone vs. placebo",
+                    "time_transformation": "Kaplan-Meier",
+                    "covariates": "treatment only",
+                    "heterogeneity_of_effect": "not observed",
+                    "subgroup_analysis": "pre-specified sub-groups",
+                    "primary_endpoint": "death from any cause over the first 12 months after randomization",
+                    "heterogeneity_test_method": "likelihood ratio test",
+                    "interaction_model": "treatment effect and subgroup",
+                    "subgroup_covariates": "TBM MRC severity grade at enrolment"
+                },
+                "measures": "[]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Art status on enrollment",
+                    "Status": ">3 months of ART",
+                    "Deaths (Dexamethasone)": "20/46",
+                    "Deaths (Placebo)": "26/58",
+                    "Method": "Subgroup Cox model"
+                },
+                "measures": "[Hazard Ratio, 95% CI, P value, Test for proportional hazards, P-value for heterogeneity]",
+                "outcomes": "[0.96, 0.54-1.72, 0.89, 0.83, 0.91]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "intention-to-treat",
+                    "analysis_method": "Cox proportional hazards regression model",
+                    "effect_measure": "hazard ratio comparing dexamethasone vs. placebo",
+                    "time_transformation": "Kaplan-Meier",
+                    "covariates": "treatment only",
+                    "heterogeneity_of_effect": "not observed",
+                    "subgroup_analysis": "pre-specified sub-groups",
+                    "primary_endpoint": "death from any cause over the first 12 months after randomization",
+                    "heterogeneity_test_method": "likelihood ratio test",
+                    "interaction_model": "treatment effect and subgroup",
+                    "subgroup_covariates": "TBM MRC severity grade at enrolment"
+                },
+                "measures": "[]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Art status on enrollment",
+                    "Status": "Undetermined ART duration",
+                    "Deaths (Dexamethasone)": "19/58",
+                    "Deaths (Placebo)": "19/48",
+                    "Method": "Subgroup Cox model"
+                },
+                "measures": "[Hazard Ratio, 95% CI, P value, Test for proportional hazards, P-value for heterogeneity]",
+                "outcomes": "[0.80, 0.42-1.51, 0.49, 0.95, 0.91]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "intention-to-treat",
+                    "analysis_method": "Cox proportional hazards regression model",
+                    "effect_measure": "hazard ratio comparing dexamethasone vs. placebo",
+                    "time_transformation": "Kaplan-Meier",
+                    "covariates": "treatment only",
+                    "heterogeneity_of_effect": "not observed",
+                    "subgroup_analysis": "pre-specified sub-groups",
+                    "primary_endpoint": "death from any cause over the first 12 months after randomization",
+                    "heterogeneity_test_method": "likelihood ratio test",
+                    "interaction_model": "treatment effect and subgroup",
+                    "subgroup_covariates": "TBM MRC severity grade at enrolment"
+                },
+                "measures": "[]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Enrolment CD4 count (per mm3)",
+                    "CD4 count": "\u226450",
+                    "Deaths (Dexamethasone)": "67/126",
+                    "Deaths (Placebo)": "67/125",
+                    "Method": "Subgroup Cox model"
+                },
+                "measures": "[Hazard Ratio, 95% CI, P valueTest for proportional hazards, P-value for heterogeneity]",
+                "outcomes": "[0.96, 0.69-1.35, 0.87, 0.95, 0.91]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "intention-to-treat",
+                    "analysis_method": "Cox proportional hazards regression model",
+                    "effect_measure": "hazard ratio comparing dexamethasone vs. placebo",
+                    "time_transformation": "Kaplan-Meier",
+                    "covariates": "treatment only",
+                    "heterogeneity_of_effect": "not observed",
+                    "subgroup_analysis": "pre-specified sub-groups",
+                    "primary_endpoint": "death from any cause over the first 12 months after randomization",
+                    "heterogeneity_test_method": "likelihood ratio test",
+                    "interaction_model": "treatment effect and subgroup",
+                    "subgroup_covariates": "TBM MRC severity grade at enrolment"
+                },
+                "measures": "[]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Enrolment CD4 count (per mm3)",
+                    "CD4 count": "51-100",
+                    "Deaths (Dexamethasone)": "12/45",
+                    "Deaths (Placebo)": "19/44",
+                    "Method": "Subgroup Cox model"
+                },
+                "measures": "[Hazard Ratio, 95% CI, P value, Test for proportional hazards, P-value for heterogeneity]",
+                "outcomes": "[0.52, 0.23-1.06, 0.07, 0.22, 0.41]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "intention-to-treat",
+                    "analysis_method": "Cox proportional hazards regression model",
+                    "effect_measure": "hazard ratio comparing dexamethasone vs. placebo",
+                    "time_transformation": "Kaplan-Meier",
+                    "covariates": "treatment only",
+                    "heterogeneity_of_effect": "not observed",
+                    "subgroup_analysis": "pre-specified sub-groups",
+                    "primary_endpoint": "death from any cause over the first 12 months after randomization",
+                    "heterogeneity_test_method": "likelihood ratio test",
+                    "interaction_model": "treatment effect and subgroup",
+                    "subgroup_covariates": "TBM MRC severity grade at enrolment"
+                },
+                "measures": "[]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Enrolment CD4 count (per mm3)",
+                    "CD4 count": "101-200",
+                    "Deaths (Dexamethasone)": "14/36",
+                    "Deaths (Placebo)": "13/35",
+                    "Method": "Subgroup Cox model"
+                },
+                "measures": "[Hazard Ratio, 95% CI, P value, Test for proportional hazards, P-value for heterogeneity]",
+                "outcomes": "[1.24, 0.49-3.22, 0.65, 0.11, 0.41]"
+            },
+            "match": "no"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "population": "intention-to-treat",
+                    "analysis_method": "Cox proportional hazards regression model",
+                    "effect_measure": "hazard ratio comparing dexamethasone vs. placebo",
+                    "time_transformation": "Kaplan-Meier",
+                    "covariates": "treatment only",
+                    "heterogeneity_of_effect": "not observed",
+                    "subgroup_analysis": "pre-specified sub-groups",
+                    "primary_endpoint": "death from any cause over the first 12 months after randomization",
+                    "heterogeneity_test_method": "likelihood ratio test",
+                    "interaction_model": "treatment effect and subgroup",
+                    "subgroup_covariates": "TBM MRC severity grade at enrolment"
+                },
+                "measures": "[]",
+                "outcomes": ""
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Subgroup": "Enrolment CD4 count (per mm3)",
+                    "CD4 count": ">200",
+                    "Deaths (Dexamethasone)": "11/37",
+                    "Deaths (Placebo)": "15/36",
+                    "Method": "Subgroup Cox model"
+                },
+                "measures": "[Hazard Ratio, 95% CI, P value, Test for proportional hazards, P-value for heterogeneity]",
+                "outcomes": "[0.70, 0.32-1.52, 0.36, 0.20, 0.41]"
+            },
+            "match": "no"
+        }
+    ],
+    "total_extracted_claims": 5,
+    "total_ground_truth_claims": 20,
+    "number_of_matches": 3
+}

@@ -1,0 +1,64 @@
+{
+    "matched_specifications": [
+        [
+            "analysis",
+            "association between nuclear hdac3 and cytoplasmic cdh1 expression"
+        ],
+        [
+            "nuclear hdac3 expression",
+            "high"
+        ],
+        [
+            "statistical representation",
+            "spearman correlation coefficient"
+        ]
+    ],
+    "unmatched_specifications": [
+        [
+            "tissue sample",
+            "tumor tissue sample"
+        ],
+        [
+            "cytoplasmic cdh1 expression",
+            "high"
+        ],
+        [
+            "correlation coefficient",
+            "0.440"
+        ],
+        [
+            "p-value",
+            "< 0.001"
+        ]
+    ],
+    "unmatched_extracted_keys": [
+        "p-value",
+        "correlation coefficient",
+        "cytoplasmic cdh1 expression"
+    ],
+    "unmatched_extracted_values": [
+        "tumor tissue sample",
+        "0.440",
+        "< 0.001"
+    ],
+    "unmatched_ground_truth_keys": [
+        "tumor tissue sample count"
+    ],
+    "unmatched_ground_truth_values": [
+        "cytoplasmic cdh1 high",
+        "24"
+    ],
+    "mapped_keys": {
+        "analysis": "analysis",
+        "nuclear hdac3 expression": "nuclear hdac3 expression",
+        "tissue sample": "tumor tissue sample",
+        "statistical representation": "correlation measure"
+    },
+    "mapped_values": {
+        "spearman correlation coefficient": "spearman correlation coefficient",
+        "high": "high",
+        "association between nuclear hdac3 and cytoplasmic cdh1 expression": "association between nuclear hdac3 and cytoplasmic cdh1 expression"
+    },
+    "precision": 0.42857142857142855,
+    "recall": 0.6
+}

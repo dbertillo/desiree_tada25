@@ -1,0 +1,163 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "LSTM",
+                    "Dataset": "Spider",
+                    "Configuration": "same"
+                },
+                "measures": "[Inference Time]",
+                "outcomes": "[206.6]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "LSTM",
+                    "Dataset": "Spider",
+                    "Metric": "Inference time",
+                    "Unit": "seconds/per 1000 samples"
+                },
+                "measures": [
+                    "Time"
+                ],
+                "outcomes": [
+                    "206.6"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "LSTM",
+                    "Dataset": "SParC",
+                    "Configuration": "same"
+                },
+                "measures": "[Inference Time]",
+                "outcomes": "[191.5]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "LSTM",
+                    "Dataset": "SParC",
+                    "Metric": "Inference time",
+                    "Unit": "seconds/per 1000 samples"
+                },
+                "measures": [
+                    "Time"
+                ],
+                "outcomes": [
+                    "191.5"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "LSTM",
+                    "Dataset": "CoSQL",
+                    "Configuration": "same"
+                },
+                "measures": "[Inference Time]",
+                "outcomes": "[201.0]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "LSTM",
+                    "Dataset": "CoSQL",
+                    "Metric": "Inference time",
+                    "Unit": "seconds/per 1000 samples"
+                },
+                "measures": [
+                    "Time"
+                ],
+                "outcomes": [
+                    "201.0"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "ASTormer",
+                    "Dataset": "Spider",
+                    "Configuration": "same"
+                },
+                "measures": "[Inference Time]",
+                "outcomes": "[237.0]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ASTormer",
+                    "Dataset": "Spider",
+                    "Metric": "Inference time",
+                    "Unit": "seconds/per 1000 samples"
+                },
+                "measures": [
+                    "Time"
+                ],
+                "outcomes": [
+                    "237.0"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "ASTormer",
+                    "Dataset": "SParC",
+                    "Configuration": "same"
+                },
+                "measures": "[Inference Time]",
+                "outcomes": "[200.7]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ASTormer",
+                    "Dataset": "SParC",
+                    "Metric": "Inference time",
+                    "Unit": "seconds/per 1000 samples"
+                },
+                "measures": [
+                    "Time"
+                ],
+                "outcomes": [
+                    "200.7"
+                ]
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Model": "ASTormer",
+                    "Dataset": "CoSQL",
+                    "Configuration": "same"
+                },
+                "measures": "[Inference Time]",
+                "outcomes": "[199.1]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Model": "ASTormer",
+                    "Dataset": "CoSQL",
+                    "Metric": "Inference time",
+                    "Unit": "seconds/per 1000 samples"
+                },
+                "measures": [
+                    "Time"
+                ],
+                "outcomes": [
+                    "199.1"
+                ]
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 6,
+    "total_ground_truth_claims": 6,
+    "number_of_matches": 6
+}

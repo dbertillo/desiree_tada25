@@ -1,0 +1,168 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Blocking Method": "Token Blocking",
+                    "Dataset": "airports",
+                    "Link Type": "umbel:isLike",
+                    "Source": "Table IX",
+                    "Context": "Recall of the collections composed of datasets of Table III and BTC12DBpedia"
+                },
+                "measures": "[Recall]",
+                "outcomes": "[97.47]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "airports",
+                    "Link Type": "umbel:isLike",
+                    "Blocking Method": "token blocking"
+                },
+                "measures": "[Recall]",
+                "outcomes": "[97.47]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Blocking Method": "Token Blocking",
+                    "Dataset": "airlines",
+                    "Link Type": "umbel:isLike",
+                    "Source": "Table IX",
+                    "Context": "Recall of the collections composed of datasets of Table III and BTC12DBpedia"
+                },
+                "measures": "[Recall]",
+                "outcomes": "[99.75]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "airlines",
+                    "Link Type": "umbel:isLike",
+                    "Blocking Method": "token blocking"
+                },
+                "measures": "[Recall]",
+                "outcomes": "[99.75]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Blocking Method": "Token Blocking",
+                    "Dataset": "twitter",
+                    "Link Type": "dct:subject",
+                    "Source": "Table IX",
+                    "Context": "Recall of the collections composed of datasets of Table III and BTC12DBpedia"
+                },
+                "measures": "[Recall]",
+                "outcomes": "[9.52]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "twitter",
+                    "Link Type": "dct:subject",
+                    "Blocking Method": "token blocking"
+                },
+                "measures": "[Recall]",
+                "outcomes": "[9.52]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Blocking Method": "Token Blocking",
+                    "Dataset": "books",
+                    "Link Type": "dct:subject",
+                    "Source": "Table IX",
+                    "Context": "Recall of the collections composed of datasets of Table III and BTC12DBpedia"
+                },
+                "measures": "[Recall]",
+                "outcomes": "[63.55]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "books",
+                    "Link Type": "dct:subject",
+                    "Blocking Method": "token blocking"
+                },
+                "measures": "[Recall]",
+                "outcomes": "[63.55]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Blocking Method": "Token Blocking",
+                    "Dataset": "iati",
+                    "Link Type": "dct:subject",
+                    "Source": "Table IX",
+                    "Context": "Recall of the collections composed of datasets of Table III and BTC12DBpedia"
+                },
+                "measures": "[Recall]",
+                "outcomes": "[49.13]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "iati",
+                    "Link Type": "dct:subject",
+                    "Blocking Method": "token blocking"
+                },
+                "measures": "[Recall]",
+                "outcomes": "[49.13]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Blocking Method": "Token Blocking",
+                    "Dataset": "iati",
+                    "Link Type": "dct:coverage",
+                    "Source": "Table IX",
+                    "Context": "Recall of the collections composed of datasets of Table III and BTC12DBpedia"
+                },
+                "measures": "[Recall]",
+                "outcomes": "[39.46]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "iati",
+                    "Link Type": "dct:coverage",
+                    "Blocking Method": "token blocking"
+                },
+                "measures": "[Recall]",
+                "outcomes": "[39.46]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "Blocking Method": "Token Blocking",
+                    "Dataset": "www2012",
+                    "Link Type": "foaf:based_near",
+                    "Source": "Table IX",
+                    "Context": "Recall of the collections composed of datasets of Table III and BTC12DBpedia"
+                },
+                "measures": "[Recall]",
+                "outcomes": "[62.61]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Dataset": "www2012",
+                    "Link Type": "foaf:based_near",
+                    "Blocking Method": "token blocking"
+                },
+                "measures": "[Recall]",
+                "outcomes": "[62.61]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 61,
+    "total_ground_truth_claims": 7,
+    "number_of_matches": 7
+}

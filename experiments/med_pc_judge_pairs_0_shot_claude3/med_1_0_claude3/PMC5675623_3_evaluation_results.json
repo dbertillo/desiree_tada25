@@ -1,0 +1,141 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "variable": "ECOG performance status",
+                    "contrast": "> 0 vs. 0"
+                },
+                "measures": "[hazard ratio, p value]",
+                "outcomes": "[1.47 (0.90, 2.41), 0.12]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Variable": "ECOG performance status",
+                    "Contrast": "> 0 vs. 0",
+                    "Analysis Type": "multivariate Cox proportional hazards regression",
+                    "Outcome Measure": "overall survival",
+                    "Treatment Phase": "first phase I"
+                },
+                "measures": "[Hazard ratio, 95% CI, p-value]",
+                "outcomes": "[1.47, 0.90-2.41, 0.12]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "variable": "liver metastases",
+                    "contrast": "Yes vs. No"
+                },
+                "measures": "[hazard ratio, p value]",
+                "outcomes": "[1.72 (1.01, 2.91), 0.045]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Variable": "Liver metastases",
+                    "Contrast": "Yes vs. No",
+                    "Analysis Type": "multivariate Cox proportional hazards regression",
+                    "Outcome Measure": "overall survival",
+                    "Treatment Phase": "first phase I"
+                },
+                "measures": "[Hazard ratio, 95% CI, p-value]",
+                "outcomes": "[1.72, 1.01-2.91, 0.045]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "variable": "No. of metastatic sites",
+                    "contrast": ">2 vs. <= 2"
+                },
+                "measures": "[hazard ratio, p value]",
+                "outcomes": "[1.33 (0.9, 2.25), 0.28]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Variable": "No. of metastatic sites",
+                    "Contrast": ">2 vs. <= 2",
+                    "Analysis Type": "multivariate Cox proportional hazards regression",
+                    "Outcome Measure": "overall survival",
+                    "Treatment Phase": "first phase I"
+                },
+                "measures": "[Hazard ratio, 95% CI, p-value]",
+                "outcomes": "[1.33, 0.9-2.25, 0-28]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "variable": "prior radiation therapy",
+                    "contrast": "Yes vs. No"
+                },
+                "measures": "[hazard ratio, p value]",
+                "outcomes": "[1.58 (0.95, 2.61), 0.077]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Variable": "Prior radiation therapy",
+                    "Contrast": "Yes vs. No",
+                    "Analysis Type": "multivariate Cox proportional hazards regression",
+                    "Outcome Measure": "overall survival",
+                    "Treatment Phase": "first phase I"
+                },
+                "measures": "[Hazard ratio, 95% CI, p-value]",
+                "outcomes": "[1.58, 0.95-2.61, 0.077]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "variable": "prior FOLFIRINOX",
+                    "contrast": "Yes vs. No"
+                },
+                "measures": "[hazard ratio, p value]",
+                "outcomes": "[1.73 (1.01, 2.98), 0.046]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Variable": "Prior FOLFIRINOX",
+                    "Contrast": "Yes vs. No",
+                    "Analysis Type": "multivariate Cox proportional hazards regression",
+                    "Outcome Measure": "overall survival",
+                    "Treatment Phase": "first phase I"
+                },
+                "measures": "[Hazard ratio, 95% CI, p-value]",
+                "outcomes": "[1.73, 1.01-2.98, 0.046]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "variable": "prior gemcitabine plus nab-paclitaxel treatment",
+                    "contrast": "Yes vs. No"
+                },
+                "measures": "[hazard ratio, p value]",
+                "outcomes": "[1.08 (0.58, 2.01), 0.80]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Variable": "Prior gemcitabine plus nab-paclitaxel treatment",
+                    "Contrast": "Yes vs. No",
+                    "Confidence Interval Lower": "0.58",
+                    "Confidence Interval Upper": "2.01",
+                    "Analysis Type": "multivariate Cox proportional hazards regression",
+                    "Outcome Measure": "overall survival",
+                    "Treatment Phase": "first phase I"
+                },
+                "measures": "[Hazard ratio, 95% CI, p-value]",
+                "outcomes": "[1.08, 0.58-2.01, 0.80]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 7,
+    "total_ground_truth_claims": 6,
+    "number_of_matches": 6
+}

@@ -1,0 +1,3609 @@
+{
+    "2306.00739_4": [
+        {
+            "subject": {
+                "Prompt design": "Concise",
+                "Adaptation setting": "0-shot",
+                "EX": "81.2",
+                "TS": "76.0"
+            },
+            "measures": "[Prompt design, Concise]",
+            "outcomes": [
+                "[Adaptation setting, 0-shot]",
+                "[EX, 81.2]",
+                "[TS, 76.0]"
+            ]
+        },
+        {
+            "subject": {
+                "Prompt design": "Verbose",
+                "Adaptation setting": "0-shot",
+                "EX": "78.5",
+                "TS": "70.9"
+            },
+            "measures": "[Prompt design, Verbose]",
+            "outcomes": [
+                "[Adaptation setting, 0-shot]",
+                "[EX, 78.5]",
+                "[TS, 70.9]"
+            ]
+        },
+        {
+            "subject": {
+                "Prompt design": "Concise",
+                "Adaptation setting": "4-shot",
+                "EX": "82.7",
+                "TS": "77.3"
+            },
+            "measures": "[Prompt design, Concise]",
+            "outcomes": [
+                "[Adaptation setting, 4-shot]",
+                "[EX, 82.7]",
+                "[TS, 77.3]"
+            ]
+        },
+        {
+            "subject": {
+                "Prompt design": "Verbose",
+                "Adaptation setting": "4-shot",
+                "EX": "81.3",
+                "TS": "73.7"
+            },
+            "measures": "[Prompt design, Verbose]",
+            "outcomes": [
+                "[Adaptation setting, 4-shot]",
+                "[EX, 81.3]",
+                "[TS, 73.7]"
+            ]
+        },
+        {
+            "subject": {
+                "Prompt design": "Concise",
+                "Adaptation setting": "few-shot"
+            },
+            "measures": "[Prompt design, Concise]",
+            "outcomes": "[Adaptation setting, few-shot]"
+        },
+        {
+            "subject": {
+                "Prompt design": "Verbose",
+                "Adaptation setting": "zero-shot"
+            },
+            "measures": "[Prompt design, Verbose]",
+            "outcomes": "[Adaptation setting, zero-shot]"
+        },
+        {
+            "subject": {
+                "Prompt design": "Concise",
+                "Adaptation setting": "zero-shot"
+            },
+            "measures": "[Prompt design, Concise]",
+            "outcomes": "[Adaptation setting, zero-shot]"
+        },
+        {
+            "subject": {
+                "Prompt design": "few-shot",
+                "Adaptation setting": "zero-shot"
+            },
+            "measures": "[Prompt design, few-shot]",
+            "outcomes": "[Adaptation setting, zero-shot]"
+        },
+        {
+            "subject": {
+                "Prompt design": "few-shot",
+                "Adaptation setting": "few-shot"
+            },
+            "measures": "[Prompt design, few-shot]",
+            "outcomes": "[Adaptation setting, few-shot]"
+        }
+    ],
+    "1909.00786_4": [
+        {
+            "subject": {
+                "dataset": "Spider",
+                "model": "SQLNet",
+                "author": "Xu et al. (2017)",
+                "dev_set": "10.9",
+                "test_set": "12.4"
+            },
+            "measures": "[dataset, model, author]",
+            "outcomes": "[10.9, 12.4]"
+        },
+        {
+            "subject": {
+                "dataset": "Spider",
+                "model": "SyntaxSQLNet",
+                "author": "Yu et al. (2018b)",
+                "dev_set": "18.9",
+                "test_set": "19.7"
+            },
+            "measures": "[dataset, model, author]",
+            "outcomes": "[18.9, 19.7]"
+        },
+        {
+            "subject": {
+                "dataset": "Spider",
+                "model": "+data augmentation",
+                "author": "Yu et al. (2018b)",
+                "dev_set": "24.8",
+                "test_set": "27.2"
+            },
+            "measures": "[dataset, model, author]",
+            "outcomes": "[24.8, 27.2]"
+        },
+        {
+            "subject": {
+                "dataset": "Spider",
+                "model": "Lee (2019)",
+                "dev_set": "28.5",
+                "test_set": "24.3"
+            },
+            "measures": "[dataset, model]",
+            "outcomes": "[28.5, 24.3]"
+        },
+        {
+            "subject": {
+                "dataset": "Spider",
+                "model": "GNN",
+                "author": "Bogin et al. (2019)",
+                "dev_set": "40.7",
+                "test_set": "39.4"
+            },
+            "measures": "[dataset, model, author]",
+            "outcomes": "[40.7, 39.4]"
+        },
+        {
+            "subject": {
+                "dataset": "Spider",
+                "model": "IRNet",
+                "author": "Guo et al. (2019)",
+                "dev_set": "53.2",
+                "test_set": "46.7"
+            },
+            "measures": "[dataset, model, author]",
+            "outcomes": "[53.2, 46.7]"
+        },
+        {
+            "subject": {
+                "dataset": "Spider",
+                "model": "IRNet (BERT)",
+                "author": "Guo et al. (2019)",
+                "dev_set": "61.9",
+                "test_set": "54.7"
+            },
+            "measures": "[dataset, model, author]",
+            "outcomes": "[61.9, 54.7]"
+        },
+        {
+            "subject": {
+                "dataset": "Spider",
+                "model": "Ours",
+                "dev_set": "36.4",
+                "test_set": "32.9"
+            },
+            "measures": "[dataset, model]",
+            "outcomes": "[36.4, 32.9]"
+        },
+        {
+            "subject": {
+                "dataset": "Spider",
+                "model": "+ utterance-table BERT Embedding",
+                "dev_set": "57.6",
+                "test_set": "53.4"
+            },
+            "measures": "[dataset, model]",
+            "outcomes": "[57.6, 53.4]"
+        }
+    ],
+    "2104.04689_2": [
+        {
+            "subject": {
+                "Approach": "R-GCN",
+                "Hardness Level": "Easy",
+                "Accuracy": "70.4%",
+                "Implemented By": "Us"
+            },
+            "measures": "[Model, Approach]",
+            "outcomes": "[Implemented By, Us]"
+        },
+        {
+            "subject": {
+                "Approach": "R-GCN",
+                "Hardness Level": "Medium",
+                "Accuracy": "54.1%",
+                "Implemented By": "Us"
+            },
+            "measures": "[Model, Approach]",
+            "outcomes": "[Implemented By, Us]"
+        },
+        {
+            "subject": {
+                "Approach": "R-GCN",
+                "Hardness Level": "Hard",
+                "Accuracy": "35.6%",
+                "Implemented By": "Us"
+            },
+            "measures": "[Model, Approach]",
+            "outcomes": "[Implemented By, Us]"
+        },
+        {
+            "subject": {
+                "Approach": "R-GCN",
+                "Hardness Level": "Extra Hard",
+                "Accuracy": "28.2%",
+                "Implemented By": "Us"
+            },
+            "measures": "[Model, Approach]",
+            "outcomes": "[Implemented By, Us]"
+        },
+        {
+            "subject": {
+                "Approach": "R-GCN",
+                "Hardness Level": "All",
+                "Accuracy": "50.7%",
+                "Implemented By": "Us"
+            },
+            "measures": "[Model, Approach]",
+            "outcomes": "[Implemented By, Us]"
+        },
+        {
+            "subject": {
+                "Approach": "R-GCN Kelkar et al. (2020)",
+                "Hardness Level": "Easy",
+                "Accuracy": "70.4%",
+                "Reference": "Kelkar et al. (2020)"
+            },
+            "measures": "[Model, Approach]",
+            "outcomes": "[Reference, Kelkar et al. (2020)]"
+        },
+        {
+            "subject": {
+                "Approach": "R-GCN Kelkar et al. (2020)",
+                "Hardness Level": "Medium",
+                "Accuracy": "54.1%",
+                "Reference": "Kelkar et al. (2020)"
+            },
+            "measures": "[Model, Approach]",
+            "outcomes": "[Reference, Kelkar et al. (2020)]"
+        },
+        {
+            "subject": {
+                "Approach": "R-GCN Kelkar et al. (2020)",
+                "Hardness Level": "Hard",
+                "Accuracy": "35.6%",
+                "Reference": "Kelkar et al. (2020)"
+            },
+            "measures": "[Model, Approach]",
+            "outcomes": "[Reference, Kelkar et al. (2020)]"
+        },
+        {
+            "subject": {
+                "Approach": "R-GCN Kelkar et al. (2020)",
+                "Hardness Level": "Extra Hard",
+                "Accuracy": "28.2%",
+                "Reference": "Kelkar et al. (2020)"
+            },
+            "measures": "[Model, Approach]",
+            "outcomes": "[Reference, Kelkar et al. (2020)]"
+        },
+        {
+            "subject": {
+                "Approach": "R-GCN Kelkar et al. (2020)",
+                "Hardness Level": "All",
+                "Accuracy": "50.7%",
+                "Reference": "Kelkar et al. (2020)"
+            },
+            "measures": "[Model, Approach]",
+            "outcomes": "[Reference, Kelkar et al. (2020)]"
+        },
+        {
+            "subject": {
+                "Approach": "R-GCN",
+                "Hardness Level": "Easy",
+                "Accuracy": "78.9%",
+                "Implemented By": "Us"
+            },
+            "measures": "[Model, Approach]",
+            "outcomes": "[Implemented By, Us]"
+        },
+        {
+            "subject": {
+                "Approach": "R-GCN",
+                "Hardness Level": "Medium",
+                "Accuracy": "63.2%",
+                "Implemented By": "Us"
+            },
+            "measures": "[Model, Approach]",
+            "outcomes": "[Implemented By, Us]"
+        },
+        {
+            "subject": {
+                "Approach": "R-GCN",
+                "Hardness Level": "Hard",
+                "Accuracy": "46.6%",
+                "Implemented By": "Us"
+            },
+            "measures": "[Model, Approach]",
+            "outcomes": "[Implemented By, Us]"
+        },
+        {
+            "subject": {
+                "Approach": "R-GCN",
+                "Hardness Level": "Extra Hard",
+                "Accuracy": "29.8%",
+                "Implemented By": "Us"
+            },
+            "measures": "[Model, Approach]",
+            "outcomes": "[Implemented By, Us]"
+        },
+        {
+            "subject": {
+                "Approach": "R-GCN",
+                "Hardness Level": "All",
+                "Accuracy": "58.7%",
+                "Implemented By": "Us"
+            },
+            "measures": "[Model, Approach]",
+            "outcomes": "[Implemented By, Us]"
+        },
+        {
+            "subject": {
+                "Approach": "R-GCN+RAT",
+                "Hardness Level": "Easy",
+                "Accuracy": "85.0%",
+                "Implemented By": "Us"
+            },
+            "measures": "[Model, Approach]",
+            "outcomes": "[Implemented By, Us]"
+        },
+        {
+            "subject": {
+                "Approach": "R-GCN+RAT",
+                "Hardness Level": "Medium",
+                "Accuracy": "70.9%",
+                "Implemented By": "Us"
+            },
+            "measures": "[Model, Approach]",
+            "outcomes": "[Implemented By, Us]"
+        },
+        {
+            "subject": {
+                "Approach": "R-GCN+RAT",
+                "Hardness Level": "Hard",
+                "Accuracy": "56.3%",
+                "Implemented By": "Us"
+            },
+            "measures": "[Model, Approach]",
+            "outcomes": "[Implemented By, Us]"
+        },
+        {
+            "subject": {
+                "Approach": "R-GCN+RAT",
+                "Hardness Level": "Extra Hard",
+                "Accuracy": "32.7%",
+                "Implemented By": "Us"
+            },
+            "measures": "[Model, Approach]",
+            "outcomes": "[Implemented By, Us]"
+        },
+        {
+            "subject": {
+                "Approach": "R-GCN+RAT",
+                "Hardness Level": "All",
+                "Accuracy": "65.6%",
+                "Implemented By": "Us"
+            },
+            "measures": "[Model, Approach]",
+            "outcomes": "[Implemented By, Us]"
+        },
+        {
+            "subject": {
+                "Approach": "GPNN",
+                "Hardness Level": "Easy",
+                "Accuracy": "87.5%",
+                "Implemented By": "Us"
+            },
+            "measures": "[Model, Approach]",
+            "outcomes": "[Implemented By, Us]"
+        },
+        {
+            "subject": {
+                "Approach": "GPNN",
+                "Hardness Level": "Medium",
+                "Accuracy": "74.9%",
+                "Implemented By": "Us"
+            },
+            "measures": "[Model, Approach]",
+            "outcomes": "[Implemented By, Us]"
+        },
+        {
+            "subject": {
+                "Approach": "GPNN",
+                "Hardness Level": "Hard",
+                "Accuracy": "59.2%",
+                "Implemented By": "Us"
+            },
+            "measures": "[Model, Approach]",
+            "outcomes": "[Implemented By, Us]"
+        },
+        {
+            "subject": {
+                "Approach": "GPNN",
+                "Hardness Level": "Extra Hard",
+                "Accuracy": "41.6%",
+                "Implemented By": "Us"
+            },
+            "measures": "[Model, Approach]",
+            "outcomes": "[Implemented By, Us]"
+        },
+        {
+            "subject": {
+                "Approach": "GPNN",
+                "Hardness Level": "All",
+                "Accuracy": "69.9%",
+                "Implemented By": "Us"
+            },
+            "measures": "[Model, Approach]",
+            "outcomes": "[Implemented By, Us]"
+        },
+        {
+            "subject": {
+                "Approach": "RATSQL",
+                "Hardness Level": "Easy",
+                "Accuracy": "87.1%",
+                "Implemented By": "Us"
+            },
+            "measures": "[Model, Approach]",
+            "outcomes": "[Implemented By, Us]"
+        },
+        {
+            "subject": {
+                "Approach": "RATSQL",
+                "Hardness Level": "Medium",
+                "Accuracy": "74.9%",
+                "Implemented By": "Us"
+            },
+            "measures": "[Model, Approach]",
+            "outcomes": "[Implemented By, Us]"
+        },
+        {
+            "subject": {
+                "Approach": "RATSQL",
+                "Hardness Level": "Hard",
+                "Accuracy": "57.5%",
+                "Implemented By": "Us"
+            },
+            "measures": "[Model, Approach]",
+            "outcomes": "[Implemented By, Us]"
+        },
+        {
+            "subject": {
+                "Approach": "RATSQL",
+                "Hardness Level": "Extra Hard",
+                "Accuracy": "46.4%",
+                "Implemented By": "Us"
+            },
+            "measures": "[Model, Approach]",
+            "outcomes": "[Implemented By, Us]"
+        },
+        {
+            "subject": {
+                "Approach": "RATSQL",
+                "Hardness Level": "All",
+                "Accuracy": "70.2%",
+                "Implemented By": "Us"
+            },
+            "measures": "[Model, Approach]",
+            "outcomes": "[Implemented By, Us]"
+        },
+        {
+            "subject": {
+                "Approach": "ShadowGNN",
+                "Hardness Level": "Easy",
+                "Accuracy": "87.5%",
+                "Implemented By": "Us"
+            },
+            "measures": "[Model, Approach]",
+            "outcomes": "[Implemented By, Us]"
+        },
+        {
+            "subject": {
+                "Approach": "ShadowGNN",
+                "Hardness Level": "Medium",
+                "Accuracy": "78.0%",
+                "Implemented By": "Us"
+            },
+            "measures": "[Model, Approach]",
+            "outcomes": "[Implemented By, Us]"
+        },
+        {
+            "subject": {
+                "Approach": "ShadowGNN",
+                "Hardness Level": "Hard",
+                "Accuracy": "61.5%",
+                "Implemented By": "Us"
+            },
+            "measures": "[Model, Approach]",
+            "outcomes": "[Implemented By, Us]"
+        },
+        {
+            "subject": {
+                "Approach": "ShadowGNN",
+                "Hardness Level": "Extra Hard",
+                "Accuracy": "45.8%",
+                "Implemented By": "Us"
+            },
+            "measures": "[Model, Approach]",
+            "outcomes": "[Implemented By, Us]"
+        },
+        {
+            "subject": {
+                "Approach": "ShadowGNN",
+                "Hardness Level": "All",
+                "Accuracy": "72.3%",
+                "Implemented By": "Us"
+            },
+            "measures": "[Model, Approach]",
+            "outcomes": "[Implemented By, Us]"
+        }
+    ],
+    "2212.09278_5": [
+        {
+            "subject": {
+                "Method": "EditSQL",
+                "Difficulty": "Easy",
+                "Accuracy": "68.8",
+                "Metric": "Accuracy",
+                "Outcome": "68.8"
+            }
+        },
+        {
+            "subject": {
+                "Method": "EditSQL",
+                "Difficulty": "Medium",
+                "Accuracy": "40.6",
+                "Metric": "Accuracy",
+                "Outcome": "40.6"
+            }
+        },
+        {
+            "subject": {
+                "Method": "EditSQL",
+                "Difficulty": "Hard",
+                "Accuracy": "26.9",
+                "Metric": "Accuracy",
+                "Outcome": "26.9"
+            }
+        },
+        {
+            "subject": {
+                "Method": "EditSQL",
+                "Difficulty": "Extra",
+                "Accuracy": "12.8",
+                "Metric": "Accuracy",
+                "Outcome": "12.8"
+            }
+        },
+        {
+            "subject": {
+                "Method": "IG-SQL",
+                "Difficulty": "Easy",
+                "Accuracy": "70.9",
+                "Metric": "Accuracy",
+                "Outcome": "70.9"
+            }
+        },
+        {
+            "subject": {
+                "Method": "IG-SQL",
+                "Difficulty": "Medium",
+                "Accuracy": "45.4",
+                "Metric": "Accuracy",
+                "Outcome": "45.4"
+            }
+        },
+        {
+            "subject": {
+                "Method": "IG-SQL",
+                "Difficulty": "Hard",
+                "Accuracy": "29.0",
+                "Metric": "Accuracy",
+                "Outcome": "29.0"
+            }
+        },
+        {
+            "subject": {
+                "Method": "IG-SQL",
+                "Difficulty": "Extra",
+                "Accuracy": "18.8",
+                "Metric": "Accuracy",
+                "Outcome": "18.8"
+            }
+        },
+        {
+            "subject": {
+                "Method": "R<sup>2</sup>SQL",
+                "Difficulty": "Easy",
+                "Accuracy": "75.5",
+                "Metric": "Accuracy",
+                "Outcome": "75.5"
+            }
+        },
+        {
+            "subject": {
+                "Method": "R<sup>2</sup>SQL",
+                "Difficulty": "Medium",
+                "Accuracy": "51.5",
+                "Metric": "Accuracy",
+                "Outcome": "51.5"
+            }
+        },
+        {
+            "subject": {
+                "Method": "R<sup>2</sup>SQL",
+                "Difficulty": "Hard",
+                "Accuracy": "35.2",
+                "Metric": "Accuracy",
+                "Outcome": "35.2"
+            }
+        },
+        {
+            "subject": {
+                "Method": "R<sup>2</sup>SQL",
+                "Difficulty": "Extra",
+                "Accuracy": "21.8",
+                "Metric": "Accuracy",
+                "Outcome": "21.8"
+            }
+        },
+        {
+            "subject": {
+                "Method": "CQR-SQL",
+                "Difficulty": "Easy",
+                "Accuracy": "80.7",
+                "Metric": "Accuracy",
+                "Outcome": "80.7"
+            }
+        },
+        {
+            "subject": {
+                "Method": "CQR-SQL",
+                "Difficulty": "Medium",
+                "Accuracy": "68.3",
+                "Metric": "Accuracy",
+                "Outcome": "68.3"
+            }
+        },
+        {
+            "subject": {
+                "Method": "CQR-SQL",
+                "Difficulty": "Hard",
+                "Accuracy": "46.2",
+                "Metric": "Accuracy",
+                "Outcome": "46.2"
+            }
+        },
+        {
+            "subject": {
+                "Method": "CQR-SQL",
+                "Difficulty": "Extra",
+                "Accuracy": "43.3",
+                "Metric": "Accuracy",
+                "Outcome": "43.3"
+            }
+        },
+        {
+            "subject": {
+                "Method": "MIGA+PICARD",
+                "Difficulty": "Easy",
+                "Accuracy": "81.8",
+                "Metric": "Accuracy",
+                "Outcome": "81.8"
+            }
+        },
+        {
+            "subject": {
+                "Method": "MIGA+PICARD",
+                "Difficulty": "Medium",
+                "Accuracy": "66.7",
+                "Metric": "Accuracy",
+                "Outcome": "66.7"
+            }
+        },
+        {
+            "subject": {
+                "Method": "MIGA+PICARD",
+                "Difficulty": "Hard",
+                "Accuracy": "44.8",
+                "Metric": "Accuracy",
+                "Outcome": "44.8"
+            }
+        },
+        {
+            "subject": {
+                "Method": "MIGA+PICARD",
+                "Difficulty": "Extra",
+                "Accuracy": "41.8",
+                "Metric": "Accuracy",
+                "Outcome": "41.8"
+            }
+        },
+        {
+            "subject": {
+                "Task": "FUP",
+                "Data Size": "3908",
+                "Metric": "Data Size",
+                "Outcome": "3908"
+            }
+        },
+        {
+            "subject": {
+                "Model": "MIGA",
+                "CQR": "Not Publicly Released",
+                "Metric": "CQR",
+                "Outcome": "Not Publicly Released"
+            }
+        },
+        {
+            "subject": {
+                "Model": "MIGA",
+                "Data-Hungry Problem": "Limits Ability",
+                "Metric": "Data-Hungry Problem",
+                "Outcome": "Limits Ability"
+            }
+        },
+        {
+            "subject": {
+                "Future Work": "Data Size Extension",
+                "Metric": "Future Work",
+                "Outcome": "Data Size Extension"
+            }
+        },
+        {
+            "subject": {
+                "CQR": "Importance, High",
+                "Metric": "Importance",
+                "Outcome": "High"
+            }
+        },
+        {
+            "subject": {
+                "CQR": "Target Task, SQL Prediction",
+                "Metric": "Target Task",
+                "Outcome": "SQL Prediction"
+            }
+        },
+        {
+            "subject": {
+                "CQR": "Conversation, Alleviates Dependency",
+                "Metric": "Conversation",
+                "Outcome": "Alleviates Dependency"
+            }
+        },
+        {
+            "subject": {
+                "CQR": "Previous SQLs, Alleviates Dependency",
+                "Metric": "Previous SQLs",
+                "Outcome": "Alleviates Dependency"
+            }
+        },
+        {
+            "subject": {
+                "QM": "Metrics, Especially for Later Turns",
+                "Metric": "QM Metrics",
+                "Outcome": "Especially for Later Turns"
+            }
+        },
+        {
+            "subject": {
+                "QM": "Metrics, Especially for High Difficulties",
+                "Metric": "QM Metrics",
+                "Outcome": "Especially for High Difficulties"
+            }
+        },
+        {
+            "subject": {
+                "QM": "Target Task, SQL Prediction",
+                "Metric": "Target Task",
+                "Outcome": "SQL Prediction"
+            }
+        },
+        {
+            "subject": {
+                "QM": "Conversation, Alleviates Dependency",
+                "Metric": "Conversation",
+                "Outcome": "Alleviates Dependency"
+            }
+        },
+        {
+            "subject": {
+                "QM": "Previous SQLs, Alleviates Dependency",
+                "Metric": "Previous SQLs",
+                "Outcome": "Alleviates Dependency"
+            }
+        }
+    ],
+    "2305.16253_7": [
+        {
+            "subject": {
+                "Models": "PICARD (T5), Ori-ACC, ACC, Bias Score"
+            },
+            "measures": "[Models, RATSQL (BERT), Ori-ACC, ACC, Bias Score]",
+            "outcomes": "[RATSQL (BERT), Ori-ACC, ACC, Bias Score]"
+        },
+        {
+            "subject": {
+                "Models": "PICARD (T5), Ori-ACC, ACC, Bias Score"
+            },
+            "measures": "[Models, UNISAR (BART), Ori-ACC, ACC, Bias Score]",
+            "outcomes": "[UNISAR (BART), Ori-ACC, ACC, Bias Score]"
+        },
+        {
+            "subject": {
+                "Models": "UNISAR (BART), Ori-ACC, ACC, Bias Score"
+            },
+            "measures": "[Models, PICARD (T5), Ori-ACC, ACC, Bias Score]",
+            "outcomes": "[PICARD (T5), Ori-ACC, ACC, Bias Score]"
+        }
+    ],
+    "2211.06193_1": [
+        {
+            "subject": {
+                "Failure Categories": "Incomplete SQL",
+                "Percentage": "6.2%",
+                "Table": "Table 1",
+                "Caption": "Error Analysis on Spider dev based on T5+3B with constrained decoding"
+            },
+            "measures": "[Failure Categories, Percentage]",
+            "outcomes": "[Incomplete SQL, 6.2%]"
+        },
+        {
+            "subject": {
+                "Failure Categories": "False Negatives",
+                "Percentage": "22.4%",
+                "Table": "Table 1",
+                "Caption": "Error Analysis on Spider dev based on T5+3B with constrained decoding"
+            },
+            "measures": "[Failure Categories, Percentage]",
+            "outcomes": "[False Negatives, 22.4%]"
+        },
+        {
+            "subject": {
+                "Failure Categories": "Foreign Keys",
+                "Percentage": "19.6%",
+                "Table": "Table 1",
+                "Caption": "Error Analysis on Spider dev based on T5+3B with constrained decoding"
+            },
+            "measures": "[Failure Categories, Percentage]",
+            "outcomes": "[Foreign Keys, 19.6%]"
+        },
+        {
+            "subject": {
+                "Failure Categories": "Logical Errors",
+                "Percentage": "2.8%",
+                "Table": "Table 1",
+                "Caption": "Error Analysis on Spider dev based on T5+3B with constrained decoding"
+            },
+            "measures": "[Failure Categories, Percentage]",
+            "outcomes": "[Logical Errors, 2.8%]"
+        },
+        {
+            "subject": {
+                "Failure Categories": "DK - Incorrect AGG",
+                "Percentage": "17.2%",
+                "Table": "Table 1",
+                "Caption": "Error Analysis on Spider dev based on T5+3B with constrained decoding"
+            },
+            "measures": "[Failure Categories, Percentage]",
+            "outcomes": "[DK - Incorrect AGG, 17.2%]"
+        },
+        {
+            "subject": {
+                "Failure Categories": "DK - Incorrect Table",
+                "Percentage": "3.8%",
+                "Table": "Table 1",
+                "Caption": "Error Analysis on Spider dev based on T5+3B with constrained decoding"
+            },
+            "measures": "[Failure Categories, Percentage]",
+            "outcomes": "[DK - Incorrect Table, 3.8%]"
+        },
+        {
+            "subject": {
+                "Failure Categories": "DK - Incorrect Column",
+                "Percentage": "13.4%",
+                "Table": "Table 1",
+                "Caption": "Error Analysis on Spider dev based on T5+3B with constrained decoding"
+            },
+            "measures": "[Failure Categories, Percentage]",
+            "outcomes": "[DK - Incorrect Column, 13.4%]"
+        },
+        {
+            "subject": {
+                "Failure Categories": "DK - Incorrect Value",
+                "Percentage": "3.8%",
+                "Table": "Table 1",
+                "Caption": "Error Analysis on Spider dev based on T5+3B with constrained decoding"
+            },
+            "measures": "[Failure Categories, Percentage]",
+            "outcomes": "[DK - Incorrect Value, 3.8%]"
+        },
+        {
+            "subject": {
+                "Failure Categories": "DK - Complex",
+                "Percentage": "11.0%",
+                "Table": "Table 1",
+                "Caption": "Error Analysis on Spider dev based on T5+3B with constrained decoding"
+            },
+            "measures": "[Failure Categories, Percentage]",
+            "outcomes": "[DK - Complex, 11.0%]"
+        },
+        {
+            "subject": {
+                "Citations": "Table 1 shows the breakdown of T5 with constrained decoding errors on the Spider dev set",
+                "We find that 22.4% of questions are False Negative": "which is not a suitable target category for model improvement",
+                "Furthermore": "6.2% of errors are due to Incomplete SQL and 2.8% are due to Logical Errors, both relatively small failure categories"
+            },
+            "measures": "[Citations, Table 1 shows the breakdown of T5 with constrained decoding errors on the Spider dev set]",
+            "outcomes": "[We find that 22.4% of questions are False Negative, which is not a suitable target category for model improvement, Furthermore, 6.2% of errors are due to Incomplete SQL and 2.8% are due to Logical Errors, both relatively small failure categories]"
+        }
+    ],
+    "2205.02054_4": [
+        {
+            "subject": {
+                "dataset": "CG-APP",
+                "deviation": "<= 2",
+                "similarity": "94.4%"
+            },
+            "measures": "[dataset, CG-SUB]",
+            "outcomes": [
+                "[deviation, <= 1]",
+                "[similarity, 93.2%]"
+            ]
+        },
+        {
+            "subject": {
+                "dataset": "CG-APP",
+                "deviation": "<= 2",
+                "similarity": "94.1%"
+            },
+            "measures": "[dataset, CG-SUB]",
+            "outcomes": [
+                "[deviation, <= 1]",
+                "[similarity, 92.9%]"
+            ]
+        },
+        {
+            "subject": {
+                "dataset": "CG-SUB",
+                "deviation": "<= 2",
+                "similarity": "90.4%"
+            },
+            "measures": "[dataset, CG-APP]",
+            "outcomes": [
+                "[deviation, <= 1]",
+                "[similarity, 86.0%]"
+            ]
+        },
+        {
+            "subject": {
+                "dataset": "CG-SUB",
+                "deviation": "<= 2",
+                "similarity": "92.6%"
+            },
+            "measures": "[dataset, CG-APP]",
+            "outcomes": [
+                "[deviation, <= 1]",
+                "[similarity, 88.9%]"
+            ]
+        },
+        {
+            "subject": {
+                "algorithm": "consistent"
+            },
+            "measures": "[algorithm, refined]",
+            "outcomes": "[algorithm, consistent]"
+        },
+        {
+            "subject": {
+                "sentence complexity": "CG-SUB"
+            },
+            "measures": "[sentence complexity, CG-APP]",
+            "outcomes": "[sentence complexity, CG-SUB]"
+        },
+        {
+            "subject": {
+                "algorithm": "stable",
+                "dataset": "other text-to-SQL"
+            },
+            "measures": "[algorithm, stable]",
+            "outcomes": "[dataset, other text-to-SQL]"
+        },
+        {
+            "subject": {
+                "algorithm": "performs",
+                "domain": "unseen"
+            },
+            "measures": "[algorithm, performs]",
+            "outcomes": "[domain, unseen]"
+        },
+        {
+            "subject": {
+                "algorithm": "stably",
+                "dataset": "text-to-SQL"
+            },
+            "measures": "[algorithm, stably]",
+            "outcomes": "[dataset, text-to-SQL]"
+        },
+        {
+            "subject": {
+                "model": "does not require"
+            },
+            "measures": "[model, trained]",
+            "outcomes": "[model, does not require]"
+        },
+        {
+            "subject": {
+                "sentence": "not complex",
+                "algorithm": "can be used"
+            },
+            "measures": "[sentence, not complex]",
+            "outcomes": "[algorithm, can be used]"
+        },
+        {
+            "subject": {
+                "algorithm": "performs consistently"
+            },
+            "measures": "[algorithm, refined on training set]",
+            "outcomes": "[algorithm, performs consistently]"
+        },
+        {
+            "subject": {
+                "dataset": "Spider-CG"
+            },
+            "measures": "[dataset, Spider-SS]",
+            "outcomes": "[dataset, Spider-CG]"
+        },
+        {
+            "subject": {
+                "algorithm": "deviation"
+            },
+            "measures": "[algorithm, split algorithm]",
+            "outcomes": "[algorithm, deviation]"
+        },
+        {
+            "subject": {
+                "algorithm": "good enough"
+            },
+            "measures": "[algorithm, split results]",
+            "outcomes": "[algorithm, good enough]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "refined"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, refined]"
+        },
+        {
+            "subject": {
+                "algorithm": "performs"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, performs]"
+        },
+        {
+            "subject": {
+                "algorithm": "consistently"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, consistently]"
+        },
+        {
+            "subject": {
+                "algorithm": "stably"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, stably]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        },
+        {
+            "subject": {
+                "algorithm": "algorithm"
+            },
+            "measures": "[algorithm, splitting algorithm]",
+            "outcomes": "[algorithm, algorithm]"
+        }
+    ],
+    "1909.05378_6": [
+        {
+            "subject": {
+                "Model": "Template",
+                "BLEU": "9.5",
+                "LCR": "41.0",
+                "Grammar": "4.0"
+            },
+            "measures": "[BLEU, LCR, Grammar]",
+            "outcomes": "[9.5, 41.0, 4.0]"
+        },
+        {
+            "subject": {
+                "Model": "Seq2Seq",
+                "BLEU": "15.3",
+                "LCR": "27.0",
+                "Grammar": "3.5"
+            },
+            "measures": "[BLEU, LCR, Grammar]",
+            "outcomes": "[15.3, 27.0, 3.5]"
+        },
+        {
+            "subject": {
+                "Model": "Pointer-generator",
+                "BLEU": "16.4",
+                "LCR": "35.0",
+                "Grammar": "3.6"
+            },
+            "measures": "[BLEU, LCR, Grammar]",
+            "outcomes": "[16.4, 35.0, 3.6]"
+        },
+        {
+            "subject": {
+                "Metric": "BLEU score",
+                "Value": "Papineni et al. (2002)"
+            },
+            "measures": "[BLEU]",
+            "outcomes": "[Papineni et al. (2002)]"
+        },
+        {
+            "subject": {
+                "Metric": "Logic correctness rate (LCR)",
+                "Value": "0 or 1"
+            },
+            "measures": "[LCR]",
+            "outcomes": "[0 or 1]"
+        },
+        {
+            "subject": {
+                "Metric": "Grammar",
+                "Value": "1 to 5"
+            },
+            "measures": "[Grammar]",
+            "outcomes": "[1 to 5]"
+        },
+        {
+            "subject": {
+                "Evaluation": "Human",
+                "Number of participants": "3"
+            },
+            "measures": "[Human]",
+            "outcomes": "[3]"
+        },
+        {
+            "subject": {
+                "Evaluation": "LCR",
+                "Voting method": "Majority vote"
+            },
+            "measures": "[LCR]",
+            "outcomes": "[Majority vote]"
+        },
+        {
+            "subject": {
+                "Evaluation": "Grammar",
+                "Scoring method": "Average"
+            },
+            "measures": "[Grammar]",
+            "outcomes": "[Average]"
+        },
+        {
+            "subject": {
+                "Description": "100 examples",
+                "Sampling method": "Random"
+            },
+            "measures": "[Description]",
+            "outcomes": "[100 examples, Random]"
+        },
+        {
+            "subject": {
+                "Table": "6",
+                "Caption": "BLEU scores on the development and test sets, and human evaluations of logic correctness rate (LCR) and grammar check on the 100 examples randomly sampled from the test set"
+            },
+            "measures": "[Table]",
+            "outcomes": "[6]"
+        }
+    ],
+    "2008.04759_1": [
+        {
+            "subject": {
+                "Model": "SQLova",
+                "Base Model": "BERT-Large-Uncased",
+                "Dev (lf": "ex), 81.6, 87.2",
+                "Test (lf": "ex), 80.7, 86.2"
+            },
+            "measures": "[Model, Base Model, Dev lf, Dev ex, Test lf, Test ex]",
+            "outcomes": "[SQLova, BERT-Large-Uncased, 81.6, 87.2, 80.7, 86.2]"
+        },
+        {
+            "subject": {
+                "Model": "X-SQL",
+                "Base Model": "MT-DNN",
+                "Dev (lf": "ex), 83.8, 89.5",
+                "Test (lf": "ex), 83.3, 88.7"
+            },
+            "measures": "[Model, Base Model, Dev lf, Dev ex, Test lf, Test ex]",
+            "outcomes": "[X-SQL, MT-DNN, 83.8, 89.5, 83.3, 88.7]"
+        },
+        {
+            "subject": {
+                "Model": "HydraNet",
+                "Base Model": "BERT-Large-Uncased",
+                "Dev (lf": "ex), 83.5, 88.9",
+                "Test (lf": "ex), 83.4, 88.6"
+            },
+            "measures": "[Model, Base Model, Dev lf, Dev ex, Test lf, Test ex]",
+            "outcomes": "[HydraNet, BERT-Large-Uncased, 83.5, 88.9, 83.4, 88.6]"
+        },
+        {
+            "subject": {
+                "Model": "HydraNet",
+                "Base Model": "RoBERTa-Large",
+                "Dev (lf": "ex), 83.6, 89.1",
+                "Test (lf": "ex), 83.8, 89.2"
+            },
+            "measures": "[Model, Base Model, Dev lf, Dev ex, Test lf, Test ex]",
+            "outcomes": "[HydraNet, RoBERTa-Large, 83.6, 89.1, 83.8, 89.2]"
+        },
+        {
+            "subject": {
+                "Model": "SQLova + EG",
+                "Base Model": "BERT-Large-Uncased",
+                "Dev (lf": "ex), 84.2, 90.2",
+                "Test (lf": "ex), 83.6, 89.6"
+            },
+            "measures": "[Model, Base Model, Dev lf, Dev ex, Test lf, Test ex]",
+            "outcomes": "[SQLova + EG, BERT-Large-Uncased, 84.2, 90.2, 83.6, 89.6]"
+        },
+        {
+            "subject": {
+                "Model": "X-SQL + EG",
+                "Base Model": "MT-DNN",
+                "Dev (lf": "ex), 86.2, 92.3",
+                "Test (lf": "ex), 86.0, 91.8"
+            },
+            "measures": "[Model, Base Model, Dev lf, Dev ex, Test lf, Test ex]",
+            "outcomes": "[X-SQL + EG, MT-DNN, 86.2, 92.3, 86.0, 91.8]"
+        },
+        {
+            "subject": {
+                "Model": "HydraNet + EG",
+                "Base Model": "BERT-Large-Uncased",
+                "Dev (lf": "ex), 86.6, 92.2",
+                "Test (lf": "ex), 86.2, 91.8"
+            },
+            "measures": "[Model, Base Model, Dev lf, Dev ex, Test lf, Test ex]",
+            "outcomes": "[HydraNet + EG, BERT-Large-Uncased, 86.6, 92.2, 86.2, 91.8]"
+        },
+        {
+            "subject": {
+                "Model": "HydraNet + EG",
+                "Base Model": "RoBERTa-Large",
+                "Dev (lf": "ex), 86.6, 92.4",
+                "Test (lf": "ex), 86.5, 92.2"
+            },
+            "measures": "[Model, Base Model, Dev lf, Dev ex, Test lf, Test ex]",
+            "outcomes": "[HydraNet + EG, RoBERTa-Large, 86.6, 92.4, 86.5, 92.2]"
+        }
+    ],
+    "2208.04415_3": [
+        {
+            "subject": {
+                "Table": "TABLE III",
+                "Caption": "Experimental Result of Sequence to Tree Model",
+                "Dataset": "ENG",
+                "Accuracy": "31.8%",
+                "Category": "Easy"
+            },
+            "measures": "[Table, TABLE III]",
+            "outcomes": "[Caption, Experimental Result of Sequence to Tree Model]"
+        },
+        {
+            "subject": {
+                "Table": "TABLE III",
+                "Caption": "Experimental Result of Sequence to Tree Model",
+                "Dataset": "HT",
+                "Category": "C-ML",
+                "Accuracy": "27.3%"
+            },
+            "measures": "[Table, TABLE III]",
+            "outcomes": "[Caption, Experimental Result of Sequence to Tree Model]"
+        },
+        {
+            "subject": {
+                "Table": "TABLE III",
+                "Caption": "Experimental Result of Sequence to Tree Model",
+                "Dataset": "HT",
+                "Category": "C-S",
+                "Accuracy": "23.1%"
+            },
+            "measures": "[Table, TABLE III]",
+            "outcomes": "[Caption, Experimental Result of Sequence to Tree Model]"
+        },
+        {
+            "subject": {
+                "Table": "TABLE III",
+                "Caption": "Experimental Result of Sequence to Tree Model",
+                "Dataset": "HT",
+                "Category": "WY-ML",
+                "Accuracy": "21.4%"
+            },
+            "measures": "[Table, TABLE III]",
+            "outcomes": "[Caption, Experimental Result of Sequence to Tree Model]"
+        },
+        {
+            "subject": {
+                "Table": "TABLE III",
+                "Caption": "Experimental Result of Sequence to Tree Model",
+                "Dataset": "HT",
+                "Category": "WY-S",
+                "Accuracy": "20.2%"
+            },
+            "measures": "[Table, TABLE III]",
+            "outcomes": "[Caption, Experimental Result of Sequence to Tree Model]"
+        },
+        {
+            "subject": {
+                "Table": "TABLE III",
+                "Caption": "Experimental Result of Sequence to Tree Model",
+                "Dataset": "HT",
+                "Category": "WJ-ML",
+                "Accuracy": "19.8%"
+            },
+            "measures": "[Table, TABLE III]",
+            "outcomes": "[Caption, Experimental Result of Sequence to Tree Model]"
+        },
+        {
+            "subject": {
+                "Table": "TABLE III",
+                "Caption": "Experimental Result of Sequence to Tree Model",
+                "Dataset": "HT",
+                "Category": "WJ-S",
+                "Accuracy": "20.1%"
+            },
+            "measures": "[Table, TABLE III]",
+            "outcomes": "[Caption, Experimental Result of Sequence to Tree Model]"
+        },
+        {
+            "subject": {
+                "Table": "TABLE III",
+                "Caption": "Experimental Result of Sequence to Tree Model",
+                "Dataset": "MT",
+                "Category": "C-ML",
+                "Accuracy": "18.1%"
+            },
+            "measures": "[Table, TABLE III]",
+            "outcomes": "[Caption, Experimental Result of Sequence to Tree Model]"
+        },
+        {
+            "subject": {
+                "Table": "TABLE III",
+                "Caption": "Experimental Result of Sequence to Tree Model",
+                "Dataset": "MT",
+                "Category": "WY-ML",
+                "Accuracy": "17.9%"
+            },
+            "measures": "[Table, TABLE III]",
+            "outcomes": "[Caption, Experimental Result of Sequence to Tree Model]"
+        }
+    ],
+    "2310.13575_6": [
+        {
+            "subject": {
+                "QPL Length": "Overall"
+            },
+            "measures": "[QPL Length, QPL Length]",
+            "outcomes": [
+                "[Execution Accuracy, 87.3%]",
+                "[Execution Accuracy, 86.6%]",
+                "[Execution Accuracy, 85.3%]",
+                "[Execution Accuracy, 75.0%]",
+                "[Execution Accuracy, 67.1%]",
+                "[Execution Accuracy, 48.2%]",
+                "[Execution Accuracy, 31.8%]",
+                "[Execution Accuracy, 11.9%]",
+                "[Support, 189]",
+                "[Support, 277]",
+                "[Support, 191]",
+                "[Support, 124]",
+                "[Support, 164]",
+                "[Support, 27]",
+                "[Support, 44]",
+                "[Support, 18]",
+                "[Support, 1034]"
+            ]
+        },
+        {
+            "subject": {
+                "QPL Length": "Overall"
+            },
+            "measures": "[QPL Length, QPL Length]",
+            "outcomes": [
+                "[Q+QD, 78.3%]",
+                "[Q+QD, 83.4%]",
+                "[Q+QD, 78.0%]",
+                "[Q+QD, 62.9%]",
+                "[Q+QD, 54.4%]",
+                "[Q+QD, 25.9%]",
+                "[Q+QD, 22.7%]",
+                "[Q+QD, 24.4%]",
+                "[Support, 189]",
+                "[Support, 277]",
+                "[Support, 191]",
+                "[Support, 124]",
+                "[Support, 164]",
+                "[Support, 27]",
+                "[Support, 44]",
+                "[Support, 18]",
+                "[Support, 1034]"
+            ]
+        }
+    ],
+    "1807.03100_1": [
+        {
+            "subject": {
+                "Model": "Pointer-SQL",
+                "Accuracy": "72.5",
+                "Metric": "Test Accuracy",
+                "Outcome": "72.5"
+            }
+        },
+        {
+            "subject": {
+                "Model": "Pointer-SQL",
+                "Accuracy": "71.9",
+                "Metric": "Test Accuracy",
+                "Outcome": "71.9"
+            }
+        },
+        {
+            "subject": {
+                "Model": "Pointer-SQL",
+                "Accuracy": "77.3",
+                "Metric": "Test Accuracy",
+                "Outcome": "77.3"
+            }
+        },
+        {
+            "subject": {
+                "Model": "Pointer-SQL",
+                "Accuracy": "76.9",
+                "Metric": "Test Accuracy",
+                "Outcome": "76.9"
+            }
+        },
+        {
+            "subject": {
+                "Model": "Pointer-SQL",
+                "Accuracy": "78.4",
+                "Metric": "Test Accuracy",
+                "Outcome": "78.4"
+            }
+        },
+        {
+            "subject": {
+                "Model": "Pointer-SQL",
+                "Accuracy": "78.3",
+                "Metric": "Test Accuracy",
+                "Outcome": "78.3"
+            }
+        },
+        {
+            "subject": {
+                "Model": "Coarse2Fine",
+                "Accuracy": "79.2",
+                "Metric": "Test Accuracy",
+                "Outcome": "79.2"
+            }
+        },
+        {
+            "subject": {
+                "Model": "Coarse2Fine",
+                "Accuracy": "78.4",
+                "Metric": "Test Accuracy",
+                "Outcome": "78.4"
+            }
+        },
+        {
+            "subject": {
+                "Model": "Coarse2Fine",
+                "Accuracy": "83.4",
+                "Metric": "Test Accuracy",
+                "Outcome": "83.4"
+            }
+        },
+        {
+            "subject": {
+                "Model": "Coarse2Fine",
+                "Accuracy": "83.0",
+                "Metric": "Test Accuracy",
+                "Outcome": "83.0"
+            }
+        },
+        {
+            "subject": {
+                "Model": "Coarse2Fine",
+                "Accuracy": "84.0",
+                "Metric": "Test Accuracy",
+                "Outcome": "84.0"
+            }
+        },
+        {
+            "subject": {
+                "Model": "Coarse2Fine",
+                "Accuracy": "83.8",
+                "Metric": "Test Accuracy",
+                "Outcome": "83.8"
+            }
+        },
+        {
+            "subject": {
+                "Model": "Pointer-SQL + EG (3)",
+                "Accuracy": "77.3",
+                "Metric": "Test Accuracy",
+                "Outcome": "77.3"
+            }
+        },
+        {
+            "subject": {
+                "Model": "Pointer-SQL + EG (3)",
+                "Accuracy": "76.9",
+                "Metric": "Test Accuracy",
+                "Outcome": "76.9"
+            }
+        },
+        {
+            "subject": {
+                "Model": "Pointer-SQL + EG (5)",
+                "Accuracy": "78.4",
+                "Metric": "Test Accuracy",
+                "Outcome": "78.4"
+            }
+        },
+        {
+            "subject": {
+                "Model": "Pointer-SQL + EG (5)",
+                "Accuracy": "78.3",
+                "Metric": "Test Accuracy",
+                "Outcome": "78.3"
+            }
+        },
+        {
+            "subject": {
+                "Model": "Coarse2Fine + EG (3)",
+                "Accuracy": "83.4",
+                "Metric": "Test Accuracy",
+                "Outcome": "83.4"
+            }
+        },
+        {
+            "subject": {
+                "Model": "Coarse2Fine + EG (3)",
+                "Accuracy": "83.0",
+                "Metric": "Test Accuracy",
+                "Outcome": "83.0"
+            }
+        },
+        {
+            "subject": {
+                "Model": "Coarse2Fine + EG (5)",
+                "Accuracy": "84.0",
+                "Metric": "Test Accuracy",
+                "Outcome": "84.0"
+            }
+        },
+        {
+            "subject": {
+                "Model": "Coarse2Fine + EG (5)",
+                "Accuracy": "83.8",
+                "Metric": "Test Accuracy",
+                "Outcome": "83.8"
+            }
+        },
+        {
+            "subject": {
+                "Caption": "Table 1",
+                "Description": "Test and Dev accuracy (%) of the models on WikiSQL data",
+                "Metric": "Caption",
+                "Outcome": "Table 1"
+            }
+        },
+        {
+            "subject": {
+                "Caption": "Table 1",
+                "Description": "where Accsynsyn{}_{\\text{syn}} refers to syntactical accuracy and Accexex{}_{\\text{ex}} refers to execution accuracy",
+                "Metric": "Caption",
+                "Outcome": "Table 1"
+            }
+        },
+        {
+            "subject": {
+                "Caption": "Table 1",
+                "Description": "+ EG (kk) indicates that model outputs are generated using the execution-guided strategy with beam size kk",
+                "Metric": "Caption",
+                "Outcome": "Table 1"
+            }
+        },
+        {
+            "subject": {
+                "Text": "We report both the syntactical accuracy Accsynsyn{}_{\\text{syn}} corresponding to the ratio of predictions that are exactly the ground truth SQL query, as well as the execution accuracy Accexex{}_{\\text{ex}} corresponding to the ratio of predictions that return the same result as the ground truth when executed",
+                "Metric": "Text",
+                "Outcome": "We report both the syntactical accuracy Accsynsyn{}_{\\text{syn}} corresponding to the ratio of predictions that are exactly the ground truth SQL query, as well as the execution accuracy Accexex{}_{\\text{ex}} corresponding to the ratio of predictions that return the same result as the ground truth when executed"
+            }
+        },
+        {
+            "subject": {
+                "Text": "Note that the execution accuracy is higher than syntactical accuracy as syntactically different programs can generate the same results (e.g., programs differing only in predicate order)",
+                "Metric": "Text",
+                "Outcome": "Note that the execution accuracy is higher than syntactical accuracy as syntactically different programs can generate the same results (e.g., programs differing only in predicate order)"
+            }
+        },
+        {
+            "subject": {
+                "Text": "In execution-guided decoding, we report two model variants, one using a beam size of 333 and the other a beam size of 555",
+                "Metric": "Text",
+                "Outcome": "In execution-guided decoding, we report two model variants, one using a beam size of 333 and the other a beam size of 555"
+            }
+        }
+    ],
+    "2108.02866_9": [
+        {
+            "subject": {
+                "dataset": "Mix-SQuWiki",
+                "question_type": "SQuAD",
+                "reranker": "single reranker",
+                "metric": "recalls",
+                "outcome": "18.69"
+            },
+            "measures": "[dataset, metric, outcome]",
+            "outcomes": ""
+        },
+        {
+            "subject": {
+                "dataset": "Mix-SQuWiki",
+                "question_type": "SQuAD",
+                "reranker": "single reranker",
+                "metric": "recalls",
+                "outcome": "50.28"
+            },
+            "measures": "[dataset, metric, outcome]",
+            "outcomes": ""
+        },
+        {
+            "subject": {
+                "dataset": "Mix-SQuWiki",
+                "question_type": "SQuAD",
+                "reranker": "single reranker",
+                "metric": "recalls",
+                "outcome": "68.15"
+            },
+            "measures": "[dataset, metric, outcome]",
+            "outcomes": ""
+        },
+        {
+            "subject": {
+                "dataset": "Mix-SQuWiki",
+                "question_type": "SQuAD",
+                "reranker": "single reranker",
+                "metric": "recalls",
+                "outcome": "74.10"
+            },
+            "measures": "[dataset, metric, outcome]",
+            "outcomes": ""
+        },
+        {
+            "subject": {
+                "dataset": "Mix-SQuWiki",
+                "question_type": "SQuAD",
+                "reranker": "single reranker",
+                "metric": "recalls",
+                "outcome": "80.89"
+            },
+            "measures": "[dataset, metric, outcome]",
+            "outcomes": ""
+        },
+        {
+            "subject": {
+                "dataset": "Mix-SQuWiki",
+                "question_type": "SQuAD",
+                "reranker": "single reranker",
+                "metric": "recalls",
+                "outcome": "84.63"
+            },
+            "measures": "[dataset, metric, outcome]",
+            "outcomes": ""
+        },
+        {
+            "subject": {
+                "dataset": "Mix-SQuWiki",
+                "question_type": "SQuAD",
+                "reranker": "single reranker",
+                "metric": "recalls",
+                "outcome": "87.13"
+            },
+            "measures": "[dataset, metric, outcome]",
+            "outcomes": ""
+        },
+        {
+            "subject": {
+                "dataset": "Mix-SQuWiki",
+                "question_type": "SQuAD",
+                "reranker": "single reranker",
+                "metric": "MAP",
+                "outcome": "13.15"
+            },
+            "measures": "[dataset, metric, outcome]",
+            "outcomes": ""
+        },
+        {
+            "subject": {
+                "dataset": "Mix-SQuWiki",
+                "question_type": "SQuAD",
+                "reranker": "single reranker",
+                "metric": "MRR",
+                "outcome": "16.56"
+            },
+            "measures": "[dataset, metric, outcome]",
+            "outcomes": ""
+        },
+        {
+            "subject": {
+                "dataset": "Mix-SQuWiki",
+                "question_type": "SQuAD",
+                "reranker": "single reranker",
+                "metric": "recalls",
+                "outcome": "13.10"
+            },
+            "measures": "[dataset, metric, outcome]",
+            "outcomes": ""
+        },
+        {
+            "subject": {
+                "dataset": "Mix-SQuWiki",
+                "question_type": "SQuAD",
+                "reranker": "single reranker",
+                "metric": "recalls",
+                "outcome": "20.08"
+            },
+            "measures": "[dataset, metric, outcome]",
+            "outcomes": ""
+        },
+        {
+            "subject": {
+                "dataset": "Mix-SQuWiki",
+                "question_type": "SQuAD",
+                "reranker": "single reranker",
+                "metric": "recalls",
+                "outcome": "22.54"
+            },
+            "measures": "[dataset, metric, outcome]",
+            "outcomes": ""
+        },
+        {
+            "subject": {
+                "dataset": "Mix-SQuWiki",
+                "question_type": "SQuAD",
+                "reranker": "single reranker",
+                "metric": "recalls",
+                "outcome": "25.24"
+            },
+            "measures": "[dataset, metric, outcome]",
+            "outcomes": ""
+        },
+        {
+            "subject": {
+                "dataset": "Mix-SQuWiki",
+                "question_type": "SQuAD",
+                "reranker": "single reranker",
+                "metric": "recalls",
+                "outcome": "29.66"
+            },
+            "measures": "[dataset, metric, outcome]",
+            "outcomes": ""
+        },
+        {
+            "subject": {
+                "dataset": "Mix-SQuWiki",
+                "question_type": "SQuAD",
+                "reranker": "single reranker",
+                "metric": "recalls",
+                "outcome": "33.20"
+            },
+            "measures": "[dataset, metric, outcome]",
+            "outcomes": ""
+        },
+        {
+            "subject": {
+                "dataset": "Mix-SQuWiki",
+                "question_type": "SQuAD",
+                "reranker": "single reranker",
+                "metric": "recalls",
+                "outcome": "51.70"
+            },
+            "measures": "[dataset, metric, outcome]",
+            "outcomes": ""
+        },
+        {
+            "subject": {
+                "dataset": "Mix-SQuWiki",
+                "question_type": "SQuAD",
+                "reranker": "single reranker",
+                "metric": "recalls",
+                "outcome": "66.27"
+            },
+            "measures": "[dataset, metric, outcome]",
+            "outcomes": ""
+        },
+        {
+            "subject": {
+                "dataset": "Mix-SQuWiki",
+                "question_type": "SQuAD",
+                "reranker": "single reranker",
+                "metric": "recalls",
+                "outcome": "70.93"
+            },
+            "measures": "[dataset, metric, outcome]",
+            "outcomes": ""
+        },
+        {
+            "subject": {
+                "dataset": "Mix-SQuWiki",
+                "question_type": "SQuAD",
+                "reranker": "single reranker",
+                "metric": "recalls",
+                "outcome": "75.53"
+            },
+            "measures": "[dataset, metric, outcome]",
+            "outcomes": ""
+        },
+        {
+            "subject": {
+                "dataset": "Mix-SQuWiki",
+                "question_type": "SQuAD",
+                "reranker": "single reranker",
+                "metric": "recalls",
+                "outcome": "80.54"
+            },
+            "measures": "[dataset, metric, outcome]",
+            "outcomes": ""
+        },
+        {
+            "subject": {
+                "dataset": "Mix-SQuWiki",
+                "question_type": "SQuAD",
+                "reranker": "single reranker",
+                "metric": "recalls",
+                "outcome": "84.14"
+            },
+            "measures": "[dataset, metric, outcome]",
+            "outcomes": ""
+        },
+        {
+            "subject": {
+                "dataset": "Mix-SQuWiki",
+                "question_type": "SQuAD",
+                "reranker": "single reranker",
+                "metric": "recalls",
+                "outcome": "47.63"
+            },
+            "measures": "[dataset, metric, outcome]",
+            "outcomes": ""
+        },
+        {
+            "subject": {
+                "dataset": "Mix-SQuWiki",
+                "question_type": "SQuAD",
+                "reranker": "single reranker",
+                "metric": "recalls",
+                "outcome": "47.92"
+            },
+            "measures": "[dataset, metric, outcome]",
+            "outcomes": ""
+        },
+        {
+            "subject": {
+                "dataset": "Mix-SQuWiki",
+                "question_type": "SQuAD",
+                "reranker": "single reranker",
+                "metric": "recalls",
+                "outcome": "44.93"
+            },
+            "measures": "[dataset, metric, outcome]",
+            "outcomes": ""
+        },
+        {
+            "subject": {
+                "dataset": "Mix-SQuWiki",
+                "question_type": "SQuAD",
+                "reranker": "single reranker",
+                "metric": "recalls",
+                "outcome": "58.49"
+            },
+            "measures": "[dataset, metric, outcome]",
+            "outcomes": ""
+        },
+        {
+            "subject": {
+                "dataset": "Mix-SQuWiki",
+                "question_type": "SQuAD",
+                "reranker": "single reranker",
+                "metric": "recalls",
+                "outcome": "58.34"
+            },
+            "measures": "[dataset, metric, outcome]",
+            "outcomes": ""
+        },
+        {
+            "subject": {
+                "dataset": "Mix-SQuWiki",
+                "question_type": "SQuAD",
+                "reranker": "single reranker",
+                "metric": "recalls",
+                "outcome": "58.38"
+            },
+            "measures": "[dataset, metric, outcome]",
+            "outcomes": ""
+        }
+    ],
+    "2112.02212_3": [
+        {
+            "subject": {
+                "Yu et al.": "2018, value",
+                "hardness levels": "categories",
+                "difficulty levels": "levels",
+                "train": "7000",
+                "test": "1034",
+                "DT-Fixup": "75.0",
+                "+Ours": "77.2"
+            },
+            "measures": "[train, test, DT-Fixup, +Ours]",
+            "outcomes": "[1694, 248, 91.9, 92.7, 2777, 446, 80.9, 82.3, 1461, 174, 60.3, 65.5, 1068, 166, 48.8, 52.4, 7000, 1034, 75.0, 77.2]"
+        },
+        {
+            "subject": {
+                "Easy": "value",
+                "Medium": "value",
+                "Hard": "value",
+                "Extra": "value",
+                "All": "value"
+            },
+            "measures": "[Easy, Medium, Hard, Extra, All]",
+            "outcomes": "[91.9, 80.9, 60.3, 48.8, 75.0]"
+        },
+        {
+            "subject": {
+                "Yu et al.": "2018, value",
+                "hardness levels": "categories",
+                "difficulty levels": "levels",
+                "train": "7000",
+                "test": "1034",
+                "+Ours": "77.2"
+            },
+            "measures": "[train, test, +Ours]",
+            "outcomes": "[7000, 1034, 77.2]"
+        },
+        {
+            "subject": {
+                "hard": "value",
+                "extra hard": "value",
+                "hard categories": "categories",
+                "limited": "value",
+                "manual curation": "value",
+                "simple heuristics": "value"
+            },
+            "measures": "[hard, extra hard, hard categories, limited, manual curation, simple heuristics]",
+            "outcomes": "[66~{}6-points, 48.8, 52.4]"
+        },
+        {
+            "subject": {
+                "Yu et al.": "2018, value",
+                "hardness levels": "categories",
+                "difficulty levels": "levels"
+            },
+            "measures": "[Yu et al., 2018, hardness levels, difficulty levels]",
+            "outcomes": "[]"
+        },
+        {
+            "subject": {
+                "categories": "value"
+            },
+            "measures": "[categories]",
+            "outcomes": "[hard, extra hard]"
+        },
+        {
+            "subject": {
+                "hardness levels": "value",
+                "difficulty levels": "value"
+            },
+            "measures": "[hardness levels, difficulty levels]",
+            "outcomes": "[categories]"
+        },
+        {
+            "subject": {
+                "train": "value",
+                "test": "value"
+            },
+            "measures": "[train, test]",
+            "outcomes": "[1694, 248, 2777, 446, 1461, 174, 1068, 166, 7000, 1034]"
+        },
+        {
+            "subject": {
+                "DT-Fixup": "value",
+                "+Ours": "value"
+            },
+            "measures": "[DT-Fixup, +Ours]",
+            "outcomes": "[91.9, 92.7, 80.9, 82.3, 60.3, 65.5, 48.8, 52.4, 75.0, 77.2]"
+        },
+        {
+            "subject": {
+                "Easy": "value",
+                "Medium": "value",
+                "Hard": "value",
+                "Extra": "value",
+                "All": "value"
+            },
+            "measures": "[Easy, Medium, Hard, Extra, All]",
+            "outcomes": "[91.9, 80.9, 60.3, 48.8, 75.0]"
+        },
+        {
+            "subject": {
+                "hard": "value",
+                "extra hard": "value"
+            },
+            "measures": "[hard, extra hard]",
+            "outcomes": "[66~{}6-points]"
+        },
+        {
+            "subject": {
+                "categories": "value"
+            },
+            "measures": "[categories]",
+            "outcomes": "[hard, extra hard]"
+        },
+        {
+            "subject": {
+                "hardness levels": "value"
+            },
+            "measures": "[hardness levels]",
+            "outcomes": "[categories]"
+        },
+        {
+            "subject": {
+                "difficulty levels": "value"
+            },
+            "measures": "[difficulty levels]",
+            "outcomes": "[levels]"
+        },
+        {
+            "subject": {
+                "train": "value",
+                "test": "value"
+            },
+            "measures": "[train, test]",
+            "outcomes": "[1694, 248, 2777, 446, 1461, 174, 1068, 166, 7000, 1034]"
+        },
+        {
+            "subject": {
+                "DT-Fixup": "value",
+                "+Ours": "value"
+            },
+            "measures": "[DT-Fixup, +Ours]",
+            "outcomes": "[91.9, 92.7, 80.9, 82.3, 60.3, 65.5, 48.8, 52.4, 75.0, 77.2]"
+        },
+        {
+            "subject": {
+                "Easy": "value",
+                "Medium": "value",
+                "Hard": "value",
+                "Extra": "value",
+                "All": "value"
+            },
+            "measures": "[Easy, Medium, Hard, Extra, All]",
+            "outcomes": "[91.9, 80.9, 60.3, 48.8, 75.0]"
+        },
+        {
+            "subject": {
+                "hard": "value",
+                "extra hard": "value"
+            },
+            "measures": "[hard, extra hard]",
+            "outcomes": "[66~{}6-points]"
+        },
+        {
+            "subject": {
+                "categories": "value"
+            },
+            "measures": "[categories]",
+            "outcomes": "[hard, extra hard]"
+        },
+        {
+            "subject": {
+                "hardness levels": "value"
+            },
+            "measures": "[hardness levels]",
+            "outcomes": "[categories]"
+        },
+        {
+            "subject": {
+                "difficulty levels": "value"
+            },
+            "measures": "[difficulty levels]",
+            "outcomes": "[levels]"
+        },
+        {
+            "subject": {
+                "train": "value",
+                "test": "value"
+            },
+            "measures": "[train, test]",
+            "outcomes": "[1694, 248, 2777, 446, 1461, 174, 1068, 166, 7000, 1034]"
+        },
+        {
+            "subject": {
+                "DT-Fixup": "value",
+                "+Ours": "value"
+            },
+            "measures": "[DT-Fixup, +Ours]",
+            "outcomes": "[91.9, 92.7, 80.9, 82.3, 60.3, 65.5, 48.8, 52.4, 75.0, 77.2]"
+        },
+        {
+            "subject": {
+                "Easy": "value",
+                "Medium": "value",
+                "Hard": "value",
+                "Extra": "value",
+                "All": "value"
+            },
+            "measures": "[Easy, Medium, Hard, Extra, All]",
+            "outcomes": "[91.9, 80.9, 60.3, 48.8, 75.0]"
+        },
+        {
+            "subject": {
+                "hard": "value",
+                "extra hard": "value"
+            },
+            "measures": "[hard, extra hard]",
+            "outcomes": "[66~{}6-points]"
+        },
+        {
+            "subject": {
+                "categories": "value"
+            },
+            "measures": "[categories]",
+            "outcomes": "[hard, extra hard]"
+        },
+        {
+            "subject": {
+                "hardness levels": "value"
+            },
+            "measures": "[hardness levels]",
+            "outcomes": "[categories]"
+        },
+        {
+            "subject": {
+                "difficulty levels": "value"
+            },
+            "measures": "[difficulty levels]",
+            "outcomes": "[levels]"
+        },
+        {
+            "subject": {
+                "train": "value",
+                "test": "value"
+            },
+            "measures": "[train, test]",
+            "outcomes": "[1694, 248, 2777, 446, 1461, 174, 1068, 166, 7000, 1034]"
+        },
+        {
+            "subject": {
+                "DT-Fixup": "value",
+                "+Ours": "value"
+            },
+            "measures": "[DT-Fixup, +Ours]",
+            "outcomes": "[91.9, 92.7, 80.9, 82.3, 60.3, 65.5, 48.8, 52.4, 75.0, 77.2]"
+        },
+        {
+            "subject": {
+                "Easy": "value",
+                "Medium": "value",
+                "Hard": "value",
+                "Extra": "value",
+                "All": "value"
+            },
+            "measures": "[Easy, Medium, Hard, Extra, All]",
+            "outcomes": "[91.9, 80.9, 60.3, 48.8, 75.0]"
+        },
+        {
+            "subject": {
+                "hard": "value",
+                "extra hard": "value"
+            },
+            "measures": "[hard, extra hard]",
+            "outcomes": "[66~{}6-points]"
+        },
+        {
+            "subject": {
+                "categories": "value"
+            },
+            "measures": "[categories]",
+            "outcomes": "[hard, extra hard]"
+        },
+        {
+            "subject": {
+                "hardness levels": "value"
+            },
+            "measures": "[hardness levels]",
+            "outcomes": "[categories]"
+        },
+        {
+            "subject": {
+                "difficulty levels": "value"
+            },
+            "measures": "[difficulty levels]",
+            "outcomes": "[levels]"
+        },
+        {
+            "subject": {
+                "train": "value",
+                "test": "value"
+            },
+            "measures": "[train, test]",
+            "outcomes": "[1694, 248, 2777, 446, 1461, 174, 1068, 166, 7000, 1034]"
+        },
+        {
+            "subject": {
+                "DT-Fixup": "value",
+                "+Ours": "value"
+            },
+            "measures": "[DT-Fixup, +Ours]",
+            "outcomes": "[91.9, 92.7, 80.9, 82.3, 60.3, 65.5, 48.8, 52.4, 75.0, 77.2]"
+        },
+        {
+            "subject": {
+                "Easy": "value",
+                "Medium": "value",
+                "Hard": "value",
+                "Extra": "value",
+                "All": "value"
+            },
+            "measures": "[Easy, Medium, Hard, Extra, All]",
+            "outcomes": "[91.9, 80.9, 60.3, 48.8, 75.0]"
+        },
+        {
+            "subject": {
+                "hard": "value",
+                "extra hard": "value"
+            },
+            "measures": "[hard, extra hard]",
+            "outcomes": "[66~{}6-points]"
+        },
+        {
+            "subject": {
+                "categories": "value"
+            },
+            "measures": "[categories]",
+            "outcomes": "[hard, extra hard]"
+        },
+        {
+            "subject": {
+                "hardness levels": "value"
+            },
+            "measures": "[hardness levels]",
+            "outcomes": "[categories]"
+        },
+        {
+            "subject": {
+                "difficulty levels": "value"
+            },
+            "measures": "[difficulty levels]",
+            "outcomes": "[levels]"
+        },
+        {
+            "subject": {
+                "train": "value",
+                "test": "value"
+            },
+            "measures": "[train, test]",
+            "outcomes": "[1694, 248, 2777, 446, 1461, 174, 1068, 166, 7000, 1034]"
+        },
+        {
+            "subject": {
+                "DT-Fixup": "value",
+                "+Ours": "value"
+            },
+            "measures": "[DT-Fixup, +Ours]",
+            "outcomes": "[91.9, 92.7, 80.9, 82.3, 60.3, 65.5, 48.8, 52.4, 75.0, 77.2]"
+        },
+        {
+            "subject": {
+                "Easy": "value",
+                "Medium": "value",
+                "Hard": "value",
+                "Extra": "value",
+                "All": "value"
+            },
+            "measures": "[Easy, Medium, Hard, Extra, All]",
+            "outcomes": "[91.9, 80.9, 60.3, 48.8, 75.0]"
+        },
+        {
+            "subject": {
+                "hard": "value",
+                "extra hard": "value"
+            },
+            "measures": "[hard, extra hard]",
+            "outcomes": "[66~{}6-points]"
+        },
+        {
+            "subject": {
+                "categories": "value"
+            },
+            "measures": "[categories]",
+            "outcomes": "[hard, extra hard]"
+        },
+        {
+            "subject": {
+                "hardness levels": "value"
+            },
+            "measures": "[hardness levels]",
+            "outcomes": "[categories]"
+        },
+        {
+            "subject": {
+                "difficulty levels": "value"
+            },
+            "measures": "[difficulty levels]",
+            "outcomes": "[levels]"
+        },
+        {
+            "subject": {
+                "train": "value",
+                "test": "value"
+            },
+            "measures": "[train, test]",
+            "outcomes": "[1694, 248, 2777, 446, 1461, 174, 1068, 166, 7000, 1034]"
+        },
+        {
+            "subject": {
+                "DT-Fixup": "value",
+                "+Ours": "value"
+            },
+            "measures": "[DT-Fixup, +Ours]",
+            "outcomes": "[91.9, 92.7, 80.9, 82.3, 60.3, 65.5, 48.8, 52.4, 75.0, 77.2]"
+        },
+        {
+            "subject": {
+                "Easy": "value",
+                "Medium": "value",
+                "Hard": "value",
+                "Extra": "value",
+                "All": "value"
+            },
+            "measures": "[Easy, Medium, Hard, Extra, All]",
+            "outcomes": "[91.9, 80.9, 60.3, 48.8, 75.0]"
+        },
+        {
+            "subject": {
+                "hard": "value",
+                "extra hard": "value"
+            },
+            "measures": "[hard, extra hard]",
+            "outcomes": "[66~{}6-points]"
+        },
+        {
+            "subject": {
+                "categories": "value"
+            },
+            "measures": "[categories]",
+            "outcomes": "[hard, extra hard]"
+        },
+        {
+            "subject": {
+                "hardness levels": "value"
+            },
+            "measures": "[hardness levels]",
+            "outcomes": "[categories]"
+        },
+        {
+            "subject": {
+                "difficulty levels": "value"
+            },
+            "measures": "[difficulty levels]",
+            "outcomes": "[levels]"
+        },
+        {
+            "subject": {
+                "train": "value",
+                "test": "value"
+            },
+            "measures": "[train, test]",
+            "outcomes": "[1694, 248, 2777, 446, 1461, 174, 1068, 166, 7000, 1034]"
+        },
+        {
+            "subject": {
+                "DT-Fixup": "value",
+                "+Ours": "value"
+            },
+            "measures": "[DT-Fixup, +Ours]",
+            "outcomes": "[91.9, 92.7, 80.9, 82.3, 60.3, 65.5, 48.8, 52.4, 75.0, 77.2]"
+        },
+        {
+            "subject": {
+                "Easy": "value",
+                "Medium": "value",
+                "Hard": "value",
+                "Extra": "value",
+                "All": "value"
+            },
+            "measures": "[Easy, Medium, Hard, Extra, All]",
+            "outcomes": "[91.9, 80.9, 60.3, 48.8, 75.0]"
+        },
+        {
+            "subject": {
+                "hard": "value",
+                "extra hard": "value"
+            },
+            "measures": "[hard, extra hard]",
+            "outcomes": "[66~{}6-points]"
+        },
+        {
+            "subject": {
+                "categories": "value"
+            },
+            "measures": "[categories]",
+            "outcomes": "[hard, extra hard]"
+        },
+        {
+            "subject": {
+                "hardness levels": "value"
+            },
+            "measures": "[hardness levels]",
+            "outcomes": "[categories]"
+        },
+        {
+            "subject": {
+                "difficulty levels": "value"
+            },
+            "measures": "[difficulty levels]",
+            "outcomes": "[levels]"
+        },
+        {
+            "subject": {
+                "train": "value",
+                "test": "value"
+            },
+            "measures": "[train, test]",
+            "outcomes": "[1694, 248, 2777, 446, 1461, 174, 1068, 166, 7000, 1034]"
+        },
+        {
+            "subject": {
+                "DT-Fixup": "value",
+                "+Ours": "value"
+            },
+            "measures": "[DT-Fixup, +Ours]",
+            "outcomes": "[91.9, 92.7, 80.9, 82.3, 60.3, 65.5, 48.8, 52.4, 75.0, 77.2]"
+        },
+        {
+            "subject": {
+                "Easy": "value",
+                "Medium": "value",
+                "Hard": "value",
+                "Extra": "value",
+                "All": "value"
+            },
+            "measures": "[Easy, Medium, Hard, Extra, All]",
+            "outcomes": "[91.9, 80.9, 60.3, 48.8, 75.0]"
+        },
+        {
+            "subject": {
+                "hard": "value",
+                "extra hard": "value"
+            },
+            "measures": "[hard, extra hard]",
+            "outcomes": "[66~{}6-points]"
+        }
+    ],
+    "2310.18662_7": [
+        {
+            "subject": {
+                "Dataset": "CoSQL"
+            },
+            "measures": "[name, value]",
+            "outcomes": "[metric, outcome]"
+        },
+        {
+            "subject": {
+                "name": "LSTM",
+                "value": "206.6"
+            },
+            "measures": "[name, Spider]",
+            "outcomes": [
+                "[metric, inference time]",
+                "[outcome, seconds/per 100010001000 samples under the same configuration]"
+            ]
+        },
+        {
+            "subject": {
+                "name": "Spider"
+            },
+            "measures": "[value, 191.5]",
+            "outcomes": [
+                "[name, SParC]",
+                "[metric, inference time]",
+                "[outcome, seconds/per 100010001000 samples under the same configuration]"
+            ]
+        },
+        {
+            "subject": {
+                "name": "SParC"
+            },
+            "measures": "[value, 200.7]",
+            "outcomes": [
+                "[name, CoSQL]",
+                "[metric, inference time]",
+                "[outcome, seconds/per 100010001000 samples under the same configuration]"
+            ]
+        },
+        {
+            "subject": {
+                "name": "CoSQL"
+            },
+            "measures": "[value, 201.0]",
+            "outcomes": [
+                "[name, LSTM]",
+                "[metric, inference time]",
+                "[outcome, seconds/per 100010001000 samples under the same configuration]"
+            ]
+        },
+        {
+            "subject": {
+                "name": "ASTormer",
+                "value": "237.0"
+            },
+            "measures": "[name, Spider]",
+            "outcomes": [
+                "[metric, inference time]",
+                "[outcome, seconds/per 100010001000 samples under the same configuration]"
+            ]
+        },
+        {
+            "subject": {
+                "name": "Spider"
+            },
+            "measures": "[value, 200.7]",
+            "outcomes": [
+                "[name, SParC]",
+                "[metric, inference time]",
+                "[outcome, seconds/per 100010001000 samples under the same configuration]"
+            ]
+        },
+        {
+            "subject": {
+                "name": "SParC"
+            },
+            "measures": "[value, 199.1]",
+            "outcomes": [
+                "[name, CoSQL]",
+                "[metric, inference time]",
+                "[outcome, seconds/per 100010001000 samples under the same configuration]"
+            ]
+        },
+        {
+            "subject": {
+                "name": "CoSQL"
+            },
+            "measures": "[value, 199.1]",
+            "outcomes": [
+                "[name, ASTormer]",
+                "[metric, inference time]",
+                "[outcome, seconds/per 100010001000 samples under the same configuration]"
+            ]
+        }
+    ],
+    "2311.01173_3": [
+        {
+            "subject": {
+                "Data set": "SpiderUnion",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "3",
+                "Accuracy": "0.29/0.33"
+            },
+            "measures": "[Data set, Method, Budget]",
+            "outcomes": "[0.29/0.33]"
+        },
+        {
+            "subject": {
+                "Data set": "SpiderUnion",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "5",
+                "Accuracy": "0.35/0.41"
+            },
+            "measures": "[Data set, Method, Budget]",
+            "outcomes": "[0.35/0.41]"
+        },
+        {
+            "subject": {
+                "Data set": "SpiderUnion",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "10",
+                "Accuracy": "0.45/0.53"
+            },
+            "measures": "[Data set, Method, Budget]",
+            "outcomes": "[0.45/0.53]"
+        },
+        {
+            "subject": {
+                "Data set": "SpiderUnion",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "20",
+                "Accuracy": "0.48/0.57"
+            },
+            "measures": "[Data set, Method, Budget]",
+            "outcomes": "[0.48/0.57]"
+        },
+        {
+            "subject": {
+                "Data set": "SpiderUnion",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "30",
+                "Accuracy": "0.48/0.59"
+            },
+            "measures": "[Data set, Method, Budget]",
+            "outcomes": "[0.48/0.59]"
+        },
+        {
+            "subject": {
+                "Data set": "SpiderUnion",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "50",
+                "Accuracy": "0.48/0.59"
+            },
+            "measures": "[Data set, Method, Budget]",
+            "outcomes": "[0.48/0.59]"
+        },
+        {
+            "subject": {
+                "Data set": "SpiderUnion",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "100",
+                "Accuracy": "0.51/0.62"
+            },
+            "measures": "[Data set, Method, Budget]",
+            "outcomes": "[0.51/0.62]"
+        },
+        {
+            "subject": {
+                "Data set": "CRUSH (ours)",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "3",
+                "Accuracy": "0.35/0.39"
+            },
+            "measures": "[Data set, Method, Budget]",
+            "outcomes": "[0.35/0.39]"
+        },
+        {
+            "subject": {
+                "Data set": "CRUSH (ours)",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "5",
+                "Accuracy": "0.46/0.53"
+            },
+            "measures": "[Data set, Method, Budget]",
+            "outcomes": "[0.46/0.53]"
+        },
+        {
+            "subject": {
+                "Data set": "CRUSH (ours)",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "10",
+                "Accuracy": "0.52/0.60"
+            },
+            "measures": "[Data set, Method, Budget]",
+            "outcomes": "[0.52/0.60]"
+        },
+        {
+            "subject": {
+                "Data set": "CRUSH (ours)",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "20",
+                "Accuracy": "0.53/0.64"
+            },
+            "measures": "[Data set, Method, Budget]",
+            "outcomes": "[0.53/0.64]"
+        },
+        {
+            "subject": {
+                "Data set": "CRUSH (ours)",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "30",
+                "Accuracy": "0.54/0.64"
+            },
+            "measures": "[Data set, Method, Budget]",
+            "outcomes": "[0.54/0.64]"
+        },
+        {
+            "subject": {
+                "Data set": "CRUSH (ours)",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "50",
+                "Accuracy": "0.52/0.63"
+            },
+            "measures": "[Data set, Method, Budget]",
+            "outcomes": "[0.52/0.63]"
+        },
+        {
+            "subject": {
+                "Data set": "CRUSH (ours)",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "100",
+                "Accuracy": "0.52/0.62"
+            },
+            "measures": "[Data set, Method, Budget]",
+            "outcomes": "[0.52/0.62]"
+        },
+        {
+            "subject": {
+                "Data set": "BirdUnion",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "3",
+                "Accuracy": "0.03/0.07"
+            },
+            "measures": "[Data set, Method, Budget]",
+            "outcomes": "[0.03/0.07]"
+        },
+        {
+            "subject": {
+                "Data set": "BirdUnion",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "5",
+                "Accuracy": "0.05/0.10"
+            },
+            "measures": "[Data set, Method, Budget]",
+            "outcomes": "[0.05/0.10]"
+        },
+        {
+            "subject": {
+                "Data set": "BirdUnion",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "10",
+                "Accuracy": "0.07/0.13"
+            },
+            "measures": "[Data set, Method, Budget]",
+            "outcomes": "[0.07/0.13]"
+        },
+        {
+            "subject": {
+                "Data set": "BirdUnion",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "20",
+                "Accuracy": "0.09/0.15"
+            },
+            "measures": "[Data set, Method, Budget]",
+            "outcomes": "[0.09/0.15]"
+        },
+        {
+            "subject": {
+                "Data set": "BirdUnion",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "30",
+                "Accuracy": "0.09/0.16"
+            },
+            "measures": "[Data set, Method, Budget]",
+            "outcomes": "[0.09/0.16]"
+        },
+        {
+            "subject": {
+                "Data set": "BirdUnion",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "50",
+                "Accuracy": "0.10/0.18"
+            },
+            "measures": "[Data set, Method, Budget]",
+            "outcomes": "[0.10/0.18]"
+        },
+        {
+            "subject": {
+                "Data set": "CRUSH (ours)",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "3",
+                "Accuracy": "0.04/0.07"
+            },
+            "measures": "[Data set, Method, Budget]",
+            "outcomes": "[0.04/0.07]"
+        },
+        {
+            "subject": {
+                "Data set": "CRUSH (ours)",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "5",
+                "Accuracy": "0.07/0.11"
+            },
+            "measures": "[Data set, Method, Budget]",
+            "outcomes": "[0.07/0.11]"
+        },
+        {
+            "subject": {
+                "Data set": "CRUSH (ours)",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "10",
+                "Accuracy": "0.09/0.15"
+            },
+            "measures": "[Data set, Method, Budget]",
+            "outcomes": "[0.09/0.15]"
+        },
+        {
+            "subject": {
+                "Data set": "CRUSH (ours)",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "20",
+                "Accuracy": "0.11/0.19"
+            },
+            "measures": "[Data set, Method, Budget]",
+            "outcomes": "[0.11/0.19]"
+        },
+        {
+            "subject": {
+                "Data set": "CRUSH (ours)",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "30",
+                "Accuracy": "0.11/0.19"
+            },
+            "measures": "[Data set, Method, Budget]",
+            "outcomes": "[0.11/0.19]"
+        },
+        {
+            "subject": {
+                "Data set": "CRUSH (ours)",
+                "Method": "Single DPR(OpenAI)",
+                "Budget": "50",
+                "Accuracy": "0.12/0.21"
+            },
+            "measures": "[Data set, Method, Budget]",
+            "outcomes": "[0.12/0.21]"
+        }
+    ],
+    "2109.10540_4": [
+        {
+            "subject": {
+                "Model": "ALIGN",
+                "Dev": "46.6",
+                "Test": "0.5"
+            },
+            "measures": "[Model, ALIGN+BERT]",
+            "outcomes": [
+                "[Dev, 44.7]",
+                "[Test, 63.8]",
+                "[Dev, 2.1]",
+                "[Test, 1.1]",
+                "[Dev, 51.8]",
+                "[Test, 0.4]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "EtA+BERT",
+                "Dev": "53.8",
+                "Test": "0.3"
+            },
+            "measures": "[Model, ALIGN]",
+            "outcomes": [
+                "[Dev, 42.2]",
+                "[Test, 61.3]",
+                "[Dev, 1.5]",
+                "[Test, 0.8]",
+                "[Dev, 49.7]",
+                "[Test, 0.4]"
+            ]
+        },
+        {
+            "subject": {
+                "Model": "ALIGN+BERT",
+                "Dev": "54.1",
+                "Test": "0.2"
+            },
+            "measures": "[Model, ALIGN]",
+            "outcomes": [
+                "[Dev, 37.8]",
+                "[Test, 56.9]",
+                "[Dev, 0.6]",
+                "[Test, 0.7]",
+                "[Dev, 46.6]",
+                "[Test, 0.5]"
+            ]
+        },
+        {
+            "subject": {
+                "Table": "4",
+                "WTQ": "test"
+            },
+            "measures": "[Table, 5]",
+            "outcomes": [
+                "[Spider]",
+                "[Ex.Set]",
+                "[metric, 7.17]",
+                "[outcome, 1%]"
+            ]
+        },
+        {
+            "subject": {
+                "Table": "4",
+                "WTQ": "test"
+            },
+            "measures": "[Table, 5]",
+            "outcomes": [
+                "[Spider]",
+                "[Ex.Set]",
+                "[metric, 9.89]",
+                "[outcome, 8%]"
+            ]
+        },
+        {
+            "subject": {
+                "Table": "4",
+                "WTQ": "test"
+            },
+            "measures": "[Table, 5]",
+            "outcomes": [
+                "[Spider]",
+                "[Ex.Set]",
+                "[metric, state-of-the-art]",
+                "[outcome, competitive]"
+            ]
+        }
+    ]
+}

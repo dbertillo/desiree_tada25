@@ -1,0 +1,123 @@
+{
+    "matches": [
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "An X et al.",
+                    "year": "2010",
+                    "n": "89",
+                    "number_of_patients_with_nlr_gt_5": "16",
+                    "percentage_of_patients_with_nlr_gt_5": "17.9"
+                },
+                "measures": "[overall_survival_nlr_gt_5, overall_survival_nlr_lte_5]",
+                "outcomes": [
+                    "[2.4, 7.7]",
+                    "[hazard_ratio, p_value]",
+                    "[4.49, 0.013]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Study": "An X et al.",
+                    "Year": "2010",
+                    "number of patients": "89",
+                    "Number of patientis with NLR > 5 (%)": "16 (17.9)",
+                    "Overall survival (NLR >5 vs \u22645) (months)": "2.4 versus 7.7",
+                    "NLR \u22645": "1"
+                },
+                "measures": "[Hazard Ratio, P-Value]",
+                "outcomes": "[4.49, 0.013]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "Wang DS et al.",
+                    "year": "2012",
+                    "n": "86",
+                    "number_of_patients_with_nlr_gt_5": "12",
+                    "percentage_of_patients_with_nlr_gt_5": "13.9"
+                },
+                "measures": "[overall_survival_nlr_gt_5, overall_survival_nlr_lte_5]",
+                "outcomes": "[5.8, 10.2]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Study": "Wang DS et al.",
+                    "Year": "2012",
+                    "number of patients": "86",
+                    "Number of patientis with NLR > 5 (%)": "12 (13.9)",
+                    "Overall survival (NLR >5 vs \u22645) (months)": "5.8 versus 10.2",
+                    "NLR \u22645": "1"
+                },
+                "measures": "[]",
+                "outcomes": "[]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "Stotz M et al",
+                    "year": "2013",
+                    "n": "261",
+                    "number_of_patients_with_nlr_gt_5": "79",
+                    "percentage_of_patients_with_nlr_gt_5": "30.3",
+                    "chemotherapy_patients": "179",
+                    "no_chemotherapy_patients": "82"
+                },
+                "measures": "[hazard_ratio, p_value]",
+                "outcomes": "[2.53, <0.01]"
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Study": "Stotz M et al.",
+                    "Year": "2013",
+                    "number of patients": "261",
+                    "number of patients who received chemotherapy": "179",
+                    "number of patients who did not received chemotherapy": "82",
+                    "Number of patientis with NLR > 5 (%)": "79 (30.3)",
+                    "Overall survival (NLR >5 vs \u22645) (months)": "NA",
+                    "NLR \u22645": "1"
+                },
+                "measures": "[Hazard Ratio, P-Value]",
+                "outcomes": "[2.53, <0.01]"
+            },
+            "match": "yes"
+        },
+        {
+            "Extracted_claim": {
+                "subject": {
+                    "study": "Our study",
+                    "year": "2013",
+                    "n": "253",
+                    "number_of_patients_with_nlr_gt_5": "40",
+                    "percentage_of_patients_with_nlr_gt_5": "15.8"
+                },
+                "measures": "[overall_survival_nlr_gt_5, overall_survival_nlr_lte_5]",
+                "outcomes": [
+                    "[6.0, 12.8]",
+                    "[hazard_ratio, p_value]",
+                    "[1.95, <0.01]"
+                ]
+            },
+            "Ground_truth_claim": {
+                "subject": {
+                    "Study": "Our study",
+                    "Year": "2013",
+                    "number of patients": "253",
+                    "Number of patientis with NLR > 5 (%)": "40 (15.8)",
+                    "Overall survival (NLR >5 vs \u22645) (months)": "6.0 versus 12.8",
+                    "NLR \u22645": "1"
+                },
+                "measures": "[Hazard Ratio, P-Value]",
+                "outcomes": "[1.95, <0.01]"
+            },
+            "match": "yes"
+        }
+    ],
+    "total_extracted_claims": 4,
+    "total_ground_truth_claims": 4,
+    "number_of_matches": 4
+}
