@@ -1,0 +1,63 @@
+# config.yaml: Core Configuration
+
+project_path: "$GITHUB_HOME/expresso"
+
+task:
+  partial_extraction: "partial_extraction"
+  complete_extraction: "complete_extraction"
+  direct_extraction: "direct_extraction"
+  identify_measures: "identify_measures"
+
+model_type:
+  chatgpt: "chatgpt"
+  llama3: "llama3"
+  claude3: "claude3"
+
+domains:
+  cs: "computer science"
+  med: "medicine"
+
+topics:
+  txt2sql: "cs_txt2sql"
+  pancreatic_cancer: "med_pancreatic_cancer"
+
+placeholders:
+  citations: "#placeholder{citations}"
+  caption: "#placeholder{caption}"
+  table: "#placeholder{table}"
+  topic: "#placeholder{topic}"
+  claims: "#placeholder{claims}"
+  table_head: "#placeholder{table_head}"
+  footnotes: "#placeholder{footnotes}"
+
+filenames:
+  claims: "claims.json"
+  comparison: "comparison.xlsx"
+  msg_info: "msg_info.json"
+  prompt: "prompt.txt"
+  results: "results.pkl"
+  stats: "stats.xlsx"
+  test_info: "test_info.json"
+  tot_recap: "tot_recap.json"
+
+directories:
+  data: "data"
+  articles: "articles"
+  comparisons: "comparisons"
+  configurations: "configurations"
+  experiments: "experiments"
+  extracted_table: "extracted_tables"
+  ground_truth: "ground_truth"
+  answers: "answers"
+  messages: "messages"
+  stats: "stats"
+  temp: "temp"
+  output: "output"
+  responses: "responses"
+  metadatas: "metadatas"
+  running_experiments: "running_experiments"
+
+table_format:
+  latex: "latex"
+  html: "html"
+  image: "image"

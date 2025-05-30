@@ -1,0 +1,125 @@
+# pipelines.yaml: Reusable Pipelines Configuration
+
+
+# FORMAT_CLAIMS: "triplets", "pairs"
+p1_0:
+  name: "direct_extraction"
+  description: "A simple pipeline using a direct extraction approach."
+  steps:
+    - task: "direct_extraction"
+      message_folder: "direct_extraction_v0"
+      claims_format: "triplets"
+
+p1_1:
+  name: "direct_extraction"
+  description: "A simple pipeline using a direct extraction approach with 1 shot example."
+  steps:
+    - task: "direct_extraction"
+      message_folder: "direct_extraction_1_shot_v0"
+      claims_format: "triplets"
+
+p_be_v0:
+  name: "boostrap_extraction"
+  description: ""
+  steps:
+    - task: "boostrap_extraction_step_1"
+      message_folder: "be_step1_0_shot_v0"
+      claims_format: "triplets"
+    - task: "boostrap_extraction_step_2"
+      message_folder: "be_step2_0_shot_v0"
+      claims_format: "triplets"
+
+p_bootstrap_med_v1:
+  name: "boostrap_extraction"
+  description: ""
+  steps:
+    - task: "boostrap_extraction_step_1"
+      message_folder: "bootstrap_med_step1_1_shot_v1"
+      claims_format: "triplets"
+    - task: "boostrap_extraction_step_2"
+      message_folder: "boostrap_step2_in_context_example"
+      claims_format: "triplets"
+
+p_bootstrap_cs_v1:
+  name: "boostrap_extraction"
+  description: ""
+  steps:
+    - task: "boostrap_extraction_step_1"
+      message_folder: "bootstrap_cs_step1_1_shot_v1"
+      claims_format: "triplets"
+    - task: "boostrap_extraction_step_2"
+      message_folder: "boostrap_step2_in_context_example"
+      claims_format: "triplets"
+
+
+p2_0:
+  name: "partial_to_complete_extraction"
+  description: "A pipeline that uses a partial extraction approach to generate the first few claims, validate them, and then uses another LLM to complete the extraction."
+  steps:
+    - task: "partial_extraction"
+      message_folder: "partial_extraction_v1"
+    - task: "complete_extraction"
+      message_folder: "complete_extraction_cs_v1"
+    - task: "identify_measures"
+      message_folder: "identify_measures_v0"
+
+###################
+# ALG CANDIDATES PIPELINES
+###################
+
+p_ac_v0:
+  name: "algorithmic candidates"
+  description: ""
+  steps:
+    - task: "algcand_step1"
+      message_folder: "algcand_step1_0_shot_v0"
+      claims_format: "pairs"
+    - task: "algcand_step2"
+      message_folder: "algcand_step2_0_shot_v0"
+      claims_format: "triplets"
+    - task: "algcand_step3"
+      message_folder: "algcand_step3_0_shot_v0"
+      claims_format: "triplets"
+
+p_threesteps_v0:
+  name: "three steps pipeline"
+  description: ""
+  steps:
+    - task: "alg_nocand_step1"
+      message_folder: "alg_nocand_step1_0_shot_v0"
+      claims_format: "pairs"
+    - task: "algcand_step2"
+      message_folder: "algcand_step2_0_shot_v0"
+      claims_format: "triplets"
+    - task: "algcand_step3"
+      message_folder: "algcand_step3_0_shot_v0"
+      claims_format: "triplets"
+
+
+
+###################
+# JUDGE PIPELINES
+###################
+p_judge_v0:
+  name: "judge table extraction pipeline"
+  description: "Use LLM as a judge to evaluate which claims match from a table (using all claims from a table against all claims form that table in the gt)"
+  steps:
+    - task: "llm_as_judge"
+      message_folder: "llm_judge_tables_v0"
+      claims_format: "triplets"
+
+p_judge_pairs_v0:
+  name: "judge pairs extraction pipeline"
+  description: "Use LLM as a judge to evaluate which claims match from a table (using all claims from a table against all claims form that table in the gt)"
+  steps:
+    - task: "llm_as_judge_pairs"
+      message_folder: "llm_judge_pairs_with_context_v0"
+      claims_format: "triplets"
+
+p_judge_specs_v0:
+  name: "judge specs extraction pipeline"
+  description: "Use LLM as a judge to evaluate which claims match from a table (using all claims from a table against all claims form that table in the gt)"
+  steps:
+    - task: "llm_as_judge_specs"
+      message_folder: "llm_judge_specs_with_context_v0"
+      claims_format: "triplets"

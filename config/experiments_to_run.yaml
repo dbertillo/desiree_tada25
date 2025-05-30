@@ -1,0 +1,101 @@
+
+#[
+  # med_judge_pairs_0_shot_claude3, med_judge_specs_claude3
+#]
+
+# To block commment shortcut: Ctrl + Shift + /
+# [
+
+# ------ Text2SQL Experiments ----
+# [
+  # cs_1_0_shot_chatgpt4,
+  # cs_1_1_easy_shot_chatgpt4,
+  # cs_1_0_shot_llama8,
+  # cs_1_1_easy_shot_llama8,
+  # cs_1_0_shot_claude3,
+  # cs_1_1_easy_shot_claude3,
+  # cs_1_0_shot_llama70,
+  # cs_1_1_easy_shot_llama70,
+  # cs_threesteps_0_shot_claude3,
+  # cs_threesteps_0_shot_llama3-70b,
+  # cs_threesteps_0_shot_chatgpt4,
+  # cs_boostrap_0_shot_chatgpt4+llama8,
+  # cs_threesteps_0_shot_llama3-8b,
+  
+  # cs_judge_pairs_0_shot_claude3,
+  # cs_judge_specs_claude3,
+  # med_boostrap_0_shot_llama70+llama8,
+  # med_judge_pairs_0_shot_claude3,
+  # med_judge_specs_claude3
+# ]
+
+# ------ Pancreatic Cancer Experiments ----
+#   med_1_0_claude3, med_1_1_easy_shot_claude3, med_threesteps_0_shot_claude3, med_1_0_chatgpt4, med_1_1_easy_shot_chatgpt4, med_threesteps_0_shot_chatgpt4, med_1_0_llama70, med_1_1_easy_shot_llama70, med_threesteps_0_shot_llama70, med_1_0_llama8, med_1_1_easy_shot_llama8, med_threesteps_0_shot_llama8,
+# ]
+# ----- Entity Resolution Experiments ----
+# [
+#   er_cs_1_0_shot_gpt4o, er_cs_1_1_easy_shot_gpt4o, er_cs_1_0_shot_llama70, er_cs_1_1_easy_shot_llama70, er_cs_1_0_shot_llama8, er_cs_1_1_easy_shot_llama8, er_cs_bootstrap_0_shot_gpt4o+llama8
+# ]
+
+[
+  # test_cs_1_1_easy_shot_llama70,
+  # test_cs_1_1_easy_shot_chatgpt4,
+  # test_cs_1_1_easy_shot_llama8,
+  test_cs_1_0_shot_claude3
+  # test_er_cs_1_1_easy_shot_llama8,
+  # test_med_1_1_easy_shot_claude3
+
+  # cs_judge_specs_claude3,
+  # er_cs_judge_pairs_claude3,
+  # hiv_med_1_1_easy_shot_gpt4o,
+  # hiv_med_1_1_easy_shot_claude3,
+  # hiv_med_1_1_easy_shot_llama70,
+  # hiv_med_1_1_easy_shot_llama8,
+  # hiv_med_1_0_shot_gpt4o,
+  # hiv_med_1_0_shot_claude3,
+  # hiv_med_1_0_shot_llama70,
+  # hiv_med_1_0_shot_llama8,
+  # hiv_med_boostrap_1_shot_chatgpt4+llama8,
+  # hiv_med_judge_pairs_claude3,
+  # hiv_med_judge_specs_claude3
+  # hiv_med_boostrap_0_shot_llama70+llama8,
+  # er_cs_1_1_easy_shot_claude3,
+  # er_cs_judge_pairs_claude3,
+  # er_cs_judge_specs_claude3,
+  # cs_1_1_easy_shot_chatgpt4,
+  # er_cs_1_1_easy_shot_gpt4o,
+  # er_cs_1_0_shot_gpt4o, #from here
+  # er_cs_1_1_easy_shot_llama70,
+  # er_cs_1_0_shot_llama70,
+  # er_cs_1_1_easy_shot_llama8,
+  # er_cs_1_0_shot_llama8,
+  # er_cs_1_0_shot_claude3,
+  # er_cs_1_1_easy_shot_claude3,
+  # med_1_1_easy_shot_claude3,
+  # med_1_1_easy_shot_chatgpt4,
+  # med_1_1_easy_shot_llama70,
+  # med_1_1_easy_shot_llama8,
+  # med_1_0_claude3,
+  # med_1_0_chatgpt4,
+  # med_1_0_llama70,
+  # med_1_0_llama8,
+  # er_cs_bootstrap_1_shot_gpt4o+llama8,
+  # er_cs_judge_pairs_claude3,
+  # med_boostrap_1_shot_llama70+llama8,
+  # med_judge_pairs_0_shot_claude3,
+  # er_cs_judge_specs_claude3,
+  # med_judge_specs_claude3,
+  # cs_bootstrap_1_shot_chatgpt4+llama8,
+  # # cs_judge_pairs_0_shot_claude3,
+  # cs_judge_specs_claude3_best,
+  # med_judge_specs_claude3_best
+  # med_judge_pairs_0_shot_claude3,
+  # med_judge_specs_claude3,
+  # cs_judge_specs_claude3,
+  # er_cs_judge_specs_claude3,
+  # hiv_med_judge_specs_claude3
+
+]
+
+## TO RUN
+# cs_boostrap_1_shot_chatgpt4+llama8

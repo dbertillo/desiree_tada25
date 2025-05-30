@@ -1,0 +1,1042 @@
+
+#### CLAUDE3 ####
+
+er_cs_judge_pairs_claude3:
+  description: "Experiment cs/text2sql. Judge table extraction pipeline"
+  domain: "computer science"
+  topic: "entity resolution"
+  dataset: "gt_cs_er"
+  pipeline_id: "p_judge_pairs_v0"
+  model:
+    model_id: ""          #model_id to access the online resource by api
+    model_type: "claude3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "-"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "0-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+  process_experiments: [er_cs_bootstrap_1_shot_gpt4o+llama8]
+  ignore_experiments: []
+
+er_cs_judge_specs_claude3:
+  description: "Experiment er/entityresolution. Judge table extraction pipeline"
+  domain: "computer science"
+  topic: "entity resolution"
+  dataset: "gt_cs_er"
+  pipeline_id: "p_judge_specs_v0"
+  model:
+    model_id: ""          #model_id to access the online resource by api
+    model_type: "claude3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "-"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "0-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+  pairs_judge_experiment: er_cs_judge_pairs_claude3
+  evaluated_experiments: [er_cs_bootstrap_1_shot_gpt4o+llama8]
+  ignore_experiments: []
+
+
+er_cs_1_0_shot_gpt4o:
+  description: "Experiment cs/entity_resolution. Simple pipeline 0-shot"
+  domain: "computer science"
+  topic: "entity resolution"
+  dataset: "gt_cs_er"
+  pipeline_id: "p1_1"
+  model:
+    model_id: ""          #model_id to access the online resource by api
+    model_type: "chatgpt4"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "-"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "0"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+
+er_cs_1_1_easy_shot_gpt4o:
+  description: "Experiment cs/entity_resolution. Simple pipeline 0-shot"
+  domain: "computer science"
+  topic: "entity resolution"
+  dataset: "gt_cs_er"
+  pipeline_id: "p1_1"
+  model:
+    model_id: ""          #model_id to access the online resource by api
+    model_type: "chatgpt4"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "-"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "1-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: [cs_easy_triplet]                                # empty for 0-shot; add sample examples for one/few-shot
+
+er_cs_1_0_shot_llama70:
+  description: "Experiment cs/entity_resolution. Simple pipeline 0-shot"
+  domain: "computer science"
+  topic: "entity resolution"
+  dataset: "gt_cs_er"
+  pipeline_id: "p1_1"
+  model:
+    model_id: "meta.llama3-70b-instruct-v1:0"          #model_id to access the online resource by api
+    model_type: "llama3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "-"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "0"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+
+er_cs_1_1_easy_shot_llama70:
+  description: "Experiment cs/entity_resolution. Simple pipeline 0-shot"
+  domain: "computer science"
+  topic: "entity resolution"
+  dataset: "gt_cs_er"
+  pipeline_id: "p1_1"
+  model:
+    model_id: "meta.llama3-70b-instruct-v1:0"          #model_id to access the online resource by api
+    model_type: "llama3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "-"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "1-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: [cs_easy_triplet]                                # empty for 0-shot; add sample examples for one/few-shot
+
+er_cs_1_0_shot_llama8:
+  description: "Experiment cs/entity_resolution. Simple pipeline 0-shot"
+  domain: "computer science"
+  topic: "entity resolution"
+  dataset: "gt_cs_er"
+  pipeline_id: "p1_1"
+  model:
+    model_id: "meta.llama3-8b-instruct-v1:0"          #model_id to access the online resource by api
+    model_type: "llama3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "-"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "0"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+
+er_cs_1_1_easy_shot_llama8:
+  description: "Experiment cs/entity_resolution. Simple pipeline 0-shot"
+  domain: "computer science"
+  topic: "entity resolution"
+  dataset: "gt_cs_er"
+  pipeline_id: "p1_1"
+  model:
+    model_id: "meta.llama3-8b-instruct-v1:0"          #model_id to access the online resource by api
+    model_type: "llama3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "-"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "1-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: [cs_easy_triplet]                                # empty for 0-shot; add sample examples for one/few-shot
+
+er_cs_bootstrap_1_shot_gpt4o+llama8:
+  description: "Experiment cs/text2sql. Bootstrap Extraction approach v0"
+  domain: "computer science"
+  topic: "entity resolution"
+  dataset: "gt_cs_er"
+  pipeline_id: "p_bootstrap_cs_v1"
+  model:                  # always last task
+    model_id: ""          #model_id to access the online resource by api
+    model_type: "chatgpt4"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: ""                                  # size: 8b, 70b, or another custom setting
+    model_version: ""                          # optional: could indicate fine-tuned versions etc.
+  model_id_second_step: "meta.llama3-8b-instruct-v1:0"
+  model_type_second_step: "llama3"
+  shots:
+    shots_mode: "0-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+
+er_cs_1_1_easy_shot_claude3:
+  description: "Experiment cs/entity_resolution. Simple pipeline 0-shot"
+  domain: "computer science"
+  topic: "entity resolution"
+  dataset: "gt_cs_er"
+  pipeline_id: "p1_1"
+  model:
+    model_id: ""          #model_id to access the online resource by api
+    model_type: "claude3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "-"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "1-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: [cs_easy_triplet]                                # empty for 0-shot; add sample examples for one/few-shot
+
+er_cs_1_0_shot_claude3:
+  description: "Experiment cs/entity_resolution. Simple pipeline 0-shot"
+  domain: "computer science"
+  topic: "entity resolution"
+  dataset: "gt_cs_er"
+  pipeline_id: "p1_1"
+  model:
+    model_id: ""          #model_id to access the online resource by api
+    model_type: "claude3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "-"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "0"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+
+med_1_0_claude3:
+  description: "Experiment med/pancreatic_cancer. Simple pipeline 0-shot"
+  domain: "medicine"
+  topic: "pancreatic_cancer"
+  dataset: "gt_med_pancreatic_cancer"
+  pipeline_id: "p1_1"
+  model:
+    model_id: ""          #model_id to access the online resource by api
+    model_type: "claude3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "-"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "0"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+
+med_1_1_easy_shot_claude3:
+  description: "Experiment med/pancreatic_cancer. Simple pipeline 0-shot"
+  domain: "medicine"
+  topic: "pancreatic_cancer"
+  dataset: "gt_med_pancreatic_cancer"
+  pipeline_id: "p1_1"
+  model:
+    model_id: ""          #model_id to access the online resource by api
+    model_type: "claude3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "-"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "1-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: [med_easy_triplet]                                # empty for 0-shot; add sample examples for one/few-shot
+
+med_1_1_medium_shot_claude3:
+  description: "Experiment med/pancreatic_cancer. Simple pipeline 0-shot"
+  domain: "medicine"
+  topic: "pancreatic_cancer"
+  dataset: "gt_med_pancreatic_cancer"
+  pipeline_id: "p1_1"
+  model:
+    model_id: ""          #model_id to access the online resource by api
+    model_type: "claude3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "-"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "1-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: [med_medium_triplet]                                # empty for 0-shot; add sample examples for one/few-shot
+
+med_threesteps_0_shot_claude3:
+  description: "Experiment med/pancreatic_cancer. Algoritmich candidates v0"
+  domain: "medicine"
+  topic: "pancreatic_cancer"
+  dataset: "gt_med_pancreatic_cancer"
+  pipeline_id: "p_threesteps_v0"
+  model:                  # always last task
+    model_id: ""          #model_id to access the online resource by api
+    model_type: "claude3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: ""                                  # size: 8b, 70b, or another custom setting
+    model_version: ""                          # optional: could indicate fine-tuned versions etc.
+  model_id_second_step: "claude3"
+  model_type_second_step: "claude3"
+  model_id_third_step: "claude3"
+  model_type_third_step: "claude3"
+  shots:
+    shots_mode: "0-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+
+##### CHATGPT4 #####
+
+med_1_0_chatgpt4:
+  description: "Experiment med/pancreatic_cancer. Simple pipeline 0-shot"
+  domain: "medicine"
+  topic: "pancreatic_cancer"
+  dataset: "gt_med_pancreatic_cancer"
+  pipeline_id: "p1_1"
+  model:
+    model_id: ""          #model_id to access the online resource by api
+    model_type: "chatgpt4"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "-"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "0"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+
+med_1_1_easy_shot_chatgpt4:
+  description: "Experiment med/pancreatic_cancer. Simple pipeline 0-shot"
+  domain: "medicine"
+  topic: "pancreatic_cancer"
+  dataset: "gt_med_pancreatic_cancer"
+  pipeline_id: "p1_1"
+  model:
+    model_id: ""          #model_id to access the online resource by api
+    model_type: "chatgpt4"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "-"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "1-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: [med_easy_triplet]                                # empty for 0-shot; add sample examples for one/few-shot
+
+med_1_1_medium_shot_chatgpt4:
+  description: "Experiment med/pancreatic_cancer. Simple pipeline 0-shot"
+  domain: "medicine"
+  topic: "pancreatic_cancer"
+  dataset: "gt_med_pancreatic_cancer"
+  pipeline_id: "p1_1"
+  model:
+    model_id: ""          #model_id to access the online resource by api
+    model_type: "chatgpt4"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "-"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "1-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: [med_medium_triplet]                                # empty for 0-shot; add sample examples for one/few-shot
+
+med_threesteps_0_shot_chatgpt4:
+  description: "Experiment med/pancreatic_cancer. Algoritmich candidates v0"
+  domain: "medicine"
+  topic: "pancreatic_cancer"
+  dataset: "gt_med_pancreatic_cancer"
+  pipeline_id: "p_threesteps_v0"
+  model:                  # always last task
+    model_id: ""          #model_id to access the online resource by api
+    model_type: "chatgpt4"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: ""                                  # size: 8b, 70b, or another custom setting
+    model_version: ""                          # optional: could indicate fine-tuned versions etc.
+  model_id_second_step: "chatgpt4"
+  model_type_second_step: "chatgpt4"
+  model_id_third_step: "chatgpt4"
+  model_type_third_step: "chatgpt4"
+  shots:
+    shots_mode: "0-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+
+#### LLama70 ####
+
+med_1_0_llama70:
+  description: "Experiment med/pancreatic_cancer. Simple pipeline 0-shot"
+  domain: "medicine"
+  topic: "pancreatic_cancer"
+  dataset: "gt_med_pancreatic_cancer"
+  pipeline_id: "p1_1"
+  model:                  # always last task
+    model_id: "meta.llama3-70b-instruct-v1:0"          #model_id to access the online resource by api
+    model_type: "llama3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: ""                                  # size: 8b, 70b, or another custom setting
+    model_version: ""                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "0"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+
+med_1_1_easy_shot_llama70:
+  description: "Experiment med/pancreatic_cancer. Simple pipeline 0-shot"
+  domain: "medicine"
+  topic: "pancreatic_cancer"
+  dataset: "gt_med_pancreatic_cancer"
+  pipeline_id: "p1_1"
+  model:
+  model:                  # always last task
+    model_id: "meta.llama3-70b-instruct-v1:0"          #model_id to access the online resource by api
+    model_type: "llama3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: ""                                  # size: 8b, 70b, or another custom setting
+    model_version: ""                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "1-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: [med_easy_triplet]                                # empty for 0-shot; add sample examples for one/few-shot
+
+med_1_1_medium_shot_llama70:
+  description: "Experiment med/pancreatic_cancer. Simple pipeline 0-shot"
+  domain: "medicine"
+  topic: "pancreatic_cancer"
+  dataset: "gt_med_pancreatic_cancer"
+  pipeline_id: "p1_1"
+  model:
+  model:                  # always last task
+    model_id: "meta.llama3-70b-instruct-v1:0"          #model_id to access the online resource by api
+    model_type: "llama3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: ""                                  # size: 8b, 70b, or another custom setting
+    model_version: ""                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "1-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: [med_medium_triplet]                                # empty for 0-shot; add sample examples for one/few-shot
+
+med_threesteps_0_shot_llama70:
+  description: "Experiment med/pancreatic_cancer. Algoritmich candidates v0"
+  domain: "medicine"
+  topic: "pancreatic_cancer"
+  dataset: "gt_med_pancreatic_cancer"
+  pipeline_id: "p_threesteps_v0"
+  model:                  # always last task
+    model_id: "meta.llama3-70b-instruct-v1:0"          #model_id to access the online resource by api
+    model_type: "llama3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: ""                                  # size: 8b, 70b, or another custom setting
+    model_version: ""                          # optional: could indicate fine-tuned versions etc.
+  model_id_second_step: "meta.llama3-70b-instruct-v1:0"
+  model_type_second_step: "llama3"
+  model_id_third_step: "meta.llama3-70b-instruct-v1:0"
+  model_type_third_step: "llama3"
+  shots:
+    shots_mode: "0-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+
+#### Llama8 ####
+
+med_1_0_llama8:
+  description: "Experiment med/pancreatic_cancer. Simple pipeline 0-shot"
+  domain: "medicine"
+  topic: "pancreatic_cancer"
+  dataset: "gt_med_pancreatic_cancer"
+  pipeline_id: "p1_1"
+  model:                  # always last task
+    model_id: "meta.llama3-8b-instruct-v1:0"          #model_id to access the online resource by api
+    model_type: "llama3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: ""                                  # size: 8b, 70b, or another custom setting
+    model_version: ""                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "0"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+
+med_1_1_easy_shot_llama8:
+  description: "Experiment med/pancreatic_cancer. Simple pipeline 0-shot"
+  domain: "medicine"
+  topic: "pancreatic_cancer"
+  dataset: "gt_med_pancreatic_cancer"
+  pipeline_id: "p1_1"
+  model:
+  model:                  # always last task
+    model_id: "meta.llama3-8b-instruct-v1:0"          #model_id to access the online resource by api
+    model_type: "llama3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: ""                                  # size: 8b, 70b, or another custom setting
+    model_version: ""                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "1-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: [med_easy_triplet]                                # empty for 0-shot; add sample examples for one/few-shot
+
+med_1_1_medium_shot_llama8:
+  description: "Experiment med/pancreatic_cancer. Simple pipeline 0-shot"
+  domain: "medicine"
+  topic: "pancreatic_cancer"
+  dataset: "gt_med_pancreatic_cancer"
+  pipeline_id: "p1_1"
+  model:
+  model:                  # always last task
+    model_id: "meta.llama3-8b-instruct-v1:0"          #model_id to access the online resource by api
+    model_type: "llama3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: ""                                  # size: 8b, 70b, or another custom setting
+    model_version: ""                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "1-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: [med_medium_triplet]                                # empty for 0-shot; add sample examples for one/few-shot
+
+med_threesteps_0_shot_llama8:
+  description: "Experiment med/pancreatic_cancer. Algoritmich candidates v0"
+  domain: "medicine"
+  topic: "pancreatic_cancer"
+  dataset: "gt_med_pancreatic_cancer"
+  pipeline_id: "p_threesteps_v0"
+  model:                  # always last task
+    model_id: "meta.llama3-8b-instruct-v1:0"          #model_id to access the online resource by api
+    model_type: "llama3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: ""                                  # size: 8b, 70b, or another custom setting
+    model_version: ""                          # optional: could indicate fine-tuned versions etc.
+  model_id_second_step: "meta.llama3-8b-instruct-v1:0"
+  model_type_second_step: "llama3"
+  model_id_third_step: "meta.llama3-8b-instruct-v1:0"
+  model_type_third_step: "llama3"
+  shots:
+    shots_mode: "0-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+
+### BOOSTRAP ###
+med_boostrap_1_shot_llama70+llama8:
+  description: "Experiment cs/text2sql. Bootstrap Extraction approach v0"
+  domain: "medicine"
+  topic: "pancreatic_cancer"
+  dataset: "gt_med_pancreatic_cancer"
+  pipeline_id: "p_bootstrap_med_v1"
+  model:                  # always last task
+    model_id: "meta.llama3-70b-instruct-v1:0"          #model_id to access the online resource by api
+    model_type: "llama3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: ""                                  # size: 8b, 70b, or another custom setting
+    model_version: ""                          # optional: could indicate fine-tuned versions etc.
+  model_id_second_step: "meta.llama3-8b-instruct-v1:0"
+  model_type_second_step: "llama3"
+  shots:
+    shots_mode: "0-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+
+
+#### JUDGE PAIRS ####
+
+med_judge_pairs_0_shot_claude3:
+  description: "Experiment med_pancreatic_cancer. Judge table extraction pipeline"
+  domain: "medicine"
+  topic: "pancreatic_cancer"
+  dataset: "gt_med_pancreatic_cancer"
+  pipeline_id: "p_judge_pairs_v0"
+  model:
+    model_id: ""          #model_id to access the online resource by api
+    model_type: "claude3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "-"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "0-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+  process_experiments: [med_1_1_easy_shot_claude3, med_1_1_easy_shot_chatgpt4, med_1_1_easy_shot_llama70, med_1_1_easy_shot_llama8, med_1_0_claude3, med_1_0_chatgpt4, med_1_0_llama70, med_1_0_llama8, med_boostrap_1_shot_llama70+llama8]
+  ignore_experiments: []
+
+# med_1_0_claude3, med_1_1_easy_shot_claude3, med_threesteps_0_shot_claude3, med_1_0_chatgpt4, med_1_1_easy_shot_chatgpt4, med_threesteps_0_shot_chatgpt4, med_1_0_llama70, med_1_1_easy_shot_llama70, med_threesteps_0_shot_llama70, med_1_0_llama8, med_1_1_easy_shot_llama8, med_threesteps_0_shot_llama8
+med_judge_specs_claude3:
+  description: "Experiment cs/text2sql. Judge table extraction pipeline"
+  domain: "medicine"
+  topic: "pancreatic_cancer"
+  dataset: "gt_med_pancreatic_cancer"
+  pipeline_id: "p_judge_specs_v0"
+  model:
+    model_id: ""          #model_id to access the online resource by api
+    model_type: "claude3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "-"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "0-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+  pairs_judge_experiment: med_judge_pairs_0_shot_claude3
+  evaluated_experiments: [med_1_1_easy_shot_llama70]
+  ignore_experiments: []
+
+med_judge_specs_claude3_best:
+  description: "Experiment cs/text2sql. Judge table extraction pipeline"
+  domain: "medicine"
+  topic: "pancreatic_cancer"
+  dataset: "gt_med_pancreatic_cancer"
+  pipeline_id: "p_judge_specs_v0"
+  model:
+    model_id: ""          #model_id to access the online resource by api
+    model_type: "claude3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "-"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "0-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+  pairs_judge_experiment: med_judge_pairs_0_shot_claude3
+  evaluated_experiments: [med_1_1_easy_shot_llama70]
+  ignore_experiments: []
+
+
+#### GT ####
+
+gt_med_pancreatic_cancer:
+  description: "Experiment med/pancreatic_cancer. Simple pipeline 0-shot"
+  domain: "medicine"
+  topic: "pancreatic_cancer"
+  dataset: "gt_med_pancreatic_cancer"
+  pipeline_id: "p1_0"
+  model:
+    model_id: ""          #model_id to access the online resource by api
+    model_type: ""                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "-"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "0-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []
+
+
+# --- TEXT2SQL ---
+cs_1_0_shot_chatgpt4:
+  description: "Experiment cs/text2sql. Simple pipeline 0-shot"
+  domain: "computer science"
+  topic: "txt2sql"
+  dataset: "gt_cs_txt2sql"
+  pipeline_id: "p1_1"
+  model:
+    model_id: ""          #model_id to access the online resource by api
+    model_type: "chatgpt4"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "-"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "0"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+
+cs_1_1_easy_shot_chatgpt4:
+  description: "Experiment cs/text2sql. Simple pipeline 0-shot"
+  domain: "computer science"
+  topic: "txt2sql"
+  dataset: "gt_cs_txt2sql"
+  pipeline_id: "p1_1"
+  model:
+    model_id: ""          #model_id to access the online resource by api
+    model_type: "chatgpt4"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "-"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "1-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: [cs_easy_triplet]                                # empty for 0-shot; add sample examples for one/few-shot
+  description: "Experiment cs/text2sql. Simple pipeline 0-shot"
+  domain: "computer science"
+  topic: "txt2sql"
+  dataset: "gt_cs_txt2sql"
+  pipeline_id: "p1_1"
+  model:
+    model_id: ""          #model_id to access the online resource by api
+    model_type: "chatgpt4"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "-"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "0"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+
+cs_threesteps_0_shot_chatgpt4:
+  description: "Experiment cs/text2sql. Simple pipeline 0-shot"
+  domain: "computer science"
+  topic: "txt2sql"
+  dataset: "gt_cs_txt2sql"
+  pipeline_id: "p1_1"
+  model:
+    model_id: ""          #model_id to access the online resource by api
+    model_type: "chatgpt4"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "-"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "1-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: [cs_easy_triplet]                                # empty for 0-shot; add sample examples for one/few-shot
+
+  description: "Experiment cs/text2sql. Algoritmich candidates v0"
+  domain: "computer science"
+  topic: "txt2sql"
+  dataset: "gt_cs_txt2sql"
+  pipeline_id: "p_threesteps_v0"
+  model:                  # always last task
+    model_id: ""          #model_id to access the online resource by api
+    model_type: "chatgpt4"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: ""                                  # size: 8b, 70b, or another custom setting
+    model_version: ""                          # optional: could indicate fine-tuned versions etc.
+  model_id_second_step: "chatgpt4"
+  model_type_second_step: "chatgpt4"
+  model_id_third_step: "chatgpt4"
+  model_type_third_step: "chatgpt4"
+  shots:
+    shots_mode: "0-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+
+cs_1_0_shot_llama8:
+  description: "Experiment cs/text2sql. Simple pipeline 0-shot"
+  domain: "computer science"
+  topic: "txt2sql"
+  dataset: "gt_cs_txt2sql"
+  pipeline_id: "p1_0"
+  model:
+    model_id: "meta.llama3-8b-instruct-v1:0"          #model_id to access the online resource by api
+    model_type: "llama3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "8b"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "0-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+
+cs_1_1_easy_shot_llama8:
+  description: "Experiment cs/text2sql. Simple pipeline 0-shot"
+  domain: "computer science"
+  topic: "txt2sql"
+  dataset: "gt_cs_txt2sql"
+  pipeline_id: "p1_0"
+  model:
+    model_id: "meta.llama3-8b-instruct-v1:0"          #model_id to access the online resource by api
+    model_type: "llama3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "8b"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "1-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: [cs_easy_triplet]                                # empty for 0-shot; add sample examples for one/few-shot
+
+cs_1_0_shot_llama70:
+  description: "Experiment cs/text2sql. Simple pipeline 0-shot"
+  domain: "computer science"
+  topic: "txt2sql"
+  dataset: "gt_cs_txt2sql"
+  pipeline_id: "p1_0"
+  model:
+    model_id: "meta.llama3-70b-instruct-v1:0"          #model_id to access the online resource by api
+    model_type: "llama3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "70b"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "0-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+
+cs_1_1_easy_shot_llama70:
+  description: "Experiment cs/text2sql. Simple pipeline 0-shot"
+  domain: "computer science"
+  topic: "txt2sql"
+  dataset: "gt_cs_txt2sql"
+  pipeline_id: "p1_1"
+  model:
+    model_id: "meta.llama3-70b-instruct-v1:0"          #model_id to access the online resource by api
+    model_type: "llama3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "70b"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "1-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: [cs_easy_triplet]                  # empty for 0-shot; add sample examples for one/few-shot
+
+cs_1_0_shot_claude3:
+  description: "Experiment cs/text2sql. Simple pipeline 0-shot"
+  domain: "computer science"
+  topic: "txt2sql"
+  dataset: "gt_cs_txt2sql"
+  pipeline_id: "p1_0"
+  model:
+    model_id: ""          #model_id to access the online resource by api
+    model_type: "claude3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "-"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "0-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+
+cs_1_1_easy_shot_claude3:
+  description: "Experiment cs/text2sql. Simple pipeline 0-shot"
+  domain: "computer science"
+  topic: "txt2sql"
+  dataset: "gt_cs_txt2sql"
+  pipeline_id: "p1_1"
+  model:
+    model_id: ""
+    model_type: "claude3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "-"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "1-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: [cs_easy_triplet]                                # empty for 0-shot; add sample examples for one/few-shot
+
+cs_threesteps_0_shot_claude3:
+  description: "Experiment cs/text2sql. Algoritmich candidates v0"
+  domain: "computer science"
+  topic: "txt2sql"
+  dataset: "gt_cs_txt2sql"
+  pipeline_id: "p_threesteps_v0"
+  model:                  # always last task
+    model_id: ""          #model_id to access the online resource by api
+    model_type: "claude3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: ""                                  # size: 8b, 70b, or another custom setting
+    model_version: ""                          # optional: could indicate fine-tuned versions etc.
+  model_id_second_step: "claude3"
+  model_type_second_step: "claude3"
+  model_id_third_step: "claude3"
+  model_type_third_step: "claude3"
+  shots:
+    shots_mode: "0-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+
+cs_threesteps_0_shot_llama3-70b:
+  description: "Experiment cs/text2sql. Algoritmich candidates v0"
+  domain: "computer science"
+  topic: "txt2sql"
+  dataset: "gt_cs_txt2sql"
+  pipeline_id: "p_threesteps_v0"
+  model:                  # always last task
+    model_id: "meta.llama3-70b-instruct-v1:0"          #model_id to access the online resource by api
+    model_type: "llama3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: ""                                  # size: 8b, 70b, or another custom setting
+    model_version: ""                          # optional: could indicate fine-tuned versions etc.
+  model_id_second_step: "meta.llama3-70b-instruct-v1:0"
+  model_type_second_step: "llama3"
+  model_id_third_step: "meta.llama3-70b-instruct-v1:0"
+  model_type_third_step: "llama3"
+  shots:
+    shots_mode: "0-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+
+cs_threesteps_0_shot_llama3-8b:
+  description: "Experiment cs/text2sql. Algoritmich candidates v0"
+  domain: "computer science"
+  topic: "txt2sql"
+  dataset: "gt_cs_txt2sql"
+  pipeline_id: "p_threesteps_v0"
+  model:                  # always last task
+    model_id: "meta.llama3-8b-instruct-v1:0"          #model_id to access the online resource by api
+    model_type: "llama3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: ""                                  # size: 8b, 70b, or another custom setting
+    model_version: ""                          # optional: could indicate fine-tuned versions etc.
+  model_id_second_step: "meta.llama3-8b-instruct-v1:0"
+  model_type_second_step: "llama3"
+  model_id_third_step: "meta.llama3-8b-instruct-v1:0"
+  model_type_third_step: "llama3"
+  shots:
+    shots_mode: "0-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+
+cs_boostrap_1_shot_chatgpt4+llama8:
+  description: "Experiment cs/text2sql. Bootstrap Extraction approach v0"
+  domain: "computer science"
+  topic: "txt2sql"
+  dataset: "gt_cs_txt2sql"
+  pipeline_id: "p_bootstrap_cs_v1"
+  model:                  # always last task
+    model_id: ""          #model_id to access the online resource by api
+    model_type: "chatgpt4"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: ""                                  # size: 8b, 70b, or another custom setting
+    model_version: ""                          # optional: could indicate fine-tuned versions etc.
+  model_id_second_step: "meta.llama3-8b-instruct-v1:0"
+  model_type_second_step: "llama3"
+  shots:
+    shots_mode: "0-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+
+cs_judge_pairs_0_shot_claude3:
+  description: "Experiment cs/text2sql. Judge table extraction pipeline"
+  domain: "computer science"
+  topic: "txt2sql"
+  dataset: "gt_cs_txt2sql"
+  pipeline_id: "p_judge_pairs_v0"
+  model:
+    model_id: ""          #model_id to access the online resource by api
+    model_type: "claude3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "-"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "0-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+  process_experiments: [cs_bootstrap_1_shot_chatgpt4+llama8]
+  ignore_experiments: []
+
+cs_judge_specs_claude3:
+  description: "Experiment cs/text2sql. Judge table extraction pipeline"
+  domain: "computer science"
+  topic: "txt2sql"
+  dataset: "gt_cs_txt2sql"
+  pipeline_id: "p_judge_specs_v0"
+  model:
+    model_id: ""          #model_id to access the online resource by api
+    model_type: "claude3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "-"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "0-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+  pairs_judge_experiment: cs_judge_pairs_0_shot_claude3
+  evaluated_experiments: [cs_1_1_easy_shot_chatgpt4]
+  ignore_experiments: []
+
+cs_judge_specs_claude3_best:
+  description: "Experiment cs/text2sql. Judge table extraction pipeline"
+  domain: "computer science"
+  topic: "txt2sql"
+  dataset: "gt_cs_txt2sql"
+  pipeline_id: "p_judge_specs_v0"
+  model:
+    model_id: ""          #model_id to access the online resource by api
+    model_type: "claude3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "-"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "0-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+  pairs_judge_experiment: cs_judge_pairs_0_shot_claude3
+  evaluated_experiments: [cs_1_1_easy_shot_chatgpt4]
+  ignore_experiments: []
+
+
+##### HIV #####
+
+hiv_med_1_1_easy_shot_gpt4o:
+  description: "Experiment cs/text2sql. Simple pipeline 0-shot"
+  domain: "medicine"
+  topic: "hiv"
+  dataset: "gt_med_hiv"
+  pipeline_id: "p1_1"
+  model:
+    model_id: ""          #model_id to access the online resource by api
+    model_type: "chatgpt4"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "-"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "1-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: [med_easy_triplet]                                # empty for 0-shot; add sample examples for one/few-shot
+
+hiv_med_1_1_easy_shot_claude3:
+  description: "Experiment cs/text2sql. Simple pipeline 0-shot"
+  domain: "medicine"
+  topic: "hiv"
+  dataset: "gt_med_hiv"
+  pipeline_id: "p1_1"
+  model:
+    model_id: ""          #model_id to access the online resource by api
+    model_type: "claude3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "-"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "1-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: [med_easy_triplet]   
+
+hiv_med_1_1_easy_shot_llama70:
+  description: "Experiment med/hiv. Simple pipeline 0-shot"
+  domain: "medicine"
+  topic: "hiv"
+  dataset: "gt_med_hiv"
+  pipeline_id: "p1_1"
+  model:
+  model:                  # always last task
+    model_id: "meta.llama3-70b-instruct-v1:0"          #model_id to access the online resource by api
+    model_type: "llama3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: ""                                  # size: 8b, 70b, or another custom setting
+    model_version: ""                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "1-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: [med_easy_triplet]                                # empty for 0-shot; add sample examples for one/few-shot
+
+hiv_med_1_1_easy_shot_llama8:
+  description: "Experiment med/hiv. Simple pipeline 0-shot"
+  domain: "medicine"
+  topic: "hiv"
+  dataset: "gt_med_hiv"
+  pipeline_id: "p1_1"
+  model:
+  model:                  # always last task
+    model_id: "meta.llama3-8b-instruct-v1:0"          #model_id to access the online resource by api
+    model_type: "llama3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: ""                                  # size: 8b, 70b, or another custom setting
+    model_version: ""                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "1-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: [med_easy_triplet]   
+
+  description: "Experiment med/hiv. Bootstrap Extraction approach v0"
+  domain: "medicine"
+  topic: "hiv"
+  dataset: "gt_med_hiv"
+  pipeline_id: "p_be_v0"
+  model:                  # always last task
+    model_id: "meta.llama3-70b-instruct-v1:0"          #model_id to access the online resource by api
+    model_type: "llama3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: ""                                  # size: 8b, 70b, or another custom setting
+    model_version: ""                          # optional: could indicate fine-tuned versions etc.
+  model_id_second_step: "meta.llama3-8b-instruct-v1:0"
+  model_type_second_step: "llama3"
+  shots:
+    shots_mode: "0-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+
+hiv_med_1_0_shot_llama8:
+  description: "Experiment med/hiv. Simple pipeline 0-shot"
+  domain: "medicine"
+  topic: "hiv"
+  dataset: "gt_med_hiv"
+  pipeline_id: "p1_0"
+  model:
+    model_id: "meta.llama3-8b-instruct-v1:0"          #model_id to access the online resource by api
+    model_type: "llama3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "8b"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "0-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+
+hiv_med_1_0_shot_llama70:
+  description: "Experiment med/hiv. Simple pipeline 0-shot"
+  domain: "medicine"
+  topic: "hiv"
+  dataset: "gt_med_hiv"
+  pipeline_id: "p1_0"
+  model:
+    model_id: "meta.llama3-70b-instruct-v1:0"          #model_id to access the online resource by api
+    model_type: "llama3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "70b"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "0-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+
+hiv_med_1_0_shot_claude3:
+  description: "Experiment med/hiv. Simple pipeline 0-shot"
+  domain: "medicine"
+  topic: "hiv"
+  dataset: "gt_med_hiv"
+  pipeline_id: "p1_0"
+  model:
+    model_id: ""          #model_id to access the online resource by api
+    model_type: "claude3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "-"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "0-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+
+hiv_med_1_0_shot_gpt4o:
+  description: "Experiment med/hiv. Simple pipeline 0-shot"
+  domain: "medicine"
+  topic: "hiv"
+  dataset: "gt_med_hiv"
+  pipeline_id: "p1_0"
+  model:
+    model_id: ""          #model_id to access the online resource by api
+    model_type: "chatgpt4"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "-"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "0-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+
+hiv_med_judge_pairs_claude3:
+  description: "Experiment cs/text2sql. Judge table extraction pipeline"
+  domain: "medicine"
+  topic: "hiv"
+  dataset: "gt_med_hiv"
+  pipeline_id: "p_judge_pairs_v0"
+  model:
+    model_id: ""          #model_id to access the online resource by api
+    model_type: "claude3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "-"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "0-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+  process_experiments: [hiv_med_boostrap_1_shot_chatgpt4+llama8]
+  ignore_experiments: []
+
+hiv_med_judge_specs_claude3_best:
+  description: "Experiment cs/text2sql. Judge table extraction pipeline"
+  domain: "medicine"
+  topic: "hiv"
+  dataset: "gt_med_hiv"
+  pipeline_id: "p_judge_specs_v0"
+  model:
+    model_id: ""          #model_id to access the online resource by api
+    model_type: "claude3"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: "-"                                  # size: 8b, 70b, or another custom setting
+    model_version: "default"                          # optional: could indicate fine-tuned versions etc.
+  shots:
+    shots_mode: "0-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+  pairs_judge_experiment: hiv_med_judge_pairs_claude3
+  evaluated_experiments: [hiv_med_1_1_easy_shot_llama70]
+  ignore_experiments: []
+
+### Add bootstrap ###
+
+cs_bootstrap_1_shot_chatgpt4+llama8:
+  description: "Experiment cs/text2sql. Bootstrap Extraction approach v0"
+  domain: "computer science"
+  topic: "txt2sql"
+  dataset: "gt_cs_txt2sql"
+  pipeline_id: "p_bootstrap_cs_v1"
+  model:                  # always last task
+    model_id: ""          #model_id to access the online resource by api
+    model_type: "chatgpt4"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: ""                                  # size: 8b, 70b, or another custom setting
+    model_version: ""                          # optional: could indicate fine-tuned versions etc.
+  model_id_second_step: "meta.llama3-8b-instruct-v1:0"
+  model_type_second_step: "llama3"
+  shots:
+    shots_mode: "1-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
+
+
+hiv_med_boostrap_1_shot_chatgpt4+llama8:
+  description: "Experiment med/hiv. Bootstrap Extraction approach v0"
+  domain: "medicine"
+  topic: "hiv"
+  dataset: "gt_med_hiv"
+  pipeline_id: "p_bootstrap_cs_v1"
+  model:                  # always last task
+    model_id: ""          #model_id to access the online resource by api
+    model_type: "chatgpt4"                              # e.g., llama3, chatgpt, claude3, etc.
+    model_size: ""                                  # size: 8b, 70b, or another custom setting
+    model_version: ""                          # optional: could indicate fine-tuned versions etc.
+  model_id_second_step: "meta.llama3-8b-instruct-v1:0"
+  model_type_second_step: "llama3"
+  shots:
+    shots_mode: "0-shot"                              # options: "0-shot", "1-shot", "few-shot"
+    shots_examples: []                                # empty for 0-shot; add sample examples for one/few-shot
