@@ -1,0 +1,15 @@
+Your task is to act as a judge to evaluate wether two strings extracted from data source are semantically equivalent. Data source are a table, caption, footnotes and the first paragraph where the table is mentioned from a scientific publication. You need to evaluate if the first string (extracted element) is semantically equivalent to the second (ground truth element). The ground truth was extracted manually by a human expert. Your answer must be wrapped between tags <equivalent>answer</equivalent> and needs to be only "yes" or "no".
+
+The following is the table with the relevat context (paragraphs where the table is mentioned, caption, the actual table and footnotes):
+	•	Citations: #placeholder{citations}
+	•	Caption: #placeholder{caption}
+	•	Table: #placeholder{table}
+	•	Footnotes: #placeholder{footnotes}
+
+Extracted element:
+#placeholder{extracted_element}
+
+Ground truth element:
+#placeholder{ground_truth_element}
+
+You must answer ONLY with "yes" or "no" inside the <equivalent> tag. Do not produce any more comment.

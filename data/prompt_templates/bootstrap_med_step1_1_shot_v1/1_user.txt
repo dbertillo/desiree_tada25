@@ -1,0 +1,26 @@
+Your goal is to extract information from an HTML table, its caption, and the paragraphs where the table is mentioned. You must produce a structured “serialization”, called claim, for every item of interest. 
+The serialization is simply a set of specifications and metrics with the respective values. Each specification is a pair with the structure: |name, value|. Every item (i.e., claim) represents one experimental result contextualized by the set of specifications, which need to be extracted along with the specifications in the form of two vectors [metrics], [outcomes]. Hence, this is the format for a complete claim:
+|n1, v1|, |n2, v2|, .., |n_i, v_i|, [metric1, metric2, .., metric_i], [outcome1, outcome2, .., outcome_i]
+where:
+1. Each specification pair has both a name and a value.
+2. Every piece of data or information from the table, caption, footnote or paragraph(s) that helps characterize or define that row/item should be turned into a specification.
+3. When you can, you should always inferece pairs, or elements of pairs, from table’s captions, footnotes and and given paragraph(s).
+4. You must consider all rows and columns of the table, using all of each cell’s content.
+5. Each claim should contain pairs that contextualize only the experimental results reported in the claim. 
+6. Infer group boundaries based on the structure of the table and the accompanying text. When you detect that a specific experimental result is associated with one particular context (whatever label or specification that might be), serialize them into one claim, and if another context appears later, start a new claim.
+7. Contexts might differ even by just one value of one specification.
+8. Metrics are grouped together if they contextualize each other, otherwise different claims are produced, even if the set of specifications is the same.
+9. It is perfectly fine for a claim to have just one metric and one outcome.
+10. Respond only with the serializations themselves—nothing else. Do not use bullet points, do not say “and so on,” and do not provide any explanations.
+11. Start serialization with <start-claims> and end it with <end-claims>.
+
+The following is an example of an extraction of just the first two claims.
+
+Paragraphs: siRNA-Snail vs. siRNA-mock; P = 0.0057.
+Caption: Western blotting analysis for Snail protein (n = 3, mean ± SD).
+Table: <table border="1"><thead><tr style="text-align: right;"><th></th><th>Unnamed: 0</th><th>Unnamed: 0_level_0</th><th>Snail/β-actin value</th><th>Unnamed: 3</th><th>Unnamed: 4</th><th>Unnamed: 5</th><th>Unnamed: 6</th></tr></thead><tbody><tr><th>0</th><td>NaN</td><td>Group</td><td>0 MOI</td><td>5 MOI</td><td>25 MOI</td><td>100 MOI</td><td>250 MOI</td></tr><tr><th>1</th><td>NaN</td><td>NaN</td><td>NaN</td><td>NaN</td><td>NaN</td><td>NaN</td><td>NaN</td></tr><tr><th>2</th><td>0.0</td><td>siRNA-Snail</td><td>0.658 ± 0.034</td><td>0.465 ± 0.027</td><td>0.321 ± 0.023</td><td>0.214 ± 0.020</td><td>0.10 ± 0.012</td></tr><tr><th>3</th><td>1.0</td><td>siRNA-mock</td><td>0.721 ± 0.042</td><td>0.657 ± 0.036</td><td>0.684 ± 0.046</td><td>0.703 ± 0.056</td><td>0.674 ± 0.049</td></tr></tbody></table>
+
+<start-claims>
+|analysis, Western blotting analysis for Snail protein|, |group, siRNA-Snail|, |MOI (multiplicity of infections), 0|, |technique, western blotting|, |statistical representation, mean +- SD|, |replicates, 3|, |comparison to, siRNA-mock|, [level of Snail mRNA normalized to beta-actin mRNA, P], [0.658 ± 0.034, 0.0057]
+|analysis, Western blotting analysis for Snail protein|, |group, siRNA-Snail|, |MOI (multiplicity of infections), 5|, |technique, western blotting|, |statistical representation, mean +- SD|, |replicates, 3|, |comparison to, siRNA-mock|, [level of Snail mRNA normalized to beta-actin mRNA, P], [0.465 ± 0.027, 0.0057]
+<end-claims>

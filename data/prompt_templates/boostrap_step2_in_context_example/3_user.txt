@@ -1,0 +1,12 @@
+Pairs (or just their name or value) can be present in caption or the paragraph in which the table was cited. Leverage all data available to extract as many specifications as possible for each experimental result. The goal is to serialize the most amount of data from the whole content in a structured form suited to be stored in a database. Do not omit any specifications you can find. If a row/item has no numeric outcome, simply leave out the measures and “outcomes” vectors and capture everything else. If you are considering a cell, use ALL of its textual content (strip away LaTeX/HTML). 
+
+Please, serialize claims from the following table, caption, footnote and paragraphs and do not omit any pairs you can find. 
+Citations: #placeholder{citations}
+Caption: #placeholder{caption}
+Table: #placeholder{table}
+Footnotes: #placeholder{footnotes}
+
+The first claims were already extracted from the table and are shown above, so follow their structure to extract the rest. Sometimes you might need to add or remove pairs. That is a legit behaviour since groups or single claims might different contexts.
+<start-claims>
+#placeholder{claims}
+<end-claims>

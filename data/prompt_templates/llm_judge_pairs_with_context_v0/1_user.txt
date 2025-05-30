@@ -1,0 +1,28 @@
+You task is to act as a judge to evaluate an extraction task. I automatically extracted data into a triplet format structure called "claims" from table and unstructured text from a scientific paper. Each row is a claim following the format:
+
+|spec1, value1|, ..., |spec_n, value_n|, [metric1, ..., metric_m], [outcome1, ..., outcome_m]
+
+Where:
+	•	The |spec, value| pairs define the context setting of the experiment.
+	•	Specifications were extracted or infer using all available sources: table cells, caption, footnotes, paragraphs, and citations.
+	•	The metrics vector contains all measured variables or performance metrics.
+	•	The outcomes vector contains the corresponding values or results for each metric.
+	•	A claim may still contain only contextual specifications if no experimental result is present (i.e., metrics and outcomes vectors are not present)
+
+The following is the table with the relevat context (paragraphs where the table is mentioned, caption, the actual table and footnotes):
+	•	Citations: #placeholder{citations}
+	•	Caption: #placeholder{caption}
+	•	Table: #placeholder{table}
+	•	Footnotes: #placeholder{footnotes}
+
+Data present many syntactic ambiguity and evaluation is not easy. I present to you an extracted claims and a claim from the ground truth. Given the context and the two claims, you need to answer if the two are the same claim or not. 
+
+As a generic guideline, a claim is the same if the it holds the same information, otherwise it is not. Your answer must be wrapped between tags <match>answer</match> and needs to be only "yes" or "no".
+
+Extracted claim:
+#placeholder{extracted_claim}
+
+Ground truth claims:
+#placeholder{ground_truth_claim}
+
+You must answer ONLY with "yes" or "no" inside the <match> tag. Do not produce any more comment.
