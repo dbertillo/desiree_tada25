@@ -1,0 +1,1304 @@
+{
+    "2103.02227_5": {
+        "latex_table": "\\begin{tabular}{llll}\n\\toprule\n & Models & Seen patterns & Unseen patterns \\\\\n\\midrule\n0 & IRNet & 63.5 & 48.8 \\\\\n1 & IRNet ++ Aug & 64.7 (+1.21.2+1.2) & 53.7 (+4.94.9+4.9) \\\\\n2 & RATSQL & 66.6 & 52.3 \\\\\n3 & RATSQL ++ Aug & 73.0 (+6.46.4+6.4) & 55.4 (+3.13.1+3.1) \\\\\n\\bottomrule\n\\end{tabular}\n",
+        "html_table": "<table><thead><tr><th>Models</th><th>Seen patterns</th><th>Unseen patterns</th></tr></thead><tbody><tr><td>IRNet</td><td>63.5</td><td>48.8</td></tr><tr><td>IRNet <mo>+</mo><plus></plus><annotation>+</annotation> Aug</td><td>64.7 (<mrow><mo>+</mo><mn>1.2</mn></mrow><apply><plus></plus><cn>1.2</cn></apply><annotation>+1.2</annotation>)</td><td>53.7 (<mrow><mo>+</mo><mn>4.9</mn></mrow><apply><plus></plus><cn>4.9</cn></apply><annotation>+4.9</annotation>)</td></tr><tr><td>RATSQL</td><td>66.6</td><td>52.3</td></tr><tr><td>RATSQL <mo>+</mo><plus></plus><annotation>+</annotation> Aug</td><td>73.0 (<mrow><mo>+</mo><mn>6.4</mn></mrow><apply><plus></plus><cn>6.4</cn></apply><annotation>+6.4</annotation>)</td><td>55.4 (<mrow><mo>+</mo><mn>3.1</mn></mrow><apply><plus></plus><cn>3.1</cn></apply><annotation>+3.1</annotation>)</td></tr></tbody></table>",
+        "og_table": "<figure><table><thead><tr><th>Models</th><th>Seen patterns</th><th>Unseen patterns</th></tr></thead><tbody><tr><td>IRNet</td><td>63.5</td><td>48.8</td></tr><tr><td>IRNet <math><semantics><mo>+</mo><annotation-xml><plus></plus></annotation-xml><annotation>+</annotation></semantics></math> Aug</td><td>64.7 (<math><semantics><mrow><mo>+</mo><mn>1.2</mn></mrow><annotation-xml><apply><plus></plus><cn>1.2</cn></apply></annotation-xml><annotation>+1.2</annotation></semantics></math>)</td><td>53.7 (<math><semantics><mrow><mo>+</mo><mn>4.9</mn></mrow><annotation-xml><apply><plus></plus><cn>4.9</cn></apply></annotation-xml><annotation>+4.9</annotation></semantics></math>)</td></tr><tr><td>RATSQL</td><td>66.6</td><td>52.3</td></tr><tr><td>RATSQL <math><semantics><mo>+</mo><annotation-xml><plus></plus></annotation-xml><annotation>+</annotation></semantics></math> Aug</td><td>73.0 (<math><semantics><mrow><mo>+</mo><mn>6.4</mn></mrow><annotation-xml><apply><plus></plus><cn>6.4</cn></apply></annotation-xml><annotation>+6.4</annotation></semantics></math>)</td><td>55.4 (<math><semantics><mrow><mo>+</mo><mn>3.1</mn></mrow><annotation-xml><apply><plus></plus><cn>3.1</cn></apply></annotation-xml><annotation>+3.1</annotation></semantics></math>)</td></tr></tbody></table><figcaption><span>Table 5: </span>EM accuracy over seen and unseen patterns on Spider.</figcaption></figure>",
+        "is_latex": true,
+        "is_html": false,
+        "table_head": "\\begin{tabular}{llll}\n\\toprule\n & Models & Seen patterns & Unseen patterns \\\\\n\\midrule\n0 & IRNet & 63.5 & 48.8 \\\\\n1 & IRNet ++ Aug & 64.7 (+1.21.2+1.2) & 53.7 (+4.94.9+4.9) \\\\\n2 & RATSQL & 66.6 & 52.3 \\\\\n3 & RATSQL ++ Aug & 73.0 (+6.46.4+6.4) & 55.4 (+3.13.1+3.1) \\\\\n\\bottomrule\n\\end{tabular}\n",
+        "caption": "Table 5: EM accuracy over seen and unseen patterns on Spider.",
+        "citations": [
+            "Analysis on SQL patterns. One potential advantage of ASTG-based SQL generation is the ability to generate new SQL patterns that do not appear in the training data. To verify this, we adopt the more complex Spider, since its evaluation data contains a lot (20%) of low-frequency SQL patterns unseen in the training data. We divide the question/SQL pairs into two categories according to the corresponding SQL pattern, and report EM accuracy in Table5. It is clear that our augmentation approach gains improvement both on seen and unseen patterns. The gains on unseen patterns show that with generated data as extra training data, the model possesses better generalization ability."
+        ],
+        "candidates_pairs": [
+            [
+                [
+                    "Models",
+                    "IRNet"
+                ]
+            ],
+            [
+                [
+                    "Models",
+                    "IRNet"
+                ],
+                [
+                    "Seen patterns",
+                    "63.5"
+                ]
+            ],
+            [
+                [
+                    "Models",
+                    "IRNet"
+                ],
+                [
+                    "Seen patterns",
+                    "63.5"
+                ],
+                [
+                    "Unseen patterns",
+                    "48.8"
+                ]
+            ]
+        ]
+    },
+    "2305.14215_1": {
+        "latex_table": "\\begin{tabular}{llllllll}\n\\toprule\n & 0 & 1 & 2 & 3 & 4 & 5 & 6 \\\\\n\\midrule\n0 & Method & Spider Dev & Spider Dev & Spider Dev & Spider Dev & Spider Dev & Spider Realistic \\\\\n1 & Method & Easy & Medium & Hard & Extra Hard & Overall TS (Overall EX) & Overall TS (Overall EX) \\\\\n2 & Standard & 86.8 & 65.3 & 50.3 & 36.0 & 63.2 plus-or-minus\\pm 2.51 (68.7 plus-or-minus\\pm 4.08) & 51.0 plus-or-minus\\pm 4.29 (62.5 plus-or-minus\\pm 4.01) \\\\\n3 & Chain-of-Thought & 73.9 & 64.5 & 44.6 & 23.4 & 56.8 plus-or-minus\\pm 5.83 (53.9 plus-or-minus\\pm 7.21) & 50.3 plus-or-minus\\pm 4.94 (53.4 plus-or-minus\\pm 9.19) \\\\\n4 & Least-to-Most & 88.1 & 68.7 & 52.9 & 39.5 & 66.0 plus-or-minus\\pm 2.48 (68.9 plus-or-minus\\pm 3.44) & 55.0 plus-or-minus\\pm 2.51 (63.3 plus-or-minus\\pm 2.73) \\\\\n5 & Least-to-Most (G3) & 80.3 & 64.6 & 52.8 & 45.3 & 63.3 plus-or-minus\\pm 1.95 (73.8 plus-or-minus\\pm 1.72) & - \\\\\n6 & QDecomp & 89.8 & 71.3 & 53.1 & 38.6 & 67.4 plus-or-minus\\pm 1.89 (70.7 plus-or-minus\\pm 2.80) & 55.8 plus-or-minus\\pm 2.01 (65.8 plus-or-minus\\pm 2.29) \\\\\n7 & + InterCOL & 89.6 & 74.1 & 52.4 & 38.1 & 68.4 plus-or-minus\\pm 2.05 (69.7 plus-or-minus\\pm 5.82) & 56.5 plus-or-minus\\pm 2.05 (63.3 plus-or-minus\\pm 4.19) \\\\\n8 & + InterCOL (G3) & 88.7 & 71.1 & 56.8 & 45.7 & 68.8 plus-or-minus\\pm 1.16 (78.2 plus-or-minus\\pm 1.07) & - \\\\\n\\bottomrule\n\\end{tabular}\n",
+        "html_table": "<table><tbody><tr><td rowspan=\"2\">Method</td><td colspan=\"5\">Spider Dev</td><td>Spider Realistic</td></tr><tr><td>Easy</td><td>Medium</td><td>Hard</td><td>Extra Hard</td><td>Overall TS (Overall EX)</td><td>Overall TS (Overall EX)</td></tr><tr><td>Standard</td><td>86.8</td><td>65.3</td><td>50.3</td><td>36.0</td><td>63.2 <mo></mo><csymbol>plus-or-minus</csymbol><annotation>\\pm</annotation> 2.51 (68.7 <mo></mo><csymbol>plus-or-minus</csymbol><annotation>\\pm</annotation> 4.08)</td><td>51.0 <mo></mo><csymbol>plus-or-minus</csymbol><annotation>\\pm</annotation> 4.29 (62.5 <mo></mo><csymbol>plus-or-minus</csymbol><annotation>\\pm</annotation> 4.01)</td></tr><tr><td>Chain-of-Thought</td><td>73.9</td><td>64.5</td><td>44.6</td><td>23.4</td><td>56.8 <mo></mo><csymbol>plus-or-minus</csymbol><annotation>\\pm</annotation> 5.83 (53.9 <mo></mo><csymbol>plus-or-minus</csymbol><annotation>\\pm</annotation> 7.21)</td><td>50.3 <mo></mo><csymbol>plus-or-minus</csymbol><annotation>\\pm</annotation> 4.94 (53.4 <mo></mo><csymbol>plus-or-minus</csymbol><annotation>\\pm</annotation> 9.19)</td></tr><tr><td>Least-to-Most</td><td>88.1</td><td>68.7</td><td>52.9</td><td>39.5</td><td>66.0 <mo></mo><csymbol>plus-or-minus</csymbol><annotation>\\pm</annotation> 2.48 (68.9 <mo></mo><csymbol>plus-or-minus</csymbol><annotation>\\pm</annotation> 3.44)</td><td>55.0 <mo></mo><csymbol>plus-or-minus</csymbol><annotation>\\pm</annotation> 2.51 (63.3 <mo></mo><csymbol>plus-or-minus</csymbol><annotation>\\pm</annotation> 2.73)</td></tr><tr><td>Least-to-Most (G3)</td><td>80.3</td><td>64.6</td><td>52.8</td><td>45.3</td><td>63.3 <mo></mo><csymbol>plus-or-minus</csymbol><annotation>\\pm</annotation> 1.95 (73.8 <mo></mo><csymbol>plus-or-minus</csymbol><annotation>\\pm</annotation> 1.72)</td><td>-<sup></sup></td></tr><tr><td>QDecomp</td><td>89.8</td><td>71.3</td><td>53.1</td><td>38.6</td><td>67.4 <mo></mo><csymbol>plus-or-minus</csymbol><annotation>\\pm</annotation> 1.89 (70.7 <mo></mo><csymbol>plus-or-minus</csymbol><annotation>\\pm</annotation> 2.80)</td><td>55.8 <mo></mo><csymbol>plus-or-minus</csymbol><annotation>\\pm</annotation> 2.01 (65.8 <mo></mo><csymbol>plus-or-minus</csymbol><annotation>\\pm</annotation> 2.29)</td></tr><tr><td>+ InterCOL</td><td>89.6</td><td>74.1</td><td>52.4</td><td>38.1</td><td>68.4 <mo></mo><csymbol>plus-or-minus</csymbol><annotation>\\pm</annotation> 2.05 (69.7 <mo></mo><csymbol>plus-or-minus</csymbol><annotation>\\pm</annotation> 5.82)</td><td>56.5 <mo></mo><csymbol>plus-or-minus</csymbol><annotation>\\pm</annotation> 2.05 (63.3 <mo></mo><csymbol>plus-or-minus</csymbol><annotation>\\pm</annotation> 4.19)</td></tr><tr><td>+ InterCOL (G3)</td><td>88.7</td><td>71.1</td><td>56.8</td><td>45.7</td><td>68.8 <mo></mo><csymbol>plus-or-minus</csymbol><annotation>\\pm</annotation> 1.16 (78.2 <mo></mo><csymbol>plus-or-minus</csymbol><annotation>\\pm</annotation> 1.07)</td><td>-<sup></sup></td></tr></tbody></table>",
+        "og_table": "<figure><table><tbody><tr><td rowspan=\"2\"><span>Method</span></td><td colspan=\"5\">Spider Dev</td><td>Spider Realistic</td></tr><tr><td>Easy</td><td>Medium</td><td>Hard</td><td>Extra Hard</td><td>Overall TS (Overall EX)</td><td>Overall TS (Overall EX)</td></tr><tr><td>Standard</td><td>86.8</td><td>65.3</td><td>50.3</td><td>36.0</td><td>63.2 <math><semantics><mo></mo><annotation-xml><csymbol>plus-or-minus</csymbol></annotation-xml><annotation>\\pm</annotation></semantics></math> 2.51 (68.7 <math><semantics><mo></mo><annotation-xml><csymbol>plus-or-minus</csymbol></annotation-xml><annotation>\\pm</annotation></semantics></math> 4.08)</td><td>51.0 <math><semantics><mo></mo><annotation-xml><csymbol>plus-or-minus</csymbol></annotation-xml><annotation>\\pm</annotation></semantics></math> 4.29 (62.5 <math><semantics><mo></mo><annotation-xml><csymbol>plus-or-minus</csymbol></annotation-xml><annotation>\\pm</annotation></semantics></math> 4.01)</td></tr><tr><td>Chain-of-Thought</td><td>73.9</td><td>64.5</td><td>44.6</td><td>23.4</td><td>56.8 <math><semantics><mo></mo><annotation-xml><csymbol>plus-or-minus</csymbol></annotation-xml><annotation>\\pm</annotation></semantics></math> 5.83 (53.9 <math><semantics><mo></mo><annotation-xml><csymbol>plus-or-minus</csymbol></annotation-xml><annotation>\\pm</annotation></semantics></math> 7.21)</td><td>50.3 <math><semantics><mo></mo><annotation-xml><csymbol>plus-or-minus</csymbol></annotation-xml><annotation>\\pm</annotation></semantics></math> 4.94 (53.4 <math><semantics><mo></mo><annotation-xml><csymbol>plus-or-minus</csymbol></annotation-xml><annotation>\\pm</annotation></semantics></math> 9.19)</td></tr><tr><td>Least-to-Most</td><td>88.1</td><td>68.7</td><td>52.9</td><td>39.5</td><td>66.0 <math><semantics><mo></mo><annotation-xml><csymbol>plus-or-minus</csymbol></annotation-xml><annotation>\\pm</annotation></semantics></math> 2.48 (68.9 <math><semantics><mo></mo><annotation-xml><csymbol>plus-or-minus</csymbol></annotation-xml><annotation>\\pm</annotation></semantics></math> 3.44)</td><td>55.0 <math><semantics><mo></mo><annotation-xml><csymbol>plus-or-minus</csymbol></annotation-xml><annotation>\\pm</annotation></semantics></math> 2.51 (<span>63.3</span> <math><semantics><mo></mo><annotation-xml><csymbol>plus-or-minus</csymbol></annotation-xml><annotation>\\pm</annotation></semantics></math> 2.73)</td></tr><tr><td>Least-to-Most (G3)</td><td>80.3</td><td>64.6</td><td>52.8</td><td><span>45.3</span></td><td>63.3 <math><semantics><mo></mo><annotation-xml><csymbol>plus-or-minus</csymbol></annotation-xml><annotation>\\pm</annotation></semantics></math> 1.95 (<span>73.8</span> <math><semantics><mo></mo><annotation-xml><csymbol>plus-or-minus</csymbol></annotation-xml><annotation>\\pm</annotation></semantics></math> 1.72)</td><td>-<sup><span></span></sup></td></tr><tr><td>QDecomp</td><td><span>89.8</span></td><td><span>71.3</span></td><td><span>53.1</span></td><td>38.6</td><td>67.4 <math><semantics><mo></mo><annotation-xml><csymbol>plus-or-minus</csymbol></annotation-xml><annotation>\\pm</annotation></semantics></math> 1.89 (70.7 <math><semantics><mo></mo><annotation-xml><csymbol>plus-or-minus</csymbol></annotation-xml><annotation>\\pm</annotation></semantics></math> 2.80)</td><td><span>55.8</span> <math><semantics><mo></mo><annotation-xml><csymbol>plus-or-minus</csymbol></annotation-xml><annotation>\\pm</annotation></semantics></math> 2.01 (<span>65.8</span> <math><semantics><mo></mo><annotation-xml><csymbol>plus-or-minus</csymbol></annotation-xml><annotation>\\pm</annotation></semantics></math> 2.29)</td></tr><tr><td>+ InterCOL</td><td><span>89.6</span></td><td><span>74.1</span></td><td>52.4</td><td>38.1</td><td><span>68.4</span> <math><semantics><mo></mo><annotation-xml><csymbol>plus-or-minus</csymbol></annotation-xml><annotation>\\pm</annotation></semantics></math> 2.05 (69.7 <math><semantics><mo></mo><annotation-xml><csymbol>plus-or-minus</csymbol></annotation-xml><annotation>\\pm</annotation></semantics></math> 5.82)</td><td><span>56.5</span> <math><semantics><mo></mo><annotation-xml><csymbol>plus-or-minus</csymbol></annotation-xml><annotation>\\pm</annotation></semantics></math> 2.05 (<span>63.3</span> <math><semantics><mo></mo><annotation-xml><csymbol>plus-or-minus</csymbol></annotation-xml><annotation>\\pm</annotation></semantics></math> 4.19)</td></tr><tr><td>+ InterCOL (G3)</td><td>88.7</td><td>71.1</td><td><span>56.8</span></td><td><span>45.7</span></td><td><span>68.8</span> <math><semantics><mo></mo><annotation-xml><csymbol>plus-or-minus</csymbol></annotation-xml><annotation>\\pm</annotation></semantics></math> 1.16 (<span>78.2</span> <math><semantics><mo></mo><annotation-xml><csymbol>plus-or-minus</csymbol></annotation-xml><annotation>\\pm</annotation></semantics></math> 1.07)</td><td>-<sup><span></span></sup></td></tr></tbody></table><figcaption><span>Table 1: </span>8-shot test-suite (TS) accuracy of Codex on Spider Dev and Spider Realistic using different prompting methods and API Doc format. In-context examples are randomly selected except for the two rows marked with G3, where we only use extra-hard SQL queries (Section <a><span>4.2</span></a>). We also include the overall standard execution accuracy (EX) in parenthesis for reference. For each method, we repeat the experiments with 5 different sets of in-context examples and report the average performances with their standard deviation. <sup><span></span></sup>We were not able to run G3 example selection on Spider Realistic before Codex became unavailable.</figcaption></figure>",
+        "is_latex": true,
+        "is_html": false,
+        "table_head": "\\begin{tabular}{llllllll}\n\\toprule\n & 0 & 1 & 2 & 3 & 4 & 5 & 6 \\\\\n\\midrule\n0 & Method & Spider Dev & Spider Dev & Spider Dev & Spider Dev & Spider Dev & Spider Realistic \\\\\n1 & Method & Easy & Medium & Hard & Extra Hard & Overall TS (Overall EX) & Overall TS (Overall EX) \\\\\n2 & Standard & 86.8 & 65.3 & 50.3 & 36.0 & 63.2 plus-or-minus\\pm 2.51 (68.7 plus-or-minus\\pm 4.08) & 51.0 plus-or-minus\\pm 4.29 (62.5 plus-or-minus\\pm 4.01) \\\\\n3 & Chain-of-Thought & 73.9 & 64.5 & 44.6 & 23.4 & 56.8 plus-or-minus\\pm 5.83 (53.9 plus-or-minus\\pm 7.21) & 50.3 plus-or-minus\\pm 4.94 (53.4 plus-or-minus\\pm 9.19) \\\\\n\\bottomrule\n\\end{tabular}\n",
+        "caption": "Table 1:  8-shot test-suite (TS) accuracy of Codex on Spider Dev and Spider Realistic using different prompting methods and API Doc format. In-context examples are randomly selected except for the two rows marked with G3, where we only use extra-hard SQL queries (Section 4.2). We also include the overall standard execution accuracy (EX) in parenthesis for reference. For each method, we repeat the experiments with 5 different sets of in-context examples and report the average performances with their standard deviation. We were not able to run G3 example selection on Spider Realistic before Codex became unavailable.",
+        "citations": [
+            "We use test-suite execution accuracy (Zhong etal., 2020) to evaluate different prompting methods, in-context example selection strategies, and prompt formats. Leveraging the idea of code coverage in software testing (Miller and Maloney, 1963), the metric synthesizes a large number of databases as test cases and compares the execution results of the predicted and gold SQL queries on all of them. In this way, test-suite accuracy reduces the number of false positives (i.e., semantically different SQL queries that happen to have the same execution result) in standard execution accuracy, which compares execution results on only one database. As shown in Table 1, standard promptings test-suite accuracy falls behind least-to-most prompting. However, their standard execution accuracy results are very close, which might be misleading.",
+            "Through comprehensive experiments on Spider Dev and Spider Realistic (Table 1), we show that our proposed question decomposition (QDecomp) prompting and its variant (QDecomp+InterCOL) consistently outperform two existing methods, chain-of-thought and least-to-most prompting. Specifically, QDecomp+InterCOL achieves 68.4% test-suite accuracy on the Spider development set and 56.5% on the Spider Realistic set. Compared to the standard prompting, it brings 5.2% and 6.5% point absolute gains, respectively. Compared to least-to-most prompting (the second best method), it brings 2.4% and 1.5% point absolute gains. Furthermore, when using extra-hard (G3) in-context examples, we can improve the execution accuracy of QDecomp+InterCOL prompting to 78.2%, which is comparable to RASAT+PICARD (Qi etal., 2022), a strong fine-tuned text-to-SQL parser. In contrast, least-to-most prompting does not gain too much execution accuracy (73.8%) from G3 in-context examples and even has decreased test-suite accuracy (63.3%). We will present more analysis on this contrast in Section 5.3."
+        ],
+        "candidates_pairs": [
+            [
+                [
+                    "0",
+                    "Method"
+                ]
+            ],
+            [
+                [
+                    "0",
+                    "Method"
+                ],
+                [
+                    "1",
+                    "Spider Dev"
+                ]
+            ],
+            [
+                [
+                    "0",
+                    "Method"
+                ],
+                [
+                    "1",
+                    "Spider Dev"
+                ],
+                [
+                    "2",
+                    "Spider Dev"
+                ]
+            ],
+            [
+                [
+                    "0",
+                    "Method"
+                ],
+                [
+                    "1",
+                    "Spider Dev"
+                ],
+                [
+                    "2",
+                    "Spider Dev"
+                ],
+                [
+                    "3",
+                    "Spider Dev"
+                ]
+            ],
+            [
+                [
+                    "0",
+                    "Method"
+                ],
+                [
+                    "1",
+                    "Spider Dev"
+                ],
+                [
+                    "2",
+                    "Spider Dev"
+                ],
+                [
+                    "3",
+                    "Spider Dev"
+                ],
+                [
+                    "4",
+                    "Spider Dev"
+                ]
+            ],
+            [
+                [
+                    "0",
+                    "Method"
+                ],
+                [
+                    "1",
+                    "Spider Dev"
+                ],
+                [
+                    "2",
+                    "Spider Dev"
+                ],
+                [
+                    "3",
+                    "Spider Dev"
+                ],
+                [
+                    "4",
+                    "Spider Dev"
+                ],
+                [
+                    "5",
+                    "Spider Dev"
+                ]
+            ],
+            [
+                [
+                    "0",
+                    "Method"
+                ],
+                [
+                    "1",
+                    "Spider Dev"
+                ],
+                [
+                    "2",
+                    "Spider Dev"
+                ],
+                [
+                    "3",
+                    "Spider Dev"
+                ],
+                [
+                    "4",
+                    "Spider Dev"
+                ],
+                [
+                    "5",
+                    "Spider Dev"
+                ],
+                [
+                    "6",
+                    "Spider Realistic"
+                ]
+            ]
+        ]
+    },
+    "2008.04759_1": {
+        "latex_table": "\\begin{tabular}{lllll}\n\\toprule\n & Model & Base Model & Dev (lf, ex) & Test (lf, ex) \\\\\n\\midrule\n0 & SQLova & BERT-Large-Uncased & 81.6, 87.2 & 80.7, 86.2 \\\\\n1 & X-SQL & MT-DNN & 83.8, 89.5 & 83.3, 88.7 \\\\\n2 & HydraNet & BERT-Large-Uncased & 83.5, 88.9 & 83.4, 88.6 \\\\\n3 & HydraNet & RoBERTa-Large & 83.6, 89.1 & 83.8, 89.2 \\\\\n4 & SQLova + EG & BERT-Large-Uncased & 84.2, 90.2 & 83.6, 89.6 \\\\\n5 & X-SQL + EG & MT-DNN & 86.2, 92.3 & 86.0, 91.8 \\\\\n6 & HydraNet + EG & BERT-Large-Uncased & 86.6, 92.2 & 86.2, 91.8 \\\\\n7 & HydraNet + EG & RoBERTa-Large & 86.6, 92.4 & 86.5, 92.2 \\\\\n\\bottomrule\n\\end{tabular}\n",
+        "html_table": "<table><thead><tr><th>Model</th><th>Base Model</th><th>Dev (lf, ex)</th><th>Test (lf, ex)</th></tr></thead><tbody><tr><th>SQLova</th><th>BERT-Large-Uncased</th><td>81.6, 87.2</td><td>80.7, 86.2</td></tr><tr><th>X-SQL</th><th>MT-DNN</th><td>83.8, 89.5</td><td>83.3, 88.7</td></tr><tr><th>HydraNet</th><th>BERT-Large-Uncased</th><td>83.5, 88.9</td><td>83.4, 88.6</td></tr><tr><th>HydraNet</th><th>RoBERTa-Large</th><td>83.6, 89.1</td><td>83.8, 89.2</td></tr><tr><th>SQLova + EG</th><th>BERT-Large-Uncased</th><td>84.2, 90.2</td><td>83.6, 89.6</td></tr><tr><th>X-SQL + EG</th><th>MT-DNN</th><td>86.2, 92.3</td><td>86.0, 91.8</td></tr><tr><th>HydraNet + EG</th><th>BERT-Large-Uncased</th><td>86.6, 92.2</td><td>86.2, 91.8</td></tr><tr><th>HydraNet + EG</th><th>RoBERTa-Large</th><td>86.6, 92.4</td><td>86.5, 92.2</td></tr></tbody></table><figcaption><span>Table 1: </span>Logical form (lf) and execution (ex) accuracy on WikiSQL dataset</figcaption></figure>",
+        "og_table": "<figure><table><thead><tr><th>Model</th><th>Base Model</th><th>Dev (lf, ex)</th><th>Test (lf, ex)</th></tr></thead><tbody><tr><th>SQLova</th><th>BERT-Large-Uncased</th><td>81.6, 87.2</td><td>80.7, 86.2</td></tr><tr><th>X-SQL</th><th>MT-DNN</th><td>83.8, 89.5</td><td>83.3, 88.7</td></tr><tr><th>HydraNet</th><th>BERT-Large-Uncased</th><td>83.5, 88.9</td><td>83.4, 88.6</td></tr><tr><th>HydraNet</th><th>RoBERTa-Large</th><td>83.6, 89.1</td><td><span>83.8</span>, <span>89.2</span></td></tr><tr><th>SQLova + EG</th><th>BERT-Large-Uncased</th><td>84.2, 90.2</td><td>83.6, 89.6</td></tr><tr><th>X-SQL + EG</th><th>MT-DNN</th><td>86.2, 92.3</td><td>86.0, 91.8</td></tr><tr><th>HydraNet + EG</th><th>BERT-Large-Uncased</th><td>86.6, 92.2</td><td>86.2, 91.8</td></tr><tr><th>HydraNet + EG</th><th>RoBERTa-Large</th><td>86.6, 92.4</td><td><span>86.5</span>, <span>92.2</span></td></tr></tbody></table>",
+        "is_latex": true,
+        "is_html": false,
+        "table_head": "\\begin{tabular}{lllll}\n\\toprule\n & Model & Base Model & Dev (lf, ex) & Test (lf, ex) \\\\\n\\midrule\n0 & SQLova & BERT-Large-Uncased & 81.6, 87.2 & 80.7, 86.2 \\\\\n1 & X-SQL & MT-DNN & 83.8, 89.5 & 83.3, 88.7 \\\\\n2 & HydraNet & BERT-Large-Uncased & 83.5, 88.9 & 83.4, 88.6 \\\\\n3 & HydraNet & RoBERTa-Large & 83.6, 89.1 & 83.8, 89.2 \\\\\n\\bottomrule\n\\end{tabular}\n",
+        "caption": "Table 1: Logical form (lf) and execution (ex) accuracy on WikiSQL dataset",
+        "citations": [
+            "Table 1 shows results of different approaches, both with and without applying execution-guided decoding (EG). Logical form accuracy is the percentage of exact matches of predicted SQL queries and labels, and execution accuracy is the percentage of exact matches of executed results of predicted SQL queries and labels. We use logical form accuracy on development dataset as metric to choose the best model. The results show that on test set, HydraNet is consistently better than the other approaches. Note that HydraNet with BERT-Large-Uncased is significant better than SQLova, which uses the same base model, and is even as good as X-SQL, which uses MT-DNN as base model. MT-DNN has shown to be significantly better than BERT-Large-Uncased(Liu etal., 2019a), and has similar score as RoBERTa on GLUE Benchmark333https://gluebenchmark.com/leaderboard. This implies that HydraNet is better at exploiting the pre-trained Transformer model."
+        ],
+        "candidates_pairs": [
+            [
+                [
+                    "Model",
+                    "SQLova"
+                ]
+            ],
+            [
+                [
+                    "Model",
+                    "SQLova"
+                ],
+                [
+                    "Base Model",
+                    "BERT-Large-Uncased"
+                ]
+            ],
+            [
+                [
+                    "Model",
+                    "SQLova"
+                ],
+                [
+                    "Base Model",
+                    "BERT-Large-Uncased"
+                ],
+                [
+                    "Dev (lf, ex)",
+                    "81.6, 87.2"
+                ]
+            ],
+            [
+                [
+                    "Model",
+                    "SQLova"
+                ],
+                [
+                    "Base Model",
+                    "BERT-Large-Uncased"
+                ],
+                [
+                    "Dev (lf, ex)",
+                    "81.6, 87.2"
+                ],
+                [
+                    "Test (lf, ex)",
+                    "80.7, 86.2"
+                ]
+            ]
+        ]
+    },
+    "2311.01173_3": {
+        "latex_table": null,
+        "html_table": "<table><div><span><p><span><span><span><span><span><span><span><span><span><span>Data set</span></span><span><span>Method</span></span><span><span>Budget<math><semantics><mo></mo><annotation-xml><ci></ci></annotation-xml><annotation>\\longrightarrow</annotation></semantics></math></span></span></span><span><span></span><span></span><span>3</span><span>5</span><span>10</span><span>20</span><span>30</span><span>50</span><span>100</span></span></span><span><span><span>SpiderUnion</span><span>Single DPR(OpenAI)</span><span>0.29/0.33</span><span>0.35/0.41</span><span>0.45/0.53</span><span>0.48/0.57</span><span>0.48/0.59</span><span>0.48/0.59</span><span>0.51/0.62</span></span><span><span></span><span><span>CRUSH (ours)</span></span><span><span>0.35/0.39</span></span><span><span>0.46/0.53</span></span><span><span>0.52/0.60</span></span><span><span>0.53/0.64</span></span><span><span>0.54/0.64</span></span><span><span>0.52/0.63</span></span><span><span>0.52/0.62</span></span></span><span><span>BirdUnion</span><span>Single DPR(OpenAI)</span><span>0.03/0.07</span><span>0.05/0.10</span><span>0.07/0.13</span><span>0.09/0.15</span><span>0.09/0.16</span><span>0.10/0.18</span><span>-/-</span></span><span><span></span><span><span>CRUSH (ours)</span></span><span><span>0.04/0.07</span></span><span><span>0.07/0.11</span></span><span><span>0.09/0.15</span></span><span><span>0.11/0.19</span></span><span><span>0.11/0.19</span></span><span><span>0.12/0.21</span></span><span><span>-/-</span></span></span></span></span></span></span></span></span></span></p></span></div></table>",
+        "og_table": "<table><div><span><p><span><span><span><span><span><span><span><span><span><span>Data set</span></span><span><span>Method</span></span><span><span>Budget<math><semantics><mo></mo><annotation-xml><ci></ci></annotation-xml><annotation>\\longrightarrow</annotation></semantics></math></span></span></span><span><span></span><span></span><span>3</span><span>5</span><span>10</span><span>20</span><span>30</span><span>50</span><span>100</span></span></span><span><span><span>SpiderUnion</span><span>Single DPR(OpenAI)</span><span>0.29/0.33</span><span>0.35/0.41</span><span>0.45/0.53</span><span>0.48/0.57</span><span>0.48/0.59</span><span>0.48/0.59</span><span>0.51/0.62</span></span><span><span></span><span><span>CRUSH (ours)</span></span><span><span>0.35/0.39</span></span><span><span>0.46/0.53</span></span><span><span>0.52/0.60</span></span><span><span>0.53/0.64</span></span><span><span>0.54/0.64</span></span><span><span>0.52/0.63</span></span><span><span>0.52/0.62</span></span></span><span><span>BirdUnion</span><span>Single DPR(OpenAI)</span><span>0.03/0.07</span><span>0.05/0.10</span><span>0.07/0.13</span><span>0.09/0.15</span><span>0.09/0.16</span><span>0.10/0.18</span><span>-/-</span></span><span><span></span><span><span>CRUSH (ours)</span></span><span><span>0.04/0.07</span></span><span><span>0.07/0.11</span></span><span><span>0.09/0.15</span></span><span><span>0.11/0.19</span></span><span><span>0.11/0.19</span></span><span><span>0.12/0.21</span></span><span><span>-/-</span></span></span></span></span></span></span></span></span></span></p></span></div><figcaption><span>Table 3: </span>Exact Match (EM) / Execution Match (EX) accuracy when RESDSQL is used to generate SQL on schema retrieved at various budgets from CRUSHand Single DPR(OpenAI). The higher recall of CRUSHs retrievals lead to more accurate SQLs. Very large budget worsens SQL accuracy.</figcaption></table>",
+        "is_latex": false,
+        "is_html": true,
+        "table_head": "<table><div><span><p><span><span><span><span><span><span><span><span><span><span>Data set</span></span><span><span>Method</span></span><span><span>Budget<math><semantics><mo></mo><annotation-xml><ci></ci></annotation-xml><annotation>\\longrightarrow</annotation></semantics></math></span></span></span><span><span></span><span></span><span>3</span><span>5</span><span>10</span><span>20</span><span>30</span><span>50</span><span>100</span></span></span><span><span><span>SpiderUnion</span><span>Single DPR(OpenAI)</span><span>0.29/0.33</span><span>0.35/0.41</span><span>0.45/0.53</span><span>0.48/0.57</span><span>0.48/0.59</span><span>0.48/0.59</span><span>0.51/0.62</span></span><span><span></span><span><span>CRUSH (ours)</span></span><span><span>0.35/0.39</span></span><span><span>0.46/0.53</span></span><span><span>0.52/0.60</span></span><span><span>0.53/0.64</span></span><span><span>0.54/0.64</span></span><span><span>0.52/0.63</span></span><span><span>0.52/0.62</span></span></span><span><span>BirdUnion</span><span>Single DPR(OpenAI)</span><span>0.03/0.07</span><span>0.05/0.10</span><span>0.07/0.13</span><span>0.09/0.15</span><span>0.09/0.16</span><span>0.10/0.18</span><span>-/-</span></span><span><span></span><span><span>CRUSH (ours)</span></span><span><span>0.04/0.07</span></span><span><span>0.07/0.11</span></span><span><span>0.09/0.15</span></span><span><span>0.11/0.19</span></span><span><span>0.11/0.19</span></span><span><span>0.12/0.21</span></span><span><span>-/-</span></span></span></span></span></span></span></span></span></span></p></span></div><figcaption><span>Table 3: </span>Exact Match (EM) / Execution Match (EX) accuracy when RESDSQL is used to generate SQL on schema retrieved at various budgets from CRUSHand Single DPR(OpenAI). The higher recall of CRUSHs retrievals lead to more accurate SQLs. Very large budget worsens SQL accuracy.</figcaption></table>",
+        "caption": "Table 3: Exact Match (EM) / Execution Match (EX) accuracy when RESDSQL is used to generate SQL on schema retrieved at various budgets from CRUSHand Single DPR(OpenAI). The higher recall of CRUSHs retrievals lead to more accurate SQLs. Very large budget worsens SQL accuracy.",
+        "citations": [
+            "We use the state-of-art RESDSQLLi etal. (2023a) model for generating the SQL using the schema subset selected by various systems. Following standard practice, we use Exact Match (EM) and Execution Match (EX) accuracy to evaluate the quality of the generated SQL. As seen in Table3, the improved recall of schema subsetting translates to improved accuracy of Text-to-SQL generation. However, beyond a budget of 30, we see a drop in the accuracy of the generated SQL, presumably because the Text-to-SQL method gets distracted by the irrelevant schema in the input. For the BirdUnion dataset, the RESDSQL system could not handle the larger schema at budget 100, but we expect a similar trend."
+        ],
+        "candidates_pairs": [
+            [
+                [
+                    "Data setMethodBudget\\longrightarrow3510203050100SpiderUnionSingle DPR(OpenAI)0.29/0.330.35/0.410.45/0.530.48/0.570.48/0.590.48/0.590.51/0.62CRUSH (ours)0.35/0.390.46/0.530.52/0.600.53/0.640.54/0.640.52/0.630.52/0.62BirdUnionSingle DPR(OpenAI)0.03/0.070.05/0.100.07/0.130.09/0.150.09/0.160.10/0.18-/-CRUSH (ours)0.04/0.070.07/0.110.09/0.150.11/0.190.11/0.190.12/0.21-/-",
+                    "Data setMethodBudget\\longrightarrow3510203050100SpiderUnionSingle DPR(OpenAI)0.29/0.330.35/0.410.45/0.530.48/0.570.48/0.590.48/0.590.51/0.62CRUSH (ours)0.35/0.390.46/0.530.52/0.600.53/0.640.54/0.640.52/0.630.52/0.62BirdUnionSingle DPR(OpenAI)0.03/0.070.05/0.100.07/0.130.09/0.150.09/0.160.10/0.18-/-CRUSH (ours)0.04/0.070.07/0.110.09/0.150.11/0.190.11/0.190.12/0.21-/-"
+                ]
+            ]
+        ]
+    },
+    "2305.16253_7": {
+        "latex_table": "\\begin{tabular}{lllllrlllrlll}\n\\toprule\n & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 \\\\\n\\midrule\n0 & Models & RATSQL (BERT) & RATSQL (BERT) & RATSQL (BERT) & NaN & UNISAR (BART) & UNISAR (BART) & UNISAR (BART) & NaN & PICARD (T5) & PICARD (T5) & PICARD (T5) \\\\\n1 & Models & Ori-ACC{\\uparrow} & ACC{\\uparrow} & Bias Score{\\downarrow} & NaN & Ori-ACC{\\uparrow} & ACC{\\uparrow} & Bias Score{\\downarrow} & NaN & Ori-ACC{\\uparrow} & ACC{\\uparrow} & Bias Score{\\downarrow} \\\\\n2 & BiaSpider v1subscript1v_{1} & NaN & NaN & NaN & NaN & NaN & NaN & NaN & NaN & NaN & NaN & NaN \\\\\n3 & RoBERTa-Neg & 65.6065.6065.60 & 43.7243.7243.72 & 42.2142.2142.21 & NaN & 70.0070.0070.00 & 39.7339.7339.73 & 11.5511.5511.55 & NaN & 71.9071.9071.90 & 39.4939.49{\\color[rgb]{0,0,0}39.49} & 9.529.52{\\color[rgb]{0,0,0}9.52} \\\\\n4 & Random-Neg & 65.6065.6065.60 & 44.0744.0744.07 & 39.9639.9639.96 & NaN & 70.0070.0070.00 & 38.9338.9338.93 & 12.0112.01{\\color[rgb]{0,0,0}12.01} & NaN & 71.9071.9071.90 & 38.2438.24{\\color[rgb]{0,0,0}38.24} & 9.379.37{\\color[rgb]{0,0,0}9.37} \\\\\n5 & Random-Pos & 65.6065.6065.60 & 43.8843.8843.88 & 40.2940.2940.29 & NaN & 70.0070.0070.00 & 40.9640.9640.96 & 11.8511.85{\\color[rgb]{0,0,0}11.85} & NaN & 71.9071.9071.90 & 38.6738.67{\\color[rgb]{0,0,0}38.67} & 10.0210.02{\\color[rgb]{0,0,0}10.02} \\\\\n6 & Comparative & 65.6065.6065.60 & 40.9940.9940.99 & 44.8244.8244.82 & NaN & 70.0070.0070.00 & 39.0639.06{\\color[rgb]{0,0,0}39.06} & 12.9312.93{\\color[rgb]{0,0,0}12.93} & NaN & 71.9071.9071.90 & 39.3139.31{\\color[rgb]{0,0,0}39.31} & 9.799.79{\\color[rgb]{0,0,0}9.79} \\\\\n7 & BiaSpider v2subscript2v_{2} & NaN & NaN & NaN & NaN & NaN & NaN & NaN & NaN & NaN & NaN & NaN \\\\\n8 & RoBERTa-Neg & 65.6065.6065.60 & 43.2943.2943.29 & 54.4054.4054.40 & NaN & 70.0070.0070.00 & 39.7339.7339.73 & 11.8311.83{\\color[rgb]{0,0,0}11.83} & NaN & 71.9071.9071.90 & 39.5239.52{\\color[rgb]{0,0,0}39.52} & 9.749.749.74 \\\\\n9 & Random-Neg & 65.6065.6065.60 & 43.6243.6243.62 & 52.9652.96{\\color[rgb]{0,0,0}52.96} & NaN & 70.0070.0070.00 & 37.6737.6737.67 & 12.1312.13\\textbf{}{\\color[rgb]{0,0,0}12.13} & NaN & 71.9071.9071.90 & 39.1539.15{\\color[rgb]{0,0,0}39.15} & 9.689.68{\\color[rgb]{0,0,0}9.68} \\\\\n10 & Random-Pos & 65.6065.6065.60 & 43.4843.4843.48 & 55.7955.79{\\color[rgb]{0,0,0}55.79} & NaN & 70.0070.0070.00 & 40.4340.4340.43 & 12.4312.43{\\color[rgb]{0,0,0}12.43} & NaN & 71.9071.9071.90 & 38.9938.99{\\color[rgb]{0,0,0}38.99} & 9.979.97{\\color[rgb]{0,0,0}9.97} \\\\\n11 & Comparative & 65.6065.6065.60 & 40.6940.6940.69 & 52.0352.0352.03 & NaN & 70.0070.0070.00 & 39.8039.80{\\color[rgb]{0,0,0}39.80} & 12.6512.65{\\color[rgb]{0,0,0}12.65} & NaN & 71.9071.9071.90 & 38.7238.72{\\color[rgb]{0,0,0}38.72} & 9.589.58{\\color[rgb]{0,0,0}9.58} \\\\\n12 & BiaSpider v3subscript3v_{3} & NaN & NaN & NaN & NaN & NaN & NaN & NaN & NaN & NaN & NaN & NaN \\\\\n13 & RoBERTa-Neg & 65.6065.6065.60 & 44.2544.2544.25 & 53.5653.5653.56 & NaN & 70.070.070.0 & 6.336.336.33 & 12.3112.31{\\color[rgb]{0,0,0}12.31} & NaN & 71.9071.9071.90 & 39.0639.06{\\color[rgb]{0,0,0}39.06} & 9.229.229.22 \\\\\n14 & Random-Neg & 65.6065.6065.60 & 43.6943.69{\\color[rgb]{0,0,0}43.69} & 51.2551.25{\\color[rgb]{0,0,0}51.25} & NaN & 70.070.070.0 & 5.765.765.76 & 11.8411.84{\\color[rgb]{0,0,0}11.84} & NaN & 71.9071.9071.90 & 39.4139.41{\\color[rgb]{0,0,0}39.41} & 9.559.55{\\color[rgb]{0,0,0}9.55} \\\\\n15 & Random-Pos & 65.6065.6065.60 & 44.5144.5144.51 & 50.2950.29{\\color[rgb]{0,0,0}50.29} & NaN & 70.070.070.0 & 6.406.406.40 & 12.0812.08{\\color[rgb]{0,0,0}12.08} & NaN & 71.9071.9071.90 & 39.4539.45{\\color[rgb]{0,0,0}39.45} & 9.819.81{\\color[rgb]{0,0,0}9.81} \\\\\n16 & Comparative & 65.6065.6065.60 & 41.5641.5641.56 & 49.7149.7149.71 & NaN & 70.070.070.0 & 5.245.24{\\color[rgb]{0,0,0}5.24} & 11.9711.97{\\color[rgb]{0,0,0}11.97} & NaN & 71.9071.9071.90 & 38.8938.89{\\color[rgb]{0,0,0}38.89} & 9.749.74{\\color[rgb]{0,0,0}9.74} \\\\\n\\bottomrule\n\\end{tabular}\n",
+        "html_table": "<div><span><table><tr><td rowspan=\"2\">Models</td><td colspan=\"3\">RATSQL (BERT)</td><td></td><td colspan=\"3\">UNISAR (BART)</td><td></td><td colspan=\"3\">PICARD (T5)</td></tr><tr><td>Ori-ACC<mo></mo><ci></ci><annotation>{\\uparrow}</annotation></td><td>ACC<mo></mo><ci></ci><annotation>{\\uparrow}</annotation></td><td>Bias Score<mo></mo><ci></ci><annotation>{\\downarrow}</annotation></td><td></td><td>Ori-ACC<mo></mo><ci></ci><annotation>{\\uparrow}</annotation></td><td>ACC<mo></mo><ci></ci><annotation>{\\uparrow}</annotation></td><td>Bias Score<mo></mo><ci></ci><annotation>{\\downarrow}</annotation></td><td></td><td>Ori-ACC<mo></mo><ci></ci><annotation>{\\uparrow}</annotation></td><td>ACC<mo></mo><ci></ci><annotation>{\\uparrow}</annotation></td><td>Bias Score<mo></mo><ci></ci><annotation>{\\downarrow}</annotation></td></tr><tr><td>BiaSpider <msub><mi>v</mi><mn>1</mn></msub><apply><csymbol>subscript</csymbol><ci></ci><cn>1</cn></apply><annotation>v_{1}</annotation></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>RoBERTa-Neg</td><td><mn>65.60</mn><cn>65.60</cn><annotation>65.60</annotation></td><td><mn>43.72</mn><cn>43.72</cn><annotation>43.72</annotation></td><td><mn>42.21</mn><cn>42.21</cn><annotation>42.21</annotation></td><td></td><td><mn>70.00</mn><cn>70.00</cn><annotation>70.00</annotation></td><td><mn>39.73</mn><cn>39.73</cn><annotation>39.73</annotation></td><td><mn>11.55</mn><cn>11.55</cn><annotation>11.55</annotation></td><td></td><td><mn>71.90</mn><cn>71.90</cn><annotation>71.90</annotation></td><td><mn>39.49</mn><cn>39.49</cn><annotation>{\\color[rgb]{0,0,0}39.49}</annotation></td><td><mn>9.52</mn><cn>9.52</cn><annotation>{\\color[rgb]{0,0,0}9.52}</annotation></td></tr><tr><td>Random-Neg</td><td><mn>65.60</mn><cn>65.60</cn><annotation>65.60</annotation></td><td><mn>44.07</mn><cn>44.07</cn><annotation>44.07</annotation></td><td><mn>39.96</mn><cn>39.96</cn><annotation>39.96</annotation></td><td></td><td><mn>70.00</mn><cn>70.00</cn><annotation>70.00</annotation></td><td><mn>38.93</mn><cn>38.93</cn><annotation>38.93</annotation></td><td><mn>12.01</mn><cn>12.01</cn><annotation>{\\color[rgb]{0,0,0}12.01}</annotation></td><td></td><td><mn>71.90</mn><cn>71.90</cn><annotation>71.90</annotation></td><td><mn>38.24</mn><cn>38.24</cn><annotation>{\\color[rgb]{0,0,0}38.24}</annotation></td><td><mn>9.37</mn><cn>9.37</cn><annotation>{\\color[rgb]{0,0,0}9.37}</annotation></td></tr><tr><td>Random-Pos</td><td><mn>65.60</mn><cn>65.60</cn><annotation>65.60</annotation></td><td><mn>43.88</mn><cn>43.88</cn><annotation>43.88</annotation></td><td><mn>40.29</mn><cn>40.29</cn><annotation>40.29</annotation></td><td></td><td><mn>70.00</mn><cn>70.00</cn><annotation>70.00</annotation></td><td><mn>40.96</mn><cn>40.96</cn><annotation>40.96</annotation></td><td><mn>11.85</mn><cn>11.85</cn><annotation>{\\color[rgb]{0,0,0}11.85}</annotation></td><td></td><td><mn>71.90</mn><cn>71.90</cn><annotation>71.90</annotation></td><td><mn>38.67</mn><cn>38.67</cn><annotation>{\\color[rgb]{0,0,0}38.67}</annotation></td><td><mn>10.02</mn><cn>10.02</cn><annotation>{\\color[rgb]{0,0,0}10.02}</annotation></td></tr><tr><td>Comparative</td><td><mn>65.60</mn><cn>65.60</cn><annotation>65.60</annotation></td><td><mn>40.99</mn><cn>40.99</cn><annotation>40.99</annotation></td><td><mn>44.82</mn><cn>44.82</cn><annotation>44.82</annotation></td><td></td><td><mn>70.00</mn><cn>70.00</cn><annotation>70.00</annotation></td><td><mn>39.06</mn><cn>39.06</cn><annotation>{\\color[rgb]{0,0,0}39.06}</annotation></td><td><mn>12.93</mn><cn>12.93</cn><annotation>{\\color[rgb]{0,0,0}12.93}</annotation></td><td></td><td><mn>71.90</mn><cn>71.90</cn><annotation>71.90</annotation></td><td><mn>39.31</mn><cn>39.31</cn><annotation>{\\color[rgb]{0,0,0}39.31}</annotation></td><td><mn>9.79</mn><cn>9.79</cn><annotation>{\\color[rgb]{0,0,0}9.79}</annotation></td></tr><tr><td>BiaSpider <msub><mi>v</mi><mn>2</mn></msub><apply><csymbol>subscript</csymbol><ci></ci><cn>2</cn></apply><annotation>v_{2}</annotation></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>RoBERTa-Neg</td><td><mn>65.60</mn><cn>65.60</cn><annotation>65.60</annotation></td><td><mn>43.29</mn><cn>43.29</cn><annotation>43.29</annotation></td><td><mn>54.40</mn><cn>54.40</cn><annotation>54.40</annotation></td><td></td><td><mn>70.00</mn><cn>70.00</cn><annotation>70.00</annotation></td><td><mn>39.73</mn><cn>39.73</cn><annotation>39.73</annotation></td><td><mn>11.83</mn><cn>11.83</cn><annotation>{\\color[rgb]{0,0,0}11.83}</annotation></td><td></td><td><mn>71.90</mn><cn>71.90</cn><annotation>71.90</annotation></td><td><mn>39.52</mn><cn>39.52</cn><annotation>{\\color[rgb]{0,0,0}39.52}</annotation></td><td><mn>9.74</mn><cn>9.74</cn><annotation>9.74</annotation></td></tr><tr><td>Random-Neg</td><td><mn>65.60</mn><cn>65.60</cn><annotation>65.60</annotation></td><td><mn>43.62</mn><cn>43.62</cn><annotation>43.62</annotation></td><td><mn>52.96</mn><cn>52.96</cn><annotation>{\\color[rgb]{0,0,0}52.96}</annotation></td><td></td><td><mn>70.00</mn><cn>70.00</cn><annotation>70.00</annotation></td><td><mn>37.67</mn><cn>37.67</cn><annotation>37.67</annotation></td><td><mrow><mrow></mrow><mo></mo><mn>12.13</mn></mrow><apply><times></times><ci><mrow></mrow></ci><cn>12.13</cn></apply><annotation>\\textbf{}{\\color[rgb]{0,0,0}12.13}</annotation></td><td></td><td><mn>71.90</mn><cn>71.90</cn><annotation>71.90</annotation></td><td><mn>39.15</mn><cn>39.15</cn><annotation>{\\color[rgb]{0,0,0}39.15}</annotation></td><td><mn>9.68</mn><cn>9.68</cn><annotation>{\\color[rgb]{0,0,0}9.68}</annotation></td></tr><tr><td>Random-Pos</td><td><mn>65.60</mn><cn>65.60</cn><annotation>65.60</annotation></td><td><mn>43.48</mn><cn>43.48</cn><annotation>43.48</annotation></td><td><mn>55.79</mn><cn>55.79</cn><annotation>{\\color[rgb]{0,0,0}55.79}</annotation></td><td></td><td><mn>70.00</mn><cn>70.00</cn><annotation>70.00</annotation></td><td><mn>40.43</mn><cn>40.43</cn><annotation>40.43</annotation></td><td><mn>12.43</mn><cn>12.43</cn><annotation>{\\color[rgb]{0,0,0}12.43}</annotation></td><td></td><td><mn>71.90</mn><cn>71.90</cn><annotation>71.90</annotation></td><td><mn>38.99</mn><cn>38.99</cn><annotation>{\\color[rgb]{0,0,0}38.99}</annotation></td><td><mn>9.97</mn><cn>9.97</cn><annotation>{\\color[rgb]{0,0,0}9.97}</annotation></td></tr><tr><td>Comparative</td><td><mn>65.60</mn><cn>65.60</cn><annotation>65.60</annotation></td><td><mn>40.69</mn><cn>40.69</cn><annotation>40.69</annotation></td><td><mn>52.03</mn><cn>52.03</cn><annotation>52.03</annotation></td><td></td><td><mn>70.00</mn><cn>70.00</cn><annotation>70.00</annotation></td><td><mn>39.80</mn><cn>39.80</cn><annotation>{\\color[rgb]{0,0,0}39.80}</annotation></td><td><mn>12.65</mn><cn>12.65</cn><annotation>{\\color[rgb]{0,0,0}12.65}</annotation></td><td></td><td><mn>71.90</mn><cn>71.90</cn><annotation>71.90</annotation></td><td><mn>38.72</mn><cn>38.72</cn><annotation>{\\color[rgb]{0,0,0}38.72}</annotation></td><td><mn>9.58</mn><cn>9.58</cn><annotation>{\\color[rgb]{0,0,0}9.58}</annotation></td></tr><tr><td>BiaSpider <msub><mi>v</mi><mn>3</mn></msub><apply><csymbol>subscript</csymbol><ci></ci><cn>3</cn></apply><annotation>v_{3}</annotation></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>RoBERTa-Neg</td><td><mn>65.60</mn><cn>65.60</cn><annotation>65.60</annotation></td><td><mn>44.25</mn><cn>44.25</cn><annotation>44.25</annotation></td><td><mn>53.56</mn><cn>53.56</cn><annotation>53.56</annotation></td><td></td><td><mn>70.0</mn><cn>70.0</cn><annotation>70.0</annotation></td><td><mn>6.33</mn><cn>6.33</cn><annotation>6.33</annotation></td><td><mn>12.31</mn><cn>12.31</cn><annotation>{\\color[rgb]{0,0,0}12.31}</annotation></td><td></td><td><mn>71.90</mn><cn>71.90</cn><annotation>71.90</annotation></td><td><mn>39.06</mn><cn>39.06</cn><annotation>{\\color[rgb]{0,0,0}39.06}</annotation></td><td><mn>9.22</mn><cn>9.22</cn><annotation>9.22</annotation></td></tr><tr><td>Random-Neg</td><td><mn>65.60</mn><cn>65.60</cn><annotation>65.60</annotation></td><td><mn>43.69</mn><cn>43.69</cn><annotation>{\\color[rgb]{0,0,0}43.69}</annotation></td><td><mn>51.25</mn><cn>51.25</cn><annotation>{\\color[rgb]{0,0,0}51.25}</annotation></td><td></td><td><mn>70.0</mn><cn>70.0</cn><annotation>70.0</annotation></td><td><mn>5.76</mn><cn>5.76</cn><annotation>5.76</annotation></td><td><mn>11.84</mn><cn>11.84</cn><annotation>{\\color[rgb]{0,0,0}11.84}</annotation></td><td></td><td><mn>71.90</mn><cn>71.90</cn><annotation>71.90</annotation></td><td><mn>39.41</mn><cn>39.41</cn><annotation>{\\color[rgb]{0,0,0}39.41}</annotation></td><td><mn>9.55</mn><cn>9.55</cn><annotation>{\\color[rgb]{0,0,0}9.55}</annotation></td></tr><tr><td>Random-Pos</td><td><mn>65.60</mn><cn>65.60</cn><annotation>65.60</annotation></td><td><mn>44.51</mn><cn>44.51</cn><annotation>44.51</annotation></td><td><mn>50.29</mn><cn>50.29</cn><annotation>{\\color[rgb]{0,0,0}50.29}</annotation></td><td></td><td><mn>70.0</mn><cn>70.0</cn><annotation>70.0</annotation></td><td><mn>6.40</mn><cn>6.40</cn><annotation>6.40</annotation></td><td><mn>12.08</mn><cn>12.08</cn><annotation>{\\color[rgb]{0,0,0}12.08}</annotation></td><td></td><td><mn>71.90</mn><cn>71.90</cn><annotation>71.90</annotation></td><td><mn>39.45</mn><cn>39.45</cn><annotation>{\\color[rgb]{0,0,0}39.45}</annotation></td><td><mn>9.81</mn><cn>9.81</cn><annotation>{\\color[rgb]{0,0,0}9.81}</annotation></td></tr><tr><td>Comparative</td><td><mn>65.60</mn><cn>65.60</cn><annotation>65.60</annotation></td><td><mn>41.56</mn><cn>41.56</cn><annotation>41.56</annotation></td><td><mn>49.71</mn><cn>49.71</cn><annotation>49.71</annotation></td><td></td><td><mn>70.0</mn><cn>70.0</cn><annotation>70.0</annotation></td><td><mn>5.24</mn><cn>5.24</cn><annotation>{\\color[rgb]{0,0,0}5.24}</annotation></td><td><mn>11.97</mn><cn>11.97</cn><annotation>{\\color[rgb]{0,0,0}11.97}</annotation></td><td></td><td><mn>71.90</mn><cn>71.90</cn><annotation>71.90</annotation></td><td><mn>38.89</mn><cn>38.89</cn><annotation>{\\color[rgb]{0,0,0}38.89}</annotation></td><td><mn>9.74</mn><cn>9.74</cn><annotation>{\\color[rgb]{0,0,0}9.74}</annotation></td></tr></table></span></div>",
+        "og_table": "<figure><div><span><table><tr><td rowspan=\"2\"><span>Models</span></td><td colspan=\"3\"><span>RATSQL (BERT)</span></td><td></td><td colspan=\"3\"><span>UNISAR (BART)</span></td><td></td><td colspan=\"3\"><span>PICARD (T5)</span></td></tr><tr><td><span>Ori-ACC<math><semantics><mo></mo><annotation-xml><ci></ci></annotation-xml><annotation>{\\uparrow}</annotation></semantics></math></span></td><td><span>ACC<math><semantics><mo></mo><annotation-xml><ci></ci></annotation-xml><annotation>{\\uparrow}</annotation></semantics></math></span></td><td><span>Bias Score<math><semantics><mo></mo><annotation-xml><ci></ci></annotation-xml><annotation>{\\downarrow}</annotation></semantics></math></span></td><td></td><td><span>Ori-ACC<math><semantics><mo></mo><annotation-xml><ci></ci></annotation-xml><annotation>{\\uparrow}</annotation></semantics></math></span></td><td><span>ACC<math><semantics><mo></mo><annotation-xml><ci></ci></annotation-xml><annotation>{\\uparrow}</annotation></semantics></math></span></td><td><span>Bias Score<math><semantics><mo></mo><annotation-xml><ci></ci></annotation-xml><annotation>{\\downarrow}</annotation></semantics></math></span></td><td></td><td><span>Ori-ACC<math><semantics><mo></mo><annotation-xml><ci></ci></annotation-xml><annotation>{\\uparrow}</annotation></semantics></math></span></td><td><span>ACC<math><semantics><mo></mo><annotation-xml><ci></ci></annotation-xml><annotation>{\\uparrow}</annotation></semantics></math></span></td><td><span>Bias Score<math><semantics><mo></mo><annotation-xml><ci></ci></annotation-xml><annotation>{\\downarrow}</annotation></semantics></math></span></td></tr><tr><td><span>BiaSpider <math><semantics><msub><mi>v</mi><mn>1</mn></msub><annotation-xml><apply><csymbol>subscript</csymbol><ci></ci><cn>1</cn></apply></annotation-xml><annotation>v_{1}</annotation></semantics></math></span></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>RoBERTa-Neg</td><td><math><semantics><mn>65.60</mn><annotation-xml><cn>65.60</cn></annotation-xml><annotation>65.60</annotation></semantics></math></td><td><math><semantics><mn>43.72</mn><annotation-xml><cn>43.72</cn></annotation-xml><annotation>43.72</annotation></semantics></math></td><td><math><semantics><mn>42.21</mn><annotation-xml><cn>42.21</cn></annotation-xml><annotation>42.21</annotation></semantics></math></td><td></td><td><math><semantics><mn>70.00</mn><annotation-xml><cn>70.00</cn></annotation-xml><annotation>70.00</annotation></semantics></math></td><td><math><semantics><mn>39.73</mn><annotation-xml><cn>39.73</cn></annotation-xml><annotation>39.73</annotation></semantics></math></td><td><math><semantics><mn>11.55</mn><annotation-xml><cn>11.55</cn></annotation-xml><annotation>11.55</annotation></semantics></math></td><td></td><td><math><semantics><mn>71.90</mn><annotation-xml><cn>71.90</cn></annotation-xml><annotation>71.90</annotation></semantics></math></td><td><math><semantics><mn>39.49</mn><annotation-xml><cn>39.49</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}39.49}</annotation></semantics></math></td><td><math><semantics><mn>9.52</mn><annotation-xml><cn>9.52</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}9.52}</annotation></semantics></math></td></tr><tr><td>Random-Neg</td><td><math><semantics><mn>65.60</mn><annotation-xml><cn>65.60</cn></annotation-xml><annotation>65.60</annotation></semantics></math></td><td><math><semantics><mn>44.07</mn><annotation-xml><cn>44.07</cn></annotation-xml><annotation>44.07</annotation></semantics></math></td><td><math><semantics><mn>39.96</mn><annotation-xml><cn>39.96</cn></annotation-xml><annotation>39.96</annotation></semantics></math></td><td></td><td><math><semantics><mn>70.00</mn><annotation-xml><cn>70.00</cn></annotation-xml><annotation>70.00</annotation></semantics></math></td><td><math><semantics><mn>38.93</mn><annotation-xml><cn>38.93</cn></annotation-xml><annotation>38.93</annotation></semantics></math></td><td><math><semantics><mn>12.01</mn><annotation-xml><cn>12.01</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}12.01}</annotation></semantics></math></td><td></td><td><math><semantics><mn>71.90</mn><annotation-xml><cn>71.90</cn></annotation-xml><annotation>71.90</annotation></semantics></math></td><td><math><semantics><mn>38.24</mn><annotation-xml><cn>38.24</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}38.24}</annotation></semantics></math></td><td><math><semantics><mn>9.37</mn><annotation-xml><cn>9.37</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}9.37}</annotation></semantics></math></td></tr><tr><td>Random-Pos</td><td><math><semantics><mn>65.60</mn><annotation-xml><cn>65.60</cn></annotation-xml><annotation>65.60</annotation></semantics></math></td><td><math><semantics><mn>43.88</mn><annotation-xml><cn>43.88</cn></annotation-xml><annotation>43.88</annotation></semantics></math></td><td><math><semantics><mn>40.29</mn><annotation-xml><cn>40.29</cn></annotation-xml><annotation>40.29</annotation></semantics></math></td><td></td><td><math><semantics><mn>70.00</mn><annotation-xml><cn>70.00</cn></annotation-xml><annotation>70.00</annotation></semantics></math></td><td><math><semantics><mn>40.96</mn><annotation-xml><cn>40.96</cn></annotation-xml><annotation>40.96</annotation></semantics></math></td><td><math><semantics><mn>11.85</mn><annotation-xml><cn>11.85</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}11.85}</annotation></semantics></math></td><td></td><td><math><semantics><mn>71.90</mn><annotation-xml><cn>71.90</cn></annotation-xml><annotation>71.90</annotation></semantics></math></td><td><math><semantics><mn>38.67</mn><annotation-xml><cn>38.67</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}38.67}</annotation></semantics></math></td><td><math><semantics><mn>10.02</mn><annotation-xml><cn>10.02</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}10.02}</annotation></semantics></math></td></tr><tr><td>Comparative</td><td><math><semantics><mn>65.60</mn><annotation-xml><cn>65.60</cn></annotation-xml><annotation>65.60</annotation></semantics></math></td><td><math><semantics><mn>40.99</mn><annotation-xml><cn>40.99</cn></annotation-xml><annotation>40.99</annotation></semantics></math></td><td><math><semantics><mn>44.82</mn><annotation-xml><cn>44.82</cn></annotation-xml><annotation>44.82</annotation></semantics></math></td><td></td><td><math><semantics><mn>70.00</mn><annotation-xml><cn>70.00</cn></annotation-xml><annotation>70.00</annotation></semantics></math></td><td><math><semantics><mn>39.06</mn><annotation-xml><cn>39.06</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}39.06}</annotation></semantics></math></td><td><math><semantics><mn>12.93</mn><annotation-xml><cn>12.93</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}12.93}</annotation></semantics></math></td><td></td><td><math><semantics><mn>71.90</mn><annotation-xml><cn>71.90</cn></annotation-xml><annotation>71.90</annotation></semantics></math></td><td><math><semantics><mn>39.31</mn><annotation-xml><cn>39.31</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}39.31}</annotation></semantics></math></td><td><math><semantics><mn>9.79</mn><annotation-xml><cn>9.79</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}9.79}</annotation></semantics></math></td></tr><tr><td><span>BiaSpider <math><semantics><msub><mi>v</mi><mn>2</mn></msub><annotation-xml><apply><csymbol>subscript</csymbol><ci></ci><cn>2</cn></apply></annotation-xml><annotation>v_{2}</annotation></semantics></math></span></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>RoBERTa-Neg</td><td><math><semantics><mn>65.60</mn><annotation-xml><cn>65.60</cn></annotation-xml><annotation>65.60</annotation></semantics></math></td><td><math><semantics><mn>43.29</mn><annotation-xml><cn>43.29</cn></annotation-xml><annotation>43.29</annotation></semantics></math></td><td><math><semantics><mn>54.40</mn><annotation-xml><cn>54.40</cn></annotation-xml><annotation>54.40</annotation></semantics></math></td><td></td><td><math><semantics><mn>70.00</mn><annotation-xml><cn>70.00</cn></annotation-xml><annotation>70.00</annotation></semantics></math></td><td><math><semantics><mn>39.73</mn><annotation-xml><cn>39.73</cn></annotation-xml><annotation>39.73</annotation></semantics></math></td><td><math><semantics><mn>11.83</mn><annotation-xml><cn>11.83</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}11.83}</annotation></semantics></math></td><td></td><td><math><semantics><mn>71.90</mn><annotation-xml><cn>71.90</cn></annotation-xml><annotation>71.90</annotation></semantics></math></td><td><math><semantics><mn>39.52</mn><annotation-xml><cn>39.52</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}39.52}</annotation></semantics></math></td><td><math><semantics><mn>9.74</mn><annotation-xml><cn>9.74</cn></annotation-xml><annotation>9.74</annotation></semantics></math></td></tr><tr><td>Random-Neg</td><td><math><semantics><mn>65.60</mn><annotation-xml><cn>65.60</cn></annotation-xml><annotation>65.60</annotation></semantics></math></td><td><math><semantics><mn>43.62</mn><annotation-xml><cn>43.62</cn></annotation-xml><annotation>43.62</annotation></semantics></math></td><td><math><semantics><mn>52.96</mn><annotation-xml><cn>52.96</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}52.96}</annotation></semantics></math></td><td></td><td><math><semantics><mn>70.00</mn><annotation-xml><cn>70.00</cn></annotation-xml><annotation>70.00</annotation></semantics></math></td><td><math><semantics><mn>37.67</mn><annotation-xml><cn>37.67</cn></annotation-xml><annotation>37.67</annotation></semantics></math></td><td><math><semantics><mrow><mrow></mrow><mo></mo><mn>12.13</mn></mrow><annotation-xml><apply><times></times><ci><mrow></mrow></ci><cn>12.13</cn></apply></annotation-xml><annotation>\\textbf{}{\\color[rgb]{0,0,0}12.13}</annotation></semantics></math></td><td></td><td><math><semantics><mn>71.90</mn><annotation-xml><cn>71.90</cn></annotation-xml><annotation>71.90</annotation></semantics></math></td><td><math><semantics><mn>39.15</mn><annotation-xml><cn>39.15</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}39.15}</annotation></semantics></math></td><td><math><semantics><mn>9.68</mn><annotation-xml><cn>9.68</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}9.68}</annotation></semantics></math></td></tr><tr><td>Random-Pos</td><td><math><semantics><mn>65.60</mn><annotation-xml><cn>65.60</cn></annotation-xml><annotation>65.60</annotation></semantics></math></td><td><math><semantics><mn>43.48</mn><annotation-xml><cn>43.48</cn></annotation-xml><annotation>43.48</annotation></semantics></math></td><td><math><semantics><mn>55.79</mn><annotation-xml><cn>55.79</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}55.79}</annotation></semantics></math></td><td></td><td><math><semantics><mn>70.00</mn><annotation-xml><cn>70.00</cn></annotation-xml><annotation>70.00</annotation></semantics></math></td><td><math><semantics><mn>40.43</mn><annotation-xml><cn>40.43</cn></annotation-xml><annotation>40.43</annotation></semantics></math></td><td><math><semantics><mn>12.43</mn><annotation-xml><cn>12.43</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}12.43}</annotation></semantics></math></td><td></td><td><math><semantics><mn>71.90</mn><annotation-xml><cn>71.90</cn></annotation-xml><annotation>71.90</annotation></semantics></math></td><td><math><semantics><mn>38.99</mn><annotation-xml><cn>38.99</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}38.99}</annotation></semantics></math></td><td><math><semantics><mn>9.97</mn><annotation-xml><cn>9.97</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}9.97}</annotation></semantics></math></td></tr><tr><td>Comparative</td><td><math><semantics><mn>65.60</mn><annotation-xml><cn>65.60</cn></annotation-xml><annotation>65.60</annotation></semantics></math></td><td><math><semantics><mn>40.69</mn><annotation-xml><cn>40.69</cn></annotation-xml><annotation>40.69</annotation></semantics></math></td><td><math><semantics><mn>52.03</mn><annotation-xml><cn>52.03</cn></annotation-xml><annotation>52.03</annotation></semantics></math></td><td></td><td><math><semantics><mn>70.00</mn><annotation-xml><cn>70.00</cn></annotation-xml><annotation>70.00</annotation></semantics></math></td><td><math><semantics><mn>39.80</mn><annotation-xml><cn>39.80</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}39.80}</annotation></semantics></math></td><td><math><semantics><mn>12.65</mn><annotation-xml><cn>12.65</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}12.65}</annotation></semantics></math></td><td></td><td><math><semantics><mn>71.90</mn><annotation-xml><cn>71.90</cn></annotation-xml><annotation>71.90</annotation></semantics></math></td><td><math><semantics><mn>38.72</mn><annotation-xml><cn>38.72</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}38.72}</annotation></semantics></math></td><td><math><semantics><mn>9.58</mn><annotation-xml><cn>9.58</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}9.58}</annotation></semantics></math></td></tr><tr><td><span>BiaSpider <math><semantics><msub><mi>v</mi><mn>3</mn></msub><annotation-xml><apply><csymbol>subscript</csymbol><ci></ci><cn>3</cn></apply></annotation-xml><annotation>v_{3}</annotation></semantics></math></span></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td><td></td></tr><tr><td>RoBERTa-Neg</td><td><math><semantics><mn>65.60</mn><annotation-xml><cn>65.60</cn></annotation-xml><annotation>65.60</annotation></semantics></math></td><td><math><semantics><mn>44.25</mn><annotation-xml><cn>44.25</cn></annotation-xml><annotation>44.25</annotation></semantics></math></td><td><math><semantics><mn>53.56</mn><annotation-xml><cn>53.56</cn></annotation-xml><annotation>53.56</annotation></semantics></math></td><td></td><td><math><semantics><mn>70.0</mn><annotation-xml><cn>70.0</cn></annotation-xml><annotation>70.0</annotation></semantics></math></td><td><math><semantics><mn>6.33</mn><annotation-xml><cn>6.33</cn></annotation-xml><annotation>6.33</annotation></semantics></math></td><td><math><semantics><mn>12.31</mn><annotation-xml><cn>12.31</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}12.31}</annotation></semantics></math></td><td></td><td><math><semantics><mn>71.90</mn><annotation-xml><cn>71.90</cn></annotation-xml><annotation>71.90</annotation></semantics></math></td><td><math><semantics><mn>39.06</mn><annotation-xml><cn>39.06</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}39.06}</annotation></semantics></math></td><td><math><semantics><mn>9.22</mn><annotation-xml><cn>9.22</cn></annotation-xml><annotation>9.22</annotation></semantics></math></td></tr><tr><td>Random-Neg</td><td><math><semantics><mn>65.60</mn><annotation-xml><cn>65.60</cn></annotation-xml><annotation>65.60</annotation></semantics></math></td><td><math><semantics><mn>43.69</mn><annotation-xml><cn>43.69</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}43.69}</annotation></semantics></math></td><td><math><semantics><mn>51.25</mn><annotation-xml><cn>51.25</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}51.25}</annotation></semantics></math></td><td></td><td><math><semantics><mn>70.0</mn><annotation-xml><cn>70.0</cn></annotation-xml><annotation>70.0</annotation></semantics></math></td><td><math><semantics><mn>5.76</mn><annotation-xml><cn>5.76</cn></annotation-xml><annotation>5.76</annotation></semantics></math></td><td><math><semantics><mn>11.84</mn><annotation-xml><cn>11.84</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}11.84}</annotation></semantics></math></td><td></td><td><math><semantics><mn>71.90</mn><annotation-xml><cn>71.90</cn></annotation-xml><annotation>71.90</annotation></semantics></math></td><td><math><semantics><mn>39.41</mn><annotation-xml><cn>39.41</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}39.41}</annotation></semantics></math></td><td><math><semantics><mn>9.55</mn><annotation-xml><cn>9.55</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}9.55}</annotation></semantics></math></td></tr><tr><td>Random-Pos</td><td><math><semantics><mn>65.60</mn><annotation-xml><cn>65.60</cn></annotation-xml><annotation>65.60</annotation></semantics></math></td><td><math><semantics><mn>44.51</mn><annotation-xml><cn>44.51</cn></annotation-xml><annotation>44.51</annotation></semantics></math></td><td><math><semantics><mn>50.29</mn><annotation-xml><cn>50.29</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}50.29}</annotation></semantics></math></td><td></td><td><math><semantics><mn>70.0</mn><annotation-xml><cn>70.0</cn></annotation-xml><annotation>70.0</annotation></semantics></math></td><td><math><semantics><mn>6.40</mn><annotation-xml><cn>6.40</cn></annotation-xml><annotation>6.40</annotation></semantics></math></td><td><math><semantics><mn>12.08</mn><annotation-xml><cn>12.08</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}12.08}</annotation></semantics></math></td><td></td><td><math><semantics><mn>71.90</mn><annotation-xml><cn>71.90</cn></annotation-xml><annotation>71.90</annotation></semantics></math></td><td><math><semantics><mn>39.45</mn><annotation-xml><cn>39.45</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}39.45}</annotation></semantics></math></td><td><math><semantics><mn>9.81</mn><annotation-xml><cn>9.81</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}9.81}</annotation></semantics></math></td></tr><tr><td>Comparative</td><td><math><semantics><mn>65.60</mn><annotation-xml><cn>65.60</cn></annotation-xml><annotation>65.60</annotation></semantics></math></td><td><math><semantics><mn>41.56</mn><annotation-xml><cn>41.56</cn></annotation-xml><annotation>41.56</annotation></semantics></math></td><td><math><semantics><mn>49.71</mn><annotation-xml><cn>49.71</cn></annotation-xml><annotation>49.71</annotation></semantics></math></td><td></td><td><math><semantics><mn>70.0</mn><annotation-xml><cn>70.0</cn></annotation-xml><annotation>70.0</annotation></semantics></math></td><td><math><semantics><mn>5.24</mn><annotation-xml><cn>5.24</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}5.24}</annotation></semantics></math></td><td><math><semantics><mn>11.97</mn><annotation-xml><cn>11.97</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}11.97}</annotation></semantics></math></td><td></td><td><math><semantics><mn>71.90</mn><annotation-xml><cn>71.90</cn></annotation-xml><annotation>71.90</annotation></semantics></math></td><td><math><semantics><mn>38.89</mn><annotation-xml><cn>38.89</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}38.89}</annotation></semantics></math></td><td><math><semantics><mn>9.74</mn><annotation-xml><cn>9.74</cn></annotation-xml><annotation>{\\color[rgb]{0,0,0}9.74}</annotation></semantics></math></td></tr></table></span></div><figcaption><span>Table 7: </span>Evaluation results of <math><semantics><mn>3</mn><annotation-xml><cn>3</cn></annotation-xml><annotation>3</annotation></semantics></math> different Text-to-SQL models with both task performance and social bias score.</figcaption></figure>",
+        "is_latex": true,
+        "is_html": false,
+        "table_head": "\\begin{tabular}{lllllrlllrlll}\n\\toprule\n & 0 & 1 & 2 & 3 & 4 & 5 & 6 & 7 & 8 & 9 & 10 & 11 \\\\\n\\midrule\n0 & Models & RATSQL (BERT) & RATSQL (BERT) & RATSQL (BERT) & NaN & UNISAR (BART) & UNISAR (BART) & UNISAR (BART) & NaN & PICARD (T5) & PICARD (T5) & PICARD (T5) \\\\\n1 & Models & Ori-ACC{\\uparrow} & ACC{\\uparrow} & Bias Score{\\downarrow} & NaN & Ori-ACC{\\uparrow} & ACC{\\uparrow} & Bias Score{\\downarrow} & NaN & Ori-ACC{\\uparrow} & ACC{\\uparrow} & Bias Score{\\downarrow} \\\\\n2 & BiaSpider v1subscript1v_{1} & NaN & NaN & NaN & NaN & NaN & NaN & NaN & NaN & NaN & NaN & NaN \\\\\n3 & RoBERTa-Neg & 65.6065.6065.60 & 43.7243.7243.72 & 42.2142.2142.21 & NaN & 70.0070.0070.00 & 39.7339.7339.73 & 11.5511.5511.55 & NaN & 71.9071.9071.90 & 39.4939.49{\\color[rgb]{0,0,0}39.49} & 9.529.52{\\color[rgb]{0,0,0}9.52} \\\\\n\\bottomrule\n\\end{tabular}\n",
+        "caption": "Table 7:  Evaluation results of 3 different Text-to-SQL models with both task performance and social bias score.",
+        "citations": [
+            "Table 7 shows the evaluation results of the three Text-to-SQL models based on different pre-trained language models. We observe that the RATSQL model which is fine-tuned on BERT demonstrates the most severe social bias with the highest Bias Score. The first three rows in every section of the table reflect stereotypical correlations with different judgemental modifiers, while the fourth row in every section presents the discriminatory comparison. Two types of social biases contained in the UNISAR and the PICARD models are about the same level revealed by the Bias Score. We can see that the Text-to-SQL models with similar task accuracy can exhibit varying degrees of social biases. Users should make a tradeoff between task performance and social biases in order to choose a more suitable model."
+        ],
+        "candidates_pairs": []
+    },
+    "2212.09278_5": {
+        "latex_table": "\\begin{tabular}{llrrrr}\n\\toprule\n & Method & Easy & Medium & Hard & Extra \\\\\n\\midrule\n0 & EditSQL & 68.800000 & 40.600000 & 26.900000 & 12.800000 \\\\\n1 & IG-SQL & 70.900000 & 45.400000 & 29.000000 & 18.800000 \\\\\n2 & R2SQL & 75.500000 & 51.500000 & 35.200000 & 21.800000 \\\\\n3 & CQR-SQL & 80.700000 & 68.300000 & 46.200000 & 43.300000 \\\\\n4 & MIGA+PICARD & 81.800000 & 66.700000 & 44.800000 & 41.800000 \\\\\n\\bottomrule\n\\end{tabular}\n",
+        "html_table": "<div><span><table><thead><tr><th>Method</th><th>Easy</th><th>Medium</th><th>Hard</th><th>Extra</th></tr></thead><tbody><tr><th>EditSQL</th><td>68.8</td><td>40.6</td><td>26.9</td><td>12.8</td></tr><tr><th>IG-SQL</th><td>70.9</td><td>45.4</td><td>29.0</td><td>18.8</td></tr><tr><th>R<sup>2</sup>SQL</th><td>75.5</td><td>51.5</td><td>35.2</td><td>21.8</td></tr><tr><th>CQR-SQL</th><td>80.7</td><td>68.3</td><td>46.2</td><td>43.3</td></tr><tr><th>MIGA+PICARD</th><td>81.8</td><td>66.7</td><td>44.8</td><td>41.8</td></tr></tbody></table></span></div>",
+        "og_table": "<figure><div><span><table><thead><tr><th><span>Method</span></th><th><span>Easy</span></th><th><span>Medium</span></th><th><span>Hard</span></th><th><span>Extra</span></th></tr></thead><tbody><tr><th>EditSQL</th><td>68.8</td><td>40.6</td><td>26.9</td><td>12.8</td></tr><tr><th>IG-SQL</th><td>70.9</td><td>45.4</td><td>29.0</td><td>18.8</td></tr><tr><th>R<sup>2</sup>SQL</th><td>75.5</td><td>51.5</td><td>35.2</td><td>21.8</td></tr><tr><th>CQR-SQL</th><td>80.7</td><td>68.3</td><td>46.2</td><td>43.3</td></tr><tr><th>MIGA+PICARD</th><td>81.8</td><td>66.7</td><td>44.8</td><td>41.8</td></tr></tbody></table></span></div><figcaption><span>Table 5: </span>Detailed QM accuracy performance on different SQL difficulties of the SparC dev set.</figcaption></figure>",
+        "is_latex": true,
+        "is_html": false,
+        "table_head": "\\begin{tabular}{llrrrr}\n\\toprule\n & Method & Easy & Medium & Hard & Extra \\\\\n\\midrule\n0 & EditSQL & 68.800000 & 40.600000 & 26.900000 & 12.800000 \\\\\n1 & IG-SQL & 70.900000 & 45.400000 & 29.000000 & 18.800000 \\\\\n2 & R2SQL & 75.500000 & 51.500000 & 35.200000 & 21.800000 \\\\\n3 & CQR-SQL & 80.700000 & 68.300000 & 46.200000 & 43.300000 \\\\\n\\bottomrule\n\\end{tabular}\n",
+        "caption": "Table 5: Detailed QM accuracy performance on different SQL difficulties of the SparC dev set.",
+        "citations": [
+            "To further verify the SQL prediction effectiveness of the proposed MIGA, we compare the performance of some baseline methods with MIGA on different interaction turns and SQL difficulties. As shown in Tables 4 and 5, the accuracy of SQL prediction decreases as the interaction turn and difficulty increases due to the long-range dependency and complex SQL structures. MIGA achieves competitive performance on different turns and difficulties, outperforming most of the baseline models except CQR-SQL. Typically, Since CQR-SQL focuses on CQR, it can effectively alleviate the dependency of information extraction on the conversation and previous SQLs, thus achieving superior performance on QM metrics especially for later turns (Turn 3 and Turn 4) and high difficulties (Hard and Extra). This also indicates the importance of CQR for the target task. Unfortunately, as the original CQR data in CQR-SQL is a newly introduced dataset and it is not publicly released, it is impossible to include this data in our MIGA model. Moreover, the data size of the proposed FUP task in this paper is only 3908, and the data-hungry problem limits the ability of the CQR task to boost MIGA. How to extend the data size of the FUP task is left for future work."
+        ],
+        "candidates_pairs": [
+            [
+                [
+                    "Method",
+                    "EditSQL"
+                ]
+            ],
+            [
+                [
+                    "Method",
+                    "EditSQL"
+                ],
+                [
+                    "Easy",
+                    68.8
+                ]
+            ],
+            [
+                [
+                    "Method",
+                    "EditSQL"
+                ],
+                [
+                    "Easy",
+                    68.8
+                ],
+                [
+                    "Medium",
+                    40.6
+                ]
+            ],
+            [
+                [
+                    "Method",
+                    "EditSQL"
+                ],
+                [
+                    "Easy",
+                    68.8
+                ],
+                [
+                    "Medium",
+                    40.6
+                ],
+                [
+                    "Hard",
+                    26.9
+                ]
+            ],
+            [
+                [
+                    "Method",
+                    "EditSQL"
+                ],
+                [
+                    "Easy",
+                    68.8
+                ],
+                [
+                    "Medium",
+                    40.6
+                ],
+                [
+                    "Hard",
+                    26.9
+                ],
+                [
+                    "Extra",
+                    12.8
+                ]
+            ]
+        ]
+    },
+    "2310.13659_4": {
+        "latex_table": "\\begin{tabular}{llllll}\n\\toprule\n & 0 & 1 & 2 & 3 & 4 \\\\\n\\midrule\n0 & Kind ofAmbig-uity & Singlestage & Twostages & +TemplateDiversity & +SchemaDiversity(LogicalBeam) \\\\\n1 & EitherInTopK(%) & EitherInTopK(%) & EitherInTopK(%) & EitherInTopK(%) & EitherInTopK(%) \\\\\n2 & C & 64.0 & 65.9 & 65.9 & 66.6 \\\\\n3 & T & 60.7 & 66.2 & 65.0 & 67.3 \\\\\n4 & J & 86.8 & 88.5 & 87.1 & 87.2 \\\\\n5 & P & 58.4 & 62.4 & 63.4 & 64.4 \\\\\n6 & BothInTopK(Coverage) (%) & BothInTopK(Coverage) (%) & BothInTopK(Coverage) (%) & BothInTopK(Coverage) (%) & BothInTopK(Coverage) (%) \\\\\n7 & C & 23.2 & 16.0 & 16.1 & 28.0 \\\\\n8 & T & 25.3 & 28.4 & 28.2 & 42.6 \\\\\n9 & J & 54.5 & 54.5 & 62.2 & 59.4 \\\\\n10 & P & 9.9 & 27.7 & 30.7 & 24.8 \\\\\n\\bottomrule\n\\end{tabular}\n",
+        "html_table": "<table><tr><td> Kind ofAmbig-uity</td><td> Singlestage</td><td> Twostages</td><td> +TemplateDiversity</td><td> +SchemaDiversity(LogicalBeam)</td></tr><tr><td colspan=\"5\">EitherInTopK(%)</td></tr><tr><td>C</td><td>64.0</td><td>65.9</td><td>65.9</td><td>66.6</td></tr><tr><td>T</td><td>60.7</td><td>66.2</td><td>65.0</td><td>67.3</td></tr><tr><td>J</td><td>86.8</td><td>88.5</td><td>87.1</td><td>87.2</td></tr><tr><td>P</td><td>58.4</td><td>62.4</td><td>63.4</td><td>64.4</td></tr><tr><td colspan=\"5\">BothInTopK(Coverage) (%)</td></tr><tr><td>C</td><td>23.2</td><td>16.0</td><td>16.1</td><td>28.0</td></tr><tr><td>T</td><td>25.3</td><td>28.4</td><td>28.2</td><td>42.6</td></tr><tr><td>J</td><td>54.5</td><td>54.5</td><td>62.2</td><td>59.4</td></tr><tr><td>P</td><td>9.9</td><td>27.7</td><td>30.7</td><td>24.8</td></tr></table>",
+        "og_table": "<figure><table><tr><td><span></span> <span><span><span><span>Kind of</span></span><span><span>Ambig-</span></span><span><span>uity</span></span></span></span><span></span></td><td><span></span> <span><span><span><span>Single</span></span><span><span>stage</span></span></span></span><span></span></td><td><span></span> <span><span><span><span>Two</span></span><span><span>stages</span></span></span></span><span></span></td><td><span></span> <span><span><span><span>+Template</span></span><span><span>Diversity</span></span></span></span><span></span></td><td><span></span> <span><span><span><span>+Schema</span></span><span><span>Diversity</span></span><span><span>(LogicalBeam)</span></span></span></span><span></span></td></tr><tr><td colspan=\"5\">EitherInTopK(%)</td></tr><tr><td>C</td><td>64.0</td><td>65.9</td><td>65.9</td><td><span>66.6</span></td></tr><tr><td>T</td><td>60.7</td><td>66.2</td><td>65.0</td><td><span>67.3</span></td></tr><tr><td>J</td><td>86.8</td><td><span>88.5</span></td><td>87.1</td><td>87.2</td></tr><tr><td>P</td><td>58.4</td><td>62.4</td><td>63.4</td><td><span>64.4</span></td></tr><tr><td colspan=\"5\">BothInTopK(Coverage) (%)</td></tr><tr><td>C</td><td>23.2</td><td>16.0</td><td>16.1</td><td><span>28.0</span></td></tr><tr><td>T</td><td>25.3</td><td>28.4</td><td>28.2</td><td><span>42.6</span></td></tr><tr><td>J</td><td>54.5</td><td>54.5</td><td><span>62.2</span></td><td>59.4</td></tr><tr><td>P</td><td>9.9</td><td>27.7</td><td><span>30.7</span></td><td>24.8</td></tr></table><figcaption><span>Table 4: </span>The Execution Match (<span>EXM</span>) accuracies of the ablations on AmbiQT. Template Diversity helps with Join Ambiguity and Precomputed Aggregates, while Schema Diversity aids with Column/Table ambiguity.</figcaption></figure>",
+        "is_latex": true,
+        "is_html": false,
+        "table_head": "\\begin{tabular}{llllll}\n\\toprule\n & 0 & 1 & 2 & 3 & 4 \\\\\n\\midrule\n0 & Kind ofAmbig-uity & Singlestage & Twostages & +TemplateDiversity & +SchemaDiversity(LogicalBeam) \\\\\n1 & EitherInTopK(%) & EitherInTopK(%) & EitherInTopK(%) & EitherInTopK(%) & EitherInTopK(%) \\\\\n2 & C & 64.0 & 65.9 & 65.9 & 66.6 \\\\\n3 & T & 60.7 & 66.2 & 65.0 & 67.3 \\\\\n\\bottomrule\n\\end{tabular}\n",
+        "caption": "Table 4: The Execution Match (EXM) accuracies of the ablations on AmbiQT. Template Diversity helps with Join Ambiguity and Precomputed Aggregates, while Schema Diversity aids with Column/Table ambiguity.",
+        "citations": [
+            "LogicalBeamhas three design decisions: (1) Use of a two-step approach, (2) Counterfactual structural directives via plans, (3) Template-guided schema diversity. We present an ablation study where we incrementally add these changes in Table4. The first column (Single Stage) generates an SQL directly with a prefix for structural diversity, differing from LogicalBeamonly in using a single stage. It still uses plan enforcement and branching control. We find that its coverage lags behind LogicalBeam, and by a large margin for T and P. The primary reason could be that template-guided decoding allows us to discard erroneous extensions at each decoding step. The second column (Two Stages) shows a simple two-stage method where we generate a template without any counterfactual control, and use Beam Search to fill it in. This method decouples template and schema diversity, but cannot encourage either by itself. Forcing counterfactual diversity (+Template Diversity) boosts the coverage under Join Ambiguity and Precomputed Aggregates. Finally, encouraging Schema Diversity via our Restricted Fill-In Algorithm (LogicalBeam, the last column) significantly improves coverage for Column and Table Ambiguity. "
+        ],
+        "candidates_pairs": [
+            [
+                [
+                    "0",
+                    "Kind ofAmbig-uity"
+                ]
+            ],
+            [
+                [
+                    "0",
+                    "Kind ofAmbig-uity"
+                ],
+                [
+                    "1",
+                    "Singlestage"
+                ]
+            ],
+            [
+                [
+                    "0",
+                    "Kind ofAmbig-uity"
+                ],
+                [
+                    "1",
+                    "Singlestage"
+                ],
+                [
+                    "2",
+                    "Twostages"
+                ]
+            ],
+            [
+                [
+                    "0",
+                    "Kind ofAmbig-uity"
+                ],
+                [
+                    "1",
+                    "Singlestage"
+                ],
+                [
+                    "2",
+                    "Twostages"
+                ],
+                [
+                    "3",
+                    "+TemplateDiversity"
+                ]
+            ],
+            [
+                [
+                    "0",
+                    "Kind ofAmbig-uity"
+                ],
+                [
+                    "1",
+                    "Singlestage"
+                ],
+                [
+                    "2",
+                    "Twostages"
+                ],
+                [
+                    "3",
+                    "+TemplateDiversity"
+                ],
+                [
+                    "4",
+                    "+SchemaDiversity(LogicalBeam)"
+                ]
+            ]
+        ]
+    },
+    "1909.05378_6": {
+        "latex_table": "\\begin{tabular}{llllll}\n\\toprule\n & 0 & 1 & 2 & 3 & 4 \\\\\n\\midrule\n0 & Model & BLEU & BLEU & LCR (%) & Grammar \\\\\n1 & NaN & Dev & Test & Test & Test \\\\\n2 & Template & 9.5 & 9.3 & 41.0 & 4.0 \\\\\n3 & Seq2Seq & 15.3 & 14.1 & 27.0 & 3.5 \\\\\n4 & Pointer-generator & 16.4 & 15.1 & 35.0 & 3.6 \\\\\n5 & NaN & NaN & NaN & NaN & NaN \\\\\n\\bottomrule\n\\end{tabular}\n",
+        "html_table": "<div><span><table><tr><td>Model</td><td colspan=\"2\">BLEU</td><td>LCR (%)</td><td>Grammar</td></tr><tr><td></td><td>Dev</td><td>Test</td><td>Test</td><td>Test</td></tr><tr><td>Template</td><td>9.5</td><td>9.3</td><td>41.0</td><td>4.0</td></tr><tr><td>Seq2Seq</td><td>15.3</td><td>14.1</td><td>27.0</td><td>3.5</td></tr><tr><td>Pointer-generator</td><td>16.4</td><td>15.1</td><td>35.0</td><td>3.6</td></tr><tr><td></td><td></td><td></td><td></td><td></td></tr></table></span></div>",
+        "og_table": "<figure><div><span><table><tr><td><span></span>Model</td><td colspan=\"2\">BLEU</td><td>LCR (%)</td><td>Grammar</td></tr><tr><td></td><td>Dev</td><td>Test</td><td>Test</td><td>Test</td></tr><tr><td>Template</td><td>9.5</td><td>9.3</td><td>41.0</td><td>4.0</td></tr><tr><td>Seq2Seq</td><td>15.3</td><td>14.1</td><td>27.0</td><td>3.5</td></tr><tr><td>Pointer-generator</td><td>16.4</td><td>15.1</td><td>35.0</td><td>3.6</td></tr><tr><td><span></span></td><td></td><td></td><td></td><td></td></tr></table></span></div><figcaption><span>Table 6: </span>BLEU scores on the development and test sets, and human evaluations of logic correctness rate (LCR) and grammar check on the 100 examples randomly sampled from the test set.</figcaption></figure>",
+        "is_latex": true,
+        "is_html": false,
+        "table_head": "\\begin{tabular}{llllll}\n\\toprule\n & 0 & 1 & 2 & 3 & 4 \\\\\n\\midrule\n0 & Model & BLEU & BLEU & LCR (%) & Grammar \\\\\n1 & NaN & Dev & Test & Test & Test \\\\\n2 & Template & 9.5 & 9.3 & 41.0 & 4.0 \\\\\n3 & Seq2Seq & 15.3 & 14.1 & 27.0 & 3.5 \\\\\n\\bottomrule\n\\end{tabular}\n",
+        "caption": "Table 6: BLEU scores on the development and test sets, and human evaluations of logic correctness rate (LCR) and grammar check on the 100 examples randomly sampled from the test set.",
+        "citations": [
+            "Table6 shows the results of three different baselines on three metrics: BLEU scorePapineni etal. (2002), logic correctness rate (LCR), and grammar. To compute LCR and grammar score, we randomly sampled 100 descriptions generated by each model. Three students proficient in English participated in the evaluation, They were asked to choose a score 0 or 1 for LCR, and 1 to 5 for grammar check (the larger, the better). For LCR, the final score was decided by majority vote. We computed the average grammar score."
+        ],
+        "candidates_pairs": [
+            [
+                [
+                    "0",
+                    "Model"
+                ]
+            ],
+            [
+                [
+                    "0",
+                    "Model"
+                ],
+                [
+                    "1",
+                    "BLEU"
+                ]
+            ],
+            [
+                [
+                    "0",
+                    "Model"
+                ],
+                [
+                    "1",
+                    "BLEU"
+                ],
+                [
+                    "2",
+                    "BLEU"
+                ]
+            ],
+            [
+                [
+                    "0",
+                    "Model"
+                ],
+                [
+                    "1",
+                    "BLEU"
+                ],
+                [
+                    "2",
+                    "BLEU"
+                ],
+                [
+                    "3",
+                    "LCR (%)"
+                ]
+            ],
+            [
+                [
+                    "0",
+                    "Model"
+                ],
+                [
+                    "1",
+                    "BLEU"
+                ],
+                [
+                    "2",
+                    "BLEU"
+                ],
+                [
+                    "3",
+                    "LCR (%)"
+                ],
+                [
+                    "4",
+                    "Grammar"
+                ]
+            ]
+        ]
+    },
+    "2211.06193_1": {
+        "latex_table": "\\begin{tabular}{lll}\n\\toprule\n & Failure Categories & Percentage \\\\\n\\midrule\n0 & Incomplete SQL & 6.2% \\\\\n1 & False Negatives & 22.4% \\\\\n2 & Foreign Keys & 19.6% \\\\\n3 & Logical Errors & 2.8% \\\\\n4 & DK - Incorrect AGG & 17.2% \\\\\n5 & DK - Incorrect Table & 3.8% \\\\\n6 & DK - Incorrect Column & 13.4% \\\\\n7 & DK - Incorrect Value & 3.8% \\\\\n8 & DK - Complex & 11.0% \\\\\n\\bottomrule\n\\end{tabular}\n",
+        "html_table": "<table><thead><tr><th>Failure Categories</th><th>Percentage</th></tr></thead><tbody><tr><td>Incomplete SQL</td><td>6.2%</td></tr><tr><td>False Negatives</td><td>22.4%</td></tr><tr><td>Foreign Keys</td><td>19.6%</td></tr><tr><td>Logical Errors</td><td>2.8%</td></tr><tr><td>DK - Incorrect AGG</td><td>17.2%</td></tr><tr><td>DK - Incorrect Table</td><td>3.8%</td></tr><tr><td>DK - Incorrect Column</td><td>13.4%</td></tr><tr><td>DK - Incorrect Value</td><td>3.8%</td></tr><tr><td>DK - Complex</td><td>11.0%</td></tr></tbody></table>",
+        "og_table": "<figure><table><thead><tr><th><span>Failure Categories</span></th><th><span>Percentage</span></th></tr></thead><tbody><tr><td>Incomplete SQL</td><td>6.2%</td></tr><tr><td>False Negatives</td><td>22.4%</td></tr><tr><td>Foreign Keys</td><td>19.6%</td></tr><tr><td>Logical Errors</td><td>2.8%</td></tr><tr><td>DK - Incorrect AGG</td><td>17.2%</td></tr><tr><td>DK - Incorrect Table</td><td>3.8%</td></tr><tr><td>DK - Incorrect Column</td><td>13.4%</td></tr><tr><td>DK - Incorrect Value</td><td>3.8%</td></tr><tr><td>DK - Complex</td><td>11.0%</td></tr></tbody></table><figcaption><span>Table 1: </span>Error Analysis on Spider dev based on T5+3B with constrained decoding.</figcaption></figure>",
+        "is_latex": true,
+        "is_html": false,
+        "table_head": "\\begin{tabular}{lll}\n\\toprule\n & Failure Categories & Percentage \\\\\n\\midrule\n0 & Incomplete SQL & 6.2% \\\\\n1 & False Negatives & 22.4% \\\\\n2 & Foreign Keys & 19.6% \\\\\n3 & Logical Errors & 2.8% \\\\\n\\bottomrule\n\\end{tabular}\n",
+        "caption": "Table 1: Error Analysis on Spider dev based on T5+3B with constrained decoding.",
+        "citations": [
+            "Table 1 shows the breakdown of T5 with constrained decoding errors on the Spider dev set. We find that 22.4% of questions are False Negative, which is not a suitable target category for model improvement. Furthermore, 6.2% of errors are due to Incomplete SQL and 2.8% are due to Logical Errors, both relatively small failure categories."
+        ],
+        "candidates_pairs": [
+            [
+                [
+                    "Failure Categories",
+                    "Incomplete SQL"
+                ]
+            ],
+            [
+                [
+                    "Failure Categories",
+                    "Incomplete SQL"
+                ],
+                [
+                    "Percentage",
+                    "6.2%"
+                ]
+            ]
+        ]
+    },
+    "2208.04415_3": {
+        "latex_table": "\\begin{tabular}{llllllll}\n\\toprule\n & 0 & 1 & 2 & 3 & 4 & 5 & 6 \\\\\n\\midrule\n0 & NaN & NaN & Easy & Medium & Hard & Extra Hard & All \\\\\n1 & ENG & ENG & 31.8% & 11.3% & 9.5% & 2.7% & 14.1% \\\\\n2 & HT & C-ML & 27.3% & 9.9% & 7.5% & 2.3% & 12.1% \\\\\n3 & HT & C-S & 23.1% & 7.7% & 6.2% & 1.7% & 9.9% \\\\\n4 & HT & WY-ML & 21.4% & 8.1% & 8.0% & 1.7% & 10.0% \\\\\n5 & HT & WY-S & 20.2% & 6.4% & 6.7% & 2.0% & 8.9% \\\\\n6 & HT & WJ-ML & 19.8% & 8.6% & 5.0% & 1.3% & 9.2% \\\\\n7 & HT & WJ-S & 20.1% & 5.0% & 5.7% & 1.7% & 8.2% \\\\\n8 & MT & C-ML & 18.1% & 4.6% & 5.2% & 0.3% & 7.9% \\\\\n9 & MT & WY-ML & 17.9% & 4.7% & 4.5% & 0.3% & 7.6% \\\\\n\\bottomrule\n\\end{tabular}\n",
+        "html_table": "<table><tbody><tr><td colspan=\"2\"></td><td>Easy</td><td>Medium</td><td>Hard</td><td>Extra Hard</td><td>All</td></tr><tr><td colspan=\"2\">ENG</td><td>31.8%</td><td>11.3%</td><td>9.5%</td><td>2.7%</td><td>14.1%</td></tr><tr><td rowspan=\"6\">HT</td><td>C-ML</td><td>27.3%</td><td>9.9%</td><td>7.5%</td><td>2.3%</td><td>12.1%</td></tr><tr><td>C-S</td><td>23.1%</td><td>7.7%</td><td>6.2%</td><td>1.7%</td><td>9.9%</td></tr><tr><td>WY-ML</td><td>21.4%</td><td>8.1%</td><td>8.0%</td><td>1.7%</td><td>10.0%</td></tr><tr><td>WY-S</td><td>20.2%</td><td>6.4%</td><td>6.7%</td><td>2.0%</td><td>8.9%</td></tr><tr><td>WJ-ML</td><td>19.8%</td><td>8.6%</td><td>5.0%</td><td>1.3%</td><td>9.2%</td></tr><tr><td>WJ-S</td><td>20.1%</td><td>5.0%</td><td>5.7%</td><td>1.7%</td><td>8.2%</td></tr><tr><td rowspan=\"2\">MT</td><td>C-ML</td><td>18.1%</td><td>4.6%</td><td>5.2%</td><td>0.3%</td><td>7.9%</td></tr><tr><td>WY-ML</td><td>17.9%</td><td>4.7%</td><td>4.5%</td><td>0.3%</td><td>7.6%</td></tr></tbody></table>",
+        "og_table": "<figure><table><tbody><tr><td colspan=\"2\"></td><td>Easy</td><td>Medium</td><td>Hard</td><td>Extra Hard</td><td>All</td></tr><tr><td colspan=\"2\">ENG</td><td>31.8%</td><td>11.3%</td><td>9.5%</td><td>2.7%</td><td>14.1%</td></tr><tr><td rowspan=\"6\"><span>HT</span></td><td>C-ML</td><td>27.3%</td><td>9.9%</td><td>7.5%</td><td>2.3%</td><td>12.1%</td></tr><tr><td>C-S</td><td>23.1%</td><td>7.7%</td><td>6.2%</td><td>1.7%</td><td>9.9%</td></tr><tr><td>WY-ML</td><td>21.4%</td><td>8.1%</td><td>8.0%</td><td>1.7%</td><td>10.0%</td></tr><tr><td>WY-S</td><td>20.2%</td><td>6.4%</td><td>6.7%</td><td>2.0%</td><td>8.9%</td></tr><tr><td>WJ-ML</td><td>19.8%</td><td>8.6%</td><td>5.0%</td><td>1.3%</td><td>9.2%</td></tr><tr><td>WJ-S</td><td>20.1%</td><td>5.0%</td><td>5.7%</td><td>1.7%</td><td>8.2%</td></tr><tr><td rowspan=\"2\"><span>MT</span></td><td>C-ML</td><td>18.1%</td><td>4.6%</td><td>5.2%</td><td>0.3%</td><td>7.9%</td></tr><tr><td>WY-ML</td><td>17.9%</td><td>4.7%</td><td>4.5%</td><td>0.3%</td><td>7.6%</td></tr></tbody></table><figcaption><span>TABLE III: </span>Experimental Result of Sequence to Tree Model<cite>[<a>41</a>]</cite></figcaption></figure>",
+        "is_latex": true,
+        "is_html": false,
+        "table_head": "\\begin{tabular}{llllllll}\n\\toprule\n & 0 & 1 & 2 & 3 & 4 & 5 & 6 \\\\\n\\midrule\n0 & NaN & NaN & Easy & Medium & Hard & Extra Hard & All \\\\\n1 & ENG & ENG & 31.8% & 11.3% & 9.5% & 2.7% & 14.1% \\\\\n2 & HT & C-ML & 27.3% & 9.9% & 7.5% & 2.3% & 12.1% \\\\\n3 & HT & C-S & 23.1% & 7.7% & 6.2% & 1.7% & 9.9% \\\\\n\\bottomrule\n\\end{tabular}\n",
+        "caption": "TABLE III: Experimental Result of Sequence to Tree Model[41]",
+        "citations": [
+            "Summarizing of exact matching results has been depicted in table III. As it can be seen, The accuracy of each dataset under their respective categories has been populated."
+        ],
+        "candidates_pairs": [
+            [
+                [
+                    "0",
+                    "nan"
+                ]
+            ],
+            [
+                [
+                    "0",
+                    "nan"
+                ],
+                [
+                    "1",
+                    "nan"
+                ]
+            ],
+            [
+                [
+                    "0",
+                    "nan"
+                ],
+                [
+                    "1",
+                    "nan"
+                ],
+                [
+                    "2",
+                    "Easy"
+                ]
+            ],
+            [
+                [
+                    "0",
+                    "nan"
+                ],
+                [
+                    "1",
+                    "nan"
+                ],
+                [
+                    "2",
+                    "Easy"
+                ],
+                [
+                    "3",
+                    "Medium"
+                ]
+            ],
+            [
+                [
+                    "0",
+                    "nan"
+                ],
+                [
+                    "1",
+                    "nan"
+                ],
+                [
+                    "2",
+                    "Easy"
+                ],
+                [
+                    "3",
+                    "Medium"
+                ],
+                [
+                    "4",
+                    "Hard"
+                ]
+            ],
+            [
+                [
+                    "0",
+                    "nan"
+                ],
+                [
+                    "1",
+                    "nan"
+                ],
+                [
+                    "2",
+                    "Easy"
+                ],
+                [
+                    "3",
+                    "Medium"
+                ],
+                [
+                    "4",
+                    "Hard"
+                ],
+                [
+                    "5",
+                    "Extra Hard"
+                ]
+            ],
+            [
+                [
+                    "0",
+                    "nan"
+                ],
+                [
+                    "1",
+                    "nan"
+                ],
+                [
+                    "2",
+                    "Easy"
+                ],
+                [
+                    "3",
+                    "Medium"
+                ],
+                [
+                    "4",
+                    "Hard"
+                ],
+                [
+                    "5",
+                    "Extra Hard"
+                ],
+                [
+                    "6",
+                    "All"
+                ]
+            ]
+        ]
+    },
+    "2109.10540_4": {
+        "latex_table": "\\begin{tabular}{lllll}\n\\toprule\n & Model & \\multicolumn{2}{r}{Dev} & Test \\\\\n & Model & Ex.Match & Ex.Acc & Ex.Acc \\\\\n\\midrule\n0 & ALIGNPP{}_{\\text{P}} & 37.80.6plus-or-minus37.80.637.8\\pm 0.6 & 56.90.7plus-or-minus56.90.756.9\\pm 0.7 & 46.60.5plus-or-minus46.60.546.6\\pm 0.5 \\\\\n1 & ALIGNPP{}_{\\text{P}}+BERT & 44.72.1plus-or-minus44.72.144.7\\pm 2.1 & 63.81.1plus-or-minus63.81.163.8\\pm 1.1 & 51.80.4plus-or-minus51.80.451.8\\pm 0.4 \\\\\n2 & EtA+BERT & 47.62.5plus-or-minus47.62.5\\mathbf{47.6}\\pm 2.5 & 66.61.7plus-or-minus66.61.7\\mathbf{66.6}\\pm{1.7} & 53.80.3plus-or-minus53.80.3\\mathbf{53.8}\\pm 0.3 \\\\\n3 & ALIGN & 42.21.5plus-or-minus42.21.542.2\\pm 1.5 & 61.30.8plus-or-minus61.30.861.3\\pm 0.8 & 49.70.4plus-or-minus49.70.449.7\\pm 0.4 \\\\\n4 & ALIGN+BERT & 47.21.2plus-or-minus47.21.247.2\\pm 1.2 & 66.51.2plus-or-minus66.51.266.5\\pm 1.2 & 54.10.2plus-or-minus54.10.254.1\\pm 0.2 \\\\\n\\bottomrule\n\\end{tabular}\n",
+        "html_table": "<table><thead><tr><th rowspan=\"2\">Model</th><th colspan=\"2\">Dev</th><th>Test</th></tr><tr><th>Ex.Match</th><th>Ex.Acc</th><th>Ex.Acc</th></tr></thead><tbody><tr><th>ALIGN<msub><mi></mi><mtext>P</mtext></msub><apply><ci><mtext>P</mtext></ci></apply><annotation>{}_{\\text{P}}</annotation></th><td><mrow><mn>37.8</mn><mo></mo><mn>0.6</mn></mrow><apply><csymbol>plus-or-minus</csymbol><cn>37.8</cn><cn>0.6</cn></apply><annotation>37.8\\pm 0.6</annotation></td><td><mrow><mn>56.9</mn><mo></mo><mn>0.7</mn></mrow><apply><csymbol>plus-or-minus</csymbol><cn>56.9</cn><cn>0.7</cn></apply><annotation>56.9\\pm 0.7</annotation></td><td><mrow><mn>46.6</mn><mo></mo><mn>0.5</mn></mrow><apply><csymbol>plus-or-minus</csymbol><cn>46.6</cn><cn>0.5</cn></apply><annotation>46.6\\pm 0.5</annotation></td></tr><tr><th>ALIGN<msub><mi></mi><mtext>P</mtext></msub><apply><ci><mtext>P</mtext></ci></apply><annotation>{}_{\\text{P}}</annotation>+BERT</th><td><mrow><mn>44.7</mn><mo></mo><mn>2.1</mn></mrow><apply><csymbol>plus-or-minus</csymbol><cn>44.7</cn><cn>2.1</cn></apply><annotation>44.7\\pm 2.1</annotation></td><td><mrow><mn>63.8</mn><mo></mo><mn>1.1</mn></mrow><apply><csymbol>plus-or-minus</csymbol><cn>63.8</cn><cn>1.1</cn></apply><annotation>63.8\\pm 1.1</annotation></td><td><mrow><mn>51.8</mn><mo></mo><mn>0.4</mn></mrow><apply><csymbol>plus-or-minus</csymbol><cn>51.8</cn><cn>0.4</cn></apply><annotation>51.8\\pm 0.4</annotation></td></tr><tr><th>EtA+BERT</th><td><mrow><mn>47.6</mn><mo></mo><mn>2.5</mn></mrow><apply><csymbol>plus-or-minus</csymbol><cn>47.6</cn><cn>2.5</cn></apply><annotation>\\mathbf{47.6}\\pm 2.5</annotation></td><td><mrow><mn>66.6</mn><mo></mo><mn>1.7</mn></mrow><apply><csymbol>plus-or-minus</csymbol><cn>66.6</cn><cn>1.7</cn></apply><annotation>\\mathbf{66.6}\\pm{1.7}</annotation></td><td><mrow><mn>53.8</mn><mo></mo><mn>0.3</mn></mrow><apply><csymbol>plus-or-minus</csymbol><cn>53.8</cn><cn>0.3</cn></apply><annotation>\\mathbf{53.8}\\pm 0.3</annotation></td></tr><tr><th>ALIGN <sup></sup></th><td><mrow><mn>42.2</mn><mo></mo><mn>1.5</mn></mrow><apply><csymbol>plus-or-minus</csymbol><cn>42.2</cn><cn>1.5</cn></apply><annotation>42.2\\pm 1.5</annotation></td><td><mrow><mn>61.3</mn><mo></mo><mn>0.8</mn></mrow><apply><csymbol>plus-or-minus</csymbol><cn>61.3</cn><cn>0.8</cn></apply><annotation>61.3\\pm 0.8</annotation></td><td><mrow><mn>49.7</mn><mo></mo><mn>0.4</mn></mrow><apply><csymbol>plus-or-minus</csymbol><cn>49.7</cn><cn>0.4</cn></apply><annotation>49.7\\pm 0.4</annotation></td></tr><tr><th>ALIGN+BERT <sup></sup></th><td><mrow><mn>47.2</mn><mo></mo><mn>1.2</mn></mrow><apply><csymbol>plus-or-minus</csymbol><cn>47.2</cn><cn>1.2</cn></apply><annotation>47.2\\pm 1.2</annotation></td><td><mrow><mn>66.5</mn><mo></mo><mn>1.2</mn></mrow><apply><csymbol>plus-or-minus</csymbol><cn>66.5</cn><cn>1.2</cn></apply><annotation>66.5\\pm 1.2</annotation></td><td><mrow><mn>54.1</mn><mo></mo><mn>0.2</mn></mrow><apply><csymbol>plus-or-minus</csymbol><cn>54.1</cn><cn>0.2</cn></apply><annotation>54.1\\pm 0.2</annotation></td></tr></tbody></table>",
+        "og_table": "<figure><table><thead><tr><th rowspan=\"2\"><span>Model</span></th><th colspan=\"2\">Dev</th><th>Test</th></tr><tr><th>Ex.Match</th><th>Ex.Acc</th><th>Ex.Acc</th></tr></thead><tbody><tr><th>ALIGN<math><semantics><msub><mi></mi><mtext>P</mtext></msub><annotation-xml><apply><ci><mtext>P</mtext></ci></apply></annotation-xml><annotation>{}_{\\text{P}}</annotation></semantics></math></th><td><math><semantics><mrow><mn>37.8</mn><mo></mo><mn>0.6</mn></mrow><annotation-xml><apply><csymbol>plus-or-minus</csymbol><cn>37.8</cn><cn>0.6</cn></apply></annotation-xml><annotation>37.8\\pm 0.6</annotation></semantics></math></td><td><math><semantics><mrow><mn>56.9</mn><mo></mo><mn>0.7</mn></mrow><annotation-xml><apply><csymbol>plus-or-minus</csymbol><cn>56.9</cn><cn>0.7</cn></apply></annotation-xml><annotation>56.9\\pm 0.7</annotation></semantics></math></td><td><math><semantics><mrow><mn>46.6</mn><mo></mo><mn>0.5</mn></mrow><annotation-xml><apply><csymbol>plus-or-minus</csymbol><cn>46.6</cn><cn>0.5</cn></apply></annotation-xml><annotation>46.6\\pm 0.5</annotation></semantics></math></td></tr><tr><th>ALIGN<math><semantics><msub><mi></mi><mtext>P</mtext></msub><annotation-xml><apply><ci><mtext>P</mtext></ci></apply></annotation-xml><annotation>{}_{\\text{P}}</annotation></semantics></math>+BERT</th><td><math><semantics><mrow><mn>44.7</mn><mo></mo><mn>2.1</mn></mrow><annotation-xml><apply><csymbol>plus-or-minus</csymbol><cn>44.7</cn><cn>2.1</cn></apply></annotation-xml><annotation>44.7\\pm 2.1</annotation></semantics></math></td><td><math><semantics><mrow><mn>63.8</mn><mo></mo><mn>1.1</mn></mrow><annotation-xml><apply><csymbol>plus-or-minus</csymbol><cn>63.8</cn><cn>1.1</cn></apply></annotation-xml><annotation>63.8\\pm 1.1</annotation></semantics></math></td><td><math><semantics><mrow><mn>51.8</mn><mo></mo><mn>0.4</mn></mrow><annotation-xml><apply><csymbol>plus-or-minus</csymbol><cn>51.8</cn><cn>0.4</cn></apply></annotation-xml><annotation>51.8\\pm 0.4</annotation></semantics></math></td></tr><tr><th><span>EtA</span>+BERT</th><td><math><semantics><mrow><mn>47.6</mn><mo></mo><mn>2.5</mn></mrow><annotation-xml><apply><csymbol>plus-or-minus</csymbol><cn>47.6</cn><cn>2.5</cn></apply></annotation-xml><annotation>\\mathbf{47.6}\\pm 2.5</annotation></semantics></math></td><td><math><semantics><mrow><mn>66.6</mn><mo></mo><mn>1.7</mn></mrow><annotation-xml><apply><csymbol>plus-or-minus</csymbol><cn>66.6</cn><cn>1.7</cn></apply></annotation-xml><annotation>\\mathbf{66.6}\\pm{1.7}</annotation></semantics></math></td><td><math><semantics><mrow><mn>53.8</mn><mo></mo><mn>0.3</mn></mrow><annotation-xml><apply><csymbol>plus-or-minus</csymbol><cn>53.8</cn><cn>0.3</cn></apply></annotation-xml><annotation>\\mathbf{53.8}\\pm 0.3</annotation></semantics></math></td></tr><tr><th>ALIGN <sup></sup></th><td><math><semantics><mrow><mn>42.2</mn><mo></mo><mn>1.5</mn></mrow><annotation-xml><apply><csymbol>plus-or-minus</csymbol><cn>42.2</cn><cn>1.5</cn></apply></annotation-xml><annotation>42.2\\pm 1.5</annotation></semantics></math></td><td><math><semantics><mrow><mn>61.3</mn><mo></mo><mn>0.8</mn></mrow><annotation-xml><apply><csymbol>plus-or-minus</csymbol><cn>61.3</cn><cn>0.8</cn></apply></annotation-xml><annotation>61.3\\pm 0.8</annotation></semantics></math></td><td><math><semantics><mrow><mn>49.7</mn><mo></mo><mn>0.4</mn></mrow><annotation-xml><apply><csymbol>plus-or-minus</csymbol><cn>49.7</cn><cn>0.4</cn></apply></annotation-xml><annotation>49.7\\pm 0.4</annotation></semantics></math></td></tr><tr><th>ALIGN+BERT <sup></sup></th><td><math><semantics><mrow><mn>47.2</mn><mo></mo><mn>1.2</mn></mrow><annotation-xml><apply><csymbol>plus-or-minus</csymbol><cn>47.2</cn><cn>1.2</cn></apply></annotation-xml><annotation>47.2\\pm 1.2</annotation></semantics></math></td><td><math><semantics><mrow><mn>66.5</mn><mo></mo><mn>1.2</mn></mrow><annotation-xml><apply><csymbol>plus-or-minus</csymbol><cn>66.5</cn><cn>1.2</cn></apply></annotation-xml><annotation>66.5\\pm 1.2</annotation></semantics></math></td><td><math><semantics><mrow><mn>54.1</mn><mo></mo><mn>0.2</mn></mrow><annotation-xml><apply><csymbol>plus-or-minus</csymbol><cn>54.1</cn><cn>0.2</cn></apply></annotation-xml><annotation>54.1\\pm 0.2</annotation></semantics></math></td></tr></tbody></table><figcaption><span>Table 4: </span>Ex.Match and Ex.Acc results on the dev and test set of WTQ.+ BERT means using BERT to enhance encoder.<sup></sup> means the model uses extra schema linking supervision.Both are the same for Table<a><span>5</span></a>.</figcaption></figure>",
+        "is_latex": true,
+        "is_html": false,
+        "table_head": "\\begin{tabular}{lllll}\n\\toprule\n & Model & \\multicolumn{2}{r}{Dev} & Test \\\\\n & Model & Ex.Match & Ex.Acc & Ex.Acc \\\\\n\\midrule\n0 & ALIGNPP{}_{\\text{P}} & 37.80.6plus-or-minus37.80.637.8\\pm 0.6 & 56.90.7plus-or-minus56.90.756.9\\pm 0.7 & 46.60.5plus-or-minus46.60.546.6\\pm 0.5 \\\\\n1 & ALIGNPP{}_{\\text{P}}+BERT & 44.72.1plus-or-minus44.72.144.7\\pm 2.1 & 63.81.1plus-or-minus63.81.163.8\\pm 1.1 & 51.80.4plus-or-minus51.80.451.8\\pm 0.4 \\\\\n2 & EtA+BERT & 47.62.5plus-or-minus47.62.5\\mathbf{47.6}\\pm 2.5 & 66.61.7plus-or-minus66.61.7\\mathbf{66.6}\\pm{1.7} & 53.80.3plus-or-minus53.80.3\\mathbf{53.8}\\pm 0.3 \\\\\n3 & ALIGN & 42.21.5plus-or-minus42.21.542.2\\pm 1.5 & 61.30.8plus-or-minus61.30.861.3\\pm 0.8 & 49.70.4plus-or-minus49.70.449.7\\pm 0.4 \\\\\n\\bottomrule\n\\end{tabular}\n",
+        "caption": "Table 4: Ex.Match and Ex.Acc results on the dev and test set of WTQ. + BERT means using BERT to enhance encoder.  means the model uses extra schema linking supervision. Both are the same for Table5.",
+        "citations": [
+            "Table4 and Table5 show the experimental results of several methods on WTQ and Spider respectively. As observed, introducing EtA dramatically improves the performance of both base parsers, demonstrating its effectiveness on downstream tasks. Taking Spider as an illustration, our model EtA+BERT boosts SLSQLPP{}_{\\text{P}}+BERT by an absolute improvement 7.17.17.1% on the Ex.Set metric. As the PLM becomes larger (e.g., BERTLL{}_{\\text{L}}), the improvement becomes more significant, up to 9.89.89.8%. Compared with state-of-the-art methods, our model EtA+BERTLsubscriptBERTL\\text{BERT}_{\\text{L}} also obtains a competitive performance, which is extremely impressive since it is based on a simple parser."
+        ],
+        "candidates_pairs": [
+            [
+                [
+                    "Model",
+                    "ALIGNPP{}_{\\text{P}}"
+                ]
+            ],
+            [
+                [
+                    "Model",
+                    "ALIGNPP{}_{\\text{P}}"
+                ],
+                [
+                    "Ex.Match",
+                    "37.80.6plus-or-minus37.80.637.8\\pm 0.6"
+                ]
+            ],
+            [
+                [
+                    "Model",
+                    "ALIGNPP{}_{\\text{P}}"
+                ],
+                [
+                    "Ex.Match",
+                    "37.80.6plus-or-minus37.80.637.8\\pm 0.6"
+                ],
+                [
+                    "Ex.Acc",
+                    "56.90.7plus-or-minus56.90.756.9\\pm 0.7"
+                ]
+            ],
+            [
+                [
+                    "Model",
+                    "ALIGNPP{}_{\\text{P}}"
+                ],
+                [
+                    "Ex.Match",
+                    "37.80.6plus-or-minus37.80.637.8\\pm 0.6"
+                ],
+                [
+                    "Ex.Acc",
+                    "56.90.7plus-or-minus56.90.756.9\\pm 0.7"
+                ],
+                [
+                    "Ex.Acc",
+                    "46.60.5plus-or-minus46.60.546.6\\pm 0.5"
+                ]
+            ]
+        ]
+    },
+    "2108.02866_9": {
+        "latex_table": "\\begin{tabular}{lllllll}\n\\toprule\n & 0 & 1 & 2 & 3 & 4 & 5 \\\\\n\\midrule\n0 & NaN & AES & Reranked & AES & Reranked & Reranked \\\\\n1 & Index & textual & textual & tabular & tabular & hybrid \\\\\n2 & Top-1 & 13.10 & 18.69 & 51.70 & 50.24 & 50.28 \\\\\n3 & Top-5 & 20.08 & 25.61 & 66.27 & 68.15 & 68.15 \\\\\n4 & Top-10 & 22.54 & 28.84 & 70.93 & 74.09 & 74.10 \\\\\n5 & Top-25 & 25.24 & 32.34 & 75.53 & 80.91 & 80.89 \\\\\n6 & Top-50 & 29.66 & 35.39 & 80.54 & 84.78 & 84.63 \\\\\n7 & Top-100 & 33.20 & 38.14 & 84.14 & 87.18 & 87.13 \\\\\n8 & MAP & 13.15 & 18.48 & 47.63 & 47.92 & 44.93 \\\\\n9 & MRR & 16.56 & 22.03 & 58.49 & 58.34 & 58.38 \\\\\n\\bottomrule\n\\end{tabular}\n",
+        "html_table": "<table><tbody><tr><td></td><td>AES</td><td>Reranked</td><td>AES</td><td>Reranked</td><td>Reranked</td></tr><tr><td>Index</td><td>textual</td><td>textual</td><td>tabular</td><td>tabular</td><td>hybrid</td></tr><tr><td>Top-1</td><td>13.10</td><td>18.69</td><td>51.70</td><td>50.24</td><td>50.28</td></tr><tr><td>Top-5</td><td>20.08</td><td>25.61</td><td>66.27</td><td>68.15</td><td>68.15</td></tr><tr><td>Top-10</td><td>22.54</td><td>28.84</td><td>70.93</td><td>74.09</td><td>74.10</td></tr><tr><td>Top-25</td><td>25.24</td><td>32.34</td><td>75.53</td><td>80.91</td><td>80.89</td></tr><tr><td>Top-50</td><td>29.66</td><td>35.39</td><td>80.54</td><td>84.78</td><td>84.63</td></tr><tr><td>Top-100</td><td>33.20</td><td>38.14</td><td>84.14</td><td>87.18</td><td>87.13</td></tr><tr><td>MAP</td><td>13.15</td><td>18.48</td><td>47.63</td><td>47.92</td><td>44.93</td></tr><tr><td>MRR</td><td>16.56</td><td>22.03</td><td>58.49</td><td>58.34</td><td>58.38</td></tr></tbody></table>",
+        "og_table": "<figure><table><tbody><tr><td></td><td>AES</td><td><span>Reranked</span></td><td>AES</td><td><span>Reranked</span></td><td><span>Reranked</span></td></tr><tr><td><span>Index</span></td><td><span>textual</span></td><td><span>textual</span></td><td><span>tabular</span></td><td><span>tabular</span></td><td><span>hybrid</span></td></tr><tr><td>Top-1</td><td>13.10</td><td><span>18.69</span></td><td>51.70</td><td><span>50.24</span></td><td><span>50.28</span></td></tr><tr><td>Top-5</td><td>20.08</td><td><span>25.61</span></td><td>66.27</td><td><span>68.15</span></td><td><span>68.15</span></td></tr><tr><td>Top-10</td><td>22.54</td><td><span>28.84</span></td><td>70.93</td><td><span>74.09</span></td><td><span>74.10</span></td></tr><tr><td>Top-25</td><td>25.24</td><td><span>32.34</span></td><td>75.53</td><td><span>80.91</span></td><td><span>80.89</span></td></tr><tr><td>Top-50</td><td>29.66</td><td><span>35.39</span></td><td>80.54</td><td><span>84.78</span></td><td><span>84.63</span></td></tr><tr><td>Top-100</td><td>33.20</td><td><span>38.14</span></td><td>84.14</td><td><span>87.18</span></td><td><span>87.13</span></td></tr><tr><td>MAP</td><td>13.15</td><td><span>18.48</span></td><td>47.63</td><td><span>47.92</span></td><td><span>44.93</span></td></tr><tr><td>MRR</td><td>16.56</td><td><span>22.03</span></td><td>58.49</td><td><span>58.34</span></td><td><span>58.38</span></td></tr></tbody></table><figcaption><span>Table 9: </span>Recalls on top-<math><semantics><mi>n</mi><annotation-xml><ci></ci></annotation-xml><annotation>n</annotation></semantics></math> textual, tabular or the hybrid candidates for OpenWikiSQL questions.</figcaption></figure>",
+        "is_latex": true,
+        "is_html": false,
+        "table_head": "\\begin{tabular}{lllllll}\n\\toprule\n & 0 & 1 & 2 & 3 & 4 & 5 \\\\\n\\midrule\n0 & NaN & AES & Reranked & AES & Reranked & Reranked \\\\\n1 & Index & textual & textual & tabular & tabular & hybrid \\\\\n2 & Top-1 & 13.10 & 18.69 & 51.70 & 50.24 & 50.28 \\\\\n3 & Top-5 & 20.08 & 25.61 & 66.27 & 68.15 & 68.15 \\\\\n\\bottomrule\n\\end{tabular}\n",
+        "caption": "Table 9: Recalls on top-nn textual, tabular or the hybrid candidates for OpenWikiSQL questions.",
+        "citations": [
+            "During both training and inference, for each question, the textual and tabular passages are reranked jointly using a single reranker. On the Mix-SQuWiki dataset, we report the reranking results on SQuAD questions in Table 3. The result on WikiSQL questions is in Table 9 in Appendix. To provide better insights on the rerankers performance, we show the top-kk recalls on textual, tabular and hybrid evidences separately.",
+            "In Table 9 and 10 in Appendix, we observe similar trend with top-25 recalls comparable to top-100 recalls on both WikiSQL and NQ questions. Finally, across all datasets, the recalls on hybrid inputs are almost the same as or even better than the best recalls on individual textual or tabular inputs, meaning that the reranker is able to jointly rank both types of candidates and provide better evidences to the next component  the dual reader-parser."
+        ],
+        "candidate_pairs": [] 
+    },
+    "2205.02054_4": {
+        "latex_table": "\\begin{tabular}{llll}\n\\toprule\n & 0 & 1 & 2 \\\\\n\\midrule\n0 & Dataset & Deviation <= 1 & Deviation <= 2 \\\\\n1 & CG-SUBTsubscriptCG-SUBT\\textbf{CG-SUB}_{\\textnormal{{T}}} & 93.2% & 94.4% \\\\\n2 & CG-SUBDsubscriptCG-SUBD\\textbf{CG-SUB}_{\\textnormal{{D}}} & 92.9% & 94.1% \\\\\n3 & CG-APPTsubscriptCG-APPT\\textbf{CG-APP}_{\\textnormal{{T}}} & 86.0% & 90.4% \\\\\n4 & CG-APPDsubscriptCG-APPD\\textbf{CG-APP}_{\\textnormal{{D}}} & 88.9% & 92.6% \\\\\n\\bottomrule\n\\end{tabular}\n",
+        "html_table": "<div><span><table><tr><td>Dataset</td><td>Deviation &lt;= 1</td><td>Deviation &lt;= 2</td></tr><tr><td><msub><mtext>CG-SUB</mtext><mtext>T</mtext></msub><apply><csymbol>subscript</csymbol><ci><mtext>CG-SUB</mtext></ci><ci><mtext>T</mtext></ci></apply><annotation>\\textbf{CG-SUB}_{\\textnormal{{T}}}</annotation></td><td>93.2%</td><td>94.4%</td></tr><tr><td><msub><mtext>CG-SUB</mtext><mtext>D</mtext></msub><apply><csymbol>subscript</csymbol><ci><mtext>CG-SUB</mtext></ci><ci><mtext>D</mtext></ci></apply><annotation>\\textbf{CG-SUB}_{\\textnormal{{D}}}</annotation></td><td>92.9%</td><td>94.1%</td></tr><tr><td><msub><mtext>CG-APP</mtext><mtext>T</mtext></msub><apply><csymbol>subscript</csymbol><ci><mtext>CG-APP</mtext></ci><ci><mtext>T</mtext></ci></apply><annotation>\\textbf{CG-APP}_{\\textnormal{{T}}}</annotation></td><td>86.0%</td><td>90.4%</td></tr><tr><td><msub><mtext>CG-APP</mtext><mtext>D</mtext></msub><apply><csymbol>subscript</csymbol><ci><mtext>CG-APP</mtext></ci><ci><mtext>D</mtext></ci></apply><annotation>\\textbf{CG-APP}_{\\textnormal{{D}}}</annotation></td><td>88.9%</td><td>92.6%</td></tr></table></span></div>",
+        "og_table": "<figure><div><span><table><tr><td><span>Dataset</span></td><td><span>Deviation &lt;= 1</span></td><td><span>Deviation &lt;= 2</span></td></tr><tr><td><math><semantics><msub><mtext>CG-SUB</mtext><mtext>T</mtext></msub><annotation-xml><apply><csymbol>subscript</csymbol><ci><mtext>CG-SUB</mtext></ci><ci><mtext>T</mtext></ci></apply></annotation-xml><annotation>\\textbf{CG-SUB}_{\\textnormal{{T}}}</annotation></semantics></math></td><td>93.2%</td><td>94.4%</td></tr><tr><td><math><semantics><msub><mtext>CG-SUB</mtext><mtext>D</mtext></msub><annotation-xml><apply><csymbol>subscript</csymbol><ci><mtext>CG-SUB</mtext></ci><ci><mtext>D</mtext></ci></apply></annotation-xml><annotation>\\textbf{CG-SUB}_{\\textnormal{{D}}}</annotation></semantics></math></td><td>92.9%</td><td>94.1%</td></tr><tr><td><math><semantics><msub><mtext>CG-APP</mtext><mtext>T</mtext></msub><annotation-xml><apply><csymbol>subscript</csymbol><ci><mtext>CG-APP</mtext></ci><ci><mtext>T</mtext></ci></apply></annotation-xml><annotation>\\textbf{CG-APP}_{\\textnormal{{T}}}</annotation></semantics></math></td><td>86.0%</td><td>90.4%</td></tr><tr><td><math><semantics><msub><mtext>CG-APP</mtext><mtext>D</mtext></msub><annotation-xml><apply><csymbol>subscript</csymbol><ci><mtext>CG-APP</mtext></ci><ci><mtext>D</mtext></ci></apply></annotation-xml><annotation>\\textbf{CG-APP}_{\\textnormal{{D}}}</annotation></semantics></math></td><td>88.9%</td><td>92.6%</td></tr></table></span></div><figcaption><span>Table 4: </span>The similarity between sub-sentences in Spider-SS and Spider-CG generated by the same split algorithm under the deviation of one or two tokens. </figcaption></figure>",
+        "is_latex": true,
+        "is_html": false,
+        "table_head": "\\begin{tabular}{llll}\n\\toprule\n & 0 & 1 & 2 \\\\\n\\midrule\n0 & Dataset & Deviation <= 1 & Deviation <= 2 \\\\\n1 & CG-SUBTsubscriptCG-SUBT\\textbf{CG-SUB}_{\\textnormal{{T}}} & 93.2% & 94.4% \\\\\n2 & CG-SUBDsubscriptCG-SUBD\\textbf{CG-SUB}_{\\textnormal{{D}}} & 92.9% & 94.1% \\\\\n3 & CG-APPTsubscriptCG-APPT\\textbf{CG-APP}_{\\textnormal{{T}}} & 86.0% & 90.4% \\\\\n\\bottomrule\n\\end{tabular}\n",
+        "caption": "Table 4: The similarity between sub-sentences in Spider-SS and Spider-CG generated by the same split algorithm under the deviation of one or two tokens.",
+        "citations": [
+            "Table 4 presents the similarity between sub-sentences in Spider-SS and Spider-CG, which are generated by the same split algorithm under the deviation of one or two words. The similarity exceeds 90% in all evaluation set when two deviation words are allowed. Considering that the model trained on the Spider-SS does not require consistent split results, as discussed in Section 2.2, the similarity results of the splitting algorithm are good enough. The similarity of CG-SUB is higher than that of CG-APP, which means the more complex the sentence, the greater the challenge to the algorithm. Although the algorithm has been refined on the training set, the similarity between training and development in CG-SUB and CG-APP is close, showing that the algorithm performs consistently for sentences in unseen domains. In summary, we consider that as long as the sentences are not more complex than CG-APP, the algorithm can be used stably in other text-to-SQL datasets."
+        ],
+        "candidates_pairs": [
+            [
+                [
+                    "0",
+                    "Dataset"
+                ]
+            ],
+            [
+                [
+                    "0",
+                    "Dataset"
+                ],
+                [
+                    "1",
+                    "Deviation <= 1"
+                ]
+            ],
+            [
+                [
+                    "0",
+                    "Dataset"
+                ],
+                [
+                    "1",
+                    "Deviation <= 1"
+                ],
+                [
+                    "2",
+                    "Deviation <= 2"
+                ]
+            ]
+        ]
+    },
+    "1909.00786_4": {
+        "latex_table": "\\begin{tabular}{llll}\n\\toprule\n & 0 & 1 & 2 \\\\\n\\midrule\n0 & NaN & Dev Set & Test Set \\\\\n1 & SQLNet Xu etal. (2017) & 10.9 & 12.4 \\\\\n2 & SyntaxSQLNet Yu etal. (2018b) & 18.9 & 19.7 \\\\\n3 & +data augmentation Yu etal. (2018b) & 24.8 & 27.2 \\\\\n4 & Lee (2019) & 28.5 & 24.3 \\\\\n5 & GNN Bogin etal. (2019) & 40.7 & 39.4 \\\\\n6 & IRNet Guo etal. (2019) & 53.2 & 46.7 \\\\\n7 & IRNet (BERT) Guo etal. (2019) & 61.9 & 54.7 \\\\\n8 & Ours & 36.4 & 32.9 \\\\\n9 & + utterance-table BERT Embedding & 57.6 & 53.4 \\\\\n10 & NaN & NaN & NaN \\\\\n\\bottomrule\n\\end{tabular}\n",
+        "html_table": "<div><span><table><tr><td></td><td>Dev Set</td><td>Test Set</td></tr><tr><td>SQLNet <cite>Xu etal. (2017)</cite></td><td>10.9</td><td>12.4</td></tr><tr><td>SyntaxSQLNet <cite>Yu etal. (2018b)</cite></td><td>18.9</td><td>19.7</td></tr><tr><td>+data augmentation <cite>Yu etal. (2018b)</cite></td><td>24.8</td><td>27.2</td></tr><tr><td><cite>Lee (2019)</cite></td><td>28.5</td><td>24.3</td></tr><tr><td>GNN <cite>Bogin etal. (2019)</cite></td><td>40.7</td><td>39.4</td></tr><tr><td>IRNet <cite>Guo etal. (2019)</cite></td><td>53.2</td><td>46.7</td></tr><tr><td>IRNet (BERT) <cite>Guo etal. (2019)</cite></td><td>61.9</td><td>54.7</td></tr><tr><td>Ours</td><td>36.4</td><td>32.9</td></tr><tr><td>+ utterance-table BERT Embedding</td><td>57.6</td><td>53.4</td></tr><tr><td></td><td></td><td></td></tr></table></span></div>",
+        "og_table": "<figure><div><span><table><tr><td><span></span></td><td>Dev Set</td><td>Test Set</td></tr><tr><td>SQLNet <cite>Xu etal. (<a>2017</a>)</cite></td><td>10.9</td><td>12.4</td></tr><tr><td>SyntaxSQLNet <cite>Yu etal. (<a>2018b</a>)</cite></td><td>18.9</td><td>19.7</td></tr><tr><td>+data augmentation <cite>Yu etal. (<a>2018b</a>)</cite></td><td>24.8</td><td>27.2</td></tr><tr><td><cite>Lee (<a>2019</a>)</cite></td><td>28.5</td><td>24.3</td></tr><tr><td>GNN <cite>Bogin etal. (<a>2019</a>)</cite></td><td>40.7</td><td>39.4</td></tr><tr><td>IRNet <cite>Guo etal. (<a>2019</a>)</cite></td><td>53.2</td><td>46.7</td></tr><tr><td>IRNet (BERT) <cite>Guo etal. (<a>2019</a>)</cite></td><td>61.9</td><td>54.7</td></tr><tr><td>Ours</td><td>36.4</td><td>32.9</td></tr><tr><td>+ utterance-table BERT Embedding</td><td>57.6</td><td>53.4</td></tr><tr><td><span></span></td><td></td><td></td></tr></table></span></div><figcaption><span>Table 4: </span>Spider results on dev set and test set.</figcaption></figure>",
+        "is_latex": true,
+        "is_html": false,
+        "table_head": "\\begin{tabular}{llll}\n\\toprule\n & 0 & 1 & 2 \\\\\n\\midrule\n0 & NaN & Dev Set & Test Set \\\\\n1 & SQLNet Xu etal. (2017) & 10.9 & 12.4 \\\\\n2 & SyntaxSQLNet Yu etal. (2018b) & 18.9 & 19.7 \\\\\n3 & +data augmentation Yu etal. (2018b) & 24.8 & 27.2 \\\\\n\\bottomrule\n\\end{tabular}\n",
+        "caption": "Table 4: Spider results on dev set and test set.",
+        "citations": [
+            "Spider. Table 4 shows the results on Spider dataset. Since each question is standalone, we dont use interaction-level decoder or query editing. Our method can achieve the performance of 36.4% on dev set and 32.9% on test set, serving as a strong model for the context-independent cross-domain text-to-SQL generation. This demonstrates the effectiveness of our utterance-table encoder and table-aware decoder to handle the semantics of user utterances and the complexity of table schemas to generate complex SQL queries in unseen domains."
+        ],
+        "candidates_pairs": [
+            [
+                [
+                    "0",
+                    "nan"
+                ]
+            ],
+            [
+                [
+                    "0",
+                    "nan"
+                ],
+                [
+                    "1",
+                    "Dev Set"
+                ]
+            ],
+            [
+                [
+                    "0",
+                    "nan"
+                ],
+                [
+                    "1",
+                    "Dev Set"
+                ],
+                [
+                    "2",
+                    "Test Set"
+                ]
+            ]
+        ]
+    },
+    "2104.04689_2": {
+        "latex_table": "\\begin{tabular}{lllllll}\n\\toprule\n & 0 & 1 & 2 & 3 & 4 & 5 \\\\\n\\midrule\n0 & Approaches & Easy & Medium & Hard & Extra Hard & All \\\\\n1 & R-GCNKelkar etal. (2020) & 70.4% & 54.1% & 35.6% & 28.2% & 50.7% \\\\\n2 & R-GCN & 78.9% & 63.2% & 46.6% & 29.8% & 58.7% \\\\\n3 & R-GCN+RAT & 85.0% & 70.9% & 56.3% & 32.7% & 65.6% \\\\\n4 & GPNN & 87.5% & 74.9% & 59.2% & 41.6% & 69.9% \\\\\n5 & RATSQL & 87.1% & 74.9% & 57.5% & 46.4% & 70.2% \\\\\n6 & ShadowGNN & 87.5% & 78.0% & 61.5% & 45.8% & 72.3% \\\\\n\\bottomrule\n\\end{tabular}\n",
+        "html_table": "<div><span><table><tbody><tr><td>Approaches</td><td>Easy</td><td>Medium</td><td>Hard</td><td>Extra Hard</td><td>All</td></tr><tr><td>R-GCN<cite>Kelkar etal. (2020)</cite></td><td>70.4%</td><td>54.1%</td><td>35.6%</td><td>28.2%</td><td>50.7%</td></tr><tr><td>R-GCN<sup></sup></td><td>78.9%</td><td>63.2%</td><td>46.6%</td><td>29.8%</td><td>58.7%</td></tr><tr><td>R-GCN+RAT</td><td>85.0%</td><td>70.9%</td><td>56.3%</td><td>32.7%</td><td>65.6%</td></tr><tr><td>GPNN</td><td>87.5%</td><td>74.9%</td><td>59.2%</td><td>41.6%</td><td>69.9%</td></tr><tr><td>RATSQL<sup></sup></td><td>87.1%</td><td>74.9%</td><td>57.5%</td><td>46.4%</td><td>70.2%</td></tr><tr><td>ShadowGNN</td><td>87.5%</td><td>78.0%</td><td>61.5%</td><td>45.8%</td><td>72.3%</td></tr></tbody></table></span></div>",
+        "og_table": "<figure><div><span><table><tbody><tr><td><span>Approaches</span></td><td><span>Easy</span></td><td><span>Medium</span></td><td><span>Hard</span></td><td><span>Extra Hard</span></td><td><span>All</span></td></tr><tr><td>R-GCN<cite>Kelkar etal. (<a>2020</a>)</cite></td><td>70.4%</td><td>54.1%</td><td>35.6%</td><td>28.2%</td><td>50.7%</td></tr><tr><td>R-GCN<sup></sup></td><td>78.9%</td><td>63.2%</td><td>46.6%</td><td>29.8%</td><td>58.7%</td></tr><tr><td>R-GCN+RAT</td><td>85.0%</td><td>70.9%</td><td>56.3%</td><td>32.7%</td><td>65.6%</td></tr><tr><td>GPNN</td><td><span>87.5</span>%</td><td>74.9%</td><td>59.2%</td><td>41.6%</td><td>69.9%</td></tr><tr><td>RATSQL<sup></sup></td><td>87.1%</td><td>74.9%</td><td>57.5%</td><td><span>46.4</span>%</td><td>70.2%</td></tr><tr><td>ShadowGNN</td><td><span>87.5</span>%</td><td><span>78.0</span>%</td><td><span>61.5</span>%</td><td>45.8%</td><td><span>72.3</span>%</td></tr></tbody></table></span></div><figcaption><span>Table 2: </span>The match accuracy of the ablation methods at four hardness levels on development set. <sup></sup> means the model is implemented by us.</figcaption></figure>",
+        "is_latex": true,
+        "is_html": false,
+        "table_head": "\\begin{tabular}{lllllll}\n\\toprule\n & 0 & 1 & 2 & 3 & 4 & 5 \\\\\n\\midrule\n0 & Approaches & Easy & Medium & Hard & Extra Hard & All \\\\\n1 & R-GCNKelkar etal. (2020) & 70.4% & 54.1% & 35.6% & 28.2% & 50.7% \\\\\n2 & R-GCN & 78.9% & 63.2% & 46.6% & 29.8% & 58.7% \\\\\n3 & R-GCN+RAT & 85.0% & 70.9% & 56.3% & 32.7% & 65.6% \\\\\n\\bottomrule\n\\end{tabular}\n",
+        "caption": "Table 2: The match accuracy of the ablation methods at four hardness levels on development set.  means the model is implemented by us.",
+        "citations": [
+            "The decoder parts of these four ablation models are the same as the decoder of ShadowGNN. We present the accuracy of the ablation models at the four hardness levels on the development set, which is defined in Yu etal. (2018). As shown in Table2, ShadowGNN can get the best performance at three hardness levels. Compared with R-GCNKelkar etal. (2020), our implemented R-GCN based on SemQL grammar gets higher performance. Compared with R-GCN+RAT model, ShadowGNN still gets the better performance, where the initial input information is absolutely the same. It denotes that it is necessary and effective to abstract the representation of question and schema explicitly."
+        ],
+        "candidates_pairs": [
+            [
+                [
+                    "0",
+                    "Approaches"
+                ]
+            ],
+            [
+                [
+                    "0",
+                    "Approaches"
+                ],
+                [
+                    "1",
+                    "Easy"
+                ]
+            ],
+            [
+                [
+                    "0",
+                    "Approaches"
+                ],
+                [
+                    "1",
+                    "Easy"
+                ],
+                [
+                    "2",
+                    "Medium"
+                ]
+            ],
+            [
+                [
+                    "0",
+                    "Approaches"
+                ],
+                [
+                    "1",
+                    "Easy"
+                ],
+                [
+                    "2",
+                    "Medium"
+                ],
+                [
+                    "3",
+                    "Hard"
+                ]
+            ],
+            [
+                [
+                    "0",
+                    "Approaches"
+                ],
+                [
+                    "1",
+                    "Easy"
+                ],
+                [
+                    "2",
+                    "Medium"
+                ],
+                [
+                    "3",
+                    "Hard"
+                ],
+                [
+                    "4",
+                    "Extra Hard"
+                ]
+            ],
+            [
+                [
+                    "0",
+                    "Approaches"
+                ],
+                [
+                    "1",
+                    "Easy"
+                ],
+                [
+                    "2",
+                    "Medium"
+                ],
+                [
+                    "3",
+                    "Hard"
+                ],
+                [
+                    "4",
+                    "Extra Hard"
+                ],
+                [
+                    "5",
+                    "All"
+                ]
+            ]
+        ]
+    },
+    "2306.00739_4": {
+        "latex_table": "\\begin{tabular}{lllrr}\n\\toprule\n & Prompt design & Adaptation setting & EX & TS \\\\\n\\midrule\n0 & Concise & 0-shot & 81.200000 & 76.000000 \\\\\n1 & Verbose & 0-shot & 78.500000 & 70.900000 \\\\\n2 & Concise & 4-shot & 82.700000 & 77.300000 \\\\\n3 & Verbose & 4-shot & 81.300000 & 73.700000 \\\\\n\\bottomrule\n\\end{tabular}\n",
+        "html_table": "<div><span><table><thead><tr><th>Prompt design</th><th>Adaptation setting</th><th>EX</th><th>TS</th></tr></thead><tbody><tr><td>Concise</td><td>0-shot</td><td>81.2</td><td>76.0</td></tr><tr><td>Verbose</td><td>0-shot</td><td>78.5</td><td>70.9</td></tr><tr><td>Concise</td><td>4-shot</td><td>82.7</td><td>77.3</td></tr><tr><td>Verbose</td><td>4-shot</td><td>81.3</td><td>73.7</td></tr></tbody></table></span></div>",
+        "og_table": "<figure><div><span><table><thead><tr><th><span>Prompt design</span></th><th><span>Adaptation setting</span></th><th><span>EX</span></th><th><span>TS</span></th></tr></thead><tbody><tr><td><span>Concise</span></td><td>0-shot</td><td>81.2</td><td>76.0</td></tr><tr><td><span>Verbose</span></td><td>0-shot</td><td>78.5</td><td>70.9</td></tr><tr><td><span>Concise</span></td><td>4-shot</td><td><span>82.7</span></td><td><span>77.3</span></td></tr><tr><td><span>Verbose</span></td><td>4-shot</td><td>81.3</td><td>73.7</td></tr></tbody></table></span></div><figcaption><span>Table 4: </span>Test-suite accuracy for different prompt design approaches in zero- and few-shot set-up on Spider Dev. </figcaption></figure>",
+        "is_latex": true,
+        "is_html": false,
+        "table_head": "\\begin{tabular}{lllrr}\n\\toprule\n & Prompt design & Adaptation setting & EX & TS \\\\\n\\midrule\n0 & Concise & 0-shot & 81.200000 & 76.000000 \\\\\n1 & Verbose & 0-shot & 78.500000 & 70.900000 \\\\\n2 & Concise & 4-shot & 82.700000 & 77.300000 \\\\\n3 & Verbose & 4-shot & 81.300000 & 73.700000 \\\\\n\\bottomrule\n\\end{tabular}\n",
+        "caption": "Table 4: Test-suite accuracy for different prompt design approaches in zero- and few-shot set-up on Spider Dev.",
+        "citations": [
+            "In Table 4, we analyze the performance of Few-shot SQL-PaLM method on queries with different prompt designs and different number of demonstrations (zero- vs. few-shot). As expected, few-shot setup yields better performance over zero-shot but the gap is observed to be small. We also explore the effect of different prompt design approaches on performance. The explored prompt design approaches are from [15]: Verbose prompts are based on using natural language to describe database schema, which is closer to the way LLMs were trained, whereas Concise prompts use the syntax to describe the database schema, which has advantages of clearly presenting table structure. More details are provided in Appendix 9.1 and 9.2. For PaLM-2, Concise prompts yield superior results."
+        ],
+        "candidates_pairs": [
+            [
+                [
+                    "Prompt design",
+                    "Concise"
+                ]
+            ],
+            [
+                [
+                    "Prompt design",
+                    "Concise"
+                ],
+                [
+                    "Adaptation setting",
+                    "0-shot"
+                ]
+            ],
+            [
+                [
+                    "Prompt design",
+                    "Concise"
+                ],
+                [
+                    "Adaptation setting",
+                    "0-shot"
+                ],
+                [
+                    "EX",
+                    81.2
+                ]
+            ],
+            [
+                [
+                    "Prompt design",
+                    "Concise"
+                ],
+                [
+                    "Adaptation setting",
+                    "0-shot"
+                ],
+                [
+                    "EX",
+                    81.2
+                ],
+                [
+                    "TS",
+                    76.0
+                ]
+            ]
+        ]
+    },
+    "2310.13575_6": {
+        "latex_table": "\\begin{tabular}{llllr}\n\\toprule\n & QPL Length & Q \\rightarrow QPL & Q+QD \\rightarrow QPL & Support \\\\\n\\midrule\n0 & 1 & 87.3% & 78.3% & 189 \\\\\n1 & 2 & 86.6% & 83.4% & 277 \\\\\n2 & 3 & 85.3% & 78.0% & 191 \\\\\n3 & 4 & 75.0% & 62.9% & 124 \\\\\n4 & 5 & 67.1% & 54.4% & 164 \\\\\n5 & 6 & 48.2% & 25.9% & 27 \\\\\n6 & 7 & 31.8% & 22.7% & 44 \\\\\n7 & \\geq8 & 11.9% & 24.4% & 18 \\\\\n8 & Overall & 77.4% & 69.1% & 1034 \\\\\n\\bottomrule\n\\end{tabular}\n",
+        "html_table": "<table><thead><tr><th>QPL Length</th><th>Q <mo></mo><ci></ci><annotation>\\rightarrow</annotation> QPL</th><th>Q+QD <mo></mo><ci></ci><annotation>\\rightarrow</annotation> QPL</th><th>Support</th></tr></thead><tbody><tr><td>1</td><td>87.3%</td><td>78.3%</td><td>189</td></tr><tr><td>2</td><td>86.6%</td><td>83.4%</td><td>277</td></tr><tr><td>3</td><td>85.3%</td><td>78.0%</td><td>191</td></tr><tr><td>4</td><td>75.0%</td><td>62.9%</td><td>124</td></tr><tr><td>5</td><td>67.1%</td><td>54.4%</td><td>164</td></tr><tr><td>6</td><td>48.2%</td><td>25.9%</td><td>27</td></tr><tr><td>7</td><td>31.8%</td><td>22.7%</td><td>44</td></tr><tr><td><mo></mo><geq></geq><annotation>\\geq</annotation>8</td><td>11.9%</td><td>24.4%</td><td>18</td></tr><tr><td>Overall</td><td>77.4%</td><td>69.1%</td><td>1034</td></tr></tbody></table>",
+        "og_table": "<figure><table><thead><tr><th>QPL Length</th><th>Q <math><semantics><mo></mo><annotation-xml><ci></ci></annotation-xml><annotation>\\rightarrow</annotation></semantics></math> QPL</th><th>Q+QD <math><semantics><mo></mo><annotation-xml><ci></ci></annotation-xml><annotation>\\rightarrow</annotation></semantics></math> QPL</th><th>Support</th></tr></thead><tbody><tr><td>1</td><td>87.3%</td><td>78.3%</td><td>189</td></tr><tr><td>2</td><td>86.6%</td><td>83.4%</td><td>277</td></tr><tr><td>3</td><td>85.3%</td><td>78.0%</td><td>191</td></tr><tr><td>4</td><td>75.0%</td><td>62.9%</td><td>124</td></tr><tr><td>5</td><td>67.1%</td><td>54.4%</td><td>164</td></tr><tr><td>6</td><td>48.2%</td><td>25.9%</td><td>27</td></tr><tr><td>7</td><td>31.8%</td><td>22.7%</td><td>44</td></tr><tr><td><math><semantics><mo></mo><annotation-xml><geq></geq></annotation-xml><annotation>\\geq</annotation></semantics></math>8</td><td>11.9%</td><td>24.4%</td><td>18</td></tr><tr><td>Overall</td><td><span>77.4%</span></td><td>69.1%</td><td>1034</td></tr></tbody></table><figcaption><span>Table 6: </span>Execution Accuracy of Text-to-QPL Models on <span>Spider</span> Development Set by Length of QPL. QPL length is a more natural measure of query complexity than the method used to classify queries in <span>Spider</span>. We find that there is little correlation between QPL Length and the Spider difficulty level.</figcaption></figure>",
+        "is_latex": true,
+        "is_html": false,
+        "table_head": "\\begin{tabular}{llllr}\n\\toprule\n & QPL Length & Q \\rightarrow QPL & Q+QD \\rightarrow QPL & Support \\\\\n\\midrule\n0 & 1 & 87.3% & 78.3% & 189 \\\\\n1 & 2 & 86.6% & 83.4% & 277 \\\\\n2 & 3 & 85.3% & 78.0% & 191 \\\\\n3 & 4 & 75.0% & 62.9% & 124 \\\\\n\\bottomrule\n\\end{tabular}\n",
+        "caption": "Table 6: Execution Accuracy of Text-to-QPL Models on Spider Development Set by Length of QPL. QPL length is a more natural measure of query complexity than the method used to classify queries in Spider. We find that there is little correlation between QPL Length and the Spider difficulty level.",
+        "citations": [],
+        "candidates_pairs": [
+            [
+                [
+                    "QPL Length",
+                    "1"
+                ]
+            ],
+            [
+                [
+                    "QPL Length",
+                    "1"
+                ],
+                [
+                    "Q \\rightarrow QPL",
+                    "87.3%"
+                ]
+            ],
+            [
+                [
+                    "QPL Length",
+                    "1"
+                ],
+                [
+                    "Q \\rightarrow QPL",
+                    "87.3%"
+                ],
+                [
+                    "Q+QD \\rightarrow QPL",
+                    "78.3%"
+                ]
+            ],
+            [
+                [
+                    "QPL Length",
+                    "1"
+                ],
+                [
+                    "Q \\rightarrow QPL",
+                    "87.3%"
+                ],
+                [
+                    "Q+QD \\rightarrow QPL",
+                    "78.3%"
+                ],
+                [
+                    "Support",
+                    189
+                ]
+            ]
+        ]
+    },
+    "2112.02212_3": {
+        "latex_table": "\\begin{tabular}{lllllll}\n\\toprule\n & 0 & 1 & 2 & 3 & 4 & 5 \\\\\n\\midrule\n0 & # Train & 169416941694 & 277727772777 & 146114611461 & 106810681068 & 700070007000 \\\\\n1 & # Test & 248248248 & 446446446 & 174174174 & 166166166 & 103410341034 \\\\\n2 & NaN & Easy & Medium & Hard & Extra & All \\\\\n3 & DT-Fixup & 91.991.991.9 & 80.980.980.9 & 60.360.360.3 & 48.848.848.8 & 75.075.075.0 \\\\\n4 & +Ours & 92.792.7\\mathbf{92.7} & 82.382.3\\mathbf{82.3} & 65.565.5\\mathbf{65.5} & 52.452.4\\mathbf{52.4} & 77.277.2\\mathbf{77.2} \\\\\n\\bottomrule\n\\end{tabular}\n",
+        "html_table": "<table><tr><td># Train</td><td><mn>1694</mn><cn>1694</cn><annotation>1694</annotation></td><td><mn>2777</mn><cn>2777</cn><annotation>2777</annotation></td><td><mn>1461</mn><cn>1461</cn><annotation>1461</annotation></td><td><mn>1068</mn><cn>1068</cn><annotation>1068</annotation></td><td><mn>7000</mn><cn>7000</cn><annotation>7000</annotation></td></tr><tr><td># Test</td><td><mn>248</mn><cn>248</cn><annotation>248</annotation></td><td><mn>446</mn><cn>446</cn><annotation>446</annotation></td><td><mn>174</mn><cn>174</cn><annotation>174</annotation></td><td><mn>166</mn><cn>166</cn><annotation>166</annotation></td><td><mn>1034</mn><cn>1034</cn><annotation>1034</annotation></td></tr><tr><td></td><td>Easy</td><td>Medium</td><td>Hard</td><td>Extra</td><td>All</td></tr><tr><td>DT-Fixup</td><td><mn>91.9</mn><cn>91.9</cn><annotation>91.9</annotation></td><td><mn>80.9</mn><cn>80.9</cn><annotation>80.9</annotation></td><td><mn>60.3</mn><cn>60.3</cn><annotation>60.3</annotation></td><td><mn>48.8</mn><cn>48.8</cn><annotation>48.8</annotation></td><td><mn>75.0</mn><cn>75.0</cn><annotation>75.0</annotation></td></tr><tr><td>+Ours</td><td><mn>92.7</mn><cn>92.7</cn><annotation>\\mathbf{92.7}</annotation></td><td><mn>82.3</mn><cn>82.3</cn><annotation>\\mathbf{82.3}</annotation></td><td><mn>65.5</mn><cn>65.5</cn><annotation>\\mathbf{65.5}</annotation></td><td><mn>52.4</mn><cn>52.4</cn><annotation>\\mathbf{52.4}</annotation></td><td><mn>77.2</mn><cn>77.2</cn><annotation>\\mathbf{77.2}</annotation></td></tr></table>",
+        "og_table": "<figure><table><tr><td><span># Train</span></td><td><math><semantics><mn>1694</mn><annotation-xml><cn>1694</cn></annotation-xml><annotation>1694</annotation></semantics></math></td><td><math><semantics><mn>2777</mn><annotation-xml><cn>2777</cn></annotation-xml><annotation>2777</annotation></semantics></math></td><td><math><semantics><mn>1461</mn><annotation-xml><cn>1461</cn></annotation-xml><annotation>1461</annotation></semantics></math></td><td><math><semantics><mn>1068</mn><annotation-xml><cn>1068</cn></annotation-xml><annotation>1068</annotation></semantics></math></td><td><math><semantics><mn>7000</mn><annotation-xml><cn>7000</cn></annotation-xml><annotation>7000</annotation></semantics></math></td></tr><tr><td><span># Test</span></td><td><math><semantics><mn>248</mn><annotation-xml><cn>248</cn></annotation-xml><annotation>248</annotation></semantics></math></td><td><math><semantics><mn>446</mn><annotation-xml><cn>446</cn></annotation-xml><annotation>446</annotation></semantics></math></td><td><math><semantics><mn>174</mn><annotation-xml><cn>174</cn></annotation-xml><annotation>174</annotation></semantics></math></td><td><math><semantics><mn>166</mn><annotation-xml><cn>166</cn></annotation-xml><annotation>166</annotation></semantics></math></td><td><math><semantics><mn>1034</mn><annotation-xml><cn>1034</cn></annotation-xml><annotation>1034</annotation></semantics></math></td></tr><tr><td></td><td><span>Easy</span></td><td><span>Medium</span></td><td><span>Hard</span></td><td><span>Extra</span></td><td><span>All</span></td></tr><tr><td><span>DT-Fixup</span></td><td><math><semantics><mn>91.9</mn><annotation-xml><cn>91.9</cn></annotation-xml><annotation>91.9</annotation></semantics></math></td><td><math><semantics><mn>80.9</mn><annotation-xml><cn>80.9</cn></annotation-xml><annotation>80.9</annotation></semantics></math></td><td><math><semantics><mn>60.3</mn><annotation-xml><cn>60.3</cn></annotation-xml><annotation>60.3</annotation></semantics></math></td><td><math><semantics><mn>48.8</mn><annotation-xml><cn>48.8</cn></annotation-xml><annotation>48.8</annotation></semantics></math></td><td><math><semantics><mn>75.0</mn><annotation-xml><cn>75.0</cn></annotation-xml><annotation>75.0</annotation></semantics></math></td></tr><tr><td><span>+Ours</span></td><td><math><semantics><mn>92.7</mn><annotation-xml><cn>92.7</cn></annotation-xml><annotation>\\mathbf{92.7}</annotation></semantics></math></td><td><math><semantics><mn>82.3</mn><annotation-xml><cn>82.3</cn></annotation-xml><annotation>\\mathbf{82.3}</annotation></semantics></math></td><td><math><semantics><mn>65.5</mn><annotation-xml><cn>65.5</cn></annotation-xml><annotation>\\mathbf{65.5}</annotation></semantics></math></td><td><math><semantics><mn>52.4</mn><annotation-xml><cn>52.4</cn></annotation-xml><annotation>\\mathbf{52.4}</annotation></semantics></math></td><td><math><semantics><mn>77.2</mn><annotation-xml><cn>77.2</cn></annotation-xml><annotation>\\mathbf{77.2}</annotation></semantics></math></td></tr></table><figcaption><span>Table 3: </span>Accuracy on Spider by hardness levels.</figcaption></figure>",
+        "is_latex": true,
+        "is_html": false,
+        "table_head": "\\begin{tabular}{lllllll}\n\\toprule\n & 0 & 1 & 2 & 3 & 4 & 5 \\\\\n\\midrule\n0 & # Train & 169416941694 & 277727772777 & 146114611461 & 106810681068 & 700070007000 \\\\\n1 & # Test & 248248248 & 446446446 & 174174174 & 166166166 & 103410341034 \\\\\n2 & NaN & Easy & Medium & Hard & Extra & All \\\\\n3 & DT-Fixup & 91.991.991.9 & 80.980.980.9 & 60.360.360.3 & 48.848.848.8 & 75.075.075.0 \\\\\n\\bottomrule\n\\end{tabular}\n",
+        "caption": "Table 3: Accuracy on Spider by hardness levels.",
+        "citations": [
+            "Furthermore, as shown by Table 3, our augmentation method leads to gains across all difficulty levels, where the levels are defined by Yu etal. (2018), with more boost in the hard and extra hard categories (66~{}6-points on average). This is encouraging, as training data is particularly limited in those hard categories, while manual curation or simple heuristics are not feasible to generate more difficult examples."
+        ],
+        "candidates_pairs": [
+            [
+                [
+                    "0",
+                    "# Train"
+                ]
+            ],
+            [
+                [
+                    "0",
+                    "# Train"
+                ],
+                [
+                    "1",
+                    "169416941694"
+                ]
+            ],
+            [
+                [
+                    "0",
+                    "# Train"
+                ],
+                [
+                    "1",
+                    "169416941694"
+                ],
+                [
+                    "2",
+                    "277727772777"
+                ]
+            ],
+            [
+                [
+                    "0",
+                    "# Train"
+                ],
+                [
+                    "1",
+                    "169416941694"
+                ],
+                [
+                    "2",
+                    "277727772777"
+                ],
+                [
+                    "3",
+                    "146114611461"
+                ]
+            ],
+            [
+                [
+                    "0",
+                    "# Train"
+                ],
+                [
+                    "1",
+                    "169416941694"
+                ],
+                [
+                    "2",
+                    "277727772777"
+                ],
+                [
+                    "3",
+                    "146114611461"
+                ],
+                [
+                    "4",
+                    "106810681068"
+                ]
+            ],
+            [
+                [
+                    "0",
+                    "# Train"
+                ],
+                [
+                    "1",
+                    "169416941694"
+                ],
+                [
+                    "2",
+                    "277727772777"
+                ],
+                [
+                    "3",
+                    "146114611461"
+                ],
+                [
+                    "4",
+                    "106810681068"
+                ],
+                [
+                    "5",
+                    "700070007000"
+                ]
+            ]
+        ]
+    },
+    "1807.03100_1": {
+        "latex_table": "\\begin{tabular}{llrrrr}\n\\toprule\n & Model & \\multicolumn{2}{r}{Dev} & \\multicolumn{2}{r}{Test} \\\\\n & Model & Accsynsyn{}_{\\text{syn}} & Accexex{}_{\\text{ex}} & Accsynsyn{}_{\\text{syn}} & Accexex{}_{\\text{ex}} \\\\\n\\midrule\n0 & Pointer-SQL (?) & 61.800000 & 72.500000 & 62.300000 & 71.900000 \\\\\n1 & Pointer-SQL + EG (3) & 66.600000 & 77.300000 & 66.700000 & 76.900000 \\\\\n2 & Pointer-SQL + EG (5) & 67.500000 & 78.400000 & 67.900000 & 78.300000 \\\\\n3 & Coarse2Fine (?) & 72.900000 & 79.200000 & 71.700000 & 78.400000 \\\\\n4 & Coarse2Fine + EG (3) & 75.600000 & 83.400000 & 74.800000 & 83.000000 \\\\\n5 & Coarse2Fine + EG (5) & 76.000000 & 84.000000 & 75.400000 & 83.800000 \\\\\n\\bottomrule\n\\end{tabular}\n",
+        "html_table": "<table><thead><tr><th rowspan=\"2\">Model</th><th colspan=\"2\">Dev</th><th colspan=\"2\">Test</th></tr><tr><th>Acc<msub><mi></mi><mtext>syn</mtext></msub><apply><ci><mtext>syn</mtext></ci></apply><annotation>{}_{\\text{syn}}</annotation></th><th>Acc<msub><mi></mi><mtext>ex</mtext></msub><apply><ci><mtext>ex</mtext></ci></apply><annotation>{}_{\\text{ex}}</annotation></th><th>Acc<msub><mi></mi><mtext>syn</mtext></msub><apply><ci><mtext>syn</mtext></ci></apply><annotation>{}_{\\text{syn}}</annotation></th><th>Acc<msub><mi></mi><mtext>ex</mtext></msub><apply><ci><mtext>ex</mtext></ci></apply><annotation>{}_{\\text{ex}}</annotation></th></tr></thead><tbody><tr><th>Pointer-SQL (?)</th><td>61.8</td><td>72.5</td><td>62.3</td><td>71.9</td></tr><tr><th>Pointer-SQL + EG (3)</th><td>66.6</td><td>77.3</td><td>66.7</td><td>76.9</td></tr><tr><th>Pointer-SQL + EG (5)</th><td>67.5</td><td>78.4</td><td>67.9</td><td>78.3</td></tr><tr><th>Coarse2Fine (?)</th><td>72.9</td><td>79.2</td><td>71.7</td><td>78.4</td></tr><tr><th>Coarse2Fine + EG (3)</th><td>75.6</td><td>83.4</td><td>74.8</td><td>83.0</td></tr><tr><th>Coarse2Fine + EG (5)</th><td>76.0</td><td>84.0</td><td>75.4</td><td>83.8</td></tr></tbody></table>",
+        "og_table": "<figure><table><thead><tr><th rowspan=\"2\"><span>Model</span></th><th colspan=\"2\">Dev</th><th colspan=\"2\">Test</th></tr><tr><th>Acc<math><semantics><msub><mi></mi><mtext>syn</mtext></msub><annotation-xml><apply><ci><mtext>syn</mtext></ci></apply></annotation-xml><annotation>{}_{\\text{syn}}</annotation></semantics></math></th><th>Acc<math><semantics><msub><mi></mi><mtext>ex</mtext></msub><annotation-xml><apply><ci><mtext>ex</mtext></ci></apply></annotation-xml><annotation>{}_{\\text{ex}}</annotation></semantics></math></th><th>Acc<math><semantics><msub><mi></mi><mtext>syn</mtext></msub><annotation-xml><apply><ci><mtext>syn</mtext></ci></apply></annotation-xml><annotation>{}_{\\text{syn}}</annotation></semantics></math></th><th>Acc<math><semantics><msub><mi></mi><mtext>ex</mtext></msub><annotation-xml><apply><ci><mtext>ex</mtext></ci></apply></annotation-xml><annotation>{}_{\\text{ex}}</annotation></semantics></math></th></tr></thead><tbody><tr><th>Pointer-SQL (<span>?</span>)</th><td>61.8</td><td>72.5</td><td>62.3</td><td>71.9</td></tr><tr><th>Pointer-SQL + EG (3)</th><td>66.6</td><td>77.3</td><td>66.7</td><td>76.9</td></tr><tr><th>Pointer-SQL + EG (5)</th><td><span>67.5</span></td><td><span>78.4</span></td><td><span>67.9</span></td><td><span>78.3</span></td></tr><tr><th>Coarse2Fine (<span>?</span>)</th><td>72.9</td><td>79.2</td><td>71.7</td><td>78.4</td></tr><tr><th>Coarse2Fine + EG (3)</th><td>75.6</td><td>83.4</td><td>74.8</td><td>83.0</td></tr><tr><th>Coarse2Fine + EG (5)</th><td><span>76.0</span></td><td><span>84.0</span></td><td><span>75.4</span></td><td><span>83.8</span></td></tr></tbody></table><figcaption><span>Table 1: </span>Test and Dev accuracy (%) of the models on WikiSQL data, where Acc<math><semantics><msub><mi></mi><mtext>syn</mtext></msub><annotation-xml><apply><ci><mtext>syn</mtext></ci></apply></annotation-xml><annotation>{}_{\\text{syn}}</annotation></semantics></math> refers to syntactical accuracy and Acc<math><semantics><msub><mi></mi><mtext>ex</mtext></msub><annotation-xml><apply><ci><mtext>ex</mtext></ci></apply></annotation-xml><annotation>{}_{\\text{ex}}</annotation></semantics></math> refers to execution accuracy. + EG (<math><semantics><mi>k</mi><annotation-xml><ci></ci></annotation-xml><annotation>k</annotation></semantics></math>) indicates that model outputs are generated using the execution-guided strategy with beam size <math><semantics><mi>k</mi><annotation-xml><ci></ci></annotation-xml><annotation>k</annotation></semantics></math>.</figcaption></figure>",
+        "is_latex": true,
+        "is_html": false,
+        "table_head": "\\begin{tabular}{llrrrr}\n\\toprule\n & Model & \\multicolumn{2}{r}{Dev} & \\multicolumn{2}{r}{Test} \\\\\n & Model & Accsynsyn{}_{\\text{syn}} & Accexex{}_{\\text{ex}} & Accsynsyn{}_{\\text{syn}} & Accexex{}_{\\text{ex}} \\\\\n\\midrule\n0 & Pointer-SQL (?) & 61.800000 & 72.500000 & 62.300000 & 71.900000 \\\\\n1 & Pointer-SQL + EG (3) & 66.600000 & 77.300000 & 66.700000 & 76.900000 \\\\\n2 & Pointer-SQL + EG (5) & 67.500000 & 78.400000 & 67.900000 & 78.300000 \\\\\n3 & Coarse2Fine (?) & 72.900000 & 79.200000 & 71.700000 & 78.400000 \\\\\n\\bottomrule\n\\end{tabular}\n",
+        "caption": "Table 1: Test and Dev accuracy (%) of the models on WikiSQL data, where Accsynsyn{}_{\\text{syn}} refers to syntactical accuracy and Accexex{}_{\\text{ex}} refers to execution accuracy. + EG (kk) indicates that model outputs are generated using the execution-guided strategy with beam size kk.",
+        "citations": [
+            "Table1 shows the results for Pointer-SQL and Coarse2Fine. We report both the syntactical accuracy Accsynsyn{}_{\\text{syn}} corresponding to the ratio of predictions that are exactly the ground truth SQL query, as well as the execution accuracy Accexex{}_{\\text{ex}} corresponding to the ratio of predictions that return the same result as the ground truth when executed. Note that the execution accuracy is higher than syntactical accuracy as syntactically different programs can generate the same results (e.g., programs differing only in predicate order). In execution-guided decoding, we report two model variants, one using a beam size of 333 and the other a beam size of 555."
+        ],
+        "candidates_pairs": [
+            [
+                [
+                    "Model",
+                    "Pointer-SQL (?)"
+                ]
+            ],
+            [
+                [
+                    "Model",
+                    "Pointer-SQL (?)"
+                ],
+                [
+                    "Accsynsyn{}_{\\text{syn}}",
+                    61.8
+                ]
+            ],
+            [
+                [
+                    "Model",
+                    "Pointer-SQL (?)"
+                ],
+                [
+                    "Accsynsyn{}_{\\text{syn}}",
+                    61.8
+                ],
+                [
+                    "Accexex{}_{\\text{ex}}",
+                    72.5
+                ]
+            ],
+            [
+                [
+                    "Model",
+                    "Pointer-SQL (?)"
+                ],
+                [
+                    "Accsynsyn{}_{\\text{syn}}",
+                    61.8
+                ],
+                [
+                    "Accexex{}_{\\text{ex}}",
+                    72.5
+                ],
+                [
+                    "Accsynsyn{}_{\\text{syn}}",
+                    62.3
+                ]
+            ],
+            [
+                [
+                    "Model",
+                    "Pointer-SQL (?)"
+                ],
+                [
+                    "Accsynsyn{}_{\\text{syn}}",
+                    61.8
+                ],
+                [
+                    "Accexex{}_{\\text{ex}}",
+                    72.5
+                ],
+                [
+                    "Accsynsyn{}_{\\text{syn}}",
+                    62.3
+                ],
+                [
+                    "Accexex{}_{\\text{ex}}",
+                    71.9
+                ]
+            ]
+        ]
+    },
+    "2310.18662_7": {
+        "table": "<table><tr><td><span>Dataset</span></td><td><span>Spider</span></td><td><span>SParC</span></td><td><span>CoSQL</span></td></tr><tr><td>LSTM</td><td>206.6</td><td>191.5</td><td>201.0</td></tr><tr><td>ASTormer</td><td>237.0</td><td>200.7</td><td>199.1</td></tr></table>",
+        "html_table": "<table><tr><td><span>Dataset</span></td><td><span>Spider</span></td><td><span>SParC</span></td><td><span>CoSQL</span></td></tr><tr><td>LSTM</td><td>206.6</td><td>191.5</td><td>201.0</td></tr><tr><td>ASTormer</td><td>237.0</td><td>200.7</td><td>199.1</td></tr></table>",
+        "table_head": "<table><tr><td><span>Dataset</span></td><td><span>Spider</span></td><td><span>SParC</span></td><td><span>CoSQL</span></td></tr><tr><td>LSTM</td><td>206.6</td><td>191.5</td><td>201.0</td></tr><tr><td>ASTormer</td><td>237.0</td><td>200.7</td><td>199.1</td></tr></table>",
+        "citations": [
+            "Based on the three rules above, the relation set ZjsubscriptZ_{j} at each timestep can be efficiently computed with little overheads. An empirical comparison with LSTM-based AST decoder on inference time is presented in Table7."
+        ],
+        "caption": "Table 7: Inference time comparison(seconds/per 100010001000 samples under the same configuration).",
+        "processed": false
+    }
+}
